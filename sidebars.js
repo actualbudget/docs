@@ -142,6 +142,7 @@ const sidebars = {
         'Budgeting/reconcile',
         'Budgeting/returnsandreimbursements',
         'Budgeting/creditcards',
+        'Budgeting/jointaccounts',
         //unavailable('Returns and Reimbursements'),
       ],
     },
