@@ -33,16 +33,6 @@ const sidebars = {
         'Installing/overview',
         {
           type: 'category',
-          label: 'On Your Own Machine',
-          link: {
-            type: 'generated-index',
-          },
-          items: [
-            'Installing/Local/your-own-machine',
-          ]
-        },
-        {
-          type: 'category',
           label: 'On Your Own Server',
           link: {
             type: 'generated-index',
