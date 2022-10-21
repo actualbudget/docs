@@ -98,6 +98,7 @@ const sidebars = {
       },
       collapsed: true,
       items: [
+        'Getting-Started/using-actual',
         'Getting-Started/tipstricks',
         'Getting-Started/sync',
         'Getting-Started/managefiles',
