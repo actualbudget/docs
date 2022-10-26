@@ -1,5 +1,5 @@
 ---
-title: 'Using Actual'
+title: 'Interface Overview'
 ---
 
 Now that you have Actual installed, you are going to be itching to get using it, this section of the documentation shows how to use the Actual application and what each part does.
@@ -30,6 +30,8 @@ You are able to select the current month by selecting it from the Month Selector
 
 ### Selected Month Overview
 
+This gives an overview of the current month from available funds, budgeted amount and more. 
+
 ![](/img/using-actual/budget-month-overview.png)
 
 ### Budget List
@@ -49,29 +51,3 @@ This is the category group heading, each collection of category's has a heading,
 The category headings are the headings for each individual item in the budget, if we take the examples above, these might be **Holiday** or **Car** you can find out how to add a category [here](/Budgeting/categories#add-a-category)
 
 ![](/img/using-actual/budget-category.png)
-
-### Sidebar
-
-The sidebar in Actual holds all of the links to navigate around the application, we will break them down below.
-
-![](/img/using-actual/budget-sidebar.png)
-
-### Account List
-
-The sidebar also holds all of your accounts both on and off budget, these will display in a list under the heading they belong E.G On Budget. You can find out how to add an account [here](/Accounts/addaccount#adding-a-new-account)
-
-![](/img/using-actual/budget-sidebar-accounts.png)
-
-## The Budget
-
-![](/img/using-actual/budget.png)
-
-## The Account Register
-
-![](/img/using-actual/budget-account-register.png)
-
-### Cleared/UnCleared Account Balance
-
-When viewing your account in Actual, it is possible to show the Cleared & Uncleared totals of that account, to do this, hover over the account balance and an expando icon will appear, click that and your cleared and uncleared balances will appear. 
-
-![](/img/cleared-uncleared-expand.png)
