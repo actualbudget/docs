@@ -10,7 +10,7 @@ To run:
 npx @actual-app/import-ynab5 <path-to-ynab5-file>
 ```
 
-Read below for how to get your YNAB5 file.
+***Read below for how to get your YNAB5 file.***
 
 <!-- Almost everything should be working now.
 
