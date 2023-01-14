@@ -59,7 +59,7 @@ title: 'Frequently Asked Questions'
   in a category.  Actual's default assumption is that you can pay off any card in full at any time and
   not touch your budget to do it. (Credit: evequefou)
 
-  **Q.** *I'm self-hosting ActualServer and am trying to create separate budgets.
+  **Q.** *I'm self-hosting ActualServer and have created several budgets.
   They keep getting merged! What's going on?*
 
   **A.** One cause of this issue is the browser ignoring the Cross-Origin-Opener-Policy (COOP) specified by ActualServer.  Browsers ignore COOP when the connection is not `localhost` or the connection is not secure (i.e. HTTP, without the S).  
