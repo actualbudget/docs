@@ -46,6 +46,7 @@ const sidebars = {
           },
           items: [
             'Installing/Docker',
+            'Installing/DockerWithNginx',
             'Installing/Unraid',
             {
               type: 'category',
@@ -58,8 +59,7 @@ const sidebars = {
                 'Installing/synology/synology-reverse-proxy',
                 'Installing/synology/synology-watchtower',
               ]
-            },
-            'Installing/DockerWithNginx'
+            }
           ]
         },
         {

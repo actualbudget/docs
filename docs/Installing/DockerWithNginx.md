@@ -4,7 +4,8 @@ title: Docker with NGINX
 
 ## Hosting Actual on a home server with Docker and NGINX
 
-Self-hosting ActualServer provides peace of mind and easy access to maintain your budgets.  The process outline below will give you ActualServer with HTTPS (secure) access.  This is accomplished through Docker Compose and NGINX configured as a Reverse Proxy.
+Self-hosting ActualServer provides peace of mind and easy access to maintain your budgets.  The process outline below creates an ActualServer with HTTPS (secure) access on port 9443.  This is accomplished through Docker Compose and NGINX configured as a Reverse Proxy.
+
 
 ## Prerequisites
 * Ubuntu Desktop or Server (v22.04 has been tested)
@@ -110,7 +111,7 @@ DNS.1   = 123.123.123.123
 ```
 
 A quick note on the file above:
-* The most important lines above are `commonName_default` and `DNS.1`.  When you nagivate to your ActualServer, your browser will use these names to verify your server matches the certificate.
+* The most important lines above are `commonName_default` and `DNS.1`.  When you navigate to your ActualServer, your browser will use these names to verify your server matches the certificate.
 
 
 #### `Dockerfile`
@@ -143,7 +144,7 @@ cd actual-server/reverse-proxy
 nano nginx.conf
 ```
 
-Past the following contents into `nginx.conf`
+Past the following contents into `nginx.conf` and update ***both*** paths below with `<your folder choice>`.
 ```
 #ssl on;  # deprecated, use ssl parameter on the listen directive
 ssl_session_cache  builtin:1000  shared:SSL:10m;
@@ -153,19 +154,19 @@ ssl_prefer_server_ciphers on;
 
 proxy_read_timeout 90;
 
-# Redirect from HTTP to HTTPS
-server {
-    listen 80;          # Listen for all traffic on port 80
-    server_name _;      # Matches any hostname
-    return 301 https://$host$request_uri;   # 301 tells browser this is a permanent redirect and specifies the HTTPS version of the original request on port 80
-}
+# # Redirect from HTTP to HTTPS
+# server {
+#     listen 80;          # Listen for all traffic on port 80
+#     server_name _;      # Matches any hostname
+#     return 301 https://$host:9443$request_uri;   # 301 tells browser this is a permanent redirect and specifies the HTTPS version of the original request on port 80
+# }
 
 server {
-    listen 443 ssl;
+    listen 9443 ssl;
     # server_name actualserver.internal.mydomain.com;
 
-    ssl_certificate         /etc/nginx/certs/selfhost.crt;
-    ssl_certificate_key     /etc/nginx/certs/selfhost.key;
+    ssl_certificate         /<your folder choice>/actual-server/.certs/selfhost.crt;
+    ssl_certificate_key     /<your folder choice>/actual-server/.certs/selfhost.key;
 
     location / {
         proxy_pass http://actualserver:5006/;
@@ -178,8 +179,9 @@ server {
 ```
 
 A couple notes on the file above:
-* This Reverse Proxy is setup to serve ActualServer as the only webserver running on your machine.  NGINX will use both port 80 and 443.
+* This Reverse Proxy is setup to serve ActualServer on port 9443.  Feel free to change this port. *Make sure* to also update the `ports` section of the `nginx` in `docker-compose.yaml` below.
 * It is possible to run multiple Reverse Proxies with the same NGINX instance.  The commented line `# server_name actualserver.internal.mydomain.com` is intended to provide a starting point if you'd like to pursue this.  Recommend looking up examples on how to use `server_name` with NGINX.
+* The `Redirect from HTTP to HTTPS` section is provided as a starting point if you'd like to enable NGINX to automatically redirect browsers to SSL on port 9443.  If you enable this section, also un-comment line `80:80` in `docker-compose.yaml` below.
 
 
 #### `docker-compose.yaml`
@@ -211,8 +213,8 @@ services:
     build: ./reverse-proxy
     restart: always
     ports:
-      - 80:80
-      - 443:443
+      # - 80:80
+      - 9443:9443
     volumes:
       - /<your folder choice>/actual-server/.certs:/etc/nginx/certs:ro
     networks:
@@ -236,6 +238,8 @@ In this section, we'll create self-signed certificate for NGINX to use to encryp
 
 ### Generate Certs
 
+Run the following command to generate certs, press `ENTER` at each prompt without changing the content.
+
 ```bash
 cd actual-server/.certs
 openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout selfhost.key -out selfhost.crt -config openssl.conf
@@ -243,7 +247,7 @@ openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout selfhost.key -out se
 
 ### Re-generate Certs
 
-To re-generate the certificates (change your machines IP address or URL), perform the following steps
+To re-generate the certificates (change your machines IP address or URL), delete the key and certificate, and then generate certs.
 
 ```bash
 cd actual-server/.certs
@@ -263,7 +267,7 @@ cd actual-server/
 sudo docker compose up -d
 ```
 
-**Note:** Ommit `-d` to leave the console connected to the containers.  This enables status and error messages to show.  When done viewing the status and error messages, press `CTRL+C` to stop the containers, then run `sudo docker compose up -d`.
+**Note:** Omit `-d` to leave the console connected to the containers.  This enables status and error messages to show.  When done viewing the status and error messages, press `CTRL+C` to stop the containers, then run `sudo docker compose up -d`.
 
 ### Stop Server
 
@@ -356,7 +360,80 @@ sudo docker compose pull
 sudo docker compose up -d
 ```
 
+## Browse to ActualServer
+
+Your ActualServer is now usable by any device on your local network.  
+
+Access your server with the URL below (replace `123.123.123.123` with the IP address or URL you configured):
+```
+https://123.123.123.123:9443
+```
+
+## Debugging Issues
+
+Here are a couple issues and solutions when setting up ActualServer with NGINX Reverse Proxy
+
+### I've started the server, what do I look for?
+
+Launch the server with `sudo docker compose up` (omit `-d` so the logs are shown).  Look for any errors.
+
+The following a "good" outputs:
+```
+actual-server-nginx-1          | 2023/01/14 15:34:11 [notice] 1#1: start worker processes
+actual-server-nginx-1          | 2023/01/14 15:34:11 [notice] 1#1: start worker process 20
+actual-server-nginx-1          | 2023/01/14 15:34:11 [notice] 1#1: start worker process 21
+actual-server-nginx-1          | 2023/01/14 15:34:11 [notice] 1#1: start worker process 22
+actual-server-nginx-1          | 2023/01/14 15:34:11 [notice] 1#1: start worker process 23
+actual-server-actual-server-1  | Listening on 0.0.0.0:5006...
+```
+
+As browsers access ActualServer NGINX will log them in the console.  
+
+Outputs to the console like `exited with code 1` and others indicate something is wrong with the configuration and files.
+
+### Troubleshooting network access
+
+Recommend launching the server with `sudo docker compose up` (omit `-d`).
+
+Use the `curl` command to see if NGINX is reachable (use HTTP, it will case NGINX to return the error in plain-text):
+```
+curl http://123.123.123.123:9443
+```
+
+You should get a response similar to this:
+```
+<html>
+<head><title>400 The plain HTTP request was sent to HTTPS port</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<center>The plain HTTP request was sent to HTTPS port</center>
+<hr><center>nginx/1.23.3</center>
+</body>
+</html>
+```
+
+Also check the console running the server.  You should see an access attempt recorded by NGINX.  
+```
+actual-server-nginx-1          | 2023/01/14 15:34:11 [notice] 1#1: start worker process 22
+actual-server-nginx-1          | 2023/01/14 15:34:11 [notice] 1#1: start worker process 23
+actual-server-actual-server-1  | Listening on 0.0.0.0:5006...
+actual-server-nginx-1          | 123.123.123.123 - - [14/Jan/2023:15:34:33 +0000] "GET / HTTP/1.1" 400 255 "-" "curl/7.81.0" "-"
+```
+
+If you've made it to this point, the server is confirmed to be up and running and properly configured.  
+
+A couple thoughts:
+* The IP address chosen in section **IP Address or URL of your machine** may not be accessible by other devices on your network.  Recommend using `ping` between machines to verify the correct IP address and then update the server configuration.
+* There may be an issue with your machine's firewall (unlikely, Docker controls the firewall on your machine).
+* There may be an issue with your local network setup. 
+
+
+### NGINX continuously shows `exited with code 1`
+
+Double check the file paths to the certificates.  Verify they're correct in **both** `docker-compose.yaml` and `nginx.conf`
+
 
 ## References
 
 * https://www.humankode.com/ssl/create-a-selfsigned-certificate-for-nginx-in-5-minutes/
+* https://serverfault.com/questions/828130/how-to-run-nginx-ssl-on-non-standard-port#828135
