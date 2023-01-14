@@ -59,7 +59,7 @@ const sidebars = {
                 'Installing/synology/synology-reverse-proxy',
                 'Installing/synology/synology-watchtower',
               ]
-            }
+            },
           ]
         },
         {
