@@ -59,6 +59,7 @@ const sidebars = {
                 'Installing/synology/synology-watchtower',
               ]
             },
+            'Installing/DockerWithNginx'
           ]
         },
         {
