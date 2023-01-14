@@ -29,9 +29,9 @@ Follow the steps on Docker's Official page to [Install Docker Engine on Ubuntu](
 
 ### IP Address or URL of your machine
 
-The self-signed certificate uses your machine's IP address or URL to enable your browser to validate you've connected to the correct computer.  
+Your machine's IP address or URL is used to generate the self-signed certificates.  Your browser uses these certificates to validate you've connected to the correct server.
 
-If you run an internal DNS server and access your computer through a URL (like `ssh myname@myhost.internal.mydomain.com`), you may want to use the URL to your machine.  If not, or you're unsure, start with you machine's IP address.
+If you run an internal DNS server and access your machine through a URL (like `ssh myname@myhost.internal.mydomain.com`), you may want to use the URL to your machine.  If not, or you're unsure, start with you machine's IP address.
 
 The command below will show IP addresses for all network interfaces for your machine. Pick the one associated with the network you will use to access ActualServer.
 
@@ -59,11 +59,11 @@ mkdir -p actual-server/data
 Here's how these folders will be used:
 * `.certs` will store the self-signed private key and public certificate for the NGINX Reverse Proxy.
 * `reverse-proxy` will contain the `Dockerfile` and `nginx.conf` files used to pull the latest NGINX image and customize NGINX to run as a Reverse Proxy.
-* `data` contains the server-side storage location for your synced Actual Budgets.  This folder can be manually backed up.  It persists outside of Docker containers (i.e. it won't be deleted when you stop or remove your containers).
+* `data` contains the server-side storage location for your synced Actual Budgets.  This folder can be manually backed up.  It persists outside of the Docker container (i.e. it won't be deleted when you stop or remove the container).
 
 ### Create Files
 
-Next, let's create the four files needed to configure Docker Compose, NGINX, and prepare for self-sign certificate generation.
+Let's create the four files needed to configure Docker Compose, NGINX, and prepare for self-sign certificate generation.
 
 * `openssl.conf` assists with OpenSSL self-signed certificate generation
 * `Dockerfile` and `nginx.conf` configure NGINX to run as a Reverse Proxy
@@ -78,7 +78,7 @@ cd actual-server/.certs
 nano openssl.conf
 ```
 
-Past the following contents into `openssl.conf` and replace `123.123.123.123` with your machine's IP address or URL.  Be sure to replace ***both*** lines below.
+Past the following contents into `openssl.conf` and replace `123.123.123.123` with your machine's IP address or URL.  Be sure to update ***both*** lines below.
 ```
 [req]
 default_bits       = 2048
@@ -111,7 +111,7 @@ DNS.1   = 123.123.123.123
 ```
 
 A quick note on the file above:
-* The most important lines above are `commonName_default` and `DNS.1`.  When you navigate to your ActualServer, your browser will use these names to verify your server matches the certificate.
+* The most important lines above are `commonName_default` and `DNS.1`.  These specify the name of the machine running ActualServer.  When your browser trusts these certificates AND the name of the machine matches the certificates, your browser will show the "secure" or "green" icon for HTTPS.
 
 
 #### `Dockerfile`
@@ -209,7 +209,6 @@ services:
           - actualserver
 
   nginx:
-    # image: 'nginx:1.23.0'
     build: ./reverse-proxy
     restart: always
     ports:
@@ -226,10 +225,10 @@ networks:
 
 A couple notes on the container and network setup:
 * Two images are spun-up.  One is the NGINX Reverse Proxy which uses the `reverse-proxy/Dockerfile` to build the image.  The other is ActualServer.
-* NGINX and ActualServer are networked together by the `frontend` network which is *not publicly accessible.*
+* NGINX and ActualServer are networked together by the `frontend` network which is not publicly accessible.
 * Port `5006` for ActualServer is commented out.  This provides HTTP (non-encrypted) access.  Recommend enabling this only for debugging issues.
 * ActualServer is given the alias `actualserver` on the `frontend` network. This sets the DNS name for ActualServer on the `frontend` network.  Why do this?  It enables NGINX's configuration to be more human-readable.  See this line: `proxy_pass http://actualserver:5006/`
-* Ports `80` and `443` are made public for the NGINX image.  This enables you to hit the Reverse Proxy which forwards your requests to ActualServer.
+* Port `9443` is made public for the NGINX image.  This enables you to hit the Reverse Proxy which forwards your requests to ActualServer.
 
 
 ## Certificates
@@ -267,7 +266,7 @@ cd actual-server/
 sudo docker compose up -d
 ```
 
-**Note:** Omit `-d` to leave the console connected to the containers.  This enables status and error messages to show.  When done viewing the status and error messages, press `CTRL+C` to stop the containers, then run `sudo docker compose up -d`.
+**Note:** Omit `-d` to leave the console connected to the containers.  This enables status and error messages to show.  When done viewing the status and error messages, press `CTRL+C` to stop the containers, then start the server with `-d`.
 
 ### Stop Server
 
@@ -276,7 +275,7 @@ cd actual-server/
 sudo docker compose down
 ```
 
-**Note:** Your budgets are saved outside the Docker containers in the `actual-server/data` folder on your host.  They will not be deleted when you bring the server down.
+**Note:** Your budgets are saved outside the Docker containers in folder `actual-server/data`  on your machine.  They will not be deleted when you bring the server down.
 
 ### Configuration File Change
 
@@ -285,6 +284,13 @@ When `Dockerfile` or `nginx.conf` files are modified, run `build` to create new 
 ```bash
 cd actual-server/
 sudo docker compose build
+sudo docker compose up -d
+```
+
+When the certificates or `docker-compose.yaml` files are modified, stop and then start the server.
+```bash
+cd actual-server/
+sudo docker compose down
 sudo docker compose up -d
 ```
 
@@ -327,7 +333,7 @@ cd actual-server/
 sudo docker compose down
 ```
 
-Delete the `data` folder
+Delete the server's `data` folder
 ```bash
 cd actual-server/
 rm -rf data
@@ -377,7 +383,7 @@ Here are a couple issues and solutions when setting up ActualServer with NGINX R
 
 Launch the server with `sudo docker compose up` (omit `-d` so the logs are shown).  Look for any errors.
 
-The following a "good" outputs:
+The following are "good" outputs:
 ```
 actual-server-nginx-1          | 2023/01/14 15:34:11 [notice] 1#1: start worker processes
 actual-server-nginx-1          | 2023/01/14 15:34:11 [notice] 1#1: start worker process 20
@@ -387,15 +393,15 @@ actual-server-nginx-1          | 2023/01/14 15:34:11 [notice] 1#1: start worker 
 actual-server-actual-server-1  | Listening on 0.0.0.0:5006...
 ```
 
-As browsers access ActualServer NGINX will log them in the console.  
+As browsers access ActualServer, NGINX will log the requests to the console.  
 
-Outputs to the console like `exited with code 1` and others indicate something is wrong with the configuration and files.
+Outputs to the console like `exited with code 1` and others may indicate something is wrong with the configuration or files.
 
 ### Troubleshooting network access
 
 Recommend launching the server with `sudo docker compose up` (omit `-d`).
 
-Use the `curl` command to see if NGINX is reachable (use HTTP, it will case NGINX to return the error in plain-text):
+Use the `curl` command to see if NGINX is reachable (use HTTP, it will cause NGINX to return the error in plain-text):
 ```
 curl http://123.123.123.123:9443
 ```
@@ -412,7 +418,7 @@ You should get a response similar to this:
 </html>
 ```
 
-Also check the console running the server.  You should see an access attempt recorded by NGINX.  
+Also check the console running the server.  You should see an access attempt recorded by NGINX (look at the last line).  
 ```
 actual-server-nginx-1          | 2023/01/14 15:34:11 [notice] 1#1: start worker process 22
 actual-server-nginx-1          | 2023/01/14 15:34:11 [notice] 1#1: start worker process 23
@@ -420,17 +426,24 @@ actual-server-actual-server-1  | Listening on 0.0.0.0:5006...
 actual-server-nginx-1          | 123.123.123.123 - - [14/Jan/2023:15:34:33 +0000] "GET / HTTP/1.1" 400 255 "-" "curl/7.81.0" "-"
 ```
 
-If you've made it to this point, the server is confirmed to be up and running and properly configured.  
+If you've made it to this point, the server is running and properly configured.  
 
 A couple thoughts:
 * The IP address chosen in section **IP Address or URL of your machine** may not be accessible by other devices on your network.  Recommend using `ping` between machines to verify the correct IP address and then update the server configuration.
-* There may be an issue with your machine's firewall (unlikely, Docker controls the firewall on your machine).
-* There may be an issue with your local network setup. 
+* There may be an issue with your machine's firewall (unlikely, Docker controls the firewall).
+* There may be an issue with your home network setup.
 
 
 ### NGINX continuously shows `exited with code 1`
 
-Double check the file paths to the certificates.  Verify they're correct in **both** `docker-compose.yaml` and `nginx.conf`
+If you start ActualServer and see NGINX scrolling the error below
+```
+actual-server-nginx-1 exited with code 1
+actual-server-nginx-1 exited with code 1
+actual-server-nginx-1 exited with code 1
+````
+
+you may have a configuration file issue.  Recommend double checking the paths to the certificates.  Verify they're correct in **both** `docker-compose.yaml` and `nginx.conf`
 
 
 ## References
