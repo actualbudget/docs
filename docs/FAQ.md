@@ -58,16 +58,3 @@ title: 'Frequently Asked Questions'
   In that case, you need to keep some negative dollars from touching positive dollars by sticking them
   in a category.  Actual's default assumption is that you can pay off any card in full at any time and
   not touch your budget to do it. (Credit: evequefou)
-
-  **Q.** *I'm self-hosting ActualServer and have created several budgets.
-  They keep getting merged! What's going on?*
-
-  **A.** One cause of this issue is the browser ignoring the Cross-Origin-Opener-Policy (COOP) specified by ActualServer.  Browsers ignore COOP when the connection is not `localhost` or the connection is not secure (i.e. HTTP, without the S).  
-
-  One way around this is using `localhost` to access ActualServer.  The downside here is `localhost` is available only on the machine itself (i.e. a smartphone can't access `localhost` of your ActualServer).
-
-  Another solution is to host ActualServer with a Reverse Proxy providing HTTPS access.  See [Docker with NGINX](/Installing/DockerWithNginx) for a full example on how to accomplish this.
-
-  The "merged budgets" issue has been encountered by a couple Actual users.  Here are links to their tickets: [actualbudget/actual-server#15](https://github.com/actualbudget/actual-server/issues/15) and [actualbudget/actual#436](https://github.com/actualbudget/actual/issues/436).
-
-  For a more technical answer, see this post [jlongster/absurd-sql#14 (comment)](https://github.com/jlongster/absurd-sql/issues/14#issuecomment-902116794).
