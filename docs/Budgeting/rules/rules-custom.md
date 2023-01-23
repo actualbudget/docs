@@ -10,7 +10,7 @@ This page has examples of custom rules that some of our users have found useful 
 
 ![](/img/custom-rules-1.png)
 
-**Q:  I have accounts that a can be considered to clear at the moment of purchase.  How can I automatically clear accounts like Cash or Venmo?**
+**Q:  I have accounts (like cash or Venmo) that instantly “clear” at the moment of purchase. How can I automate toggling the relevant checkbox on?**
 
 **A:**  Set a **Post** rule to to check for your account where instant transactions can be made and set the action to "cleared" and tick the checkbox.  Cash or Venmo are typical examples of this type of account.  Any time a transaction is added to the accounts listed in this rule will automatically get a cleared state from now on.
 
