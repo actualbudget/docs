@@ -221,6 +221,16 @@ const sidebars = {
             'Developers/ActualQL/Examples',
           ],
         },
+        {
+          type: 'category',
+          label: 'Experimental features',
+          collapsed: true,
+          items: [
+            'Developers/Experimental-Features/goal-templates',
+            unavailable('Report Budget'),
+            unavailable('Account syncing')
+          ],
+        },
       ],
     },
     'FAQ',
