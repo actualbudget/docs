@@ -5,10 +5,11 @@ const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
-const config = {
+module.exports = {
+
   title: 'Actual Budget Documentation',
   tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://actualbudget.github.io',
   baseUrl: '/docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -38,7 +39,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/actualbudget/docs/tree/main/',
+            'https://github.com/actualbudget/docs/tree/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -46,7 +47,6 @@ const config = {
       }),
     ],
   ],
-
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -98,7 +98,32 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
-    }),
-};
+    }
+    ),
+    plugins: [
+      [
+        require.resolve("@cmfcmf/docusaurus-search-local"),
+        {
+          indexDocs: true,
+          indexDocSidebarParentCategories: 0,
+          indexPages: false,
+          language: "en",
+          style: undefined,
+          maxSearchResults: 8,
+          lunr: {
 
-module.exports = config;
+          tokenizerSeparator: /[\s\-]+/,
+
+          b: 0.75,
+
+          k1: 1.2,
+
+          titleBoost: 5,
+          contentBoost: 1,
+          tagsBoost: 3,
+          parentCategoriesBoost: 2, // Only used when indexDocSidebarParentCategories > 0
+        },
+        },
+      ],
+    ],
+};

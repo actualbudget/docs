@@ -16,7 +16,7 @@ We support all Operating systems including Windows, OSX or Linux.
 
 Install [Git](https://git-scm.com/) for your operating system,
 
-Install [NodeJS](https://nodejs.org/en/) version 14 or greater,
+Install [NodeJS](https://nodejs.org/en/) version 14 or greater (version 19 is currently not supported),
 
 You will need access to the internet.
 
@@ -25,10 +25,4 @@ Install [Yarn](https://yarnpkg.com/) using NPM, if you only just installed NodeJ
 ```js
 npm install --global yarn
 ```
-
-### Currently Not Supported 
-
-The following is currently not supported by Actual.
-
-* [Nomad](https://www.nomadproject.io/)
 

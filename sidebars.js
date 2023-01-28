@@ -46,6 +46,7 @@ const sidebars = {
           },
           items: [
             'Installing/Docker',
+            'Installing/DockerWithNginx',
             'Installing/Unraid',
             {
               type: 'category',
@@ -116,14 +117,21 @@ const sidebars = {
         'Getting-Started/managefiles',
         {
           type: 'category',
-          label: 'Migrating From Other Apps',
+          label: 'Migration',
           link: {
             type: 'doc',
             id: 'Getting-Started/migration/migration-intro',
           },
           items: [
-            'Getting-Started/migration/ynab4',
-            unavailable('nYNAB'),
+            {
+              type: 'category',
+              label: 'Migrating From Other Apps',
+              items: [
+                'Getting-Started/migration/ynab4',
+                'Getting-Started/migration/nynab'
+              ]
+            },
+            'Getting-Started/migration/simple-sync',
           ]
         },
       ],
@@ -134,6 +142,7 @@ const sidebars = {
       collapsed: true,
       items: [
         'Budgeting/howitworks',
+        'Budgeting/filters',
         'Budgeting/categories',
         {
           type: 'category',
@@ -148,7 +157,6 @@ const sidebars = {
           ],
         },
         'Budgeting/schedules',
-        'Budgeting/reconcile',
         'Budgeting/returnsandreimbursements',
         'Budgeting/creditcards',
         'Budgeting/jointaccounts',
@@ -162,7 +170,16 @@ const sidebars = {
       items: [
         'Accounts/overview',
         'Accounts/addaccount',
-        'Accounts/importing-trans',
+        'Accounts/reconcile',
+        {
+          type: 'category',
+          label: 'Transactions',
+          collapsed: true,
+          items: [
+            'Accounts/Transactions/importing-trans',
+            'Accounts/Transactions/bulk-editing-transactions',
+          ],
+        },
         unavailable('Connecting Your Bank'),
         'Accounts/payees',
         'Accounts/transfers',
@@ -197,12 +214,27 @@ const sidebars = {
       },
       collapsed: true,
       items: [
+        {
+          type: 'link',
+          label: 'Issue Board',
+          href: 'https://github.com/orgs/actualbudget/projects/1',
+        },
         'Developers/project-layout',
+        'Developers/preview-builds',
         'Developers/releasing',
+        'Developers/Building-Windows',
         'Developers/using-the-API',
         'Developers/API',
-        'Developers/ActualQL',
-        'Developers/Building-Windows',
+        {
+          type: 'category',
+          label: 'ActualQL',
+          collapsed: true,
+          items: [
+            'Developers/ActualQL/Overview',
+            'Developers/ActualQL/Functions',
+            'Developers/ActualQL/Examples',
+          ],
+        },
       ],
     },
     'FAQ',
@@ -215,6 +247,33 @@ const sidebars = {
       collapsed: true,
       items: [
         'Troubleshooting/Troubleshooting-Edge',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Release Notes',
+      collapsed: true,
+      items: [
+        'Release-Notes/Release-Notes'
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Advanced',
+      collapsed: true,
+      link: {
+        type: 'doc',
+        id: 'Advanced/advanced-intro',
+      },
+      items: [
+        {
+          type: 'category',
+          label: 'Scripts',
+          collapsed: true,
+          items: [
+            'Advanced/Scripts/modify-transfers',
+          ],
+        },
       ],
     },
   ],
