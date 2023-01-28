@@ -3,6 +3,21 @@ title: Releases Notes
 ---
 
 ## 23.1.12
+**Docker tag: 23.2.xx**
+
+The release has notable of improvements of:
+
+### Actual 
+Version: 23.2.xx
+    
+#### Features
+
+### Actual Server 
+Version: 23.2.xx
+
+No pull requests were merged in this release.
+
+## 23.1.12
 **Docker tag: 23.1.12**
 
 The release has notable of improvements of:
