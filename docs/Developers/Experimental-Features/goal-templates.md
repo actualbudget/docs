@@ -58,3 +58,13 @@ For examples:
 
     #template $10 repeat every 2 weeks starting 2022-01-04
     #template $100
+
+## Apply the templates
+
+To apply the goal templates you create, enable the feature in the Settings experimental section.  When the feature is on, two new options will appear in the monthly budget actions list.
+
+![](/img/goal-template-2.png)
+
+**Apply budget template** will only fill empty cells using the templates.
+
+**Overwrite with budget template** will fill in all budget cells using the templates.
