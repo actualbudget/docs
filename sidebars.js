@@ -239,10 +239,6 @@ const sidebars = {
           type: 'category',
           label: 'Experimental features',
           collapsed: true,
-          link: {
-            type: 'doc',
-            id: 'Developers/Experimental-Features/experimental',
-          },
           items: [
             'Developers/Experimental-Features/goal-templates',
             unavailable('Report Budget'),
