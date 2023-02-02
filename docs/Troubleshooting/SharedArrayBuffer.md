@@ -17,3 +17,7 @@ If you’re running a local server and accessing it through a domain name, you�
 ## HTTP Headers
 
 In addition to the HTTPS requirement, the `Cross-Origin-Embedder-Policy` and `Cross-Origin-Opener-Policy` headers must be set to `require-corp` and `same-origin` respectively. If you’re using the default `actual-server` package as your server, you don’t have to worry about this (the headers will always be enabled). If you’re using a different server, you’ll need to make sure these headers are set.
+
+## Supported Browser
+
+The browser you use to access the server must also support `SharedArrayBuffer`. Recent versions of Chrome, Firefox, Safari, and Edge all support this feature. Check out the website [“Can I Use?”](https://caniuse.com/sharedarraybuffer) for a detailed breakdown of which browser versions support the feature.
