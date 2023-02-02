@@ -90,7 +90,7 @@ const sidebars = {
         },
         {
           type: 'category',
-          label: 'Using Actual',
+          label: 'A Tour of Actual',
           items: [
             'Getting-Started/using-actual/files',
             'Getting-Started/using-actual/overview',
