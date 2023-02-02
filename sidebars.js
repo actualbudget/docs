@@ -16,8 +16,8 @@ const unavailable = (title) => ({
   type: 'html',
   value: title,
   className: 'menu__link menu__link--unavailable',
-  defaultStyle: true
-})
+  defaultStyle: true,
+});
 
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
@@ -34,9 +34,7 @@ const sidebars = {
         {
           type: 'category',
           label: 'On Your Own Machine',
-          items: [
-            'Installing/Local/your-own-machine',
-          ]
+          items: ['Installing/Local/your-own-machine'],
         },
         {
           type: 'category',
@@ -58,9 +56,9 @@ const sidebars = {
               items: [
                 'Installing/synology/synology-reverse-proxy',
                 'Installing/synology/synology-watchtower',
-              ]
+              ],
             },
-          ]
+          ],
         },
         {
           type: 'category',
@@ -87,7 +85,7 @@ const sidebars = {
             },
             'Installing/Pikapods',
             'Installing/Terraform',
-          ]
+          ],
         },
       ],
     },
@@ -110,7 +108,7 @@ const sidebars = {
             'Getting-Started/using-actual/budget',
             'Getting-Started/using-actual/schedules',
             'Getting-Started/using-actual/settings',
-          ]
+          ],
         },
         'Getting-Started/tipstricks',
         'Getting-Started/sync',
@@ -128,11 +126,11 @@ const sidebars = {
               label: 'Migrating From Other Apps',
               items: [
                 'Getting-Started/migration/ynab4',
-                'Getting-Started/migration/nynab'
-              ]
+                'Getting-Started/migration/nynab',
+              ],
             },
             'Getting-Started/migration/simple-sync',
-          ]
+          ],
         },
       ],
     },
@@ -152,9 +150,7 @@ const sidebars = {
             type: 'doc',
             id: 'Budgeting/rules/rules',
           },
-          items: [
-            'Budgeting/rules/rules-custom',
-          ],
+          items: ['Budgeting/rules/rules-custom'],
         },
         'Budgeting/schedules',
         'Budgeting/returnsandreimbursements',
@@ -189,10 +185,7 @@ const sidebars = {
       type: 'category',
       label: 'Reports',
       collapsed: true,
-      items: [
-        'Reports/overview',
-        unavailable('Custom Reports'),
-      ],
+      items: ['Reports/overview', unavailable('Custom Reports')],
     },
     {
       type: 'category',
@@ -201,10 +194,7 @@ const sidebars = {
         type: 'generated-index',
       },
       collapsed: true,
-      items: [
-        'Backup-Restore/Backups',
-        'Backup-Restore/Restore',
-      ],
+      items: ['Backup-Restore/Backups', 'Backup-Restore/Restore'],
     },
     {
       type: 'category',
@@ -245,17 +235,13 @@ const sidebars = {
         type: 'generated-index',
       },
       collapsed: true,
-      items: [
-        'Troubleshooting/Troubleshooting-Edge',
-      ],
+      items: ['Troubleshooting/Troubleshooting-Edge'],
     },
     {
       type: 'category',
       label: 'Release Notes',
       collapsed: true,
-      items: [
-        'Release-Notes/Release-Notes'
-      ],
+      items: ['Release-Notes/Release-Notes'],
     },
     {
       type: 'category',
@@ -270,9 +256,7 @@ const sidebars = {
           type: 'category',
           label: 'Scripts',
           collapsed: true,
-          items: [
-            'Advanced/Scripts/modify-transfers',
-          ],
+          items: ['Advanced/Scripts/modify-transfers'],
         },
       ],
     },
