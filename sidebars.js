@@ -129,8 +129,11 @@ const sidebars = {
       type: 'category',
       label: 'Budgeting',
       collapsed: true,
+      link: {
+        type: 'doc',
+        id: 'Budgeting/howitworks',
+      },
       items: [
-        'Budgeting/howitworks',
         'Budgeting/filters',
         'Budgeting/categories',
         {
