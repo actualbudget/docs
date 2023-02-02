@@ -25,69 +25,69 @@ const sidebars = {
     'index',
     {
       type: 'category',
-      label: 'Installing Actual',
-      link: {
-        type: 'doc',
-        id: 'Installing/overview',
-      },
-      items: [
-        {
-          type: 'category',
-          label: 'On Your Own Machine',
-          items: ['Installing/Local/your-own-machine'],
-        },
-        {
-          type: 'category',
-          label: 'On Your Own Server',
-          items: [
-            'Installing/Docker',
-            'Installing/DockerWithNginx',
-            'Installing/Unraid',
-            {
-              type: 'category',
-              label: 'Synology',
-              link: {
-                type: 'doc',
-                id: 'Installing/synology/synology',
-              },
-              items: [
-                'Installing/synology/synology-reverse-proxy',
-                'Installing/synology/synology-watchtower',
-              ],
-            },
-          ],
-        },
-        {
-          type: 'category',
-          label: 'In the Cloud',
-          items: [
-            {
-              type: 'category',
-              label: 'Fly.io',
-              link: {
-                type: 'doc',
-                id: 'Installing/fly/Fly.io',
-              },
-              items: [
-                'Installing/fly/Fly-prerequisites',
-                'Installing/fly/Fly-git',
-                'Installing/fly/Fly-image',
-                'Installing/fly/Fly-terraform',
-                'Installing/fly/Fly-updating',
-                'Installing/fly/Fly-persisting',
-              ],
-            },
-            'Installing/Pikapods',
-            'Installing/Terraform',
-          ],
-        },
-      ],
-    },
-    {
-      type: 'category',
       label: 'Getting Started',
       collapsed: true,
       items: [
+        {
+          type: 'category',
+          label: 'Installing',
+          link: {
+            type: 'doc',
+            id: 'Installing/overview',
+          },
+          items: [
+            {
+              type: 'category',
+              label: 'On Your Own Machine',
+              items: ['Installing/Local/your-own-machine'],
+            },
+            {
+              type: 'category',
+              label: 'On Your Own Server',
+              items: [
+                'Installing/Docker',
+                'Installing/DockerWithNginx',
+                'Installing/Unraid',
+                {
+                  type: 'category',
+                  label: 'Synology',
+                  link: {
+                    type: 'doc',
+                    id: 'Installing/synology/synology',
+                  },
+                  items: [
+                    'Installing/synology/synology-reverse-proxy',
+                    'Installing/synology/synology-watchtower',
+                  ],
+                },
+              ],
+            },
+            {
+              type: 'category',
+              label: 'In the Cloud',
+              items: [
+                {
+                  type: 'category',
+                  label: 'Fly.io',
+                  link: {
+                    type: 'doc',
+                    id: 'Installing/fly/Fly.io',
+                  },
+                  items: [
+                    'Installing/fly/Fly-prerequisites',
+                    'Installing/fly/Fly-git',
+                    'Installing/fly/Fly-image',
+                    'Installing/fly/Fly-terraform',
+                    'Installing/fly/Fly-updating',
+                    'Installing/fly/Fly-persisting',
+                  ],
+                },
+                'Installing/Pikapods',
+                'Installing/Terraform',
+              ],
+            },
+          ],
+        },
         {
           type: 'category',
           label: 'Using Actual',
