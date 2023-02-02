@@ -26,7 +26,7 @@ const sidebars = {
     {
       type: 'category',
       label: 'Getting Started',
-      collapsed: true,
+      collapsed: false,
       items: [
         {
           type: 'category',
