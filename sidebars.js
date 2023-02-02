@@ -27,10 +27,10 @@ const sidebars = {
       type: 'category',
       label: 'Installing Actual',
       link: {
-        type: 'generated-index',
+        type: 'doc',
+        id: 'Installing/overview',
       },
       items: [
-        'Installing/overview',
         {
           type: 'category',
           label: 'On Your Own Machine',
@@ -39,9 +39,6 @@ const sidebars = {
         {
           type: 'category',
           label: 'On Your Own Server',
-          link: {
-            type: 'generated-index',
-          },
           items: [
             'Installing/Docker',
             'Installing/DockerWithNginx',
@@ -63,9 +60,6 @@ const sidebars = {
         {
           type: 'category',
           label: 'In the Cloud',
-          link: {
-            type: 'generated-index',
-          },
           items: [
             {
               type: 'category',
@@ -92,9 +86,6 @@ const sidebars = {
     {
       type: 'category',
       label: 'Getting Started',
-      link: {
-        type: 'generated-index',
-      },
       collapsed: true,
       items: [
         {
@@ -190,18 +181,12 @@ const sidebars = {
     {
       type: 'category',
       label: 'Backup & Restore',
-      link: {
-        type: 'generated-index',
-      },
       collapsed: true,
       items: ['Backup-Restore/Backups', 'Backup-Restore/Restore'],
     },
     {
       type: 'category',
       label: 'Developers',
-      link: {
-        type: 'generated-index',
-      },
       collapsed: true,
       items: [
         {
@@ -219,8 +204,11 @@ const sidebars = {
           type: 'category',
           label: 'ActualQL',
           collapsed: true,
+          link: {
+            type: 'doc',
+            id: 'Developers/ActualQL/Overview',
+          },
           items: [
-            'Developers/ActualQL/Overview',
             'Developers/ActualQL/Functions',
             'Developers/ActualQL/Examples',
           ],
@@ -231,18 +219,10 @@ const sidebars = {
     {
       type: 'category',
       label: 'Troubleshooting',
-      link: {
-        type: 'generated-index',
-      },
       collapsed: true,
       items: ['Troubleshooting/Troubleshooting-Edge'],
     },
-    {
-      type: 'category',
-      label: 'Release Notes',
-      collapsed: true,
-      items: ['Release-Notes/Release-Notes'],
-    },
+    'Release-Notes',
     {
       type: 'category',
       label: 'Advanced',

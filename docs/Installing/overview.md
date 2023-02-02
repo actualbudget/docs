@@ -1,5 +1,5 @@
 ---
-title: 'Overview'
+title: 'Installing Actual'
 ---
 
 Installing Actual be it on your own personal computer or in the cloud is really simple, we have a selection of guides available that will help you get setup, but first, there are some things your going to need and also some things we need to tell you that we currently don't support.
