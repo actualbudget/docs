@@ -67,7 +67,7 @@ After resetting, all other devices are now out-of-date. What happens when you tr
 
 When Actual detects a problem during syncing, you will see a notification with details and actions to solve the problem. Below are all the notifications you might see, with some greater detail about them.
 
-**You will rarely see these messages**, and if you do Actual will guide you through how to fix the problem. If you are still having problems, [open an issue](https://github.com/actualbudget/actual/issues) or join the [Discord](https://discord.gg/8JfAXSgfRf).
+**You will rarely see these messages**, and if you do Actual will guide you through how to fix the problem. If you are still having problems, please [reach out to us](/Contact)
 
 ### This file is not a cloud file
 
