@@ -6,9 +6,9 @@ Actual is a different kind of app. Instead of storing all of your data on the in
 
 We don't want to throw away the internet though. It's too useful. When your data is stored in the cloud, you can access it from any device easily, and you never have to worry about losing your data in case you drop your laptop or phone into a lake.
 
-That's why we automatically sync all of your data to the cloud in the background. You get the best of both worlds: all data is local by default, but if internet is available, your data is seamlessly backed up and synced to all other devices. This is the opposite of most apps which heavily rely on the internet to be available.
+That's why we automatically sync all of your data to your selected server in the background. You get the best of both worlds: all data is local by default, but if internet is available, your data is seamlessly backed up and synced to all other devices. This is the opposite of most apps which heavily rely on the internet to be available.
 
-For the super privacy-focused, it even allows for your data to be [end-to-end encrypted](#End-to-end encryption) since all your server is doing is passing around changes.
+For the super privacy-focused, it even allows for your data to be end-to-end encrypted so that all your server is doing is passing around changes.
 
 ## Getting started
 
@@ -71,11 +71,9 @@ When Actual detects a problem during syncing, you will see a notification with d
 
 ### This file is not a cloud file
 
-A "cloud file" is a file that has been registered with our server and is currently syncing data. Sometimes a file hasn't been registered yet so it can't send any data to sync.
+A "cloud file" is a file that has been registered with your server and is currently syncing data. Sometimes a file hasn't been registered yet so it can't send any data to sync.
 
-Usually this happens when a new file is created when there is no internet connection. In that case, it creates a local file but our server doesn't know anything about it. When you are online you need to register it.
-
-Local files without syncing are not supported. Even if you don't sync to multiple devices, syncing to our server creates a backup of your data and you never have to worry about losing it. If you are worried about privacy, enable end-to-end encryption.
+Usually this happens when a new file is created when there is no internet connection. In that case, it creates a local file but the server doesn't know anything about it. When you are online you need to register it.
 
 ### Syncing has been reset on this cloud file
 
@@ -94,7 +92,3 @@ Unfortunately, Actual detected an inconsistency in your synced data. This only h
 ### Update required
 
 While syncing, your device received data that it couldn't apply because your version of Actual is out-of-date. You need to update Actual and it will then sync successfully.
-
-### Actual has updated the syncing format
-
-You will see this when upgrading to version 0.0.120. The internal syncing format has changed and you need to do a [sync reset](#what-does-resetting-sync-mean).
