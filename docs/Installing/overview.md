@@ -11,6 +11,6 @@ While running a server can be a complicated endeavor, we’ve tried to make it f
   - [Fly.io](fly/Fly.io.md) offers free cloud hosting. (Make sure you read the section about [persisting your data](fly/Fly-persisting.md)!)
   - You could [directly install Actual locally](Local/your-own-machine.md) on macOS, Windows, or Linux if you don’t want to use a tool like Docker. (This method is the best option if you want to contribute to Actual!)
   - If you want to use Docker, we have instructions for [running Actual directly](Docker.md) inside Docker or [behind an nginx proxy that offers HTTPS support](DockerWithNginx.md).
-- If you have a home server or a NAS running [Unraid](Unraid.md) or [Synology](Synology.md), we have instructions for installing Actual on those platforms.
+- If you have a home server or a NAS running [Unraid](Unraid.md) or [Synology](synology/synology.md), we have instructions for installing Actual on those platforms.
 
 If you have any other ways Actual can be hosted, please consider opening a pull request to add them to the documentation so that others can benefit from your experience.

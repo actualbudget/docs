@@ -102,7 +102,7 @@ const sidebars = {
                     'Installing/fly/Fly-persisting',
                   ],
                 },
-                'Installing/Pikapods',
+                'Installing/PikaPods',
                 'Installing/Terraform',
               ],
             },
