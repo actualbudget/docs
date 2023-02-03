@@ -14,7 +14,7 @@ If youâ€™re running a local server and accessing it through a domain name, youâ€
 2. Connect your server to a domain you control and make it public to the Internet. You could use a tool like [certbot](https://certbot.eff.org) to generate a valid certificate once you have the domain set up.
 3. Use a service like [Tailscale](https://tailscale.com/kb/1153/enabling-https/) that allows you to create a valid HTTPS certificate without having to expose your server to the wider internet.
 
-Once you have the certificate, [pass it to Actual using the config file](/Installing/Configuration/#https)
+Once you have the certificate, [pass it to Actual using the config file](/Installing/Configuration/#https).
 
 ## HTTP Headers
 
