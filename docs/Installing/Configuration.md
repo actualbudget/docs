@@ -2,7 +2,7 @@
 title: Configuring the Server
 ---
 
-When it starts up, Actual looks for a `config.json` file in the same directory as its `package.json`. If present, any keys you define there will override the default values. Here are the supported keys:
+When it starts up, Actual looks for an optional `config.json` file in the same directory as its `package.json`. If present, any keys you define there will override the default values. Here are the supported keys:
 
 ## `https`
 
