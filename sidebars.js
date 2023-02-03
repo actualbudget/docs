@@ -111,6 +111,10 @@ const sidebars = {
         {
           type: 'category',
           label: 'A Tour of Actual',
+          link: {
+            type: 'doc',
+            id: 'Getting-Started/using-actual/index',
+          },
           items: [
             'Getting-Started/using-actual/files',
             'Getting-Started/using-actual/overview',
