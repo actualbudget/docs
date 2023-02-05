@@ -31,7 +31,7 @@ Version: 23.2.5
 * [#598](https://github.com/actualbudget/actual/pull/595) Allow configuring the server from any page on the management app -- thanks [j-f1](https://github.com/j-f1)
 * [#600](https://github.com/actualbudget/actual/pull/600) Add a warning when SharedArrayBuffer is not available -- thanks [j-f1](https://github.com/j-f1)
 * [#601](https://github.com/actualbudget/actual/pull/601) Improve handling of schedules that are missing a date -- thanks [j-f1](https://github.com/j-f1)
-* [#602](https://github.com/actualbudget/actual/pull/602) Support arbitrary currency symbols in expressions -- thanks [j-f1]
+* [#602](https://github.com/actualbudget/actual/pull/602) Support arbitrary currency symbols in expressions -- thanks [j-f1](https://github.com/j-f1)
 * [#617](https://github.com/actualbudget/actual/pull/617) Improve behavior of deleted payees/categories/accounts in rules -- thanks [j-f1](https://github.com/j-f1)
 
 #### Bugfix
