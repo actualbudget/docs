@@ -83,7 +83,7 @@ Version: 23.2.5
 * [#110](https://github.com/actualbudget/actual/pull/110) build(deps): bump node-fetch from 2.2.0 to 2.6.7
 * [#111](https://github.com/actualbudget/actual/pull/111) build(deps): bump minimatch from 3.0.4 to 3.1.2
 * [#112](https://github.com/actualbudget/actual/pull/112) build(deps): bump moment from 2.29.3 to 2.29.4
-v[#117](https://github.com/actualbudget/actual/pull/117) build(deps): bump http-cache-semantics from 4.1.0 to 4.1.1 
+* [#117](https://github.com/actualbudget/actual/pull/117) build(deps): bump http-cache-semantics from 4.1.0 to 4.1.1 
 * [#118](https://github.com/actualbudget/actual/pull/118) ⬆️ upgrade @actual-app/api to 4.1.6: node-fetch v2 support -- thanks [MatissJanis](https://github.com/MatissJanis)
 * [#119](https://github.com/actualbudget/actual/pull/119) ⬆️ upgrade express*, bcrypt and body-parser -- thanks [MatissJanis](https://github.com/MatissJanis)
 
