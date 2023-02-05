@@ -1,5 +1,5 @@
 ---
-title: Releases Notes
+title: Release Notes
 ---
 
 ## 23.2.5
