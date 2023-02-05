@@ -9,7 +9,7 @@ The release has notable security improvements. Highlights:
 
 * e2e encryption
 * login invalidation when changing password
-* dependency upgrades to solve actual-server security issues
+* dependency upgrades to remove potential actual-server security vulnerabilities (although we don’t believe there were any severe issues)
 
 ### Actual 
 Version: 23.2.5
