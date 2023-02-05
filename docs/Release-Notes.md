@@ -5,7 +5,7 @@ title: Release Notes
 ## 23.2.5
 **Docker tag: 23.2.5**
 
-The release has notable of improvements of:
+The release has notable security improvements. Highlights:
 
 * e2e encryption
 * login invalidation when changing password
