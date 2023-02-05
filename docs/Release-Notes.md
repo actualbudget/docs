@@ -61,7 +61,9 @@ Version: 23.2.5
 * [#609](https://github.com/actualbudget/actual/pull/609) ⬆️ upgrade node-fetch to ^2.6.9 -- thanks [MatissJanis](https://github.com/MatissJanis)
 * [#610](https://github.com/actualbudget/actual/pull/610) 🔖 (api) 4.1.6: node-fetch upgrade -- thanks [MatissJanis](https://github.com/MatissJanis)
 * [#624](https://github.com/actualbudget/actual/pull/624) Fatal error dialog update to reflect open source -- thanks [rich-howell](https://github.com/rich-howell)
+* [#627](https://github.com/actualbudget/actual/pull/627) Remove all references to help@actualbudget.com -- thanks [rich-howell](https://github.com/rich-howell)
 * [#633](https://github.com/actualbudget/actual/pull/633) Removed reference to blog -- thanks [rich-howell](https://github.com/rich-howell)
+* [#635](https://github.com/actualbudget/actual/pull/635) Removing dead links [rich-howell](https://github.com/rich-howell)
 
 
 ### Actual Server 
