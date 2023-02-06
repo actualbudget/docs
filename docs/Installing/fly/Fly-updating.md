@@ -38,7 +38,7 @@ git pull origin master
 ```
 ![](/img/cmd-25.png)
 
-Once that is done, run the deployment command to push your changes to fly.
+Once that is done, check if your fly.toml file is up to date with fly.template.toml and then run the deployment command to push your changes to fly.
 ```cmd
 flyctl deploy.
 ```
