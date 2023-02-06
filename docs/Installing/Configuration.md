@@ -32,11 +32,11 @@ The `hostname` key is used to specify the hostname that the server should listen
 
 ## `serverFiles`
 
-The server will put an `account.sqlite` file in this directory, which will contain the (hashed) server password, a list of all the budget files the server knows about, and the active session token (along with anything else the server may want to store in the future). If not specified, the server will use the `server-files` directory in the same directory as the `package.json`. (environment variable: `ACTUAL_SERVER_FILES`)
+The server will put an `account.sqlite` file in this directory, which will contain the (hashed) server password, a list of all the budget files the server knows about, and the active session token (along with anything else the server may want to store in the future). If not specified, the server will use either `/data/server-files` (if `/data` exists) or the `server-files` directory in the same directory as the `package.json`. (environment variable: `ACTUAL_SERVER_FILES`)
 
 ## `userFiles`
 
-The server will put all the budget files in this directory as binary blobs. If not specified, the server will use the `user-files` directory in the same directory as the `package.json`. (environment variable: `ACTUAL_USER_FILES`)
+The server will put all the budget files in this directory as binary blobs. If not specified, the server will use either `/data/user-files` (if `/data` exists) or the `user-files` directory in the same directory as the `package.json`. (environment variable: `ACTUAL_USER_FILES`)
 
 ## `webRoot`
 
