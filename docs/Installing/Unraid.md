@@ -72,8 +72,8 @@ New versions of Actual depend on HTTPS to be enabled (see [Enabling SharedArrayB
 1.  Create a new folder, "keys"
 1.  Change directory into the "keys" folder
 1.  Generate a certificate and private key combo by running `openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout actual.key -out actual.crt`
-1.  In the Docker settings on the WebUI, create a new Variable "ACTUAL_HTTPS_KEY" and set the value to the path of the newly created key, `/data/keys/actual.key` (note: this is the value of the path _inside_ the docker container)
-1.  Similarly to step 5, create a new Variable "ACTUAL_HTTPS_CERT" and set the value to `/data/keys/actual.crt`
+1.  In the Docker settings on the WebUI, create a new Variable `ACTUAL_HTTPS_KEY` and set the value to the path of the newly created key, `/data/keys/actual.key` (note: this is the value of the path _inside_ the docker container)
+1.  Similarly to step 5, create a new Variable `ACTUAL_HTTPS_CERT` and set the value to `/data/keys/actual.crt`
 1.  The next time the Actual Docker container is started, access the WebUI and accept the self-signed certificate.
 
 
