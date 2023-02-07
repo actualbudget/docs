@@ -9,7 +9,6 @@ title: 'Unraid'
 
 1.  If you don't have the CA plugin installed, install it now. Please read through all of the instructions before starting.
 As always, backup your data by exporting from the web interface prior to making any configuration changes.
-
 The current Actual Unraid CA was defined and maintained by hofq. Problems specifically with the
 unraid template (not Actual itself) should be addressed to that repo, which can be found [here](https://github.com/hofq/docker-templates/issues/new/choose).
 1. Search for "actualserver" in [Community Apps](https://unraid.net/community/apps?q=actualserver) and
@@ -18,10 +17,12 @@ select the one by Kippenhof (the only one at this time).
 
    ![image](https://user-images.githubusercontent.com/2792750/180338271-ca70f0d3-8f23-4d00-9cdb-ea011975dab3.png)
 
+
 ### Using Docker without Community Apps
 
 1.  Create a new image and follow the guidelines below to configure the parameters
 This image is not very complex, and can easily be configured in the web interface.
+
 
 ## Setting up data persistence
 
@@ -45,6 +46,7 @@ the other guides.
 
 (Note: It's generally wise to have a manual backup strategy just in case. Two is one, one is none!)
 
+
 ## Changing the image source
 
 If you'd like to point the Actual Community App to a different image, it's simple to do so.
@@ -61,7 +63,6 @@ ghcr.io/actualbudget/actual-server:latest` (or whichever image source you have c
 ![image](https://user-images.githubusercontent.com/2792750/180320492-0f5977e0-15e4-4640-9d07-db66806a33a2.png)
 
 ## Advanced
-
 ### Creating HTTPS Certificates
 
 New versions of Actual depend on HTTPS to be enabled (see [Enabling SharedArrayBuffer Access](https://actualbudget.github.io/docs/Troubleshooting/SharedArrayBuffer)).  To create your own certificate on Unraid, open up a terminal into your server to follow these steps:
@@ -74,9 +75,11 @@ New versions of Actual depend on HTTPS to be enabled (see [Enabling SharedArrayB
 1.  Similarly to step 5, create a new Variable "ACTUAL_HTTPS_CERT" and set the value to `/data/keys/actual.crt`
 1.  The next time the Actual Docker container is started, access the WebUI and accept the self-signed certificate.
 
+
 ### Map WebUI Port to container
 
 Assuming the default port of 5006, map TCP host port 5006 to Docker port 5006.
+
 
 ### Add WebUI URL
 
