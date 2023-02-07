@@ -22,6 +22,7 @@ select the one by Kippenhof (the only one at this time).
 
 1.  Create a new image and follow the guidelines below to configure the parameters
 This image is not very complex, and can easily be configured in the web interface.
+Follow the instructions below to configure the Repository, Data volume, WebUI port, and HTTPS keys necessary for running the image.
 
 
 ## Setting up data persistence
@@ -65,7 +66,7 @@ ghcr.io/actualbudget/actual-server:latest` (or whichever image source you have c
 ## Advanced
 ### Creating HTTPS Certificates
 
-New versions of Actual depend on HTTPS to be enabled (see [Enabling SharedArrayBuffer Access](https://actualbudget.github.io/docs/Troubleshooting/SharedArrayBuffer)).  To create your own certificate on Unraid, open up a terminal into your server to follow these steps:
+New versions of Actual depend on HTTPS to be enabled (see [Enabling SharedArrayBuffer Access](/Troubleshooting/SharedArrayBuffer)).  To create your own certificate on Unraid, open up a terminal into your server to follow these steps:
 
 1.  Change directory into your shared data folder (see "Setting up data persistence" above)
 1.  Create a new folder, "keys"
