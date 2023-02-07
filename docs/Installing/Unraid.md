@@ -13,13 +13,18 @@ changes.
 The current Actual Unraid CA was defined and maintained by hofq. Problems specifically with the
 unraid template (not Actual itself) should be addressed to that repo, which can be found [here](https://github.com/hofq/docker-templates/issues/new/choose).
 
-## Initial setup
+## Initial setup 
+### Using Community Apps
 
 1. Search for "actualserver" in [Community Apps](https://unraid.net/community/apps?q=actualserver) and
 select the one by Kippenhof (the only one at this time).
-1. Click Install.
+2. Click Install.
 
    ![image](https://user-images.githubusercontent.com/2792750/180338271-ca70f0d3-8f23-4d00-9cdb-ea011975dab3.png)
+
+### Using Docker webui
+
+1.  Create a new image and follow the guidelines below
 
 ## Setting up data persistence
 
@@ -51,11 +56,34 @@ instructions.
 1. On the settings page for the Actual CA, locate the `repository` field.
    ![image](https://user-images.githubusercontent.com/2792750/180340822-6e18e6ea-4556-43d6-8320-f90b640496c0.png)
 1. Update this value to point to the dockerhub image of your choice. Eg, to use the official image
-   change this value to [`jlongster/actual-server`](https://hub.docker.com/r/jlongster/actual-server)
+   change this value to [`jlongster/actual-server`](https://hub.docker.com/r/jlongster/actual-server) or [`ghcr.io/actualbudget/actual-server:latest`](https://ghcr.io/actualbudget/actual-server)
    ![image](https://user-images.githubusercontent.com/2792750/180340859-814bac85-090e-4ac6-a814-56f13c017845.png)
 1. Confirm that the correct image is pulled. The `By:` section should read `By:
-jlongster/actual-server` (or whichever image source you have chosen to use).
+ghcr.io/actualbudget/actual-server:latest` (or whichever image source you have chosen to use).
 ![image](https://user-images.githubusercontent.com/2792750/180320492-0f5977e0-15e4-4640-9d07-db66806a33a2.png)
+
+## Advanced
+
+### Creating HTTPS Certificates
+
+New versions of Actual depend on HTTPS to be enabled (see [Enabling SharedArrayBuffer Access](https://actualbudget.github.io/docs/Troubleshooting/SharedArrayBuffer)).  To create your own certificate on Unraid, open up a terminal into your server to follow these steps:
+
+1.  Change directory into your shared data folder (see "Setting up data persistence" above)
+2.  Create a new folder, "keys"
+3.  Change directory into the "keys" folder
+4.  Generate a certificate and private key combo by running `openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout actual.key -out actual.crt`
+5.  In the Docker settings on the WebUI, create a new Variable "ACTUAL_HTTPS_KEY" and set the value to the path of the newly created key, `/data/keys/actual.key` (note: this is the value of the path _inside_ the docker container)
+6.  Similarly to step 5, create a new Variable "ACTUAL_HTTPS_CERT" and set the value to `/data/keys/actual.crt`
+7.  The next time the Actual Docker container is started, access the WebUI and accept the self-signed certificate.
+
+### Map WebUI Port to container
+
+Assuming the default port of 5006, map TCP host port 5006 to Docker port 5006.
+
+### Add WebUI URL
+
+By default, Actual server runs on port 5006.  To enable the WebUI button on the Docker page, go into the advanced Docker settings and set the WebUI to value `https://[IP]:[PORT:5006]/`
+
 
 ### If you already had an alternate image running:
 
