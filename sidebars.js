@@ -63,23 +63,7 @@ const sidebars = {
               type: 'category',
               label: 'On Your Own Server',
               collapsible: false,
-              items: [
-                'Installing/Docker',
-                'Installing/DockerWithNginx',
-                'Installing/Unraid',
-                {
-                  type: 'category',
-                  label: 'Synology',
-                  link: {
-                    type: 'doc',
-                    id: 'Installing/synology/synology',
-                  },
-                  items: [
-                    'Installing/synology/synology-reverse-proxy',
-                    'Installing/synology/synology-watchtower',
-                  ],
-                },
-              ],
+              items: ['Installing/Docker'],
             },
             {
               type: 'category',
@@ -103,12 +87,19 @@ const sidebars = {
                   ],
                 },
                 'Installing/PikaPods',
-                'Installing/Terraform',
               ],
             },
           ],
         },
-        'Installing/Configuration',
+        {
+          type: 'category',
+          label: 'Configuring the Server',
+          link: {
+            type: 'doc',
+            id: 'Installing/Configuration',
+          },
+          items: ['Installing/HTTPS'],
+        },
         {
           type: 'category',
           label: 'A Tour of Actual',
@@ -281,7 +272,7 @@ const sidebars = {
           items: [
             'Advanced/Experimental-Features/goal-templates',
             unavailable('Report Budget'),
-            unavailable('Account syncing')
+            unavailable('Account syncing'),
           ],
         },
       ],
