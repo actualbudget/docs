@@ -12,7 +12,11 @@ Keeping your existing transaction history is important. If you already use a dif
 Right now, only YNAB4 is officially supported. However, the [API](/developers/API/) allows anyone to write a custom importer. We will work with the community to help write other importers soon.
 
 ## Migration from the old Desktop App
-The Desktop app that was tied to the old hosted instance of ActualBudget does not have the export button which is available in the Web version and in newer versions of the Desktop app (see https://github.com/actualbudget/actual/pull/71). To export your data, log in to the Web version at https://app.actualbudget.com. Here you can export your data using Settings > Export Data. The export can be imported into newer versions of the Web app and Desktop app.
+:::note
+Are you coming from the original, managed Actual subscription service? That used an older version of the desktop app which doesn't have the export button, but you can log in to the Web version at app.actualbudget.com to export your data in a format suitable for importing in your new instance. See [Backups](https://actualbudget.github.io/docs/Backup-Restore/Backups) and [Restoring](https://actualbudget.github.io/docs/Backup-restore/Restore).
+
+Instead of creating an export from the Web app, you can also create a zip archive of your budget folder, which is equivalent. The folder is located at `~/Documents/Actual/My-Budget-abc123` by default on MacOS and Linux. The resulting zip file can be imported into Actual via the Web app.
+:::note
 
 ## Migration from other apps
 
