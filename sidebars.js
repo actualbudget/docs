@@ -63,7 +63,10 @@ const sidebars = {
               type: 'category',
               label: 'On Your Own Server',
               collapsible: false,
-              items: ['Installing/Docker'],
+              items: [
+                'Installing/Docker',
+                'Installing/Easypanel',
+              ],
             },
             {
               type: 'category',
@@ -87,7 +90,6 @@ const sidebars = {
                   ],
                 },
                 'Installing/PikaPods',
-                'Installing/Easypanel',
               ],
             },
           ],
