@@ -87,6 +87,7 @@ const sidebars = {
                   ],
                 },
                 'Installing/PikaPods',
+                'Installing/Easypanel',
               ],
             },
           ],
