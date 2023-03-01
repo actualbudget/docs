@@ -10,6 +10,7 @@ While running a server can be a complicated endeavour, we’ve tried to make it 
 - If you’re willing to run a few commands in the terminal:
   - [Fly.io](fly/Fly.io.md) offers free cloud hosting. (Make sure you read the section about [persisting your data](fly/Fly-persisting.md)!)
   - You could [directly install Actual locally](Local/your-own-machine.md) on macOS, Windows, or Linux if you don’t want to use a tool like Docker. (This method is the best option if you want to contribute to Actual!)
+  - If you want to use Docker, we have instructions for [running Actual directly](Docker.md) inside Docker.
 
 
 Once you’ve set up your server, you can [configure it](Configuration.md) to change a few of the ways it works.
