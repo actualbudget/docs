@@ -15,10 +15,9 @@ step unclear, [contact us](/Contact) for support.
 ## Deployment methods
 
 Fly offers a variety of ways to get an application deployed on their infrastructure. We currently
-have community contributed documentation for the following deplyment methods
+have community contributed documentation for the following deployment methods
 - Deploying from a clone of the main git repository [(link)][git-guide]
 - Deploying from a published container image [(link)][image-guide]
-- Deploying an image with Terraform [(link)][terraform-guide]
 
 Each of these methods come with tradeoffs.
 
