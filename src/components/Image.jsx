@@ -30,26 +30,24 @@ const theme = {
 
 export default function Image({ img, ...props }) {
   if (img) {
-    if (img.default) {
-      return <IdealImage img={img} theme={theme} {...props} />
-    } else {
-      let { src, ...rest } = img
-      if (src.src.includes('@2x')) {
-        return <IdealImage
-          img={{
-            src: {
-              ...src,
-              width: src.width / 2,
-              height: src.height / 2
-            },
-            ...rest
-          }}
-          theme={theme}
-          {...props}
-        />
-      }
-      return <IdealImage img={img} theme={theme} {...props} />
+    const { src, ...rest } = img
+    const match = src.src.match(/@(\d+)x/)
+    if (match) {
+      const scale = parseInt(match[1])
+      return <IdealImage
+        img={{
+          src: {
+            ...src,
+            width: src.width / scale,
+            height: src.height / scale
+          },
+          ...rest
+        }}
+        theme={theme}
+        {...props}
+      />
     }
+    return <IdealImage img={img} theme={theme} {...props} />
   } else {
     return <img {...props} />
   }
