@@ -128,6 +128,6 @@ module.exports = {
         },
         },
       ],
-      '@docusaurus/plugin-ideal-image',
+      ['@docusaurus/plugin-ideal-image', { disableInDev: false }],
     ],
 };
