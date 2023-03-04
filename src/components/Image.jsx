@@ -28,19 +28,29 @@ const theme = {
   },
 }
 
-export default function Image({ img, alt, ...props }) {
-  if (!img.default) {
-    let { src, ...rest } = img
-    if (src.src.includes('@2x')) {
-      return <IdealImage img={{
-        src: {
-          ...src,
-          width: src.width / 2,
-          height: src.height / 2
-        },
-        ...rest
-      }} theme={theme} />
+export default function Image({ img, ...props }) {
+  if (img) {
+    if (img.default) {
+      return <IdealImage img={img} theme={theme} {...props} />
+    } else {
+      let { src, ...rest } = img
+      if (src.src.includes('@2x')) {
+        return <IdealImage
+          img={{
+            src: {
+              ...src,
+              width: src.width / 2,
+              height: src.height / 2
+            },
+            ...rest
+          }}
+          theme={theme}
+          {...props}
+        />
+      }
+      return <IdealImage img={img} theme={theme} {...props} />
     }
+  } else {
+    return <img {...props} />
   }
-  return <IdealImage img={img} theme={theme} />
 }
