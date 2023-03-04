@@ -23,5 +23,5 @@ You can export your data from Actual at any time. To do so,
 
 This will force a backup to be created right now. Do this if you are going to do something that you might want to revert later (and don't want to use [undo](/Getting-Started/tipstricks/#undoredo)).
 
-* Select the **File > Load Backup…** menu item
-* Click **Backup Now**
+- Select the **File > Load Backup…** menu item
+- Click **Backup Now**
