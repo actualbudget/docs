@@ -11,7 +11,7 @@ This only applies to Actual Web
 You can export your data from Actual at any time. To do so,
 1. Login to your budget, click 'More' > 'Settings'
 
-   ![](/img/backup-restore/sidebar-settings.png)
+   ![](/img/backup-restore/sidebar-settings@2x.png)
 
 2. Scroll down to the Export section and click Export Data
 

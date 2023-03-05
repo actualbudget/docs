@@ -35,7 +35,7 @@ You can now see the account in the sidebar of Actual
 
 Click the account name in the sidebar of Actual
 
-![@2x](/img/accounts/SidebarAccountList.png)
+![](/img/accounts/SidebarAccountList@2x.png)
 
 Hovering your cursor close to the account name at the top will reveal two icons.   
 The page icon allows you to write a note about this account, and the pencil icon allows you to rename the account.
