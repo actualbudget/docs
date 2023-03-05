@@ -12,6 +12,11 @@ While running a server can be a complicated endeavour, we’ve tried to make it 
   - You could [directly install Actual locally](Local/your-own-machine.md) on macOS, Windows, or Linux if you don’t want to use a tool like Docker. (This method is the best option if you want to contribute to Actual!)
   - If you want to use Docker, we have instructions for [using our provided Docker containers](Docker.md).
 
+## Additional Installation Options
+In addition to our officially supported options listed above, some community members have written guides for using other platforms or tools:
+
+[warning!] Content contained on external links is not managed or maintained by the Actual Budget team, if you into issues with instructions on a third part site, please contact the author in the first instance or ask in discord where a member of the community may be able to help.
+
 Once you’ve set up your server, you can [configure it](Configuration.md) to change a few of the ways it works.
 
 If you're coming from the original, managed Actual subscription service, you may want to [migrate your data](../Getting-Started/migration/migration-intro.md).
