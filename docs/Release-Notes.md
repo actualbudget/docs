@@ -2,6 +2,28 @@
 title: Release Notes
 ---
 
+## 23.3.10
+
+**Docker tag: 23.3.10**
+
+The release has the following improvement.
+
+### Actual
+
+Version: 23.3.10
+
+#### Features
+
+#### Bugfix
+
+#### Maintenance
+
+### Actual Server
+
+Version: 23.3.10
+
+#### Maintenance
+
 ## 23.2.9
 
 **Docker tag: 23.2.9**
