@@ -8,7 +8,7 @@ title: Release Notes
 
 The release has the following notable features;
 
-- *experimental* Nordigen integration
+- _experimental_ Nordigen integration
 
 ### Actual
 
@@ -17,52 +17,52 @@ Version: 23.3.10
 #### Features
 
 - [#457](https://github.com/actualbudget/actual/pull/457) Nordigen integration - account sync -- thanks [fstybel], [eberureon] & [j-f1]
-- [#588](https://github.com/actualbudget/actual/pull/588) Updates to the template/goal feature -- thanks [j-f1] 
+- [#588](https://github.com/actualbudget/actual/pull/588) Updates to the template/goal feature -- thanks [j-f1]
 - [#603](https://github.com/actualbudget/actual/pull/) Add Toggle for hiding "Cleared" column -- thanks [mnsrv]
 - [#646](https://github.com/actualbudget/actual/pull/646) Allow editing filters -- thanks [j-f1]
-- [#647](https://github.com/actualbudget/actual/pull/647) (prettier) adding trailing commas -- thanks [MatissJanis] 
+- [#647](https://github.com/actualbudget/actual/pull/647) (prettier) adding trailing commas -- thanks [MatissJanis]
 - [#648](https://github.com/actualbudget/actual/pull/648) Block enabling e2e encryption when the crypto API is unavailable -- thanks [j-f1]
 - [#651](https://github.com/actualbudget/actual/pull/) Add Toggle for hiding "Cleared" column -- thanks [mnsrv]
 - [#657](https://github.com/actualbudget/actual/pull/657) Better explain the process for importing an exported file -- thanks [j-f1]
 - [#660](https://github.com/actualbudget/actual/pull/660) Stop editing when clicking on blank areas of tables -- thanks [j-f1]
 - [#663](https://github.com/actualbudget/actual/pull/663) remove closed-source subscription notification code -- thanks [MatissJanis]
-- [#659](https://github.com/actualbudget/actual/pull/659) Improve handling of the undo/redo shortcuts -- thanks [j-f1] 
+- [#659](https://github.com/actualbudget/actual/pull/659) Improve handling of the undo/redo shortcuts -- thanks [j-f1]
 - [#671](https://github.com/actualbudget/actual/pull/671) Log more debugging information for an invalid-schema sync error -- thanks [j-f1]
 - [#649](https://github.com/actualbudget/actual/pull/649) Allow the server to auto-configure the server URL for the client -- thanks [j-f1]
-- [#683](https://github.com/actualbudget/actual/pull/683) upgrade yarn to v3.4.1 (latest stable) -- thanks [MatissJanis] 
+- [#683](https://github.com/actualbudget/actual/pull/683) upgrade yarn to v3.4.1 (latest stable) -- thanks [MatissJanis]
 - [#684](https://github.com/actualbudget/actual/pull/684) add interactive-tools yarn plugin -- thanks [MatissJanis]
 - [#675](https://github.com/actualbudget/actual/pull/675) Don’t force user to re-enter password after changing it -- thanks [j-f1]
 - [#674](https://github.com/actualbudget/actual/pull/674) Make the “Not logged in” warning a button -- thanks [j-f1]
 - [#678](https://github.com/actualbudget/actual/pull/678) Fix error cases in displaying filters/rules -- thanks [j-f1]
-- [#464](https://github.com/actualbudget/actual/pull/464) Updates to the @actual-budget/api package -- thanks [j-f1] 
+- [#464](https://github.com/actualbudget/actual/pull/464) Updates to the @actual-budget/api package -- thanks [j-f1]
 - [#676](https://github.com/actualbudget/actual/pull/676) Update the Bootstrap page to be more welcoming -- thanks [j-f1]
-- [#689](https://github.com/actualbudget/actual/pull/689) Don’t run linting while building in CI -- thanks [j-f1] 
+- [#689](https://github.com/actualbudget/actual/pull/689) Don’t run linting while building in CI -- thanks [j-f1]
 - [#680](https://github.com/actualbudget/actual/pull/680) Intelligently adjust field for newly added action -- thanks [j-f1]
-- [#681](https://github.com/actualbudget/actual/pull/681) Don’t post messages to the worker until it is ready -- thanks [j-f1] 
+- [#681](https://github.com/actualbudget/actual/pull/681) Don’t post messages to the worker until it is ready -- thanks [j-f1]
 - [#690](https://github.com/actualbudget/actual/pull/690) Added option to include exchange rate multiplier during import -- thanks [carkom], [MatissJanis] & [j-f1]
 - [#692](https://github.com/actualbudget/actual/pull/692) (import) date formats supporting digits without leading zeros -- thanks [MatissJanis]
-- [#694](https://github.com/actualbudget/actual/pull/694) (e2e) adding e2e tests for schedules page -- thanks [MatissJanis] 
+- [#694](https://github.com/actualbudget/actual/pull/694) (e2e) adding e2e tests for schedules page -- thanks [MatissJanis]
 - [#693](https://github.com/actualbudget/actual/pull/693) Add button and 'esc' shortcut to clear transaction filter -- thanks [gsumpster]
 - [#695](https://github.com/actualbudget/actual/pull/695) (e2e) adding e2e tests for accounts: creating & closing -- thanks [MatissJanis]
 - [#668](https://github.com/actualbudget/actual/pull/668) Adds delay before note is displayed on hover. Solves issue #658. -- thanks [venkata-krishnas] and [j-f1]
 - [#697](https://github.com/actualbudget/actual/pull/697) moving back to create-react-app -- thanks [MatissJanis]
-- [#700](https://github.com/actualbudget/actual/pull/700) Fix notes button not being visible unless hovered -- thanks [j-f1] 
+- [#700](https://github.com/actualbudget/actual/pull/700) Fix notes button not being visible unless hovered -- thanks [j-f1]
 - [#702](https://github.com/actualbudget/actual/pull/702) Remove/dedupe/upgrade several dependencies -- thanks [j-f1]
-- [#703](https://github.com/actualbudget/actual/pull/703) removing lively from MonthPicker -- thanks [MatissJanis] 
+- [#703](https://github.com/actualbudget/actual/pull/703) removing lively from MonthPicker -- thanks [MatissJanis]
 - [#704](https://github.com/actualbudget/actual/pull/704) remove unused component library code -- thanks [MatissJanis]
-- [#705](https://github.com/actualbudget/actual/pull/705) Don’t allow bulk editing to set a field to null -- thanks [j-f1] 
+- [#705](https://github.com/actualbudget/actual/pull/705) Don’t allow bulk editing to set a field to null -- thanks [j-f1]
 - [#706](https://github.com/actualbudget/actual/pull/706) Allow rendering a schedule in `<Value />` -- thanks [j-f1]
 - [#707](https://github.com/actualbudget/actual/pull/707) Fix check for crypto.subtle -- thanks [j-f1]
 - [#708](https://github.com/actualbudget/actual/pull/708) remove dead code: budget-sheets-old -- thanks [MatissJanis]
-- [#709](https://github.com/actualbudget/actual/pull/709) refactor MonthPicker and remove ElementQuery -- thanks [MatissJanis] 
+- [#709](https://github.com/actualbudget/actual/pull/709) refactor MonthPicker and remove ElementQuery -- thanks [MatissJanis]
 - [#710](https://github.com/actualbudget/actual/pull/710) remove more dead code -- thanks [MatissJanis]
-- [#711](https://github.com/actualbudget/actual/pull/711) upgrade github actions -- thanks [MatissJanis] 
-- [#712](https://github.com/actualbudget/actual/pull/712) Add a missing space to the fatal error message -- thanks [j-f1] 
-- [#713](https://github.com/actualbudget/actual/pull/713) removed usage of babel-preset-jwl-app -- thanks [MatissJanis] 
-- [#714](https://github.com/actualbudget/actual/pull/714) Upgrade better-sqlite3 to the latest version -- thanks [j-f1] 
-- [#715](https://github.com/actualbudget/actual/pull/715) re-enable react-hooks/rules-of-hooks eslint rule -- thanks [MatissJanis] 
-- [#717](https://github.com/actualbudget/actual/pull/717) Fix e2e test to not assume it’s been run on Feb 28, 2023 -- thanks [j-f1] 
-- [#718](https://github.com/actualbudget/actual/pull/718) upgrade react-modal to v3.16.1 and remove the patch -- thanks [MatissJanis] 
+- [#711](https://github.com/actualbudget/actual/pull/711) upgrade github actions -- thanks [MatissJanis]
+- [#712](https://github.com/actualbudget/actual/pull/712) Add a missing space to the fatal error message -- thanks [j-f1]
+- [#713](https://github.com/actualbudget/actual/pull/713) removed usage of babel-preset-jwl-app -- thanks [MatissJanis]
+- [#714](https://github.com/actualbudget/actual/pull/714) Upgrade better-sqlite3 to the latest version -- thanks [j-f1]
+- [#715](https://github.com/actualbudget/actual/pull/715) re-enable react-hooks/rules-of-hooks eslint rule -- thanks [MatissJanis]
+- [#717](https://github.com/actualbudget/actual/pull/717) Fix e2e test to not assume it’s been run on Feb 28, 2023 -- thanks [j-f1]
+- [#718](https://github.com/actualbudget/actual/pull/718) upgrade react-modal to v3.16.1 and remove the patch -- thanks [MatissJanis]
 - [#720](https://github.com/actualbudget/actual/pull/720) Enable most of the disabled ESLint rules -- thanks [j-f1]
 - [#721](https://github.com/actualbudget/actual/pull/721) Remove code in loot-core/src/server/spreadsheet that uses escodegen -- thanks [j-f1]
 
@@ -81,7 +81,7 @@ Version: 23.3.10
 - [#133](https://github.com/actualbudget/actual-server/pull/133) Replace require with import -- thanks [j-f1]
 - [#135](https://github.com/actualbudget/actual-server/pull/135) Auto-configure the client’s server URL -- thanks [j-f1]
 - [#145](https://github.com/actualbudget/actual-server/pull/145) (bank-sync) expose available banks via an endpoint -- thanks [MatissJanis]
-- [#146](https://github.com/actualbudget/actual-serve/pull/146) upgrade yarn to v3.4.1 and add interactive-tools plugin -- thanks [MatissJanis] 
+- [#146](https://github.com/actualbudget/actual-serve/pull/146) upgrade yarn to v3.4.1 and add interactive-tools plugin -- thanks [MatissJanis]
 
 ## 23.2.9
 
@@ -438,10 +438,13 @@ Version: 22.10.25
 [andremralves]: https://github.com/andremralves
 [bdoherty]: https://github.com/bdoherty
 [brtwrst]: https://github.com/brtwrst
+[carkom]: https://github.com/carkom
 [ciwchris]: https://github.com/ciwchris
 [coliff]: https://github.com/coliff
+[eberureon]: https://github.com/eberureon
 [ejmurra]: https://github.com/ejmurra
 [ezfe]: https://github.com/ezfe
+[fstybel]: https://github.com/fstybel
 [gsumpster]: https://github.com/gsumpster
 [heilerich]: https://github.com/heilerich
 [iurynogueira]: https://github.com/iurynogueira
@@ -454,6 +457,7 @@ Version: 22.10.25
 [m3nu]: https://github.com/m3nu
 [manuelcanepa]: https://github.com/manuelcanepa
 [MatissJanis]: https://github.com/MatissJanis
+[mnsrv]: https://github.com/mnsrv
 [n1thun]: https://github.com/n1thun
 [PartyLich]: https://github.com/PartyLich
 [rianmcguire]: https://github.com/rianmcguire
@@ -465,10 +469,6 @@ Version: 22.10.25
 [TomAFrench]: https://github.com/TomAFrench
 [trevdor]: https://github.com/trevdor
 [UnexomWid]: https://github.com/UnexomWid
+[venkata-krishnas]: https://github.com/venkata-krishnas
 [winklevos]: https://github.com/winklevos
 [wmertens]: https://github.com/wmertens
-[mnsrv]: https://github.com/mnsrv
-[carkom]: https://github.com/carkom
-[fstybel]: https://github.com/fstybel
-[eberureon]: https://github.com/eberureon
-[venkata-krishnas]: https://github.com/venkata-krishnas
