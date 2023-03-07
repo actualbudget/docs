@@ -63,6 +63,8 @@ website # the root directory of the documentation site
     └── Troubleshooting # Self explanatory title
         ...
 │
+└── static
+    └── img
 ```
 
 ### Document Frontmatter
@@ -95,9 +97,40 @@ Sub headings are used to split the document into meaningful "chapters" these are
 
 Each "chapter" can then be split into sub sections using three gate headings.
 
-`### When Using Images`
+### When Using Images
 
-When using images, ensure that the image is large and clear, if the image contains multiple items and buttons, highlight the area you are talking about or create arrows on the image to point to the part you are discussing. Where possible images should be saved as `PNG` format.
+> Screenshots taken on a retina screen should be titled as such: image-name@2x.png
+> This allows Docusaurus to rescale the images where appropriate. 
+
+When using images, ensure that the image is large and clear, if the image contains multiple items and buttons, highlight the area you are talking about (as shown below) or create arrows on the image to point to the part you are discussing. Where possible images should be saved as `PNG` format.
+
+The clearest way to highlight areas on a screenshot is the 'transparency' box.   
+
+On Mac:   
+- open the screenshot in preview
+- click the annotate icon
+- from the 'shape' selector, select the 'transparency' tool
+
+![](/static/img/repo/highlighting.png)
+
+If this doesn't suffice (perhaps the area is too small for the box to be noticable), use an arrow or a colored box. 
+For consistencies sake, use a shade between *orange and yellow*. Other colors either do not work well with the purple colours of Actual (eg blue or green) and red is danger or in our case, a negative balance, double danger!
+
+#### Generic Images and Directory Structures
+
+In order to minimize the workload for adding images and make updating images easier, there's a directory containing regularly used images.   
+
+For example, many feature instructions may first require the user to navigate to a standard menu, eg 
+
+> "Click on 'Settings' in the sidebar"
+> [inserted image of the settings button in the sidebar]
+
+In this case the relavent screenshot is found at `/static/img/elements/sidebar/sidebar-settings@2x.png`, along with all other possible menu selections in the sidebar. 
+
+If there's an image missing from any of the respective folders in `elements/`, feel free to add one yourself following the same naming scheme.
+
+All other screenshots for the page you are working on should be placed in the respective folder in the `img/` directory.    
+eg, when working on a page in the 'accounts' section, images should be placed in the `static/img/accounts/` directory.
 
 ### Call Outs
 
