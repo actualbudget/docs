@@ -61,8 +61,8 @@ If you utilize the **Rollover Overspending** feature on a category that is not o
 
 Some of the features of the **Rollover Budget** are available in the **Report Budget**.
 :::note
-Not all features of the **Rollover Budget** have been implemented in the **Report Budget**. If you find critical functionality missing that you need, please submit a request on [GitHub](/docs/Contact).
+Not all features of the **Rollover Budget** have been implemented in the **Report Budget**. If you find critical functionality missing that you need, please submit a request on [GitHub](/Contact).
 :::
 
-- [Create new budgets for the next month](/docs/Budgeting/howitworks#creating-a-budget)
-- [Rollover negative category balances](/docs/Budgeting/howitworks#rollover-negative-category-balances)
+- [Create new budgets for the next month](/Budgeting/howitworks#creating-a-budget)
+- [Rollover negative category balances](/Budgeting/howitworks#rollover-negative-category-balances)
