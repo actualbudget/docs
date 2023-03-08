@@ -35,15 +35,15 @@ There are useful pie charts next to **Income** and **Expenses** to track your pr
 
 ![](/img/report-budget-5.png) 
 
-1. An incomplete green pie means your total expenses or income are less than your total amount budgeted for expenses or income, respectively.
+* An incomplete green pie means your total expenses or income are less than your total amount budgeted for expenses or income, respectively.
 
 ![](/img/report-budget-4.png) 
 
-2. A complete green pie chart means your spending and budget are exactly the same.
+* A complete green pie chart means your spending and budget are exactly the same.
 
 ![](/img/report-budget-6.png)
 
-3. A pie chart that has turned red means you have overspent your total budget.
+* A pie chart that has turned red means you have overspent your total budget.
 
 ## How money rolls over
 
@@ -52,3 +52,13 @@ Money does not automatically carry over from month to month in the **Report Budg
 :::note
 If you utilize the **Rollover Overspending** feature on a category that is not over spent, the entire spent amount will be forwarded to the next month and the **Saved** amount will increase for the current month.
 :::
+
+## Working with the Budget
+
+Some of the features of the **Rollover Budget** are available in the **Report Budget**.
+:::note
+Not all features of the **Rollover Budget** have been implemented in the **Report Budget**.  If you find critical functionality missing that you need, please submit a request on [GitHub](/docs/Contact).
+:::
+
+* [Create new budgets for the next month](/docs/Budgeting/howitworks#creating-a-budget)
+* [Rollover negative category balances](/docs/Budgeting/howitworks#rollover-negative-category-balances)
