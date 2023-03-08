@@ -65,6 +65,8 @@ Version: 23.3.10
 - [#718](https://github.com/actualbudget/actual/pull/718) upgrade react-modal to v3.16.1 and remove the patch -- thanks [MatissJanis]
 - [#720](https://github.com/actualbudget/actual/pull/720) Enable most of the disabled ESLint rules -- thanks [j-f1]
 - [#721](https://github.com/actualbudget/actual/pull/721) Remove code in loot-core/src/server/spreadsheet that uses escodegen -- thanks [j-f1]
+- [#727](https://github.com/actualbudget/actual/pull/727) (bank-sync) use full bank list + autocomplete  -- thanks [MatissJanis] 
+- [#729](https://github.com/actualbudget/actual/pull/729) Create an artifact with the built web UI for each commit -- thanks [j-f1]
 
 #### Bugfix
 
@@ -82,6 +84,9 @@ Version: 23.3.10
 - [#135](https://github.com/actualbudget/actual-server/pull/135) Auto-configure the client’s server URL -- thanks [j-f1]
 - [#145](https://github.com/actualbudget/actual-server/pull/145) (bank-sync) expose available banks via an endpoint -- thanks [MatissJanis]
 - [#146](https://github.com/actualbudget/actual-serve/pull/146) upgrade yarn to v3.4.1 and add interactive-tools plugin -- thanks [MatissJanis]
+- [#147](https://github.com/actualbudget/actual-serve/pull/147) Improve edge image build times -- [j-f1]
+- [#148](https://github.com/actualbudget/actual-serve/pull/148) adding trailing commas everywhere -- [MatissJanis]
+- [#149](https://github.com/actualbudget/actual-serve/pull/149) Fix edge image tagging -- thanks [j-f1]
 
 ## 23.2.9
 
