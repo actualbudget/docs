@@ -80,13 +80,18 @@ Version: 23.3.10
 
 Version: 23.3.10
 
+#### Features
+
+- [#74](https://github.com/actualbudget/actual-server/pull/74) & [#145](https://github.com/actualbudget/actual-server/pull/145) Backend integration with Nordigen - account sync -- thanks [fstybel] & [MatissJanis]
+- [#135](https://github.com/actualbudget/actual-server/pull/135) Auto-configure the client’s server URL -- thanks [j-f1]
+
+#### Bugfix
+
+- [#133](https://github.com/actualbudget/actual-server/pull/133) Replace require with import -- thanks [j-f1]
+
 #### Maintenance
 
-- [#74](https://github.com/actualbudget/actual-server/pull/74) Backend integration with Nordigen - account sync -- thanks [fstybel]
 - [#121](https://github.com/actualbudget/actual-server/pull/121) Update the :edge images to use the very latest web UI version -- thanks [j-f1] and [trevdor]
-- [#133](https://github.com/actualbudget/actual-server/pull/133) Replace require with import -- thanks [j-f1]
-- [#135](https://github.com/actualbudget/actual-server/pull/135) Auto-configure the client’s server URL -- thanks [j-f1]
-- [#145](https://github.com/actualbudget/actual-server/pull/145) (bank-sync) expose available banks via an endpoint -- thanks [MatissJanis]
 - [#146](https://github.com/actualbudget/actual-serve/pull/146) upgrade yarn to v3.4.1 and add interactive-tools plugin -- thanks [MatissJanis]
 - [#147](https://github.com/actualbudget/actual-serve/pull/147) Improve edge image build times -- [j-f1]
 - [#148](https://github.com/actualbudget/actual-serve/pull/148) adding trailing commas everywhere -- [MatissJanis]
