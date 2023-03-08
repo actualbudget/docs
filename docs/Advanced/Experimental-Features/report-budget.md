@@ -2,6 +2,10 @@
 title: 'Report Budget'
 ---
 
+:::warning
+This is an **experimental feature**. That means we’re still working on finishing it. There may be bugs, missing functionality or incomplete documentation, and we may decide to remove the feature in a future release. If you have any feedback, please [open an issue](https://github.com/actualbudget/actual/issues) or post a message in the Discord.
+:::
+
 ## Enabling the Report Budget
 
 The **Report Budget** feature can be switched on from the Experimental features section within the Settings page.  Navigate back to the **Budget** screen and a new button labeled **Rollover Budget** will be visible at the top of the screen.  Select the button and use the option to **Switch to a Report Budget**.
