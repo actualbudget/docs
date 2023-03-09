@@ -2,9 +2,9 @@
 title: Release Notes
 ---
 
-## 23.3.10
+## 23.3.0
 
-**Docker tag: 23.3.10**
+**Docker tag: 23.3.0**
 
 The release has the following notable features;
 
@@ -12,7 +12,7 @@ The release has the following notable features;
 
 ### Actual
 
-Version: 23.3.10
+Version: 23.3.0
 
 #### Features
 
@@ -80,7 +80,7 @@ Version: 23.3.10
 
 ### Actual Server
 
-Version: 23.3.10
+Version: 23.3.0
 
 #### Features
 
