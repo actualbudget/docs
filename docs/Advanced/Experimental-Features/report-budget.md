@@ -25,7 +25,7 @@ There are several important differences between the **Report Budget** and the de
 If you are creating a budget for the first time, here's how it works:
 
 1. Assign the amount of income you expect to receive in the current month.
-2. Assign the amount of money you need for each of your categories. 
+2. Assign the amount of money you need for each of your categories.
 
 Once completing these two tasks for the month, you will see the budgeted totals in the monthly header in gray. The expected savings you will incur for the month will show up in the **Projected Savings** field for the current or future month. When you receive new income or spend from your categories, enter those transactions in the account registers. Your budget is not static, so there will be times when you do not have enough budgeted for your spending. When one of your categories is overdrawn, increase the budgeted amount for that category so it is 0 or greater.
 
@@ -49,7 +49,7 @@ There are useful pie charts next to **Income** and **Expenses** to track your pr
 
 - A pie chart that has turned red means you have overspent your total budget.
 
-When a new month begins, your **Projected Savings** changes to **Saved** or **Overspent**, depending on your final transactions.  The final savings amount calculated for this field is your actual income minus your actual expenses.  If you hover your mouse over the **Saved** or **Overspent** text, you can view the breakdown of projected and actual savings for the month.
+When a new month begins, your **Projected Savings** changes to **Saved** or **Overspent**, depending on your final transactions. The final savings amount calculated for this field is your actual income minus your actual expenses. If you hover your mouse over the **Saved** or **Overspent** text, you can view the breakdown of projected and actual savings for the month.
 
 ![](/img/report-budget-3.png)
 
