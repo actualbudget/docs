@@ -20,7 +20,7 @@ If you're coming from the original, managed Actual subscription service, you may
 
 In addition to our officially supported options listed above, some community members have written guides for using other platforms or tools:
 
-:::warning
+:::caution
 
 Content contained on external links is not managed or maintained by the Actual Budget team, if you into issues with instructions on a third part site, please contact the author in the first instance or ask in discord where a member of the community may be able to help.
 
