@@ -6,9 +6,12 @@ title: Release Notes
 
 **Docker tag: 23.3.0**
 
-The release has the following notable features;
+The release has the following notable features:
 
-- _experimental_ Nordigen integration
+- _Experimental_ support for automatically syncing transactions from European bank accounts using Nordigen.
+- Filters in the the transaction list can now be edited.
+- When connecting to a server for the first time, you no longer need to enter the server URL.
+- You’ll now be notified of future updates to Actual.
 
 ### Actual
 
