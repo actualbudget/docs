@@ -17,10 +17,11 @@ Version: 23.3.10
 #### Features
 
 - [#457](https://github.com/actualbudget/actual/pull/457) Nordigen integration - account sync -- thanks [fstybel], [eberureon] & [j-f1]
+- [#621](https://github.com/actualbudget/actual/pull/621) Implement outdated version indicator -- thanks [vincentscode]
 - [#646](https://github.com/actualbudget/actual/pull/646) Allow editing filters -- thanks [j-f1]
 - [#651](https://github.com/actualbudget/actual/pull/651) Add Toggle for hiding "Cleared" column -- thanks [mnsrv]
 - [#649](https://github.com/actualbudget/actual/pull/649) Allow the server to auto-configure the server URL for the client -- thanks [j-f1]
-- [#690](https://github.com/actualbudget/actual/pull/690) Added option to include exchange rate multiplier during import -- thanks [carkom], [MatissJanis] & [j-f1]
+- [#690](https://github.com/actualbudget/actual/pull/690) Added option to include exchange rate multiplier during import -- thanks [carkom] & [MatissJanis]
 - [#693](https://github.com/actualbudget/actual/pull/693) Add button and 'esc' shortcut to clear transaction filter -- thanks [gsumpster]
 
 #### Enhancements
@@ -34,7 +35,7 @@ Version: 23.3.10
 - [#676](https://github.com/actualbudget/actual/pull/676) Update the Bootstrap page to be more welcoming -- thanks [j-f1]
 - [#680](https://github.com/actualbudget/actual/pull/680) Intelligently adjust field for newly added action -- thanks [j-f1]
 - [#692](https://github.com/actualbudget/actual/pull/692) (import) date formats supporting digits without leading zeros -- thanks [MatissJanis]
-- [#668](https://github.com/actualbudget/actual/pull/668) Adds delay before note is displayed on hover. -- thanks [venkata-krishnas] and [j-f1]
+- [#668](https://github.com/actualbudget/actual/pull/668) Adds delay before note is displayed on hover. -- thanks [venkata-krishnas]
 - [#727](https://github.com/actualbudget/actual/pull/727) (bank-sync) use full bank list + autocomplete -- thanks [MatissJanis]
 
 #### Bugfix
@@ -75,6 +76,7 @@ Version: 23.3.10
 - [#720](https://github.com/actualbudget/actual/pull/720) Enable most of the disabled ESLint rules -- thanks [j-f1]
 - [#721](https://github.com/actualbudget/actual/pull/721) Remove code in loot-core/src/server/spreadsheet that uses escodegen -- thanks [j-f1]
 - [#729](https://github.com/actualbudget/actual/pull/729) Create an artifact with the built web UI for each commit -- thanks [j-f1]
+- [#733](https://github.com/actualbudget/actual/pull/733) Remove outdated part of the postinstall script -- thanks [j-f1]
 
 ### Actual Server
 
@@ -91,11 +93,12 @@ Version: 23.3.10
 
 #### Maintenance
 
-- [#121](https://github.com/actualbudget/actual-server/pull/121) Update the :edge images to use the very latest web UI version -- thanks [j-f1] and [trevdor]
+- [#121](https://github.com/actualbudget/actual-server/pull/121) Update the :edge images to use the very latest web UI version -- thanks [j-f1] & [trevdor]
 - [#146](https://github.com/actualbudget/actual-serve/pull/146) upgrade yarn to v3.4.1 and add interactive-tools plugin -- thanks [MatissJanis]
 - [#147](https://github.com/actualbudget/actual-serve/pull/147) Improve edge image build times -- [j-f1]
 - [#148](https://github.com/actualbudget/actual-serve/pull/148) adding trailing commas everywhere -- [MatissJanis]
 - [#149](https://github.com/actualbudget/actual-serve/pull/149) Fix edge image tagging -- thanks [j-f1]
+- [#153](https://github.com/actualbudget/actual-server/pull/153) Fix Docker actions failing on PRs from forks -- thanks [j-f1]
 
 ## 23.2.9
 
@@ -484,5 +487,6 @@ Version: 22.10.25
 [trevdor]: https://github.com/trevdor
 [UnexomWid]: https://github.com/UnexomWid
 [venkata-krishnas]: https://github.com/venkata-krishnas
+[vincentscode]: https://github.com/vincentscode
 [winklevos]: https://github.com/winklevos
 [wmertens]: https://github.com/wmertens
