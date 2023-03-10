@@ -19,16 +19,16 @@ We are excited to offer this optional bank integration in Actual. Here are a cou
 
 - The integration only works if you are using actual-server
 
-- The Secrets and Keys are stored in your Actual Installed version so it is highly recommended to turn on End to End encryption and create a strong passphrase to encrypt your files.
+- The Secrets and Keys are stored in your Actual installed version so it is highly recommended to turn on End to End encryption and create a strong passphrase to encrypt your files.
 
-- The Bank Sync is part of the Experimental Features in settings and needs to be turned on in order to use this integration
+- Bank Sync is part of the Experimental Features in settings and needs to be turned on in order to use this integration
 
 ### Supported Providers
 Nordigen
 
 ### Nordigen Setup
 
-**Get an API KEY and SECRET**
+**Get SECRETS and KEYS for Actual**
 1. Create an account with Nordigen - https://nordigen.com/
 2. Make sure you are logged into your account dashboard page - https://ob.nordigen.com
 3. Create your user secrets by selecting user secreate from the left side menu - https://ob.nordigen.com/user-secrets/
@@ -44,4 +44,3 @@ Nordigen
 2. Select the Link Your Bank button
 3. Select your country from the list
 4. Select your bank from the list
-5. 
