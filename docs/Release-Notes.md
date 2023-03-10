@@ -12,6 +12,7 @@ The release has the following notable features:
 - Filters in the the transaction list can now be edited.
 - When connecting to a server for the first time, you no longer need to enter the server URL.
 - You’ll now be notified of future updates to Actual.
+- Large imports will no longer break in Safari.
 
 ### Actual
 
@@ -51,6 +52,7 @@ Version: 23.3.0
 - [#707](https://github.com/actualbudget/actual/pull/707) Fix check for crypto.subtle — thanks [j-f1]
 - [#712](https://github.com/actualbudget/actual/pull/712) Add a missing space to the fatal error message — thanks [j-f1]
 - [#659](https://github.com/actualbudget/actual/pull/659) Improve handling of the undo/redo shortcuts — thanks [j-f1]
+- [#457](https://github.com/actualbudget/actual/pull/457/commits/d868645d40fbc6105fe8b1d1a48e93b03c7a4c27) Fix for syncing large batches of updates in Safari — thanks [j-f1]
 
 #### Maintenance
 
