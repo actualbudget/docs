@@ -23,6 +23,8 @@ We are excited to offer this optional bank integration in Actual. Here are a cou
 
 - Bank Sync is part of the Experimental Features in settings and needs to be turned on in order to use this integration
 
+- You will need to add a config file to your installation
+
 ### Supported Providers
 Nordigen
 
@@ -35,6 +37,22 @@ Nordigen
 4. Click on the '+ create new' button at the bottom left or click the 'Create new Secrets' button the top right
     - Make sure you download your secrets file since the **key** will not be available to you again in the account dashboard
     - These secrets will be used in Actual to make the bank sync connection
+
+**Setup Config in Actual**  
+*You need to setup env variables or a config.js file before Actual can use the Nordigen integration.*
+- For fly.io you will need to add your Nordigen KEY and SECRET into the fly.toml file and then deploy. *Add the following lines and replace the xxxxx with your SECRET ID and SECRET KEY from what you generated in Nordigen.*
+    > flyctl secrets set ACTUAL_NORDIGEN_SECRET_ID=xxxxx  
+    flyctl secrets set ACTUAL_NORDIGEN_SECRET_KEY=xxxxx
+
+- For all other installs you need to add your Nordige KEY and SECRET to a config.json file in actual-server.  
+    >
+    {  
+        "nordigen": {  
+        "secretId": "xxxx",  
+        "secretKey": "xxxxx"  
+        }     
+    }
+    >
 
 
 **Add Nordigen sync to Actual**
