@@ -48,11 +48,12 @@ If you’re providing a custom frontend, make sure you provide an `index.html` i
 *config.js or env variables depending on how you are running Actual*
 
 **Nordigen**
-- For fly.io you will need to add your Nordigen KEY and SECRET into the fly.toml file and then deploy.  
-*Add the following line and replace the xxxxx with your SECRET ID and SECRET KEY from what you generated in Nordigen.*  
+- After you have updated your fly.io version or deployed a new version, you will need to add your Nordigen SECRET ID and KEY by running a flyctl command.  
+*Run the following command in your terminal application, making sure to replace xxxxx with your SECRET ID and KEY from what you generated in Nordigen.*  
     `flyctl secrets set ACTUAL_NORDIGEN_SECRET_ID=xxxxx ACTUAL_NORDIGEN_SECRET_KEY=xxxxx`
     
-- For all other installs you need to add your Nordige KEY and SECRET to a config.json file in actual-server.  
+- For all other installs you need to add your Nordigen SECRET KEY and ID to a config.json file in actual-server.
+*If you don't already have this file, you will need to create it and add the following lines replacing xxxxx with your SECRET ID and KEY.*
      
     `{  
         "nordigen": {  
