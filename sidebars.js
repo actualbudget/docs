@@ -31,7 +31,7 @@ const sidebars = {
       items: [
         {
           type: 'link',
-          label: 'Issue Board',
+          label: 'Open Issues',
           href: 'https://github.com/actualbudget/actual/issues',
         },
         'Developers/project-layout',

@@ -106,15 +106,9 @@ When using images, ensure that the image is large and clear, if the image contai
 
 The clearest way to highlight areas on a screenshot is the 'transparency' box.   
 
-On Mac:   
-- open the screenshot in preview
-- click the annotate icon
-- from the 'shape' selector, select the 'transparency' tool
+![](./static/img/repo/highlighting.png)
 
-![](/static/img/repo/highlighting.png)
-
-If this doesn't suffice (perhaps the area is too small for the box to be noticable), use an arrow or a colored box. 
-For consistencies sake, use a shade between *orange and yellow*. Other colors either do not work well with the purple colours of Actual (eg blue or green) and red is danger or in our case, a negative balance, double danger!
+If a transparency box isn't available in your image editor, use an arrow or a colored box with hex: `#d5805a` / rgb: `213, 128, 90` (an analogous shade of orange to Actual's purple). If it's not practical to be that precise, just pick one as close as you can.
 
 #### Generic Images and Directory Structures
 
