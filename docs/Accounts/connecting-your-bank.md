@@ -40,20 +40,8 @@ Nordigen
 
 **Setup Config in Actual**  
 *You need to setup env variables or a config.js file before Actual can use the Nordigen integration.*
-- For fly.io you will need to add your Nordigen KEY and SECRET into the fly.toml file and then deploy. *Add the following lines and replace the xxxxx with your SECRET ID and SECRET KEY from what you generated in Nordigen.*
-    > flyctl secrets set ACTUAL_NORDIGEN_SECRET_ID=xxxxx  
-    flyctl secrets set ACTUAL_NORDIGEN_SECRET_KEY=xxxxx
 
-- For all other installs you need to add your Nordige KEY and SECRET to a config.json file in actual-server.  
-    >
-    {  
-        "nordigen": {  
-        "secretId": "xxxx",  
-        "secretKey": "xxxxx"  
-        }     
-    }
-    >
-
+Follow the steps provided in the [Configuring the server section](https://actualbudget.github.io/docs/Installing/Configuration)
 
 **Add Nordigen sync to Actual**
 1. Add the link to your accounts in actual (Existing or New)
