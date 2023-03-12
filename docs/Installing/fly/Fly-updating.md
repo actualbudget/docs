@@ -8,7 +8,7 @@ title: 'Updating Actual'
 Failure to do this may result in budget loss.
 :::
 
-This section focuses on  the actual-server
+This section focuses on updating the actual-server
 
 Press the start menu or windows key on your keyboard and type **cmd**
 

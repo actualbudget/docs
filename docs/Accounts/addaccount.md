@@ -1,5 +1,5 @@
 ---
-title: 'Bank add-account'
+title: 'Bank Accounts'
 ---
 
 This page explains how to manage Bank Accounts within your Actual instance.
