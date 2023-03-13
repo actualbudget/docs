@@ -45,8 +45,12 @@ Follow the steps provided in the [Configuring the server section](https://actual
 
 **Add Nordigen sync to Actual**
 1. Add the link to your accounts in actual (Existing or New)
-    - For an exsisting account, click on that account and select the ... (kebab menu) in the top right and choose Link Account
+    - For an existing account, click on that account, select the ... (kebab menu) in the top right, and choose Link Account
     - To create a new account with bank syncing click on the '+ Add account' link in the left menu at the bottom and select the Link bank account button
 2. Select the Link Your Bank button
 3. Select your country from the list
 4. Select your bank from the list
+5. Clicking Link bank in browser will redirect you to a new tab to grant access to your bank for Nordigen.
+6. Select I agree to continue with setting up the connection
+7. If the connection is successfull, it will display that and you will click continue to select the account you want to link
+8. Clicking the link account button will create a connection that will allow you to sync your bank transactions
