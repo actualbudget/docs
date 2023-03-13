@@ -18,6 +18,9 @@ const expectedPath = `upcoming-release-notes/${process.env.PR_NUMBER}.md`;
 function reportError(message) {
   console.log(`::error::${message}`);
 
+  process.stdout.write('::notice::');
+  fs.createReadStream('upcoming-release-notes/README.md').pipe(process.stdout);
+
   fs.createReadStream('upcoming-release-notes/README.md')
     .pipe(fs.createWriteStream(process.env.GITHUB_STEP_SUMMARY))
     .on('close', () => {
