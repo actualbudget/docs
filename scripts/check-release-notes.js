@@ -6,7 +6,9 @@ const path = require('path');
 const childProcess = require('child_process');
 
 console.log('::group::Installing gray-matter');
-childProcess.execSync('npm install gray-matter', { stdio: 'inherit' });
+childProcess.execSync('rm package.json; npm install --no-save gray-matter', {
+  stdio: 'inherit',
+});
 console.log('::endgroup::');
 
 const matter = require('gray-matter');
