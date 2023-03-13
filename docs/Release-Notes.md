@@ -8,6 +8,7 @@ title: Release Notes
 
 The release has the following notable features:
 
+- Docker fix: don't make symlink
 - Various Nordigen bank-sync bugfixes
 
 ### Actual
