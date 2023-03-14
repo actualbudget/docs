@@ -191,7 +191,7 @@ const sidebars = {
                 'Accounts/Transactions/bulk-editing-transactions',
               ],
             },
-            unavailable('Connecting Your Bank'),
+            'Accounts/connecting-your-bank',
             'Accounts/payees',
             'Accounts/transfers',
           ],
