@@ -31,8 +31,8 @@ const sidebars = {
       items: [
         {
           type: 'link',
-          label: 'Issue Board',
-          href: 'https://github.com/orgs/actualbudget/projects/1',
+          label: 'Open Issues',
+          href: 'https://github.com/actualbudget/actual/issues',
         },
         'Developers/project-layout',
         'Developers/preview-builds',
@@ -270,7 +270,7 @@ const sidebars = {
           collapsed: true,
           items: [
             'Advanced/Experimental-Features/goal-templates',
-            unavailable('Report Budget'),
+            'Advanced/Experimental-Features/report-budget',
             'Accounts/connecting-your-bank',
           ],
         },
