@@ -50,7 +50,7 @@ Most likely, a common workflow will be to "hold" income you make this month for 
 
 3.  Press `Enter` to hold all available money, or enter a custom amount to hold.
 
-This doesn't do anything except takes out money from the **To Budget** amount for that month, allowing you to "zero it out" and mark it to be used for later. That money will appear in next month's **To Budget**. You can also just leave the **To Budget** amount alone.
+This doesn't do anything except takes out money from the **To Budget** amount for that month, allowing you to "zero it out" and mark it to be used for later. That money will appear in next month's **To Budget**. (insert more accurate description here?) You can also just leave the **To Budget** amount alone.
 
 It is possible to hold money multiple months ahead. If you do this, those dollars will be delay to be budgeted until the last month of the hold. If you need to use that money in the current month to cover over spending, use the **Reset Next Months Buffer** button to bring that money to the current month. This needs to be done for each month there is a hold.
 
