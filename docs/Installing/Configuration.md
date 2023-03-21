@@ -7,6 +7,24 @@ When it starts up, Actual looks for an optional `config.json` file in the same d
 ## `ACTUAL_CONFIG_PATH`
 
 This is the path to the config file. If not specified, the server will look for a `config.json` file in the same directory as the `package.json`. This can only be specified as an environment variable.
+ 
+  **WARNING** *if you use docker AND you expose the data folder, then you need to put the config.json in the data folder. See example below.*   
+
+docker-compose.yml
+```yml
+version: '3'
+services:
+  actual_server:
+    container_name: actual_server
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    ports:
+      - '5006:5006'
+    volumes:
+      -./data:/data/
+    restart: unless-stopped
+```
 
 ## `https`
 
@@ -61,23 +79,3 @@ If you’re providing a custom frontend, make sure you provide an `index.html` i
             "secretKey": "xxxxx"
         }
     }
- 
- 
- **WARNING** *if you use docker AND you expose the data folder, then you need to link the file using /data/config.json. See example below.*   
-
-docker-compose.yml
-```yml
-version: '3'
-services:
-  actual_server:
-    container_name: actual_server
-    build:
-      context: ./
-      dockerfile: Dockerfile
-    ports:
-      - '5006:5006'
-    volumes:
-      -./data:/data/
-      -./data/config.json:/data/config.json
-    restart: unless-stopped
-```
