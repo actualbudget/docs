@@ -22,7 +22,7 @@ In addition to our officially supported options listed above, some community mem
 
 :::caution
 
-Content contained on external links is not managed or maintained by the Actual Budget team, if you run into issues with instructions on a third party site, please contact the author in the first instance or ask in Discord where a member of the community may be able to help.
+Content contained on external links is not managed or maintained by the Actual Budget team, if you run into issues with instructions on a third party site, please contact the author in the first instance or ask in discord where a member of the community may be able to help.
 
 :::
 

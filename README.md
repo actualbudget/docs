@@ -14,12 +14,12 @@ Actual Budget can be installed on many different platforms, however at this time
 
 - Local Installation (on your own machine)
 - Fly.io
-- PikaPods 
+- PikaPods
 - Docker
 
 If you would like to write documentation for another installation variant, please feel free to continue to do this and host it on your own personal blog, medium, Tumblr or any other short form publication service and we will be more than happy to add a link to that from our documentation, open a [PR](https://github.com/actualbudget/docs/pulls) and add it to the list in the [installation overview](https://github.com/actualbudget/docs/blob/master/docs/Installing/overview.md).
 
-However, in doing so you would become responsible for these instructions, if they become out of date or people want in-depth help with them we will point them to you for assistance if the community is unable to help and if lots of people report issues with them we may have to remove the link altogether. 
+However, in doing so you would become responsible for these instructions, if they become out of date or people want in-depth help with them we will point them to you for assistance if the community is unable to help and if lots of people report issues with them we may have to remove the link altogether.
 
 ## Document Standards
 
@@ -63,6 +63,8 @@ website # the root directory of the documentation site
     └── Troubleshooting # Self explanatory title
         ...
 │
+└── static
+    └── img
 ```
 
 ### Document Frontmatter
@@ -95,9 +97,33 @@ Sub headings are used to split the document into meaningful "chapters" these are
 
 Each "chapter" can then be split into sub sections using three gate headings.
 
-`### When Using Images`
+### When Using Images
 
-When using images, ensure that the image is large and clear, if the image contains multiple items and buttons, highlight the area you are talking about or create arrows on the image to point to the part you are discussing. Where possible images should be saved as `PNG` format.
+> Screenshots taken on a retina screen should be titled as such: image-name@2x.png
+> This allows Docusaurus to rescale the images where appropriate. 
+
+When using images, ensure that the image is large and clear, if the image contains multiple items and buttons, highlight the area you are talking about (as shown below) or create arrows on the image to point to the part you are discussing. Where possible images should be saved as `PNG` format.
+
+The clearest way to highlight areas on a screenshot is the 'transparency' box.   
+
+![](./static/img/repo/highlighting.png)
+
+If a transparency box isn't available in your image editor, use an arrow or a colored box with hex: `#d5805a` / rgb: `213, 128, 90` (an analogous shade of orange to Actual's purple). If it's not practical to be that precise, just pick one as close as you can.
+
+#### Generic Images and Directory Structures
+
+In order to minimize the workload for adding images and make updating images easier, there's a directory containing regularly used images.   
+
+For example, many feature instructions may first require the user to navigate to a standard menu, eg 
+
+> "Click on 'Settings' in the sidebar"   
+> [inserted image of the settings button in the sidebar]
+
+In this case the relavent screenshot is found at `/static/img/elements/sidebar/sidebar-settings@2x.png`, along with all other possible menu selections in the sidebar. 
+
+If there's an image missing from any of the respective folders in `elements/`, feel free to add one yourself following the same naming scheme.
+
+All other screenshots for the page you are working on should be placed in the respective folder in the `img/` directory. eg, when working on a page titled 'cool-feature', images should be placed in the `static/img/cool-feature/` folder.
 
 ### Call Outs
 
@@ -184,3 +210,27 @@ $ GIT_USER=<Your GitHub username> yarn deploy
 ```
 
 If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+
+### Writing Good Release Notes
+
+Create a Markdown file in the `changelog-unreleased` directory of the repository you’re contributing to named after the PR number. The file should contain front matter with a `category` key (defining which header to put the entry under) and an `authors` key (defining the author of the entry). The body of the file should contain the changelog entry. Keep it short and clear — ideally one sentence, and also non-technical (unless the category is “Maintenance”). Copy-paste the template below to get started!
+
+```markdown
+---
+category: Features
+authors: [YourGitHubUsername]
+---
+
+Add option to include exchange rate multiplier during import
+```
+
+Valid categories:
+
+- `Features`: New features
+- `Enhancements`: Improvements to existing features
+- `Bugfix`: Bug fixes
+- `Maintenance`: Internal changes that don’t directly affect users
+
+The `authors` key should be an array with the GitHub usernames of the people who contributed to the PR. In most cases, this should just be you but you can add multiple people if needed.
+
+Try to phrase your message as a command, e.g. “Add option to include exchange rate multiplier during import” rather than “Added option to include exchange rate multiplier during import” or “Adds option to include exchange rate multiplier during import.” Generally your message should match the PR title, but you can change it if you think it’s more clear.
