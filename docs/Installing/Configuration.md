@@ -6,7 +6,9 @@ When it starts up, Actual looks for an optional `config.json` file in the same d
 
 ## `ACTUAL_CONFIG_PATH`
 
-This is the path to the config file. If not specified, the server will look for a `config.json` file in the same directory as the `package.json`. This can only be specified as an environment variable.
+This is the path to the config file. If not specified, the server will look for a `config.json` file either in the `/data` directory if it is present, or in the same directory as the `package.json` if `/data` is not present.
+
+You can’t specify this option in `config.json` since it needs to be used to find the `config.json` in the first place.
 
 ## `https`
 
@@ -43,3 +45,21 @@ The server will put all the budget files in this directory as binary blobs. If n
 (Advanced, most people will not need to configure this.) The server will serve the frontend from this directory. If not specified, the server will use the files in the `@actual-app/web` package that it has installed. (environment variable: `ACTUAL_WEB_ROOT`)
 
 If you’re providing a custom frontend, make sure you provide an `index.html` in the top level of the `webRoot` directory, which will be served from the `/` route.
+
+## `bank-sync`
+*config.js or env variables depending on how you are running Actual*
+
+**Nordigen**
+- After you have updated your fly.io version or deployed a new version, you will need to add your Nordigen SECRET ID and KEY by running a flyctl command.  
+*Run the following command in your terminal application, making sure to replace xxxxx with your SECRET ID and KEY from what you generated in Nordigen.*  
+    `flyctl secrets set ACTUAL_NORDIGEN_SECRET_ID=xxxxx ACTUAL_NORDIGEN_SECRET_KEY=xxxxx`
+    
+- For all other installs you need to add your Nordigen SECRET KEY and ID to a config.json file in actual-server.
+*If you don't already have this file, you will need to create it and add the following lines replacing xxxxx with your SECRET ID and KEY.*
+     
+    {
+        "nordigen": {
+            "secretId": "xxxx",
+            "secretKey": "xxxxx"
+        }
+    }
