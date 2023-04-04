@@ -4,6 +4,12 @@ title: Configuring the Server
 
 When it starts up, Actual looks for an optional `config.json` file in the same directory as its `package.json`. If present, any keys you define there will override the default values. All values can also be specified as environment variables, which will override the values in the `config.json` file.
 
+:::info
+
+Running into issues with your configuration not being interpreted correctly? Check out our documentation for [troubleshooting the server](/Troubleshooting/Server) for information on how to enable debug logging to track down the issue.
+
+:::
+
 ## `ACTUAL_CONFIG_PATH`
 
 This is the path to the config file. If not specified, the server will look for a `config.json` file either in the `/data` directory if it is present, or in the same directory as the `package.json` if `/data` is not present.
