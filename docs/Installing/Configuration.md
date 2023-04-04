@@ -52,20 +52,30 @@ The server will put all the budget files in this directory as binary blobs. If n
 
 If you’re providing a custom frontend, make sure you provide an `index.html` in the top level of the `webRoot` directory, which will be served from the `/` route.
 
-## `bank-sync`
-*config.js or env variables depending on how you are running Actual*
+## Bank syncing
 
-**Nordigen**
-- After you have updated your fly.io version or deployed a new version, you will need to add your Nordigen SECRET ID and KEY by running a flyctl command.  
-*Run the following command in your terminal application, making sure to replace xxxxx with your SECRET ID and KEY from what you generated in Nordigen.*  
-    `flyctl secrets set ACTUAL_NORDIGEN_SECRET_ID=xxxxx ACTUAL_NORDIGEN_SECRET_KEY=xxxxx`
-    
-- For all other installs you need to add your Nordigen SECRET KEY and ID to a config.json file in actual-server.
-*If you don't already have this file, you will need to create it and add the following lines replacing xxxxx with your SECRET ID and KEY.*
-     
-    {
-        "nordigen": {
-            "secretId": "xxxx",
-            "secretKey": "xxxxx"
-        }
-    }
+### Nordigen
+
+The `nordigen` key of the config file is used to configure syncing using Nordigen. It should be an object with two keys:
+
+- `secretId`: The ID of your Nordigen secret. (environment variable: `ACTUAL_NORDIGEN_SECRET_ID`)
+- `secretKey`: The key of your Nordigen secret. (environment variable: `ACTUAL_NORDIGEN_SECRET_KEY`)
+
+In the below examples, replace `xxxxx` with your secret ID / secret key.
+
+Example with the `config.json`:
+
+```json
+{
+  "nordigen": {
+    "secretId": "xxxxx",
+    "secretKey": "xxxxx"
+  }
+}
+```
+
+Example using environment variables on Fly.io:
+
+```sh
+flyctl secrets set ACTUAL_NORDIGEN_SECRET_ID=xxxxx ACTUAL_NORDIGEN_SECRET_KEY=xxxxx
+```
