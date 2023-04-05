@@ -35,7 +35,9 @@ A few global shortcuts:
 - `n` Set notes for selected transactions.
 - `c` Set category for selected transactions.
 - `l` Toggle cleared for current transaction.
-- The following require a transaction to have been selected before working.
+
+The following require a transaction to have been selected first:
+
 - `j/Down Arrow` Move to the next transaction down.
 - `k/Up Arrow` Move to the next transaction up.
 - `Space` Toggle selection of current transaction.
