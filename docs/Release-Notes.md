@@ -98,6 +98,32 @@ Version: 23.4.0
 - [#849](https://github.com/actualbudget/actual/pull/849) Update to latest stable `date-fns` version — thanks [j-f1]
 - [#861](https://github.com/actualbudget/actual/pull/861) Enable linting for all packages — thanks [j-f1]
 
+### Actual Server
+
+Version: 23.4.0
+
+#### Features
+
+- [#178](https://github.com/actualbudget/actual-server/pull/178) Add some optional logging to help troubleshoot configuration issues — thanks [j-f1]
+
+#### Enhancements
+
+- [#141](https://github.com/actualbudget/actual-server/pull/141) Make the official Docker images available for armv7 — thanks [jamesmortensen]
+- [#166](https://github.com/actualbudget/actual-server/pull/166) Expose sha256 hashes of account IBANs in Nordigen get-accounts and transactions endpoints — thanks [Jackenmen]
+- [#172](https://github.com/actualbudget/actual-server/pull/172) Changed budget file download endpoint to use less memory by using streams — thanks [Jackenmen]
+
+#### Bugfix
+
+- [#167](https://github.com/actualbudget/actual-server/pull/167) Fix config.json in a default location getting silently ignored when it contains syntax errors. — thanks [Jackenmen]
+
+#### Maintenance
+
+- [#150](https://github.com/actualbudget/actual-server/pull/150) Update `docker-compose.yml` to clarify proper usage in production — thanks [j-f1]
+- [#165](https://github.com/actualbudget/actual-server/pull/165) Add support for automatically generating release notes — thanks [j-f1]
+- [#168](https://github.com/actualbudget/actual-server/pull/168) Expose demo bank that can be used to test Nordigen bank-sync — thanks [MatissJanis]
+- [#171](https://github.com/actualbudget/actual-server/pull/171) Fix app-sync.test.js not being ran due to faulty jest configuration — thanks [Jackenmen]
+- [#175](https://github.com/actualbudget/actual-server/pull/175) Push Docker images to new `actualbudget` Docker Hub organization. — thanks [trevdor]
+
 ## 23.3.2
 
 **Docker tag: 23.3.2**
