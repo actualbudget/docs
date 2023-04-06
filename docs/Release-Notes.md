@@ -81,13 +81,13 @@ Version: 23.4.0
 - [#780](https://github.com/actualbudget/actual/pull/780) Add `waitFor` to a flaky unit test to make it more stable — thanks [MatissJanis]
 - [#781](https://github.com/actualbudget/actual/pull/781) Remove unused `tableNavigatorOpts` code-path — thanks [MatissJanis]
 - [#783](https://github.com/actualbudget/actual/pull/783) Remove a few unused class components, convert a few components to functions — thanks [j-f1]
-- [#784](https://github.com/actualbudget/actual/pull/784) Reafctor `Nordigen` and category Autocomplete to the new react-select component — thanks [MatissJanis]
-- [#786](https://github.com/actualbudget/actual/pull/786) Refactored all feature flgas to use the new `useFeatureFlag` hook — thanks [MatissJanis]
+- [#784](https://github.com/actualbudget/actual/pull/784) Refactor `Nordigen` and category Autocomplete to the new react-select component — thanks [MatissJanis]
+- [#786](https://github.com/actualbudget/actual/pull/786) Refactored all feature flags to use the new `useFeatureFlag` hook — thanks [MatissJanis]
 - [#789](https://github.com/actualbudget/actual/pull/789) Enable new autocomplete in dev/preview builds — thanks [MatissJanis]
 - [#790](https://github.com/actualbudget/actual/pull/790) Expose demo bank for easy bank-sync testing in dev and preview builds — thanks [MatissJanis]
 - [#795](https://github.com/actualbudget/actual/pull/795) Disable flaky unit test steps — thanks [MatissJanis]
 - [#800](https://github.com/actualbudget/actual/pull/800) Eliminate the `loot-design` package and move all of its code into `desktop-client` — thanks [j-f1]
-- [#803](https://github.com/actualbudget/actual/pull/803) Docs: remve Rich from core contributors — thanks [MatisJanis]
+- [#803](https://github.com/actualbudget/actual/pull/803) Docs: remove Rich from core contributors — thanks [MatissJanis]
 - [#806](https://github.com/actualbudget/actual/pull/806) Retry loading backend script in web-workers (for local dev server) — thanks [MatissJanis]
 - [#813](https://github.com/actualbudget/actual/pull/813) Added onboarding and budget e2e tests — thanks [MatissJanis]
 - [#816](https://github.com/actualbudget/actual/pull/816) Initial setup to allow Typescript migration — thanks [albertogasparin]
@@ -610,7 +610,9 @@ Version: 22.10.25
 - [#82](https://github.com/actualbudget/actual-server/pull/82) Build docker image on push to master or tag — thanks [trevdor]
 
 [7brend7]: https://github.com/7brend7
+[aharbis]: https://github.com/aharbis
 [ajtrichards]: https://github.com/ajtrichards
+[albertogasparin]: https://github.com/albertogasparin
 [andremralves]: https://github.com/andremralves
 [bdoherty]: https://github.com/bdoherty
 [brtwrst]: https://github.com/brtwrst
@@ -635,8 +637,11 @@ Version: 22.10.25
 [manuelcanepa]: https://github.com/manuelcanepa
 [MatissJanis]: https://github.com/MatissJanis
 [mnsrv]: https://github.com/mnsrv
+[modrzew]: https://github.com/modrzew
 [n1thun]: https://github.com/n1thun
+[ostat]: https://github.com/ostat
 [PartyLich]: https://github.com/PartyLich
+[pmamberti]: https://github.com/pmamberti
 [rianmcguire]: https://github.com/rianmcguire
 [rich-howell]: https://github.com/rich-howell
 [rickdoesdev]: https://github.com/rickdoesdev
@@ -649,5 +654,6 @@ Version: 22.10.25
 [UnexomWid]: https://github.com/UnexomWid
 [venkata-krishnas]: https://github.com/venkata-krishnas
 [vincentscode]: https://github.com/vincentscode
+[waseem-h]: https://github.com/waseem-h
 [winklevos]: https://github.com/winklevos
 [wmertens]: https://github.com/wmertens
