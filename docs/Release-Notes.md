@@ -8,7 +8,7 @@ title: Release Notes
 
 The release has the following notable features:
 
-- Rules: ability to construct "any"/"all" conditions
+- Rules can now optionally be applied when any of their conditions match (in addition to the existing option to apply when all of their conditions match)
 - Rules: quick-create option from the transaction table
 - Ability to hide decimal places for currencies with large numbers (in Settings → Formatting)
 - New autocomplete component (please report any bugs [here](https://github.com/actualbudget/actual/issues/773))
