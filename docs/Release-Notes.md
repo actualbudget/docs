@@ -6,6 +6,12 @@ title: Release Notes
 
 **Docker tag: 23.4.0**
 
+:::info
+
+Actual has now been moved to a stand-alone Docker organization. If you were previously using `jlongster/actual-server` docker image - please update it to `actualbudget/actual-server`.
+
+:::
+
 The release has the following notable features:
 
 - Rules can now optionally be applied when any of their conditions match (in addition to the existing option to apply when all of their conditions match)
