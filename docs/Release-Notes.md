@@ -4,7 +4,7 @@ title: Release Notes
 
 ## 23.4.0
 
-**Docker tag: 23.4.0*
+**Docker tag: 23.4.0**
 
 The release has the following notable features:
 
@@ -100,7 +100,7 @@ Version: 23.4.0
 
 ## 23.3.2
 
-**Docker tag: 23.3.2*
+**Docker tag: 23.3.2**
 
 The release has the following notable features:
 
@@ -146,7 +146,7 @@ Version: 23.3.2
 
 ## 23.3.1
 
-**Docker tag: 23.3.1*
+**Docker tag: 23.3.1**
 
 ### Actual Server
 
@@ -393,7 +393,7 @@ Version: 23.2.5
 - [#112](https://github.com/actualbudget/actual-server/pull/112) build(deps): bump moment from 2.29.3 to 2.29.4
 - [#117](https://github.com/actualbudget/actual-server/pull/117) build(deps): bump http-cache-semantics from 4.1.0 to 4.1.1
 - [#118](https://github.com/actualbudget/actual-server/pull/118) ⬆️ upgrade @actual-app/api to 4.1.6: node-fetch v2 support — thanks [MatissJanis]
-- [#119](https://github.com/actualbudget/actual-server/pull/119) ⬆️ upgrade express\*, bcrypt and body-parser — thanks [MatissJani]s
+- [#119](https://github.com/actualbudget/actual-server/pull/119) ⬆️ upgrade express\*, bcrypt and body-parser — thanks [MatissJanis]
 
 ## 23.1.12
 
