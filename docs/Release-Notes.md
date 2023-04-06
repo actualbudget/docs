@@ -11,7 +11,7 @@ The release has the following notable features:
 - Rules: ability to construct "any"/"all" conditions
 - Rules: quick-create option from the transaction table
 - Ability to hide decimal places for currencies with large numbers
-- New autocomplete component (report bugs [here](https://github.com/actualbudget/actual/issues/773))
+- New autocomplete component (please report any bugs [here](https://github.com/actualbudget/actual/issues/773))
 - Lots of smaller improvements and bugfixes
 
 ### Actual
