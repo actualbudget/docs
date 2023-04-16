@@ -2,8 +2,6 @@
 title: Release Notes
 ---
 
-#### Features
-
 ## 23.4.1
 
 **Docker tag: 23.4.1**
@@ -45,7 +43,6 @@ Version: 23.4.1
 ### Actual Server
 
 Version: 23.4.1
-
 
 #### Features
 
