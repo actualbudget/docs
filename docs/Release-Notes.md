@@ -217,7 +217,7 @@ Version: 23.3.2
 
 #### Features
 
-- [#162](https://github.com/actualbudget/actual-server/pull/162)  (nordigen) add status endpoint for checking status — thanks [MatissJanis]
+- [#162](https://github.com/actualbudget/actual-server/pull/162) (nordigen) add status endpoint for checking status — thanks [MatissJanis]
 
 #### Bugfix
 
