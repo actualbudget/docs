@@ -705,6 +705,7 @@ Version: 22.10.25
 [albertogasparin]: https://github.com/albertogasparin
 [andremralves]: https://github.com/andremralves
 [bdoherty]: https://github.com/bdoherty
+[biohzrddd]: https://github.com/biohzrddd
 [brtwrst]: https://github.com/brtwrst
 [carkom]: https://github.com/carkom
 [ciwchris]: https://github.com/ciwchris
@@ -716,6 +717,7 @@ Version: 22.10.25
 [gsumpster]: https://github.com/gsumpster
 [heilerich]: https://github.com/heilerich
 [iurynogueira]: https://github.com/iurynogueira
+[intiplink]: https://github.com/intiplink
 [j-f1]: https://github.com/j-f1
 [Jackenmen]: https://github.com/Jackenmen
 [jamesmortensen]: https://github.com/jamesmortensen
