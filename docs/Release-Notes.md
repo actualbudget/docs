@@ -766,6 +766,7 @@ Version: 22.10.25
 [ostat]: https://github.com/ostat
 [PartyLich]: https://github.com/PartyLich
 [pmamberti]: https://github.com/pmamberti
+[pole95]: https://github.com/pole95
 [rianmcguire]: https://github.com/rianmcguire
 [rich-howell]: https://github.com/rich-howell
 [rickdoesdev]: https://github.com/rickdoesdev
