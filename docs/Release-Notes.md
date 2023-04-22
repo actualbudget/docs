@@ -14,6 +14,10 @@ Version: 23.4.2
 
 - [#885](https://github.com/actualbudget/actual/pull/885) Add template keyword to budget according to named schedules — thanks [pole95]
 
+#### Enhancements
+
+- [#868](https://github.com/actualbudget/actual/pull/868) Improve sidebar auto-floating behavior — thanks [j-f1]
+
 #### Bugfix
 
 - [#915](https://github.com/actualbudget/actual/pull/915) Fix reconciling a budget with a zero value — thanks [j-f1]
