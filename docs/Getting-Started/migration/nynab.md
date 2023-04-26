@@ -64,6 +64,12 @@ The API key is only shown once, so make sure you copy it down somewhere! More in
 
 Now open a terminal window / command prompt, and enter:
 
+:::note
+
+If you receive an error message like: `Invoke-WebRequest : Cannot bind parameter 'Headers'`, this is because curl is probably aliased to the "Invoke-WebRequest" Powershell commandlet. Use `curl.exe` instead of just `curl` in the commands below to fix this.
+
+:::
+
 ```
 curl -H "Authorization: Bearer <ACCESS_TOKEN>" https://api.youneedabudget.com/v1/budgets
 ```
@@ -78,7 +84,7 @@ curl -H "Authorization: Bearer <ACCESS_TOKEN>" https://api.youneedabudget.com/v1
 
 For the importer to run, you will need nodejs installed. Details on doing that are too long for this README, but you can find details at https://nodejs.org/.
 
-Once you have nodejs installed, you'll need to get download this importer. If you're familiar with GitHub and Git then you probably have everything setup to easily clone this repository. If not, the easiest way to get this importer is to use the Code button and then use the Download ZIP file.
+Once you have nodejs installed, you'll need to download this importer. If you're familiar with GitHub and Git then you probably have everything setup to easily clone this repository. If not, the easiest way to get this importer is to use the Code button and then use the Download ZIP file.
 
 Once you have downloaded the zip file, unzip it on your computer to extract the files. Then in a terminal / command prompt, navigate into the directory and type the command:
 

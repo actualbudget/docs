@@ -2,6 +2,99 @@
 title: Release Notes
 ---
 
+## 23.4.2
+
+**Docker tag: 23.4.2**
+
+### Actual
+
+Version: 23.4.2
+
+#### Features
+
+- [#885](https://github.com/actualbudget/actual/pull/885) Add template keyword to budget according to named schedules — thanks [pole95]
+
+#### Enhancements
+
+- [#868](https://github.com/actualbudget/actual/pull/868) Improve sidebar auto-floating behavior — thanks [j-f1]
+
+#### Bugfix
+
+- [#915](https://github.com/actualbudget/actual/pull/915) Fix reconciling a budget with a zero value — thanks [j-f1]
+- [#926](https://github.com/actualbudget/actual/pull/926) Fix undo keyboard shortcut being ignored — thanks [j-f1]
+
+#### Maintenance
+
+- [#916](https://github.com/actualbudget/actual/pull/916) Remove `@jlongster/lively` dependency; refactor old autocomplete to not use it any more; disable new autocomplete — thanks [MatissJanis]
+- [#924](https://github.com/actualbudget/actual/pull/924) Remove `react-select` and the new autocomplete — thanks [MatissJanis]
+
+### Actual Server
+
+Version: 23.4.2
+
+#### Features
+
+- [#186](https://github.com/actualbudget/actual-server/pull/186) Add an `npm run reset-password` script to set or reset the server password. — thanks [j-f1]
+
+#### Enhancements
+
+- [#189](https://github.com/actualbudget/actual-server/pull/189) More clearly report the problem with Nordigen requests that fail with an unexpected status code — thanks [j-f1]
+
+## 23.4.1
+
+**Docker tag: 23.4.1**
+
+The release fixes a issue with creating rules from the transaction list.
+
+### Actual
+
+Version: 23.4.1
+
+#### Enhancements
+
+- [#860](https://github.com/actualbudget/actual/pull/860) Allow goal template 'by' matches to compound — thanks [shall0pass]
+- [#887](https://github.com/actualbudget/actual/pull/887) Mobile: unify "settings" page header with the style of "accounts" page — thanks [MatissJanis]
+- [#891](https://github.com/actualbudget/actual/pull/891) Goal template can now use single decimal places to define targets — thanks [shall0pass]
+- [#895](https://github.com/actualbudget/actual/pull/895) Improve error reporting for goal templates — thanks [shall0pass]
+- [#900](https://github.com/actualbudget/actual/pull/900) Add "Daily" option to scheduled transactions — thanks [biohzrddd]
+
+#### Bugfix
+
+- [#865](https://github.com/actualbudget/actual/pull/865) Fix case-insensitive matching of strings for uppercase letters from non-English alphabets — thanks [Jackenmen]
+- [#881](https://github.com/actualbudget/actual/pull/881) Autocomplete: do not show "create payee" option if the typed-in payee is an exact match of an existing payee — thanks [MatissJanis]
+- [#882](https://github.com/actualbudget/actual/pull/882) Fix rule creation from account page (transaction list) — thanks [MatissJanis]
+- [#883](https://github.com/actualbudget/actual/pull/883) Recognize numpad enter key as enter key — thanks [j-f1]
+- [#886](https://github.com/actualbudget/actual/pull/886) Fill category field when selecting 'Create rule' from accounts screen — thanks [shall0pass]
+- [#902](https://github.com/actualbudget/actual/pull/902) Remove currently viewed account from list of possible transfer accounts — thanks [biohzrddd]
+
+#### Maintenance
+
+- [#864](https://github.com/actualbudget/actual/pull/864) Don’t check for release notes on `release/*` branches — thanks [j-f1]
+- [#869](https://github.com/actualbudget/actual/pull/869) Disable ESLint when building in CI (since we have a separate linting job) — thanks [j-f1]
+- [#870](https://github.com/actualbudget/actual/pull/870) Remove duplicate migration and default-db.sqlite files — thanks [j-f1]
+- [#877](https://github.com/actualbudget/actual/pull/877) Convert most CommonJS imports/exports to ESM — thanks [albertogasparin]
+- [#884](https://github.com/actualbudget/actual/pull/884) Update `@typescript-eslint/*` packages to their latest versions — thanks [j-f1]
+- [#889](https://github.com/actualbudget/actual/pull/889) Convert few other folders in `loot-core` to Typescript — thanks [albertogasparin]
+- [#890](https://github.com/actualbudget/actual/pull/890) Add a CodeQL workflow to automatically scan for potential security issues — thanks [j-f1]
+- [#893](https://github.com/actualbudget/actual/pull/893) Remove usage of `realpath` command in build script — thanks [j-f1]
+
+### Actual Server
+
+Version: 23.4.1
+
+#### Features
+
+- [#182](https://github.com/actualbudget/actual-server/pull/182) Add support for armv6l (Alpine-based images only) — thanks [intiplink]
+
+#### Enhancements
+
+- [#187](https://github.com/actualbudget/actual-server/pull/187) Add rate limiting to all server requests — thanks [j-f1]
+
+#### Maintenance
+
+- [#181](https://github.com/actualbudget/actual-server/pull/181) Don’t check for release notes on `release/*` branches — thanks [j-f1]
+- [#185](https://github.com/actualbudget/actual-server/pull/185) Use the proper Typescript Babel preset — thanks [albertogasparin]
+
 ## 23.4.0
 
 **Docker tag: 23.4.0**
@@ -162,7 +255,7 @@ Version: 23.3.2
 
 #### Features
 
-- [#162](https://github.com/actualbudget/actual-server/pull/162)  (nordigen) add status endpoint for checking status — thanks [MatissJanis]
+- [#162](https://github.com/actualbudget/actual-server/pull/162) (nordigen) add status endpoint for checking status — thanks [MatissJanis]
 
 #### Bugfix
 
@@ -647,6 +740,7 @@ Version: 22.10.25
 [albertogasparin]: https://github.com/albertogasparin
 [andremralves]: https://github.com/andremralves
 [bdoherty]: https://github.com/bdoherty
+[biohzrddd]: https://github.com/biohzrddd
 [brtwrst]: https://github.com/brtwrst
 [carkom]: https://github.com/carkom
 [ciwchris]: https://github.com/ciwchris
@@ -658,6 +752,7 @@ Version: 22.10.25
 [gsumpster]: https://github.com/gsumpster
 [heilerich]: https://github.com/heilerich
 [iurynogueira]: https://github.com/iurynogueira
+[intiplink]: https://github.com/intiplink
 [j-f1]: https://github.com/j-f1
 [Jackenmen]: https://github.com/Jackenmen
 [jamesmortensen]: https://github.com/jamesmortensen
@@ -675,6 +770,7 @@ Version: 22.10.25
 [ostat]: https://github.com/ostat
 [PartyLich]: https://github.com/PartyLich
 [pmamberti]: https://github.com/pmamberti
+[pole95]: https://github.com/pole95
 [rianmcguire]: https://github.com/rianmcguire
 [rich-howell]: https://github.com/rich-howell
 [rickdoesdev]: https://github.com/rickdoesdev
