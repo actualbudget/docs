@@ -37,6 +37,7 @@ You are welcome to have other lines in your note, but the #template line must ma
 
 ### Notes
 
+- Templates will not budget more funds than you have available. A warning will be given signaling insufficient funds.
 - $ sign is optional, `#template $50` and `#template 50` are the same.
 - Other currency symbols are not supported.
 - Number formats that use comma for the decimal separator are not supported (eg, 123,45). You must use 123.45.
@@ -69,12 +70,19 @@ For examples:
     #template $10 repeat every 2 weeks starting 2022-01-04
     #template $100
 
+### Template Priorities
+Templates can be given a priority flag to change the order that the templates get applied to your budget.  Set a priority by adding `-X` to the `#template` flag.  EX `#template-4` will be priority level 4.
+
+#### Notes
+- Default template application order is bottom to top.  This also applies to within a given priority level.
+- Lower priority values get run first. EX 0 is run first, then 1, then 2, etc.
+- No priority flag defaults to priority 0.
+- Negative priorities are not allowed and will result in the template being skipped.
+
 ## Apply the templates
 
-To apply the goal templates you create, enable the feature in the Settings experimental section. When the feature is on, two new options will appear in the monthly budget actions list.
+To apply the goal templates you create, enable the feature in the Settings experimental section. When the feature is on, a new option will appear in the monthly budget actions list.
 
 ![](/img/goal-template/goal-template-2.png)
 
-**Apply budget template** will only fill empty cells using the templates.
-
-**Overwrite with budget template** will fill in all budget cells using the templates.
+**Apply budget template** will apply all valid templates.  This overwrites any budgeted amounts for the given month.
