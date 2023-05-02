@@ -37,14 +37,16 @@ You are welcome to have other lines in your note, but the #template line must ma
 
 ### Notes
 
-- Templates will not budget more funds than you have available. A warning will be given signaling insufficient funds.
 - $ sign is optional, `#template $50` and `#template 50` are the same.
 - Other currency symbols are not supported.
+
 - Number formats that use comma for the decimal separator are not supported (eg, 123,45). You must use 123.45.
 - Thousands separators are not supported (eg, 1,234). You must use 1234.
 - {SCHEDULE NAME} is defined in the **Schedules** editor.
+- By default templates do not consider avaiable funds when being applied.  Use template priorites to not budget more than is available.
 
 ### Multiple Template Lines
+
 
 You can add multiple `#template` lines for a single category note.  Each line will be added together.
 
@@ -52,11 +54,13 @@ For examples:
 
 **Budget $200/month for 3 months and $400/month for the next 3 months**
 
+
     #template $600 by 2021-03 repeat every 6 months
 
     #template $1200 by 2021-06 repeat every 6 months
 
 **Streaming Services: $42.97**
+
 
     Netflix
     #template $24.99
@@ -64,6 +68,7 @@ For examples:
     #template $9.99
     Amazon Prime
     #template $7.99
+    
 
 **$120 in February 2022, $130 in March 2022**
 
@@ -71,18 +76,21 @@ For examples:
     #template $100
 
 ### Template Priorities
-Templates can be given a priority flag to change the order that the templates get applied to your budget.  Set a priority by adding `-X` to the `#template` flag.  EX `#template-4` will be priority level 4.
+Templates can be given a priority flag to change the order that the templates get applied to your budget.  Set a priority by adding `-X` to the `#template` flag.  EX `#template-4` will be priority level 4.  Any template with a priority other than 0 will not apply more funds then are available.
 
 #### Notes
-- Default template application order is bottom to top.  This also applies to within a given priority level.
 - Lower priority values get run first. EX 0 is run first, then 1, then 2, etc.
-- No priority flag defaults to priority 0.
+- No priority flag defaults to priority 0 and is the same as a standart template.
 - Negative priorities are not allowed and will result in the template being skipped.
+- Default template application order is bottom to top.  This also applies to within a given priority level.
+- If you have multiple `schedule` or `by` template lines in a single category, they will be forced to match the same priority level as the line run first.
 
 ## Apply the templates
 
-To apply the goal templates you create, enable the feature in the Settings experimental section. When the feature is on, a new option will appear in the monthly budget actions list.
+To apply the goal templates you create, enable the feature in the Settings experimental section. When the feature is on, two new options will appear in the monthly budget actions list.
 
 ![](/img/goal-template/goal-template-2.png)
 
-**Apply budget template** will apply all valid templates.  This overwrites any budgeted amounts for the given month.
+**Apply budget template** will only fill empty cells using the templates.
+
+**Overwrite with budget template** will fill in all budget cells using the templates.
