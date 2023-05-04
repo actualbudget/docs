@@ -47,7 +47,7 @@ Version: 23.5.0
 - [#896](https://github.com/actualbudget/actual/pull/896) Convert few more folders in `loot-core` to Typescript — thanks [albertogasparin]
 - [#931](https://github.com/actualbudget/actual/pull/931) Cleaning up state management in autocomplete — thanks [MatissJanis]
 - [#932](https://github.com/actualbudget/actual/pull/932) Improving e2e test stability — thanks [MatissJanis]
-- [#934](https://github.com/actualbudget/actual/pull/934) Move from deprecated peg.js to Peggy for Goal template parser. — thanks [Sinistersnare]
+- [#934](https://github.com/actualbudget/actual/pull/934) Move from deprecated peg.js to Peggy for Goal template parser. — thanks [sinistersnare]
 - [#945](https://github.com/actualbudget/actual/pull/945) Autocomplete: upgrade `Downshift` dependency — thanks [MatissJanis]
 - [#954](https://github.com/actualbudget/actual/pull/954) Automatically close feature request issues so the open issue list can focus on bugs — thanks [MatissJanis]
 - [#957](https://github.com/actualbudget/actual/pull/957) Finish converting `loot-core` to Typescript — thanks [albertogasparin]
@@ -66,7 +66,7 @@ Version: 23.5.0
 
 #### Features
 
-- [#194](https://github.com/actualbudget/actual-server/pull/194) Adds support for setting and getting secrets in actual-server. Additionally the secrets can be set from client using api. — thanks [Henrikmaa]
+- [#194](https://github.com/actualbudget/actual-server/pull/194) Adds support for setting and getting secrets in actual-server. Additionally the secrets can be set from client using api. — thanks [henrikmaa]
 
 #### Enhancements
 
