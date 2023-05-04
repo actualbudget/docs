@@ -66,7 +66,7 @@ Version: 23.5.0
 
 #### Features
 
-- [#194](https://github.com/actualbudget/actual-server/pull/194) Adds support for setting and getting secrets in actual-server. Additionally the secrets can be set from client using api. — thanks [Henrikmaa]
+- [#194](https://github.com/actualbudget/actual-server/pull/194) Adds support for setting and getting secrets in actual-server. Additionally the secrets can be set from client using api. — thanks [henrikmaa]
 
 #### Enhancements
 
