@@ -864,3 +864,7 @@ Version: 22.10.25
 [waseem-h]: https://github.com/waseem-h
 [winklevos]: https://github.com/winklevos
 [wmertens]: https://github.com/wmertens
+[sinistersnare]: https://github.com/sinistersnare 
+[henrikmaa]: https://github.com/henrikmaa 
+[youngcw]: https://github.com/youngcw 
+[aaroneiche]: https://github.com/aaroneiche
