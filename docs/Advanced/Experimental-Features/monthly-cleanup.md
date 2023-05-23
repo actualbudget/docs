@@ -36,6 +36,23 @@ The feature works sequentially in the following manner after pressing the **End 
     * A category that has the **Rollover Overspending** option enabled will be ignored.
 3.  Any `#cleanup sink` entries will be found and redistribute the remaining **To Budget** amounts based on the weight given.
 
+## Calculating the weights of 'sink' categories
+
+The sum of the weights of the `sink` categories are used to determine the amount that will be used when applying the **To Budget** amount to each.
+Suppose there are 5 categories that are identified as `sink` categories with the following syntax:
+* Category 1: `#cleanup sink`
+* Category 2: `#cleanup sink`
+* Category 3: `#cleanup sink 2`
+* Category 4: `#cleanup sink 2`
+* Category 5: `#cleanup sink 4`
+
+The sum of the weights are `1 + 1 + 2 + 2 + 4 = 10`
+
+The result will be:
+* Categories 1 and 2 will receive `1 / 10` or 10% of the **To Budget** amount
+* Categories 3 and 4 will receive `2 / 10` or 20% of the **To Budget** amount
+* Category 5 will receive `4 / 10` or 40% of the **To Budget** amount
+
 ## Examples
 
 **I leave money in my To Budget balance all month, can this help cover my overspending?**
