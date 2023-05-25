@@ -38,7 +38,7 @@ You are welcome to have other lines in your note, but the #template line must ma
 |#template 10% of Income|Budget 10% of the Income category|
 |#template 15% of all income|Budget 15% of all income categories|
 |#template schedule {SCHEDULE NAME}|Fund upcoming scheduled transactions over time|Monthly schedules, or larger non-monthly scheduled transacions|
-|#template schedule full {SCHEDULE NAME}|Fund upcomding scheduled transaction only on needed month| Small schedules that are non-monthly|
+|#template schedule full {SCHEDULE NAME}|Fund upcoming scheduled transaction only on needed month| Small schedules that are non-monthly|
 
 ### Notes
 
