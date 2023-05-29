@@ -34,6 +34,7 @@ const sidebars = {
           label: 'Open Issues',
           href: 'https://github.com/actualbudget/actual/issues',
         },
+        'Developers/contributing',
         'Developers/project-layout',
         'Developers/preview-builds',
         'Developers/releasing',
