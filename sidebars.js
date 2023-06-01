@@ -127,6 +127,7 @@ const sidebars = {
               label: 'Migrating From Other Apps',
               collapsible: false,
               items: [
+                'Getting-Started/migration/actual-import',
                 'Getting-Started/migration/ynab4',
                 'Getting-Started/migration/nynab',
               ],
@@ -265,6 +266,7 @@ const sidebars = {
           collapsed: true,
           items: [
             'Advanced/Experimental-Features/goal-templates',
+            'Advanced/Experimental-Features/monthly-cleanup',
             'Advanced/Experimental-Features/report-budget',
             'Accounts/connecting-your-bank',
           ],
