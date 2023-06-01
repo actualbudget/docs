@@ -76,6 +76,7 @@ Version: 23.6.0
 #### Maintenance
 
 - [#204](https://github.com/actualbudget/actual-server/pull/204) Fix build process for edge Docker images — thanks [j-f1]
+- [#208](https://github.com/actualbudget/actual-server/pull/208) Migrate to the combined release notes action from the main repo — thanks [j-f1]
 
 ## 23.5.0
 
