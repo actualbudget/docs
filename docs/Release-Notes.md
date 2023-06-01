@@ -2,6 +2,24 @@
 title: Release Notes
 ---
 
+## 23.6.0
+
+**Docker tag: 23.6.0**
+
+### Actual
+
+Version: 23.6.0
+
+TBD
+
+### Actual Server
+
+Version: 23.6.0
+
+#### Maintenance
+
+- [#204](https://github.com/actualbudget/actual-server/pull/204) Fix build process for edge Docker images — thanks [j-f1]
+
 ## 23.5.0
 
 **Docker tag: 23.5.0**
@@ -17,7 +35,7 @@ Version: 23.5.0
 #### Enhancements
 
 - [#858](https://github.com/actualbudget/actual/pull/858) Goals: Added support for percentage driven targets — thanks [shall0pass]
-- [#879](https://github.com/actualbudget/actual/pull/879) Goal templates: Changed how compounding 'by' matches are filled.  Now uses an average across templates. — thanks [shall0pass]
+- [#879](https://github.com/actualbudget/actual/pull/879) Goal templates: Changed how compounding 'by' matches are filled. Now uses an average across templates. — thanks [shall0pass]
 - [#910](https://github.com/actualbudget/actual/pull/910) Add setting to change first day of the week — thanks [biohzrddd]
 - [#919](https://github.com/actualbudget/actual/pull/919) Show pending transactions from Nordigen in transactions table — thanks [henrikmaa]
 - [#933](https://github.com/actualbudget/actual/pull/933) Autocomplete: set min-width for the tooltip — thanks [MatissJanis]
@@ -60,7 +78,7 @@ Version: 23.5.0
 - [#982](https://github.com/actualbudget/actual/pull/982) Run feature-request management github action only once and for the "feature" label only (not for other labels) — thanks [MatissJanis]
 - [#985](https://github.com/actualbudget/actual/pull/985) Remove unused payee rules feature — thanks [j-f1]
 
-### Actual Server 
+### Actual Server
 
 Version: 23.5.0
 
@@ -864,7 +882,7 @@ Version: 22.10.25
 [waseem-h]: https://github.com/waseem-h
 [winklevos]: https://github.com/winklevos
 [wmertens]: https://github.com/wmertens
-[sinistersnare]: https://github.com/sinistersnare 
-[henrikmaa]: https://github.com/henrikmaa 
-[youngcw]: https://github.com/youngcw 
+[sinistersnare]: https://github.com/sinistersnare
+[henrikmaa]: https://github.com/henrikmaa
+[youngcw]: https://github.com/youngcw
 [aaroneiche]: https://github.com/aaroneiche
