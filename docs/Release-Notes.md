@@ -12,17 +12,17 @@ Version: 23.6.0
 
 #### Features
 
-- [#1023](https://github.com/actualbudget/actual/pull/1023) Created development docker container — thanks [jonezy35]
+- [#994](https://github.com/actualbudget/actual/pull/994) Reports: ability to filter the data by payee/account/category/etc. — thanks [MatissJanis]
 - [#1060](https://github.com/actualbudget/actual/pull/1060) Added the ability to hide category groups while keeping them in the same category group. — thanks [Miodec]
+- [#1011](https://github.com/actualbudget/actual/pull/1011) Add ability to filter the Manage Payees screen to show orphaned payees only. — thanks [sudoCerb]
 
 #### Enhancements
 
 - [#964](https://github.com/actualbudget/actual/pull/964) Introduces a ResponsiveProvider as a foundation for future mobile development. Makes transaction entry available to many mobile users in landscape orientation. — thanks [trevdor]
-- [#994](https://github.com/actualbudget/actual/pull/994) Reports: ability to filter the data by payee/account/category/etc. — thanks [MatissJanis]
 - [#995](https://github.com/actualbudget/actual/pull/995) Number Format: Add a new option (space-dot) e.g. "1 234.56" — thanks [TheTrueCaligari]
 - [#1004](https://github.com/actualbudget/actual/pull/1004) Add option to not remove funds when using an "up to" goal template. — thanks [youngcw]
-- [#1011](https://github.com/actualbudget/actual/pull/1011) Add ability to filter the Manage Payees screen to show orphaned payees only. — thanks [sudoCerb]
 - [#1016](https://github.com/actualbudget/actual/pull/1016) Add menu item and keywords for end-of-month budget reassignments — thanks [shall0pass]
+- [#1023](https://github.com/actualbudget/actual/pull/1023) Created development docker container — thanks [jonezy35]
 - [#1029](https://github.com/actualbudget/actual/pull/1029) Make number parsing agnostic to decimal and thousands separators — thanks [chylex]
 - [#1034](https://github.com/actualbudget/actual/pull/1034) Updated account order inside the account autocomplete popup to: On Budget, Off Budget, Closed Accounts. Removed closed accounts from suggestions when creating a new transaction. — thanks [Miodec]
 - [#1052](https://github.com/actualbudget/actual/pull/1052) Templates: Add option to only apply schedule template to the month of the schedule instead of spreading out the charge. — thanks [youngcw]
