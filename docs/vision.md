@@ -17,23 +17,24 @@ Some of the things that make Actual Budget stand out from the rest include;
 * Local-first
 * Open (you own your data; you can do whatever you want with it)
 * Sleek, clutter-free UI
-* Simple to use for beginners; with progressive discoverability for advanced users (rules, schedules, possibly running local queries against the transaction table, custom reports, etc.)
-stable, reliable, secure
+* Simple to use for beginners; with progressive discoverability for advanced users (rules, schedules, and more to come)
+* stable, reliable, secure
 * Privacy in mind (no tracking, no 3rd parties unless explicitly enabled)
 * Community driven
 
 ### Mobile
 
-One of the biggest questions we get asked is do you have a plan for Mobile, the answer to that is yes however it is slightly more complicated than that, when the community took over the project the apps were signed by James he had the Apple developer accounts there was plenty of tooling that we didn't have the skills, knowledge of funding to keep up and running so quite early on a decision was made to retire the native Actual Budget apps for the closed source version of Actual Budget and replace them with a responsive version of the web application. 
+The closed-source app provided mobile apps for Android and iOS using some tools that are no longer being maintained. Additionally, publishing apps to mobile app stores is expensive, slow, and can require lots of effort to meet platform owners’ guidelines.
 
-The strategy for mobile is currently being tracked, [here](https://github.com/actualbudget/actual/issues/804) at the moment you can only use this to read your budget, there is no write but that is something we as working on but no time frame is attached to that. 
+Instead, Actual Budget will focus on developing an excellent web experience by combining the underlying technology and some UI components from the desktop version with some components maintained separately for mobile and desktop where there need to be significant differences in presentation. For more details, [see our dedicated mobile strategy issue](https://github.com/actualbudget/actual/issues/804).
 
 ### The Future
 
-Some of the things we would like to include into Actual Budget in the future include, but are not limited to
+Some of the high-level features we would like to add to Actual Budget in the future include:
 
 * Goal templates moved to the UI.
 * Mobile transaction entry.
-* Nordigen no longer experimental.
+* Implementing and testing syncing providers other than Nordigen
+* Enabling support for Nordigen and other syncing providers by default
 * Darkmode.
 * custom reports.
