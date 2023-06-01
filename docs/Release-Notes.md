@@ -943,3 +943,10 @@ Version: 22.10.25
 [henrikmaa]: https://github.com/henrikmaa
 [youngcw]: https://github.com/youngcw
 [aaroneiche]: https://github.com/aaroneiche
+[jonezy35]: https://github.com/jonezy35
+[Miodec]: https://github.com/Miodec
+[TheTrueCaligari]: https://github.com/TheTrueCaligari
+[sudoCerb]: https://github.com/sudoCerb
+[chylex]: https://github.com/chylex
+[fry]: https://github.com/fry
+[Shazib]: https://github.com/Shazib
