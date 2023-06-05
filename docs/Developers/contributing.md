@@ -5,7 +5,7 @@ title: Contributing to Actual Budget
 So, you want to get stuck in an help out with existing issues in Actual Budget or develop a feature of your own, that is great and we really appreciate that. 
 We have created this document to signpost you to some of the key areas that will be of interest when developing for Actual Budget. 
 
-As always, if you need any help, want something clarifying, jump into the Discord and we will try our best to help you out. 
+As always, if you need any help or want something clarified, jump into the Discord and we will try our best to help you out. 
 
 ### The Project Layout
 
