@@ -18,7 +18,7 @@ Some of the things that make Actual Budget stand out from the rest include;
 * Open (you own your data; you can do whatever you want with it)
 * Sleek, clutter-free UI
 * Simple to use for beginners; with progressive discoverability for advanced users (rules, schedules, and more to come)
-* stable, reliable, secure
+* Stable, reliable, secure
 * Privacy in mind (no tracking, no 3rd parties unless explicitly enabled)
 * Community driven
 
