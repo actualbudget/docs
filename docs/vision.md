@@ -24,7 +24,7 @@ Some of the things that make Actual Budget stand out from the rest include;
 
 ### Mobile
 
-The closed-source app provided mobile apps for Android and iOS using some tools that are no longer being maintained. Additionally, publishing apps to mobile app stores is expensive, slow, and can require lots of effort to meet platform owners’ guidelines.
+The current strategy for Actual is to provide a mobile-friendly, responsive website. We do not intend to publish a native app as it is expensive to build and maintain feature parity between the various versions and operating systems. Thus we are fully focusing on a single product.
 
 Instead, Actual Budget will focus on developing an excellent web experience by combining the underlying technology and some UI components from the desktop version with some components maintained separately for mobile and desktop where there need to be significant differences in presentation. For more details, [see our dedicated mobile strategy issue](https://github.com/actualbudget/actual/issues/804).
 
