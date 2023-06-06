@@ -38,3 +38,4 @@ Some of the high-level features we would like to add to Actual Budget in the fut
 * Enabling support for Nordigen and other syncing providers by default
 * Darkmode.
 * custom reports.
+* and more
