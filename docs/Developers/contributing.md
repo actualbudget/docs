@@ -7,15 +7,44 @@ We have created this document to signpost you to some of the key areas that will
 
 As always, if you need any help or want something clarified, jump into the Discord and we will try our best to help you out. 
 
+### Expectations
+
+For smaller improvements or features - feel free to submit a PR or an issue if you don't have the necessary skills to build it yourself. For larger features we would recommend first opening an issue to discuss it with the team.
+
+We aren't going to take every single little change. Don't be offended if we close your PR. In order for the project to stay healthy, we need to guard our bandwidth and also only take changes that align with Actual.
+
+Here are some initial guidelines for how contributions will be treated:
+
+* The mental health of the maintainers will be prioritized above all else. If this means some things get lost and PRs are unreviewed because maintainers are spending time with family or on themselves, we celebrate that.
+
+* Multiple maintainers are key to this being a healthy project. Currently a few people have maintainer rights (see list below). We are actively looking for more people to come on as maintainers. If nobody steps up, expect less activity on this project.
+
+* An open PR does not automatically deserve time for a full review and acceptance. It's up to the PR author to convince the maintainers that the change is good and worth reviewing. This involves a clear description for why the the change is being made, detailing the tradeoffs.
+
+* We especially welcome improvements in automation: creating github actions to automatically generate builds, making the release process easier, etc.
+
+### Main Contributors
+
+(sorted alphabetically)
+
+[albertogasparin]
+[j-f1]
+[jlongster]
+[MatissJanis]
+[rich-howell]
+[trevdor]
+
 ### The Project Layout
 
-The layout of the codebase in Actual Budget takes a bit of getting used to and finding things at first can be a little tricky, we have put together a help document that shows the structure of the project, while this isn't 100% complete it will give you a good starting point for your development. 
+The layout of the codebase in Actual Budget takes a bit of getting used to and finding things at first can be a little tricky, we have put together a help [document](/Developers/project-layout) that shows the structure of the project, while this isn't 100% complete it will give you a good starting point for your development. 
 
 ### Working on existing issues
 
-Existing issues are a good place to start especially if you are a first time contributor to Actual Budget, we have some issues labelled `good first issue` which are perfect for people who want to have a go at contributing. 
+Existing issues are a good place to start especially if you want to contribute to Actual Budget but don't know where to start, some of the things to be aware of are;
 
-If you are more familiar with Actual Budget, the `help wanted` label should point you in the right direction of some of the issues we need help with. 
+1. All issues are open to be worked on by anyone
+2. Working on the highest rated [feature requests](https://github.com/actualbudget/actual/issues?q=label%3A%22needs+votes%22+sort%3Areactions-%2B1-desc+) would also be appreciated.
+3. We do not assign issues to specific people
 
 ### Submitting an idea for something you want to work on
 
@@ -51,3 +80,60 @@ Actual Budget was designed to be sleek, clean and clutter free, by default there
 The settings screen needs to also remain a place where core settings lives, we don't really want to have a myriad of options in here for each and every setting within the UI, doing that makes the code un-managable for future contributors and clutters up and confuses things for the users of Actual Budget. 
 
 ### Examples of pull request that will get rejected 
+
+[7brend7]: https://github.com/7brend7
+[aharbis]: https://github.com/aharbis
+[ajtrichards]: https://github.com/ajtrichards
+[albertogasparin]: https://github.com/albertogasparin
+[andremralves]: https://github.com/andremralves
+[bdoherty]: https://github.com/bdoherty
+[biohzrddd]: https://github.com/biohzrddd
+[brtwrst]: https://github.com/brtwrst
+[carkom]: https://github.com/carkom
+[ciwchris]: https://github.com/ciwchris
+[coliff]: https://github.com/coliff
+[eberureon]: https://github.com/eberureon
+[ejmurra]: https://github.com/ejmurra
+[ezfe]: https://github.com/ezfe
+[fstybel]: https://github.com/fstybel
+[gsumpster]: https://github.com/gsumpster
+[heilerich]: https://github.com/heilerich
+[iurynogueira]: https://github.com/iurynogueira
+[intiplink]: https://github.com/intiplink
+[j-f1]: https://github.com/j-f1
+[Jackenmen]: https://github.com/Jackenmen
+[jamesmortensen]: https://github.com/jamesmortensen
+[JazzaG]: https://github.com/JazzaG
+[jlongster]: https://github.com/jlongster
+[Kk-ships]: https://github.com/Kk-ships
+[Kovah]: https://github.com/Kovah
+[ldotlopez]: https://github.com/ldotlopez
+[m3nu]: https://github.com/m3nu
+[manuelcanepa]: https://github.com/manuelcanepa
+[MatissJanis]: https://github.com/MatissJanis
+[mnsrv]: https://github.com/mnsrv
+[modrzew]: https://github.com/modrzew
+[n1thun]: https://github.com/n1thun
+[ostat]: https://github.com/ostat
+[PartyLich]: https://github.com/PartyLich
+[pmamberti]: https://github.com/pmamberti
+[pole95]: https://github.com/pole95
+[rianmcguire]: https://github.com/rianmcguire
+[rich-howell]: https://github.com/rich-howell
+[rickdoesdev]: https://github.com/rickdoesdev
+[S3B4S]: https://github.com/S3B4S
+[shall0pass]: https://github.com/shall0pass
+[Silvenga]: https://github.com/Silvenga
+[suryaatevellore]: https://github.com/suryaatevellore
+[TomAFrench]: https://github.com/TomAFrench
+[trevdor]: https://github.com/trevdor
+[UnexomWid]: https://github.com/UnexomWid
+[venkata-krishnas]: https://github.com/venkata-krishnas
+[vincentscode]: https://github.com/vincentscode
+[waseem-h]: https://github.com/waseem-h
+[winklevos]: https://github.com/winklevos
+[wmertens]: https://github.com/wmertens
+[sinistersnare]: https://github.com/sinistersnare 
+[henrikmaa]: https://github.com/henrikmaa 
+[youngcw]: https://github.com/youngcw 
+[aaroneiche]: https://github.com/aaroneiche
