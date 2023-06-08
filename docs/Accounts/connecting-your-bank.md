@@ -53,11 +53,7 @@ Nordigen
 
 ![](/static/img/connecting-your-bank/connecting-your-bank-nordigen-04.png)
 
-### Setup Config files in Actual
-
-_You need to setup env variables or a config.js file before Actual can use the Nordigen integration._
-
-Follow the steps provided in the [Configuring the server section](https://actualbudget.github.io/docs/Installing/Configuration)
+6. Back in Actual, click on “+ Add account” in the left menu at the bottom. Then click “Set-up Nordigen for bank-sync.” You will be asked to enter your Nordigen secret ID and secret key. These values will be saved on the server, so you will only need to enter them once.
 
 ### Link Accounts with Nordigen
 
