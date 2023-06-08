@@ -59,11 +59,11 @@ Nordigen
 
 7. Click “Set-up Nordigen for bank-sync.”
 
-   ![](/static/img/connecting-your-bank/connecting-your-bank-nordigen-05.png)
+   ![](/static/img/connecting-your-bank/connecting-your-bank-nordigen-05@2x.png)
 
 8. You will be asked to enter your Nordigen secret ID and secret key. These values will be saved on the server, so you will only need to enter them once.
 
-   ![](/static/img/connecting-your-bank/connecting-your-bank-nordigen-06.png)
+   ![](/static/img/connecting-your-bank/connecting-your-bank-nordigen-06@2x.png)
 
 ### Link Accounts with Nordigen
 
