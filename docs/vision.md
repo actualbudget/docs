@@ -88,8 +88,8 @@ Some of the high-level features we would like to add to Actual Budget in the fut
 
 * Goal templates moved to the UI.
 * Mobile transaction entry.
-* Implementing and testing syncing providers other than Nordigen
-* Enabling support for Nordigen and other syncing providers by default
+* Implementing and testing syncing providers other than Nordigen.
+* Enabling support for Nordigen and other syncing providers by default.
 * Darkmode.
 * custom reports.
 * and more
