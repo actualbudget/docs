@@ -9,12 +9,28 @@ This document provides an outline of the vision of the open source version of Ac
 Some of the things that make Actual Budget stand out from the rest include;
 
 * Local-first
-* Open (you own your data; you can do whatever you want with it)
+
+Actual is local first meaning that the database that powers Actual Budget and ultimatley your budget live on your device, we don't store it on a server, now your wondering what actual server is for, well that allows us to sync changes between budgets, to do this we only send the changes to the server, it stores them and the client pulls down the change(s)
+
+* Open 
+
+Actual is Open Source, the code is open for anyone to see, view and contribute to. You own your data, you can do whatever you want with it.
+
 * Sleek, clutter-free UI
-* Simple to use for beginners; with progressive discoverability for advanced users (rules, schedules, and more to come)
-* Stable, reliable, secure
-* Privacy in mind (no tracking, no 3rd parties unless explicitly enabled)
+
+* Simple to use for beginners; with progressive discoverability for advanced users. 
+  
+  Rules, schedules, and more to come
+
+* Stable, reliable, secure.
+
+* Privacy in mind 
+  
+  Actual has no tracking, we don't use any 3rd party trackers and unless explicitly enabled we don't allow any third party access. 
+
 * Community driven
+
+Actual being community driven means that development is driven by the community, the maintainers 
 
 ### Primary Objectives
 
