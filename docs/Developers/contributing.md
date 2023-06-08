@@ -75,7 +75,7 @@ Try to phrase your message as a command, e.g. "Add option to include exchange ra
 
 ### The Design Strategy Of Actual
 
-Actual Budget was designed to be sleek, clean and clutter free, by default there is a lot of empty space, this is by design. When developing your features or fixes take into consideration existing workflows such as drop down menus, submenus don't go straight for the empty space as that is more likely to get your code rejected. 
+The goal of the UI is to be minimalistic, but expose more advanced features progressively as the user interacts with the product (for example: the notes button is not visible by default if an account has no notes, but it becomes persistent visible if there are notes). We advocate for a similar approach in other places too. We are against adding a button/user setting for every little piece of UI (sizes, paddings, margins, etc.) as that goes against this simple design philosophy. 
 
 The settings screen needs to also remain a place where core settings lives, we don't really want to have a myriad of options in here for each and every setting within the UI, doing that makes the code un-managable for future contributors and clutters up and confuses things for the users of Actual Budget. 
 
