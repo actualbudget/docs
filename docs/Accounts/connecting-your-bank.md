@@ -53,7 +53,17 @@ Nordigen
 
 ![](/static/img/connecting-your-bank/connecting-your-bank-nordigen-04.png)
 
-6. Back in Actual, click on “+ Add account” in the left menu at the bottom. Then click “Set-up Nordigen for bank-sync.” You will be asked to enter your Nordigen secret ID and secret key. These values will be saved on the server, so you will only need to enter them once.
+6. Back in Actual, click on “+ Add account” at the bottom of the sidebar.
+
+   ![](/static/img/connecting-your-bank/connecting-your-bank-02.png)
+
+7. Click “Set-up Nordigen for bank-sync.”
+
+   ![](/static/img/connecting-your-bank/connecting-your-bank-nordigen-05.png)
+
+8. You will be asked to enter your Nordigen secret ID and secret key. These values will be saved on the server, so you will only need to enter them once.
+
+   ![](/static/img/connecting-your-bank/connecting-your-bank-nordigen-06.png)
 
 ### Link Accounts with Nordigen
 
