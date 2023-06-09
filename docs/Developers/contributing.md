@@ -50,7 +50,7 @@ Existing issues are a good place to start especially if you want to contribute t
 
 Okay, so you have an idea for something that you think would be great in Actual Budget, but how do you pitch it to the community so that all your hard work is not wasted?
 
-To start submit a pull request with the implementation or if it's a larger feature - open a new issue so we can discuss it.
+If the feature is relatively small, feel free to start the discussion by opening a PR. However, if you want to work on a larger change/feature, please open an issue or comment on an existing issue for the feature first. This lets the maintainers make sure your approach fits well both with the technical and ideological architecture of the project.
 
 ### Writing Good Release Notes
 
