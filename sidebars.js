@@ -109,7 +109,7 @@ const sidebars = {
           label: 'Migration',
           link: {
             type: 'doc',
-            id: 'migration/migration-intro',
+            id: 'migration/index',
           },
           items: [
             'migration/simple-sync',
