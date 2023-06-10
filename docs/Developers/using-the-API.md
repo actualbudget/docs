@@ -1,6 +1,4 @@
----
-title: 'Using the API'
----
+# Using the API
 
 import { Method, MethodBox } from './types';
 

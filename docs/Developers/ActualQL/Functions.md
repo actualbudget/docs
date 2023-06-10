@@ -1,6 +1,4 @@
----
-title: 'ActualQL Functions'
----
+# ActualQL Functions
 
 ## Joining tables
 

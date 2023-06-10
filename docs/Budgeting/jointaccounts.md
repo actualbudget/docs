@@ -1,6 +1,4 @@
----
-title: 'Strategies for handling joint accounts'
----
+# Strategies for handling joint accounts
 
 Situation: I am using Actual to keep track of my budget and finances, but I share a joint account with my partner.
 

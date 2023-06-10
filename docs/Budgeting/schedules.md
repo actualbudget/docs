@@ -1,6 +1,4 @@
----
-title: 'Schedules'
----
+# Schedules
 
 [rules]: ./rules
 

@@ -1,6 +1,4 @@
----
-title: 'Categories'
----
+# Categories
 
 You can manage your categories in the budget page. Actual supports both expense and income categories.
 

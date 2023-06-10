@@ -1,6 +1,4 @@
----
-title: 'Building on Windows'
----
+# Building on Windows
 
 Many of the build scripts are bash scripts and not natively invokable in Windows. To solve this, you can build the project using Git Bash.
 

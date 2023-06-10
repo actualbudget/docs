@@ -1,6 +1,4 @@
----
-title: 'The Actual Project Structure'
----
+# The Actual Project Structure
 
 Actual is made up of lots of different _packages_. This article covers how they all fit together to form the project you know as Actual Budget.
 

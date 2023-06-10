@@ -1,6 +1,4 @@
----
-title: 'Frequently Asked Questions'
----
+# Frequently Asked Questions
 
 - **Q.** _Can I use the mobile apps with my self hosted version of Actual?_
 

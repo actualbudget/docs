@@ -1,6 +1,4 @@
----
-title: 'The Account Register'
----
+# The Account Register
 
 ![](/img/accounts/budget-account-register.png)
 

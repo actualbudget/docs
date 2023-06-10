@@ -1,6 +1,4 @@
----
-title: 'ActualQL Examples'
----
+# ActualQL Examples
 
 ## Searching by month or year
 

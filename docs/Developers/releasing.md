@@ -1,6 +1,4 @@
----
-title: 'How To Cut A Release'
----
+# How To Cut A Release
 
 In the open-source version of Actual, all updates go through npm. There are two libraries:
 

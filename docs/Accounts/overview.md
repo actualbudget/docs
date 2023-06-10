@@ -1,6 +1,4 @@
----
-title: 'Overview'
----
+# Overview
 
 You can add as many accounts as you like. Adding all of your accounts (including things like mortgages) is a nice way to get an overview of all your finances.
 

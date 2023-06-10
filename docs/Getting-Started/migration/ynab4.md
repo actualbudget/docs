@@ -1,6 +1,4 @@
----
-title: 'Migrating from YNAB4'
----
+# Migrating from YNAB4
 
 - Go to the **Create new file** screen (this is the first screen you see on first launch).
 - Click **Import…**

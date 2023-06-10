@@ -1,6 +1,4 @@
----
-title: 'Enabling SharedArrayBuffer Access'
----
+# Enabling SharedArrayBuffer Access
 
 Actual requires access to a web technology called [`SharedArrayBuffer`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer) in order to function. Because of security vulnerabilities in modern CPUs, this feature is disabled until certain conditions are met. Actual will not be able to run unless your server meets these conditions.
 

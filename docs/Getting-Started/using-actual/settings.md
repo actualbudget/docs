@@ -1,6 +1,4 @@
----
-title: 'Settings'
----
+# Settings
 
 The settings screens in Actual provide you with a number of options for managing the look and feel of your budget along with some more system specific settings.
 

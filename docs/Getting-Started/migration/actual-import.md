@@ -1,6 +1,4 @@
----
-title: 'Import an Actual Budget Backup'
----
+# Import an Actual Budget Backup
 
 This guide is for importing a backup that has been taken from Actual, you should have a zip file which will contain all the files required, this guide can also be used if you are importing a demo budget.
 

@@ -1,6 +1,4 @@
----
-title: 'The Budget'
----
+# The Budget
 
 ## The Budget
 

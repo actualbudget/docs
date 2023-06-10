@@ -1,6 +1,4 @@
----
-title: 'Syncing Across Devices'
----
+# Syncing Across Devices
 
 Actual is a different kind of app. Instead of storing all of your data on the internet by default, it stores all of your data locally. That means it works regardless of your network connection, and you always have direct access to your data.
 

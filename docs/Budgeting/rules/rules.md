@@ -1,6 +1,4 @@
----
-title: 'Rules'
----
+# Rules
 
 Introduced in 0.0.124, rules determine how a transaction is processed. When importing or syncing transactions, they are run through a list of rules that can apply actions to the transaction. For example, a rule could process a transaction with the payee `AMAZON.COM*5C7QC7MH0 AM 10/26 PURCHASE AMZN.COM/BILL`, and because it contains the word "amazon", sets the payee to "Amazon" and the category to "my fun stuff". Rules allow you to automate any workflow you want.
 

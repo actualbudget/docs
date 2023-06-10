@@ -1,6 +1,4 @@
----
-title: 'Returns and Reimbursements'
----
+# Returns and Reimbursements
 
 [budgeting]: ./howitworks#overspending
 

@@ -1,6 +1,4 @@
----
-title: 'Transfers'
----
+# Transfers
 
 If you want to transfer money between accounts, you want to do it in a way that doesn't mess up reports. If you only created two transactions, Actual would have no way of knowing they are a single transfer and can be ignored in reports.
 

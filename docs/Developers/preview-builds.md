@@ -1,6 +1,4 @@
----
-title: 'Preview Builds'
----
+# Preview Builds
 
 It is now possible using our deployment pipeline to run preview builds of Actual directly on Netlify.
 

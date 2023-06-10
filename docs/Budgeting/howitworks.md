@@ -1,6 +1,4 @@
----
-title: 'How Budgeting Works'
----
+# How Budgeting Works
 
 The purpose of a budget is to answer simple questions: how much money did I save last month? Do I have enough money to make this purchase? Answering these is simple in an ideal world, but the complexity of real life sometimes makes it hard to see clearly.
 

@@ -1,6 +1,4 @@
----
-title: 'Identify and apply transfers historically'
----
+# Identify and apply transfers historically
 
 These SQL scripts modify transactions as to apply [transfers](docs/Accounts/transfers.md) historically over migrated data without duplicating transactions. This is useful when you have migrated multiple accounts.
 

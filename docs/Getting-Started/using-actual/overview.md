@@ -1,6 +1,4 @@
----
-title: 'Interface Overview'
----
+# Interface Overview
 
 Now that you have Actual installed, you are going to be itching to get using it, this section of the documentation shows how to use the Actual application and what each part does.
 

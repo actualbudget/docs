@@ -1,6 +1,4 @@
----
-title: 'Installing Actual'
----
+# Installing Actual
 
 Unlike most web apps, you’ll need to install Actual on a computer to get the full benefit out of it. While you could use Actual without running a server, we strongly recommend a server to ensure that your budget is saved and can be synced across multiple browsers and devices.
 

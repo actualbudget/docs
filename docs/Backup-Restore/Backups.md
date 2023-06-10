@@ -1,6 +1,4 @@
----
-title: 'Backing up your Actual budget'
----
+# Backing up your Actual budget
 
 :::note
 

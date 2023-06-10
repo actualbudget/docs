@@ -1,6 +1,4 @@
----
-title: Contacting Us
----
+# Contacting Us
 
 :::note
 

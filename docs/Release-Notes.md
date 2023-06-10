@@ -1,6 +1,4 @@
----
-title: Release Notes
----
+# Release Notes
 
 ## 23.6.0
 

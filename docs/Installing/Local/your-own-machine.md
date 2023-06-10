@@ -1,6 +1,4 @@
----
-title: 'Local Installation'
----
+# Local Installation
 
 The easiest way to get Actual running locally is to use the [actual-server](https://github.com/actualbudget/actual-server) project.
 

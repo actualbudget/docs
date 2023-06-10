@@ -1,6 +1,4 @@
----
-title: 'Bulk Actions'
----
+# Bulk Actions
 
 It can be extremely useful to be able to bulk edit or duplicate a number of transactions at once.
 

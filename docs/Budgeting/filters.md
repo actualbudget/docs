@@ -1,6 +1,4 @@
----
-title: 'Filtering In Actual'
----
+# Filtering In Actual
 
 ### Introduction
 

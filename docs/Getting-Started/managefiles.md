@@ -1,6 +1,4 @@
----
-title: 'Managing Files'
----
+# Managing Files
 
 A _file_ is your data that consists of all budgets, transactions, accounts, and everything else. You can create as many files as you want. This lets you create multiple budgets, isolate accounts, and more.
 

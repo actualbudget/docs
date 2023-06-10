@@ -1,6 +1,4 @@
----
-title: 'Payees'
----
+# Payees
 
 A payee is a description of the source of a transaction. Actual provides a powerful way of managing payees.
 

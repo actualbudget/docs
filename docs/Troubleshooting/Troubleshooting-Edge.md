@@ -1,6 +1,4 @@
----
-title: 'Microsoft Edge browser'
----
+# Microsoft Edge browser
 
 ## Common Problems
 

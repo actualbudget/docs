@@ -1,6 +1,4 @@
----
-title: 'Migrating from nYNAB'
----
+# Migrating from nYNAB
 
 ## Method 1: 3rd Party nYnab exporter
 

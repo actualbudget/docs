@@ -1,6 +1,4 @@
----
-title: 'Managing Credit Cards'
----
+# Managing Credit Cards
 
 Using a credit card in any budgeting software can be confusing, and Actual is no different. Of all the questions that are asked about budgeting, credit card usage is near the top of the list so don't feel bad if you're a little confused. We will try to walk through the process of using a credit card, paying a credit card, and carrying a balance on a credit card here.
 

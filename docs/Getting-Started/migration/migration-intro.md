@@ -1,6 +1,4 @@
----
-title: 'Migration Overview'
----
+# Migration Overview
 
 :::note
 [Click here](simple-sync) if you are looking for the steps to migrate from "full sync" to (the more reliable) "simple sync" method.

@@ -1,6 +1,4 @@
----
-title: 'The File List'
----
+# The File List
 
 The file list in Actual is where you will find a list of all your available budget files.
 

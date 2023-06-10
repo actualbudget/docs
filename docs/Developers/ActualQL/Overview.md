@@ -1,6 +1,4 @@
----
-title: 'ActualQL Overview'
----
+# ActualQL Overview
 
 ## Introduction
 
