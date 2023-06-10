@@ -34,8 +34,13 @@ const sidebars = {
       items: [
         {
           type: 'link',
-          label: 'Open Issues',
+          label: 'Open Bug Reports',
           href: 'https://github.com/actualbudget/actual/issues',
+        },
+        {
+          type: 'link',
+          label: 'Feature Requests',
+          href: 'https://github.com/actualbudget/actual/issues?q=label%3A%22needs+votes%22+sort%3Areactions-%2B1-desc+',
         },
         'Developers/project-layout',
         'Developers/preview-builds',
