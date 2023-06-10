@@ -11,7 +11,10 @@
 
 // @ts-check
 
-/** @type {(title: string) => unknown} */
+/**
+ * @param {string} title
+ * @returns {import('@docusaurus/plugin-content-docs/src/sidebars/types').SidebarItemHtml}
+ */
 const unavailable = title => ({
   type: 'html',
   value: title,
