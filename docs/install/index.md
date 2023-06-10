@@ -4,13 +4,13 @@ Unlike most web apps, you’ll need to install Actual on a computer to get the f
 
 While running a server can be a complicated endeavour, we’ve tried to make it fairly easy to set up and hands-off to maintain. Choose one of the following options to get started:
 
-- If you’re not comfortable with the command line and are willing to pay a small amount of money to have your version of Actual hosted on the cloud for you, we recommend [PikaPods](PikaPods.md).
+- If you’re not comfortable with the command line and are willing to pay a small amount of money to have your version of Actual hosted on the cloud for you, we recommend [PikaPods](pikapods.md).
 - If you’re willing to run a few commands in the terminal:
-  - [Fly.io](Fly.md) offers free cloud hosting.
-  - You could [directly install Actual locally](Local/your-own-machine.md) on macOS, Windows, or Linux if you don’t want to use a tool like Docker. (This method is the best option if you want to contribute to Actual!)
-  - If you want to use Docker, we have instructions for [using our provided Docker containers](Docker.md).
+  - [Fly.io](fly.md) offers free cloud hosting.
+  - You could [directly install Actual locally](local.md) on macOS, Windows, or Linux if you don’t want to use a tool like Docker. (This method is the best option if you want to contribute to Actual!)
+  - If you want to use Docker, we have instructions for [using our provided Docker containers](docker.md).
 
-Once you’ve set up your server, you can [configure it](Configuration.md) to change a few of the ways it works.
+Once you’ve set up your server, you can [configure it](../config/index.md) to change a few of the ways it works.
 
 If you're coming from the original, managed Actual subscription service, you may want to [migrate your data](../Getting-Started/migration/migration-intro.md).
 
