@@ -1,6 +1,4 @@
----
-title: 'Import Transactions'
----
+# Importing Transactions
 
 There are a couple ways to get transactions into the system. For now, automatic transaction downloading is not available but it will be available very soon.
 
