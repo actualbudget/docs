@@ -55,7 +55,7 @@ _\* There is a third option as well, `all`, which returns both transactions and 
 
 Calling `filter` applies conditions to the query; only data that matches the given filters will be returned.
 
-The keys of a filter object are the names of the fields (see [Transaction](/developers/API/#transaction)) and the values are the condition. By default, it will perform an "is equal" but you can also provide various operators. An example:
+The keys of a filter object are the names of the fields (see [Transaction](../reference.md#transaction)) and the values are the condition. By default, it will perform an "is equal" but you can also provide various operators. An example:
 
 ```js
 q('transactions')

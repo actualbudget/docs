@@ -35,7 +35,7 @@ Your Budget ID is a unique identifier that identifies the specific budget file t
 
 ### Reset Sync
 
-Resetting Sync is quite complicated, this is covered in detail [here](/Getting-Started/sync#what-does-resetting-sync-mean)
+Resetting Sync is quite complicated, this is covered in detail [here](../getting-started/sync.md#what-does-resetting-sync-mean)
 
 ![](/img/using-actual/settings-2.png)
 

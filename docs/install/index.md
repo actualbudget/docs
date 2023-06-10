@@ -12,7 +12,7 @@ While running a server can be a complicated endeavour, we’ve tried to make it 
 
 Once you’ve set up your server, you can [configure it](../config/index.md) to change a few of the ways it works.
 
-If you're coming from the original, managed Actual subscription service, you may want to [migrate your data](../Getting-Started/migration/migration-intro.md).
+If you're coming from the original, managed Actual subscription service, you may want to [migrate your data](../migration/index.md).
 
 ## Additional Installation Options
 

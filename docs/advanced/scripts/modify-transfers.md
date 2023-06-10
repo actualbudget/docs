@@ -1,9 +1,9 @@
 # Identify and apply transfers historically
 
-These SQL scripts modify transactions as to apply [transfers](docs/Accounts/transfers.md) historically over migrated data without duplicating transactions. This is useful when you have migrated multiple accounts.
+These SQL scripts modify transactions as to apply [transfers](../../transactions/transfers.md) historically over migrated data without duplicating transactions. This is useful when you have migrated multiple accounts.
 
 :::caution
-Before executing any actions, make sure you have a complete [backup](docs\Backup-Restore\Backups.md).
+Before executing any actions, make sure you have a complete [backup](../../backup-restore/backup.md).
 :::
 
 :::note
@@ -171,5 +171,5 @@ This process will only apply when the below conditions are met
    ```
 
 6. Zip the `db.sqlite` file with the original `metadata.json` file
-7. Follow the [restore](docs\Backup-Restore\Restore.md) process to apply these into your Actual Server instance
+7. Follow the [restore](../../backup-restore/restore.md) process to apply these into your Actual Server instance
 8. Verify your balances are correct and you see the correct transactions marked as transfers!

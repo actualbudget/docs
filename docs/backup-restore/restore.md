@@ -1,6 +1,6 @@
 # Restoring Data Into Actual
 
-If you previously followed the [steps](Backups) to back up your data and have an Actual
+If you previously followed the [steps](./backup.md) to back up your data and have an Actual
 zip export, you can now import that using the web version of Actual.
 
 To do this,

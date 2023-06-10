@@ -12,7 +12,7 @@
 
 - **Q.** _Can I import my Actual Budget from the hosted instance of Actual to my Self Hosted version_
 
-  **A.** Yes, this has been added to the web version recently, see [our documentation on migrating from the subscription service](./Getting-Started/migration/actual-import.md).
+  **A.** Yes, this has been added to the web version recently, see [our documentation on migrating from the subscription service](./migration/actual-import.md).
 
 - **Q.** _How do I update my version of Actual after it has been updated?_
 
@@ -20,7 +20,7 @@
 
   - PikaPods seems to refresh their image automatically.
   - Actual builds and publishes an updated docker image with each release.
-  - If you’re on Fly.io we have a [guide for that too](./Installing/Fly.md#updating-actual).
+  - If you’re on Fly.io we have a [guide for that too](./install/fly.md#updating-actual).
 
 - **Q.** _I have deployed actual to Fly.io but I am being charged, why is this?_
 

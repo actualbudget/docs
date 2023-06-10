@@ -30,7 +30,7 @@ There are some things to consider with end-to-end encryption:
 - **Pro:** If you don't want to sync across devices, this still allows you keep a fully encrypted backup of your data
 - **Pro:** If you want to share the server with someone else, you can use different passwords to encrypt separate budget files, and you won’t be able to access each other’s budgets.
 - **Con:** If you lose your local data copy and forget your password, you can never recover your data
-- **Con:** It is not possible to turn off encryption. This is a one way process. If you would like to move back to an unencrypted file after enabling encryption, you can use the steps in the [Backup](/docs/Backup-Restore/Backups.md) and [Restore](/docs/Backup-Restore/Restore.md) sections.
+- **Con:** It is not possible to turn off encryption. This is a one way process. If you would like to move back to an unencrypted file after enabling encryption, you can use the steps in the [Backup](../backup-restore/backup.md) and [Restore](../backup-restore/restore.md) sections.
 - **Con:** There is a minor performance hit because of encoding & decoding your data whenever syncing
 
 Note: even if you don’t have the password, you can still remove an encrypted file from the server.

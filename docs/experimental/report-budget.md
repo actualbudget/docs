@@ -66,5 +66,5 @@ Some of the features of the **Rollover Budget** are available in the **Report Bu
 Not all features of the **Rollover Budget** have been implemented in the **Report Budget**. If you find critical functionality missing that you need, please submit a request on [GitHub](/Contact).
 :::
 
-- [Create new budgets for the next month](/Budgeting/howitworks#creating-a-budget)
-- [Rollover negative category balances](/Budgeting/howitworks#rollover-negative-category-balances)
+- [Create new budgets for the next month](/budgeting/howitworks#creating-a-budget)
+- [Rollover negative category balances](/budgeting/howitworks#rollover-negative-category-balances)

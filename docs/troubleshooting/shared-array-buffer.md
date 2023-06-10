@@ -4,7 +4,7 @@ Actual requires access to a web technology called [`SharedArrayBuffer`](https://
 
 ## HTTPS
 
-Actual must be served over HTTPS for `SharedArrayBuffer` to be enabled. If you’re using a cloud provider, this will usually be done for you. See [Activating HTTPS](/Installing/HTTPS/) for more information.
+Actual must be served over HTTPS for `SharedArrayBuffer` to be enabled. If you’re using a cloud provider, this will usually be done for you. See [Activating HTTPS](../config/https.md) for more information.
 
 ## HTTP Headers
 

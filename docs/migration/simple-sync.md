@@ -5,7 +5,7 @@ The Full Sync method used at the launch of the self-hosted version of Actual had
 ## Before upgrading
 
 1. Open your budget
-2. [Export your budget](/Backup-Restore/Backups)
+2. [Export your budget](../backup-restore/backup.md)
 3. Upgrade your actual server
 
 :::caution
@@ -14,7 +14,7 @@ If you have upgraded your server before completing the above steps, you may stil
 
 ## After upgrading
 
-1. [Restore your budget](/Backup-Restore/Restore) on one device
+1. [Restore your budget](../backup-restore/restore.md) on one device
 2. Select your newly restored budget to load
 3. On your other devices, close the existing budget (if already open) and then open the restored file
 

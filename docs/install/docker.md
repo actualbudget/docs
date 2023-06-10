@@ -37,7 +37,7 @@ To create and run the container:
 $ docker-compose up --detach
 ```
 
-You can optionally configure the container using environment variables — see the [configuration section](/Installing/Configuration) for more details.
+You can optionally configure the container using environment variables — see the [configuration section](../config/index.md) for more details.
 
 To update your container:
 

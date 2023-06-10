@@ -20,4 +20,4 @@ Delete a transfer the same way you delete any transaction: hover over it and pre
 
 ## Payee rules
 
-Transfers are actually just custom payees, so if you want to you can [create custom rules for them](/accounts/payees/#transfer-payees).
+Transfers are actually just custom payees, so if you want to you can [create custom rules for them](./payees.md#transfer-payees).
