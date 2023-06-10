@@ -21,7 +21,7 @@ This process will only apply when the below conditions are met
 
       As we cannot reliable tell the order of the transfers.
 
-  :::
+:::
 
 ## How To
 
