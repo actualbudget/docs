@@ -1,7 +1,3 @@
----
-Title: 'Conn Bank'
----
-
 # Connecting Your Bank
 
 :::warning
