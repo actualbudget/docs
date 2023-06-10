@@ -60,13 +60,13 @@ It is possible to add notes to Categories, to do this hover over the category th
 
 ![](/static/img/categories/CategoryGroupRename.png)
 
-Click the paper icon and type in your note. 
+Click the paper icon and type in your note.
 
 ![](/static/img/categories/CategoryAddNote.png)
 
 ## Viewing Category Notes
 
-Once a Category has been given a note it is possible to view it in one of two way. 
+Once a Category has been given a note it is possible to view it in one of two way.
 
 1. Hover over the paper icon on the category and the note contents will appear for you to view.
 

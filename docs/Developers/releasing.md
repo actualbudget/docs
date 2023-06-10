@@ -60,4 +60,3 @@ Once you’ve merged and tagged the release, go to the releases page and publish
 ```
 
 Replace `2330` with the version number of the release you’re releasing, with all the periods removed.
-

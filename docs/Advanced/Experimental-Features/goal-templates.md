@@ -4,7 +4,7 @@
 This is an **experimental feature**. That means we’re still working on finishing it. There may be bugs, missing functionality or incomplete documentation, and we may decide to remove the feature in a future release. If you have any feedback, please [open an issue](https://github.com/actualbudget/actual/issues) or post a message in the Discord.
 :::
 :::warning
-All functionality described here may not be available in the the latest stable release.  Use the `edge` images for the latest implementation.
+All functionality described here may not be available in the the latest stable release. Use the `edge` images for the latest implementation.
 :::
 
 Create a template by adding a note to a category and adding a line that begins with `#template`.
@@ -46,18 +46,16 @@ You are welcome to have other lines in your note, but the #template line must ma
 - Number formats that use comma for the decimal separator are not supported (eg, 123,45). You must use 123.45.
 - Thousands separators are not supported (eg, 1,234). You must use 1234.
 - {SCHEDULE NAME} is defined in the **Schedules** editor.
-- By default templates do not consider avaiable funds when being applied.  Use template priorites to not budget more than is available.
+- By default templates do not consider avaiable funds when being applied. Use template priorites to not budget more than is available.
 - The `hold` flag can be added to any goal that uses the `up to` key word.
 
 ### Multiple Template Lines
 
-
-You can add multiple `#template` lines for a single category note.  Each line will be added together.
+You can add multiple `#template` lines for a single category note. Each line will be added together.
 
 For examples:
 
 **Budget $200/month for 3 months and $400/month for the next 3 months**
-
 
     #template $600 by 2021-03 repeat every 6 months
 
@@ -65,14 +63,12 @@ For examples:
 
 **Streaming Services: $42.97**
 
-
     Netflix
     #template $24.99
     Disney Plus
     #template $9.99
     Amazon Prime
     #template $7.99
-    
 
 **$120 in February 2022, $130 in March 2022**
 
@@ -80,17 +76,20 @@ For examples:
     #template $100
 
 ### Template Priorities
-Templates can be given a priority flag to change the order that the templates get applied to your budget.  Set a priority by adding `-X` to the `#template` flag.  EX `#template-4` will be priority level 4.  Any template with a priority other than 0 will not apply more funds then are available.
+
+Templates can be given a priority flag to change the order that the templates get applied to your budget. Set a priority by adding `-X` to the `#template` flag. EX `#template-4` will be priority level 4. Any template with a priority other than 0 will not apply more funds then are available.
 
 #### Notes
+
 - Lower priority values get run first. EX 0 is run first, then 1, then 2, etc.
 - No priority flag defaults to priority 0 and is the same as a standard template.
 - Negative priorities are not allowed and will result in the template being skipped.
-- Default template application order is bottom to top.  This also applies to within a given priority level.
+- Default template application order is bottom to top. This also applies to within a given priority level.
 - If you have multiple `schedule` or `by` template lines in a single category, they will be forced to match the same priority level as the line run first.
 
 ### Remainder Template
-The remainder template is run differently to the other templates.  Any remainder templates will be forced to run last in their own pass.  This way the remaining budget is after all other templates have had a chance to run. Below are a few considerations when using the remainder template
+
+The remainder template is run differently to the other templates. Any remainder templates will be forced to run last in their own pass. This way the remaining budget is after all other templates have had a chance to run. Below are a few considerations when using the remainder template
 
 - You can use as many remainder templates as you want
 - Remainder templates don't have a priority as they are always run last
@@ -99,34 +98,36 @@ The remainder template is run differently to the other templates.  Any remainder
 - The budgeted amout is calculated as `budgeted_amount=available_funds/sum_of_weights*category_weight`
 
 #### Examples
+
 All the examples below use the case of $100 leftover when the remainder pass is run.
+
 1. Add all remaining funds to a single category
 
-|Category|Template line|Amount applied|
-|---|---|---|
-|Savings|#template remainder|$100|
+| Category | Template line       | Amount applied |
+| -------- | ------------------- | -------------- |
+| Savings  | #template remainder | $100           |
 
 2. Split funds evenly between two categories
 
-|Category|Template line|Amount applied|
-|---|---|---|
-|Savings|#template remainder|$50|
-|Vacation Fund|#template remainder|$50|
+| Category      | Template line       | Amount applied |
+| ------------- | ------------------- | -------------- |
+| Savings       | #template remainder | $50            |
+| Vacation Fund | #template remainder | $50            |
 
 3. Split funds with one category recieving extra
 
-|Category|Template line|Amount applied|
-|---|---|---|
-|Savings|#template remainder 2|$66.66|
-|Vacation Fund|#template remainder|$33.34|
+| Category      | Template line         | Amount applied |
+| ------------- | --------------------- | -------------- |
+| Savings       | #template remainder 2 | $66.66         |
+| Vacation Fund | #template remainder   | $33.34         |
 
 4. Spread funds over many categories
 
-|Category|Template line|Amount applied|
-|---|---|---|
-|Savings|#template remainder 3|$50|
-|Vacation Fund|#template remainder|$16.66|
-|Investment Fund|#template remainder 2|$33.34|
+| Category        | Template line         | Amount applied |
+| --------------- | --------------------- | -------------- |
+| Savings         | #template remainder 3 | $50            |
+| Vacation Fund   | #template remainder   | $16.66         |
+| Investment Fund | #template remainder 2 | $33.34         |
 
 ## Apply the templates
 

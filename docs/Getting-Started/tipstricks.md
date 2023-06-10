@@ -21,13 +21,14 @@ A few global shortcuts:
 - `Enter` while editing a budget amount will move to the next category.
 - `Shift & Enter` will move to the previous category.
 
-### Transaction Editing ###
+### Transaction Editing
 
 - When editing, `Enter` and `Shift & Enter` will move down and up. If a dropdown is open and you've typed a new value, this will instead save the value and close the dropdown.
 - When editing, `Tab` and `Shift & Tab` will move left and right
 - When adding a new transaction, `Ctrl & Enter` will add it regardless of where you are editing. Pressing `Enter` in either the Payment or Deposit columns will add it as well.
 
-### Transaction Management ###
+### Transaction Management
+
 - `f` Show only selected transactions.
 - `d` Delete selected transactions.
 - `a` Set account for selected transations.
