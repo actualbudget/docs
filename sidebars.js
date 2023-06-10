@@ -184,7 +184,6 @@ const sidebars = {
           collapsed: true,
           items: [
             'Accounts/overview',
-            'Accounts/addaccount',
             'Accounts/reconcile',
             {
               type: 'category',

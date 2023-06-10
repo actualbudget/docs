@@ -12,11 +12,36 @@ Actual makes a distinction between accounts being **for** budget or **off** budg
 
 Depending on your usage, savings accounts can either be on or off the budget. If you're not sure, we recommend keeping it off the budget at the start.
 
-## Adding an account
+## Adding a new account
 
-1. Click the **+ Add account** button in the sidebar.
-2. Fill out the form describing the account.
-3. Press **Create**
+You can add an account to your budget at any time, however when you first install Actual you can use the `Add Account` button in the middle of the screen.
+
+![](/img/add-account/AddAccount.png)
+
+You can also add an account using the `+ Add account` button in the sidebar.
+
+A box will appear asking you to fill in a few options
+
+- Give your account a name
+- Decide what type your account is
+- Is the account on or off budget
+- The current account balance
+
+:::note
+Off budget means that the balance is not reflected when you assign money to categories in your budget register
+:::
+
+![](/img/add-account/CreateAccount.png)
+
+Here you can see how that looks when the options are completed.
+
+:::note
+If you select the Off Budget checkbox then change the account type the Off Budget checkbox will reset and will need to be re-selected each time the account type is changed
+:::
+
+![](/img/add-account/NewBudget.png)
+
+You can now see the account in the sidebar of Actual
 
 ## Closing or deleting an account
 
@@ -29,3 +54,16 @@ Depending on your usage, savings accounts can either be on or off the budget. If
 You can still access this account under **Closed Accounts** in the sidebar, and even reopen it from the same actions menu.
 
 **If you want to delete an account** even if it has existing balances, in the popup after selecting **Close Account**, click the **force close** at the bottom.
+
+## Renaming an existing account
+
+Click the account name in the sidebar of Actual
+
+![](/img/add-account/SidebarAccountList@2x.png)
+
+Hovering your cursor close to the account name at the top will reveal two icons.  
+The page icon allows you to write a note about this account, and the pencil icon allows you to rename the account.
+
+After editing a note for the account or its name, hit 'Enter' to save your changes.
+
+![](/img/add-account/AccountNameEdit.png)
