@@ -210,7 +210,41 @@ Updating existing machines in 'some-app-1234' with rolling strategy
 Visit your newly deployed app at https://some-app-1234.fly.dev/
 ```
 
-You’re all set! You can now visit your very own instance of Actual by opening the link on the last line of the output.
+You can now visit your very own instance of Actual by opening the link on the last line of the output.
+
+## Configuring Actual
+
+Now that Actual has been launched, you should now be able to navigate to Actual using the URL
+provided by the Fly command above earlier.
+
+<details><summary>Forgot the URL? Here’s how to find it</summary>
+
+If you forget the URL, you can always find it by opening [https://fly.io/dashboard](https://fly.io/dashboard) in a browser. Click on the application you created:
+
+![](/img/fly/fly-dash.png)
+
+Once you are in there, you should see Hostname section under Application Information - click the
+link
+
+![](/img/fly/fly-dash-2.png)
+
+This will now open Actual so we can start configuring it.
+
+</details>
+
+1. Set a password - remember this, you will need it in the future.
+
+   ![](/img/fly/actual-config-1@2x.png)
+
+1. You’ll see a welcome screen. Either click “Import my budget” to [import your budget from YNAB or the subscription version of Actual](../Getting-Started/migration/migration-intro.md), or click “Start fresh” to create a blank budget file.
+
+   ![](/img/fly/actual-config-2@2x.png)
+
+1. If everything went well you should then be taken to your very first budget.
+
+   ![](/img/fly/actual-register.png)
+
+Actual is now up and running. Congratulations! Consider checking out [our tour](../Getting-Started/using-actual/index.md) next.
 
 ## Updating Actual
 
@@ -239,3 +273,15 @@ Open a terminal window and navigate to the folder where you set up Actual. Run t
 ```bash
 fly deploy
 ```
+
+## Frequent Issues
+
+- **Q.** _I have deployed actual to Fly.io but I am being charged, why is this?_
+
+  **A.** While we wouldn’t know for certain without seeing your configuration, it is likely that during
+  deployment you created a Postgres database. Actual doesn’t need this so you can just delete it and
+  charges should then stop. If you're unsure, please [reach out to us](/Contact).
+
+- **Q.** _How can I try out a beta/unstable version of Actual?_
+
+  **A.** We publish unstable releases of Actual every day. These versions may have known or unknown issues that could corrupt your budget. If you’d like to try them out, follow the [instructions to update](#updating-actual) above, but change `actualbudget/actual-server:latest` to `actualbudget/actual-server:edge`.
