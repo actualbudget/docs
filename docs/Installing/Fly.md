@@ -158,3 +158,17 @@ Visit your newly deployed app at https://some-app-1234.fly.dev/
 ```
 
 You’re all set! You can now visit your very own instance of Actual by opening the link on the last line of the output.
+
+## Updating Actual
+
+When updates to Actual are released, you can update your server by running the following command:
+
+```bash
+fly deploy --image actualbudget/actual-server:edge --app your-app-name
+```
+
+For example, if your copy of Actual was available at `https://spring-firefly-8368.fly.dev/`, you would run:
+
+```bash
+fly deploy --image actualbudget/actual-server:edge --app spring-firefly-8368
+```
