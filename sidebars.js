@@ -57,7 +57,7 @@ const sidebars = {
               type: 'category',
               label: 'On Your Own Machine',
               collapsible: false,
-              items: ['Installing/Local/your-own-machine', 'Installing/Docker'],
+              items: ['Installing/Local/your-own-machine', 'Installing/Docker', 'Installing/Kubernetes'],
             },
             {
               type: 'category',

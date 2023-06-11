@@ -11,7 +11,7 @@ While running a server can be a complicated endeavour, we’ve tried to make it 
   - [Fly.io](fly/Fly.io.md) offers free cloud hosting. (Make sure you read the section about [persisting your data](fly/Fly-persisting.md)!)
   - You could [directly install Actual locally](Local/your-own-machine.md) on macOS, Windows, or Linux if you don’t want to use a tool like Docker. (This method is the best option if you want to contribute to Actual!)
   - If you want to use Docker, we have instructions for [using our provided Docker containers](Docker.md).
-
+  - If you want to use Kubernetes, we have instructions for [running Actual on Kubernetes](Kubernetes.md).
 Once you’ve set up your server, you can [configure it](Configuration.md) to change a few of the ways it works.
 
 If you're coming from the original, managed Actual subscription service, you may want to [migrate your data](../Getting-Started/migration/migration-intro.md).
