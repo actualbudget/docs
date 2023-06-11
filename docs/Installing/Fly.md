@@ -100,7 +100,7 @@ Type `fly auth login` and press enter to open your browser and log your terminal
 
 Now that you’ve gotten the CLI set up, you’re ready to deploy your app to Fly.io. First, you’ll need our template Fly configuration:
 
-If you’re using the web-based terminal:
+### Web-based terminal
 
 1. Type in (or copy-paste) the command `cat > fly.toml` and press enter. Your cursor should move to a new blank line.
 2. Copy the contents of the `fly.toml` template file below and paste it into the terminal.
@@ -152,7 +152,7 @@ If you’re using the web-based terminal:
 
 </details>
 
-If you’re using a local terminal:
+### Local terminal
 
 1. Create a new folder somewhere on your computer. You can call it whatever you want.
 2. <a rel="download" target="_top" href="/fly.toml">Download the template <code>fly.toml</code> file by clicking here</a> and move it into the folder you just created.
