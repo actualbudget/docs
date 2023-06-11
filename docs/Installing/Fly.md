@@ -115,7 +115,7 @@ Now that you’ve got the configuration file set up, you’re ready to deploy yo
 First, tell Fly about Actual:
 
 ```bash
-fly launch --image jlongster/actual-server:latest
+fly launch --image actualbudget/actual-server:latest
 ```
 
 This command will ask a series of questions:
@@ -133,22 +133,28 @@ Next, we’ll need to set up a “volume,” a place Fly can store your data so 
 fly volumes create actual_data
 ```
 
-You’ll once again be asked to pick a region. Select the same one you chose for the main server.
+You may receive a warning message:
 
-It may take a few seconds to create the volume. Once that’s done, you’re ready to deploy!
+- “_Warning! Individual volumes are pinned to individual hosts. You should create two or more volumes per application. You will have downtime if you only create one. Do you still want to use the volumes feature?_” Actual is only designed to work with one volume, and downtime should only happen when you are manually updating Actual in the future. Type `y` and press enter to continue.
+
+You may be asked to pick a region. Select the same one you chose for the main server, if asked.
+
+It may take a few seconds to create the volume. Once that’s done, you’re ready to deploy! Run this command to deploy your app:
 
 ```bash
 fly deploy
 ```
 
-The deploy can take a couple of minutes. Once it finsihes, you’ll see a message like this:
+The deploy can take a couple of minutes. Once it finishes, you’ll see a message like this:
 
-```bash
-==> Monitoring deployment
-Logs: https://fly.io/apps/some-app-1234/monitoring
+```
+No machines in group app, launching a new machine
+  Machine 148ed726c17298 [app] update finished: success
+Finished launching new machines
+Updating existing machines in 'some-app-1234' with rolling strategy
+  Finished deploying
 
- 1 desired, 1 placed, 1 healthy, 0 unhealthy
---> v0 deployed successfully
+Visit your newly deployed app at https://some-app-1234.fly.dev/
 ```
 
-You’re all set! You can now visit your very own instance of Actual at <code>https://<em>the-name-you-chose</em>.fly.dev</code>. If you’ve forgotten the name, it will be near the top of `fly.toml`, on the line that starts with `app =`.
+You’re all set! You can now visit your very own instance of Actual by opening the link on the last line of the output.
