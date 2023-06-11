@@ -17,10 +17,10 @@ From https://app.actualbudget.com, log in and select the budget you wish to expo
 - From the drop down menu select **Close File**
 - Select **Import file** from the dialog that appears.
 
-![](/img/migrating/actual-config-1.png)
+![](/img/migrating/actual-import-1.png)
 
 - Select **Actual**
 
-![](/img/migrating/actual-config-2.png)
+![](/img/migrating/actual-import-2.png)
 
 - Choose the exported zip file
