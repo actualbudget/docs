@@ -8,7 +8,7 @@ In order to deploy Actual to Fly.io, you’ll need to use their command line int
 
 ### Creating a Fly.io Account
 
-That said, first you’ll need to sign up for an account. Go to [fly.io](https://fly.io) and click “Get Started,” then fill in the form. Note that Fly may require you to enter credit card details. See [their docs on how they use credit cards](https://fly.io/docs/about/credit-cards/) for more information. If you follow the steps in this guide, you will remain well within the free plan limits. For more details, check out [Fly’s pricing documentation](https://fly.io/docs/about/pricing/).
+First, you’ll need to sign up for an account. Go to [fly.io](https://fly.io) and click “Get Started,” then fill in the form. Note that Fly may require you to enter credit card details. See [their docs on how they use credit cards](https://fly.io/docs/about/credit-cards/) for more information. If you follow the steps in this guide, you will remain well within the free plan limits. For more details, check out [Fly’s pricing documentation](https://fly.io/docs/about/pricing/).
 
 ### Accessing the `fly` command line tool
 
@@ -33,13 +33,50 @@ Your terminal should look like this if you’ve done everything correctly:
 
 #### Local installation
 
-If you prefer to install the `fly` command line tool on your local machine, you’ll need to start by open a command line terminal on your computer.
+If you prefer to install the `fly` command line tool on your local machine, you’ll need to start by opening a command line terminal on your computer.
 
-- **Windows**: Open the Start menu and search for “Command Prompt.” Click on the “Command Prompt” app to open it.
+- **Windows**: Open the Start menu and search for “PowerShell.” Click on the “PowerShell” app to open it.
 - **macOS**: Open the “Terminal” app from the Utilities folder in your Applications folder.
 - **Linux**: Open your terminal app of choice.
 
 Next, follow [the instructions to install the `fly` command line tool](https://fly.io/docs/hands-on/install-flyctl/). When entering the commands, make sure _not_ to include the `$` character at the beginning of each line.
+
+<details><summary>Detailed instructions with screenshots for Windows</summary>
+
+Note: the exact commands you’ll need to run may have changed, check the website linked above to make sure you have the latest ones.
+
+1. Open up PowerShell on your local machine and paste the following command into the window:
+   ```powershell
+   iwr https://fly.io/install.ps1 -useb | iex
+   ```
+   ![](/img/fly-install-windows-1.png)
+1. Flyctl should start installing
+
+   ![](/img/fly-install-windows-2.png)
+
+1. Once done you should get a message saying `Run flyctl --help to get started`:
+
+   ![](/img/fly-install-windows-3.png)
+
+</details>
+
+<details><summary>Detailed instructions with screenshots for macOS</summary>
+
+Note: the exact commands you’ll need to run may have changed, check the website linked above to make sure you have the latest ones.
+
+1. In the Finder, choose “Go → Utilities” from the menu bar.
+   ![](/img/fly-install-macos-1.png)
+1. Flyctl should start installing
+
+   ![](/img/fly-install-macos-2.png)
+
+1. Once done you should get a message saying `Run flyctl --help to get started`:
+
+   ![](/img/fly-install-macos-3.png)
+
+</details>
+
+### Logging into Fly.io
 
 Type `flyctl auth login` and press enter to open your browser and log your terminal into Fly.io.
 
