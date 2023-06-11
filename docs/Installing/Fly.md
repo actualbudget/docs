@@ -49,14 +49,14 @@ Note: the exact commands you’ll need to run may have changed, check the websit
    ```powershell
    iwr https://fly.io/install.ps1 -useb | iex
    ```
-   ![](/img/fly-install-windows-1.png)
-1. Flyctl should start installing
+   ![](/img/fly/windows-install-1.png)
+2. Flyctl should start installing
 
-   ![](/img/fly-install-windows-2.png)
+   ![](/img/fly/windows-install-2.png)
 
-1. Once done you should get a message saying `Run flyctl --help to get started`:
+3. Once done you should get a message saying `Run flyctl --help to get started`:
 
-   ![](/img/fly-install-windows-3.png)
+   ![](/img/fly/windows-install-3.png)
 
 </details>
 
@@ -64,21 +64,37 @@ Note: the exact commands you’ll need to run may have changed, check the websit
 
 Note: the exact commands you’ll need to run may have changed, check the website linked above to make sure you have the latest ones.
 
+Additionally, you might get an error such as `command not found: fly` when you try to use the `fly` command later. If that happens, you’ll need to change the `fly` part of the command to `~/.fly/bin/fly` instead.
+
 1. In the Finder, choose “Go → Utilities” from the menu bar.
-   ![](/img/fly-install-macos-1.png)
-1. Flyctl should start installing
 
-   ![](/img/fly-install-macos-2.png)
+   ![](/img/fly/macos-install-1@2x.png)
 
-1. Once done you should get a message saying `Run flyctl --help to get started`:
+2. Scroll down in the list until you find “Terminal.” Double-click on it to open it.
 
-   ![](/img/fly-install-macos-3.png)
+   ![](/img/fly/macos-install-2@2x.png)
+
+3. A window should pop up that will look a bit like this. Note that some of the text may be different, or you may see the last line ending with a `$` instead of a `%`. Both of those are normal.
+
+   ![](/img/fly/macos-install-3@2x.png)
+
+4. Type or paste the following command to start the install. Make sure you press the `Enter` key on your keyboard after you’ve typed it in.
+
+   ```bash
+    curl -L https://fly.io/install.sh | sh
+   ```
+
+   ![](/img/fly/macos-install-4@2x.png)
+
+5. Once that has finished, you should see something like this:
+
+   ![](/img/fly/macos-install-5@2x.png)
 
 </details>
 
 ### Logging into Fly.io
 
-Type `flyctl auth login` and press enter to open your browser and log your terminal into Fly.io.
+Type `fly auth login` and press enter to open your browser and log your terminal into Fly.io.
 
 ## Configuring the app
 
@@ -198,14 +214,28 @@ You’re all set! You can now visit your very own instance of Actual by opening 
 
 ## Updating Actual
 
-When updates to Actual are released, you can update your server by running the following command:
+When updates to Actual are released, you’ll need to re-deploy your app to get the latest version.
+
+### Web-based terminal
+
+Go to https://fly.io/terminal/ and click “Launch Web CLI” at the bottom of the page. You may be asked to log into Fly.
+
+Run the following command, changing the `your-app-name` part to the name you chose when you first deployed Actual:
 
 ```bash
-fly deploy --image actualbudget/actual-server:edge --app your-app-name
+fly deploy --image actualbudget/actual-server:latest --app your-app-name
 ```
 
 For example, if your copy of Actual was available at `https://spring-firefly-8368.fly.dev/`, you would run:
 
 ```bash
-fly deploy --image actualbudget/actual-server:edge --app spring-firefly-8368
+fly deploy --image actualbudget/actual-server:latest --app spring-firefly-8368
+```
+
+### Local terminal
+
+Open a terminal window and navigate to the folder where you set up Actual. Run the following command:
+
+```bash
+fly deploy
 ```
