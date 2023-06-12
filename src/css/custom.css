@@ -46,6 +46,7 @@ h1 {
 .footer,
 .footer--dark {
   --ifm-footer-background-color: #2e346b;
+  --ifm-footer-link-hover-color: #ccc;
 }
 
 .menu__link--unavailable {

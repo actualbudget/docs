@@ -77,7 +77,7 @@ module.exports = {
             position: 'right',
           },
           {
-            href: 'https://github.com/actualbudget/docs',
+            href: 'https://github.com/actualbudget/actual',
             label: 'GitHub',
             position: 'right',
           },
@@ -87,22 +87,16 @@ module.exports = {
         style: 'dark',
         links: [
           {
-            title: 'GitHub',
-            items: [
-              {
-                label: 'GitHub',
-                href: 'https://github.com/actualbudget',
-              },
-            ],
+            label: 'Discord',
+            href: 'https://discord.gg/8JfAXSgfRf',
           },
           {
-            title: 'Discord',
-            items: [
-              {
-                label: 'Discord',
-                href: 'https://discord.gg/8JfAXSgfRf',
-              },
-            ],
+            label: 'GitHub',
+            href: 'https://github.com/actualbudget/actual',
+          },
+          {
+            label: 'Website Source',
+            href: 'https://github.com/actualbudget/docs',
           },
           {
             title: 'RSS Feed',
