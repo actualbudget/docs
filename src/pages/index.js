@@ -218,7 +218,7 @@ export default function Hello() {
           </SmallFeature>
           <SmallFeature
             title="API"
-            icon={icons.shopCashierWoman}
+            icon={icons.hierarchy1}
             learnMore="/docs/api/"
           >
             If you're a developer, we got you. Use our fully-featured API to
@@ -230,12 +230,12 @@ export default function Hello() {
           <h3 class="serif-header">Own your data</h3>
           <div class={classes.ownYourDataContent}>
             {icons.shieldLock}
-            <p>
+            <div>
               Actual allows you to effortlessly sync changes by running your own
               server. Access updates from anywhere with peace of mind. For those
               seeking next-level security, our optional end-to-end encryption
               ensures your data remains unreadable, even to the server.
-            </p>
+            </div>
           </div>
         </div>
       </div>
