@@ -62,6 +62,11 @@ module.exports = {
             label: 'Docs',
           },
           {
+            to: '/contact',
+            position: 'left',
+            label: 'Contact',
+          },
+          {
             href: 'https://discord.gg/8JfAXSgfRf',
             label: 'Discord',
             position: 'right',
