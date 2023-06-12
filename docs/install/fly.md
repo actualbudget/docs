@@ -236,15 +236,15 @@ This will now open Actual so we can start configuring it.
 
    ![](/img/fly/actual-config-1@2x.png)
 
-1. You’ll see a welcome screen. Either click “Import my budget” to [import your budget from YNAB or the subscription version of Actual](../Getting-Started/migration/migration-intro.md), or click “Start fresh” to create a blank budget file.
+2. You’ll see a welcome screen. Either click “Import my budget” to [import your budget from YNAB or the subscription version of Actual](../migration/index.md), or click “Start fresh” to create a blank budget file.
 
    ![](/img/fly/actual-config-2@2x.png)
 
-1. If everything went well you should then be taken to your very first budget.
+3. If everything went well you should then be taken to your very first budget.
 
    ![](/img/fly/actual-register.png)
 
-Actual is now up and running. Congratulations! Consider checking out [our tour](../Getting-Started/using-actual/index.md) next.
+Actual is now up and running. Congratulations! Consider checking out [our tour](../tour/index.md) next.
 
 ## Updating Actual
 
