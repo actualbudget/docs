@@ -1,11 +1,3 @@
-:root {
-  --black-10: rgba(0, 0, 0, 0.1);
-}
-
-:root[data-theme='dark'] {
-  --black-10: rgba(0, 0, 0, 0.5);
-}
-
 .button {
   border: 1px solid currentColor;
 
@@ -25,9 +17,15 @@
   text-decoration: none;
 }
 
-.button:not(.primary):hover,
-.button:not(.primary):focus {
-  background: var(--black-10);
+.button:active {
+  transform: translateY(1px);
+}
+
+.button:not(.primary):is(:hover, :focus) {
+  background: rgba(0, 0, 0, 0.1);
+}
+[data-theme='dark'] .button:not(.primary):is(:hover, :focus) {
+  background: hsla(0, 0%, 50%, 0.2);
 }
 
 .primary {

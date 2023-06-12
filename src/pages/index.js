@@ -10,19 +10,7 @@ import classes from './index.module.css';
 export default function Hello() {
   return (
     <Layout title="Actual" style={{ position: 'relative' }}>
-      <img
-        alt=""
-        src="/img/homepage/hero-bg.svg"
-        style={{
-          position: 'absolute',
-          zIndex: -1,
-          top: 0,
-          left: 0,
-          right: 0,
-          width: '100%',
-          height: 900,
-        }}
-      />
+      <img alt="" src="/img/homepage/hero-bg.svg" class={classes.heroBg} />
 
       <div class={`${classes.main} ${classes.container}`}>
         <h1>The same Actual Budget, but Open Source</h1>
@@ -38,11 +26,12 @@ export default function Hello() {
             Set up hosting
           </Button>
         </div>
-        <Image
-          img={require('../../static/img/homepage/actual-main-budget.png')}
-          alt="Actual Budget"
-          class={classes.heroImage}
-        />
+        <div class={classes.heroImage}>
+          <Image
+            img={require('../../static/img/homepage/actual-main-budget.png')}
+            alt="Actual Budget"
+          />
+        </div>
 
         <MediumFeature
           title="Be involved in your financial decisions"
@@ -127,14 +116,7 @@ export default function Hello() {
         <img
           alt=""
           src="/img/homepage/features-bg.svg"
-          style={{
-            position: 'absolute',
-            bottom: 0,
-            left: 0,
-            right: 0,
-            width: '100%',
-            height: 350,
-          }}
+          class={classes.featuresBg}
         />
 
         <h2 class={`${classes.featuresSectionHeader} serif-header`}>

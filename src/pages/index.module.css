@@ -32,6 +32,29 @@
   }
 }
 
+.heroBg,
+.featuresBg {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+.heroBg {
+  z-index: -1;
+  top: 0;
+  height: 900px;
+}
+[data-theme='dark'] .heroBg {
+  filter: invert();
+}
+.featuresBg {
+  bottom: 0;
+  height: 350px;
+}
+
+.heroImage {
+  max-width: 100%;
+}
 .heroImage,
 .bigFeatureMedia {
   border-radius: 5px;
@@ -134,7 +157,7 @@
   position: relative;
 }
 
-.featuresSection > * {
+.featuresSection > :not(:first-child) {
   /* fix bg overlapping */
   position: relative;
 }
