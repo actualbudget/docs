@@ -129,6 +129,7 @@
   color: white;
   fill: currentColor;
   margin-top: 6rem;
+  padding-top: 8rem;
   padding-bottom: 12rem;
   position: relative;
 }
@@ -140,7 +141,6 @@
 
 .featuresSectionHeader {
   text-align: center;
-  margin-top: 8rem;
   margin-bottom: 5rem;
 }
 
