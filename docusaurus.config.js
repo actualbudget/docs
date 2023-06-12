@@ -28,7 +28,7 @@ module.exports = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          routeBasePath: '/docs/',
+          routeBasePath: 'docs/',
           sidebarPath: require.resolve('./docs-sidebar.js'),
           editUrl: 'https://github.com/actualbudget/docs/tree/master/',
           beforeDefaultRemarkPlugins: [require('./src/remark/rewrite-images')],
