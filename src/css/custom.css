@@ -4,6 +4,18 @@
  * work well for content-centric websites.
  */
 
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  font-family: Libre Baskerville, serif;
+}
+
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #6b46c1;

@@ -1,23 +1,73 @@
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
-
-.heroBanner {
-  padding: 4rem 0;
+.main {
+  display: flex;
+  flex-direction: column;
+  margin-top: 120px;
+  margin-inline: auto;
   text-align: center;
-  position: relative;
-  overflow: hidden;
+  width: 950px;
+  gap: 3rem;
+  padding-inline: 3rem;
 }
 
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
+@media (max-width: 1024px) {
+  .main {
+    width: 800px;
   }
 }
 
-.buttons {
+@media (max-width: 850px) {
+  .main {
+    width: 650px;
+  }
+}
+
+@media (max-width: 690px) {
+  .main {
+    width: 100%;
+    padding-inline: 15px;
+  }
+}
+
+.heroImage {
+  border-radius: 5px;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.heroText {
+  font-size: 17px;
+}
+@media (min-width: 850px) {
+  .heroText {
+    margin-inline: 5rem;
+  }
+}
+
+.mediumFeature {
   display: flex;
+  margin-top: 5rem;
   align-items: center;
-  justify-content: center;
+  text-align: left;
+  flex-direction: column-reverse;
+}
+.mediumFeatureContent {
+  margin-top: 3em;
+}
+
+.mediumFeatureMedia {
+  max-width: 75%;
+}
+
+@media (min-width: 850px) {
+  .mediumFeature {
+    flex-direction: row;
+  }
+  .mediumFeature_flip {
+    text-align: right;
+    flex-direction: row-reverse;
+  }
+  .mediumFeatureContent {
+    margin-top: 0;
+    margin-right: 4rem;
+  }
 }
