@@ -4,7 +4,7 @@ description: New release of Actual.
 date: 2021-09-13T10:00
 slug: release-23.3.1
 authors: rich-howell
-tags: [announcement, releases]
+tags: [announcement, release]
 image: https://i.imgur.com/mErPwqL.png
 hide_table_of_contents: false
 ---

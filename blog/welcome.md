@@ -16,4 +16,4 @@ As some of you may have noticed a lot of the URL's for our documentation, offici
 
 The website is powered by the same static site generator as the documentation, in fact it is the same instance, we have added a custom home page allowing us to continue using Docasaurus as our static site generator, the great thing about this is that is keeps everything Open Source, including all the blog posts.
 
-Talking of the blog, this change will introduce a blog feed, you can find that [here](https://actualbudget.org/blog/rss.xml) if you are looking for posts specific to releases you can have a look at the [release tag](https://actualbudget.org/blog/tags/releases) historical releases will be added as posts over the coming days.
+Talking of the blog, this change will introduce a blog feed, you can find that [here](https://actualbudget.org/blog/rss.xml) if you are looking for posts specific to releases you can have a look at the [release tag](https://actualbudget.org/blog/tags/release) historical releases will be added as posts over the coming days.
