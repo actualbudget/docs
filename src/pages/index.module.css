@@ -180,9 +180,16 @@
   }
 }
 
-@media (min-width: 767px) {
+@media (max-width: 767px) {
   .smallFeaturesGrid {
     display: block;
+  }
+}
+
+@media (min-width: 768px) {
+  .smallFeaturesGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
