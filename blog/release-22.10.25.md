@@ -14,7 +14,7 @@ hide_table_of_contents: false
 **Docker tag: 22.10.25**
 
 :::warning
-This release includes a breaking change to the sync component that requires manual migration ([migration guide](/migration/simple-sync.md)). Ensure your budget is [backed up](/backup-restore/backup.md) before you update to avoid data loss
+This release includes a breaking change to the sync component that requires manual migration ([migration guide](../migration/simple-sync.md)). Ensure your budget is [backed up](../backup-restore/backup.md) before you update to avoid data loss
 :::
 
 This release of Actual does not include any of the following
