@@ -180,7 +180,7 @@
   }
 }
 
-@media (min-width: 690px) {
+@media (min-width: 767px) {
   .smallFeaturesGrid {
     display: block;
   }
