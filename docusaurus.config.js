@@ -62,6 +62,7 @@ module.exports = {
             position: 'left',
             label: 'Home',
           },
+          {to: 'blog', label: 'Blog', position: 'left'}, // or position: 'right'
           {
             href: 'https://github.com/actualbudget/docs',
             label: 'GitHub',
