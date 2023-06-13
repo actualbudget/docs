@@ -104,6 +104,15 @@ module.exports = {
               },
             ],
           },
+          {
+            title: 'RSS Feed',
+            items: [
+              {
+                label: 'RSS Feed',
+                href: 'https://actualbudget.org/blog/rss.xml',
+              },
+            ],
+          },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Actual Budget. Built with Docusaurus.`,
       },
