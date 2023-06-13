@@ -26,7 +26,6 @@ const unavailable = title => ({
 const sidebars = {
   docs: [
     'index',
-    'releases',
     {
       type: 'category',
       label: 'Contributing',
