@@ -99,13 +99,8 @@ module.exports = {
             href: 'https://github.com/actualbudget/docs',
           },
           {
-            title: 'RSS Feed',
-            items: [
-              {
-                label: 'RSS Feed',
-                href: 'https://actualbudget.org/blog/rss.xml',
-              },
-            ],
+            label: 'RSS Feed',
+            href: 'https://actualbudget.org/blog/rss.xml',
           },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Actual Budget. Built with Docusaurus.`,
