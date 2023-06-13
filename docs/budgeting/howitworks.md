@@ -114,5 +114,3 @@ This might sound complex, but it's really not! You can get as detailed as you wa
 If you don't have a savings account, you can simply skip step 6. The **Savings** category will build up a balance and represent the savings that you are keeping in your account.
 
 This also assumes you have enough income to cover a full month plus any overspending. If you don't, you need to watch your budget more carefully and make sure to cover overspending from other categories.
-
-<NextLink href="/docs/budgeting/categories/">Next step: learn about categories</NextLink>
