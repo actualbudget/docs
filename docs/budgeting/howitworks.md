@@ -46,7 +46,7 @@ Most likely, a common workflow will be to "hold" income you make this month for 
 
 ![](/img/how-it-works/buffer-1.png)
 
-3.  Press `Enter` to hold all available money, or enter a custom amount to hold.
+3.  Press <Key k="enter" /> to hold all available money, or enter a custom amount to hold.
 
 This doesn't do anything except takes out money from the **To Budget** amount for that month, allowing you to "zero it out" and mark it to be used for later. That money will appear in next month's **To Budget**.
 
