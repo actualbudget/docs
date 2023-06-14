@@ -79,8 +79,6 @@ The goal of the UI is to be minimalistic, but expose more advanced features prog
 
 The settings screen needs to also remain a place where core settings lives, we don't really want to have a myriad of options in here for each and every setting within the UI, doing that makes the code un-managable for future contributors and clutters up and confuses things for the users of Actual Budget. 
 
-### Things to avoid when opening a PR
-
 [albertogasparin]: https://github.com/albertogasparin
 [j-f1]: https://github.com/j-f1
 [jlongster]: https://github.com/jlongster
