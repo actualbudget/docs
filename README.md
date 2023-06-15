@@ -58,18 +58,16 @@ website # the root directory of the documentation site
     └── getting-started # Getting started with Actual
         ...
     └── install # Documentation around installing actual
-            └── Fly.md # sub folders for each installation method when the method has multiple files
-            └── Synology
-            ... # If the installation method only has one file, leave it in root of Installing
+        ...
     └── migration # Migrating into Actual and using the tools available.
         ...
-    └── reports # Just reporting
+    └── reports
         ...
-    └── tour # Self explanatory title
+    └── tour
         ...
-    └── transactions # Self explanatory title
+    └── transactions
         ...
-    └── troubleshooting # Self explanatory title
+    └── troubleshooting
         ...
 │
 └── static
