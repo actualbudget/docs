@@ -46,7 +46,7 @@ website # the root directory of the documentation site
     └── advanced # Some more advanced guides for Actual
         └── scripts
         ...
-    └── backup-restore # Self explanatory title
+    └── backup-restore
         ...
     └── budgeting # Budget specific, including rules, schedules etc.
         └── rules
