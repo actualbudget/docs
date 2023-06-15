@@ -40,7 +40,7 @@ website # the root directory of the documentation site
 ├── docs
 │   └── index.md # the introduction file
 │   └── faq.md
-│   └── releases.md # the introduction file
+│   └── releases.md # release notes
     └── accounts # Anything relating to accounts, account management or transactions
         ...
     └── advanced # Some more advanced guides for Actual
