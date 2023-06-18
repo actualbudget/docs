@@ -1,12 +1,8 @@
 # Connecting Your Bank
 
-:::warning
-This is an **experimental feature**. That means we’re still working on finishing it. There may be bugs, missing functionality or incomplete documentation, and we may decide to remove the feature in a future release. If you have any feedback, please [open an issue](https://github.com/actualbudget/actual/issues) or post a message in the Discord.
-:::
-
 :::note
-Client Version 23.3.0 and
-Server Version 23.3.1 or higher are required for this feature.
+Client Version 23.7.0 and
+Server Version 23.7.0 or higher are required for this feature.
 :::
 
 We are excited to offer this optional bank integration in Actual. Here are a couple of considerations to know about before making the decision to use bank sync in your installation of Actual Budget.
