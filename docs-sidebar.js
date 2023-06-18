@@ -214,7 +214,7 @@ const sidebars = {
             id: 'advanced/index',
           },
           items: [
-            'bank-sync',
+            'advanced/bank-sync',
             {
               type: 'category',
               label: 'Scripts',
