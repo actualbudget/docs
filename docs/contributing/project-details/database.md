@@ -6,4 +6,4 @@ However this is not the 'current' structure, as the database is created as a cop
 
 On the front end, actual sometimes uses views to display data. All the names with the `v_` prefix are actually views, not tables. The views are recreated every time the app starts and normalize the shape of the data to the internal tables. Makes it easy to change field names etc without actually touching the tables (especially important in this local-first world where syncing directly references tables and fields)
 
-Much of the interesting functionality uou might be interested in can be found in `/loot-core/src/server/db`
+Much of the interesting functionality you might be interested in can be found in `/loot-core/src/server/db`
