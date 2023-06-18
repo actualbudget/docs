@@ -13,8 +13,6 @@ We are excited to offer this optional bank integration in Actual. Here are a cou
 
 - The Secrets and Keys are stored in your Actual installed version so it is highly recommended to turn on End to End encryption and create a strong passphrase to encrypt your files.
 
-- Bank Sync is part of the Experimental Features in settings and needs to be turned on in order to use this integration
-
 - You will need to add a config file to your installation
 
 ### Supported Providers
