@@ -54,6 +54,7 @@ const sidebars = {
             id: 'contributing/project-details/index',
           },
           items: [
+            'contributing/project-details/architecture',
             'contributing/project-details/database'
           ]
         },
