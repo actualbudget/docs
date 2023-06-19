@@ -38,7 +38,7 @@ Here are some initial guidelines for how contributions will be treated:
 
 (sorted alphabetically)
 
-- [rich-howell]
+- @rich-howell
 
 ### The Project Layout
 
