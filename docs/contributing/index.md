@@ -27,12 +27,12 @@ Here are some initial guidelines for how contributions will be treated:
 
 (sorted alphabetically)
 
-- [albertogasparin]
-- [j-f1]
-- [jlongster]
-- [Kidglove57]
-- [MatissJanis]
-- [trevdor]
+- @albertogasparin
+- @j-f1
+- @jlongster
+- @Kidglove57
+- @MatissJanis
+- @trevdor
 
 ### Alumni
 
