@@ -53,6 +53,7 @@
 }
 
 .heroImage {
+  position: relative;
   max-width: 100%;
 }
 .heroImage,
@@ -62,6 +63,31 @@
   line-height: 0;
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
     0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.demoButton {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  border: none;
+  font-weight: 500;
+}
+.demoButtonContent {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  font-size: 1.5em;
+  padding: 0.5em;
+  border-radius: 1em;
+}
+.demoButton:not(:hover) .demoButtonContent {
+  background: rgba(0, 0, 0, 0.2);
 }
 
 .heroText {
