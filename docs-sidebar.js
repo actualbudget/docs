@@ -54,7 +54,6 @@ const sidebars = {
             id: 'contributing/project-details/index',
           },
           items: [
-            'contributing/project-details/architecture',
             'contributing/project-details/database'
           ]
         },
@@ -225,6 +224,7 @@ const sidebars = {
             id: 'advanced/index',
           },
           items: [
+            'advanced/bank-sync',
             {
               type: 'category',
               label: 'Scripts',
@@ -241,7 +241,6 @@ const sidebars = {
             'experimental/goal-templates',
             'experimental/monthly-cleanup',
             'experimental/report-budget',
-            'experimental/bank-sync',
           ],
         },
       ],
