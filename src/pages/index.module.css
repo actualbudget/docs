@@ -80,14 +80,28 @@
 }
 .demoButtonContent {
   display: flex;
-  gap: 0.5rem;
+  gap: 0.25rem;
   align-items: center;
   font-size: 1.5em;
   padding: 0.5em;
   border-radius: 1em;
+  transition: inherit;
+  backdrop-filter: blur(12px);
 }
 .demoButton:not(:hover) .demoButtonContent {
-  background: rgba(0, 0, 0, 0.2);
+  background: hsla(0deg, 0%, 50%, 75%);
+}
+.demoButton:hover .demoButtonContent {
+  background: hsla(0deg, 0%, 60%, 85%);
+}
+
+@supports (backdrop-filter: blur(12px)) {
+  .demoButton:not(:hover) .demoButtonContent {
+    background: rgba(0, 0, 0, 0.1);
+  }
+  .demoButton:hover .demoButtonContent {
+    background: rgba(0, 0, 0, 0.15);
+  }
 }
 
 .heroText {
