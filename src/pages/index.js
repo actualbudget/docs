@@ -15,15 +15,14 @@ export default function Hello() {
       <div class={`${classes.main} ${classes.container}`}>
         <h1>The same Actual Budget, but Open Source</h1>
         <p class={classes.heroText}>
-          This website is for the Open Source version of Actual Budget, it is a
-          super fast privacy-focused app for managing your finances. You own
-          your data, and we will sync it across all devices with optional
-          end-to-end encryption.
+          Actual Budget is a super fast privacy-focused app for managing your
+          finances. You own your data and can do with it whatever you want.
+          Featuring multi-device sync with optional end-to-end encryption.
         </p>
         <div>
           <Button to="https://demo.actualbudget.org">Try Our Demo</Button>
           <Button primary to="/docs/install/">
-            Set up hosting
+            Install
           </Button>
         </div>
         <div class={classes.heroImage}>
