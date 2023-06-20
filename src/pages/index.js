@@ -248,14 +248,19 @@ export default function Hello() {
 
         <p
           class={classes.container}
-          style={{ maxWidth: 600, marginTop: '12em', marginBottom: '-12em' }}
+          style={{ maxWidth: 500, marginTop: '12em', marginBottom: '-12em' }}
         >
           <small style={{ opacity: 0.6 }}>
             * PikaPods donates 20% of fees people like you pay to run Actual on
             their servers to{' '}
-            <a href="https://opencollective.org/actual">our Open Collective</a>.
-            Regardless of this relationship, we believe PikaPods is the easiest
-            way to get started with Actual.
+            <a
+              style={{ color: 'inherit', textDecoration: 'underline' }}
+              href="https://opencollective.org/actual"
+            >
+              our Open Collective
+            </a>
+            . Regardless of this relationship, we believe PikaPods is the
+            easiest way to get started with Actual.
           </small>
         </p>
       </div>
