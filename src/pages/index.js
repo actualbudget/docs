@@ -13,7 +13,7 @@ export default function Hello() {
       <img alt="" src="/img/homepage/hero-bg.svg" class={classes.heroBg} />
 
       <div class={`${classes.main} ${classes.container}`}>
-        <h1>The same Actual Budget, but Open Source</h1>
+        <h1>Enjoy managing your finances</h1>
         <p class={classes.heroText}>
           Actual Budget is a super fast privacy-focused app for managing your
           finances. You own your data and can do with it whatever you want.
