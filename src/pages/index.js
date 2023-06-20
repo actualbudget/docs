@@ -26,14 +26,21 @@ export default function Hello() {
         <div style={{ display: 'flex', flexDirection: 'column', gap: '1em' }}>
           <div>
             <Button primary to="https://www.pikapods.com/pods?run=actual">
-              Set up on PikaPods in 2 minutes →
+              Set up on PikaPods in 2 minutes
+              <sup
+                style={{
+                  lineHeight: 0,
+                  fontSize: '0.75em',
+                  display: 'inline-block',
+                  transform: 'translateY(0.1em)',
+                }}
+              >
+                *
+              </sup>{' '}
+              →
             </Button>
             <Button to="/docs/install/">Set up manually</Button>
           </div>
-          <small style={{ opacity: 0.6 }}>
-            PikaPods shares 20% of fees people like you pay to run Actual on
-            their servers with us.
-          </small>
         </div>
         <div class={classes.heroImage}>
           <Image
@@ -238,6 +245,19 @@ export default function Hello() {
             </div>
           </div>
         </div>
+
+        <p
+          class={classes.container}
+          style={{ maxWidth: 600, marginTop: '12em', marginBottom: '-12em' }}
+        >
+          <small style={{ opacity: 0.6 }}>
+            * PikaPods donates 20% of fees people like you pay to run Actual on
+            their servers to{' '}
+            <a href="https://opencollective.org/actual">our Open Collective</a>.
+            Regardless of this relationship, we believe PikaPods is the easiest
+            way to get started with Actual.
+          </small>
+        </p>
       </div>
     </Layout>
   );
