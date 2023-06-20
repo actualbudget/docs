@@ -37,7 +37,7 @@ export default function Hello() {
               >
                 *
               </sup>{' '}
-              ↗
+              <span aria-hidden="true">↗</span>
             </Button>
             <Button to="/docs/install/">Set up manually</Button>
           </div>
