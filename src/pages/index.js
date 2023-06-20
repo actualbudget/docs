@@ -16,7 +16,7 @@ export default function Hello() {
         <h1>Enjoy managing your finances</h1>
         <p class={classes.heroText}>
           Actual Budget is a super fast privacy-focused app for managing your
-          finances. You own your data and can do with it whatever you want.
+          finances. You own your data and can do whatever you want with it.
           Featuring multi-device sync with optional end-to-end encryption.
         </p>
         <div>
