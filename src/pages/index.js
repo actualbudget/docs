@@ -13,11 +13,15 @@ export default function Hello() {
       <img alt="" src="/img/homepage/hero-bg.svg" class={classes.heroBg} />
 
       <div class={`${classes.main} ${classes.container}`}>
-        <h1>Enjoy managing your finances</h1>
+        <h1>Your Finances - made simple</h1>
         <p class={classes.heroText}>
-          Actual Budget is a super fast privacy-focused app for managing your
-          finances. You own your data and can do whatever you want with it.
-          Featuring multi-device sync with optional end-to-end encryption.
+          Actual Budget is a super fast and privacy-focused app for managing
+          your finances. At its heart is the well proven and much loved Envelope
+          Budgeting methodology.
+          <br />
+          <strong>You own your data</strong> and can do whatever you want with
+          it. Featuring multi-device sync, optional end-to-end encryption and so
+          much more.
         </p>
         <div>
           <Button to="https://demo.actualbudget.org">Try Our Demo</Button>
