@@ -86,22 +86,12 @@
   padding: 0.5em;
   border-radius: 1em;
   transition: inherit;
-  backdrop-filter: blur(12px);
-}
-.demoButton:not(:hover) .demoButtonContent {
-  background: hsla(0deg, 0%, 50%, 75%);
-}
-.demoButton:hover .demoButtonContent {
-  background: hsla(0deg, 0%, 60%, 85%);
+  background: var(--ifm-link-color);
+  color: white;
 }
 
-@supports (backdrop-filter: blur(12px)) {
-  .demoButton:not(:hover) .demoButtonContent {
-    background: rgba(0, 0, 0, 0.1);
-  }
-  .demoButton:hover .demoButtonContent {
-    background: rgba(0, 0, 0, 0.15);
-  }
+.demoButton:is(:hover, :focus) .demoButtonContent {
+  filter: brightness(0.9);
 }
 
 .heroText {
