@@ -30,6 +30,21 @@ To do this,
 
 That is it. A fresh budget will show in your budget list. If the imported data is a copy of your current budget, you may want to rename the new budget by clicking on it's name so you can tell them apart. Once you verify the new imported budget is correct, you can navigate back to the budget selection screen by closing the current budget and deleting the old copy.
 
+## Errors When Restoring From Backup
+It is possible that you may encounter an error during restoration that says: `This budget cannot be loaded with this version of the app. Make sure the app is up-to-date.`
+The fix for this is to manually migrate the your sqlite database in the steps outlined below:
+1. Download and install [SQLite Browser](https://sqlitebrowser.org/)
+2. Unzip the `.zip` file you downloaded earlier. The filename should look like: `yyyy-mm-dd-My-Finances-abcd1234.zip`
+3. Open up the `db.sqlite` file in the SQLite Browser.
+4. Click on the `Browse Data` tab and select `__migrations__` from the table dropdown menu.
+5. You should see a list of integers. Cross-reference the data in this table with the list of [database migrations](https://github.com/actualbudget/actual/tree/master/packages/loot-core/migrations) in the main Actual repository.
+6. For every integer that's missing, you'll want to click on the `.sql` file associated with it and copy the raw data.
+7. Run the sql query in the Execute tab of SQLite Browser. Be sure to check the output that the command was successful.
+8. If the sql query that you copied is successful, you'll want to insert the migration command's id into the `__migrations__` table by executing `insert into __migrations__ values(id_of_missing_migration_command);`.
+9. Once your `__migrations__` table matches the database migrations folder, commit and close the database.
+10. Rezip your modified `db.sqlite` and `metadata.json` files into a zip file.
+11. Retry the restore process outlined above.
+
 ## Automatic Backups
 
 :::caution
