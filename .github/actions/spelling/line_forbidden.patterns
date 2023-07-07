@@ -7,7 +7,7 @@
 #\bfit\(
 
 # s.b. GitHub
-\bGithub\b
+#\bGithub\b
 
 # s.b. GitLab
 \bGitlab\b
