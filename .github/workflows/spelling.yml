@@ -82,6 +82,12 @@ jobs:
         experimental_apply_changes_via_bot: 1
         use_sarif: 1
         extra_dictionary_limit: 10
+        extra_dictionaries:
+          cspell: bash/bash-words.txt
+          cspell: node/node.txt
+          cspell: java/java.txt
+          cspell: npm/npm.txt
+          cspell: filetypes/filetypes.txt
 
   comment-push:
     name: Report (Push)
