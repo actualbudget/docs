@@ -16,6 +16,7 @@ ignore$
 \.class$
 \.coveragerc$
 \.crt$
+\.css$
 \.dll$
 \.docx?$
 \.drawio$
@@ -60,6 +61,7 @@ ignore$
 \.xlsx?$
 \.zip$
 ^\.github/actions/spelling/
+^\.github/ISSUE_TEMPLATE/
 ^\Q.github/workflows/spelling.yml\E$
 ^\.yarn/
 ^\Qnode_modules/\E$
@@ -68,3 +70,6 @@ ignore$
 ^\Q.github/\E$
 (?:^|/)package(?:-lock|)\.json$
 (?:^|/)yarn\.lock$
+(?:^|/)(?i)docusaurus.config.js
+(?:^|/)(?i)README.md
+^\static/
