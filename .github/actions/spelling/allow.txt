@@ -315,7 +315,6 @@ waseem
 wasm
 webpack
 website
-wght
 wiki
 wikipedia
 winklevos
