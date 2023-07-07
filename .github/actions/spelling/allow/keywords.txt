@@ -44,6 +44,7 @@ nordigen
 OFX
 pikaday
 pikapods
+playsinline
 Podcast
 Postgresql
 protobuf
@@ -67,6 +68,7 @@ ubuntu
 Upstash
 useb
 usernames
+valign
 Venmo
 websites
 wordpress
