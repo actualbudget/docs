@@ -598,7 +598,7 @@ Version: 23.3.1
 The release has the following notable features:
 
 - _Experimental_ support for automatically syncing transactions from European bank accounts using Nordigen.
-- Filters in the the transaction list can now be edited.
+- Filters in the transaction list can now be edited.
 - When connecting to a server for the first time, you no longer need to enter the server URL.
 - You’ll now be notified of future updates to Actual.
 - Large imports will no longer break in Safari.
@@ -836,7 +836,7 @@ Version: 23.2.5
 
 The release has notable of improvements of:
 
-- Read-only responsive view, this replaces our mobile apps, it is notable that this is read only only at this stage.
+- Read-only responsive view, this replaces our mobile apps, it is notable that this is read-only only at this stage.
 - Improvements to the sidebar design
 
 ### Actual
