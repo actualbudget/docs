@@ -26,6 +26,7 @@ iwr
 jwl
 kcab
 Kroger
+ldaplogin
 libofx
 linting
 lte
@@ -34,7 +35,8 @@ mkcert
 monkeypatch
 Morrisons
 mozilla
-n[Yy][Nn][Aa][Bb]
+nYNAB
+nynab
 nas
 Netflix
 netlify
@@ -54,7 +56,8 @@ selfhost
 ssh
 subfolders
 subreaper
-subtransaction[s]?
+subtransaction
+subtransactions
 synology
 tagline
 Tailscale
