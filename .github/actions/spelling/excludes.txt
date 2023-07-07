@@ -62,6 +62,9 @@ ignore$
 ^\.github/actions/spelling/
 ^\Q.github/workflows/spelling.yml\E$
 ^\.yarn/
-^\node_modules/
-^\src/
-^\static/
+^\Qnode_modules/\E$
+^\Qsrc/\E$
+^\Qstatic/\E$
+^\Q.github/\E$
+(?:^|/)package(?:-lock|)\.json$
+(?:^|/)yarn\.lock$
