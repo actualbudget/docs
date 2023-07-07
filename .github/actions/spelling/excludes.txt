@@ -61,3 +61,7 @@ ignore$
 \.zip$
 ^\.github/actions/spelling/
 ^\Q.github/workflows/spelling.yml\E$
+^\.yarn/
+^\node_modules
+^\src
+^\static
