@@ -35,7 +35,7 @@ It is possible that you may encounter an error during restoration that says:
 
 `This budget cannot be loaded with this version of the app. Make sure the app is up-to-date.`
 
-This should only happen when you're upgrading from a Docker image with the `edge` tag to a stable release, such as `latest`. This should not happen in other instances. If you find yourself seeing this bug, 
+This should only happen when you're upgrading from a Docker image with the `edge` tag to a stable release, such as `latest`. This should not happen in other instances. If you find yourself seeing this bug, please submit a bug report.
 
 **IMPORTANT NOTE**: You *MUST* download a backup of each of your budgets using the process outlined above **before** continuing. It's always good practice to backup your data before upgrading to a new verison.
 
