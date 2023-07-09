@@ -77,7 +77,7 @@
 # disable fields that are encapsulated in quotes. These are usually commands in how-to guides or section pages.
 '.+[']
 # `.+[`]
-".+["]
+# ".+["]
 
 [..\/].+\w
 
