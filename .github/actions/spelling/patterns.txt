@@ -74,7 +74,7 @@
 # docusaurus links that begin with '#'
 [#][^$\W]*
 
-[..\/].+\w
+# [..\/].+\w
 
 # docusaurus image paths
 img.+\w
