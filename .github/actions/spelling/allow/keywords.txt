@@ -31,6 +31,7 @@ libofx
 linting
 lte
 mariushosting
+minimalistic
 mkcert
 monkeypatch
 Morrisons
@@ -46,6 +47,7 @@ pikaday
 pikapods
 playsinline
 Podcast
+portalization
 Postgresql
 protobuf
 publix
