@@ -29,7 +29,8 @@ A box will appear asking you to fill in a few options
 Off budget means that the balance is not reflected when you assign money to categories in your budget register
 :::
 
-![](/img/add-account/CreateAccount.png)
+![](/img/add-account/CreateAccount@2.png)
+![](/img/add-account/CreateAccount@3.png)
 
 Here you can see how that looks when the options are completed.
 
