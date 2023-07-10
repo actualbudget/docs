@@ -41,7 +41,7 @@ There are further options to choose within each area, in order to narrow the Fil
 
 ### Saving Filters
 
-Starting with update [27.7.1](https://actualbudget.org/docs/releases/), users now have the ability to save filtered searches. Filtering transactions works exactly the same as in previous updates, as outlined above.
+Starting with update [27.7.1](https://actualbudget.org/docs/releases/), users now have the ability to save filtered searches. Filtering transactions works exactly the same as in previous updates.
 
 Before we get started, you'll have to go to the **All accounts** page and filter some transactions. See the section **How to use the Filter tool** above for more information on how this works.
 
@@ -61,11 +61,15 @@ A new window should pop-up giving you the ability to select which saved filter y
 
 ![](/img/filtering/select-saved-2.png)
 
-The saved budget will then display in the transactions table.
+The saved filter will then display in the transactions table.
 
-You also have the ability to modify or delete any of your existing saved filters. First, pull up your saved filter. If you wish to make any changes to the saved filter, you can do that now by adding additional filter conditions.
+#### Modifying and Deleting Saved Filters
 
-To modify or delete the filter, click on the top-right dropdown menu. It will present you with a few options based on what actions you've taken. If you've modified the saved filter, you'll have the ability to rename, update, revert, delete, or save a new filter based on the criteria you have established. If no changes to the filter were made, you'll have the ability to rename or delete the saved filter entirely.
+You also have the ability to modify or delete any of your existing saved filters.
+
+First, pull up your saved filter. If you wish to make any changes to the saved filter, you can do that now by adding additional filter conditions.
+
+To modify or delete the filter, click on the top-right dropdown menu. It will present you with a few options based on what actions you've taken. If you've modified the saved filter, you'll have the ability to rename, update, revert, delete, or save a new filter based on the criteria you have established. If no changes to the filter were made, you can rename or delete the saved filter entirely.
 
 ![](/img/filtering/modify-saved.png)
 
