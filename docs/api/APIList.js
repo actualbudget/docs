@@ -7,7 +7,7 @@ export default function APIList({ title, sections }) {
 
       <ul>
         {sections.map(name => {
-          let id = name.replace(/[ -]/g, '-').toLowerCase();
+          let id = name.replace(/[ -]/g, '-');
           return (
             <li className="list-none m-0 mt-1 pl-4 text-sm link-color-inherit text-gray-700">
               <a className="no-underline" href={'#' + id}>

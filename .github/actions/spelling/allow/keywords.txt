@@ -55,6 +55,7 @@ protobuf
 publix
 QFX
 QIF
+Rezip
 RUpdate
 screenshots
 selfhost
