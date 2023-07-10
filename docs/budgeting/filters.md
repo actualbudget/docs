@@ -39,6 +39,22 @@ There are further options to choose within each area, in order to narrow the Fil
 
 ![](/img/filtering/conditions-3.png)
 
+### Example
+
+In this example we are finding out how much the Mercedes car cost to run during the 2021 calendar year. To enhance this analysis a Note of each vehicle owned was added to transactions in the “Car” category group. Adding such a note is made much easier by ensuring that the Note is added to each relevant scheduled (recurring) transaction. In this instance the Note was added using the tag symbol (#Merc) but the # is not needed. It is a personal preference. Alternatively, you could just be more granular in your creation of Categories.
+
+![](/img/filtering/multiple-filters.png)
+
+Here is an image of the multiple filters that have been selected. In this example, these include a Date range, multiple Categories, and a Note.
+
+![](/img/filtering/highlight.png)
+
+Now we want to see the total spent on the Mercedes car in 2021. This is shown at the top centre of the following image.
+
+![](/img/filtering/highlight-2.png)
+
+But what if we need to drill down further and calculate just the costs were for servicing this particular car? By deselecting the non-applicable transactions a revised total appears as shown below. Alternatively just remove the non-applicable category filters.
+
 ### Saving Filters
 
 Starting with update [27.7.1](https://actualbudget.org/docs/releases/), users now have the ability to save filtered searches. Filtering transactions works exactly the same as in previous updates.
@@ -75,22 +91,3 @@ To modify or delete the filter, click on the top-right dropdown menu. It will pr
 
 To clear out the any filtered transactions, click on the dropdown menu in the top-right corner above your transactions table and click **Clear all conditions**.
 
-### Example
-
-In this example we are finding out how much the Mercedes car cost to run during the 2021 calendar year. To enhance this analysis a Note of each vehicle owned was added to transactions in the “Car” category group. Adding such a note is made much easier by ensuring that the Note is added to each relevant scheduled (recurring) transaction. In this instance the Note was added using the tag symbol (#Merc) but the # is not needed. It is a personal preference. Alternatively, you could just be more granular in your creation of Categories.
-
-![](/img/filtering/multiple-filters.png)
-
-Here is an image of the multiple filters that have been selected. In this example, these include a Date range, multiple Categories, and a Note.
-
-![](/img/filtering/highlight.png)
-
-Now we want to see the total spent on the Mercedes car in 2021. This is shown at the top centre of the following image.
-
-![](/img/filtering/highlight-2.png)
-
-But what if we need to drill down further and calculate just the costs were for servicing this particular car? By deselecting the non-applicable transactions a revised total appears as shown below. Alternatively just remove the non-applicable category filters.
-
-### Conclusion
-
-This is just one possible use case. The filters you personally create will be dictated by your own needs. There is lots of room here for personal creativity!
