@@ -88,7 +88,7 @@ export let objects = {
       description: (
         <span>
           If a transfer, the <code>id</code> of the transaction in the other
-          account for the transfer. See <a href="#transfers">transfers</a>.
+          account for the transfer. See <a href="#Transfers">transfers</a>.
         </span>
       ),
     },

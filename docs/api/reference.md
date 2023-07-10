@@ -128,7 +128,7 @@ with be displayed within the app.
 
 Existing transfers will have the `transfer_id` field which points to the transaction on the other side. **You should not change this** or you will cause unexpected behavior. (You are allowed to set this when importing, however.)
 
-If you want to create a transfer, use the transfer payee for the account you wish to transfer to/from. Load the payees, use the [`transfer_acct`](#payee) field of the payee to find the account you want to transfer to/from assign that payee to the transaction. A transfer with a transaction in both accounts will be created. (See [transfer payees](#transfers-1).)
+If you want to create a transfer, use the transfer payee for the account you wish to transfer to/from. Load the payees, use the [`transfer_acct`](#Payee) field of the payee to find the account you want to transfer to/from assign that payee to the transaction. A transfer with a transaction in both accounts will be created. (See [transfer payees](#transfers-1).)
 
 #### Methods
 
@@ -150,7 +150,7 @@ Adds multiple transactions at once, but goes through the same process as importi
 
 The import will "reconcile" transactions to avoid adding duplicates. Transactions with the same `imported_id` will never be added more than once. Otherwise, the system will match transactions with the same amount and with similar dates and payees and try to avoid duplicates. If not using `imported_id` you should check the results after importing.
 
-It will also create transfers if a transfer payee is specified. See [transfers](#transfers).
+It will also create transfers if a transfer payee is specified. See [transfers](#Transfers).
 
 This method returns an object with the following fields:
 
@@ -250,7 +250,7 @@ If you want to fully delete an account and remove it entirely from the system, u
 
 <Method name="getAccounts" args={[]} returns="Promise<Account[]>" />
 
-Get all accounts. Returns an array of [`Account`](#account) objects.
+Get all accounts. Returns an array of [`Account`](#Account) objects.
 
 #### `createAccount` {#createAccount}
 
@@ -262,7 +262,7 @@ Create an account with an initial balance of `initialBalance` (defaults to 0). R
 
 <Method name="updateAccount" args={[{ name: 'id', type: 'id' }, { name: 'fields', type: 'object' }]} />
 
-Update fields of an account. `fields` can specify any field described in [`Account`](#account).
+Update fields of an account. `fields` can specify any field described in [`Account`](#Account).
 
 #### `closeAccount` {#closeAccount}
 
@@ -328,7 +328,7 @@ Create a category. Returns the `id` of the new account.
 
 <Method name="updateCategory" args={[{ name: 'id', type: 'id' }, { name: 'fields', type: 'object' }]} returns="Promise<null>" />
 
-Update fields of a category. `fields` can specify any field described in [`Category`](#category).
+Update fields of a category. `fields` can specify any field described in [`Category`](#Category).
 
 #### `deleteCategory` {#deleteCategory}
 
@@ -383,7 +383,7 @@ Create a category group. Returns the `id` of the new group.
 
 <Method name="updateCategoryGroup" args={[{ name: 'id', type: 'id' }, { name: 'fields', type: 'object' }]} returns="Promise<id>" />
 
-Update fields of a category group. `fields` can specify any field described in [`CategoryGroup`](#categoryGroup).
+Update fields of a category group. `fields` can specify any field described in [`CategoryGroup`](#Category-group).
 
 #### `deleteCategoryGroup` {#deleteCategoryGroup}
 
@@ -406,7 +406,7 @@ Delete a category group.
 }
 ```
 
-#### Transfers
+#### Transfers {#transfers-1}
 
 Transfers use payees to indicate which accounts to transfer money to/from. This lets the system use the same payee matching logic to manage transfers as well.
 
