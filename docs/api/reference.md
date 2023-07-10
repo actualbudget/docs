@@ -162,7 +162,7 @@ This method returns an object with the following fields:
 
 <Method name="getTransactions" args={[{ name: 'accountId', type: 'id'}, { name: 'startDate', type: 'date' }, { name: 'endDate', type: 'date' }]} returns="Promise<Transaction[]>" />
 
-Get all the transactions in `accountId` between the specified dates (inclusive). Returns an array of [`Transaction`](#transaction) objects.
+Get all the transactions in `accountId` between the specified dates (inclusive). Returns an array of [`Transaction`](#Transaction) objects.
 
 #### `filterTransactions` {#filterTransactions}
 
@@ -172,7 +172,7 @@ Get all the transactions in `accountId` between the specified dates (inclusive).
 
 <Method name="updateTransaction" args={[{ name: 'id', type: 'id'}, { name: 'fields', type: 'object'} ]} />
 
-Update fields of a transaction. `fields` can specify any field described in [`Transaction`](#transaction).
+Update fields of a transaction. `fields` can specify any field described in [`Transaction`](#Transaction).
 
 #### `deleteTransaction` {#deleteTransaction}
 
