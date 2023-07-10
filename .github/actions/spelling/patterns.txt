@@ -74,8 +74,8 @@
 # docusaurus links that begin with '#'
 [#][^$\W]*
 
-# [..\/].+\w
-
 # docusaurus image paths
 img.+\w
 
+# eliminate words like [`nvm`] or [`asdf`]
+\[.+?`]
