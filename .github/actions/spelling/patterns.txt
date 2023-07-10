@@ -72,7 +72,7 @@
 (?:[\\0][xX]|\\u|[uU]\+|#x?|\%23)[0-9_a-fA-FgGrR]*?[a-fA-FgGrR]{2,}[0-9_a-fA-FgGrR]*(?:[uUlL]{0,3}|u\d+)\b
 
 # docusaurus image paths
-img.+?)
+[-a-zA-Z0-9@:%_\+.~#?&//=]{2,256}\.[a-z]{2,4}\b(\/[-a-zA-Z0-9@:%_\+.~#?&//=]*)?
 
 # eliminate words like [`nvm`] or [`asdf`] or [heidiSQL] without backquotes
 \[.+?]
