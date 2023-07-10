@@ -176,7 +176,7 @@ const sidebars = {
             },
             'budgeting/schedules',
             'budgeting/returnsAndReimbursements',
-            'budgeting/creditcards',
+            'budgeting/creditCards',
             'budgeting/jointAccounts',
             //unavailable('Returns and Reimbursements'),
           ],
