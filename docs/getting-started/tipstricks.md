@@ -31,7 +31,7 @@ A few global shortcuts:
 
 - <Key k="f" /> Show only selected transactions.
 - <Key k="d" /> Delete selected transactions.
-- <Key k="a" /> Set account for selected transations.
+- <Key k="a" /> Set account for selected transactions.
 - <Key k="p" /> set payee for selected transactions.
 - <Key k="n" /> Set notes for selected transactions.
 - <Key k="c" /> Set category for selected transactions.
