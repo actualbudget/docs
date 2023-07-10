@@ -170,7 +170,7 @@ Version: 23.7.0
 - [#1256](https://github.com/actualbudget/actual/pull/1256) Remove lingering references to `locationPtr` after `react-router` upgrade — thanks @j-f1
 - [#1257](https://github.com/actualbudget/actual/pull/1257) Moving more components from `common.tsx` to separate files inside the `common` folder — thanks @MatissJanis
 - [#1258](https://github.com/actualbudget/actual/pull/1258) Reorganized accounts directory. Pulled our Header functions to make the accounts.js smaller and more manageable. — thanks @carkom
-- [#1259](https://github.com/actualbudget/actual/pull/1259) Refactoring some usages of legacy `Select` component to autocomplete or `CustomSelect` — thanks @MatissJanis
+- [#1259](https://github.com/actualbudget/actual/pull/1259) Refactoring some usages of legacy `Select` component to autocompletes or `CustomSelect` — thanks @MatissJanis
 - [#1265](https://github.com/actualbudget/actual/pull/1265) Back change on cleared/uncleared boxes for accounts page. — thanks @carkom
 
 ### Actual Server

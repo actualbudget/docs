@@ -1,6 +1,7 @@
 actualbudget
 AMZN
 authelia
+autocompletes
 caddyserver
 caniuse
 certbot
