@@ -863,7 +863,7 @@ Version: 23.2.5
 
 The release has notable of improvements of:
 
-- Read-only responsive view, this replaces our mobile apps, it is notable that this is read-only only at this stage.
+- Read-only responsive view, this replaces our mobile apps, it is notable that this is read-only at this stage.
 - Improvements to the sidebar design
 
 ### Actual

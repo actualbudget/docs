@@ -224,7 +224,7 @@ await updateTransaction(id, { category_id: foodCategory.id });
 
 <StructType fields={objects.account} />
 
-#### Account types 
+#### Account types
 
 The account type must be one of these valid strings:
 
@@ -306,7 +306,7 @@ let accounts = await getAccounts();
 
 ## Categories
 
-#### Category  {#Category}
+#### Category {#Category}
 
 <StructType fields={objects.category} />
 
