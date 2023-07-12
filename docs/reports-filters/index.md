@@ -4,7 +4,7 @@ Actual Budget gives you powerful tools to see not only your current financial as
 
 ## Reports
 
-The reports dashboard gives you a graphical representation of your netw roth and cash flow on a monthly, yearly, and daily basis. We plan to add more features to the reports page as time goes on, so be sure to check in with each update to see what is new.
+The reports dashboard gives you a graphical representation of your net worth and cash flow on a monthly, yearly, and daily basis. We plan to add more features to the reports page as time goes on, so be sure to check in with each update to see what is new.
 
 ## Filters
 
