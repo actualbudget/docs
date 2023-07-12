@@ -69,4 +69,6 @@ valign
 Venmo
 WSL
 Xxxxx
-[Yy][Nn][Aa][Bb] 
+ynab
+YNAB
+Ynab
