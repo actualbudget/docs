@@ -206,7 +206,7 @@ const sidebars = {
           },
           items: [
             'reports/reports',
-            'reports/filters'
+            'reports/filters',
           ],
         },
         {
