@@ -202,11 +202,11 @@ const sidebars = {
           collapsed: true,
           link: {
             type: 'doc',
-            id: 'reports/index',
+            id: 'reports-filters/index',
           },
           items: [
-            'reports/reports',
-            'reports/filters',
+            'reports-filters/reports',
+            'reports-filters/filters',
           ],
         },
         {

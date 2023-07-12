@@ -1,4 +1,4 @@
-# Filtering In Actual
+# Filtering Transactions
 
 ### Introduction
 
