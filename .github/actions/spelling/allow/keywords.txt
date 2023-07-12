@@ -60,6 +60,7 @@ screenshots
 subfolders
 subreaper
 subtransaction
+subtransactions
 tini
 Upstash
 useb
@@ -68,4 +69,4 @@ valign
 Venmo
 WSL
 Xxxxx
-ynab 
+[Yy][Nn][Aa][Bb] 
