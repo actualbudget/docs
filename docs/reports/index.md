@@ -1,13 +1,11 @@
-# Reports
+# Reports & Filters
 
-Currently Actual comes with two reports: **net worth** and **cash flow**. These are valuable reports, but in the future many more report types will be available.
+Actual Budget gives you powerful tools to see not only your current financial assets, but also how they have changed over time.
 
-There will also be a way to create custom reports. Subscribe to [the feature request for custom reports](https://github.com/actualbudget/actual/issues/730) to receive updates.
+## Reports
 
-## Net worth
+The reports dashboard gives you a graphical representation of your netw roth and cash flow on a monthly, yearly, and daily basis. We plan to add more features to the reports page as time goes on, so be sure to check in with each update to see what is new.
 
-Net worth shows the balance of all accounts over time. Your net worth is all of your cash and assets minus and debts you owe.
+## Filters
 
-## Cash flow
-
-Cash flow shows your spending over time. It only looks at budgeted accounts and shows their balance over time, and includes separate income and expense visualizations. It's a quick way to see how your income and expenses effected your available money over time.
+Filtering gives you the ability to pull transactions based on a variety of criteria that you set. These can be one-off queries or you can save these filters for future use. You are also able to download the transactions as a CSV file to import into other analysis software.

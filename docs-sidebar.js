@@ -162,7 +162,6 @@ const sidebars = {
             id: 'budgeting/index',
           },
           items: [
-            'budgeting/filters',
             'budgeting/categories',
             {
               type: 'category',
@@ -197,7 +196,19 @@ const sidebars = {
             'transactions/transfers',
           ],
         },
-        'reports/index',
+        {
+          type: 'category',
+          label: 'Reports & Filters',
+          collapsed: true,
+          link: {
+            type: 'doc',
+            id: 'reports/index',
+          },
+          items: [
+            'reports/reports',
+            'reports/filters'
+          ],
+        },
         {
           type: 'category',
           label: 'Backup & Restore',
