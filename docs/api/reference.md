@@ -132,7 +132,7 @@ If you want to create a transfer, use the transfer payee for the account you wis
 
 #### Methods
 
-#### `addTransactions` {#add-transactions}
+#### `addTransactions`
 
 <Method name="addTransactions" args={[{ name: 'accountId', type: 'id'}, { name: 'transactions', type: 'Transaction[]'}]} returns="Promise<id[]>" />
 
@@ -142,7 +142,7 @@ If a transfer payee is given, this method does **not** create a transfer. Use `i
 
 You probably want to use `importTransactions`. This method is mainly for custom importers that want to skip all the automatic stuff because it wants to create raw data.
 
-#### `importTransactions` {#import-transactions}
+#### `importTransactions`
 
 <Method name="importTransactions" args={[{ name: 'accountId', type: 'id'}, { name: 'transactions', type: 'Transaction[]'}]} returns="Promise<{ errors, added, updated }>" />
 
@@ -158,23 +158,23 @@ This method returns an object with the following fields:
 - `updated`: an array of ids of transactions that were updated (such as being cleared)
 - `errors`: any errors that occurred during the process (most likely a single error with no changes to transactions)
 
-#### `getTransactions` {#get-transactions}
+#### `getTransactions`
 
 <Method name="getTransactions" args={[{ name: 'accountId', type: 'id'}, { name: 'startDate', type: 'date' }, { name: 'endDate', type: 'date' }]} returns="Promise<Transaction[]>" />
 
 Get all the transactions in `accountId` between the specified dates (inclusive). Returns an array of [`Transaction`](#transaction) objects.
 
-#### `filterTransactions` {#filter-transactions}
+#### `filterTransactions`
 
 `filterTransactions` has been removed. Use [ActualQL](./actual-ql/index.md) instead.
 
-#### `updateTransaction` {#update-transaction}
+#### `updateTransaction`
 
 <Method name="updateTransaction" args={[{ name: 'id', type: 'id'}, { name: 'fields', type: 'object'} ]} />
 
 Update fields of a transaction. `fields` can specify any field described in [`Transaction`](#transaction).
 
-#### `deleteTransaction` {#delete-transaction}
+#### `deleteTransaction`
 
 <Method name="deleteTransaction" args={[{ name: 'id', type: 'id'}]} />
 
@@ -242,29 +242,29 @@ The account type does not effect anything currently. It's simply extra informati
 
 Avoid setting the `closed` property directly to close an account; instead use the `closeAccount` method. If the account still has money in it you will be required to specify another account to transfer the current balance to. This will help track your money correctly.
 
-If you want to fully delete an account and remove it entirely from the system, use [`deleteAccount`](#delete-account). Note that if it's an on-budget account, any money coming from that account will disappear.
+If you want to fully delete an account and remove it entirely from the system, use [`deleteAccount`](#deleteaccount). Note that if it's an on-budget account, any money coming from that account will disappear.
 
 #### Methods
 
-#### `getAccounts` {#get-accounts}
+#### `getAccounts`
 
 <Method name="getAccounts" args={[]} returns="Promise<Account[]>" />
 
 Get all accounts. Returns an array of [`Account`](#account) objects.
 
-#### `createAccount` {#create-account}
+#### `createAccount`
 
 <Method name="createAccount" args={[{ name: 'account', type: 'Account' }, { name: 'initialBalance = 0', type: 'amount?' }]} returns="Promise<id>" />
 
 Create an account with an initial balance of `initialBalance` (defaults to 0). Remember that [`amount`](#primitives) has no decimal places. Returns the `id` of the new account.
 
-#### `updateAccount` {#update-account}
+#### `updateAccount`
 
 <Method name="updateAccount" args={[{ name: 'id', type: 'id' }, { name: 'fields', type: 'object' }]} />
 
 Update fields of an account. `fields` can specify any field described in [`Account`](#account).
 
-#### `closeAccount` {#close-account}
+#### `closeAccount`
 
 <Method name="closeAccount" args={[{ name: 'id', type: 'id' }, { name: 'transferAccountId', type: 'id?' }, { name: 'transferCategoryId', type: 'id?' }]} />
 
@@ -274,15 +274,15 @@ If the account has a non-zero balance, you need to specify an account with `tran
 
 Transferring money to an off-budget account needs a category because money is taken out of the budget, so it needs to come from somewhere.
 
-If you want to simply delete an account, see [`deleteAccount`](#delete-account).
+If you want to simply delete an account, see [`deleteAccount`](#deleteaccount).
 
-#### `reopenAccount` {#reopen-account}
+#### `reopenAccount`
 
 <Method name="reopenAccount" args={[{ name: 'id', type: 'id' }]} />
 
 Reopen a closed account.
 
-#### `deleteAccount` {#delete-account}
+#### `deleteAccount`
 
 <Method name="deleteAccount" args={[{ name: 'id', type: 'id' }]} />
 
@@ -312,25 +312,25 @@ let accounts = await getAccounts();
 
 #### Methods
 
-#### `getCategories` {#get-categories}
+#### `getCategories`
 
 <Method name="getCategories" args={[]} returns="Promise<Category[]>" />
 
 Get all categories.
 
-#### `createCategory` {#create-category}
+#### `createCategory`
 
 <Method name="createCategory" args={[{ name: 'category', type: 'Category' }]} returns="Promise<id>" />
 
 Create a category. Returns the `id` of the new account.
 
-#### `updateCategory` {#update-category}
+#### `updateCategory`
 
 <Method name="updateCategory" args={[{ name: 'id', type: 'id' }, { name: 'fields', type: 'object' }]} returns="Promise<null>" />
 
 Update fields of a category. `fields` can specify any field described in [`Category`](#category).
 
-#### `deleteCategory` {#delete-category}
+#### `deleteCategory`
 
 <Method name="deleteCategory" args={[{ name: 'id', type: 'id' }]} returns="Promise<null>" />
 
@@ -367,25 +367,25 @@ There should only ever be one income category group,
 
 #### Methods
 
-#### `getCategoryGroups` {#get-category-groups}
+#### `getCategoryGroups`
 
 <Method name="getCategoryGroups" args={[]} returns="Promise<CategoryGroup[]>" />
 
 Get all category groups.
 
-#### `createCategoryGroup` {#create-category-group}
+#### `createCategoryGroup`
 
 <Method name="createCategoryGroup" args={[{ name: 'group', type: 'CategoryGroup' }]} returns="Promise<id>" />
 
 Create a category group. Returns the `id` of the new group.
 
-#### `updateCategoryGroup` {#update-category-group}
+#### `updateCategoryGroup`
 
 <Method name="updateCategoryGroup" args={[{ name: 'id', type: 'id' }, { name: 'fields', type: 'object' }]} returns="Promise<id>" />
 
-Update fields of a category group. `fields` can specify any field described in [`CategoryGroup`](#category-group).
+Update fields of a category group. `fields` can specify any field described in [`CategoryGroup`](#categorygroup).
 
-#### `deleteCategoryGroup` {#delete-category-group}
+#### `deleteCategoryGroup`
 
 <Method name="deleteCategoryGroup" args={[{ name: 'id', type: 'id' }]} returns="Promise<null>" />
 
@@ -406,33 +406,33 @@ Delete a category group.
 }
 ```
 
-#### Transfers {#transfers-1}
+#### Transfers
 
 Transfers use payees to indicate which accounts to transfer money to/from. This lets the system use the same payee matching logic to manage transfers as well.
 
-Each account has a corresponding "transfer payee" already created in the system. If a payee is a transfer payee, it will have the `transfer_acct` field set to an account id. Use this to create transfer transactions with [`importTransactions`](#import-transactions).
+Each account has a corresponding "transfer payee" already created in the system. If a payee is a transfer payee, it will have the `transfer_acct` field set to an account id. Use this to create transfer transactions with [`importTransactions`](#importtransactions).
 
 #### Methods
 
-#### `getPayees` {#get-payees}
+#### `getPayees`
 
 <Method name="getPayees" args={[]} returns="Promise<Payee[]>" />
 
 Get all payees.
 
-#### `createPayee` {#create-payee}
+#### `createPayee`
 
 <Method name="createPayee" args={[{ name: 'payee', type: 'Payee' }]} returns="Promise<id>" />
 
 Create a payee. Returns the `id` of the new payee.
 
-#### `updatePayee` {#update-payee}
+#### `updatePayee`
 
 <Method name="updatePayee" args={[{ name: 'id', type: 'id' }, { name: 'fields', type: 'object' }]} returns="Promise<id>" />
 
 Update fields of a payee. `fields` can specify any field described in [`Payee`](#payee).
 
-#### `deletePayee` {#delete-payee}
+#### `deletePayee`
 
 <Method name="deletePayee" args={[{ name: 'id', type: 'id' }]} returns="Promise<null>" />
 
@@ -448,25 +448,25 @@ Delete a payee.
 
 #### Methods
 
-#### `getPayeeRules` {#get-payee-rules}
+#### `getPayeeRules`
 
 <Method name="getPayees" args={[{ name: 'payeeId', type: "id" }]} returns="Promise<PayeeRule[]>" />
 
 Get all payees rules for `payeeId`.
 
-#### `createPayeeRule` {#create-payee-rule}
+#### `createPayeeRule`
 
 <Method name="createPayeeRule" args={[{ name: 'payeeId', type: 'id' }, { name: 'rule', type: 'PayeeRule' }]} returns="Promise<id>" />
 
 Create a payee rule for `payeeId`. Returns the `id` of the new rule.
 
-#### `updatePayeeRule` {#update-payee-rule}
+#### `updatePayeeRule`
 
 <Method name="updatePayeeRule" args={[{ name: 'id', type: 'id' }, { name: 'fields', type: 'object' }]} returns="Promise<id>" />
 
-Update fields of a payee rule. `fields` can specify any field described in [`PayeeRule`](#payee-rule).
+Update fields of a payee rule. `fields` can specify any field described in [`PayeeRule`](#payeerule).
 
-#### `deletePayeeRule` {#delete-payee-rule}
+#### `deletePayeeRule`
 
 <Method name="deletePayeeRule" args={[{ name: 'id', type: 'id' }]} returns="Promise<null>" />
 

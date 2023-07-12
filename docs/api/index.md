@@ -58,7 +58,7 @@ Heads up! You probably don’t want to hard-code the passwords like that, especi
 
 If you are using another app, like YNAB or Mint, you might want to migrate your data. Right now only officially support [importing YNAB4 data](../migration/ynab4.md) (and it works very well). But if you want to import all of your data into Actual, you can write a custom importer.
 
-Note that this is not about importing transactions. If all you want to do is add transactions from a custom source (like your banks API), use [`importTransactions`](./reference.md#importTransactions). In this context, a custom importer is something takes _all_ of your data (budgets, transactions, payees, etc) and dumps them all into a new file in Actual.
+Note that this is not about importing transactions. If all you want to do is add transactions from a custom source (like your banks API), use [`importTransactions`](./reference.md#importtransactions). In this context, a custom importer is something takes _all_ of your data (budgets, transactions, payees, etc) and dumps them all into a new file in Actual.
 
 The API has a special mode for bulk importing data. In this mode, a new file is always created (you can't bulk import into an existing file), and it will run much faster than if you did it normally.
 
@@ -85,7 +85,7 @@ api.runImport('My-Budget', run);
 
 This is very simple, but it takes some data in `my-data.json` and creates all the accounts and transactions from it. Functions to convert the items (like `convertAccount`) are not included here. Use the [reference docs](./reference.md) to learn the shape of objects that Actual expects.
 
-**Note:** it's important that [`addTransactions`](./reference.md#addTransactions) is used here. You want to use it instead of [`importTransactions`](./reference.md#importTransactions) when dumping raw data into Actual. The former will not run the reconciliation process (which dedupes transactions), and won't create the other side of transfer transactions, and more. If you use `importTransactions` it may adjust your data in ways that don't match the data you’re importing.
+**Note:** it's important that [`addTransactions`](./reference.md#addtransactions) is used here. You want to use it instead of [`importTransactions`](./reference.md#importtransactions) when dumping raw data into Actual. The former will not run the reconciliation process (which dedupes transactions), and won't create the other side of transfer transactions, and more. If you use `importTransactions` it may adjust your data in ways that don't match the data you’re importing.
 
 Check out the [YNAB4](https://github.com/actualbudget/actual/blob/master/packages/import-ynab4/importer.js) and [YNAB5](https://github.com/actualbudget/actual/blob/master/packages/import-ynab5/importer.js) importers to see how a real importer works.
 
