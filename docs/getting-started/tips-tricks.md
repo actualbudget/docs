@@ -3,7 +3,7 @@ sidebar_position: 1
 title: 'Tips & Tricks'
 ---
 
-## Undo/redo {#undoRedo}
+## Undo/redo {#undo-redo}
 
 If you ever make a mistake, pressing <Key mod="cmd" k="z" /> will undo, and pressing <Key mod="cmd shift" k="z" /> will redo. This is an undo system that you can rely on; any change can be undone and the UI will walk back in time.
 
