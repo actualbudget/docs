@@ -28,9 +28,6 @@
 
 /docs/budgeting/how-it-works/     /docs/budgeting/
 # /docs/budgeting/categories/       /docs/budgeting/categories/
-/docs/budgeting/returnsandreimbursements    /docs/budgeting/returns-and-reimbursements
-/docs/budgeting/budgeting/creditcards       /docs/budgeting/budgeting/credit-cards
-/docs/budgeting/budgeting/jointaccounts     /docs/budgeting/budgeting/joint-accounts
 /docs/reports/overview/           /docs/reports/
 /docs/reports/custom-reports/     /docs/reports/
 
@@ -39,3 +36,8 @@
 /docs/developers/using-the-API/   /docs/api/
 /docs/developers/API/             /docs/api/reference/
 /docs/developers/ActualQL/        /docs/api/actual-ql/
+
+#files were renamed as part of PR#228
+/docs/budgeting/returnsandreimbursements    /docs/budgeting/returns-and-reimbursements
+/docs/budgeting/creditcards                 /docs/budgeting/credit-cards
+/docs/budgeting/jointaccounts               /docs/budgeting/joint-accounts
