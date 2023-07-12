@@ -16,4 +16,4 @@ Net worth shows the balance of all accounts over time. Your net worth is all of 
 
 ![](/static/img/reports/cash-flow.png)
 
-Cash flow shows your spending over time. It only looks at budgeted accounts and shows their balance over time, and includes separate income and expense visualizations. It's a quick way to see how your income and expenses effected your available money over time. Cash flow shows the balance of your budgeted accounts over time, and the amount of expenses/income each day or month. Your budgeted accounts are considered to be “cash on hand,” so this gives you a picture of how available money fluctuates.
+Cash flow shows your spending over time. It only looks at budgeted accounts and shows their balance over time, and includes separate income and expense visualizations. It's a quick way to see how your income and expenses effected your available money over time. Your budgeted accounts are considered to be “cash on hand,” so this gives you a picture of how available money fluctuates.
