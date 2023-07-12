@@ -5,3 +5,11 @@ Aboltins
 jlongster
 howell
 evequefou
+addtransactions
+categorygroup
+creditcards
+deleteaccount
+importtransactions
+jointaccounts
+payeerule
+returnsandreimbursements
