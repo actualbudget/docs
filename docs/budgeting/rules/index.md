@@ -87,7 +87,7 @@ You can even manually apply all the actions to the transactions. You need to sel
 
 ### Deleting a rule
 
-To delete a rule, go to File > Manage Rules… to view all the rules and select the ones you want to delete. Click the "Delete # rules" button to delete them.
+To delete a rule (or rules), select the ones you want to delete. Then go down to the bottom right of the window and click the "Delete # rules" button.
 
 ### Viewing rules for a payee
 
