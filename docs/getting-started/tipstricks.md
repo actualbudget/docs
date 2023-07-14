@@ -16,9 +16,7 @@ Firstly, a few global shortcuts for the Electron App that is still in developmen
 - <Key mod="cmd" k="3" /> will show all accounts
  
 BUT here is one that WILL work in the web app as well:
-- <Key mod="cmd" k="o" /> (O not zero) this will close the file and list other available files to open
-
-Substitute "ctrl" for "cmd" if you are on Windows.
+- <Key mod="cmd" k="O" /> (O not zero) this will close the file and list other available files to open
 
 ### Budget
 
