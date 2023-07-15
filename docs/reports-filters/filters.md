@@ -53,9 +53,9 @@ But what if we need to drill down further and calculate just the costs were for 
 
 In the above Example we used the **Date is greater than** and **Date is less than** filters to illustrate the fine tuning that is possible. However, in this example of a simple calendar year it would have been quicker simply to click on the down arrow below **Date** and select as follows:
 
- ![](/img/filtering/Dates1.png)
+ ![](/img/filtering/Dates1@2x.png)
 
- ![](/img/filtering/Dates@2x.png)
+ ![](/img/filtering/Dates2@2x.png)
 
 ### Saving Filters
 
