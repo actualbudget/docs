@@ -67,9 +67,10 @@ Create a Markdown file in the upcoming-release-notes directory of the repository
 category: Features
 authors: [YourGitHubUsername]
 ---
-```
 
 Add option to include exchange rate multiplier during import
+```
+
 Valid categories:
 
 - `Features`: New features
