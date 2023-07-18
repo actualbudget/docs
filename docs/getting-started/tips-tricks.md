@@ -3,18 +3,20 @@ sidebar_position: 1
 title: 'Tips & Tricks'
 ---
 
-## Undo/redo
+## Undo/redo {#undo-redo}
 
 If you ever make a mistake, pressing <Key mod="cmd" k="z" /> will undo, and pressing <Key mod="cmd shift" k="z" /> will redo. This is an undo system that you can rely on; any change can be undone and the UI will walk back in time.
 
 ## Keyboard shortcuts
 
-A few global shortcuts:
+Firstly, a few global shortcuts for the Electron App that is still in development. Please be aware that these global shortcuts do not work in the web app:
 
 - <Key mod="cmd" k="1" /> will show the budget
 - <Key mod="cmd" k="2" /> will show reports
 - <Key mod="cmd" k="3" /> will show all accounts
-- <Key mod="cmd" k="o" /> will close the file and list other available files to open
+ 
+BUT here is one that WILL work in the web app as well:
+- <Key mod="cmd" k="O" /> (O not zero) this will close the file and list other available files to open
 
 ### Budget
 
@@ -31,7 +33,7 @@ A few global shortcuts:
 
 - <Key k="f" /> Show only selected transactions.
 - <Key k="d" /> Delete selected transactions.
-- <Key k="a" /> Set account for selected transations.
+- <Key k="a" /> Set account for selected transactions.
 - <Key k="p" /> set payee for selected transactions.
 - <Key k="n" /> Set notes for selected transactions.
 - <Key k="c" /> Set category for selected transactions.

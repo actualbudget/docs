@@ -19,7 +19,7 @@ Here are some initial guidelines for how contributions will be treated:
 
 - Multiple maintainers are key to this being a healthy project. Currently a few people have maintainer rights (see list below). We are actively looking for more people to come on as maintainers. If nobody steps up, expect less activity on this project.
 
-- An open PR does not automatically deserve time for a full review and acceptance. It's up to the PR author to convince the maintainers that the change is good and worth reviewing. This involves a clear description for why the the change is being made, detailing the tradeoffs.
+- An open PR does not automatically deserve time for a full review and acceptance. It's up to the PR author to convince the maintainers that the change is good and worth reviewing. This involves a clear description for why the change is being made, detailing the tradeoffs.
 
 - We especially welcome improvements in automation: creating github actions to automatically generate builds, making the release process easier, etc.
 
@@ -67,16 +67,18 @@ Create a Markdown file in the upcoming-release-notes directory of the repository
 category: Features
 authors: [YourGitHubUsername]
 ---
-```
 
 Add option to include exchange rate multiplier during import
+```
+
 Valid categories:
 
 - `Features`: New features
 - `Enhancements`: Improvements to existing features
 - `Bugfix`: Bug fixes
 - `Maintenance`: Internal changes that don’t directly affect users
-  The `authors` key should be an array with the GitHub usernames of the people who contributed to the PR. In most cases, this should just be you but you can add multiple people if needed.
+
+The `authors` key should be an array with the GitHub usernames of the people who contributed to the PR. In most cases, this should just be you but you can add multiple people if needed.
 
 Try to phrase your message as a command, e.g. "Add option to include exchange rate multiplier during import" rather than "Added option to include exchange rate multiplier during import” or "Adds option to include exchange rate multiplier during import." Generally your message should match the PR title, but you can change it if you think it’s more clear.
 

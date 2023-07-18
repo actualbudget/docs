@@ -35,6 +35,8 @@ There are further options to choose within each area, in order to narrow the Fil
 
 ![](/img/filtering/conditions-3.png)
 
+**Note**: There are further options available by clicking the down arrow under **Date** and **Amount**. The **Date** options are *Year* and *Month*. The **Amount** options are to choose between  *Inflow* and *Outflow*.
+
 ### Example
 
 In this example we are finding out how much the Mercedes car cost to run during the 2021 calendar year. To enhance this analysis a Note of each vehicle owned was added to transactions in the “Car” category group. Adding such a note is made much easier by ensuring that the Note is added to each relevant scheduled (recurring) transaction. In this instance the Note was added using the tag symbol (#Merc) but the # is not needed. It is a personal preference. Alternatively, you could just be more granular in your creation of Categories.
@@ -50,6 +52,12 @@ Now we want to see the total spent on the Mercedes car in 2021. This is shown at
 ![](/img/filtering/highlight-2.png)
 
 But what if we need to drill down further and calculate just the costs were for servicing this particular car? By deselecting the non-applicable transactions a revised total appears as shown below. Alternatively just remove the non-applicable category filters.
+
+In the above Example we used the **Date is greater than** and **Date is less than** filters to illustrate the fine tuning that is possible. However, in this example of a simple calendar year it would have been quicker simply to click on the down arrow below **Date** and select as follows:
+
+ ![](/img/filtering/Dates1@2x.png)
+
+ ![](/img/filtering/Dates2@2x.png)
 
 ### Saving Filters
 
