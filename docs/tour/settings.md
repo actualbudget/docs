@@ -42,7 +42,7 @@ Resetting the Budget Cache clears all cached values and will completely re-calcu
 
 ### Reset Sync
 
-Actual's sync function is quite complicated and is is covered in detail [here](../getting-started/sync.md#what-does-resetting-sync-mean).
+Actual's sync function is quite complicated and is is covered in detail [here](../getting-started/sync.md#what-does-resetting-sync-mean). This is typically the last-resort to fix any potential issues with sending budget files between other devices.
 
 ### Repair Split Transactions
 
@@ -50,7 +50,7 @@ If you are experiencing bugs relating to split transactions and the “Reset bud
 
 ### Experimental Features
 
-Be careful with this section; you might encounter irrecoverable errors if you enable these settings. But if you want to test out some bleeding-edge features, here's your place to do it. We *highly* recommend backing up your budget before continuing, just in case. As of 23.7.2, the current available experimental features are:
+Be careful with this section; you might encounter irrecoverable errors if you enable these settings. But if you want to test out some bleeding-edge features, here's your place to do it. We *highly* recommend backing up your budget before continuing, just in case. As of [23.7.2](../releases.md), the current available experimental features are:
 
 - Budget mode toggle
 - Goal templates
