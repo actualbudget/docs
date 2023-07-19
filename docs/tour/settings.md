@@ -50,4 +50,7 @@ If you are experiencing bugs relating to split transactions and the “Reset bud
 
 ### Experimental Features
 
-Careful with this section, you might encounter irrecoverable errors if you enable these settings. But if you want to test out some bleeding-edge features, here's your place to do it. We *highly* recommend backing up your budget before continuing, just in case.
+Be careful with this section; you might encounter irrecoverable errors if you enable these settings. But if you want to test out some bleeding-edge features, here's your place to do it. We *highly* recommend backing up your budget before continuing, just in case. As of 23.7.2, the current avaialble experimental features are:
+
+- Budget mode toggle
+- Goal templates
