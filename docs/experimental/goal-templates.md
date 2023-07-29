@@ -52,7 +52,7 @@ You are welcome to have other lines in your note, but the #template line must ma
 - By default templates do not consider available funds when being applied. Use template priorities to not budget more than is available.
 - The `hold` flag can be added to any goal that uses the `up to` key word.
 - A single category with two templates that use `up to` is not supported.
-- If in a category there are multiple templates within the same priority level and and one template uses the `up to` key word, all templates in that priority level will be limited to the maximum amount specified by `up to`.
+- If in a category there are multiple templates within the same priority level and one template uses the `up to` key word, all templates in that priority level will be limited to the maximum amount specified by `up to`.
 
 ### Multiple Template Lines
 
