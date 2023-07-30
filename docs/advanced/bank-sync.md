@@ -24,7 +24,7 @@ GoCardless
 **Create SECRET and KEY for Actual**
 
 1. Create an account with GoCardless - https://gocardless.com/
-2. Log into your account dashboard page and select **User secrets** from the left side menu - https://ob.nordigen.com/user-secrets/
+2. Log into your account dashboard page and select **User secrets** from the left side menu - https://ob.gocardless.com/user-secrets/
 
 ![](/static/img/connecting-your-bank/connecting-your-bank-nordigen-01.png)
 
