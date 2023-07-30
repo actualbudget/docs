@@ -20,6 +20,7 @@ expando
 Firefox
 flyctl
 Formik
+GoCardless
 htpasswd
 IBANs
 iex
