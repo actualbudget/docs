@@ -17,13 +17,13 @@ We are excited to offer this optional bank integration in Actual. Here are a cou
 
 ### Supported Providers
 
-Nordigen
+GoCardless
 
-### Nordigen Setup
+### GoCardless Setup
 
 **Create SECRET and KEY for Actual**
 
-1. Create an account with Nordigen - https://nordigen.com/
+1. Create an account with GoCardless - https://gocardless.com/
 2. Log into your account dashboard page and select **User secrets** from the left side menu - https://ob.nordigen.com/user-secrets/
 
 ![](/static/img/connecting-your-bank/connecting-your-bank-nordigen-01.png)
@@ -35,7 +35,7 @@ Nordigen
 ![](/static/img/connecting-your-bank/connecting-your-bank-nordigen-02.png)
 
 4. Enter a name for your secrets and click Create.
-   _This is only for you to easily identify them in the Nordigen User secrets overview_
+   _This is only for you to easily identify them in the GoCardless User secrets overview_
 
 ![](/static/img/connecting-your-bank/connecting-your-bank-nordigen-03.png)
 
@@ -47,15 +47,15 @@ Nordigen
 
    ![](/static/img/connecting-your-bank/connecting-your-bank-02.png)
 
-7. Click “Set-up Nordigen for bank-sync.”
+7. Click “Set-up GoCardless for bank-sync.”
 
    ![](/static/img/connecting-your-bank/connecting-your-bank-nordigen-05@2x.png)
 
-8. You will be asked to enter your Nordigen secret ID and secret key. These values will be saved on the server, so you will only need to enter them once.
+8. You will be asked to enter your GoCardless secret ID and secret key. These values will be saved on the server, so you will only need to enter them once.
 
    ![](/static/img/connecting-your-bank/connecting-your-bank-nordigen-06@2x.png)
 
-### Link Accounts with Nordigen
+### Link Accounts with GoCardless
 
 1. Add the link to your accounts in actual (Existing or New)
 
@@ -75,7 +75,7 @@ Nordigen
 
 ![](/static/img/connecting-your-bank/connecting-your-bank-04.png)
 
-4. Clicking Link bank in browser will redirect you to a new tab to grant access to your bank for Nordigen
+4. Clicking Link bank in browser will redirect you to a new tab to grant access to your bank for GoCardless
 
 ![](/static/img/connecting-your-bank/connecting-your-bank-05.png)
 
@@ -83,11 +83,11 @@ Nordigen
 
 ![](/static/img/connecting-your-bank/connecting-your-bank-06.png)
 
-6. If your connection was a success, you will be able to click on the continue button which allows Nordigen to connect
+6. If your connection was a success, you will be able to click on the continue button which allows GoCardless to connect
 
 ![](/static/img/connecting-your-bank/connecting-your-bank-07.png)
 
-7. A progress indicator will display while Nordigen connects to your bank to get a list of your accounts
+7. A progress indicator will display while GoCardless connects to your bank to get a list of your accounts
 
 ![](/static/img/connecting-your-bank/connecting-your-bank-08.png)
 
