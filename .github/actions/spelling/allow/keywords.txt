@@ -9,6 +9,7 @@ categorygroup
 clsx
 codemirror
 commandlet
+Cardless
 Crd
 crdt
 creditcards
@@ -20,7 +21,6 @@ expando
 Firefox
 flyctl
 Formik
-GoCardless
 htpasswd
 IBANs
 iex
