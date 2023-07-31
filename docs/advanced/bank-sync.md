@@ -26,22 +26,22 @@ GoCardless
 1. Create an account with GoCardless - https://bankaccountdata.gocardless.com/overview/
 2. Log into your account dashboard page and select **User secrets** from the left side menu - https://ob.gocardless.com/user-secrets/
 
-![](/static/img/connecting-your-bank/connecting-your-bank-nordigen-01.png)
+![](/static/img/connecting-your-bank/connecting-your-bank-gocardless-01.png)
 
 3. Click on the '+ create new' button at the bottom left or click the 'Create new Secrets' button the top right
    - Make sure you download your secrets file since the **key** will not be available to you again in the account dashboard
    - These secrets will be used in Actual to make the bank sync connection
 
-![](/static/img/connecting-your-bank/connecting-your-bank-nordigen-02.png)
+![](/static/img/connecting-your-bank/connecting-your-bank-gocardless-02.png)
 
 4. Enter a name for your secrets and click Create.
    _This is only for you to easily identify them in the GoCardless User secrets overview_
 
-![](/static/img/connecting-your-bank/connecting-your-bank-nordigen-03.png)
+![](/static/img/connecting-your-bank/connecting-your-bank-gocardless-03.png)
 
 5. Download this file and keep it on your computer.
 
-![](/static/img/connecting-your-bank/connecting-your-bank-nordigen-04.png)
+![](/static/img/connecting-your-bank/connecting-your-bank-gocardless-04.png)
 
 6. Back in Actual, click on “+ Add account” at the bottom of the sidebar.
 
@@ -49,11 +49,11 @@ GoCardless
 
 7. Click “Set-up GoCardless for bank-sync.”
 
-   ![](/static/img/connecting-your-bank/connecting-your-bank-nordigen-05@2x.png)
+   ![](/static/img/connecting-your-bank/connecting-your-bank-gocardless-05.png)
 
 8. You will be asked to enter your GoCardless secret ID and secret key. These values will be saved on the server, so you will only need to enter them once.
 
-   ![](/static/img/connecting-your-bank/connecting-your-bank-nordigen-06@2x.png)
+   ![](/static/img/connecting-your-bank/connecting-your-bank-gocardless-06.png)
 
 ### Link Accounts with GoCardless
 
@@ -81,7 +81,7 @@ GoCardless
 
 5. Select **I agree** to continue with setting up the connection
 
-![](/static/img/connecting-your-bank/connecting-your-bank-06.png)
+![](/static/img/connecting-your-bank/connecting-your-bank-gocardless-07.png)
 
 6. If your connection was a success, you will be able to click on the continue button which allows GoCardless to connect
 
