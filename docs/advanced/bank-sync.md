@@ -24,11 +24,11 @@ GoCardless
 **Create SECRET and KEY for Actual**
 
 1. Create an account with GoCardless - https://bankaccountdata.gocardless.com/overview/
-2. Log into your account dashboard page and select **User secrets** from the left side menu - https://ob.gocardless.com/user-secrets/
+2. Log into your account dashboard page and select **Project->User secrets** from the left side menu - https://ob.gocardless.com/user-secrets/
 
 ![](/static/img/connecting-your-bank/connecting-your-bank-gocardless-01.png)
 
-3. Click on the '+ create new' button at the bottom left or click the 'Create new Secrets' button the top right
+3. Click on the '+ create new' button at the bottom left.
    - Make sure you download your secrets file since the **key** will not be available to you again in the account dashboard
    - These secrets will be used in Actual to make the bank sync connection
 
