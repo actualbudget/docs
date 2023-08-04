@@ -16,8 +16,8 @@ const defaultOptions = {
 module.exports = {
   title: 'Actual Budget Documentation',
   tagline: 'Your finances - made simple',
-  url: 'https://actualbudget.org/docs',
-  baseUrl: '/',
+  url: 'https://actualbudget.org/',
+  baseUrl: '/docs',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
