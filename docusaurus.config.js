@@ -17,7 +17,7 @@ module.exports = {
   title: 'Actual Budget Documentation',
   tagline: 'Your finances - made simple',
   url: 'https://actualbudget.org/',
-  baseUrl: '/docs',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
