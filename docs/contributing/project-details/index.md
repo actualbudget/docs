@@ -6,8 +6,6 @@ All of the repositories can be found in the [Actual Budget](https://github.com/a
 
 - [Actual](https://github.com/actualbudget/actual)
 - [Actual Server](https://github.com/actualbudget/actual-server)
-- [Releases](https://github.com/actualbudget/releases)
-- [node-api](https://github.com/actualbudget/node-api)
 - [docs](https://github.com/actualbudget/docs)
 
 ## Actual
@@ -18,6 +16,7 @@ This repository holds all of the front end code for the Actual Budget applicatio
 ├── actual
     └── Packages
         └── api
+        └── crdt
         └── desktop-client
         └── desktop-electron
         └── import-ynab4
@@ -75,9 +74,3 @@ You can see this in the [package.json](https://github.com/actualbudget/actual-se
 So, you might see some changes being made in the Actual repository but them changes are not reflected in your deployment despite you having the latest version pulled, why? Because Actual hasn't been updated in [npm](https://www.npmjs.com/package/@actual-app/web).
 
 Actual is only updated in npm when a release is created.
-
-## Actual Releases
-
-This repository holds all of the official releases of Actual Budget, each release gets tagged and each element of the Actual Budget project can be downloaded.
-
-As of right now 0.0.148 is the latest official release.
