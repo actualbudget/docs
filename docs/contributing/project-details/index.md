@@ -19,8 +19,6 @@ This repository holds all of the front end code for the Actual Budget applicatio
         └── crdt
         └── desktop-client
         └── desktop-electron
-        └── import-ynab4
-        └── import-ynab5
         └── loot-core
         └── node-libofx
         ...
@@ -34,14 +32,6 @@ While this is called Desktop Client, this actually has nothing to do with the de
 ### Desktop Electron
 
 This is the source code for the Desktop application, in it's current state it is not configured to work with the self hosted version of Actual Budget, however the source code is available for this to be completed.
-
-### Import ynab4
-
-The importer for YNAB4 into Actual.
-
-### Import ynab5
-
-The development version of the importer for nYNAB into Actual.
 
 ### Loot Core
 
