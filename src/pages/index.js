@@ -49,7 +49,7 @@ export default function Hello() {
           />
           <Button
             to="https://demo.actualbudget.org/"
-            class={classes.demoButton}
+            className={classes.demoButton}
           >
             <div class={classes.demoButtonContent}>
               <div style={{ width: 24, height: 24 }}>{icons.play}</div> Try the
