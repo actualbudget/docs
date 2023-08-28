@@ -109,7 +109,7 @@ This might sound complex, but it's really not! You can get as detailed as you wa
 4. When the month ends, copy last month's budget. Whatever is leftover in **To budget** is the amount of money that you saved.
 5. Note that this automatically will cover overspending from last month by taking it out of the leftover **To budget** amount. You're effectively taking out of savings.
 6. Budget the leftover **To budget** amount to the **Savings** category
-7. Transfer the leftover amount to your savings account and and categorize the transactions with the **Savings** category
+7. Transfer the leftover amount to your savings account and categorize the transactions with the **Savings** category
 
 If you don't have a savings account, you can simply skip step 7. The **Savings** category will build up a balance and represent the savings that you are keeping in your account.
 
