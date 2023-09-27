@@ -106,7 +106,7 @@ const sidebars = {
             type: 'doc',
             id: 'config/index',
           },
-          items: ['config/https'],
+          items: ['config/https', 'config/reverse-proxies'],
         },
         {
           type: 'category',
