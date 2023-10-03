@@ -77,7 +77,7 @@ Version: 23.10.0
 - [#1680](https://github.com/actualbudget/actual/pull/1680) Typescript: hardening data entity types — thanks @MatissJanis
 - [#1688](https://github.com/actualbudget/actual/pull/1688) Remove `privacyMode` feature flag as this feature is GA — thanks @MatissJanis
 - [#1691](https://github.com/actualbudget/actual/pull/1691) Refactor SchedulesTable and its components to tsx. — thanks @muhsinkamil
-- [#1692](https://github.com/actualbudget/actual/pull/1692) CI: do not cancel active gitbuh jobs on master branch — thanks @MatissJanis
+- [#1692](https://github.com/actualbudget/actual/pull/1692) CI: do not cancel active Github jobs on master branch — thanks @MatissJanis
 - [#1701](https://github.com/actualbudget/actual/pull/1701) Add a common component for AnchorLink and ButtonLink — thanks @th3c0d3br34ker
 - [#1705](https://github.com/actualbudget/actual/pull/1705) Updating mobile icon to have no white border — thanks @MatissJanis
 - [#1707](https://github.com/actualbudget/actual/pull/1707) Remove unnecessary react-error-overlay manual resolution — thanks @MatissJanis
