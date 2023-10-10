@@ -2,104 +2,53 @@
 title: Actual Budget Vision
 ---
 
-This document provides an outline of the vision of the open source version of Actual Budget, where the project would like to be, what the goals are and some of the history around Actual Budget. 
+Our vision is to be the leading OSS personal finance software used by college students to grandmothers. 
 
-### What Makes Actual Budget Great
+Actual Budget is 
+* **Local-first**
+* **Open**
+* **Sleek and clutter-free**
+* **Stable**
+* **Reliable**
+* **Secure**
+* **Privacy focused**
+* **Community-driven**
 
-Some of the things that make Actual Budget stand out from the rest include;
+### Local-first
 
-* Local-first
+Actual is local first, meaning that the database that powers Actual Budget, and ultimately your budget, lives on your device. We don't store it on a server. Now you're wondering, what 'actual server' is for? Well, that allows you to sync changes to your budget on different devices. To do this, only the changes to the budget are sent to the server. The server stores the messages, and the client pulls down the change(s).
 
-Actual is local first meaning that the database that powers Actual Budget and ultimatley your budget live on your device, we don't store it on a server, now your wondering what actual server is for, well that allows us to sync changes between budgets, to do this we only send the changes to the server, it stores them and the client pulls down the change(s)
+### Open 
 
-* Open 
+Actual is Open Source utilizing the MIT license. The code is open for anyone to see, view, and contribute. You own your data; you can do whatever you want with it.
 
-Actual is Open Source, the code is open for anyone to see, view and contribute to. You own your data, you can do whatever you want with it.
+### User Interface
 
-* Sleek, clutter-free UI
+The sleek and clutter-free user interface is simple to use for beginners and comes packed with progressive discoverability for advanced users. The responsive interface adapts to the screen size you are using to give you the best experience for that device. A desktop computer will have the full desktop experience designed to be used with a keyboard and mouse, while a tablet and phone will have an experience ideal for using touchscreens. A separate mobile app, often found in app stores and marketplaces, is not planned.
 
-* Simple to use for beginners; with progressive discoverability for advanced users. 
-  
-  Rules, schedules, and more to come
+### Stable, Reliable, Secure.
 
-* Stable, reliable, secure.
+The contributors to Actual Budget don't just write the program; they USE the program.  We all have a vested interest in maintaining reliability, security, and stability. If issues are found, bug reports are welcomed so that issues can be remedied immediately.
 
-* Privacy in mind 
-  
-  Actual has no tracking, we don't use any 3rd party trackers and unless explicitly enabled we don't allow any third party access. 
+### Privacy Focused  
 
-* Community driven
+Actual has no trackers, and unless explicitly enabled, no third-party access is allowed.
 
-Actual being community driven means that development is driven by the community, the maintainers 
+### Community-driven
+
+Actual Budget, being community-driven means that development is driven by the community and the maintainers.
 
 ### Primary Objectives
 
-1. Full visibility into one's budget
-  * The user owns and controls their data now and in the future
-  * See the current status and trends in a budget
-  * See trends in where money is coming in and going out
+* Full visibility into one's budget
+  * The user owns and controls their data now, and in the future
+  * View the current status and trends in a budget
+  * Keep track of your priorities and goals, whether they are long term or short term.
 
-2. Clean and fast user experience
+* Clean and fast user experience
   * Fully usable across all devices, offline and online
   * Multiple budgets, each one accessible by multiple users
   * Accessible application
 
-### Future Features
-With the above objectives in mind, below is a set of features where contributors, including developers, testers, and idea-generators, can focus efforts.
-
-#### User interface
-
-* Mobile and desktop interfaces that can access all functions of the app
-* Themes
-  * Light and dark themes that comply with [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/WAI/standards-guidelines/wcag/)
-  * Give users capability to add their own themes
-  * Consistent look and feel across the application
-* Goals
-  * A fully-fleshed out goal system
-  * Add a user interface for goals
-* Reporting
-  * Insight into income and expenses including user-defined (custom) reporting
-  * Insight into monthly budget trends
-
-#### User experience
-
-* Clean and fast experience
-* International language support
-  * Separate language definitions
-  * Language selection page
-* Keyboard shortcuts
-  * Commonality with well-known applications
-  * Common across the app, with context-based exceptions
-  * Fully documented with a help reference page
-  * Customization page
-* Truly offline use
-  * Use as a [progressive web application](https://blog.logrocket.com/building-pwa-react/) so the app can be opened offline and on any device
-
-#### External connectivity
-
-* Pull from external bank/investment/etc accounts
-  * Implementing and testing syncing providers other than Nordigen
-  * Enabling support for Nordigen and other syncing providers by default
-
-#### Developer experience
-
-* Move towards component [driven design](https://www.componentdriven.org/) so that a UI testing framework such as [Storybook](https://storybook.js.org/) can be used
-* Move towards a component framework scalable across device sizes and aspect ratios, such as [bootstrap](https://getbootstrap.com/)
-
-### Mobile
-
-The current strategy for Actual is to provide a mobile-friendly, responsive website. We do not intend to publish a native app as it is expensive to build and maintain feature parity between the various versions and operating systems. Thus we are fully focusing on a single product.
-
-Instead, Actual Budget will focus on developing an excellent web experience by combining the underlying technology and some UI components from the desktop version with some components maintained separately for mobile and desktop where there need to be significant differences in presentation. For more details, [see our dedicated mobile strategy issue](https://github.com/actualbudget/actual/issues/804).
-
-### The Future
-
-Some of the high-level features we would like to add to Actual Budget in the future include:
-
-* Goal templates moved to the UI.
-* Mobile transaction entry.
-* Implementing and testing syncing providers other than Nordigen.
-* Enabling support for Nordigen and other syncing providers by default.
-* Darkmode.
-* custom reports.
-* and more
+# Third party use
+Actual is MIT licensed which allows for the use of the software without restriction. The Actual Budget project and community appreciate any submissions from third-party contributors to enhance and improve our amazing project. This appreciation extends to any single volunteer or company-sponsored participants alike. Let's continue to make Actual Budget the best personal finance tool together!
