@@ -24,7 +24,7 @@ Actual is Open Source utilizing the MIT license. The code is open for anyone to 
 
 ### User Interface
 
-The sleek and clutter-free user interface is simple to use for beginners and comes packed with progressive discoverability for advanced users. The responsive interface adapts to the screen size you are using to give you the best experience for that device. A desktop computer will have the full desktop experience designed to be used with a keyboard and mouse, while a tablet and phone will have an experience ideal for using touchscreens. A separate mobile app, often found in app stores and marketplaces, is not planned.
+The sleek and clutter-free user interface is simple to use for beginners and comes packed with progressive discoverability for advanced users. The responsive interface adapts to the screen size you are using to give you the best experience for that device. A desktop computer will have the full desktop experience designed to be used with a keyboard and mouse, while a tablet and phone will have an experience ideal for using touchscreens. A native mobile app, often found in app stores and marketplaces, is not planned.
 
 ### Stable, Reliable, Secure.
 
