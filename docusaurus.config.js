@@ -4,20 +4,23 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
+const defaultOptions = {
+  editUrl: 'https://github.com/actualbudget/docs/tree/master/',
+  beforeDefaultRemarkPlugins: [
+    require('./src/remark/rewrite-images'),
+    require('./src/remark/mentions'),
+  ],
+};
+
 /** @type {import('@docusaurus/types').Config} */
 module.exports = {
   title: 'Actual Budget Documentation',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://actualbudget.github.io',
-  baseUrl: '/docs/',
+  tagline: 'Your finances - made simple',
+  url: 'https://actualbudget.org/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'actualbudget', // Usually your GitHub org/user name.
-  projectName: 'docs', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -33,12 +36,12 @@ module.exports = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          routeBasePath: '/', // Serve the docs at the site's root
-          sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/actualbudget/docs/tree/master/',
-          beforeDefaultRemarkPlugins: [require('./src/remark/rewrite-images')],
+          routeBasePath: 'docs',
+          sidebarPath: require.resolve('./docs-sidebar.js'),
+          ...defaultOptions,
+        },
+        blog: {
+          ...defaultOptions,
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -50,20 +53,46 @@ module.exports = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Documentation',
         logo: {
-          alt: 'Actual Logo',
+          alt: 'Actual Open Source',
           src: 'img/actual.png',
         },
         items: [
           {
-            type: 'doc',
-            docId: 'index',
+            to: '/#features',
+            // never render as active
+            activeBaseRegex: '^$',
+            label: 'Features',
             position: 'left',
-            label: 'Home',
           },
           {
-            href: 'https://github.com/actualbudget/docs',
+            type: 'doc',
+            docId: 'index',
+            label: 'Docs',
+            position: 'left',
+          },
+          {
+            to: 'blog',
+            label: 'Blog',
+            position: 'left',
+          },
+          {
+            to: '/contact',
+            label: 'Contact',
+            position: 'left',
+          },
+          {
+            href: 'https://opencollective.com/actual',
+            label: 'Donate',
+            position: 'left',
+          },
+          {
+            href: 'https://discord.gg/8JfAXSgfRf',
+            label: 'Discord',
+            position: 'right',
+          },
+          {
+            href: 'https://github.com/actualbudget/actual',
             label: 'GitHub',
             position: 'right',
           },
@@ -73,22 +102,24 @@ module.exports = {
         style: 'dark',
         links: [
           {
-            title: 'GitHub',
-            items: [
-              {
-                label: 'GitHub',
-                href: 'https://github.com/actualbudget',
-              },
-            ],
+            label: 'Discord',
+            href: 'https://discord.gg/8JfAXSgfRf',
           },
           {
-            title: 'Discord',
-            items: [
-              {
-                label: 'Discord',
-                href: 'https://discord.gg/8JfAXSgfRf',
-              },
-            ],
+            label: 'GitHub',
+            href: 'https://github.com/actualbudget/actual',
+          },
+          {
+            href: 'https://opencollective.com/actual',
+            label: 'Donate',
+          },
+          {
+            label: 'Website Source',
+            href: 'https://github.com/actualbudget/docs',
+          },
+          {
+            label: 'RSS Feed',
+            href: '/blog/rss.xml',
           },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Actual Budget. Built with Docusaurus.`,
