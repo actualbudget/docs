@@ -4,7 +4,7 @@ title: Actual Budget Vision
 
 **Vision statement**: Our vision is to be the leading OSS personal finance software used by everyone in any stage of their financial journey. 
 
-**Mission statment**: Our mission is to enable everyone the opportunity to:
+**Mission statement**: Our mission is to enable everyone the opportunity to:
 * take charge of their finances
 * find financial peace of mind
 * actively engage in dreaming big and achieving your goals
