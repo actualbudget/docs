@@ -2,9 +2,14 @@
 title: Actual Budget Vision
 ---
 
-Our vision is to be the leading OSS personal finance software used by college students to grandmothers. 
+**Vision statement**: Our vision is to be the leading OSS personal finance software used by everyone in any stage of their financial journey. 
 
-Actual Budget is 
+**Mission statment**: Our mission is to enable everyone the opportunity to:
+* take charge of their finances
+* find financial peace of mind
+* actively engage in dreaming big and achieving your goals
+
+**Design principles**: Actual is designed using the following principles:
 * **Local-first**
 * **Open**
 * **Sleek and clutter-free**
@@ -24,7 +29,7 @@ Actual is Open Source utilizing the MIT license. The code is open for anyone to 
 
 ### User Interface
 
-The sleek and clutter-free user interface is simple to use for beginners and comes packed with progressive discoverability for advanced users. The responsive interface adapts to the screen size you are using to give you the best experience for that device. A desktop computer will have the full desktop experience designed to be used with a keyboard and mouse, while a tablet and phone will have an experience ideal for using touchscreens. A native mobile app, often found in app stores and marketplaces, is not planned.
+The sleek and clutter-free user interface is simple to use for beginners and comes packed with progressive discoverability for advanced users. The responsive interface adapts to the screen size you are using to give you the best experience for that device. A desktop computer will have the full desktop experience designed to be used with a keyboard and mouse, while a tablet and phone will have an experience ideal for using touch screens. A native mobile app, often found in app stores and marketplaces, is not planned.
 
 ### Stable, Reliable, Secure.
 
@@ -50,5 +55,5 @@ Actual Budget, being community-driven means that development is driven by the co
   * Multiple budgets, each one accessible by multiple users
   * Accessible application
 
-# Third party use
-Actual is MIT licensed which allows for the use of the software without restriction. The Actual Budget project and community appreciate any submissions from third-party contributors to enhance and improve our amazing project. This appreciation extends to any single volunteer or company-sponsored participants alike. Let's continue to make Actual Budget the best personal finance tool together!
+### Third-party use
+Actual is [MIT licensed](https://github.com/actualbudget/actual/blob/master/LICENSE.txt) which allows for the use of the software without restriction. The Actual Budget project and community appreciate any submissions from third-party contributors to enhance and improve our amazing project. This appreciation extends to any single volunteer or company-sponsored participants alike. Let's continue to make Actual Budget the best personal finance tool together!
