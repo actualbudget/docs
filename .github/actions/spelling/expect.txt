@@ -11,3 +11,4 @@ prefs
 SVGR
 titlebar
 VRT
+websecure
