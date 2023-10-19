@@ -58,5 +58,3 @@ Once you’ve merged and tagged the release, go to the releases page and publish
 ```markdown
 :link: [View release notes](https://actualbudget.org/blog/release-23.10.0)
 ```
-
-Replace `2330` with the version number of the release you’re releasing, with all the periods removed.
