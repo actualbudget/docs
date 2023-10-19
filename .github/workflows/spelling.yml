@@ -87,7 +87,6 @@ jobs:
           cspell:cpp/src/cpp.txt
           cspell:software-terms/src/software-terms.txt
           cspell:python/src/python/python-lib.txt
-          cspell:php/php.txt
           cspell:node/node.txt
           cspell:filetypes/filetypes.txt
           cspell:aws/aws.txt
