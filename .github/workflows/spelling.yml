@@ -88,11 +88,13 @@ jobs:
           cspell:python/src/python/python-lib.txt
           cspell:php/php.txt
           cspell:node/node.txt
-          cspell:npm/npm.txt
-          cspell:typescript/typescript.txt
           cspell:filetypes/filetypes.txt
-          cspell:html/html.txt
           cspell:aws/aws.txt
+          cspell:typescript/dict/typescript.txt
+          cspell:npm/dict/npm.txt
+          cspell:fullstack/dict/fullstack.txt
+          cspell:html/dict/html.txt
+          cspell:css/dict/css.txt
 
   comment-push:
     name: Report (Push)
