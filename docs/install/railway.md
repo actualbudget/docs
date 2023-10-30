@@ -13,7 +13,7 @@ If you don't already have a Railway account, visit [railway.app](https://railway
 
 ### Installation
 
-From your [Railway dashboard](https://railway.app/dashboard), click `New project` and select 'Empty project'.
+From your [Railway dashboard](https://railway.app/dashboard), click `New project` and select `Empty project`.
 
 Click `Add a service`, then select `Docker image`. Enter Actual server's docker image, `actualbudget/actual-server:latest`. Your server will immediately start deploying.
 
