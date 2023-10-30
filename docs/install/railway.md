@@ -17,7 +17,7 @@ From your [Railway dashboard](https://railway.app/dashboard), click `New project
 
 Click `Add a service`, then select `Docker image`. Enter Actual server's docker image, `actualbudget/actual-server:latest`. Your Actual server will immediately start deploying.
 
-Click `New`, then `'volume`. Follow the prompts. There should only be one available service to attach the volume to, and enter `/data` as the mount point.
+Click `New`, then `volume`. Follow the prompts. There should only be one available service to attach the volume to, and enter `/data` as the mount point.
 
 Click on your service. By default it will have a random name like `future-rock`. In the `variables` tab, create a new variable called `PORT`. Give it a value of `443` for HTTPS (Railway will handle the cert for you).
 
