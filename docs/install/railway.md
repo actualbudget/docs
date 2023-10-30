@@ -2,7 +2,7 @@
 title: 'Railway'
 ---
 
-Deploying Actual on Railway is a cheap, no-code solution that can be achieved completely through their dashboard.
+Deploying Actual on Railway is a cheap, no-code solution that can be done completely through their dashboard.
 
 ## Setup
 
