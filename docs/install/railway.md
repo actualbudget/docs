@@ -21,6 +21,6 @@ Click `New`, then `volume`. Follow the prompts. There should only be one availab
 
 Click on your service. By default it will have a random name like `future-rock`. In the `variables` tab, create a new variable called `PORT`. Give it a value of `443` for HTTPS (Railway will handle the cert for you).
 
-Then in the `settings` tab, Click `generate domain` if you'd like Railway to create a subdomain for you, otherwise click `Custom Domain` and follow the prompts to add a CNAME record to your domain.
+Then in the `settings` tab, click `Generate Domain` if you'd like Railway to create a subdomain for you, otherwise click `Custom Domain` and follow the prompts to add a CNAME record to your domain.
 
 That's it! Your Actual server will be running on whatever domain you chose, ready for first-time setup.
