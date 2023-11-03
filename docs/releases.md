@@ -21,7 +21,7 @@ Version: 23.11.0
 - [#1737](https://github.com/actualbudget/actual/pull/1737) Various mobile category and group functionalities. — thanks @joel-jeremy
 - [#1740](https://github.com/actualbudget/actual/pull/1740) Update the NetWorth graph to use the Recharts library. — thanks @shaankhosla
 - [#1745](https://github.com/actualbudget/actual/pull/1745) Hide mobile nav bar when scrolling — thanks @joel-jeremy & @MatissJanis
-- [#1756](https://github.com/actualbudget/actual/pull/1756) Conslidating and making consistent error colors across all pages in the app. — thanks @carkom
+- [#1756](https://github.com/actualbudget/actual/pull/1756) Consolidating and making consistent error colors across all pages in the app. — thanks @carkom
 - [#1759](https://github.com/actualbudget/actual/pull/1759) Allow linked child transactions. — thanks @joel-jeremy
 - [#1770](https://github.com/actualbudget/actual/pull/1770) Sync on Ctrl+S — thanks @Compositr & @shaankhosla
 - [#1781](https://github.com/actualbudget/actual/pull/1781) Inline mobile edits. — thanks @joel-jeremy
@@ -32,7 +32,7 @@ Version: 23.11.0
 
 #### Bugfix
 
-- [#1694](https://github.com/actualbudget/actual/pull/1694) Desktop: reconnect to websockets if connection lost or server restarted — thanks @MatissJanis
+- [#1694](https://github.com/actualbudget/actual/pull/1694) Desktop: reconnect to web-sockets if connection lost or server restarted — thanks @MatissJanis
 - [#1750](https://github.com/actualbudget/actual/pull/1750) End of month cleanup - fixed condition that caused an error with null carryover value — thanks @shall0pass
 - [#1751](https://github.com/actualbudget/actual/pull/1751) Prevent parent transaction being added to transfer account when splitting an existing transaction. — thanks @joel-jeremy
 - [#1753](https://github.com/actualbudget/actual/pull/1753) Goals - Fix schedules 'in between' calculation — thanks @shall0pass
