@@ -2,9 +2,9 @@
 title: Actual Budget Vision
 ---
 
-**Vision statement**: Our vision is to be the leading OSS personal finance software used by everyone in any stage of their financial journey. 
+**Vision statement**: To produce a delightful budgeting tool that meets you wherever you are in your financial journey.
 
-**Mission statement**: Our mission is to enable everyone the opportunity to:
+**Mission statement**: Our mission is to enable everyone to have the opportunity to:
 * take charge of their finances
 * find financial peace of mind
 * actively engage in dreaming big and achieving your goals
@@ -29,7 +29,7 @@ Actual is Open Source utilizing the MIT license. The code is open for anyone to 
 
 ### User Interface
 
-The sleek and clutter-free user interface is simple to use for beginners and comes packed with progressive discoverability for advanced users. The responsive interface adapts to the screen size you are using to give you the best experience for that device. A desktop computer will have the full desktop experience designed to be used with a keyboard and mouse, while a tablet and phone will have an experience ideal for using touch screens. A native mobile app, often found in app stores and marketplaces, is not planned.
+The sleek and clutter-free user interface is simple to use for beginners and comes packed with a robust 'undo' system and progressive discoverability for advanced users. The responsive interface adapts to the screen size you are using to give you the best experience for that device. A desktop computer will have the full desktop experience designed to be used with a keyboard and mouse, while a tablet and phone will have an experience ideal for using touch screens. A native mobile app, often found in app stores and marketplaces, is not planned.
 
 ### Stable, Reliable, Secure.
 
@@ -52,7 +52,7 @@ Actual Budget, being community-driven means that development is driven by the co
 
 * Clean and fast user experience
   * Fully usable across all devices, offline and online
-  * Multiple budgets, each one accessible by multiple users
+  * Multiple budgets, each one reachable by multiple devices
   * Accessible application
 
 ### Third-party use
