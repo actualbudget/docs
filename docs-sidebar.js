@@ -128,6 +128,7 @@ const sidebars = {
         'getting-started/tips-tricks',
         'getting-started/sync',
         'getting-started/manage-files',
+        'getting-started/starting-clean',
         {
           type: 'category',
           label: 'Migration',
