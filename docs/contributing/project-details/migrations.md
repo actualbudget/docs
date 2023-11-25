@@ -10,6 +10,6 @@ There are some important considerations to make when adding a feature with a db 
 
 * The naming convention is as follows: `TIMESTAMP_name.sql`. for example. `1694438752000_add_goal_targets.sql`
 
-* It is strongly discouraged to try to remove columns and tables, This makes reverting changes impossible and introduces unneccessary risk when we can simply stop using them in code.
+* It is strongly discouraged to try to remove columns and tables, This makes reverting changes impossible and introduces unnecessary risk when we can simply stop using them in code.
 
 * You should be very deliberate with your migration. When adding a feature, try to think about future scenarios and options that may be desired later, so we can minimise the number of migrations. 
