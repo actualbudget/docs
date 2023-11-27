@@ -88,7 +88,7 @@ Actual makes this easy by allowing you to hold your available funds for the next
 
 ## 4. Keep Budgeting
 Now that you have setup your budget you can start importing transactions and tracking your spending and saving.
-The best next step is to read through the "Using Actual" section of the documentation.  This section has detailed explainers on the features of Actual and how to use them.  Such as [Rules](../budgeting/rules), [Schedules](../budgeting/schedules), [Reconciliation](../accounts/reconciliation), and [Reports](../reports-filters/reports).
+The best next step is to read through the "Using Actual" section of the documentation.  This section has detailed explainers on the features of Actual and how to use them.  Some of the most useful features are [Rules](../budgeting/rules), [Schedules](../budgeting/schedules), [Reconciliation](../accounts/reconciliation), and [Reports](../reports-filters/reports).
 
 If you feel a bit overwhelmed, don't worry.
 Starting budgeting is confusing, especially if you are new to zero-sum budgeting.
