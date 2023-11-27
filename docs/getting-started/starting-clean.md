@@ -67,7 +67,7 @@ Those important categories might be rent, food, and utilities.
 Assign what you need for those categories, then repeat the process for the next most important categories until your to budget amount for the month reaches zero.
 When you get a paycheck or other income continue filling in where the funds are needed.
 
-As you go along you will start to get a good view of where you money is going.
+As you go along you will start to get a good view of where your money is going.
 If you don't like how things are going, make changes.
 If you're happy, great!
 Keep budgeting to keep track of your progress on your goals.
