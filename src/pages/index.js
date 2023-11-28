@@ -186,7 +186,7 @@ export default function Hello() {
             icon={icons.synchronizeArrows1}
             learnMore="/docs/advanced/bank-sync"
           >
-            Acutal has built in support for bank syncing using goCardless 
+            Actual has built in support for bank syncing using goCardless 
             (EU/UK).  Community importers are also available for Plaid and
             SimpleFIN (US/Canada).
           </SmallFeature>
