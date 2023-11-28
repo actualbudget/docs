@@ -182,6 +182,15 @@ export default function Hello() {
             categories. An inline editor makes this seamless.
           </SmallFeature>
           <SmallFeature
+            title="Bank Sync"
+            icon={icons.synchronizeArrows1}
+            learnMore="/docs/advanced/bank-sync"
+          >
+            Acutal has built in support for bank syncing using goCardless 
+            (EU/UK).  Community importers are also available for Plaid and
+            SimpleFIN (US/Canada).
+          </SmallFeature>
+          <SmallFeature
             title="Budgeting"
             icon={icons.wallet}
             learnMore="/docs/budgeting/"
@@ -221,7 +230,7 @@ export default function Hello() {
             learnMore="/docs/migration/"
           >
             We provide builtin YNAB4 & nYNAB importers that keep all of your
-            history.
+            history. There are many more developed by the Actual community.
           </SmallFeature>
           <SmallFeature
             title="API"
