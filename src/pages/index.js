@@ -230,7 +230,7 @@ export default function Hello() {
             learnMore="/docs/migration/"
           >
             We provide builtin YNAB4 & nYNAB importers that keep all of your
-            history. There are many more developed by the Actual community.
+            history. There are many more available from the Actual Community.
           </SmallFeature>
           <SmallFeature
             title="API"
