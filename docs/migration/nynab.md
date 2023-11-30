@@ -55,7 +55,7 @@ curl -H "Authorization: Bearer <ACCESS_TOKEN>" https://api.youneedabudget.com/v1
 
 ### Optional: Cleanup
 nYNAB calculates its `Ready to Assign` value differently than Actual's `To Budget` value.
-There is no need to worry, we can make them match exaclty with a simple change.
+There is no need to worry, we can make them match exactly with a simple change.
 This is purely a visual change and doesn't affect the budget itself.
 
 You will likely see money leftover in each of the imported months in your `To Budget`.
