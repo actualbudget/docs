@@ -23,7 +23,7 @@ It is recommended to also limit the rule to a specific account.
 
 ![](/img/rules-custom/custom-rules-transfer.png)
 
-If you are using bank sycing on both accounts in the transfer you will need to create a rule for both accounts.
+If you are using bank syncing on both accounts in the transfer you will need to create a rule for both accounts.
 This will prevent the creation of duplicate transfers.
 The processes will look like this:
 1. Bank account **A** is imported and has a transfer
