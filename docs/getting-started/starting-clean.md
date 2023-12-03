@@ -9,10 +9,10 @@ It is recommended to add all accounts you have to Actual including all savings, 
 These accounts should match what shows up in your Bank or Credit Union.
 For example, if you have a savings, checking, and credit card account with Bank of America, add each as a separate account in Actual.
 ### On or Off Budget
-On budget accounts are included towards the funds available in your budget, while off budget accounts are only for viewing or tracking and ease of transfers.
+On budget accounts are included towards the funds available in your budget, while off budget accounts are only for tracking.
 Off budget accounts are included in the net worth report.
 It is usually best to err towards putting accounts on budget versus off.
-The most common off budget accounts would be investment type accounts such as a 401(k), IRA, HSA, brokerage account, loans, and asset tracking such as your home and car value.
+The most common off budget accounts would be investment type accounts such as a 401(k), IRA, HSA, brokerage account, loans, and asset tracking such as your home equity.
 
 Savings accounts can be off budget, but it is recommended to put them on budget.
 That way you can use the budget categories to view where you plan to use those savings funds in the future.
@@ -20,15 +20,14 @@ That way you can use the budget categories to view where you plan to use those s
 In some situations it may make sense to put a credit card account off budget. This is generally not recommended unless you are not using that card for any spending and are exclusively paying it off.
 
 ### How to Setup Accounts
-The process of adding an account is detailed [here](../accounts/#adding-a-new-account).
+The process of adding an account is detailed in [the adding a new account page](../accounts/#adding-a-new-account).
 
-For bank syncing, Actual currently has built in support for [goCardless](../advanced/bank-sync) which works for most EU/UK banks.
+For bank syncing, Actual has built-in support for [GoCardless](../advanced/bank-sync) which works for most EU/UK banks.
 For other bank syncing option see the [community projects page](../community-repos).
 
 ## 2. Setting up your Budget Categories
 
 Now that your accounts are set up and your current balance is accurate, you can start adding budget categories.
-As a rule of thumb, make as many categories as you can think of.
 It is easier to merge categories later than it is to manually move transactions to a new category down the road.
 
 By default, Actual will start you off with a few basic expense categories Food, General, Bills, Bills (Flexible), and Savings. Some others you may want to add would be rent/mortgage, taxes, eating out, specific utilities, subscription services, charitable donations, child care, gifts, fun money, or debt payment, just to name a few.
@@ -45,7 +44,7 @@ You may also want a category for interest and dividends.
 ### How to Setup Categories
 While making these categories, remember that all money entering or leaving your budget needs a category.
 
-The process for adding and working with categories is found [here](../budgeting/categories/#add-a-category).
+The process for adding and working with categories is found in [the category guide](../budgeting/categories/#add-a-category).
 
 ## 3. Assign Available Funds
 Now that you have your accounts and categories set up, you're at the fun part.
@@ -71,11 +70,11 @@ If you don't like how things are going, make changes.
 If you're happy, great!
 Keep budgeting to keep track of your progress on your goals.
 
-A more detailed breakdown of how budgeting in Actual works is provided [here](../budgeting/)
+A more detailed breakdown of how budgeting in Actual works is provided in [the budgeting page](../budgeting/)
 
 ### Credit Cards
 If you currently are carrying credit card debt in an on budget account you will need to capture that debt in a category.
-A guide on how to handle that can be found [here](../budgeting/credit-cards)
+A guide on how to handle that can be found in [the credit card guide](../budgeting/credit-cards)
 
 ### The Month Ahead Method
 It can be hard to know where to budget your funds when you get paid in the middle of the month, or get multiple paychecks per month.
