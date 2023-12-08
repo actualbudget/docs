@@ -2,7 +2,6 @@ import React from 'react';
 import Layout from '@theme/Layout';
 import ThemedImage from '@theme/ThemedImage';
 import Link from '@docusaurus/Link';
-import useBaseUrl from '@docusaurus/useBaseUrl';
 
 import Button from '../components/Button';
 import Image from '../components/Image';
