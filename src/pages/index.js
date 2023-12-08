@@ -1,6 +1,8 @@
 import React from 'react';
 import Layout from '@theme/Layout';
+import ThemedImage from '@theme/ThemedImage';
 import Link from '@docusaurus/Link';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 import Button from '../components/Button';
 import Image from '../components/Image';
@@ -103,7 +105,7 @@ export default function Hello() {
         <div id="features" />
         <BigFeature
           title="Powerful budgeting made simple"
-          src="/img/homepage/actual-main-budget.png"
+          srcLight="/img/homepage/actual-main-budget.png"
         >
           <strong>
             Save hundreds of dollars a year (at least!) by tracking your
@@ -118,17 +120,19 @@ export default function Hello() {
 
         <BigFeature
           title="The fastest way to manage transactions"
-          src="/img/homepage/actual-main-transaction.png"
+          srcLight="/img/homepage/actual-main-transaction.png"
+          srcDark="/img/homepage/actual-main-transaction-dark.png"
         >
           Breeze through your transactions and update them easily with a
           streamlined, minimal interface. Categorizing your transactions
           correctly is important and we’ve optimized this process. Manage split
           transactions and transfers all in the same editor.
         </BigFeature>
+        
 
         <BigFeature
           title="Oh my, the reports"
-          src="/img/homepage/actual-report-cash-flow.png"
+          srcLight="/img/homepage/actual-report-cash-flow.png"
         >
           Intuitive reports give you a quick way to learn about your finances.
           By default, we include net worth and cash flow reports, but soon
@@ -233,6 +237,14 @@ export default function Hello() {
             history. There are many more available from the Actual Community.
           </SmallFeature>
           <SmallFeature
+            title="Dark Mode"
+            icon={icons.realEstateTruckHouse}
+            //learnMore="/docs/migration/"
+          >
+            Choose your own style with a built in dark mode and dynamic matching
+            using your system default.
+          </SmallFeature>
+          <SmallFeature
             title="API"
             icon={icons.hierarchy1}
             learnMore="/docs/api/"
@@ -312,7 +324,8 @@ function MediumFeature({ title, media, src, flip, children }) {
   );
 }
 
-function BigFeature({ title, media, src, flip, children }) {
+function BigFeature({ title, media, srcLight, srcDark=null, flip, children }) {
+  const imgDark = srcDark ? srcDark : srcLight;
   return (
     <div class={classes.bigFeature}>
       <h2 class="serif-header">{title}</h2>
@@ -320,7 +333,13 @@ function BigFeature({ title, media, src, flip, children }) {
       {media ? (
         <div class={classes.bigFeatureMedia}>{media}</div>
       ) : (
-        <img src={src} alt="" class={classes.bigFeatureMedia} />
+        <ThemedImage 
+          alt="" class={classes.bigFeatureMedia} 
+          sources={{
+            light: srcLight,
+            dark: imgDark,
+          }}
+        />
       )}
     </div>
   );
