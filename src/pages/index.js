@@ -105,7 +105,7 @@ export default function Hello() {
         <BigFeature
           title="Powerful budgeting made simple"
           srcLight="/img/homepage/actual-main-budget.png"
-          srcDark="/img/homepage/actual-main-transaction-dark.png"
+          srcDark="/img/homepage/actual-main-budget-dark.png"
         >
           <strong>
             Save hundreds of dollars a year (at least!) by tracking your
@@ -133,7 +133,7 @@ export default function Hello() {
         <BigFeature
           title="Oh my, the reports"
           srcLight="/img/homepage/actual-report-cash-flow.png"
-          srcDark="/img/homepage/actual-main-transaction-dark.png"
+          srcDark="/img/homepage/actual-report-cash-flow-dark.png"
         >
           Intuitive reports give you a quick way to learn about your finances.
           By default, we include net worth and cash flow reports, but soon
