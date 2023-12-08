@@ -240,7 +240,6 @@ export default function Hello() {
           <SmallFeature
             title="Dark Mode"
             icon={icons.moon}
-            //learnMore="/docs/migration/"
           >
             Choose your own style with a built in dark mode and dynamic theming
             using your system default.
