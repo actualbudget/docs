@@ -44,8 +44,11 @@ export default function Hello() {
           </div>
         </div>
         <div class={classes.heroImage}>
-          <Image
-            img={require('../../static/img/homepage/actual-main-budget.png')}
+          <ThemedImage
+            sources={{
+              light: "/img/homepage/actual-main-budget.png",
+              dark: "/img/homepage/actual-main-budget-dark.png",
+            }}
             alt="Actual Budget"
           />
           <Button
