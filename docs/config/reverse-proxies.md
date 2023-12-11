@@ -28,7 +28,6 @@ services:
     ports:
       - "80:80"
       - '443:443'
-    <<: *homelab-defaults
 
   actual-server:
     image: actualbudget/actual-server:latest
