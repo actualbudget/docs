@@ -31,6 +31,7 @@ services:
 
   actual-server:
     image: actualbudget/actual-server:latest
+    container_name: actual_server
     restart: unless-stopped
     volumes:
       - ./actual-data:/data
