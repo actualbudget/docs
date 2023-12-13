@@ -4,7 +4,7 @@ This page has examples of custom rules that some of our users have found useful 
 
 ### Q: How do I set the payee when the payee name changes between transactions
 
-**A:** Sometimes the payee shows up slightly differently from transaction to transaction.  To set the same payee everytime and not create a new one every time a new transaction is imported, use a **Pre** rule that reads the imported payee field and finds the merchant name using a "contains" condition.
+**A:** Sometimes the payee shows up slightly differently from transaction to transaction.  To set the same payee every time and not create a new one every time a new transaction is imported, use a **Pre** rule that reads the imported payee field and finds the merchant name using a "contains" condition.
 
 ![](/img/rules-custom/custom-rules-imported-payee.png)
 
