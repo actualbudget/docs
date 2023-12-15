@@ -15,7 +15,8 @@ The **basic configurations** provided here are only suggestions for implementing
 
 ## CADDY
 
-Below is an example `Caddyfile` that you can use to configure Caddy and Actual Server using Docker.
+Below is an example `Caddyfile` that you can use to configure Caddy and Actual Server using Docker. Caddy is an easy reverse proxy to use since it automatically obtains and renews SSL certificates for you.
+
 ```yaml title="docker-compose.yml"
 services:
   caddy:
