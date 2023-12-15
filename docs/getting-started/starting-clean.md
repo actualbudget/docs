@@ -44,7 +44,7 @@ You may also want a category for interest and dividends.
 ### How to Setup Categories
 While making these categories, remember that all money entering or leaving your budget needs a category.
 
-The process for adding and working with categories is found in [the category guide](/docs/budgeting/categories.md#add-a-category).
+The process for adding and working with categories is found in [the category guide](../budgeting/categories.md#add-a-category).
 
 ## 3. Assign Available Funds
 Now that you have your accounts and categories set up, you're at the fun part.
