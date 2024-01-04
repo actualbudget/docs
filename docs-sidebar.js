@@ -249,8 +249,12 @@ const sidebars = {
           ],
         },
         'community-repos',
+        ],
+        },
       ],
-    },type: 'category',
+    },
+    {
+      type: 'category',
       label: 'Contributing',
       link: {
         type: 'doc',
