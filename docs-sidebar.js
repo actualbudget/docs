@@ -29,9 +29,6 @@ const sidebars = {
     'vision',
     'releases',
     {
-      
-    },
-    {
       type: 'category',
       label: 'Getting Started',
       collapsible: false,
@@ -300,6 +297,7 @@ const sidebars = {
           ],
         },
       ],
+    },
   ],
 };
 module.exports = sidebars;
