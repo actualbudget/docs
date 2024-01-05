@@ -246,8 +246,6 @@ const sidebars = {
           ],
         },
         'community-repos',
-        ],
-        },
       ],
     },
     {
