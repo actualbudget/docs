@@ -1,8 +1,13 @@
+---
+title: 'Privacy Policy'
+---
+
 Effective Date: 13 Jan 2024
 
 Thank you for choosing Actual Budget, a super fast and privacy-focused app for managing your finances. This Privacy Policy is designed to help you understand how your personal information is collected, used, and safeguarded by Actual Budget.
 
 # 1. Information We Collect:
+
 ## 1.1 User-Provided Information:
 
 - Actual Budget does not require any personal information for its basic functionality.
@@ -13,6 +18,7 @@ Thank you for choosing Actual Budget, a super fast and privacy-focused app for m
 - Actual Budget does not collect any data automatically, and no tracking mechanisms are employed.
 
 # 2. How We Use Your Information:
+
 ## 2.1 App Functionality:
 
 - Your financial data is stored locally on your device and is not transmitted or stored on our servers.
@@ -23,6 +29,7 @@ Thank you for choosing Actual Budget, a super fast and privacy-focused app for m
 - If you choose to enable end-to-end encryption, your financial data is encrypted on your device before transmission, and only devices with the correct encryption key can decrypt and access the information.
 
 # 3. Data Ownership:
+
 ## 3.1 You Own Your Data:
 
 - We believe in empowering users. You own your financial data, and we do not access, store, or use it for any purpose.
@@ -32,6 +39,7 @@ Thank you for choosing Actual Budget, a super fast and privacy-focused app for m
 - You can export your data from Actual Budget at any time, giving you the flexibility to move your information wherever you choose.
 
 # 4. Security:
+
 ## 4.1 Local Storage:
 
 - Your financial data is stored securely on your device. We do not upload or store your data on external servers.
