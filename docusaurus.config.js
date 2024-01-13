@@ -119,7 +119,7 @@ module.exports = {
           },
           {
             label: 'Privacy Policy',
-            href: '/privacy-policy',
+            to: '/privacy-policy',
           },
           {
             label: 'RSS Feed',
