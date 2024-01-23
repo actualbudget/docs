@@ -61,7 +61,9 @@ To create a Schedule from an existing transactions,
 5. In the Pop up that appears Click "Create New"
 6. All fields will populate from the transaction, 
 7. Adjust any additional fields and click Add.
+
 ![](/img/bulk-edit/link-schedule.png)
+
 ![](/img/bulk-edit/create-new-schedule.png)
 
 
