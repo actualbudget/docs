@@ -16,7 +16,7 @@ All functionality described here may not be available in the latest stable relea
 ![](/static/img/connecting-your-bank/connecting-your-bank-simplefin-01.png)
 
 
-2. You will recieve an email with the login link, after a few minutes. Click this link to log into your account dashboard.
+2. You will receive an email with the login link, after a few minutes. Click this link to log into your account dashboard.
 
 ![](/static/img/connecting-your-bank/connecting-your-bank-simplefin-02.png)
 
@@ -64,7 +64,7 @@ All functionality described here may not be available in the latest stable relea
 
    ![](/static/img/connecting-your-bank/connecting-your-bank-simplefin-07.png)
 
-3. A Link Accounts box will pop up. To link a SimleFIN account to an Actual account, click the "Setup bank-sync" button in the same row.
+3. A Link Accounts box will pop up. To link a SimpleFIN account to an Actual account, click the "Setup bank-sync" button in the same row.
    - The "Bank Account To Sync" column contains the names of the accounts found via SimpleFIN
    - The "Account in Actual" column contains the name of the Actual account it is linked to.
    - You can also click in the "Account in Actual" column, instead of clicking the "Setup bank-sync" button.
