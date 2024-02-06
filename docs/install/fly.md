@@ -9,7 +9,7 @@ In order to deploy Actual to Fly.io, you’ll need to use their command line int
 ### Creating a Fly.io Account
 
 :::caution
-At the time of writing (2024-02-06), the Fly's new pricing structure is unclear. On the one hand, they've udpated their docs, which states that [new customers are *credited* $5, so they can try Fly at *no cost*](https://fly.io/docs/about/pricing/#new-customers).
+At the time of writing (2024-02-06), the Fly's new pricing structure is unclear. On the one hand, they've updated their docs, which states that [new customers are *credited* $5, so they can try Fly at *no cost*](https://fly.io/docs/about/pricing/#new-customers).
 
 However, as discussed in [this thread](https://community.fly.io/t/i-got-charged-today-for-the-hobby-plan-and-im-confused-as-to-why-cause-fly-io-didnt-send-any-emails/17969/5) a user has complained that they were *debited* $5 on the creation of a new account.
 
