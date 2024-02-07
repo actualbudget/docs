@@ -13,7 +13,7 @@ At the time of writing (2024-02-06), Fly's new pricing structure is not clearly 
 They've updated their docs, which state that [new customers are *credited* $5, so they can try Fly at *no cost*](https://fly.io/docs/about/pricing/#new-customers).
 However, as [clarified by Fly staff](https://community.fly.io/t/i-got-charged-today-for-the-hobby-plan-and-im-confused-as-to-why-cause-fly-io-didnt-send-any-emails/17969/8?u=tjex) on the Fly forum, new accounts are indeed charged $5 per month + any usage that exceeds the free allowances.
 
-This means it is no longer possible to use Fly for free within the "free allowance" limits. There is now a base $5 fee per month. Any usage outside the "free allowance" is billed accordingly ontop of the monthly $5 fee.
+This means it is no longer possible to use Fly for free within the "free allowance" limits. There is now a base $5 fee per month. Any usage outside the "free allowance" is billed accordingly on top of the monthly $5 fee.
 
 See [Fly's pricing page](https://fly.io/docs/about/pricing/#new-customers) for further details.
 :::
