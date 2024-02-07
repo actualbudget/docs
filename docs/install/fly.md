@@ -9,19 +9,17 @@ In order to deploy Actual to Fly.io, you’ll need to use their command line int
 ### Creating a Fly.io Account
 
 :::caution
-At the time of writing (2024-02-06), the Fly's new pricing structure is unclear. On the one hand, they've updated their docs, which states that [new customers are *credited* $5, so they can try Fly at *no cost*](https://fly.io/docs/about/pricing/#new-customers).
+At the time of writing (2024-02-06), Fly's new pricing structure is not clearly communicated.
+They've updated their docs, which state that [new customers are *credited* $5, so they can try Fly at *no cost*](https://fly.io/docs/about/pricing/#new-customers).
+However, as [clarified by Fly staff](https://community.fly.io/t/i-got-charged-today-for-the-hobby-plan-and-im-confused-as-to-why-cause-fly-io-didnt-send-any-emails/17969/8?u=tjex) on the Fly forum, new accounts are indeed charged $5 per month + any usage that exceeds the free allowances.
 
-However, as discussed in [this thread](https://community.fly.io/t/i-got-charged-today-for-the-hobby-plan-and-im-confused-as-to-why-cause-fly-io-didnt-send-any-emails/17969/5) a user has complained that they were *debited* $5 on the creation of a new account.
+This means it is no longer possible to use Fly for free within the "free allowance" limits. There is now a base $5 fee per month. Any usage outside the "free allowance" is billed accordingly ontop of the monthly $5 fee.
 
-We're waiting on some extra clarification from Fly at this point as to what exactly the situation is regarding new account pricing and discussing it [here](https://github.com/actualbudget/docs/issues/296).
-
-If you're concerned about the ambiguity of this, you can still move ahead with installing and working with Actual Budget by starting a [local installation](local) and hosting with Fly after this confusion has been cleared up.
+See [Fly's pricing page](https://fly.io/docs/about/pricing/#new-customers) for further details.
 :::
 
-First, you’ll need to sign up for an account. Go to [fly.io](https://fly.io) and
-click “Get Started,” then fill in the form. Note that Fly requires that credit
-card details for sign up. See [their docs on how they use credit
-cards](https://fly.io/docs/about/credit-cards/) for more information.
+To begin, you’ll need to sign up for an account. Go to [fly.io](https://fly.io) and click “Get Started,” then fill in
+the form. Note that Fly requires that credit card details for sign up. See [their docs on how they use credit cards](https://fly.io/docs/about/credit-cards/) for more information.
 
 ### Accessing the `fly` command line tool
 
