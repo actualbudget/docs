@@ -8,14 +8,15 @@ In order to deploy Actual to Fly.io, you’ll need to use their command line int
 
 ### Creating a Fly.io Account
 
-:::caution
-At the time of writing (2024-02-06), Fly's new pricing structure is not clearly communicated.
-They've updated their docs, which state that [new customers are *credited* $5, so they can try Fly at *no cost*](https://fly.io/docs/about/pricing/#new-customers).
-However, as [clarified by Fly staff](https://community.fly.io/t/i-got-charged-today-for-the-hobby-plan-and-im-confused-as-to-why-cause-fly-io-didnt-send-any-emails/17969/8?u=tjex) on the Fly forum, new accounts are indeed charged $5 per month + any usage that exceeds the free allowances.
+:::note
+Fly's pricing structure has changed as of Jan 25, 2024.
+New accounts are now gifted $5 credit. That $5 credit is only spent when exceeding the [free allowances](https://fly.io/docs/about/pricing/#free-allowances) for apps.
+This is called the 'Hobby Trial' plan.
 
-This means it is no longer possible to use Fly for free within the "free allowance" limits. There is now a base $5 fee per month. Any usage outside the "free allowance" is billed accordingly on top of the monthly $5 fee.
+If you create an *additional* organisation from an existing account on a 'Hobby Trial' plan, that organisation will directly start on the 'Hobby' plan, which costs $5 per month as a base rate + usage outside of the free allowance limits.
+This has been confirmed by [Fly staff via their forum](https://community.fly.io/t/i-got-charged-today-for-the-hobby-plan-and-im-confused-as-to-why-cause-fly-io-didnt-send-any-emails/17969/8?u=tjex).
 
-See [Fly's pricing page](https://fly.io/docs/about/pricing/#new-customers) for further details.
+You can therefore still sign up and host your Actual Budget instance with Fly for free, as the usage will not exceed the free allowances.
 :::
 
 To begin, you’ll need to sign up for an account. Go to [fly.io](https://fly.io) and click “Get Started,” then fill in
