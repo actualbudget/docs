@@ -19,7 +19,7 @@ The core maintainer team does not have the capacity to maintain a large number o
 
 ### Can I use feature flags as a configuration option (i.e. to change a small visual or functional aspect of the product)?
 
-No. Actual's design philosophy is: sleep and clutter-free. This includes the configuration page and the feature flags. We do not want to have a configuration option for each little UI quirk.
+No. Actual's design philosophy is: sleek and clutter-free. This includes the configuration page and the feature flags. We do not want to have a configuration option for each little UI quirk.
 
 For example: should category selector include hidden categories or not? We support one use-case and will not support a toggle to switch between the two.
 
