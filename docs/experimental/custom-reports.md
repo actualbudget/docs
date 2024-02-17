@@ -26,6 +26,8 @@ This sum can be **Split** by Category, Group, Payee, Account or Month.
 Note that Split by Account shows sum of transactions from For budget account, not periodic balance.
 Monthly breakdowns are provided by changing Mode from Total to Time.
 
+![](/img/reports/cr-left-menu.png)
+
 ### Date filters
 
 Transactions can be filtered for a certain period of time using **Range**. **Live Date** filters show transaction data dynamically, for instance during the current month (This month). For a fixed time frame, **Static Date** filters will show transactions between two dates.
@@ -48,11 +50,13 @@ Greyed out options in dropdown menus are not yet available for the chosen report
 
 Icons in the first group of the center menu are used to select the displayed report, the second group is used to show graph legends, summary and labels. The funnel icon can be used to [filter transactions](../reports-filters/filters.md). Finally, the menu on the right-hand side is used to Save a Custom Report to the Reports page. 
 
+![](/img/reports/cr-center-menu.png)
+
 ## Saving a report
 
 ## Example
 
-Custom Reports are really powerful and can provide unique insights. We now highlight a complex example that uses most features. Our goal is to have a stacked bar chart broken down by group with month on X axis, in a certain timeframe, excluding a certain category and payee.
+Custom Reports are really powerful and can provide unique insights. We now highlight a complex example that uses most features. Our goal is to have a stacked bar chart broken down by group with month on X axis, in a certain time frame, excluding a certain category and payee.
 
 * Select Bar Graph and set Time Mode
 * Select Split by Group 
