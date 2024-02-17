@@ -13,6 +13,8 @@ However, feature flags also have a downside. They can make the code more complex
 
 **Experimental features that have not had any active development for over 3 months will be removed from the codebase.** This is to ensure the codebase does not become cluttered with unfinished features. If you wish to bring back an experimental feature that was removed - please free to bring it back as long as you can commit to helping with finishing it up for a first-party release.
 
+Before removing an experimental feature flag - we will try our best to communicate with the original engineer/s who implemented it. However, if we cannot reach them - we will remove the feature flag.
+
 The core maintainer team does not have the capacity to maintain a large number of experimental features. We also do not have capacity to finish up features that were abandoned by their original authors. However, we are happy to support you with your feature development if you are actively working on it.
 
 ## FAQ
