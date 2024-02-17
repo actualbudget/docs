@@ -222,6 +222,7 @@ const sidebars = {
           label: 'Experimental features',
           collapsed: true,
           items: [
+            'experimental/custom-reports',
             'experimental/goal-templates',
             'experimental/monthly-cleanup',
             'experimental/report-budget',
