@@ -54,6 +54,14 @@ Icons in the first group of the center menu are used to select the displayed rep
 
 ## Saving a report
 
+A custom report can be saved by using the menu on the right-hand side. If a saved report is modified it is possible to either overwrite the existing report or save the changes as a new report. 
+
+![](/img/reports/cr-save.png)
+
+Saved reports will be shown in the Report page in alphabetical order. 
+
+![](/img/reports/cr-page.png)
+
 ## Example
 
 Custom Reports are really powerful and can provide unique insights. We now highlight a complex example that uses most features. Our goal is to have a stacked bar chart broken down by group with month on X axis, in a certain time frame, excluding a certain category and payee.
@@ -64,3 +72,6 @@ Custom Reports are really powerful and can provide unique insights. We now highl
 * Click on the checkbox next to Savings to exclude from the sum
 * Click on the Filter icon, select Payee is not "Movies"
 * Enable the legend, summary and label.
+
+![](/img/reports/cr-example.png)
+
