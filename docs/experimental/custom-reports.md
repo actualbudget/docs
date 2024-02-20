@@ -8,7 +8,7 @@ This is an **experimental feature**. That means we’re still working on finishi
 All functionality described here may not be available in the latest stable release. Use the `edge` images for the latest implementation.
 :::
 
-Custom reports allow analyzing transaction data by using charts or a data table with statistics. There are four type of reports available: 
+Custom reports allow analyzing transaction data by using charts or a data table with summary statistics. There are four types of reports available: 
 
 1. Table View
 2. Bar Graph
