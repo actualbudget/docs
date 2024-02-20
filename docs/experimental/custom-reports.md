@@ -41,7 +41,7 @@ Under Options, reports behavior can be changed
 * Show off budget enables two categories: 
 	* Transfers: include all transfer across For budget account. Transfer from For budget to Off budget are not counted.
 	* Off budget: include all transactions in Off budget accounts. Transfers from For budget to Off budget are not counted.
-* Show uncategorized will show transactions which have not an assigned category
+* Show uncategorized will show transactions which have not been assigned a category
 
 Single Categories or entire Groups can be excluded from the Report by using the list on the bottom left side, this feature is only available for Split by Category and Groups.
 Greyed out options in dropdown menus are not yet available for the chosen report.
