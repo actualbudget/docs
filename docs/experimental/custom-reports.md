@@ -54,7 +54,7 @@ Icons in the first group of the center menu are used to select the displayed rep
 
 ## Saving a report
 
-A custom report can be saved by using the menu on the right-hand side. If a saved report is modified it is possible to either overwrite the existing report or save the changes as a new report. 
+A custom report can be saved by using the menu on the right-hand side. If a saved report is modified it is possible to either overwrite the existing report or save the changes as a new report. The same menu can be used to reset to default if you'd like to quickly return to your saved version. Otherwise if no action is taken, the changes will be automatically discarded when leaving the current report.
 
 ![](/img/reports/cr-save.png)
 
