@@ -17,7 +17,7 @@ Custom reports allow analyzing transaction data by using charts or a data table 
 
 ## Left Menu
 
-Reports can show three transaction data (Type): 
+The **Type** menu can be used to change the display of transactions shown in the report:
 1. Payment, outflows from For budget accounts
 2. Deposits, inflows in For budget accounts
 3. Net: sum of outflow and inflows across For budget accounts. Net results are the figures shown in Budget page under Spent and Received columns. This option is currently available in Data Table, Area Graph and partially available in Bar Graph and Donut Graph
