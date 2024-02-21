@@ -52,18 +52,6 @@ To duplicate transactions (one or more), simply navigate to the Accounts page as
 
 ![](/img/bulk-edit/duplicate-transactions.png)
 
-### Creating Schedules From Transactions
-To create a Schedule from an existing transactions, 
-1. Navigate to the Accounts page as described above
-2. select the tick box in the left hand column for the Transaction you wish to copy.
-3. Once selected, go to the drop-down menu on the top right of the page 
-4. Click Link Selection
-5. In the Pop up that appears Click "Create New"
-6. All fields will populate from the transaction, 
-7. Adjust any additional fields and click Add.
 
-![](/img/bulk-edit/link-schedule.png)
-
-![](/img/bulk-edit/create-new-schedule.png)
 
 
