@@ -26,49 +26,8 @@ const unavailable = title => ({
 const sidebars = {
   docs: [
     'index',
+    'vision',
     'releases',
-    {
-      type: 'category',
-      label: 'Contributing',
-      link: {
-        type: 'doc',
-        id: 'contributing/index',
-      },
-      collapsed: true,
-      items: [
-        {
-          type: 'link',
-          label: 'Open Bug Reports',
-          href: 'https://github.com/actualbudget/actual/issues',
-        },
-        {
-          type: 'link',
-          label: 'Feature Requests',
-          href: 'https://github.com/actualbudget/actual/issues?q=label%3A%22needs+votes%22+sort%3Areactions-%2B1-desc+',
-        },
-        {
-          type: 'category',
-          label: 'The Actual Project Structure',
-          link: {
-            type: 'doc',
-            id: 'contributing/project-details/index',
-          },
-          items: [
-            'contributing/project-details/database',
-            'contributing/project-details/architecture',
-          ],
-        },
-        'contributing/preview-builds',
-        'contributing/releasing',
-        'contributing/windows',
-        {
-          type: 'category',
-          label: 'Project Leadership',
-          collapsible: false,
-          items: ['contributing/leadership/funding'],
-        },
-      ],
-    },
     {
       type: 'category',
       label: 'Getting Started',
@@ -103,7 +62,7 @@ const sidebars = {
             type: 'doc',
             id: 'config/index',
           },
-          items: ['config/https'],
+          items: ['config/https', 'config/reverse-proxies'],
         },
         {
           type: 'category',
@@ -122,9 +81,10 @@ const sidebars = {
             'tour/settings',
           ],
         },
-        'getting-started/tipstricks',
+        'getting-started/tips-tricks',
         'getting-started/sync',
-        'getting-started/managefiles',
+        'getting-started/manage-files',
+        'getting-started/starting-clean',
         {
           type: 'category',
           label: 'Migration',
@@ -133,7 +93,6 @@ const sidebars = {
             id: 'migration/index',
           },
           items: [
-            'migration/simple-sync',
             {
               type: 'category',
               label: 'Migrating From Other Apps',
@@ -174,9 +133,18 @@ const sidebars = {
               items: ['budgeting/rules/custom'],
             },
             'budgeting/schedules',
-            'budgeting/returnsandreimbursements',
-            'budgeting/creditcards',
-            'budgeting/jointaccounts',
+            'budgeting/returns-and-reimbursements',
+            {
+              type: 'category',
+              label: 'Managing Credit Cards',
+              collapsed: true,
+              link: {
+                type: 'doc',
+                id: 'budgeting/credit-cards/index',
+              },
+              items: ['budgeting/credit-cards/carrying-debt'],
+            },
+            'budgeting/joint-accounts',
             //unavailable('Returns and Reimbursements'),
           ],
         },
@@ -204,10 +172,7 @@ const sidebars = {
             type: 'doc',
             id: 'reports-filters/index',
           },
-          items: [
-            'reports-filters/reports',
-            'reports-filters/filters',
-          ],
+          items: ['reports-filters/reports', 'reports-filters/filters'],
         },
         {
           type: 'category',
@@ -259,6 +224,8 @@ const sidebars = {
             'experimental/goal-templates',
             'experimental/monthly-cleanup',
             'experimental/report-budget',
+            'experimental/simplefin-sync',
+            'experimental/custom-reports',
           ],
         },
       ],
@@ -277,6 +244,56 @@ const sidebars = {
             'troubleshooting/server',
             'troubleshooting/shared-array-buffer',
             'troubleshooting/edge-browser',
+          ],
+        },
+        'community-repos',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Contributing',
+      link: {
+        type: 'doc',
+        id: 'contributing/index',
+      },
+      collapsed: true,
+      items: [
+        {
+          type: 'link',
+          label: 'Open Bug Reports',
+          href: 'https://github.com/actualbudget/actual/issues',
+        },
+        {
+          type: 'link',
+          label: 'Feature Requests',
+          href: 'https://github.com/actualbudget/actual/issues?q=label%3A%22needs+votes%22+sort%3Areactions-%2B1-desc+',
+        },
+        {
+          type: 'category',
+          label: 'The Actual Project Structure',
+          link: {
+            type: 'doc',
+            id: 'contributing/project-details/index',
+          },
+          items: [
+            'contributing/project-details/database',
+            'contributing/project-details/architecture',
+            'contributing/project-details/feature-flags',
+            'contributing/project-details/electron',
+            'contributing/project-details/migrations',
+            'contributing/project-details/advice',
+          ],
+        },
+        'contributing/preview-builds',
+        'contributing/releasing',
+        'contributing/windows',
+        {
+          type: 'category',
+          label: 'Project Leadership',
+          collapsible: false,
+          items: [
+            'contributing/leadership/funding',
+            'contributing/leadership/new-core-contributors-guide',
           ],
         },
       ],

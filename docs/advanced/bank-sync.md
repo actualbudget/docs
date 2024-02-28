@@ -17,45 +17,45 @@ We are excited to offer this optional bank integration in Actual. Here are a cou
 
 ### Supported Providers
 
-Nordigen
+GoCardless
 
-### Nordigen Setup
+### GoCardless Setup
 
 **Create SECRET and KEY for Actual**
 
-1. Create an account with Nordigen - https://nordigen.com/
-2. Log into your account dashboard page and select **User secrets** from the left side menu - https://ob.nordigen.com/user-secrets/
+1. Create an account with GoCardless - https://bankaccountdata.gocardless.com/overview/
+2. Log into your account dashboard at the same URL and select **Developers->User secrets** from the left side menu
 
-![](/static/img/connecting-your-bank/connecting-your-bank-nordigen-01.png)
+![](/static/img/connecting-your-bank/connecting-your-bank-gocardless-01.png)
 
-3. Click on the '+ create new' button at the bottom left or click the 'Create new Secrets' button the top right
+3. Click on the '+ create new' button at the bottom left.
    - Make sure you download your secrets file since the **key** will not be available to you again in the account dashboard
    - These secrets will be used in Actual to make the bank sync connection
 
-![](/static/img/connecting-your-bank/connecting-your-bank-nordigen-02.png)
+![](/static/img/connecting-your-bank/connecting-your-bank-gocardless-02.png)
 
 4. Enter a name for your secrets and click Create.
-   _This is only for you to easily identify them in the Nordigen User secrets overview_
+   _This is only for you to easily identify them in the GoCardless User secrets overview_
 
-![](/static/img/connecting-your-bank/connecting-your-bank-nordigen-03.png)
+![](/static/img/connecting-your-bank/connecting-your-bank-gocardless-03.png)
 
 5. Download this file and keep it on your computer.
 
-![](/static/img/connecting-your-bank/connecting-your-bank-nordigen-04.png)
+![](/static/img/connecting-your-bank/connecting-your-bank-gocardless-04.png)
 
 6. Back in Actual, click on “+ Add account” at the bottom of the sidebar.
 
    ![](/static/img/connecting-your-bank/connecting-your-bank-02.png)
 
-7. Click “Set-up Nordigen for bank-sync.”
+7. Click “Set-up GoCardless for bank-sync.”
 
-   ![](/static/img/connecting-your-bank/connecting-your-bank-nordigen-05@2x.png)
+   ![](/static/img/connecting-your-bank/connecting-your-bank-gocardless-05.png)
 
-8. You will be asked to enter your Nordigen secret ID and secret key. These values will be saved on the server, so you will only need to enter them once.
+8. You will be asked to enter your GoCardless secret ID and secret key. These values will be saved on the server, so you will only need to enter them once.
 
-   ![](/static/img/connecting-your-bank/connecting-your-bank-nordigen-06@2x.png)
+   ![](/static/img/connecting-your-bank/connecting-your-bank-gocardless-06.png)
 
-### Link Accounts with Nordigen
+### Link Accounts with GoCardless
 
 1. Add the link to your accounts in actual (Existing or New)
 
@@ -75,19 +75,19 @@ Nordigen
 
 ![](/static/img/connecting-your-bank/connecting-your-bank-04.png)
 
-4. Clicking Link bank in browser will redirect you to a new tab to grant access to your bank for Nordigen
+4. Clicking Link bank in browser will redirect you to a new tab to grant access to your bank for GoCardless
 
 ![](/static/img/connecting-your-bank/connecting-your-bank-05.png)
 
 5. Select **I agree** to continue with setting up the connection
 
-![](/static/img/connecting-your-bank/connecting-your-bank-06.png)
+![](/static/img/connecting-your-bank/connecting-your-bank-gocardless-07.png)
 
-6. If your connection was a success, you will be able to click on the continue button which allows Nordigen to connect
+6. If your connection was a success, you will be able to click on the continue button which allows GoCardless to connect
 
 ![](/static/img/connecting-your-bank/connecting-your-bank-07.png)
 
-7. A progress indicator will display while Nordigen connects to your bank to get a list of your accounts
+7. A progress indicator will display while GoCardless connects to your bank to get a list of your accounts
 
 ![](/static/img/connecting-your-bank/connecting-your-bank-08.png)
 
@@ -101,8 +101,16 @@ Nordigen
 
 ### Frequently Asked Questions
 
-**Automatic Bank Sync**
+**Will Go Cardless and Actual Sync Automatically?**
 
 At this moment, it is not yet possible for Actual to automatically sync with your bank. You need to do this manually by going to "All Accounts" and pressing "Sync".
 
 ![](/static/img/connecting-your-bank/syncing-with-your-bank.png)
+
+
+**The best way to start from scratch in Actual with Go Cardless?**
+
+If you are setting up Actual for the first time, it is much easier not to try to pull in historic data. This has caused some users a lot of headaches with subsequent reconciliation. The following process may be more helpful:
+1. Set up your account in Actual specifying a correct opening account balance at a recent date.
+2. Link the account to Go Cardless as above
+3. Sync the account with Go Cardless. You should find that only transactions subsequent to the opening account balance entry are imported, making reconciliation easy.

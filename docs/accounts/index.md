@@ -8,7 +8,7 @@ Actual makes a distinction between accounts being **for** budget or **off** budg
 
 **For budget** accounts affect the budget, and transactions can be categorized. These are accounts where you want to track cash flow and use the budget, like checking accounts and credit cards.
 
-Depending on your usage, savings accounts can either be on or off the budget. If you're not sure, we recommend keeping it off the budget at the start.
+Depending on your usage, savings accounts can either be on or off the budget. If you're not sure, we recommend keeping it on budget at the start.
 
 ## Adding a new account
 
@@ -19,7 +19,7 @@ You can add an account to your budget at any time, however when you first instal
 You can also add an account using the `+ Add account` button in the sidebar.
 
 Two successive screens will appear with boxes asking you to fill in a few options
-- Create a Local Account or Link to Nordigen (See [Connecting Your Bank](https://actualbudget.org/docs/advanced/bank-sync))
+- Create a Local Account or Link to GoCardless (See [Connecting Your Bank](https://actualbudget.org/docs/advanced/bank-sync))
 - Give your account a name
 - Is the account on or off budget
 - The current account balance
