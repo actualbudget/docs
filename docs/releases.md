@@ -71,7 +71,7 @@ Version: v24.3.0
 - [#2304](https://github.com/actualbudget/actual/pull/2304) Don't launch browser in docker development. — thanks @twk3
 - [#2316](https://github.com/actualbudget/actual/pull/2316) Enable passing HTTPS env variable flag to dev container for easy HTTPS enabling. — thanks @jaarasys-henria
 - [#2319](https://github.com/actualbudget/actual/pull/2319) Upgrade deprecated github CI actions — thanks @MatissJanis
-- [#2320](https://github.com/actualbudget/actual/pull/2320) Split out mega-file SavedFilters.jsx into separate elements and converted them all to Typescript. — thanks @carkom
+- [#2320](https://github.com/actualbudget/actual/pull/2320) Split out large file SavedFilters.jsx into separate elements and converted them all to Typescript. — thanks @carkom
 - [#2328](https://github.com/actualbudget/actual/pull/2328) Removing unused old code paths — thanks @MatissJanis
 - [#2334](https://github.com/actualbudget/actual/pull/2334) Define more of the returns types in api-handlers. — thanks @twk3
 - [#2343](https://github.com/actualbudget/actual/pull/2343) Patching an incorrect TypeScript type definition used for `sendCatch` method return value. — thanks @MatissJanis
