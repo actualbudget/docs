@@ -101,7 +101,7 @@ GoCardless
 
 ### Frequently Asked Questions
 
-**The best way to start from scratch in Actual with Go Cardless?**
+**Does Actual sync automatically with your Bank?**
 
 At this moment, it is not yet possible for Actual to automatically sync with your bank. You need to do this manually by going to "All Accounts" and pressing "Sync".
 
