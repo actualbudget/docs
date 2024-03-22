@@ -1,20 +1,26 @@
 ---
 title: Goal Templates with a twist for weekly targets
-description: Another example using Goal Templates
+description: An example using Goal Templates for weekly targets
 slug: 2024-03-22-goal-templates-with-a-twist
 tags: [budgeting, goals]
 hide_table_of_contents: false
 ---
 
-# Introduction
-
 Hello budgeters!
 
 I hope you all enjoyed the last blog post focused on how to use goal templates.  If you haven't read it yet, you might want to start [here](/blog/2023-12-15-automate.md).  While we always recommend embracing the envelope system and [getting a month ahead](/blog/2023-12-15-automate.md#month-ahead) on your budget, there are some situations where that just isn't possible right away.  I'm going to introduce a method here that uses the goal template system that uses your income as you receive it throughout the month using priorities.
 
+<!--truncate-->
 # The Scenario
 
 In this scenario, my income will be 500 per week, starting on the first of the month.  I have certain priorities that need to be met. For example, I like to eat so I'm going to prioritize food for the first pay period.  I'm going to set up my mortgage to be paid at the end of the month.  I'm also going to use a very basic template to illustrate this method.  Feel free to use other template types.
+
+In this example, I've decided to use the following priority levels 
+- Week 1: 10-19
+- Week 2: 20-29 
+- Week 3: 30-39 
+- Week 4: 40-49 
+- 50+ for any additional priorities that can be funded after my highest priorities are satisfied 
 
 |Category|How much I need per week, and when|Template used for the category|
 |:---|:---:|:---:|
@@ -45,12 +51,12 @@ This approach allows you to fill your budget categories as your income arrives b
 ![](/static/img/blog/twist-1.png)
 
 ### Apply budget templates
-Notice that both Food, Power, and Cell categories have received funding this round.  The templates are already funding goals for week 2!
+Notice that both Food, Power, and Cell categories have received funding greater than expected this round.  The templates are already funding goals for week 2!
 
 ![](/static/img/blog/twist-2.png)
 
 ### Receive second week's income and 'Overwrite with budget templates'
-Notice that week 3 goals are already being funded.  Most of the categories still show a yellow indicator.  This means that they still need more funding this moth to reach all of your goals.  If they have turned green, like General, Cell, and Power, the target goal has been reached.
+Notice that week 3 goals are already being funded.  Most of the categories still show a yellow indicator.  This means that they still need more funding this month to reach all of your goals.  If they have turned green, like General, Cell, and Power, the target goal has been reached.
 
 ![](/static/img/blog/twist-3.png)
 
