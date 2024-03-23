@@ -13,45 +13,48 @@ I hope you all enjoyed the last blog post focused on how to use goal templates. 
 <!--truncate-->
 # The Scenario
 
-In this scenario, my income will be 500 per week, starting on the first of the month.  I have certain priorities that need to be met. For example, I like to eat so I'm going to prioritize food for the first pay period.  I'm going to set up my mortgage to be paid at the end of the month.  I'm also going to use a very basic template to illustrate this method.  Feel free to use other template types.
+In this scenario, my income will be 500 per week, starting on the first of the month.  I have certain priorities that need to be met. For example, I like to eat so I'm going to prioritize food for the first pay period.  I'm going to set up my mortgage to be paid at the end of the month, saving a little each week.  I'm also going to use a very basic template to illustrate this method.  Feel free to use other template types.
 
 In this example, I've decided to use the following priority levels 
 - Week 1: 10-19
 - Week 2: 20-29 
 - Week 3: 30-39 
 - Week 4: 40-49 
-- 50+ for any additional priorities that can be funded after my highest priorities are satisfied 
+- 50+ for any additional priorities that can be funded after my monthly priorities are satisfied.  This includes long term goals like vacation savings, investments, or holiday spending.
 
 |Category|How much I need per week, and when|Template used for the category|
 |:---|:---:|:---:|
 |**Food**|50 per week, every week|#template-10 50<br/> #template-20 50<br/> #template-30 50<br/> #template-40 50|
-|**Restaurants**|25 per week, every week.  Food category is more important.|#template-15 25<br/>#template-25 25<br/>#template-35 25<br/>#template-45 25|
+|**Restaurants**|25 per week, every week.  I've decided the Food category is more important so I'm using the x5 priority levels to run after Foods x0.|#template-15 25<br/>#template-25 25<br/>#template-35 25<br/>#template-45 25|
 |**Entertainment**|10 per week, every week|#template-13 10<br/>#template-23 10<br/>#template-33 10<br/>#template-43 10|
 |**Clothing**|20 per week for first two weeks, then 5 per week|#template-11 20<br/>#template-21 20<br/>#template-31 5<br/>#template-41 5|
 |**General**|30 in the first week, but all other first week categories are more important|#template-19 30|
 |**Gift**|No gifts this month||
-|**Medical**|50 when all other goals are met|#template-50 25|
+|**Medical**|25 when all other goals are met|#template-50 25|
 |**Savings**|All extra money after goals are met|#template remainder|
 |**Cell**|40 due in the first week|#template-12 40|
 |**Internet**|100 due in the fourth week|#template-40 100|
 |**Mortgage**|Save 200 per week so 800 is available in week 4|#template-10 200<br/>#template-20 200<br/>#template-30 200<br/>#template-40 200|
 |**Water**|130 due in the third week|#template-30 130|
-|**Power**|120 due in the second week|#template-20 150|
+|**Power**|150 due in the second week|#template-20 150|
 
-You'll notice I used different priorities for different categories.  When the goal templates are applied, the categories will be filled in the following order.  I've bolded the categories that will only be filled for certain periods.
+You'll notice I used different priorities for different categories.  When the goal templates are applied, the categories will be filled in the following order.  I've bolded the categories that will only be filled for certain periods.  When the templates are applied, the categories will be filled in order.  Week 1 priorities will be filled first, followed by week 2 and so forth.  The lower the priority number in the template from the table above, the earlier that goal will be filled.
 
 |First week|Second week|Third week|Fourth week|Leftovers|
 |:---|:---|:---|:---|:---|
 |1. Food<br/>2. Mortgage<br/>3. Clothing<br/>**4. Cell**<br/>5. Entertainment<br/>6. Restaurants<br/>**7. General**<br/>|1. Food<br/>2. Mortgage<br/>**3. Power**<br/>4. Clothing<br/>5. Entertainment<br/>6. Restaurants<br/>|1. Food<br/>2. Mortgage<br/>**3. Water**<br/>4. Clothing<br/>5. Entertainment<br/>6. Restaurants<br/>|1. Food<br/>2. Mortgage<br/>**3. Internet**<br/>4. Clothing<br/>5. Entertainment<br/>6. Restaurants|**1. Medical**<br/>**2. Savings**|
-Here is a quick animation showing the results.  For each week I receive new income, I reapply the templates.  You'll see that each of my categories gets filled a little more each time.  If I have a little extra from one week, it will start filling up the categories for the next weeks goals.  When I receive my final pay in the fourth week, my final two categories receive some funding.
+
+Here's my budget as I step through week by week.  For each week I receive new income, I reapply the templates.  You'll see that each of my categories gets filled a little more each time.  If I have a little extra from one week, it will start filling up the categories for the next weeks goals.  When I receive my final pay in the fourth week, my final two categories receive some funding.
 
 This approach allows you to fill your budget categories as your income arrives by prioritizing your needs and allows you to spend from your categories along the way.  
 
-### Receive first income deposit
+### Week 1, Receive first income deposit
+Now that we have our first deposit for the month, we're ready to start budgeting using templates.
+
 ![](/static/img/blog/twist-1.png)
 
-### Apply budget templates
-Notice that both Food, Power, and Cell categories have received funding greater than expected this round.  The templates are already funding goals for week 2!
+### Week 1, Apply budget templates
+Notice that both Food, Power, and Cell categories have received funding greater than expected this week.  The templates are already funding goals for week 2!  Only half (75) of the desired power budget (150) is satisfied and was the last category to receive funding.  It'll be the first category in the next pay period to be filled.
 
 ![](/static/img/blog/twist-2.png)
 
