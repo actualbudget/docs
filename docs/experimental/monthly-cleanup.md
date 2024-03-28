@@ -19,16 +19,29 @@ Enable this feature alongside the **Goals** experimental feature by enabling **G
 There are different ways to interact with the cleanup script, and a few of the examples will be given. But first, let's explore the syntax.
 
 <!-- prettier-ignore -->
+### Global source and sinks
+Global source and sink definitions can affect the whole budget.
+
 |Syntax|Description|Application|
 |---|---|---|
 |#cleanup source|This is a source of money to be reused at the end of the month|Electricity is intentionally over budgeted each month and the excess is used to pay down debt|
 |#cleanup sink|This is a category where extra money will be moved. Weight: 1|This can be a vacation, debt, or other savings category where you want to accelerate the savings rate|
 |#cleanup sink 2|This is a category where extra money will be moved. Weight: 2|This can be a vacation, debt, or other savings category where you want to accelerate the savings rate|
 
+### Local group source and sinks
+Local groups can be defined to target certain categories for more refined control. You can have many groups by changing the group name.
+
+|Syntax|Description|Application|
+|---|---|---|
+|#cleanup source _Group_|This is a source of money to be reused at the end of the month with any Group categories|A reimbursement holding category exists for making small loans to family or friends|
+|#cleanup sink _Group_|This is a category where extra money will be moved from the Group source. Weight: 1|This can be a category specific to a person or a business where reimbursements are expected.|
+|#cleanup sink 2 _Group_|This is a category where extra money will be moved. Weight: 2|This can be a category specific to a person or a business where reimbursements are expected.|
+
 The feature works sequentially in the following manner after pressing the **End of month cleanup** button .
 
 ![](/img/monthly-cleanup/cleanup-01.png)
 
+1.  Local groups are applied first.  Overspent categories are not automatically filled at this step and the group source funds will be distributed.
 1.  Any `#cleanup source` entries will be found and all extra money in those categories will be returned to **To Budget**.
     - A source category that has a negative balance will be ignored.
 2.  **Overspent** categories that do NOT use **Rollover Overspending** will be found and will attempt to cover the overspending from **To Budget**.
