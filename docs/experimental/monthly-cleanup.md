@@ -105,7 +105,7 @@ Yes.
 
 Method 1:
 
-One way to do this is to have a Utilities holding category with $500 budgeted.  Within that category, use `#cleanup utilities source`.  Within all of the remaining utilities categories (power, gas, water, etc), use `#cleanup utilities`.  This adds the remaining categories to the `utilities` group.  The script will fill any overspending from the holding category.
+One way to do this is to have a Utilities holding category with $500 budgeted.  Within that category, use `#cleanup utilities source` and `#cleanup utilities sink`.  Within all of the remaining utilities categories (power, gas, water, etc), use `#cleanup utilities`.  This adds the remaining categories to the `utilities` group.  The script will fill any overspending from the holding category and return any remaining money to the holding category.
 
 Method 2: 
 
@@ -114,4 +114,4 @@ Another way to accomplish this is to budget what you think you will spend for ea
 * Water - $150
 * Gas - $150
 
-In each category use `#cleanup utilities source` and `#cleanup utilities sink`.  When the script is run, all of the remaining funds from each utilities category will be used to fund your overspent categories within the group and the leftover money will be evenly distributed to the utilities to carry over for the next month.  Add a weight to the end of any of the categories you would like to fund more.
+In each category use `#cleanup utilities source` and `#cleanup utilities sink`.  When the script is run, all of the remaining funds from each utilities category will be used to fund your overspent categories within the group and the leftover money will be evenly distributed to the utilities to carry over for the next month.  Add a weight to the end of any of the categories if you would like to fund more.
