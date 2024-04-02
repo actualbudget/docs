@@ -98,3 +98,20 @@ YES!
 - Add both lines, `#cleanup source` and `#cleanup sink` to your buffer category.
 
 The script will remove all of your buffer funds, cover your overspending, and put your buffer funds back into the buffer for next time. You can also add a `#template` goal to this category so you can fill it back up next month!
+
+**My utility bills fluctuate from month to month, but are always less than $500.  Can I shift that $500 around in just the utility categories?**
+
+Yes.
+
+Method 1:
+
+One way to do this is to have a Utilities holding category with $500 budgeted.  Within that category, use `#cleanup utilities source`.  Within all of the remaining utilities categories (power, gas, water, etc), use `#cleanup utilities`.  This adds the remaining categories to the `utilities` group.  The script will fill any overspending from the holding category.
+
+Method 2: 
+
+Another way to accomplish this is to budget what you think you will spend for each of the utilities in each category. For example:
+* Power - $200
+* Water - $150
+* Gas - $150
+
+In each category use `#cleanup utilities source` and `#cleanup utilities sink`.  When the script is run, all of the remaining funds from each utilities category will be used to fund your overspent categories within the group and the leftover money will be evenly distributed to the utilities to carry over for the next month.  Add a weight to the end of any of the categories you would like to fund more.
