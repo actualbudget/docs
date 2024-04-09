@@ -15,3 +15,4 @@ Actual currently has official support for migrating budgets from YNAB4 and nYNAB
 
 ## Others
 * **Local REST api** - https://github.com/jhonderson/actual-http-api
+* **Auto post tap to pay** - https://github.com/MattFaz/actual-tap
