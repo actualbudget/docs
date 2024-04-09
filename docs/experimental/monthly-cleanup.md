@@ -33,9 +33,9 @@ Local groups can be defined to target certain categories for more refined contro
 
 |Syntax|Description|Application|
 |---|---|---|
-|#cleanup source _Group_|This is a source of money to be reused at the end of the month with any Group categories|A reimbursement holding category exists for making small loans to family or friends|
-|#cleanup sink _Group_|This is a category where extra money will be moved from the Group source. Weight: 1|This can be a category specific to a person or a business where reimbursements are expected.|
-|#cleanup sink 2 _Group_|This is a category where extra money will be moved. Weight: 2|This can be a category specific to a person or a business where reimbursements are expected.|
+|#cleanup _Group_ source|This is a source of money to be reused at the end of the month with any Group categories|A reimbursement holding category exists for making small loans to family or friends|
+|#cleanup _Group_ sink |This is a category where extra money will be moved from the Group source. Weight: 1|This can be a category specific to a person or a business where reimbursements are expected.|
+|#cleanup _Group_ sink 2 |This is a category where extra money will be moved. Weight: 2|This can be a category specific to a person or a business where reimbursements are expected.|
 
 The feature works sequentially in the following manner after pressing the **End of month cleanup** button .
 
