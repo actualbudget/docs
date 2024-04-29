@@ -437,6 +437,6 @@ Delete a payee.
 
 #### `runBankSync`
 
-<Method name="runBankSync" args={[{ name: 'accountId', type: 'string' }]} returns="Promise<void>" />
+<Method name="runBankSync" args={[{ properties: [{ name: 'accountId', type: 'string' }] }]} returns="Promise<void>" />
 
 Run the 3rd party (gocardless, simplefin) bank sync operation. This will download the transactions and insert them into the ledger.
