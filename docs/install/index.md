@@ -5,12 +5,13 @@ The Actual Budget project is made up of two parts: the client and the server.  A
 | Feature | Without Server | Needs Server |
 |:-|:-:|:-:|
 | Import transactions from files | X | |
-| Create and view reports | X | |
+| All budgeting features (budgets, reports, schedules, etc) | X | |
 | Import or Export budget files | X | |
 | Use Actual on a mobile device | | X[^1] |
 | Use Actual in a web browser | | X[^1] |
 | Sync budget between devices| | X |
 | Use bank syncing (GoCardless or SimpleFIN)| | X |
+| Use the Actual API | | X |
 
 The standard way of using Actual is to setup a personal server and use a web browser for the application.  For quick testing or getting to know Actual before setting up a server, the [demo](https://demo.actualbudget.org) or the [desktop applications](https://github.com/actualbudget/actual/releases) are a good place to start.
 
