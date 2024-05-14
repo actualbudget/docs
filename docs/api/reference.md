@@ -51,6 +51,16 @@ This is the documentation of all available API methods. The API has not been rel
 "deletePayee"
 ]} />
 
+<APIList title="Rules" sections={[
+"Rule",
+"Payee rule",
+"getRules",
+"getPayeeRules",
+"createRule",
+"updateRule",
+"deleteRule"
+]} />
+
 ## Types of methods
 
 API methods are categorized into one of four types:
@@ -426,3 +436,55 @@ Update fields of a payee. `fields` can specify any field described in [`Payee`](
 <Method name="deletePayee" args={[{ name: 'id', type: 'id' }]} returns="Promise<null>" />
 
 Delete a payee.
+
+## Rules
+
+#### Rule
+
+<StructType fields={objects.rule} />
+
+#### Payee rule
+
+<StructType fields={objects.payeeRule} />
+
+#### Methods
+
+#### `getRules`
+
+<Method name="getRules" args={[]} returns="Promise<Rule[]>" />
+
+Get all rules.
+
+#### `getPayeeRules`
+
+<Method name="getPayeeRules" args={[{ name: 'payeeId', type: "id" }]} returns="Promise<PayeeRule[]>" />
+
+Get all payees rules for `payeeId`.
+
+#### `createRule`
+
+<Method name="createRule" args={[{ name: 'rule', type: 'Rule' }]} returns="Promise<Rule>" />
+
+Create a rule. Returns the new rule, including the `id`.
+
+#### `updateRule`
+
+<Method name="updateRule" args={[{ name: 'id', type: 'id' }, { name: 'fields', type: 'object' }]} returns="Promise<Rule>" />
+
+Update fields of a rule. `fields` can specify any field described in [`Rule`](#rule).  Returns the updated rule.
+
+#### `deleteRule`
+
+<Method name="deleteRule" args={[{ name: 'id', type: 'id' }]} returns="Promise<null>" />
+
+Delete a rule.
+
+#### Examples
+
+```js
+{
+  payee_id: "08fc54b5-3baa-4874-bef4-470c238d25ac",
+  type: "contains",
+  value: "grocery"
+}
+```

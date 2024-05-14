@@ -202,6 +202,25 @@ export let objects = {
     },
   ],
 
+  rule: [
+    { name: 'id', type: types.id },
+    {
+      name: 'type',
+      type: 'string',
+      required: true,
+      description: (
+        <span>
+          Must be one of <code>equals</code> or <code>contains</code>
+        </span>
+      ),
+    },
+    {
+      name: 'value',
+      type: 'string',
+      description: 'Value to match imported payee names on',
+    },
+  ],
+
   payeeRule: [
     { name: 'id', type: types.id },
     { name: 'payee_id', type: types.id, required: true },
