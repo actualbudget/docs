@@ -52,6 +52,7 @@ This is the documentation of all available API methods. The API has not been rel
 ]} />
 
 <APIList title="Rules" sections={[
+"ConditionOrAction",
 "Rule",
 "Payee rule",
 "getRules",
@@ -438,6 +439,10 @@ Update fields of a payee. `fields` can specify any field described in [`Payee`](
 Delete a payee.
 
 ## Rules
+
+#### ConditionOrAction
+
+<StructType fields={objects.condition} />
 
 #### Rule
 
