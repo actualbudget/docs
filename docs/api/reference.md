@@ -488,8 +488,21 @@ Delete a rule.
 
 ```js
 {
-  payee_id: "08fc54b5-3baa-4874-bef4-470c238d25ac",
-  type: "contains",
-  value: "grocery"
+  stage: 'pre',
+  conditionsOp: 'and',
+  conditions: [
+    {
+      field: 'payee',
+      op: 'is',
+      value: 'test-payee',
+    },
+  ],
+  actions: [
+    {
+      op: 'set',
+      field: 'category',
+      value: 'fc3825fd-b982-4b72-b768-5b30844cf832',
+    },
+  ],
 }
 ```
