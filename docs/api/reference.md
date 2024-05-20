@@ -62,6 +62,10 @@ This is the documentation of all available API methods. The API has not been rel
 "deleteRule"
 ]} />
 
+<APIList title="Misc" sections={[
+"runBankSync"
+]} />
+
 ## Types of methods
 
 API methods are categorized into one of four types:
@@ -506,3 +510,13 @@ Delete a rule.
   ],
 }
 ```
+
+## Misc
+
+#### Methods
+
+#### `runBankSync`
+
+<Method name="runBankSync" args={[{ properties: [{ name: 'accountId', type: 'string' }] }]} returns="Promise<void>" />
+
+Run the 3rd party (gocardless, simplefin) bank sync operation. This will download the transactions and insert them into the ledger.

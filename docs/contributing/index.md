@@ -29,12 +29,11 @@ Here are some initial guidelines for how contributions will be treated:
 
 - @carkom
 - @j-f1
-- @jlongster
 - @joel-jeremy
-- @Kidglove57
 - @MatissJanis
 - @shaankhosla
 - @shall0pass
+- @teprifer
 - @twk3
 - @youngcw
 
@@ -43,6 +42,8 @@ Here are some initial guidelines for how contributions will be treated:
 (sorted alphabetically)
 
 - @albertogasparin
+- @jlongster
+- @Kidglove57
 - @rich-howell
 - @trevdor
 
@@ -63,6 +64,16 @@ Existing issues are a good place to start especially if you want to contribute t
 Okay, so you have an idea for something that you think would be great in Actual Budget, but how do you pitch it to the community so that all your hard work is not wasted?
 
 If the feature is relatively small, feel free to start the discussion by opening a PR. However, if you want to work on a larger change/feature, please open an issue or comment on an existing issue for the feature first. This lets the maintainers make sure your approach fits well both with the technical and ideological architecture of the project.
+
+### Submitting a Pull Request
+
+If you have started implementing a new feature or bugfix please open a PR so others know that you are working on that task.  This helps to not have duplicate work.
+
+When you open a PR please remember to do the following:
+- If applicable, please link the issue or feature request ticket.  The easiest way to do this is by adding the text `Fixes #<ticket_number>` in the PR description.
+- Add a release note.  These notes get used when generating the full release note at the next release.
+- Once your PR is ready for maintainers to review, remove the `[WIP]` label from the PR title.
+- Sometimes it can take some time for the maintainers to review your PR for approval.  Please keep your PR up to date with the current master branch by merging or rebasing until your PR gets merged.
 
 ### Writing Good Release Notes
 
