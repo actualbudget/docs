@@ -4,13 +4,11 @@ sidebar_position: 1
 title: 'Introduction'
 ---
 
-Welcome to the Actual’s documentation! This page provides you quick introduction to the Actual Budget and help you navigate to the documentation to understand more about it. 
+Welcome to Actual’s documentation! This page provides you a quick introduction to Actual Budget and will help you navigate to the documentation to learn more about Actual. 
 
 ## Where to Begin?
 
-If you’re new to Actual, [install](./install/index.md) it on a computer before start using it. After installation, check out the [Tour of Actual](./tour/index.md) for a high-level overview of how Actual works. To dive deep into more detailed documentation on it usage, check out the “Using Actual” section from the left-nav of the Actual documentation.
-
-For demo, [download](/test-budget.zip) the test budget and [import](./migration/actual-import.md) it into Actual.
+If you’re new to Actual, [install](./install/index.md) it on a computer to start. After installation, check out the [Tour of Actual](./tour/index.md) for a high-level overview of how Actual works. To dive deep into more detailed documentation, check out the “Using Actual” section from the left-nav of the Actual documentation.
 
 For help and support, [reach out to the maintainers and community](/contact).
 
