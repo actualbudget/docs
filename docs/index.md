@@ -10,7 +10,7 @@ Welcome to the Actual’s documentation! This page provides you quick introducti
 
 If you’re new to Actual, [install](./install/index.md) it on a computer before start using it. After installation, check out the [Tour of Actual](./tour/index.md) for a high-level overview of how Actual works. To dive deep into more detailed documentation on it usage, check out the “Using Actual” section from the left-nav of the Actual documentation.
 
-If you would like to test, [download](/test-budget.zip) the test budget and [import](./migration/actual-import.md) it into Actual.
+For demo, [download](/test-budget.zip) the test budget and [import](./migration/actual-import.md) it into Actual.
 
 For help and support, [reach out to the maintainers and community](/contact).
 
