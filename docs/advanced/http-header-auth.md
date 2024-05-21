@@ -1,8 +1,8 @@
 # Authenticating With HTTP Headers
 
 :::note
-Client Version 25.x.0 and
-Server Version 25.x.0 or higher are required for this feature.
+Client Version 26.x.0 and
+Server Version 26.x.0 or higher are required for this feature.
 :::
 
 This feature will allow Actual to use a HTTP header to automatically authenticate and login without prompting for a password. This would be useful for individuals who run SSO services like [Authentik](https://goauthentik.io/), [Authelia](https://www.authelia.com/), and more.
