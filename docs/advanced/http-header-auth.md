@@ -1,8 +1,8 @@
 # Authenticating With HTTP Headers
 
 :::note
-Client Version 26.x.0 and
-Server Version 26.x.0 or higher are required for this feature.
+Client Version 24.6.0 and
+Server Version 24.6.0 or higher are required for this feature.
 :::
 
 This feature will allow Actual to use a HTTP header to automatically authenticate and login without prompting for a password. This would be useful for individuals who run SSO services like [Authentik](https://goauthentik.io/), [Authelia](https://www.authelia.com/), and more.
@@ -25,4 +25,4 @@ This feature is not a HTTP basic auth, but a different form of using a password.
 ## Configuration Options
 
 * `loginMethod` (env: `ACTUAL_LOGIN_METHOD`): can be "password" (default) or "header". Must be set to "header" for this authentication option to work. Will fallback to password on header authentication failures
-* `trustedProxies` (env: `ACTUAL_TRUSTED_PROXIES`): List of CIRDs to allowed to send the authentication header. The default value for this is to allow only known internal ip address ranges. If your SSO provider is external, you will have to set this option to the CIRD/IP(s) of your SSO provider. If your provider is in your local network, this default option should work for you. 
+* `trustedProxies` (env: `ACTUAL_TRUSTED_PROXIES`): List of CIDRs to allowed to send the authentication header. The default value for this is to allow only known internal ip address ranges. If your SSO provider is external, you will have to set this option to the CIDR/IP(s) of your SSO provider. If your provider is in your local network, this default option should work for you. 
