@@ -9,7 +9,7 @@ import Linuxsvg from '../../static/img/linux.svg'
 
 # Downloads
 
-The simplest way to use Actual is to download the destkop application.  This will give you access to all of Actuals budgeting features.  For a breakdown of what features require a server in addition to the base app see the [Installation Guide](/docs/install).
+The simplest way to use Actual is to download the desktop application.  This will give you access to all of Actuals budgeting features.  For a breakdown of what features require a server in addition to the base app see the [Installation Guide](/docs/install).
 
 ## Desktop Client
 |||
@@ -19,6 +19,6 @@ The simplest way to use Actual is to download the destkop application.  This wil
 
 
 ## Server Download
-See the install guides on how to download and intsall the server:
+See the install guides on how to download and install the server:
 * [Docker Install](/docs/install/docker)
 * [Local Installation](/docs/install/local)
