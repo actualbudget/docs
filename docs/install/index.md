@@ -13,18 +13,18 @@ The Actual Budget project is made up of two parts: the client and the server.  A
 | Use bank syncing (GoCardless or SimpleFIN)| | X |
 | Use the Actual API | | X |
 
-The standard way of using Actual is to setup a personal server and use a web browser for the application.  For quick testing or getting to know Actual before setting up a server, the [demo](https://demo.actualbudget.org) or the [desktop applications](https://github.com/actualbudget/actual/releases) are a good place to start.
+The standard way of using Actual is to set up a personal server and use a web browser for the application.  For quick testing or getting to know Actual before setting up a server, the [demo](https://demo.actualbudget.org) or a [desktop application](https://github.com/actualbudget/actual/releases) are a good place to start.
 
-## Server Optional Client Options
+## Server-Optional Client Options
 
 Desktop applications are available for Windows, Mac, and Linux. These can be [downloaded from GitHub](https://github.com/actualbudget/actual/releases).  The desktop apps have the following benefits:
-* Can connect to a server (this gives them the ability to use the server based features)
+* Can connect to a server (this gives them the ability to use the server-based features)
 * Automated backups
 * Offline use is ready out of the box 
 
-## Server Based Client Options
+## Server-Based Client Options
 
-The server provides a web based version of Actual.  This web app can be used in a browser as a standard web page to use view and edit your budget.  The web page can also be installed to your device.  For mobile devices an installed web page will work offline.
+The server provides a web-based version of Actual.  This web app can be used in a browser as a standard web page to view and edit your budget.  The web page can also be installed on your device.  For mobile devices, an installed web page will work offline.
 
 ## Running a Server
 
@@ -53,5 +53,5 @@ Content contained on external links is not managed or maintained by the Actual B
 - [Synology NAS](https://mariushosting.com/how-to-install-actual-on-your-synology-nas/)
 - [Home Assistant](https://github.com/sztupy/hassio-actualbudget/blob/main/README.md)
 
-[^1]: You technically don't need a server instance for this. You need to run either a web based client or a server, but a server is the same effort.
-[^2]: A portion of the cost to host on PikaPods is donated to the Actual Budget Project.  With that said, PikaPods is a very simple, and cost effective way, to host your server.
+[^1]: You technically don't need a server instance for this. You need to run either a web-based client or a server, but a server is the same effort.
+[^2]: A portion of the cost to host on PikaPods is donated to the Actual Budget Project.  With that said, PikaPods is a very simple, and cost-effective way, to host your server.
