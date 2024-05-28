@@ -19,7 +19,7 @@ The SSO provider then needs to be configured to pass an extra HTTP header to Act
 
 
 :::note
-This feature is not a HTTP basic auth, but a different form of using a password. For HTTP basic auth or User accounts see [this issue](https://github.com/actualbudget/actual/issues/524)
+This feature is not an HTTP basic auth, but a different form of using a password. For HTTP basic auth or user accounts see [this issue](https://github.com/actualbudget/actual/issues/524)
 :::
 
 ## Configuration Options
