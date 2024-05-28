@@ -9,7 +9,7 @@ This feature will allow Actual to use an HTTP header to automatically authentica
 
 ## Setup
 
-This feature needs to be enabled on the server, it is not configure to work out of the box. In the actual config, set the value `loginMethod` or env `ACTUAL_LOGIN_METHOD` to `"header"`. This will enable header authentication, but the normal password authentication will still work as a fallback. 
+This feature needs to be enabled on the server, it is not configured to work out of the box. In the Actual config, set the value `loginMethod` or env `ACTUAL_LOGIN_METHOD` to `"header"`. This will enable header authentication, but the normal password authentication will still work as a fallback. 
 
 :::warning
 Be careful! A misconfiguration on this next step could make your instance available to whole internet. 
