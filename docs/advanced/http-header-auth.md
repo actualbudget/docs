@@ -18,11 +18,8 @@ Be careful! A misconfiguration on this next step could make your instance availa
 The SSO provider then needs to be configured to pass an extra HTTP header to Actual. The details on how to do this are unique to the SSO provider, but the header `x-actual-password` needs to be set to your actual password.
 
 
+If your setup needs it, it possible to config trusted proxies. See [`trustedProxies` configuration](../config/index.md#trustedProxies) for details.
+
 :::note
 This feature is not an HTTP basic auth, but a different form of using a password. For HTTP basic auth or user accounts see [this issue](https://github.com/actualbudget/actual/issues/524)
 :::
-
-## Configuration Options
-
-* `loginMethod` (env: `ACTUAL_LOGIN_METHOD`): can be "password" (default) or "header". Must be set to "header" for this authentication option to work. Will fallback to password on header authentication failures
-* `trustedProxies` (env: `ACTUAL_TRUSTED_PROXIES`): List of CIDRs to allowed to send the authentication header. The default value for this is to allow only known internal ip address ranges. If your SSO provider is external, you will have to set this option to the CIDR/IP(s) of your SSO provider. If your provider is in your local network, this default option should work for you. 
