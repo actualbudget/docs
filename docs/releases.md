@@ -2,7 +2,13 @@
 
 ## 24.6.0
 
-TODO
+The release has the following notable improvements:
+
+- API: ability to run 3rd party bank-sync (GoCardless, SimpleFin) programmatically
+- API: methods for working with rules
+- Add option to authenticate with HTTP header - `X-ACTUAL-PASSWORD`
+- Add option to import CAMT.053 based XML files
+- (Experimental) monthly spending report - please report feedback [here](TODO)
 
 ### Actual
 
@@ -40,12 +46,12 @@ TODO
 - [#2648](https://github.com/actualbudget/actual/pull/2648) Don't update transaction date when importing manually — thanks @Wizmaster
 - [#2698](https://github.com/actualbudget/actual/pull/2698) Fix API remote-server sync for budget files that are e2e encrypted. — thanks @MatissJanis
 - [#2712](https://github.com/actualbudget/actual/pull/2712) Fix preview transactions not detecting schedule as paid when a child transaction is linked. — thanks @joel-jeremy
-- [#2725](https://github.com/actualbudget/actual/pull/2725) Do not show loading indicator in networth report if the budget file is empty — thanks @MatissJanis
+- [#2725](https://github.com/actualbudget/actual/pull/2725) Do not show loading indicator in net worth report if the budget file is empty — thanks @MatissJanis
 - [#2745](https://github.com/actualbudget/actual/pull/2745) Fixes a NaN error in spending report. — thanks @carkom
 - [#2754](https://github.com/actualbudget/actual/pull/2754) Do not remember last entered category in mobile transaction entry. — thanks @joel-jeremy
 - [#2765](https://github.com/actualbudget/actual/pull/2765) Do not use underlines for emphasis. — thanks @psybers
 - [#2768](https://github.com/actualbudget/actual/pull/2768) Creating a callback for the table totals to fix a bug that created duplicate columns while rendering. — thanks @carkom
-- [#2769](https://github.com/actualbudget/actual/pull/2769) Updating daterange element to catch any incorrectly formated dates. Current state crashes app when dates are invalid. — thanks @carkom
+- [#2769](https://github.com/actualbudget/actual/pull/2769) Updating date range element to catch any incorrectly formated dates. Current state crashes app when dates are invalid. — thanks @carkom
 - [#2773](https://github.com/actualbudget/actual/pull/2773) Fix notes icon changing size/position with long category or group names. — thanks @jpelgrom
 - [#2774](https://github.com/actualbudget/actual/pull/2774) Move the rollover arrow into view. — thanks @Tigatok
 - [#2775](https://github.com/actualbudget/actual/pull/2775) Adds income on left and expense on right always. Hide bar if value is 0. — thanks @Tigatok
@@ -69,7 +75,7 @@ TODO
 - [#2729](https://github.com/actualbudget/actual/pull/2729) Change filters icon. This is for consistency throughout the app. — thanks @carkom
 - [#2738](https://github.com/actualbudget/actual/pull/2738) Include crdt as a dependency in the API to include its types — thanks @twk3
 - [#2750](https://github.com/actualbudget/actual/pull/2750) Add Github workflow to publish release to demo.actualbudget.org. — thanks @shall0pass
-- [#2762](https://github.com/actualbudget/actual/pull/2762) Add run-vrt script to run vrt inside docker via yarn. — thanks @joel-jeremy
+- [#2762](https://github.com/actualbudget/actual/pull/2762) Add run-vrt script to run VRT inside docker via yarn. — thanks @joel-jeremy
 - [#2763](https://github.com/actualbudget/actual/pull/2763) Update Electron to the latest version (31.0.6) — thanks @MikesGlitch
 - [#2766](https://github.com/actualbudget/actual/pull/2766) Migrating recurring schedule `Tooltip` component to react-aria Tooltip/Popover (vol.5) — thanks @MatissJanis
 - [#2778](https://github.com/actualbudget/actual/pull/2778) Migrating native `Tooltip` component to react-aria Tooltip/Popover (vol.7) — thanks @MatissJanis
@@ -167,7 +173,7 @@ Version: v24.5.0
 - [#2543](https://github.com/actualbudget/actual/pull/2543) When importing reconciled split transaction, the resulting sub-transactions is also marked as reconciled. — thanks @davidkus
 - [#2553](https://github.com/actualbudget/actual/pull/2553) This fixes a regression that broke toggle menu items. — thanks @carkom
 - [#2556](https://github.com/actualbudget/actual/pull/2556) Custom Reports: Fix bug where month endDate is saving as a non-date variable. — thanks @carkom
-- [#2557](https://github.com/actualbudget/actual/pull/2557) Fixes live dateRange not updating with new month (interval). — thanks @carkom
+- [#2557](https://github.com/actualbudget/actual/pull/2557) Fixes live date range not updating with new month (interval). — thanks @carkom
 - [#2570](https://github.com/actualbudget/actual/pull/2570) Mobile: Remove menu item for income category group, which resulted in crash. — thanks @shall0pass
 - [#2572](https://github.com/actualbudget/actual/pull/2572) Close modal after transferring / covering balance in mobile budget page — thanks @joel-jeremy
 - [#2573](https://github.com/actualbudget/actual/pull/2573) Fix mobile report budget bug where you can't click on an income category's budgeted input. — thanks @joel-jeremy
