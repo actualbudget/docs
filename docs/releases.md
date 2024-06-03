@@ -8,7 +8,7 @@ The release has the following notable improvements:
 - API: methods for working with rules
 - Add option to authenticate with HTTP header - `X-ACTUAL-PASSWORD`
 - Add option to import CAMT.053 based XML files
-- (Experimental) monthly spending report - please report feedback [here](TODO)
+- (Experimental) monthly spending report - please report feedback [here](https://github.com/actualbudget/actual/issues/2820)
 
 ### Actual
 
