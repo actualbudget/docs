@@ -51,7 +51,7 @@ const sidebars = {
               type: 'category',
               label: 'In the Cloud',
               collapsible: false,
-              items: ['install/pikapods', 'install/fly'],
+              items: ['install/pikapods', 'install/fly', 'install/zeabur'],
             },
           ],
         },
