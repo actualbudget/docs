@@ -21,6 +21,6 @@ You will need to pay for a **minimal** **$5/mon** fee for [Developer Plan](https
 
 ## How to Deploy
 
-Go to [Actual Template](https://zeabur.com/templates/WL26U8), and click **Deploy** to continue. You can create zeabur domain names or bind your own domain.
+Go to [Actual Template](https://zeabur.com/templates/WL26U8), and click **Deploy** to continue. You can create Zeabur domain names or bind your own domain.
 
 _Actual does almost all of its computation in your browser, so purchasing more resources for the server won’t necessarily result in a better experience_
