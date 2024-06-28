@@ -204,8 +204,7 @@ export default function Hello() {
             learnMore="/docs/transactions/importing"
           >
             Import transactions from the most popular financial files: QIF, OFX,
-            QFX, and CSV. Soon we will launch bank syncing to automatically
-            download transactions.
+            QFX, and CSV.
           </SmallFeature>
           <SmallFeature
             title="Undo & redo"
