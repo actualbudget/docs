@@ -153,7 +153,7 @@ export default function Hello() {
         />
 
         <h2 class={`${classes.featuresSectionHeader} serif-header`}>
-          So many features
+          So many features!
         </h2>
         <div class={`${classes.smallFeaturesGrid} ${classes.container}`}>
           <SmallFeature
