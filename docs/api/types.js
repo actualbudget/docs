@@ -288,6 +288,113 @@ export let objects = {
     { name: 'conditions', type: 'ConditionOrAction[]' },
     { name: 'actions', type: 'ConditionOrAction[]' },
   ],
+
+  budget: [
+    {
+      name: 'id',
+      type: 'string',
+      required: true,
+      description: (
+        <span>
+          A unique id for the budget. This is usually a UUID.
+        </span>
+      ),
+    },
+    {
+      name: 'name',
+      type: 'string',
+      required: true,
+      description: (
+        <span>
+          The budget's name.
+        </span>
+      ),
+    },
+    {
+      name: 'cloudFileId',
+      type: 'string',
+      description: (
+        <span>
+          The id for the budget on the server. This is usually a UUID.
+        </span>
+      ),
+    },
+    {
+      name: 'groupId',
+      type: 'string',
+      description: (
+        <span>
+          The group id for the budget.
+        </span>
+      ),
+    },
+    {
+      name: 'encryptKeyId',
+      type: 'string',
+      description: (
+        <span>
+          The encryption key ID for the file, if it is encrypted.
+        </span>
+      ),
+    },
+  ],
+
+  // cloudFileId: file.fileId,
+  // state: 'remote',
+  // groupId: file.groupId,
+  // encryptKeyId: file.encryptKeyId,
+  // hasKey: file.hasKey,
+  remoteFile: [
+    {
+      name: 'name',
+      type: 'string',
+      required: true,
+      description: (
+        <span>
+          The budget's name.
+        </span>
+      ),
+    },
+    {
+      name: 'cloudFileId',
+      type: 'string',
+      required: true,
+      description: (
+        <span>
+          The id for the budget on the server. This is usually a UUID.
+        </span>
+      ),
+    },
+    {
+      name: 'groupId',
+      type: 'string',
+      required: true,
+      description: (
+        <span>
+          The group id for the budget.
+        </span>
+      ),
+    },
+    {
+      name: 'hasKey',
+      type: 'boolean',
+      required: true,
+      description: (
+        <span>
+          If the file has an encryption key.
+        </span>
+      ),
+    },
+    {
+      name: 'encryptKeyId',
+      type: 'string',
+      description: (
+        <span>
+          The encryption key ID for the file, if it is encrypted.
+        </span>
+      ),
+    },
+  ],
 };
 
 function Table({ style, headers, className, children }) {

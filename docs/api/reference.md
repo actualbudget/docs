@@ -69,13 +69,18 @@ This is the documentation of all available API methods. The API has not been rel
 ]} />
 
 <APIList title="Misc" sections={[
+"Budget",
+"RemoteFile",
 "initConfig",
+"runBankSync",
 "init",
 "shutdown",
 "sync",
 "runBankSync",
 "runImport",
 "loadBudget",
+"getLocalBudgets",
+"getRemoteBudgets",
 "downloadBudget",
 "batchBudgetUpdates",
 "runQuery"
@@ -522,6 +527,14 @@ Delete a rule.
 
 ## Misc
 
+#### Budget
+
+<StructType fields={objects.budget} />
+
+#### RemoteFile
+
+<StructType fields={objects.remoteFile} />
+
 #### InitConfig
 
 <StructType fields={objects.initConfig} />
@@ -557,6 +570,18 @@ Run the 3rd party (gocardless, simplefin) bank sync operation. This will downloa
 <Method name="runImport" args={[{ properties: [{ name: 'budgetName', type: 'string' }, { name: 'func', type: 'func' }] }]} returns="Promise<void>" />
 
 Creates a new budget file with the given name, and then runs the custom importer function to populate it with data.
+
+#### `getLocalBudgets`
+
+<Method name="getLocalBudgets" args={[]} returns="Promise<Budget[]>" />
+
+Returns a list of all locally cached budget files.
+
+#### `getRemoteBudgets`
+
+<Method name="getRemoteBudgets" args={[]} returns="Promise<RemoteFile[]>" />
+
+Returns a list of all budget files available on the remote server.
 
 #### `loadBudget`
 
