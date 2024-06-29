@@ -562,13 +562,13 @@ Creates a new budget file with the given name, and then runs the custom importer
 
 <Method name="loadBudget" args={[{ properties: [{ name: 'syncId', type: 'string' }] }]} returns="Promise<void>" />
 
-TODO
+Load a locally cached budget file.
 
 #### `downloadBudget`
 
 <Method name="downloadBudget" args={[{ properties: [{ name: 'syncId', type: 'string' }, { name: 'password', type: 'string?' }] }]} returns="Promise<void>" />
 
-TODO
+Load a budget file. If the file exists locally, it will load from there. Otherwise, it will download the file from the server.
 
 #### `batchBudgetUpdates`
 
