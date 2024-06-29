@@ -556,7 +556,7 @@ Run the 3rd party (gocardless, simplefin) bank sync operation. This will downloa
 
 <Method name="runImport" args={[{ properties: [{ name: 'budgetName', type: 'string' }, { name: 'func', type: 'func' }] }]} returns="Promise<void>" />
 
-TODO
+Creates a new budget file with the given name, and then runs the custom importer function to populate it with data.
 
 #### `loadBudget`
 
