@@ -63,7 +63,11 @@ This is the documentation of all available API methods. The API has not been rel
 ]} />
 
 <APIList title="Misc" sections={[
-"runBankSync"
+"Budget",
+"RemoteFile",
+"runBankSync",
+"getLocalBudgets",
+"getRemoteBudgets"
 ]} />
 
 ## Types of methods
@@ -513,6 +517,14 @@ Delete a rule.
 
 ## Misc
 
+#### Budget
+
+<StructType fields={objects.budget} />
+
+#### RemoteFile
+
+<StructType fields={objects.remoteFile} />
+
 #### Methods
 
 #### `runBankSync`
@@ -520,3 +532,15 @@ Delete a rule.
 <Method name="runBankSync" args={[{ properties: [{ name: 'accountId', type: 'string' }] }]} returns="Promise<void>" />
 
 Run the 3rd party (gocardless, simplefin) bank sync operation. This will download the transactions and insert them into the ledger.
+
+#### `getLocalBudgets`
+
+<Method name="getLocalBudgets" args={[]} returns="Promise<Budget[]>" />
+
+Returns a list of all locally cached budget files.
+
+#### `getRemoteBudgets`
+
+<Method name="getRemoteBudgets" args={[]} returns="Promise<RemoteFile[]>" />
+
+Returns a list of all budget files available on the remote server.
