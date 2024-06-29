@@ -574,7 +574,7 @@ Load a budget file. If the file exists locally, it will load from there. Otherwi
 
 <Method name="batchBudgetUpdates" args={[{ properties: [{ name: 'func', type: 'func' }] }]} returns="Promise<void>" />
 
-TODO
+Performs a batch of budget updates. This is useful for making multiple changes to the budget in a single call to the server.
 
 #### `runQuery`
 
