@@ -27,6 +27,20 @@ I will go in depth in the basics like how Actual is installed and run, how the b
 This may be the place were Actual and YNAB are the most different.
 YNAB is a service. This means that the user has minimal control over the application and data.
 This also means that YNAB owns your budget data.  They say that they keep it safe, but that could change any time they want to.
+Because of this service model YNAB also has a continuing fee.
+
+Actual is Free and Open-Source.
+This means that there is no cost for the core software. Things like bank syncing will have a fee from the provider.
+If you don't want to use bank syncing, or it is not available in your region, there is no cost!
+Because Actual is not a service we never see your budget data.  
+It is controlled by you.  It lives entirely on your devices and your server if you host one.
+
+### How to run the software
+
+Actual has a few options for running the sofware.
+The easiest to start is to install the desktop application.
+The desktop application can be found at our [github release page](https://github.com/actualbudget/actual/releases/latest)
+
 
 
 # Core Feature Comparison
