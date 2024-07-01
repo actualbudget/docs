@@ -139,9 +139,9 @@ export default function Hello() {
           srcDark="/img/homepage/actual-report-cash-flow-dark.png"
         >
           Intuitive reports give you a quick way to learn about your finances.
-          By default, we include net worth and cash flow reports, but soon
-          you’ll be able to create any report that you like. You’ll even be able
-          to download custom reports from others.
+          By default, we include net worth and cash flow reports.  Actual also
+          includes a powerful custom report engine to design your own reports 
+          to fit your needs.
         </BigFeature>
       </div>
 
@@ -153,7 +153,7 @@ export default function Hello() {
         />
 
         <h2 class={`${classes.featuresSectionHeader} serif-header`}>
-          So many features
+          So many features!
         </h2>
         <div class={`${classes.smallFeaturesGrid} ${classes.container}`}>
           <SmallFeature
@@ -174,37 +174,21 @@ export default function Hello() {
             any number of devices.
           </SmallFeature>
           <SmallFeature
-            title="Payees"
-            icon={icons.shopCashierWoman}
-            learnMore="/docs/transactions/payees"
-          >
-            Manage payees quickly. Merge them, set up custom rules for how they
-            are matched, and use default categories to automatically categorize
-            transactions.
-          </SmallFeature>
-          <SmallFeature
-            title="Split transactions"
-            icon={icons.diagramSplitVertical}
-          >
-            Use split transactions to separate a single expense into multiple
-            categories. An inline editor makes this seamless.
-          </SmallFeature>
-          <SmallFeature
             title="Bank Sync"
             icon={icons.bank}
             learnMore="/docs/advanced/bank-sync"
           >
             Actual has built in support for bank syncing using goCardless 
-            (EU/UK) and SimpleFIN (US/Canada).  Community importers are also available for Plaid.
+            (EU/UK) and SimpleFIN (US/Canada).
           </SmallFeature>
           <SmallFeature
-            title="Budgeting"
+            title="Envelope Style Budgeting"
             icon={icons.wallet}
             learnMore="/docs/budgeting/"
           >
-            Track your spending with budgets. You can only budget cash you have
-            on hand, which means your budget stays realistic and you don't make
-            numbers up.
+            Use the power of envelope budgeting to get on top of your finances.
+            You can only budget cash you have on hand, which means your budget
+            stays realistic and you don't make numbers up.
           </SmallFeature>
           <SmallFeature
             title="Transfers"
@@ -220,8 +204,7 @@ export default function Hello() {
             learnMore="/docs/transactions/importing"
           >
             Import transactions from the most popular financial files: QIF, OFX,
-            QFX, and CSV. Soon we will launch bank syncing to automatically
-            download transactions.
+            QFX, CAMT.053 and CSV.
           </SmallFeature>
           <SmallFeature
             title="Undo & redo"
