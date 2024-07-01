@@ -12,8 +12,9 @@ Hello budgeters!
 This is the start of the series **Actual Versus**!
 Today we will be viewing how Actual Budget stacks up against the long standing YNAB (You Need a Budget).
 
-YNAB is a longstanding heavywight in the envelope budgeting space.  It was one of the originals.
+YNAB is the longstanding heavyweight in the envelope budgeting space.  It was one of the originals.
 Actual takes a lot of inspiration from the original old YNAB4 and builds upon it.
+Lets see how Actual stacks up!
 
 <!--truncate-->
 
@@ -87,10 +88,39 @@ This is the one place where YNAB and Actual differ in budgeting.
 YNAB automagically handles credit cards for you.
 This can be nice sometimes, annoying others.
 
+The way YNAB handles this can make it a bit too easy to hold onto credit card debt and let it build up.
+Actual needs some more deliberate handling of that debt.
+Our docs [show how to do this in Actual](../docs/budgeting/credit-cards).
+The tl;dr is that you put your existing debt in a category on your budget and any new debt has to be manually added into that category.
+Pricipal and interest payments, get categorized into this category.
+If you use credit cards, but don't carry any debt, the don't worry, you don't have to do anything special.
+Envelope budgeting handles that process natively by using funds budgeted in your categories and paying off ou balance.
+
 
 ## Reports
 
+YNAB has a few simple reports but nothing especially exciting.
+On the other hand, Actual has a full Custom Report enging for generating as many special purpose reports as you can think of.
+We have options for bar charts, line charts, area graphs, donut graphs, and data tables.
+These custom reports can be saved for later and get added to your personal report dashboard!
+
+Here is an example of the kind of granularity you can acheive with these custom reports.
+This report is viewing how much was spent on food, by week, in both the `Food` and `Restaurant` categories over the last few months.
+
+![](/static/img/blog/actualvynab-report.png)
+
 ## Goals and Budget Automation
+
+## Bank Syncing
+
+Actual currently has two bank sync providers with built in support.
+
+For EU/UK users, Actual supports using Nordigen as a bank sync provider.
+It is free for banks and that market.
+
+For North American banks, Actual has support for using SimpleFIN.
+This feature is still in an experimental state, but most users have had very good experiences with it.
+SimpleFIN costs $1.50 per month, or $15 per year (at time of writing).
 
 ## Other Features
 
