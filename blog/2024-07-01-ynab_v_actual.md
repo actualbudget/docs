@@ -193,4 +193,4 @@ Don't worry the docs aren't too long to read. I will also be including the alrea
 
 
 
-[^1] A portion of the cost to host of PikaPods is donated to the Actual Budget Project. With that said, PikaPods is a very simple, and cost-effective way to host your server.
+[^1] A portion of the cost to host on PikaPods is donated to the Actual Budget Project. With that said, PikaPods is a very simple, and cost-effective way to host your server.
