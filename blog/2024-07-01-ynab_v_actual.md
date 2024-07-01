@@ -54,7 +54,7 @@ Download the file that matches your operating system.
 The `.exe` for Windows, the `.dmg` for Mac, or one of the Linux options.
 
 #### Web version
-You can try out Actual using the [web demo](app.actualbudget.org) on any device.
+You can try out Actual using the [web demo](https://app.actualbudget.org) on any device.
 This link can be used long term if you are exclusivly on mobile and don't have a sync server.
 The data will be stored on your device and we wont have any access to it.
 If you plan to do this make sure to export you data sometimes as a backup (this can be done in the budget settings).
