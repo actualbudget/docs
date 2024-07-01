@@ -92,7 +92,7 @@ Just like you are used to.
 #### Credit Cards
 This is the one place where YNAB and Actual differ in budgeting.
 YNAB automagically handles credit cards for you.
-Some users prefer this approach while others find it annoying.
+Some users prefer this approach while others find it annoying. 
 
 The way YNAB handles this can make it a bit too easy to hold onto credit card debt and let it build up.
 Actual needs some more deliberate handling of that debt.
