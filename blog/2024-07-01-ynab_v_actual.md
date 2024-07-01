@@ -109,8 +109,6 @@ This report is viewing how much was spent on food, by week, in both the `Food` a
 
 ![](/static/img/blog/actualvynab-report.png)
 
-## Goals and Budget Automation
-
 ## Bank Syncing
 
 Actual currently has two bank sync providers with built in support.
@@ -121,6 +119,34 @@ It is free for banks and that market.
 For North American banks, Actual has support for using SimpleFIN.
 This feature is still in an experimental state, but most users have had very good experiences with it.
 SimpleFIN costs $1.50 per month, or $15 per year (at time of writing).
+
+For other bank sync providers and other markets Actual has a JS API that can be used to create custom imports.
+We also would be open to any contributions that add new providers!
+
+## Goals and Budget Automation
+
+YNAB has revamped its targets in recent months.
+They are all a flavor of "save X funds every Y time period".
+This can cover many different situations pretty well.
+YNAB does also have indicator bars to show if the goal has been met, or progress towards that goal.
+
+Actual currenlty is developing a feature that is similar to YNAB's targets we refer to as goal templates. 
+Goal templates is more flixible and has more options than YNAB's targets.
+A full write up of how they work can be found in the [Goal Templates Documentation](../docs/experimental/goal-templates).
+
+One big difference from YNAB to Actual currently is that in Actual goals are indicated as met or not on a montly basis instead of a total basis.
+This means that if you have a multi month goal to save $500 in the next 10 months, Actual would give you a met indication if you budget $50.
+If you budget more than you needed, the goal will adjust each month so that the amount you need in the current month is always accurate.
+Here is an example of what these indications looks like for a met, incomplete, or overspent category.
+
+![](/static/img/goal-template/templates-colors.png)
+
+These goals can also be used to automate your budgeting each month, same as YNAB.
+One extra feature that YNAB does not have with their goals is the ability to prioritize certain categories.
+This makes it so the goal templates can be used to budget everything automatcially.
+There are a few blog posts about using these templates.
+One about budgeting all [categories using priorities](./2023-12-15-automate-your-budget-with-goal-templates).
+And another for [weekly based budgeting](./2024-03-25-goal-templates-with-a-twist).
 
 ## Other Features
 
