@@ -89,6 +89,11 @@ The budgeting styles are so similar you can [import your YNAB data into Actual](
 How accounts and transactions are handled is very similar.  There are transactions with payees, notes, categories, etc.
 Just like you are used to.
 
+Here is a snippet of what Actual looks like in the budgeting view.
+Its similar to YNAB, but each have a unique style.
+
+![](/static/img/homepage/actual-main-budget.png)
+
 #### Credit Cards
 This is the one place where YNAB and Actual differ in budgeting.
 YNAB automagically handles credit cards for you.
@@ -145,7 +150,7 @@ Some notable goals that Actual has would be: goals based on scheduled expenses, 
 One big difference from YNAB to Actual currently is that in Actual goals are indicated as met or not on a monthly basis instead of a total basis.
 This means that if you have a multi month goal to save $500 in the next 10 months, Actual would give you a met indication if you budget $50.
 If you budget more than you needed, the goal will adjust each month so that the amount you need in the current month is always accurate.
-Here is an example of what these indications looks like for a met(green), incomplete(yellow), or overspent(red) category.
+Here is an example of what these indications looks like for a goal met(green), goal incomplete(yellow), or overspent(red) category.
 
 ![](/static/img/goal-template/templates-colors.png)
 
