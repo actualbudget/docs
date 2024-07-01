@@ -1,3 +1,4 @@
+ABANCA
 actualbudget
 addtransactions
 AMZN
@@ -6,10 +7,13 @@ AQL
 Authelia
 autocompletes
 Blix
+bnp
+CAGLESMM
 caniuse
 Cardless
 categorygroup
 Certbot
+clickable
 clsx
 codemirror
 commandlet
@@ -24,6 +28,7 @@ expando
 Firefox
 flyctl
 Formik
+gebabebb
 GEBABEBB
 HSA
 htpasswd
@@ -48,9 +53,11 @@ lte
 minimalistic
 monkeypatch
 Morrisons
+NAIAGB
 Netflix
 netlify
 nordigen
+NRNBGB
 nynab
 offbudget
 ofx
@@ -76,6 +83,7 @@ subtransaction
 subtransactions
 tini
 traefik
+Trafico
 Upstash
 useb
 usernames

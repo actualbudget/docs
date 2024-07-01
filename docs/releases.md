@@ -6,7 +6,7 @@ The release has the following notable improvements:
 
 - Custom reports are officially released
 - Splits in rules are officially released
-- Tags support for transactions (use `#hashtags` in notes)
+- Tags support for transactions (use `#tags` in notes)
 - Transactions: allow merging/un-merging multiple transactions
 - Show account notes in sidebar (on hover)
 
@@ -31,7 +31,7 @@ The release has the following notable improvements:
 - [#2837](https://github.com/actualbudget/actual/pull/2837) Use AmountInput on mobile balance transfer and hold buffer modals to allow auto insertion of decimals in their amounts. — thanks @joel-jeremy
 - [#2842](https://github.com/actualbudget/actual/pull/2842) Enhanced autocomplete for languages with accents like Portuguese. Matches search queries regardless of accents. — thanks @lelemm
 - [#2847](https://github.com/actualbudget/actual/pull/2847) Add underline to budgeting category — thanks @Crazypkr
-- [#2850](https://github.com/actualbudget/actual/pull/2850) Cover overbudgeted action + make balance movement menus only appear on relevant conditions e.g. transfer to another category menu only when there is a leftover balance. — thanks @joel-jeremy
+- [#2850](https://github.com/actualbudget/actual/pull/2850) Cover over-budgeted action + make balance movement menus only appear on relevant conditions e.g. transfer to another category menu only when there is a leftover balance. — thanks @joel-jeremy
 - [#2861](https://github.com/actualbudget/actual/pull/2861) Add autocomplete to include categories underneath the prioritized subcategory — thanks @Crazypkr
 - [#2870](https://github.com/actualbudget/actual/pull/2870) Allow resetting SimpleFIN secrets and unify how bank sync secrets are reset. — thanks @psybers
 - [#2871](https://github.com/actualbudget/actual/pull/2871) Custom reports - rework "net" numbers to work more intuitively and allow for greater customization — thanks @carkom
@@ -53,7 +53,7 @@ The release has the following notable improvements:
 - [#2840](https://github.com/actualbudget/actual/pull/2840) Filters off budget items out of the spending report. — thanks @carkom
 - [#2848](https://github.com/actualbudget/actual/pull/2848) Remove recursion from topological sort to prevent stack overflow — thanks @lelemm
 - [#2862](https://github.com/actualbudget/actual/pull/2862) For Report Budget, income categories were incorrectly showing as negative when using 'Set budgets to 3 month average'. — thanks @lelemm
-- [#2863](https://github.com/actualbudget/actual/pull/2863) Remove negative margins from <ScheduleLink> so it does not exceed container — thanks @aaimio
+- [#2863](https://github.com/actualbudget/actual/pull/2863) Remove negative margins from `<ScheduleLink>` so it does not exceed container — thanks @aaimio
 - [#2864](https://github.com/actualbudget/actual/pull/2864) Fix an issue where selected scheduled transactions did not have a correct background colour — thanks @aaimio
 - [#2866](https://github.com/actualbudget/actual/pull/2866) Fix: Account names in side nav squashed — thanks @lelemm
 - [#2867](https://github.com/actualbudget/actual/pull/2867) Fix: column titles incorrect when resizing window — thanks @lelemm
