@@ -20,7 +20,14 @@ Actual takes a lot of inspiration from the original old YNAB4 and builds upon it
 # Introduction
 I will structure this comparison as follows.
 First I will go over some of the fundamentals individually, then at the end have a quick comparison of some of the smaller features.
-I will go in depth in the basics like how the budgeting basics compare, and then the day-to-day features.
+I will go in depth in the basics like how Actual is installed and run, how the budgeting basics compare, and then the other exciting features.
+
+# Using Actual
+
+This may be the place were Actual and YNAB are the most different.
+YNAB is a service. This means that the user has minimal control over the application and data.
+This also means that YNAB owns your budget data.  They say that they keep it safe, but that could change any time they want to.
+
 
 # Core Feature Comparison
 
