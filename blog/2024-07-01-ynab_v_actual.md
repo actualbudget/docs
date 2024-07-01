@@ -10,7 +10,7 @@ hide_table_of_contents: false
 Hello budgeters!
 
 This is the start of the series **Actual Versus**!
-Today we will be viewing how Actual Budget stacks up against the long standing YNAB (You Need a Budget).
+Today we will be comparing Actual Budget to YNAB (You Need a Budget).
 
 YNAB is the longstanding heavyweight in the envelope budgeting space.  It was one of the originals.
 Lets see how Actual stacks up!
