@@ -38,8 +38,26 @@ It is controlled by you.  It lives entirely on your devices and your server if y
 ### How to run the software
 
 Actual has a few options for running the sofware.
-The easiest to start is to install the desktop application.
-The desktop application can be found at our [github release page](https://github.com/actualbudget/actual/releases/latest)
+The easiest to start is to install the desktop application or try the web demo.
+Long term you should consider also hosting your own sync server.  Cosiderations for the sync server are added below.
+
+#### Desktop Application
+The desktop application can be found at our [github release page](https://github.com/actualbudget/actual/releases/latest).
+Download the file that matches your operating system.  
+The `.exe` for Windows, the `.dmg` for Mac, or one of the Linux options.
+
+#### Web version
+You can try out Actual using the [web demo](app.actualbudget.org).
+This link can be used long term if you are exclusivly on mobile.
+The data will be stored on your device and we wont have any access to it.
+If you plan to do this make sure to export you data sometimes as a backup.
+
+
+### Sync Server
+
+Actual has two parts: the client (the stuff you see and interact with), and an optional sync server.
+The server is what allows syncing your budget file between devices, and allows for bank syncing.
+A full list of what does and does not require the sync server can be found [in this table](../docs/install)
 
 
 
