@@ -41,7 +41,6 @@ The release has the following notable improvements:
 
 #### Bugfix
 
-- [#2772](https://github.com/actualbudget/actual/pull/2772) Fix the app randomly closing — thanks @MatissJanis
 - [#2785](https://github.com/actualbudget/actual/pull/2785) Hardens "showActivity" elements of custom reports, switched to "inflow/outflow" filters. Fixes issue with weekly show activity clicks not filtering dates correctly. — thanks @carkom
 - [#2790](https://github.com/actualbudget/actual/pull/2790) Fix CSV import not matching category is (nothing) rules — thanks @matt-fidd
 - [#2799](https://github.com/actualbudget/actual/pull/2799) Fix amount parsing with 6-9 decimal places — thanks @sreetamdas
