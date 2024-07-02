@@ -188,6 +188,7 @@ Don't worry the docs aren't too long to read. I will also be including the alrea
 | Flexible Goals |✅ |✅ |Actual has more options for Goals but less in the way of goal status indication |
 
 
+## Conclusion
 I hope this comparison was useful to those considering the two budgeting apps.
 The two apps are different and have their own pros and cons.
 
