@@ -188,9 +188,10 @@ Don't worry the docs aren't too long to read. I will also be including the alrea
 | Flexible Goals |✅ |✅ |Actual has more options for Goals but less in the way of goal status indication |
 
 
+I hope this comparison was useful to those considering the two budgeting apps.
+The two apps are different and have their own pros and cons.
 
-
-
-
+If you would like a different perspective, from a recent YNAB user, check out [this write up](https://samw.dev/2024/07/01/actual-for-ynab.html).
+It goes in depth on some of the differences between the two applications and some benefits, drawbacks, and considerations if someone were to migrate from YNAB to Actual.
 
 [^1] A portion of the cost to host on PikaPods is donated to the Actual Budget Project. With that said, PikaPods is a very simple, and cost-effective way to host your server.
