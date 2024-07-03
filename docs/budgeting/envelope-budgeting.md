@@ -16,65 +16,68 @@ utility bills, and other regular payments. These fixed costs are crucial and mus
 complete picture of your finances. Actual Budget ensures that every fixed or variable expense is
 considered. This comprehensive approach makes AB much more effective than the traditional cash-stuffing method.
 
-A significant advantage of using Actual Budget is increased awareness of expenses. Knowing where
-every part of your money is a powerful step towards financial control and stability.
+A significant advantage of using Actual Budget is increased awareness of expenses. 
+Knowing where every penny of your money is spent is a decisive step towards financial control and stability.
 
 
 
 
 ## Zero-Based Budgeting
-Zero-Based Budgeting is a key principle in electronic envelope budgeting systems like Actual Budget. 
-This approach means that all of your income is assigned to a specific category, leaving no money unallocated. 
-Doing this gives every unit of currency a purpose, ensuring that your income is used efficiently and 
-intentionally.
+Zero-based budgeting is a key principle in electronic envelope budgeting systems like Actual Budget. 
+This approach means that all income is assigned to a specific category, leaving no money unallocated. 
+This gives every unit of currency a purpose, ensuring that income is used efficiently and intentionally.
+
 
 Here’s what Zero-Based Budgeting involves:
 
-- **Total Allocation**: Every amount of your income is allocated to specific categories, resulting in a 
+- **Total Allocation**: All your income is allocated to specific categories, resulting in a 
 zero balance.
 - **Goal-Oriented Planning**: It encourages you to assign funds with specific goals, such as saving for 
 emergencies, paying off debts, or investing. This aligns your spending with your overall financial objectives.
 - **Flexibility**: This method allows flexibility as your priorities change. It requires regular evaluation 
 and adjustment, making it suitable for those with dynamic financial situations.
 
-By following Zero-Based Budgeting, you can maintain control over your finances, ensuring that every income is 
-working towards your financial goals.
+By following Zero-Based Budgeting, you can maintain control over your finances and ensure that every income 
+is working towards your financial goals.
+
 
 
 
 
 ## How to set up and use an envelope system with Actual Budget
 
-Learning how to budget using Actual Budget is straightforward, even 
+Learning to budget using Actual Budget is straightforward, even 
 if you're new to budgeting.  Here's a checklist for getting started:
 
 ### 1. Establish budget categories
 
-The first step is deciding which expense and income [categories to include in your budget](./categories). Tailor 
-each category to fit your specific budget and spending habits for the most accurate tracking.
+The first step is deciding which expense and income  [categories to include in your budget](./categories). 
+Tailor each category to fit your specific budget and spending habits, giving you the power to customize 
+the system to your needs for the most accurate tracking.
 
-Common categories might include general areas such as groceries, gas, clothing, entertainment, 
-and savings. Additionally, you can use Actual Budget for managing debt payments and long-term 
-savings goals, ensuring all aspects of your financial life are covered.
+Common categories might include general areas such as groceries, gas, clothing, entertainment, and savings. 
+Additionally, you can use Actual Budget for managing debt payments and long-term savings goals, 
+ensuring all aspects of your financial life are comprehensively covered.
 
-To identify your categories, review the last three months of your bank statements. Look for 
-recurring expenses and income sources to determine which categories are necessary. This will 
-give you a clear picture of where your money goes and help you create a budget that truly 
-reflects your spending patterns and financial goals.
+Review the last three months of your bank statements to identify your categories. Look for recurring 
+expenses and income sources to determine which categories are necessary. This will give you a clear 
+picture of where your money goes and help you create a budget that reflects your spending patterns and financial goals.
+
 
 
 ### 2. Allocate amounts to each category
 
-Once you have identified the categories for your expenses and incomes, the next step is to 
-decide how much money to allocate to each category. This allocation ensures that every part 
-of your financial life is accounted for and helps you manage your money effectively.
 
-A practical way to determine these amounts is to use the average of at least the last three months' bank 
-statements. Better yet is using the last six months. This average provides a realistic estimate of 
-your spending and income patterns, allowing you to set initial budget values that reflect your actual 
-financial habits.
+Once you have identified the categories for your expenses and incomes, the next step is 
+to decide how much money to allocate to each category. This allocation ensures that 
+every part of your financial life is accounted for and helps you manage your money effectively.
 
-> **Tip:** To help you with this task, you can enter previous months data into Actual Budget.
+A practical way to determine these amounts is to use the average of at least the last 
+three months' bank statements. Better yet, it is using the previous six months. 
+This average provides a realistic estimate of your spending and income patterns, allowing 
+you to set initial budget values that reflect your financial habits.
+
+> **Tip:** To help you with this task, you can enter previous months' data into Actual Budget.
 
 
 For example, if you have € 1 200 to allocate for the month, your budget might look like this:
@@ -92,26 +95,32 @@ For example, if you have € 1 200 to allocate for the month, your budget might 
 | **TOTAL**     | **€ 1 200**        | |
 
 
-By carefully allocating amounts to each category, you create a clear and realistic budget that can help you 
-manage your finances more effectively and achieve your financial goals.
 
-Remember, these initial values are not set in stone. As you start tracking your expenses, you might find that 
-some categories need more or less money. Be flexible and adjust your budget as needed to better fit your 
-financial situation.
+By carefully allocating amounts to each category, you create a clear and realistic budget to help you manage 
+your finances more effectively and achieve your financial goals.
+
+Remember, these initial values are not set in stone. As you start tracking your expenses, you might 
+find that some categories need more or less money. This flexibility empowers you to adjust your 
+budget as needed, putting you in control of your financial situation.
 
 
 
-### 3. Track your spending for each category.
 
-With your budget now allocated, the next step is to track your spending diligently. This is essential for 
-making the envelope system work effectively.
+### 3. Track your spending for each category
 
-Each time you make a purchase, add the spending to Actual Budget. While this might seem like a lot of work 
-initially, it will significantly increase your awareness of your spending habits, enabling you to make informed 
-decisions about what and how much to spend.
 
-As you become more accustomed to this method of budgeting, you can choose to update Actual Budget less frequently, 
-such as once a week. Additionally, if supported, you can set up automatic syncing with your bank to streamline the process.
+With your budget now allocated, the next step is to track your spending diligently. 
+This is essential for making the envelope system work effectively.
+
+Each time you make a purchase, add the spending to Actual Budget. While this might seem 
+like a lot of work initially, it will significantly increase your awareness of your spending habits, 
+enabling you to make informed decisions about what and how much to spend.
+
+
+As you become more accustomed to this budgeting method, you can update Actual Budget less frequently, 
+such as once a week. This flexibility allows you to adapt the system to your lifestyle. Additionally, 
+if supported, you can set up automatic syncing with your bank to streamline the process.
+
 
 
 Here’s how to do it:
@@ -131,28 +140,31 @@ your finances and work more effectively towards your financial goals.
 
 
 ### 4. Adjust and adapt
-Life is full of unexpected twists and turns, and your budget should be just as flexible. When you overspend in a 
-budget category for the month, it’s crucial to adjust and adapt rather than feeling defeated. Just as you adapt your plans 
+Life is full of unexpected twists and turns; your budget should be just as flexible. When you overspend in a 
+budget category for the month, it’s crucial to adjust and adapt rather than feel defeated. As you adapt your plans 
 in real life, you can do the same with your budget.
 
-Maybe an unexpected event came up, or perhaps you simply underestimated your expenses. The key is to remain flexible and 
-make necessary adjustments.
+Maybe an unexpected event arose, or you underestimated your expenses. The key is to remain flexible and make 
+necessary adjustments.
+
 
 **How to Adjust Your Budget**
 
-1. **Review Your Spending**: First, identify where you overspent. Look at your budget categories to see where adjustments are needed.
-2. **Reallocate Funds**: Move money from categories with surplus funds to cover the overspending. For example, if you budgeted 100 
-    for ‘Eating Out’ but spent 140, find another category with extra funds, like ‘Clothing’ or ‘Entertainment,’ and shift some 
+1. **Review your spending**: First, identify where you overspent. Look at your budget categories to see where adjustments are needed.
+2. **Reallocate funds**: Move money from categories with surplus funds to cover the overspending. For example, if you budgeted € 100 
+    for *Eating Out* but spent € 140, find another category with extra funds, like *Clothing* or *Entertainment,* and shift some 
     of that money to cover the difference.
-3. **Stay Calm and Flexible**: Remember, the goal of budgeting is to manage your finances effectively, not to be perfect. 
+3. **Stay calm and flexible**: Remember, the goal of budgeting is to manage your finances effectively, not to be perfect. 
     Flexibility is key. Adjusting your budget is a normal part of the process.
 
 You can also set up Actual Budget to 
-[automatically deducts the overspending](./#rollover-negative-category-balances) from next month’s funds. Be aware that
-even if you *can* do something, does not mean that you *should* do it.
+[automatically deduct the overspending](./#rollover-negative-category-balances) from next month’s funds. Be aware that
+even if you *can* do something, it does not mean that you *should* do it.
 
-By reallocating funds, you maintain control over your budget and avoid unnecessary stress. This process helps you understand that 
-budgets are not rigid constraints but flexible tools that can adapt to your changing needs.
+
+You maintain control over your budget by reallocating funds and avoiding unnecessary stress. This process helps 
+you understand that budgets are not rigid constraints but flexible tools that can adapt to your changing needs.
+
 
 
 
@@ -172,46 +184,46 @@ Many people face financial stress because of large, infrequent expenses that cat
 * Medical expenses
 * Home repairs
 
-Without planning, these expenses can lead to financial crises, forcing you to dip into savings or go into debt. 
+Without planning, these expenses can lead to financial crises, forcing you to dip into savings or debt. 
 Envelope budgeting encourages proactive saving, so you’re never caught off guard.
 
-Some regular expenses you already know about. You can plan for those and set aside a smaller amout of money each 
+Some regular expenses you already know about. You can plan for those and set aside a smaller amount of money each 
 month to cover these rather than having to put up the larger amount when the bill comes. 
 
 **How to plan for irregular expenses**
 
-1. **Identify Irregular Expenses**: Make a list of all large, infrequent expenses you expect throughout the year. 
+1. **Identify Irregular Expenses**: List of all large, infrequent expenses you expect throughout the year. 
    These could be anything from insurance premiums to holiday gifts.
 2. **Break Down Annual Costs**: Calculate the total annual cost for each expense. 
-3. **Divide into Monthly Savings**: Divide the annual cost by 12 to find out how much you need to save each month. 
-4. **Create Specific Categories**: Set up specific categories in Actual Budget for each irregular expense. Label 
-   them clearly, such as “Car Insurance,” “Holiday Gifts,” or “Home Repairs.”
-5. **Allocate Funds Monthly**: Each month, allocate the calculated amount to these categories. Treat this allocation 
-   as a fixed expense to ensure you are consistently saving for these future costs.
+3. **Divide into Monthly Savings**: Divide the annual cost by 12 to determine how much you need to save each month. 
+4. **Create Specific Categories**: For each irregular expense, set up specific categories in Actual Budget.
+   Label them clearly, such as “Car Insurance,” “Holiday Gifts,” or “Home Repairs.”
+5. **Allocate Funds Monthly**: Allocate the calculated amount to these categories each month. Treat this allocation 
+   as a fixed expense to ensure you consistently save for these future costs.
+
 
 **Example:** Let’s say your annual insurance costs are € 2 400. Instead of scrambling to find this amount when the bill 
-arrives, you can set aside € 200 each month. By the time the bill is due, you’ll have the full amount saved and ready, 
+arrives, you can set aside € 200 each month. By the time the bill is due, you’ll have the totl amount saved and ready, 
 avoiding the need to dip into savings or incur debt.
-
-
 
 
 
 ## Using Actual Budget with debit cards is better than using cash
 
-While the traditional envelope system relies on cash, using Actual Budget with debit and credit cards offers significant 
-advantages. Here’s why using cards can be more effective:
+While the traditional envelope system relies on cash, using Actual Budget with debit and credit 
+cards offers significant advantages. Here's why using cards can be more effective:
+
 
 **Ease of tracking**: When you use debit or credit cards, all your transactions are automatically recorded 
-in your bank statement.  Bank and credit card statements statements provide a detailed history of your 
-transactions, including the date, amount, and merchant. 
-This makes it much easier to track your spending without having (to remember) to manually enter 
-each transaction whenever you do a purcahse or get income. Most financial institutions will let you export your
-transactions as CSV-files, which can be [imported into Actual Budget](/docs/transactions/importing). Using cards will save you time and reduce the risk of errors.
+in your bank statement. Bank and credit card statement statements provide a detailed history of your 
+transactions, including the date, amount, and merchant. This makes it much easier to track your spending without 
+having (to remember) to manually enter each transaction whenever you make a purchase or get income. 
+Most financial institutions will let you export your transactions as CSV files, 
+which can be [imported into Actual Budget](/docs/transactions/importing). Using cards will save you time and reduce the risk of errors.
 
-**Automatic import**: Actual Budget can [sync directly with your bank accounts](/docs/advanced/bank-sync). This means that every time you use your 
-debit or credit card, the transaction details are automatically imported into your budget categories. 
-You no longer need to keep physical receipts or manually log each expense.
+**Automatic import**: Actual Budget can [sync directly with your bank accounts](/docs/advanced/bank-sync). 
+Every time you use your debit or credit card, the transaction details are automatically imported into 
+your budget categories. You no longer need to keep physical receipts or manually log each expense.
 
 Read more about [managing credit cards](./credit-cards) with Actual Budget.
 
