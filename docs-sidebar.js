@@ -145,6 +145,7 @@ const sidebars = {
               items: ['budgeting/credit-cards/carrying-debt'],
             },
             'budgeting/joint-accounts',
+            'budgeting/envelope-budgeting',
             //unavailable('Returns and Reimbursements'),
           ],
         },
