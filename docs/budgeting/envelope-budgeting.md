@@ -203,7 +203,7 @@ month to cover these rather than having to put up the larger amount when the bil
 
 
 **Example:** Let’s say your annual insurance costs are € 2 400. Instead of scrambling to find this amount when the bill 
-arrives, you can set aside € 200 each month. By the time the bill is due, you’ll have the totl amount saved and ready, 
+arrives, you can set aside € 200 each month. By the time the bill is due, you’ll have the total amount saved and ready, 
 avoiding the need to dip into savings or incur debt.
 
 
@@ -272,7 +272,7 @@ the next week.
 
 ### Week 2 budget tracking
 
-In week 2 you, are invited to a house warmingparty, and you want to bring a gift. In the *Available in Week 2* we 
+In week 2 you, are invited to a housewarming party, and you want to bring a gift. In the *Available in Week 2* we 
 saw that you only had € 5 to spend. This does not go a long way - but you found a gift costing only € 10.
 
 Let's track the expenses in Week 2 and calculate the available amounts for Week 3.
@@ -388,7 +388,7 @@ A job well done of not overspending more than necessary!
 This revised budget considers the adjustments based on our spending habits in January, 
 ensuring a more accurate and adequate budget for February
 
-| Categories      | Awailable at the start of  February |
+| Categories      | Available at the start of  February |
 |-----------------|------------------------|
 | Groceries       |  € 350             | 
 | Gas             |   € 110            | 
