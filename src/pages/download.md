@@ -14,7 +14,7 @@ The simplest way to use Actual is to download the desktop application.  This wil
 ## Desktop Client
 |||
 |:--:|:--:|:--:|:--:|
-|<Winsvg width="100" height="100" fill="#8812e1"/>|<Macsvg width="100" height="105" fill="#8812e1"/>|<Linuxsvg width="100" height="100" fill="#8812e1" />|<Linuxsvg width="100" height="100" fill="#8812e1"/>|
+|<Winsvg width="100" height="100" fill="#6B46C1"/>|<Macsvg width="100" height="105" fill="#6B46C1"/>|<Linuxsvg width="100" height="100" fill="#6B46C1" />|<Linuxsvg width="100" height="100" fill="#6B46C1"/>|
 |[Windows](https://github.com/actualbudget/actual/releases/latest/download/Actual.Setup.24.5.0.exe)|[Mac](https://github.com/actualbudget/actual/releases/latest/download/Actual-24.5.0.dmg)|[Linux (Appimage)](https://github.com/actualbudget/actual/releases/latest/download/Actual-24.5.0-x86_64.AppImage)|[Linux (Flatpak) ](https://github.com/actualbudget/actual/releases/latest/download/Actual-24.5.0-x86_64.flatpak)|
 
 
