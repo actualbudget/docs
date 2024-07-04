@@ -43,8 +43,10 @@ ldaplogin
 letsencrypt
 libofx
 linting
+linuxsvg
 lleskassen
 lte
+macsvg
 minimalistic
 monkeypatch
 Morrisons
@@ -81,6 +83,7 @@ useb
 usernames
 valign
 Venmo
+winsvg
 WSL
 Xxxxx
 ynab
