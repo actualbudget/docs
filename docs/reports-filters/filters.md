@@ -29,7 +29,7 @@ The great thing is that you are not limited to just one Filter. You can select m
 
 There are further options to choose within each area, in order to narrow the Filter still further. Here are three just to illustrate the choices – Dates, Categories and Notes:
 
-`Matches` is regex, the other condition types are further explained at [Rules Page](../rules/index.md).
+`Matches` is regex, the other condition types are further explained at [Rules Page](../budgeting/rules/index.md).
 
 ![](/img/filtering/conditions-1.png)
 
