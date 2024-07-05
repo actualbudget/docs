@@ -9,7 +9,9 @@ It is recommended to add all accounts you have to Actual.
 This includes all savings, checking, and investment accounts.
 These accounts should match what shows up in your Bank or Credit Union.
 For example, if you have a savings, checking, and credit card account with Bank of America, add each as a separate account in Actual.
+
 ### On or Off Budget
+
 In Actual, you have the option of on budget accounts and off budget accounts.
 On budget accounts are included towards the funds available in your budget, while off budget accounts are only for tracking.
 Off budget accounts are included in the net worth report.
@@ -77,6 +79,54 @@ If you have an investment account that you contribute to, make a category for th
 You also have the ability to make multiple income categories.
 Maybe you have multiple income streams, make a category for each one.
 You may also want a category for interest and dividends.
+
+### Group your expense categories
+Actual has a nifty and useful feature where you can group your expense categories into groups. 
+One reason for doing this is to have more visibility and control over your spending. When using the
+[envelope method](./envelope-budgeting), one will move available funds between categories when 
+needed. However, there are some categories that you should be very wary about moving funds away 
+from. By grouping, you'll get an extra visual indication that moving funds from the Electricity 
+category, for instance, may not be the wisest choice. Another reason is to have a more convenient 
+way of reporting your spending habits.
+
+
+1. **Crusial or realy important**.  As the name suggests, these are the expenses that are 
+difficult or impossible to reduce or remove from your daily life. Most of these are reoccurring 
+bills, either monthly, quarterly or yearly. Many of the categories in this group have fixed amounts, 
+or the amount does not fluctuate too much over the course of a year. Example of spending categories 
+in this group are Rent, Mortgage, Insurance, Internet, Electricity, Propety tax, etc. You can not 
+stop paying your rent, mortgage or property taxes - because you'll be out of a place to live. 
+Stopping paying insurance is dumb. It is near impossible to live without electriity, or Internet.
+
+2. **Debt**. Create a separate category group if you have more than one kind of debt. Typical 
+categories in this group are Mortgage, Car Payments, Student Loans, Short Term Credit. 
+Should you put your credit card debts in this category? 
+The answer is *it depends*. For some input on this, read our article on 
+[Carrying Debt](/docs/budgeting/credit-cards/carrying-debt). 
+
+3. **Daily expenses**.  Group your everyday expenses for a more organised and convenient way 
+of tracking. This makes it easy to report on expenditures that fluctuate from month to month. 
+Examples of spending categories in this group are Groceries, Fuel, Eating Out, Clothing, 
+Personal Care, Gifts, Entertainment, Streaming services, News (paper) subscriptions, and Charities.
+
+
+4. **For a rainy day**.  Certain expenses you know will happen in the future, but you don't know when. 
+You should have at least one category named *Emergency Fund*. Other examples may be Car Maintenance, 
+Replacing Stove, and Replacing Washing Machines. 
+
+
+5. **Savings goals**.  This is where you keep your savings goals categorised *on budget*. What we 
+mean by on budget is that if you need to reallocate money, you may settle for a cheaper Vacation or 
+postpone the Car Replacement or the Bathroom Renovation for a few months. If you are saving for a 
+long view, like your retirement, we suggest you create an *off budget* account for those kind of 
+savings. Money allocated in off bugdet accounts takes more effort to reallocate as you need to 
+move the actual funds from your savings account or sell your stocks or global 
+index funds (a few examples of long term saving methods).
+
+The main difference between For a Rainy Day and Savings goals is that rainy day categories are a must, 
+while savings categories are nice to have or want for our kind of budgeting. Your own experiences and 
+approach to saving for a rainy day or longer-term savings may, of course, vary.
+
 
 ### How to Setup Categories
 
