@@ -3,6 +3,8 @@ title: 'Starting Fresh'
 ---
 For most users it's best to start fresh with a blank file.
 This guide will walk through setting up a budget file fresh without migrating from a previous budget software export.
+Before continuing, it might be a good idea to read about the [envelope method](envelope-budgeting), or zero-sum 
+budgeting as it's also called.
 
 ## 1. Setting up Accounts
 It is recommended to add all accounts you have to Actual. 
@@ -69,7 +71,15 @@ If you aren't sure what categories you need, Actual will start you with a few ba
 * **Savings**: Funds you have saved, or are going to transfer to an off budget savings account
 * **General**: Everything else
 
-Some other common categories you could add would be rent/mortgage, taxes, eating out, specific utilities, subscription services, charitable donations, child care, gifts, fun money, or debt payment.
+Some other common categories you could add would be rent/mortgage, taxes, eating out, specific utilities, 
+subscription services, charitable donations, child care, gifts, fun money, or debt payment.
+
+:::tip
+
+Refrain from overthinking what categories you want from the start, your situation is
+different from other people. Add the categories that make sense for you as your budget evolves.
+
+:::
 
 When creating your categories don't just think of your bills, think of your goals too.
 The categories aren't just a name of an expense, it is a bucket that will hold your money.
@@ -82,15 +92,16 @@ You may also want a category for interest and dividends.
 
 ### Group your expense categories
 Actual has a nifty and useful feature where you can group your expense categories into groups. 
-One reason for doing this is to have more visibility and control over your spending. When using the
-[envelope method](./envelope-budgeting), one will move available funds between categories when 
+This not only provides more visibility and control over your spending but also empowers you 
+to make informed financial decisions.
+When using the [envelope method](./envelope-budgeting), one will move available funds between categories when 
 needed. However, there are some categories that you should be very wary about moving funds away 
 from. By grouping, you'll get an extra visual indication that moving funds from the Electricity 
 category, for instance, may not be the wisest choice. Another reason is to have a more convenient 
 way of reporting your spending habits.
 
 
-1. **Crusial or realy important**.  As the name suggests, these are the expenses that are 
+1. **Crusial or really important**.  As the name suggests, these expenses are
 difficult or impossible to reduce or remove from your daily life. Most of these are reoccurring 
 bills, either monthly, quarterly or yearly. Many of the categories in this group have fixed amounts, 
 or the amount does not fluctuate too much over the course of a year. Example of spending categories 
@@ -101,12 +112,12 @@ Stopping paying insurance is dumb. It is near impossible to live without electri
 2. **Debt**. Create a separate category group if you have more than one kind of debt. Typical 
 categories in this group are Mortgage, Car Payments, Student Loans, Short Term Credit. 
 Should you put your credit card debts in this category? 
-The answer is *it depends*. For some input on this, read our article on 
+The answer is *it depends*. For some input on this, please read our article on 
 [Carrying Debt](/docs/budgeting/credit-cards/carrying-debt). 
 
 3. **Daily expenses**.  Group your everyday expenses for a more organised and convenient way 
 of tracking. This makes it easy to report on expenditures that fluctuate from month to month. 
-Examples of spending categories in this group are Groceries, Fuel, Eating Out, Clothing, 
+Examples of spending categories in this group are Groceries, Household Items, Fuel, Eating Out, Clothing, 
 Personal Care, Gifts, Entertainment, Streaming services, News (paper) subscriptions, and Charities.
 
 
@@ -123,9 +134,11 @@ savings. Money allocated in off bugdet accounts takes more effort to reallocate 
 move the actual funds from your savings account or sell your stocks or global 
 index funds (a few examples of long term saving methods).
 
-The main difference between For a Rainy Day and Savings goals is that rainy day categories are a must, 
-while savings categories are nice to have or want for our kind of budgeting. Your own experiences and 
-approach to saving for a rainy day or longer-term savings may, of course, vary.
+
+The main difference between For a Rainy Day and Savings goals is that rainy day categories are *a must*. 
+In contrast, savings categories are *nice to have or wants*.
+Of course, your own experiences and approach to saving for a rainy day or longer-term savings may vary.
+
 
 
 ### How to Setup Categories
@@ -133,10 +146,80 @@ approach to saving for a rainy day or longer-term savings may, of course, vary.
 The process for adding and working with categories is found in [the category guide](../budgeting/categories.md#add-a-category).
 When making categories remember that it is easier to merge categories later than it is to manually move transactions to a new category.
 
+
+## 3. Assigning Available Funds
+
+
+
+The big question everybody struggles with when using the envelope budgeting method for the first 
+time is *how much money to assign to each category*. Fear not; this part of our Starting Fresh 
+guide will help you with this.
+
+The best way of bootstrapping your budget is to rely on how you have spent your money and what 
+income you have had in the last three months. Even better, if you can do this for the last six 
+or twelve months.
+
+If you use cash for your daily spending, the available funds in those categories will be 
+challenging to assess. You can get some ideas on how much by looking at cash withdrawals on your 
+bank statements. 
+
+For bills, your bank or credit card statements are good sources to establish your budget numbers.
+
+
+### Use a spreadsheet 
+
+You enter all your expenses in a spreadsheet, summarise them per month, and then calculate the average. 
+Now, you know what you need to budget per 
+month. Having the budgeted numbers somewhat higher than the calculated average might be a good idea. 
+
+This way, you add small buffers in each category as prices rise; the same goes for your rent and mortgage. 
+Adding some extra, albeit small, paddings along the way means you are better suited when this happens. 
+The only certainty we have in this day and age is that price increases will occur.
+
+![](/img/getting-started/spreadsheet.png)
+
+We can now see the budget numbers to be used for the month of August in the Average column
+
+
+### Using Actual
+
+This method truely only works corretly if you use a debit or a credit card for all your purchases. So in 
+effect your actual *start date* for your budget is in the past. We will repat our warning from 
+[how to set up acoutns](#how-to-setup-accounts): going to far back, might make your budget completely
+out of wack. You can easily 
+
+:::info
+
+If you have a lot of cash withdrawls during a month, you will be better off using the spreadsheet method. 
+
+:::
+
+1. You start the budget by entering, or importing your transactions. 
+2. In the Budget view, you enter the same abount in the *Budgeted* columns as found in the *Spent* Columns for all
+   the months you have entered, or imported your data.
+
+![](/img/getting-started/actual-intro-with-budget-numbers.png)
+
+When this is done, you have two easy ways to populate the various budget values. You can apply the last 3 months
+average on all budget categories:
+
+![](/img/getting-started/actual-intro-set-budget-to-3-months-average.png act)
+
+You can also set specific categories to various averages:
+
+![](/img/getting-started/actual-intro-set-budget-category-average.png)
+
+
+## 4. Start budgeting
+
+Before you continue, please read the introduction to [envelope budgeting](envelope-budgeting).
+
+
 ## 3. Assign Available Funds
 Now that you have your accounts and categories set up, you're at the fun part.
 You get to budget! 
-Actual uses a style of budgeting called zero-sum budgeting, or envelope budgeting.
+Actual uses a style of budgeting called zero-sum budgeting, or 
+[envelope budgeting](envelope-budgeting).
 In this style you allocate all available funds into your categories.
 If you were budgeting with all cash you would do this by physically putting your cash into envelopes for each category.
 This can be referred to as giving all your money a "job".
@@ -145,6 +228,8 @@ Giving every dollar a job forces you to be honest about where you money is going
 
 Every one has a different situation so there isn't a once size fits all way to assign your available funds.
 Detailed below are a few strategies you can use.
+
+
 ### The Basics
 A basic idea with zero-sum budgeting is that you can only budget what you have, and all you have should be budgeted.
 If you budget more than you have one month, the over budgeted amount will be deducted from what you have available the next month.
