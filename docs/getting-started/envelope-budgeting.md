@@ -46,7 +46,7 @@ By following Zero-Sum Budgeting, you can maintain control over your finances and
 is working towards your financial goals.
 
 
-## Zero-Sum Budgetings Strategies you can use
+## Zero-Sum Budgeting Strategies you can use
 
 Every one has a different situation so there isn't a once size fits all way to assign your available funds. 
 Detailed below are a few strategies you can use.
@@ -77,7 +77,7 @@ month's bills, but pay all of this month's bills with last month's income. Actua
 to hold your available funds for the next month by clicking the To Budget amount at the top of the budgeting screen 
 and selecting the "Hold for next month" option. You can read more about this on the budgeting page
 
-### Shared acccounts
+### Shared accounts
 We have a guide on what to do when it comes to [strategies for handling joint accounts](/docs/budgeting/joint-accounts).
 
 ### Returns and Reimbursements
