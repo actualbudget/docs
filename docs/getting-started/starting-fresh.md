@@ -83,7 +83,7 @@ subscription services, charitable donations, child care, gifts, fun money, or de
 
 :::tip
 
-Refrain from overthinking what categories you want from the start, your situation is
+Refrain from spending too much time which categories you want from the start, your situation is
 different from other people. Add the categories that make sense for you as your budget evolves.
 
 :::
@@ -112,9 +112,9 @@ way of reporting your spending habits.
 difficult or impossible to reduce or remove from your daily life. Most of these are reoccurring 
 bills, either monthly, quarterly or yearly. Many of the categories in this group have fixed amounts, 
 or the amount does not fluctuate too much over the course of a year. Example of spending categories 
-in this group are Rent, Mortgage, Insurance, Internet, Electricity, Propety tax, etc. You can not 
+in this group are Rent, Mortgage, Insurance, Internet, Electricity, Property tax, etc. You can not 
 stop paying your rent, mortgage or property taxes - because you'll be out of a place to live. 
-Stopping paying insurance is dumb. It is near impossible to live without electriity, or Internet.
+Stopping paying insurance is dumb. It is near impossible to live without electricity, or Internet.
 
 2. **Debt**. Create a separate category group if you have more than one kind of debt. Typical 
 categories in this group are Mortgage, Car Payments, Student Loans, Short Term Credit. 
@@ -137,7 +137,7 @@ Replacing Stove, and Replacing Washing Machines.
 mean by on budget is that if you need to reallocate money, you may settle for a cheaper Vacation or 
 postpone the Car Replacement or the Bathroom Renovation for a few months. If you are saving for a 
 long view, like your retirement, we suggest you create an *off budget* account for those kind of 
-savings. Money allocated in off bugdet accounts takes more effort to reallocate as you need to 
+savings. Money allocated in off budget accounts takes more effort to reallocate as you need to 
 move the actual funds from your savings account or sell your stocks or global 
 index funds (a few examples of long term saving methods).
 
@@ -228,7 +228,7 @@ Budgeting, even without historical data, can help you gain control over your
 finances, reduce stress, and achieve your financial goals. It just takes
 little bit of effort to get going.
 
-You can start using Actual wihtout actually assigning your available funds before you start
+You can start using Actual without actually assigning your available funds before you start
 budgeting.
 
 
@@ -243,7 +243,7 @@ budgeting.
 
 3. At the end of each week, set the *Budgeted* column in the Budget view to the same value 
    as what you see in the *Spent* column. If done correctly, the sum under *To Budget* should 
-   Jcorrectly tell you how much money you have left.
+   correctly tell you how much money you have left.
 
 4. Set aside time to analyse your spending and income at the end of the month. Based on this, 
    you can add values to the upcoming months' Budgeted column.
@@ -279,7 +279,7 @@ Shortly this method goes like this:
 
 :::info
 
-This topic is so important on how to acutally use Actual, that we have devoted a separate page on **[envelope budgeting](envelope-budgeting)**.
+This topic is so important on how to actually use Actual, that we have devoted a separate page on **[envelope budgeting](envelope-budgeting)**.
 
 :::
 
