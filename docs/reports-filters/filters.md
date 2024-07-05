@@ -31,7 +31,6 @@ There are further options to choose within each area, in order to narrow the Fil
 
 `Matches` is regex, the other condition types are further explained at [Rules Page](/rules/index).
 
-~these need updated~
 ![](/img/filtering/conditions-1.png)
 
 ![](/img/filtering/conditions-2.png)
