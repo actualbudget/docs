@@ -22,13 +22,18 @@ Knowing where every penny of your money is spent is a decisive step towards fina
 
 
 
-## Zero-Based Budgeting
-Zero-based budgeting is a key principle in electronic envelope budgeting systems like Actual Budget. 
+## Zero-Sum Budgeting
+Zero-Sum budgeting[^1] is a key principle in electronic envelope budgeting systems like Actual Budget. 
 This approach means that all income is assigned to a specific category, leaving no money unallocated. 
 This gives every unit of currency a purpose, ensuring that income is used efficiently and intentionally.
+A popular saying is all your money should have a "job". 
+
+One dollar (or whatever your currency is) may be used for Netflix while the next dollar may be for savings. 
+Giving every dollar a job forces you to be honest about where you money is going because each dollar can 
+only have one job.
 
 
-Here’s what Zero-Based Budgeting involves:
+Here’s what Zero-Sum Budgeting involves:
 
 - **Total Allocation**: All your income is allocated to specific categories, resulting in a 
 zero balance.
@@ -37,9 +42,46 @@ emergencies, paying off debts, or investing. This aligns your spending with your
 - **Flexibility**: This method allows flexibility as your priorities change. It requires regular evaluation 
 and adjustment, making it suitable for those with dynamic financial situations.
 
-By following Zero-Based Budgeting, you can maintain control over your finances and ensure that every income 
+By following Zero-Sum Budgeting, you can maintain control over your finances and ensure that every income 
 is working towards your financial goals.
 
+
+## Zero-Sum Budgetings Strategies you can use
+
+Every one has a different situation so there isn't a once size fits all way to assign your available funds. 
+Detailed below are a few strategies you can use.
+
+
+### The Basics of Zero-Sum Budgeting
+A basic idea with zero-sum budgeting is that you can only budget what you have, and all you have should be 
+budgeted. If you budget more than you have one month, the over budgeted amount will be deducted from what 
+you have available the next month. So to start, decide what your most important categories are. Those 
+important categories might be rent, food, and utilities. Assign what you need for those categories, then 
+repeat the process for the next most important categories until your to budget amount for the month reaches 
+zero. When you get a paycheck, or other income, continue filling in where the funds are needed.
+
+As you go along you will start to get a good view of where your money is going. If you don't like how things 
+are going, make changes. If you're happy, great! Keep budgeting to keep track of your progress on your goals.
+
+A more detailed breakdown of how budgeting in Actual works is provided in the [budgeting page](/docs/budgeting/).
+
+### Credit Cards
+If you currently are carrying credit card debt in an on budget account you will need to capture that debt in a category. 
+A guide on how to handle that can be found in [the credit card guide](/docs/budgeting/credit-cards/).
+
+### The Month Ahead Method
+It can be hard to know where to budget your funds when you get paid in the middle of the month, or get multiple 
+paychecks per month. One way to handle this is called the *month ahead* method. This consists of holding everything 
+you make this month and only budgeting it next month. The goal is to not need any of this month's income for this 
+month's bills, but pay all of this month's bills with last month's income. Actual makes this easy by allowing you 
+to hold your available funds for the next month by clicking the To Budget amount at the top of the budgeting screen 
+and selecting the "Hold for next month" option. You can read more about this on the budgeting page
+
+### Shared acccounts
+We have a guide on what to do when it comes to [strategies for handling joint accounts](/docs/budgeting/joint-accounts).
+
+### Returns and Reimbursements
+You can read more about these in the [returns and reimbursements guides](/docs/budgeting/returns-and-reimbursements).
 
 
 
@@ -226,7 +268,7 @@ your budget categories. You no longer need to keep physical receipts or manually
 Read more about [managing credit cards](/docs/budgeting/credit-cards) with Actual Budget.
 
 
-## An detailed example of how to do Zero-Based budgeting 
+## An detailed example of how to do Zero-Sum budgeting 
 
 
 Let's say your total monthly income of January is € 1 200. You get your money on the 1st.  Using Zero-Based Budgeting, 
@@ -398,3 +440,5 @@ ensuring a more accurate and adequate budget for February
 
 
 
+
+[^1]: Another name for this type of budgeting is Zero-Based Budgeting.
