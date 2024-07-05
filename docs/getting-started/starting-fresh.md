@@ -57,8 +57,15 @@ If you manually add transactions this is especially important.
 The process of reconciling your account can be found on [the reconciliation page](../accounts/reconciliation.md)
 
 
+## 2. Handling cash
 
-## 2. Setting up your Budget Categories
+Suppose you do not exclusively use debit and credit cards but also need to keep some cash around. In that case, 
+you manage this by creating an account called Cash, which you treat as any other bank account.
+
+
+
+
+## 3. Setting up your Budget Categories
 
 Now that your accounts are set up and your current balance is accurate, you can start adding budget categories.
 While making these categories, remember that all money entering or leaving your budget needs a category.
@@ -147,9 +154,7 @@ The process for adding and working with categories is found in [the category gui
 When making categories remember that it is easier to merge categories later than it is to manually move transactions to a new category.
 
 
-## 3. Assigning Available Funds
-
-
+## 4. Assigning Available Funds
 
 The big question everybody struggles with when using the envelope budgeting method for the first 
 time is *how much money to assign to each category*. Fear not; this part of our Starting Fresh 
@@ -166,7 +171,7 @@ bank statements.
 For bills, your bank or credit card statements are good sources to establish your budget numbers.
 
 
-### Use a spreadsheet 
+### Use a spreadsheet to find your initial budget numbers
 
 You enter all your expenses in a spreadsheet, summarise them per month, and then calculate the average. 
 Now, you know what you need to budget per 
@@ -181,95 +186,117 @@ The only certainty we have in this day and age is that price increases will occu
 We can now see the budget numbers to be used for the month of August in the Average column
 
 
-### Using Actual
+### Using Actual to find your initial budget numbers
 
-This method truely only works corretly if you use a debit or a credit card for all your purchases. So in 
-effect your actual *start date* for your budget is in the past. We will repat our warning from 
-[how to set up acoutns](#how-to-setup-accounts): going to far back, might make your budget completely
-out of wack. You can easily 
+
+It's important to note that this method  only works correctly if you use a debit or credit card for all your purchases. 
+As a result, your actual *start date* for your budget is in the past. We will reiterate our warning on
+[how to set up acounts](#how-to-setup-accounts): going to far back, might make your budget completely
+out of wack.  It's crucial to avoid this, as you can easily spend more time trying to find out what's 
+wrong with your budget and spent numbers as "nothing adds up" anymore.
+
 
 :::info
 
-If you have a lot of cash withdrawls during a month, you will be better off using the spreadsheet method. 
+If you have a lot of cash withdrawals during a month, you will be better off using the spreadsheet method.
 
 :::
 
-1. You start the budget by entering, or importing your transactions. 
-2. In the Budget view, you enter the same abount in the *Budgeted* columns as found in the *Spent* Columns for all
-   the months you have entered, or imported your data.
+
+1. You start the budget by entering or importing your transactions.
+2. In the Budget view, you enter the same amount in the *Budgeted* columns as found in the *Spent* columns 
+  for all the months you have entered or imported your data.
+
 
 ![](/img/getting-started/actual-intro-with-budget-numbers.png)
 
-When this is done, you have two easy ways to populate the various budget values. You can apply the last 3 months
-average on all budget categories:
+You have two easy ways to populate the various budget values when this is done. 
+You can apply the last three months' average on all budget categories:
 
-![](/img/getting-started/actual-intro-set-budget-to-3-months-average.png act)
 
-You can also set specific categories to various averages:
+![](/img/getting-started/actual-intro-set-budget-to-3-months-average.png)
+
+You can also set specific categories to various averages::
 
 ![](/img/getting-started/actual-intro-set-budget-category-average.png)
 
 
-## 4. Start budgeting
-
-Before you continue, please read the introduction to [envelope budgeting](envelope-budgeting).
+### What to do if you do not want to, or can, use historical data
 
 
-## 3. Assign Available Funds
-Now that you have your accounts and categories set up, you're at the fun part.
-You get to budget! 
-Actual uses a style of budgeting called zero-sum budgeting, or 
-[envelope budgeting](envelope-budgeting).
-In this style you allocate all available funds into your categories.
-If you were budgeting with all cash you would do this by physically putting your cash into envelopes for each category.
-This can be referred to as giving all your money a "job".
-One dollar (or whatever your currency is) may be used for Netflix while the next dollar may be for savings.
-Giving every dollar a job forces you to be honest about where you money is going because each dollar can only have one job.
+Budgeting, even without historical data, can help you gain control over your 
+finances, reduce stress, and achieve your financial goals. It just takes
+little bit of effort to get going.
 
-Every one has a different situation so there isn't a once size fits all way to assign your available funds.
-Detailed below are a few strategies you can use.
+You can start using Actual wihtout actually assigning your available funds before you start
+budgeting.
 
 
-### The Basics
-A basic idea with zero-sum budgeting is that you can only budget what you have, and all you have should be budgeted.
-If you budget more than you have one month, the over budgeted amount will be deducted from what you have available the next month.
-So to start, decide what your most important categories are.
-Those important categories might be rent, food, and utilities.
-Assign what you need for those categories, then repeat the process for the next most important categories until your to budget amount for the month reaches zero.
-When you get a paycheck, or other income, continue filling in where the funds are needed.
+1. Record every transaction you make daily. If you do it weekly, the chances are that you have 
+   forgotten some cash transactions. One way to avoid forgetting transactions is, of course, 
+   to keep all receipts.
 
-As you go along you will start to get a good view of where your money is going.
-If you don't like how things are going, make changes.
-If you're happy, great!
-Keep budgeting to keep track of your progress on your goals.
+2. Take special notice of when you use cash. Petty cash transactions are easy to overlook, 
+    but all those daily chocolates for "only" 0.50 and all those coffees for "only" 10 add up 
+    over a month. If you repeatedly make cash withdrawals and do not know what you are spending 
+    your money on, then using any expense and budget tracking tools in the world will not help you.
 
-A more detailed breakdown of how budgeting in Actual works is provided in [the budgeting page](../budgeting/index.md)
+3. At the end of each week, set the *Budgeted* column in the Budget view to the same value 
+   as what you see in the *Spent* column. If done correctly, the sum under *To Budget* should 
+   Jcorrectly tell you how much money you have left.
 
-### Credit Cards
-If you currently are carrying credit card debt in an on budget account you will need to capture that debt in a category.
-A guide on how to handle that can be found in [the credit card guide](../budgeting/credit-cards/index.md)
-
-### The Month Ahead Method
-It can be hard to know where to budget your funds when you get paid in the middle of the month, or get multiple paychecks per month.
-One way to handle this is called the "month ahead" method.
-This consists of holding everything you make this month and only budgeting it next month.
-The goal is to not need any of this month's income for this month's bills, but pay all of this month's bills with last month's income.
-Actual makes this easy by allowing you to hold your available funds for the next month by clicking the **To Budget** amount at the top of the budgeting screen and selecting the "Hold for next month" option. You can read more about this on [the budgeting page](../budgeting/index.md#how-money-rolls-over)
+4. Set aside time to analyse your spending and income at the end of the month. Based on this, 
+   you can add values to the upcoming months' Budgeted column.
 
 
-## 4. Keep Budgeting
-Now that you have set up your budget, you can start importing transactions and tracking your spending and saving.
-Every time a new transaction is imported your process should look something like this:
-1. Give that transaction a category
-2. If you had enough budgeted in that category your done!
-3. If you didn't have enough you need to decide what to do
-    * Move money from a different category
-    * Change the category of the transaction
+Remember, this process is challenging, and it's okay if you don't get everything right 
+in the first few months. The key is to keep going, keep learning, and keep adjusting. 
+With persistence, you will reach your budgeting goals.
 
-A good next step is to read through the "Using Actual" section of the documentation.  This section has detailed explainers on the features of Actual and how to use them.  Some of the most useful features are [Rules](../budgeting/rules/index.md), [Schedules](../budgeting/schedules.md), [Reconciliation](../accounts/reconciliation.md), and [Reports](../reports-filters/reports.md).
+
+
+## 5. Keep Budgeting
+
+Now that you've set your accounts, categories, and budget values, it's time for the fun part of budgeting! 
+
+Actual uses a style of budgeting called Zero-Sum Budgeting, or the more common name
+*envelope budgeting*.
+
+Shortly this method goes like this:
+
+1. Allocate all available funds (income) into your categories whenever you get income.
+2. Track your spending in each category. Every time a new transaction is entered into Actual 
+   (either manually or by importing from your bank statements). Your process should 
+    look something like this:
+    1. Give that transaction a category.
+    2. If you have enough money budgeted for that category, you're done!
+    3. If you didn't have enough you need to decide what to do
+        * Move money from a different category
+        * Change the category of the transaction
+3. Analyse spending habits.
+4. Adjust and adapt your budget as time goes by.
+
+
+:::info
+
+This topic is so important on how to acutally use Actual, that we have devoted a separate page on **[envelope budgeting](envelope-budgeting)**.
+
+:::
+
+
+## The next step in your budgeting journey
+
+A good next step is to read through the "Using Actual" section of the documentation.  This section has detailed explainers on the 
+features of Actual and how to use them. Some of the most useful features are [Rules](../budgeting/rules/index.md), 
+[Schedules](../budgeting/schedules.md), [Reconciliation](../accounts/reconciliation.md), 
+and [Reports](../reports-filters/reports.md).
+
 
 If you feel a bit overwhelmed, don't worry.
+
 Starting budgeting is confusing, especially if you are new to zero-sum budgeting.
+
 It is a strict, but powerful, way to handle personal finance.
+
 If you have questions feel free to ask on our [Discord](https://discord.gg/8JfAXSgfRf).
 There are many people that have gone through the same confusion and will be happy to help you out!
