@@ -210,6 +210,7 @@ you understand that budgets are not rigid constraints but flexible tools that ca
 
 
 
+
 ### 4. Prepare for the unexpected
 
 There’s no such thing as a "normal" month when it comes to expenses. Your costs fluctuate throughout the year, 
