@@ -81,10 +81,11 @@ const sidebars = {
             'tour/settings',
           ],
         },
-        'getting-started/starting-fresh',
         'getting-started/tips-tricks',
         'getting-started/sync',
         'getting-started/manage-files',
+        'getting-started/starting-clean',
+        'getting-started/envelope-budgeting',
         {
           type: 'category',
           label: 'Migration',
@@ -213,6 +214,7 @@ const sidebars = {
           items: [
             'advanced/bank-sync',
             'advanced/http-header-auth',
+           'advanced/restart',
             {
               type: 'category',
               label: 'Scripts',
