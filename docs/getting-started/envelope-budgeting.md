@@ -51,7 +51,7 @@ if you're new to budgeting.  Here's a checklist for getting started:
 
 ### 1. Establish budget categories
 
-The first step is deciding which expense and income  [categories to include in your budget](./categories). 
+The first step is deciding which expense and income  [categories to include in your budget](/docs/budgeting/categories). 
 Tailor each category to fit your specific budget and spending habits, giving you the power to customize 
 the system to your needs for the most accurate tracking.
 
@@ -156,7 +156,7 @@ necessary adjustments.
     Flexibility is key. Adjusting your budget is a normal part of the process.
 
 You can also set up Actual Budget to 
-[automatically deduct the overspending](./#rollover-negative-category-balances) from next month’s funds. Be aware that
+[automatically deduct the overspending](/docs/budgeting/#rollover-negative-category-balances) from next month’s funds. Be aware that
 even if you *can* do something, it does not mean that you *should* do it.
 
 
@@ -223,7 +223,7 @@ which can be [imported into Actual Budget](/docs/transactions/importing). Using 
 Every time you use your debit or credit card, the transaction details are automatically imported into 
 your budget categories. You no longer need to keep physical receipts or manually log each expense.
 
-Read more about [managing credit cards](./credit-cards) with Actual Budget.
+Read more about [managing credit cards](/docs/budgeting/credit-cards) with Actual Budget.
 
 
 ## An detailed example of how to do Zero-Based budgeting 
