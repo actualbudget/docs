@@ -77,8 +77,6 @@ three months' bank statements. Better yet, it is using the previous six months.
 This average provides a realistic estimate of your spending and income patterns, allowing 
 you to set initial budget values that reflect your financial habits.
 
-> **Tip:** To help you with this task, you can enter previous months' data into Actual Budget.
-
 
 For example, if you have € 1 200 to allocate for the month, your budget might look like this:
 
