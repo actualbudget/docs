@@ -221,7 +221,7 @@ You can also set specific categories to various averages::
 ![](/img/getting-started/actual-intro-set-budget-category-average.png)
 
 
-### What to do if you do not want to, or can, use historical data
+### What to do if you do not want to, or can't, use historical data
 
 
 Budgeting, even without historical data, can help you gain control over your 
