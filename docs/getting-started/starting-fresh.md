@@ -108,7 +108,7 @@ category, for instance, may not be the wisest choice. Another reason is to have 
 way of reporting your spending habits.
 
 
-1. **Crusial or really important**.  As the name suggests, these expenses are
+1. **Crucial or really important**.  As the name suggests, these expenses are
 difficult or impossible to reduce or remove from your daily life. Most of these are reoccurring 
 bills, either monthly, quarterly or yearly. Many of the categories in this group have fixed amounts, 
 or the amount does not fluctuate too much over the course of a year. Example of spending categories 
