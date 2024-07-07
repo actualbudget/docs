@@ -90,7 +90,7 @@ that this is more than enough for your budget purposes.
 Example: With around 1,200 transactions, 18 months of budgeting, and approximately 200 rules and payees, 
 it takes around 33 megabytes of storage. 10 gigabytes equals 10,000 megabytes, equivalent to 303 18-month budgets.
 
-Your Pod will be created when you click on the green **ADD POD* buttom. This step takes less than one minute.
+Your Pod will be created when you click on the green **ADD POD* button. This step takes less than one minute.
 
 ![](/img/pikapods-setup/pikapods-7-add-pod-resoruces.png)
 
@@ -98,7 +98,7 @@ Your Pod will be created when you click on the green **ADD POD* buttom. This ste
 
 ## Your pod is now ready to be used
 
-When click on the greem **OPEN POD** you will be taken your Pod. 
+When click on the green **OPEN POD** you will be taken your Pod. 
 
 The address for your Actual Budget is found in the Domain field. In the screenshot example, this is
 https://berserk-bullmastiff.pikapod.net/budget/. Yours will be something completely different.
@@ -110,7 +110,7 @@ https://berserk-bullmastiff.pikapod.net/budget/. Yours will be something complet
 ## Setting a password for your Actual Budget
 
 Before you can start using Actual, you need to set a password for your server. This password is used 
-next time you loginto your server - and should never be the same as your PikaPods account passord.
+next time you log into your server - and should never be the same as your PikaPods account password.
 
 Keep this password safe, as it cannot be retrieved. If you forget your server password, you will not 
 be able to retrieve your budget.
