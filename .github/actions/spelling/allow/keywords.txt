@@ -81,6 +81,7 @@ RUpdate
 sankey
 screenshots
 SEB
+Sztup
 subfolders
 subreaper
 subtransaction
@@ -98,3 +99,4 @@ Xxxxx
 ynab
 Ynab
 YNAB
+Zsolt
