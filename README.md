@@ -161,20 +161,25 @@ If you would like to highlight a section of your document with a note, you can u
 Your note content
 :::
 ```
+
 If you want to make a reader aware of a cautionary item in your documentation, you can use this:
+
 ```markdown
 :::caution
 Your cautionary item
 :::
 ```
+
 ### Quotes & Code Blocks
 
 Using quotes within your documentation is easy to do using:
+
 ```markdown
 > Your quote goes here
 > another line of your quote
 > and another
 ```
+
 If you want to use code in your documentation, that is easy too.
 
 ```js
@@ -224,14 +229,13 @@ This command generates static content into the `build` directory and can be serv
 Using SSH:
 
 ```
-    $ USE_SSH=true yarn deploy
+$ USE_SSH=true yarn deploy
 ```
 
 Not using SSH:
 
 ```
-
-    $ GIT_USER=<Your GitHub username> yarn deploy
+$ GIT_USER=<Your GitHub username> yarn deploy
 ```
 
 If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
