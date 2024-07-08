@@ -54,56 +54,56 @@ Docusaurus 2 provides translation using [i8n](https://docusaurus.io/docs/i18n/in
 ### Documentation Structure
 
 Below is the documentation structure for the Actual Community Docs.
-
-    website # the root directory of the documentation site
-    ├── docs
-    │   └── index.md # the introduction file
-    │   └── faq.md
-    │   └── releases.md # release notes
-        └── accounts # Anything relating to accounts, account management or transactions
-            ...
-        └── advanced # Some more advanced guides for Actual
-            └── scripts
-            ...
-        └── backup-restore
-            ...
-        └── budgeting # Budget specific, including rules, schedules etc.
-            └── rules
-            ...
-        └── contributing # How to contribute, project structures etc.
-            ...
-        └── experimental # Documentation for experimental features
-            ...
-        └── getting-started # Getting started with Actual
-            ...
-        └── install # Documentation around installing actual
-            ...
-        └── migration # Migrating into Actual and using the tools available.
-            ...
-        └── reports
-            ...
-        └── tour
-            ...
-        └── transactions
-            ...
-        └── troubleshooting
-            ...
-    │
-    └── static
-        └── img
-
+```
+website # the root directory of the documentation site
+├── docs
+│   └── index.md # the introduction file
+│   └── faq.md
+│   └── releases.md # release notes
+    └── accounts # Anything relating to accounts, account management or transactions
+        ...
+    └── advanced # Some more advanced guides for Actual
+        └── scripts
+        ...
+    └── backup-restore
+        ...
+    └── budgeting # Budget specific, including rules, schedules etc.
+        └── rules
+        ...
+    └── contributing # How to contribute, project structures etc.
+        ...
+    └── experimental # Documentation for experimental features
+        ...
+    └── getting-started # Getting started with Actual
+        ...
+    └── install # Documentation around installing actual
+        ...
+    └── migration # Migrating into Actual and using the tools available.
+        ...
+    └── reports
+        ...
+    └── tour
+        ...
+    └── transactions
+        ...
+    └── troubleshooting
+        ...
+│
+└── static
+    └── img
+```
 ### Document Frontmatter
 
 Front matter is used to add metadata to your documentation file. The front matter is used to enrich the default metadata inferred from the content or other configuration.
-
-    ---
-    title: My Doc Title
-    more_data:
-      - Can be provided
-      - as: objects
-        or: arrays
-    ---
-
+```
+---
+title: My Doc Title
+more_data:
+  - Can be provided
+  - as: objects
+    or: arrays
+---
+```
 ### Document Headings
 
 The below shows how a document should be laid out.
@@ -122,13 +122,14 @@ Each "chapter" can then be split into subsections using three-gate headings.
 
 ### When Using Images
 
-> Screenshots taken on a retina screen should be titled as such: image-name@2x.pngThis allows Docusaurus to rescale the images where appropriate.
+> Screenshots taken on a retina screen should be titled as such: image-name@2x.png
+> This allows Docusaurus to rescale the images where appropriate.
 
 When using images, ensure that the image is large and clear. If the image contains multiple items and buttons, highlight the area you are talking about (as shown below) or create arrows on the image to point to the part you are discussing. Where possible, images should be saved as `PNG` format. Screenshots should be taken using 'light' mode.
 
 The clearest way to highlight areas on a screenshot is the 'transparency' box.
 
-
+![](./static/img/repo/highlighting.png)
 
 If a transparency box isn't available in your image editor, use an arrow or a colored box with hex: `#d5805a` / rgb: `213, 128, 90` (an analogous shade of orange to Actual's purple). If it's not practical to be that precise, just pick one as close as you can.
 
@@ -138,7 +139,8 @@ In order to minimize the workload for adding images and make updating images eas
 
 For example, many feature instructions may first require the user to navigate to a standard menu, e.g.,
 
-> "Click on 'Settings' in the sidebar"[inserted image of the settings button in the sidebar]
+> "Click on 'Settings' in the sidebar"
+> [inserted image of the settings button in the sidebar]
 
 In this case, the relevant screenshot is found at `/static/img/elements/sidebar/sidebar-settings@2x.png`, along with all other possible menu selections in the sidebar.
 
@@ -149,29 +151,29 @@ All other screenshots for the page you are working on should be placed in the re
 ### Call Outs
 
 If you would like to highlight a section of your document with a note, you can use the following:
-
-    :::notes
-    Your note content
-    :::
-
+```markdown
+:::notes
+Your note content
+:::
+```
 If you want to make a reader aware of a cautionary item in your documentation, you can use this:
-
-    :::caution
-    Your cautionary item
-    :::
-
+```markdown
+:::caution
+Your cautionary item
+:::
+```
 ### Quotes & Code Blocks
 
 Using quotes within your documentation is easy to do using:
-
-    > Your quote goes here
-    > another line of your quote
-    > and another
-
+```markdown
+> Your quote goes here
+> another line of your quote
+> and another
+```
 If you want to use code in your documentation, that is easy too.
-
-    console.log('Every repo must come with a mascot.');
-
+```js
+console.log('Every repo must come with a mascot.');
+```
 ## Contributing 
 
 ### Issues
@@ -187,33 +189,33 @@ Documentation submitted will be proofread and amended before merging. Please don
 ### Installing the Docs
 
 Firstly, pull this repo into a local area on your machine, navigate to that directory, and run the following command:
-
-    $ yarn
-
+```
+$ yarn
+```
 ### Local Development
 
 To start [Docusaurus 2](https://docusaurus.io/) navigate to the folder where the repo resides from a command prompt and issue the following command.
-
-    $ yarn start
-
+```
+$ yarn start
+```
 This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
 ### Build
-
-    $ yarn build
-
+```
+$ yarn build
+```
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
 ### Deployment
 
 Using SSH:
-
+```
     $ USE_SSH=true yarn deploy
-
-Not using SSH:
+```
+Not using SSH:```
 
     $ GIT_USER=<Your GitHub username> yarn deploy
-
+```
 If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
 
 ### Writing Good Release Notes
