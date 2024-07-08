@@ -115,7 +115,7 @@ When using images, ensure that the image is large and clear. If the image contai
 
 The clearest way to highlight areas on a screenshot is the 'transparency' box.
 
-![](./static/img/repo/highlighting.png)
+![](/static/img/repo/highlighting.png)
 
 If a transparency box isn't available in your image editor, use an arrow or a colored box with hex: `#d5805a` / rgb: `213, 128, 90` (an analogous shade of orange to Actual's purple). If it's not practical to be that precise, just pick one as close as you can.
 
