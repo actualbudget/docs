@@ -25,26 +25,6 @@ However, in doing so, you would become responsible for these instructions. If th
 
 Below are some basic standards on how the documentation should be formatted. Everyone has their own writing style, but the layout of the documents should be the same across all documents.
 
-### Tone and Voice
-
-* **Friendly and Approachable**: Write in a conversational and welcoming tone. The goal is to make users feel comfortable and supported.
-  
-* **Active Voice**: Use active voice to make sentences more direct and engaging.
-  
-* * Example: "Install Actual Budget on your computer" instead of "Actual Budget should be installed on your computer".
-* **Time Neutral**: Use present voice, unless documentation is for experimental or unreleased features. Where time references are made, remove them upon release or removal of the feature.
-  
-  * Example: "Filters can be used..."Instead of "As of June 2022 update, you can...".
-
-### Structure
-
-* Keep paragraphs short and focused. Each paragraph should convey a single idea or concept.
-  
-* Use bullet points or numbered lists to break down information into digestible chunks.
-  
-* **Consistent Terminology**: Use consistent terminology throughout the documentation. Refer to the product as "Actual Budget" or "Actual."
-  
-
 ### Language
 
 When writing your documentation, please use the English language. At this time, the documentation team doesn't have any translators available to translate documents into other languages, but this is something we would like to do in the future.
