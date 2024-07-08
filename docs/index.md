@@ -10,7 +10,7 @@ Welcome to Actual’s documentation! This page provides you a quick introduction
 
 If you're new to Actual, but do not know where to start, please consult the [roadmap for new users](/docs/getting-started/roadmap-for-new-users.md). 
 
-You can also try to [install Actual](./install/index.md) it on a computer to start. 
+You can also try to [install Actual](./install/index.md) on a computer to start. 
 After installation, check out the [Tour of Actual](./tour/index.md) for a 
 high-level overview of how Actual works. The next step is to read our 
 [Starting Fresh](/docs/getting-started/starting-fresh) guide. 
