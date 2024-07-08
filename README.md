@@ -31,7 +31,7 @@ Below are some basic standards on how the documentation should be formatted, eve
   
 * **Active Voice**: Use active voice to make sentences more direct and engaging.
   
-* * Example: "Install Actual Budget on your computer" instead of "Actual Budget should be installed on your computer".
+  * Example: "Install Actual Budget on your computer" instead of "Actual Budget should be installed on your computer".
 * **Time Neutral**: Use present voice, unless documentation is for experimental or unreleased features. Where time references are made, remove them upon release or removal of the feature.
   
   * Example: "Filters can be used..."Instead of "As of June 2022 update, you can...".
