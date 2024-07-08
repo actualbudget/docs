@@ -57,11 +57,11 @@ You can see in the budget that our categories have now been successfully merged 
 
 ![](/img/categories/CategoriesMerged.png)
 
-## Expanding, Collapsing or Hiding Categories
+## Managing Categories
 
-Category groups can be *expanded or collapsed* by clicking on the three dots at the top of the Category list. Categories that are not currently needed can be *hidden* by using the down arrow by each category name. Hidden categories still impact your budget.
+Category groups can be *expanded or collapsed* by clicking on the arrow to the left of the Category group name. All category groups can be expanded or collapsed at once through use of the three dot menu at the top of the category list.
 
-Hidden categories can be viewed, when needed, by clicking on the three dots at the top of the category list. 
+Categories that are not currently needed can be *hidden* by using the down arrow by each category name. An example is a budgeting savings for a large cost(e.g. washing machine). After the purchase is made, the category can be hidden. Hidden categories still impact your budget. Hidden categories can be viewed, when needed, by clicking on the three dots at the top of the category list.  
 
 ![](/img/categories/CategoryToggleHidden.png)
 
