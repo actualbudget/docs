@@ -176,7 +176,7 @@ If you know of a part of Actual that isn't documented and you would like to know
 
 When submitting a pull request, please make sure that your contributions are complete. I am checking this repo regularly, so if I see an open PR, the likelihood of me pulling it and merging it is high.
 
-Documentation submitted will be proofread and amended before merging. Please don't take this personally if any of your documentation gets amended; we just want to make sure all documents are ready to go before merging them into main.
+Documentation submitted will be proofread and amended before merging. Please don't take this personally if any of your documentation gets amended; we just want to make sure all documents are ready to go before merging them into master.
 
 ### Installing the Docs
 
