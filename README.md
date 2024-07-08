@@ -13,11 +13,13 @@ Firstly, thank you for stopping by and giving up some of your time to either che
 Actual Budget can be installed on many different platforms. However, at this time, the official Actual Budget documentation only supports the following methods:
 
 * Local Installation (on your own machine)
+  * Actual-server
+  * Desktop apps
 * Fly.io
 * PikaPods
 * Docker
 
-If you would like to write documentation for another installation variant, please feel free to continue to do this and host it on your own personal blog, Medium, Tumblr, or any other short-form publication service. We will be more than happy to add a link to that from our documentation. Open a [PR](https://github.com/actualbudget/docs/pulls) and add it to the list in the [installation overview](https://github.com/actualbudget/docs/blob/master/docs/install/index.md).
+If you would like to write documentation for another installation variant, please feel free to continue to do this and host it on your own personal blog, Medium, Tumblr, or any other short-form publication service. We will be more than happy to add a link to that from our documentation. Open a [PR](https://github.com/actualbudget/docs/pulls) and add it to the list in the [installation overview](https://actualbudget.org/docs/install/#additional-installation-options).
 
 However, in doing so, you would become responsible for these instructions. If they become out of date or people want in-depth help with them, we will point them to you for assistance if the community is unable to help. If lots of people report issues with them, we may have to remove the link altogether.
 
@@ -109,7 +111,7 @@ Each "chapter" can then be split into subsections using three-gate headings.
 > Screenshots taken on a retina screen should be titled as such: image-name@2x.png
 > This allows Docusaurus to rescale the images where appropriate.
 
-When using images, ensure that the image is large and clear. If the image contains multiple items and buttons, highlight the area you are talking about (as shown below) or create arrows on the image to point to the part you are discussing. Where possible, images should be saved as `PNG` format. Screenshots should be taken using 'light' mode.
+When using images, ensure that the image is large and clear. If the image contains multiple items and buttons, highlight the area you are talking about (as shown below) or create arrows on the image to point to the part you are discussing. Where possible, images should be saved as `PNG` format. Screenshots should be taken using 'light' mode color theme.
 
 The clearest way to highlight areas on a screenshot is the 'transparency' box.
 
@@ -222,4 +224,4 @@ If you are using GitHub pages for hosting, this command is a convenient way to b
 
 ### Writing Good Release Notes
 
-The Documentation site is not versioned in the same manner as the rest of the project. The Documentation website is more of a living document. Merges into `master` will have the title and PR# as commit message, with the PR description as extended git commit description. 
+For general guidelines, see [contributing](https://actualbudget.org/docs/contributing/#writing-good-release-notes) section of the documentation. The Documentation site is not versioned in the same manner as the rest of the project. The Documentation website is more of a living document. Merges into `master` will have the title and PR# as commit message, with the PR description as extended git commit description. 
