@@ -218,4 +218,4 @@ If you are using GitHub pages for hosting, this command is a convenient way to b
 
 ### Writing Good Release Notes
 
-This is detailed in the [contributing](https://actualbudget.org/docs/contributing/#writing-good-release-notes) section of the documentation.
+The Documentation site is not versioned in the same manner as the rest of the project. The Documentation website is more of a living document. Merges into `master` will have the title and PR# as commit message, with the PR description as extended git commit description. 
