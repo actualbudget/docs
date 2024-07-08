@@ -106,33 +106,11 @@ Docusaurus 2 provides translation using [i8n](https://docusaurus.io/docs/i18n/in
 
 * **Consistent Terminology**: Use consistent terminology throughout the documentation. Refer to the product as "Actual Budget" or "Actual."
 
-### When Using Images
 
-> Screenshots taken on a retina screen should be titled as such: image-name@2x.png
-> This allows Docusaurus to rescale the images where appropriate.
+## Formatting text
 
-When using images, ensure that the image is large and clear. If the image contains multiple items and buttons, highlight the area you are talking about (as shown below) or create arrows on the image to point to the part you are discussing. Where possible, images should be saved as `PNG` format. Screenshots should be taken using 'light' mode.
+All documentation is written in Markdown, and there is a specific Markdown items that is specific to Docusaurus (the system we use to create this documentation).
 
-The clearest way to highlight areas on a screenshot is the 'transparency' box.
-
-![](/static/img/repo/highlighting.png)
-
-If a transparency box isn't available in your image editor, use an arrow or a colored box with hex: `#d5805a` / rgb: `213, 128, 90` (an analogous shade of orange to Actual's purple). If it's not practical to be that precise, just pick one as close as you can.
-
-#### Generic Images and Directory Structures
-
-In order to minimize the workload for adding images and make updating images easier, there's a directory containing regularly used images.
-
-For example, many feature instructions may first require the user to navigate to a standard menu, e.g.,
-
-> "Click on 'Settings' in the sidebar"  
-> [inserted image of the settings button in the sidebar]
-
-In this case, the relevant screenshot is found at `/static/img/elements/sidebar/sidebar-settings@2x.png`, along with all other possible menu selections in the sidebar.
-
-If there's an image missing from any of the respective folders in `elements/`, feel free to add one yourself following the same naming scheme.
-
-All other screenshots for the page you are working on should be placed in the respective folder in the `img/` directory. e.g., when working on a page titled 'cool-feature', images should be placed in the `static/img/cool-feature/` folder.
 
 ### Call Outs
 
@@ -167,3 +145,52 @@ If you want to use code in your documentation, that is easy too.
 ```js
 console.log('Every repo must come with a mascot.');
 ```
+## Using Images
+
+Using images improves documentation. It is easier for people who read documentation to see what is 
+in the accompanying description.
+
+When taking screenshots, there are a few things to keep in mind:
+
+* Ensuring that the image is crystal clear and directly relevant is crucial. 
+  Blurry or muddled images can detract from the user's understanding and confidence in the documentation.
+* Striking the right balance is key. Including too much information can overwhelm the reader, 
+  while including too little can leave them without the necessary context. Your judgment in 
+  this matter is crucial to the effectiveness of the documentation.
+* Avoid taking screenshots on a big screen when the browser is in full-screen mode. 
+  Try to make images at most 1100 pixels wide and 700 pixels long.
+* Images must always be saved in the PNG format.
+* Take only images using the _light_ mode, not _dark_.
+* If you need to address more than one part of the screenshot, annotate the image. See below for more details.
+
+:::info
+Screenshots taken on a retina screen should be titled as such: image-name@2x.png. This allows Docusaurus 
+to rescale the images where appropriate.
+:::
+
+
+### Annotating Images
+
+The clearest way to highlight areas on a screenshot is the 'transparency' box.
+
+![](/static/img/repo/highlighting.png)
+
+If a transparency box isn't available in your image editor, use an arrow or a colored box with hex: `#d5805a` / rgb: `213, 128, 90` (an analogous shade of orange to Actual's purple). If it's not practical to be that precise, just pick one as close as you can.
+
+
+
+#### Generic Images and Directory Structures
+
+In order to minimize the workload for adding images and make updating images easier, there's a directory containing regularly used images.
+
+For example, many feature instructions may first require the user to navigate to a standard menu, e.g.,
+
+> "Click on 'Settings' in the sidebar"  
+> [inserted image of the settings button in the sidebar]
+
+In this case, the relevant screenshot is found at `/static/img/elements/sidebar/sidebar-settings@2x.png`, along with all other possible menu selections in the sidebar.
+
+If there's an image missing from any of the respective folders in `elements/`, feel free to add one yourself following the same naming scheme.
+
+All other screenshots for the page you are working on should be placed in the respective folder in the `img/` directory. e.g., when working on a page titled 'cool-feature', images should be placed in the `static/img/cool-feature/` folder.
+
