@@ -175,7 +175,7 @@ const sidebars = {
           },
           items: [
             'reports-filters/filters',
-            'reports-filters/reports', 
+            'reports-filters/reports',
             'reports-filters/custom-reports'
           ],
         },
@@ -227,6 +227,10 @@ const sidebars = {
           type: 'category',
           label: 'Experimental features',
           collapsed: true,
+          link: {
+            type: 'doc',
+            id: 'experimental/index'
+          },
           items: [
             'experimental/goal-templates',
             'experimental/monthly-cleanup',

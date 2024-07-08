@@ -50,7 +50,15 @@ If you are experiencing bugs relating to split transactions and the “Reset bud
 
 ### Experimental Features
 
-Be careful with this section; you might encounter irrecoverable errors if you enable these settings. But if you want to test out some bleeding-edge features, here's your place to do it. We _highly_ recommend backing up your budget before continuing, just in case. As of the [latest release](../releases.md), the current available experimental features are:
+If you want to test out some bleeding-edge features, here's your place to do it.
+
+:::danger
+Before enabling any experimental feature, **always [back up your budget](backup-restore/backup.md) first**.
+Experimental features may corrupt it or cause irrecoverable errors. Back up your budget so you can recover it if this happens.
+:::
+
+As of the [latest release](../releases.md), the current available experimental features are:
+
 
 - Monthly spending
 - Budget mode toggle
