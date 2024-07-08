@@ -54,6 +54,7 @@ Docusaurus 2 provides translation using [i8n](https://docusaurus.io/docs/i18n/in
 ### Documentation Structure
 
 Below is the documentation structure for the Actual Community Docs.
+
 ```
 website # the root directory of the documentation site
 ├── docs
@@ -92,10 +93,12 @@ website # the root directory of the documentation site
 └── static
     └── img
 ```
+
 ### Document Frontmatter
 
 Front matter is used to add metadata to your documentation file. The front matter is used to enrich the default metadata inferred from the content or other configuration.
-```
+
+```markdown
 ---
 title: My Doc Title
 more_data:
@@ -104,6 +107,7 @@ more_data:
     or: arrays
 ---
 ```
+
 ### Document Headings
 
 The below shows how a document should be laid out.
@@ -151,6 +155,7 @@ All other screenshots for the page you are working on should be placed in the re
 ### Call Outs
 
 If you would like to highlight a section of your document with a note, you can use the following:
+
 ```markdown
 :::notes
 Your note content
@@ -171,9 +176,11 @@ Using quotes within your documentation is easy to do using:
 > and another
 ```
 If you want to use code in your documentation, that is easy too.
+
 ```js
 console.log('Every repo must come with a mascot.');
 ```
+
 ## Contributing 
 
 ### Issues
@@ -189,33 +196,44 @@ Documentation submitted will be proofread and amended before merging. Please don
 ### Installing the Docs
 
 Firstly, pull this repo into a local area on your machine, navigate to that directory, and run the following command:
+
 ```
 $ yarn
 ```
+
 ### Local Development
 
 To start [Docusaurus 2](https://docusaurus.io/) navigate to the folder where the repo resides from a command prompt and issue the following command.
+
 ```
 $ yarn start
 ```
+
 This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
 ### Build
+
 ```
 $ yarn build
 ```
+
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
 ### Deployment
 
 Using SSH:
+
 ```
     $ USE_SSH=true yarn deploy
 ```
-Not using SSH:```
+
+Not using SSH:
+
+```
 
     $ GIT_USER=<Your GitHub username> yarn deploy
 ```
+
 If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
 
 ### Writing Good Release Notes
