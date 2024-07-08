@@ -1,8 +1,8 @@
 # Actual Budget Community Documentation
 
-This repo forms the basis for what will become the new Actual Budget community documentation website, this is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+This repo forms the basis for what will become the new Actual Budget community documentation website. This is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
-[Docusaurus 2](https://docusaurus.io/) uses NodeJS so if you are running Actual on your local machine you should be able to easily run [Docusaurus 2](https://docusaurus.io/)
+[Docusaurus 2](https://docusaurus.io/) uses NodeJS, so if you are running Actual on your local machine, you should be able to easily run [Docusaurus 2](https://docusaurus.io/).
 
 ## Contributing
 
@@ -10,26 +10,26 @@ Firstly, thank you for stopping by and giving up some of your time to either che
 
 ### Installation Methods
 
-Actual Budget can be installed on many different platforms, however at this time the official Actual Budget documentation only supports the following methods
+Actual Budget can be installed on many different platforms. However, at this time, the official Actual Budget documentation only supports the following methods:
 
 - Local Installation (on your own machine)
 - Fly.io
 - PikaPods
 - Docker
 
-If you would like to write documentation for another installation variant, please feel free to continue to do this and host it on your own personal blog, medium, Tumblr or any other short form publication service and we will be more than happy to add a link to that from our documentation, open a [PR](https://github.com/actualbudget/docs/pulls) and add it to the list in the [installation overview](https://github.com/actualbudget/docs/blob/master/docs/install/index.md).
+If you would like to write documentation for another installation variant, please feel free to continue to do this and host it on your own personal blog, Medium, Tumblr, or any other short-form publication service. We will be more than happy to add a link to that from our documentation. Open a [PR](https://github.com/actualbudget/docs/pulls) and add it to the list in the [installation overview](https://github.com/actualbudget/docs/blob/master/docs/install/index.md).
 
-However, in doing so you would become responsible for these instructions, if they become out of date or people want in-depth help with them we will point them to you for assistance if the community is unable to help and if lots of people report issues with them we may have to remove the link altogether.
+However, in doing so, you would become responsible for these instructions. If they become out of date or people want in-depth help with them, we will point them to you for assistance if the community is unable to help. If lots of people report issues with them, we may have to remove the link altogether.
 
 ## Document Standards
 
-Below are some basic standards on how the documentation should be formatted, everyone has there own writing style but the layout of the documents should be the same across all documents.
+Below are some basic standards on how the documentation should be formatted. Everyone has their own writing style, but the layout of the documents should be the same across all documents.
 
 ### Language
 
-When writing your documentation, please use the English language, at this time the documentation team doesn't have any translators available to translate documents into other languages but this is something we would like to do in the future.
+When writing your documentation, please use the English language. At this time, the documentation team doesn't have any translators available to translate documents into other languages, but this is something we would like to do in the future.
 
-Docusaurus 2 provide translation using [i8n](https://docusaurus.io/docs/i18n/introduction), if this is something you would like to pursue, please feel free to open a PR.
+Docusaurus 2 provides translation using [i8n](https://docusaurus.io/docs/i18n/introduction). If this is something you would like to pursue, please feel free to open a PR.
 
 ### Documentation Structure
 
@@ -76,7 +76,7 @@ website # the root directory of the documentation site
 
 ### Document Frontmatter
 
-Front matter is used to add metadata to your documentation file, the front matter is used to enrich the default metadata inferred from the content or other configuration.
+Front matter is used to add metadata to your documentation file. The front matter is used to enrich the default metadata inferred from the content or other configuration.
 
 ```markdown
 ---
@@ -94,22 +94,22 @@ The below shows how a document should be laid out.
 
 `# A single heading`
 
-Each document should only have one single heading, when a title is not provided in the front matter of the document, the heading provided is used instead and displayed in the documentation tree.
+Each document should only have one single heading. When a title is not provided in the front matter of the document, the heading provided is used instead and displayed in the documentation tree.
 
 `## Sub Headings to split out sections of your document`
 
-Sub headings are used to split the document into meaningful "chapters" these are then used in the right side bar when viewing a document to allow the reader to easily navigate the document content.
+Subheadings are used to split the document into meaningful "chapters." These are then used in the right sidebar when viewing a document to allow the reader to easily navigate the document content.
 
-`### Section sub headings.`
+`### Section subheadings.`
 
-Each "chapter" can then be split into sub sections using three gate headings.
+Each "chapter" can then be split into subsections using three-gate headings.
 
 ### When Using Images
 
 > Screenshots taken on a retina screen should be titled as such: image-name@2x.png
 > This allows Docusaurus to rescale the images where appropriate.
 
-When using images, ensure that the image is large and clear, if the image contains multiple items and buttons, highlight the area you are talking about (as shown below) or create arrows on the image to point to the part you are discussing. Where possible images should be saved as `PNG` format.
+When using images, ensure that the image is large and clear. If the image contains multiple items and buttons, highlight the area you are talking about (as shown below) or create arrows on the image to point to the part you are discussing. Where possible, images should be saved as `PNG` format. Screenshots should be taken using 'light' mode.
 
 The clearest way to highlight areas on a screenshot is the 'transparency' box.
 
@@ -121,20 +121,20 @@ If a transparency box isn't available in your image editor, use an arrow or a co
 
 In order to minimize the workload for adding images and make updating images easier, there's a directory containing regularly used images.
 
-For example, many feature instructions may first require the user to navigate to a standard menu, eg
+For example, many feature instructions may first require the user to navigate to a standard menu, e.g.,
 
 > "Click on 'Settings' in the sidebar"  
 > [inserted image of the settings button in the sidebar]
 
-In this case the relevant screenshot is found at `/static/img/elements/sidebar/sidebar-settings@2x.png`, along with all other possible menu selections in the sidebar.
+In this case, the relevant screenshot is found at `/static/img/elements/sidebar/sidebar-settings@2x.png`, along with all other possible menu selections in the sidebar.
 
 If there's an image missing from any of the respective folders in `elements/`, feel free to add one yourself following the same naming scheme.
 
-All other screenshots for the page you are working on should be placed in the respective folder in the `img/` directory. eg, when working on a page titled 'cool-feature', images should be placed in the `static/img/cool-feature/` folder.
+All other screenshots for the page you are working on should be placed in the respective folder in the `img/` directory. e.g., when working on a page titled 'cool-feature', images should be placed in the `static/img/cool-feature/` folder.
 
 ### Call Outs
 
-If you would like to highlight a section of your document with a note, you can use the following
+If you would like to highlight a section of your document with a note, you can use the following:
 
 ```markdown
 :::notes
@@ -142,7 +142,7 @@ Your note content
 :::
 ```
 
-If you want to make a reader aware of a cautionary item in your documentation, you can use this.
+If you want to make a reader aware of a cautionary item in your documentation, you can use this:
 
 ```markdown
 :::caution
@@ -152,7 +152,7 @@ Your cautionary item
 
 ### Quotes & Code Blocks
 
-Using quotes within your documentation is easy to do using
+Using quotes within your documentation is easy to do using:
 
 ```markdown
 > Your quote goes here
@@ -168,17 +168,17 @@ console.log('Every repo must come with a mascot.');
 
 ### Issues
 
-If you know of a part of Actual that isn't documented and you would like to know more about that part of the software, open an [Issue](https://github.com/actualbudget/docs/issues) and one of the documentation team will get to it, or have a go at writing it yourself, we could really use all the help we can get.
+If you know of a part of Actual that isn't documented and you would like to know more about that part of the software, open an [Issue](https://github.com/actualbudget/docs/issues) and one of the documentation team will get to it. Or have a go at writing it yourself; we could really use all the help we can get.
 
 ### Pull Requests
 
-When submitting a pull request, please make sure that your contributions are complete, I am checking this repo regularly so if I see a open PR the likelihood of me pulling it and merging it are high.
+When submitting a pull request, please make sure that your contributions are complete. I am checking this repo regularly, so if I see an open PR, the likelihood of me pulling it and merging it is high.
 
-Documentation submitted will be proof read and amended before merging, please don't take this personally if any of your documentation gets amended, we just want to make sure all documents are ready to go before merging them into main.
+Documentation submitted will be proofread and amended before merging. Please don't take this personally if any of your documentation gets amended; we just want to make sure all documents are ready to go before merging them into main.
 
-### Installing the docs
+### Installing the Docs
 
-Firstly, pull this repo into a local area on your machine, navigate to that directory and run the following command.
+Firstly, pull this repo into a local area on your machine, navigate to that directory, and run the following command:
 
 ```
 $ yarn
@@ -221,3 +221,82 @@ If you are using GitHub pages for hosting, this command is a convenient way to b
 ### Writing Good Release Notes
 
 This is detailed in the [contributing](https://actualbudget.org/docs/contributing/#writing-good-release-notes) section of the documentation.
+
+## Style Guide
+
+### 1. **Tone and Voice**
+
+- **Friendly and Approachable**: Write in a conversational and welcoming tone. The goal is to make users feel comfortable and supported.
+- **Clear and Concise**: Ensure that the information is easy to understand. Avoid jargon and overly complex sentences.
+
+### 2. **Structure and Formatting**
+
+- **Headings**: Use clear and descriptive headings to organize content. Follow a hierarchical structure (H1, H2, H3, etc.).
+  - Example:
+    ```markdown
+    # Main Heading (H1)
+    ## Subheading (H2)
+    ### Sub-subheading (H3)
+    ```
+- **Paragraphs**: Keep paragraphs short and focused. Each paragraph should convey a single idea or concept.
+- **Lists**: Use bullet points or numbered lists to break down information into digestible chunks.
+  - Example:
+    ```markdown
+    - Point one
+    - Point two
+      - Sub-point
+    ```
+- **Code Blocks**: Use code blocks for commands, code snippets, or configuration examples.
+  - Example:
+    ```markdown
+    ```bash
+    npm install actual-budget
+    ```
+    ```
+
+### 3. **Language and Grammar**
+
+- **Active Voice**: Use active voice to make sentences more direct and engaging.
+  - Example: "Install Actual Budget on your computer" instead of "Actual Budget should be installed on your computer."
+- **Consistent Terminology**: Use consistent terminology throughout the documentation. Refer to the product as "Actual Budget" or "Actual."
+- **Spelling and Grammar**: Ensure correct spelling and grammar. Use American English conventions.
+- **Time Neutral**: Use present voice, unless documentation is for experimental or unreleased features. Where time references are made, remove them upon release or removal of the feature.
+  - Example: Instead of "As of June 2022 update, you can...", use "You can..."
+### 4. **Links and References**
+
+- **Internal Links**: Use relative links for internal references within the documentation.
+  - Example:
+    ```markdown
+    [Getting Started](./getting-started.md)
+    ```
+- **External Links**: Open external links in a new tab.
+  - Example:
+    ```markdown
+    [Official Website](https://actualbudget.org){:target="_blank"}
+    ```
+
+### 5. **Images and Screenshots**
+
+- **Relevance**: Use images and screenshots that are directly relevant to the content.
+- **Captions**: Provide captions for images to explain their context.
+- **Alt Text**: Include descriptive alt text for accessibility.
+  - Example:
+    ```markdown
+    ![Screenshot of Actual Budget dashboard](./images/dashboard.png)
+    ```
+
+### 6. **Examples and Tutorials**
+
+- **Step-by-Step Instructions**: Provide clear, step-by-step instructions for tasks and processes.
+- **Examples**: Include examples to illustrate concepts and usage.
+  - Example:
+    ```markdown
+    To create a new budget:
+    1. Click on "New Budget" in the main menu.
+    2. Enter the budget details.
+    3. Click "Save."
+    ```
+### 7. **Consistency and Updates**
+
+- **Regular Updates**: Try to keep the documentation up-to-date with the latest features and changes as time allows.
+- **Consistency**: Strive for consistency in style, tone, and formatting across all documentation pages.
