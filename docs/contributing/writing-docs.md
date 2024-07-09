@@ -126,31 +126,45 @@ Docusaurus 2 provides translation using [i8n](https://docusaurus.io/docs/i18n/in
 
 * **Friendly and Approachable**: Write in a conversational and welcoming tone. The goal is to make users feel comfortable and supported.
 
-* **Active Voice**: Use active voice to make sentences more direct and engaging.
+* **Active Voice**: Use active voice to make sentences more direct and engaging. Example: _Install Actual Budget on your computer_ instead of _Actual Budget should be installed on your computer_.
 
- * Example: "Install Actual Budget on your computer" instead of "Actual Budget should be installed on your computer".
-
-* **Time Neutral**: Use present voice, unless documentation is for experimental or unreleased features. Where time references are made, remove them upon release or removal of the feature.
-  
-  * Example: "Filters can be used..."Instead of "As of June 2022 update, you can...".
+* **Time Neutral**: Use present voice, unless documentation is for experimental or unreleased features. Where time references are made, remove them upon release or removal of the feature. Example: _Filters can be used..._ instead of _As of June 2022 update, you can..._.
 
 ### Format
 
-* Keep paragraphs short and focused. Each paragraph should convey a single idea or concept.
+* **Keep paragraphs short and focused**. Each paragraph should convey a single idea or concept.
 
-* Use bullet points or numbered lists to break down information into digestible chunks.
+* **Use bullet points** or numbered lists to break down information into digestible chunks.
 
 * **Consistent Terminology**: Use consistent terminology throughout the documentation. Refer to the product as "Actual Budget" or "Actual."
 
 
 ## Formatting text
 
-All documentation is written in Markdown, and there is a specific Markdown items that is specific to Docusaurus (the system we use to create this documentation).
+All documentation is written in Markdown, and there is a specific Markdown items that is specific to Docusaurus.
+
+### Keyboard shortcuts
 
 
-### Call Outs
+```markdown
+<Key k="f" /> shows bhe f-key.
+<Key k="enter" /> shows the Enter-key.
+<Key mod="shift" k="enter" /> shows the Shift-Enter key combination.
+<Key mod="cmd" k="enter" /> shows the Command-Enter key combination.
+```
 
-If you would like to highlight a section of your document with a note, you can use the following:
+
+
+### Highlights 
+
+If you would like to highlight a section of your document you can use the following:
+
+```markdown
+:::tip
+Your tip content
+:::
+```
+
 
 ```markdown
 :::notes
