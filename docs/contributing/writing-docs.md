@@ -1,5 +1,26 @@
 # Writing Documentation
 
+
+Except for a few sections, most of the documentation is aimed at end users. It is important to keep this in mind when writing documentation. In practice, this means that it is better to be a bit verbose and write out every step in a process than assume that the reader is on the writer's technical level.
+
+<details><summary>Read example</summary>
+
+For those with experience, the process is straightforward and familiar: _To update with our latest releases, simply use the `git pull` command from the `master` branch of your local directory of Actual. Once the changes are updated, execute the `yarn install` to download the latest updates from the releases._
+
+A better approach for inexperienced people, as it explains what each step is doing and the expected outcome.:
+
+1. Stop the server if it's running. You can use the keyboard shortcut <Key mod= "ctrl" k= "c"/> (even on macOS) to stop the server or close the terminal window it's running from.
+2. Run `git pull` from the directory you cloned the project into. This will download the latest server code.
+3. Run `yarn install` from that same directory. This will download the latest web client code and any updated dependencies for the server.
+4. Restart the server by running `yarn start`.
+
+</details>
+
+We use the [Docosaurus](https://docusaurus.io/) system to generate our documentation, please head over to their website to learn more.
+
+
+
+
 ## Documentation Structure
 
 ### Documentation Map
