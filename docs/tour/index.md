@@ -17,13 +17,16 @@ If you are looking at this Tour of Actual, you are likely using some other softw
 Suppose you have yet to use any budgeting software before. In that case, it's worth noting that Actual uses the [envelope budgeting model](/docs/getting-started/envelope-budgeting). The big and beautiful difference between envelope budgeting and more common methods is that with envelope budgeting, you can only budget with the money you actually have, not the money you think you will get in the future.
 
 Our tour will touch on the following topics:
-A [quick overview](./overview) of the Actual Budget interface.
-The [budget view] (./budget) is where you plan how to save and what you need to spend money on.
-Without transactions in the [account register](./accounts), there would be a point in having a budget.
-Actual also has a few other functions we will look at, like [scheduling transactions](./schedules), [importing data](./importing-data) and [rules](./rules), which will help you automate when entering or importing transactions.
-Lastly, we have [beautiful reports](./reports) to show you.
 
-## Explaining starts with actual and is in 4 steps.
+* A [quick overview](./overview) of the Actual Budget interface.
+* The [budget view](./budget) is where you plan how to save and what you need to spend money on.
+* Without transactions in the [account register](./accounts), there would be a point in having a budget.
+* Actual also has a few other functions we will look at, like [scheduling transactions](./schedules), [importing data](./importing-data) and [rules](./rules), which will help you automate when entering or importing transactions.
+* Lastly, we have [beautiful reports](./reports) to show you.
+
+## Start using actual in 4 steps
+
+Getting started is not really difficult.
 
 1. **Create accounts and add your starting balance**. Well, you can add your starting balance later, no worries. If you'd like, you can export some recent transactions from your bank and [import them into Actual](../transactions/importing.md), so you have some data to work with immediately. But Actual will also work fine if you don't import any past transactions.
 
