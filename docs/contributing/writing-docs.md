@@ -7,6 +7,20 @@
 Below is the documentation structure for the Actual Community Docs.
 
 ```
+#################################
+#
+# TODO: This does not reflect the real world anymore - maybe we should do a generic
+#       writeups on when to use folder and when not to. If we go down this road it
+#       is impeartive that the naming of the folders reflect the title in the sidebar.
+#     
+#       Anyway - if we where to keep it here, I suggest we put this information into
+#       an "expand box"
+#
+#################################
+```
+
+
+```
 website # the root directory of the documentation site
 ├── docs
 │   └── index.md # the introduction file
@@ -76,6 +90,7 @@ Subheadings are used to split the document into meaningful "chapters." These are
 Each "chapter" can then be split into subsections using three-gate headings.
 
 
+
 ## Document Guidelines
 
 Below are some basic guidelines on how the documentation should be formatted. Everyone has their own writing style, but the layout of the documents should be the same across all documents.
@@ -140,11 +155,6 @@ Using quotes within your documentation is easy to do using:
 > and another
 ```
 
-If you want to use code in your documentation, that is easy too.
-
-```js
-console.log('Every repo must come with a mascot.');
-```
 ## Using Images
 
 Using images improves documentation. It is easier for people who read documentation to see what is 
