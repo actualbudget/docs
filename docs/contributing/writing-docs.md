@@ -11,7 +11,7 @@ Below is the documentation structure for the Actual Community Docs.
 #
 # TODO: This does not reflect the real world anymore - maybe we should do a generic
 #       writeups on when to use folder and when not to. If we go down this road it
-#       is impeartive that the naming of the folders reflect the title in the sidebar.
+#       is imperative that the naming of the folders reflect the title in the sidebar.
 #     
 #       Anyway - if we where to keep it here, I suggest we put this information into
 #       an "expand box"
@@ -175,18 +175,17 @@ Using quotes within your documentation is easy to do using:
 
 ## Using Images
 
-Using images improves documentation. It is easier for people who read documentation to see what is 
-in the accompanying description.
+By using images that accompany the description, we make the documentation more accessible, thus improving its readability.
 
-When taking screenshots, there are a few things to keep in mind:
+The way to do this is to take good screenshots.  When taking screenshots, there are a few things to keep in mind:
 
-* Ensuring that the image is crystal clear and directly relevant is crucial. 
+* It is crucial to ensure that the image is crystal clear and directly relevant. 
   Blurry or muddled images can detract from the user's understanding and confidence in the documentation.
 * Striking the right balance is key. Too much information can overwhelm the reader, 
   while too little can leave them without the necessary context. Your judgment in 
   this matter is crucial to the effectiveness of the documentation.
 * Avoid taking screenshots on a big screen when the browser is in full-screen mode. 
-  Try to make images at most 1100 pixels wide and 700 pixels long.
+  Try to make images that are at most 1100 pixels wide and 700 pixels long.
 * Images must always be saved in the PNG format.
 * Take only images using the _light_ mode, not _dark_.
 * If you need to address more than one part of the screenshot, annotate the image. See below for more details.
@@ -197,13 +196,32 @@ to rescale the images where appropriate.
 :::
 
 
+
+
 ### Annotating Images
+
+You should annotate images 
 
 The clearest way to highlight areas on a screenshot is the 'transparency' box.
 
-![](/static/img/repo/highlighting.png)
+[](/static/img/repo/highlighting.png)
 
 If a transparency box isn't available in your image editor, use an arrow or a colored box with hex: `#d5805a` / rgb: `213, 128, 90` (an analogous shade of orange to Actual's purple). If it's not practical to be that precise, just pick one as close as you can.
 
 
 
+### Software For Taking and Annotating Screenshots
+
+There are many software packages available to help you take screenshots. Both Windows and Mac systems come with some rudimentary tools for this (like [Windows Snipping Tool](https://support.microsoft.com/en-us/windows/use-snipping-tool-to-capture-screenshots-00246869-1843-655f-f220-97299b865f6b) or in [MacOS](https://support.apple.com/en-us/102646)). For various Linuxes, [this Fosspost.com article](https://fosspost.org/take-screenshot-linux) can be consulted.
+
+Some of the mentioned tools will let you annotate your screenshots, others will not.
+
+If you are serious about your screenshots (and outside helping out with the Actual documentation), you might want to consider tools created explicitly for taking screenshots and having good annotation support. This list is not an endorsement from the Actual Budget project team but is meant as a starting point for such tools.
+
+**For Windows and Mac**:
+
+* [Greenshot](https://getgreenshot.org/) is a simple and effective open-source solution.
+* [Flameshot](https://flameshot.org/) is a complete open-source package for taking and annotating screenshots. This program is more complex than Greenshot.
+* Many consider [SnagIt](https://www.techsmith.com/screen-capture.html) the best tool in this category, but it comes at a cost.
+
+**For Linux**, please see this Fosspost.com article (https://fosspost.org/take-screenshot-linux).
