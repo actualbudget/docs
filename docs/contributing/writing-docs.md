@@ -355,4 +355,4 @@ If you are serious about your screenshots (and outside helping out with the Actu
 * [Flameshot](https://flameshot.org/) is a complete open-source package for taking and annotating screenshots. This program is more complex than Greenshot.
 * Many consider [SnagIt](https://www.techsmith.com/screen-capture.html) the best tool in this category, but it comes at a cost.
 
-**For Linux**, please see this Fosspost.com article (https://fosspost.org/take-screenshot-linux).
+**For Linux**, please see this [Fosspost.com article](https://fosspost.org/take-screenshot-linux).
