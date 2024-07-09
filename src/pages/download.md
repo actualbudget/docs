@@ -19,6 +19,8 @@ The simplest way to use Actual is to download the desktop application.  This wil
 
 
 ## Server Download
-See the install guides on how to download and install the server:
+Actual has two parts, the client and a sync server.  The primary task of the sync server is to sync your budget between devices, and to enable bank syncing.  We have a full write up of [if you need a server or not](/docs/install/). We also have install guides on how to set up the server in the following ways
 * [Docker Install](/docs/install/docker)
 * [Local Installation](/docs/install/local)
+* [PikaPods](/docs/install/pikapods)
+* [Fly.io](/docs/install/fly)
