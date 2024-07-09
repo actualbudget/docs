@@ -154,8 +154,8 @@ When taking screenshots, there are a few things to keep in mind:
 
 * Ensuring that the image is crystal clear and directly relevant is crucial. 
   Blurry or muddled images can detract from the user's understanding and confidence in the documentation.
-* Striking the right balance is key. Including too much information can overwhelm the reader, 
-  while including too little can leave them without the necessary context. Your judgment in 
+* Striking the right balance is key. Too much information can overwhelm the reader, 
+  while too little can leave them without the necessary context. Your judgment in 
   this matter is crucial to the effectiveness of the documentation.
 * Avoid taking screenshots on a big screen when the browser is in full-screen mode. 
   Try to make images at most 1100 pixels wide and 700 pixels long.
