@@ -90,7 +90,7 @@ Templates can be given a priority flag to change the order that the templates ge
 - Lower priority values get run first. EX 0 is run first, then 1, then 2, etc.
 - No priority flag defaults to priority 0 and is the same as a standard template.
 - Negative priorities are not allowed and will result in the template being skipped.
-- Template application order is based on the database order, not the view order.  To guarantee a specific fill order use separate priorities for each category
+- Template application order is based on the database order, not the view order.  To guarantee a specific fill order use separate priorities for each category.
 - If you have multiple `schedule` or `by` template lines in a single category, they will be forced to match the same priority level as the line run first.
 - If the `up to` key words are used with a category that has multiple templates with different priorities, the lowest priority will take precedence because it is evaluated last as shown in the following examples.
 - It is recommended to use the "overwrite with budget template" option when applying templates if you use priorities.
@@ -151,42 +151,42 @@ All the examples below use the case of $100 leftover when the remainder pass is 
 
 ## Goal Directive
 
-This option is unique enough that it warrants its own directive `goal` instead of the standard `template` option.
-The `goal` option overrides how the goal indicator normally functions.  
-In the standard templates the goal indication colors are based in the current month budgeted value.
-When using the `goal` option the indication is based on the total balance.  
-This shifts the indication to a long term goal that you are saving up to instead of just the current monthly portion.  
+This option is unique enough to warrant its own directive `goal` instead of the standard `template` option.
+The `goal` option overrides how the goal indicator typically functions.  
+In the standard templates, the goal indication colors are based on the current month's budgeted value.
+When using the `goal` option, the indication is based on the total balance.  
+This shifts the indication to a long-term goal you are saving up to instead of just the current monthly portion.  
 A few examples have been given to illustrate this difference.
 
 ### Notes 
-* The `goal` templates are run the same way as the other templates, but using the month options or the category budget options
-* If there is a `goal` directive in a category, the indicator for that category will be based on the total balance compared to the amount set in the template line
-* The `goal` directive will not budget any funds, and funds budgeted by hand will not get reset by running templates
-* A `goal` line can be stacked with templates to auto budget the category(via the templates), but override how the category goal is indicated(the goal line).
-* If templates are included with a `goal` then the budgeted amount will get overwritten when using the "overwrite with budget template" button
-* There is no priority on a `goal` line
+* The `goal` templates are run the same way as the other templates but using the month options or the category budget options.
+* If there is a `goal` directive in a category, the indicator for that category will be based on the total balance compared to the amount set in the template line.
+* The `goal` directive will not budget any funds, and funds budgeted by hand will not get reset by running templates.
+* A `goal` line can be stacked with templates to automatcially budget the category(via the templates) but override how the category goal is indicated(the goal line).
+* If templates are included with a `goal`, the budgeted amount will get overwritten when using the "overwrite with budget template" button.
+* There is no priority on a `goal` line.
 
 ### Examples
-All examples assume that $400 carried over from the previous month
+All examples assume that $400 was carried over from the previous month
 
-####  1. I'm saving for a large purchase but I don't know how much I will be able to save each month.
-In this case a balance of greater than or equal to 500 will set the balance green marking a met goal.
-If you run templates you get the following:
+####  1. I'm saving for a large purchase, but I'm still determining how much I can allocate each month.
+In this case, a balance greater than or equal to 500 will set the balance green, marking a met goal.
+If you run the template, you get the following:
 
 | Template Line(s) | Amount budgeted | Balance(color) |
 |:---|:--:|---:|
 | `#goal 500` | 0 | 400(yellow) |
 
-If you were able to budget 100 this month you would then hit your goal and get a green indication
+If you were able to budget 100 this month, you would then hit your goal and get a green indication.
 
 | Template Line(s) | Amount budgeted | Balance(color) |
 |:---|:--:|---:|
 | `#goal 500` | 100 | 500(green) |
 
-#### 2. I'm saving for a purchase, but I will budget 50 a month until I get to my total goal.
-In this example a template is used to automatically budget 50 into the category, when templates are run.
-The goal line will override the goal indication and only go green when a balance of 500 is reached.
-If you run templates you get the following:
+#### 2. I'm saving for a purchase, but I will budget 50 a month until I reach my goal.
+In this example, a template is used to automatically budget 50 into the category when templates are run.
+The goal line will override the goal indication from the `template` line, and only go green when a balance of 500 is reached.
+If you run templates, you get the following:
 
 | Template Line(s) | Amount budgeted | Balance(indication color) |
 |:---|:---:|---:|
