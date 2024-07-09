@@ -2,14 +2,6 @@
 title: A Tour of Actual
 ---
 
-ZZ
-
-
-
-
-
-
-
 This article covers the first steps you’ll likely want to take when you first open Actual. The other entries in this section of the sidebar cover different parts of the interface in more detail.
 
 ### Add a bank account
