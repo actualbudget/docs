@@ -24,6 +24,7 @@ debian
 dedupes
 deleteaccount
 dmg
+Docosaurus
 escodegen
 expando
 Firefox
