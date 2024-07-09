@@ -78,7 +78,6 @@ const sidebars = {
             'tour/accounts',
             'tour/budget',
             'tour/schedules',
-            'tour/settings',
           ],
         },
         'getting-started/tips-tricks',
@@ -186,6 +185,16 @@ const sidebars = {
           items: ['backup-restore/backup', 'backup-restore/restore'],
         },
         {
+          type: 'category',
+          label: 'Settings',
+          collapsed: true,
+          link: {
+            type: 'doc',
+            id: 'settings/index',
+          },
+           items: ['settings/index'],
+        },
+         {
           type: 'category',
           label: 'API',
           link: { type: 'doc', id: 'api/index' },
