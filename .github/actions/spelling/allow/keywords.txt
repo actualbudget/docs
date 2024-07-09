@@ -59,6 +59,7 @@ ofx
 OFX
 payeerule
 pikaday
+PikaPods
 playsinline
 portalization
 Postgresql
