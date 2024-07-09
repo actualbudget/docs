@@ -72,6 +72,7 @@ const sidebars = {
             id: 'tour/index',
           },
           items: [
+            'tour/user-interface',
             'tour/files',
             'tour/overview',
             'tour/sidebar',
