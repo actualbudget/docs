@@ -201,14 +201,80 @@ to rescale the images where appropriate.
 
 ### Annotating Images
 
-You should annotate images 
 
-The clearest way to highlight areas on a screenshot is the 'transparency' box.
+There are several reasons why you need to annotate your screenshots.
+One reason is that you need your readers to pay attention to some aspects of the GUI. This is true if you have a screenshot of an area (for context) and you need to highlight one part of that area. Another reason is that you must address more than one element in the GUI, but presenting several variants of the same screenshot is unfavourable.
+We have a few suggestions when annotating screenshots:
 
-[](/static/img/repo/highlighting.png)
 
-If a transparency box isn't available in your image editor, use an arrow or a colored box with hex: `#d5805a` / rgb: `213, 128, 90` (an analogous shade of orange to Actual's purple). If it's not practical to be that precise, just pick one as close as you can.
+#### Do use boxes over arrows
+Arrows can inadvertently be misunderstood as pointing _from_ something rather than _to_. As we see in the example below, the reader can not be sure if the arrow means the column, the column header or if _To Budget_ is involved.
 
+![](/static/img/repo/annotation-boxes-over-arrows.png)
+
+
+#### Use "steps" for several elements
+
+Use running numbers or letters inside circles, also known as "steps", when addressing more than one element in the screenshot. If there is a sequence to what a user is going to click on, use step numbers; if you want to address various elements, letters are preferred. 
+
+![](/static/img/repo/annotation-steps.png)
+
+If your annotation tool doesn't support 'steps ', use boxes in different colours and incorporate these colours into your explanation. This will help guide the reader's attention effectively.
+
+![](/static/img/repo/annotation-colour-boxes.png)
+
+
+<details><summary>Read example description of this way of annotating</summary>
+
+
+**Using _steps_**
+
+a. Formatting numbers. We support most formats that are commonly used.
+
+b. Choose the date format that you are most comfortable with.
+
+c. The first day of the week controls grouping on reports.
+
+----
+
+
+**Using coloured boxes**:
+
+* Formatting numbers (indicated by the red box). We support most formats that are commonly used.
+* If you want to change the date format you are most comfortable with, you can use the dropdown in the green box.
+* The first day of the week controls grouping on reports. You will find this control indicated in the yellow box.
+
+</details>
+
+
+#### Do not draw annotations using "free hand" 
+
+Do not use free hand "marker pens", boxes or arrows, as these kind of annotations just look sloppy. Ask for help on the 
+[Actual Budget #documentation Discord channel](https://discord.com/channels/937901803608096828/1027831463103696928) 
+if you need to annotate your images but are not able to do it yourself.
+
+![](/static/img/repo/annotation-free-hand.png)
+
+
+#### Annotation Colours
+
+Use strong, clear, and crisp colours to create good contrasts. Do not use pure white or pure black. Even if we want 
+all screenshots taken using the light theme, there are dark elements like the sidebar and particular dropdowns in the 
+GUI. Avoid annotating these elements using dark colours.
+
+Remember that colours are tricky for colourblind people.
+
+We suggest using the following colours (RGB values):
+
+| Color name | Decimal       | Hex      |
+|------------|---------------|----------|
+| Red        | 255,  89,  75 | FF 59 4B |
+| Green      |   0, 187, 161 | 00 BB A1 | 
+| Yellow     | 251, 186,   0 | FB BA 00 |
+| Purple     | 119,  64, 154 | 77 40 9A |
+| Blue       | 112, 175, 253 | 70 AF FD |
+
+![](/static/img/repo/annotation-colours.png)
 
 
 ### Software For Taking and Annotating Screenshots
