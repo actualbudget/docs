@@ -1,6 +1,5 @@
 # Writing Documentation
 
-
 Except for a few sections, most of the documentation is aimed at end users. It is important to keep this in mind when writing documentation. In practice, this means that it is better to be a bit verbose and write out every step in a process than assume that the reader is on the writer's technical level.
 
 <details><summary>Read example</summary>
@@ -16,30 +15,61 @@ A better approach for inexperienced people, as it explains what each step is doi
 
 </details>
 
-We use the [Docosaurus](https://docusaurus.io/) system to generate our documentation, please head over to their website to learn more.
+We generate our website using the [Docosaurus](https://docusaurus.io/) system, and our documentation is written in Markdown (+ some Docosaurus specifics).
 
 
+If you want to contribute, you need to know about the following to items:
+
+* [Actual documentation repository on GitHub](https://github.com/actualbudget/docs)
+* [Actual Budget #documentation channel on Discord](https://discord.com/channels/937901803608096828/1027831463103696928) 
 
 
 ## Documentation Structure
 
-### Documentation Map
+We follow a strict, mandatory, structure in our documents.
 
-Below is the documentation structure for the Actual Community Docs.
+`# The document title`
 
+Each document must only have one heading or title. When a title is not provided in the document's front matter (see below), 
+the heading provided is used instead and displayed in the documentation tree.
+
+
+`## Sub Headings to split out sections of your document`
+
+Subheadings divide the document into meaningful chapters or sections. When viewing a document, they are displayed in the right sidebar to allow the reader to navigate the content easily.
+
+`### Section subheadings.`
+
+Each chapter can then be split into subsections using three-gate headings. Is is also pos
+
+It is possible to have the fourth level if needed.
+
+
+### Document Frontmatter
+
+Front matter is used to add metadata to your documentation file. The front matter enriches the default metadata inferred from the content or other configuration.
+
+Using front matter is not mandatory.
+
+```markdown
+---
+title: My Doc Title
+more_data:
+  - Can be provided
+  - as: objects
+    or: arrays
+---
 ```
-#################################
-#
-# TODO: This does not reflect the real world anymore - maybe we should do a generic
-#       writeups on when to use folder and when not to. If we go down this road it
-#       is imperative that the naming of the folders reflect the title in the sidebar.
-#     
-#       Anyway - if we where to keep it here, I suggest we put this information into
-#       an "expand box"
-#
-#################################
-```
 
+
+
+### Documentation folder structure
+
+The documentation folder structure should follow the structure in the left of the screen. 
+This means sections with more than one page have their own directories. 
+
+
+<details><summary>Click here to get an overview of the folder structure</summary>
 
 ```
 website # the root directory of the documentation site
@@ -59,58 +89,28 @@ website # the root directory of the documentation site
         ...
     └── contributing # How to contribute, project structures etc.
         ...
-    └── experimental # Documentation for experimental features
+    └── experimental # Documentation for experimental features.
         ...
-    └── getting-started # Getting started with Actual
-        ...
-    └── install # Documentation around installing actual
+    └── getting-started # Getting started with Actual.
+        ....
+    └── install # Documentation around installing actual.
         ...
     └── migration # Migrating into Actual and using the tools available.
         ...
-    └── reports
+    └── reports # Everything reporting.
         ...
-    └── tour
+    └── tour # The Actual Tour.
         ...
-    └── transactions
+    └── transactions # Handling transactions.
         ...
-    └── troubleshooting
+    └── troubleshooting # Hints and tips regarding troubles.
         ...
 │
 └── static
     └── img
 ```
 
-### Document Frontmatter
-
-Front matter is used to add metadata to your documentation file. The front matter is used to enrich the default metadata inferred from the content or other configuration.
-
-```markdown
----
-title: My Doc Title
-more_data:
-  - Can be provided
-  - as: objects
-    or: arrays
----
-```
-
-### Document Headings
-
-The below shows how a document should be laid out.
-
-`# A single heading`
-
-Each document should only have one single heading. When a title is not provided in the front matter of the document, the heading provided is used instead and displayed in the documentation tree.
-
-`## Sub Headings to split out sections of your document`
-
-Subheadings are used to split the document into meaningful "chapters." These are then used in the right sidebar when viewing a document to allow the reader to easily navigate the document content.
-
-`### Section subheadings.`
-
-Each "chapter" can then be split into subsections using three-gate headings.
-
-
+</details>
 
 ## Document Guidelines
 
@@ -283,7 +283,7 @@ Use strong, clear, and crisp colours to create good contrasts. Do not use pure w
 all screenshots taken using the light theme, there are dark elements like the sidebar and particular dropdowns in the 
 GUI. Avoid annotating these elements using dark colours.
 
-Remember that colours are tricky for colourblind people.
+Remember that colours are tricky for colour blind people.
 
 We suggest using the following colours (RGB values):
 
