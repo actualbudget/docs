@@ -33,6 +33,7 @@ const sidebars = {
       label: 'Getting Started',
       collapsible: false,
       items: [
+        'getting-started/roadmap-for-new-users',
         {
           type: 'category',
           label: 'Installing Actual',
@@ -81,10 +82,11 @@ const sidebars = {
             'tour/settings',
           ],
         },
+        'getting-started/starting-fresh',
         'getting-started/tips-tricks',
         'getting-started/sync',
         'getting-started/manage-files',
-        'getting-started/starting-clean',
+        'getting-started/envelope-budgeting',
         {
           type: 'category',
           label: 'Migration',
@@ -172,7 +174,11 @@ const sidebars = {
             type: 'doc',
             id: 'reports-filters/index',
           },
-          items: ['reports-filters/reports', 'reports-filters/filters'],
+          items: [
+            'reports-filters/filters',
+            'reports-filters/reports', 
+            'reports-filters/custom-reports'
+          ],
         },
         {
           type: 'category',
@@ -208,6 +214,8 @@ const sidebars = {
           },
           items: [
             'advanced/bank-sync',
+            'advanced/http-header-auth',
+            'advanced/restart',
             {
               type: 'category',
               label: 'Scripts',
@@ -225,7 +233,6 @@ const sidebars = {
             'experimental/monthly-cleanup',
             'experimental/report-budget',
             'experimental/simplefin-sync',
-            'experimental/custom-reports',
           ],
         },
       ],
@@ -243,6 +250,7 @@ const sidebars = {
           items: [
             'troubleshooting/server',
             'troubleshooting/shared-array-buffer',
+            'troubleshooting/reset_password',
             'troubleshooting/edge-browser',
           ],
         },

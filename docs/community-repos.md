@@ -15,5 +15,11 @@ Actual currently has official support for migrating budgets from YNAB4 and nYNAB
 
 ## Others
 * **Local REST api** - https://github.com/jhonderson/actual-http-api
-* **Actual Tap** - https://github.com/MattFaz/actual-tap
-   - *Provides an API & WebApp to integrate tap-to-pay transactions on mobile devices with Actual*
+* **Actual Tap** - https://github.com/MattFaz/actualtap
+   - *Provides an API to integrate tap-to-pay transactions on mobile devices with Actual Budget*
+* **Actual AI** - https://github.com/sakowicz/actual-ai
+   - *Categorise transactions using AI*
+* **Actual Helpers** - https://github.com/psybers/actual-helpers
+   - *Collection of helper scripts to do things like track home prices, car values, add loan interest transactions, track investment accounts, etc.*
+* **Actual Python API** - https://github.com/bvanelli/actualpy
+   - *API to interact with the Actual server, written in Python.*

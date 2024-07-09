@@ -8,44 +8,14 @@ In order to deploy Actual to Fly.io, you’ll need to use their command line int
 
 ### Creating a Fly.io Account
 
-:::note
-Fly's pricing structure has changed as of Jan 25, 2024.
-New accounts are now gifted $5 credit. That $5 credit is only spent when exceeding the [free allowances](https://fly.io/docs/about/pricing/#free-allowances) for apps.
-This is called the 'Hobby Trial' plan.
-
-If you create an *additional* organisation from an existing account on a 'Hobby Trial' plan, that organisation will directly start on the 'Hobby' plan, which costs $5 per month as a base rate + usage outside of the free allowance limits.
-This has been confirmed by [Fly staff via their forum](https://community.fly.io/t/i-got-charged-today-for-the-hobby-plan-and-im-confused-as-to-why-cause-fly-io-didnt-send-any-emails/17969/8?u=tjex).
-
-You can therefore still sign up and host your Actual Budget instance with Fly for free, as the usage will not exceed the free allowances.
-:::
+Fly.io has a "pay as you go" plan for new users with no monthly fee, with actual usage billed monthly. Paid plans start at $5/month and include a limited amount of free compute. See [Pricing Details](https://fly.io/docs/about/pricing/) for more information.
 
 To begin, you’ll need to sign up for an account. Go to [fly.io](https://fly.io) and click “Get Started,” then fill in
 the form. Note that Fly requires that credit card details for sign up. See [their docs on how they use credit cards](https://fly.io/docs/about/credit-cards/) for more information.
 
 ### Accessing the `fly` command line tool
 
-There are two ways to access the `fly` command line tool. You can either install it on your local machine, or you can use the web-based terminal that Fly provides. We recommend using the web-based terminal, as it’s the easiest way to get started. However, if you run into issues with the web-based terminal, you can always install the `fly` command line tool on your local machine.
-
-#### Web-based terminal
-
-Go to https://fly.io/terminal/ and click “Launch Web CLI” at the bottom of the page. You may be asked to log into Fly.
-
-Create a new folder named `actual` by typing in this command once the `/app/bin $` prompt appears. Once you’ve typed in the command, press the `Enter` key on your keyboard.
-
-```
-mkdir actual; cd actual
-```
-
-Your terminal should look like this if you’ve done everything correctly:
-
-```
-/app/bin $ mkdir actual; cd actual
-/app/bin/actual $
-```
-
-#### Local installation
-
-If you prefer to install the `fly` command line tool on your local machine, you’ll need to start by opening a command line terminal on your computer.
+To install the `fly` command line tool on your local machine, you’ll need to start by opening a command line terminal on your computer.
 
 - **Windows**: Open the Start menu and search for “PowerShell.” Click on the “PowerShell” app to open it.
 - **macOS**: Open the “Terminal” app from the Utilities folder in your Applications folder.
@@ -111,63 +81,6 @@ Type `fly auth login` and press enter to open your browser and log your terminal
 ## Configuring the app
 
 Now that you’ve gotten the CLI set up, you’re ready to deploy your app to Fly.io. First, you’ll need our template Fly configuration:
-
-### Web-based terminal
-
-1. Type in (or copy-paste) the command `cat > fly.toml` and press enter. Your cursor should move to a new blank line.
-2. Copy the contents of the `fly.toml` template file below and paste it into the terminal.
-3. Hit return on your keyboard so your cursor is at the beginning of a new line.
-4. Press control+d on your keyboard to save the file. (Use the “control” key even on macOS! Terminals are weird)
-
-<details><summary>Click to expand <code>fly.toml</code> template</summary>
-
-```toml title=fly.toml
-[env]
-  PORT = "5006"
-  TINI_SUBREAPER = "1"
-
-[experimental]
-  auto_rollback = true
-  cmd = ["node", "--max-old-space-size=180", "app.js"]
-
-[mounts]
-  source="actual_data"
-  destination="/data"
-
-[[services]]
-  http_checks = []
-  internal_port = 5006
-  processes = ["app"]
-  protocol = "tcp"
-  script_checks = []
-
-  [services.concurrency]
-    hard_limit = 25
-    soft_limit = 20
-    type = "connections"
-
-  [[services.ports]]
-    force_https = true
-    handlers = ["http"]
-    port = 80
-
-  [[services.ports]]
-    handlers = ["tls", "http"]
-    port = 443
-
-  [[services.tcp_checks]]
-    grace_period = "10s"
-    interval = "15s"
-    restart_limit = 0
-    timeout = "2s"
-
-[[vm]]
-  cpu_kind = "shared"
-  cpus = 1
-  memory_mb = 256 
-```
-
-</details>
 
 ### Local terminal
 
@@ -266,21 +179,8 @@ Actual is now up and running. Congratulations! Consider checking out [our tour](
 ## Updating Actual
 
 When updates to Actual are released, you’ll need to re-deploy your app to get the latest version.
-
-### Web-based terminal
-
-Go to https://fly.io/terminal/ and click “Launch Web CLI” at the bottom of the page. You may be asked to log into Fly.
-
-Run the following command, changing the `your-app-name` part to the name you chose when you first deployed Actual:
-
-```bash
-fly deploy --image actualbudget/actual-server:latest --app your-app-name
 ```
-
-For example, if your copy of Actual was available at `https://spring-firefly-8368.fly.dev/`, you would run:
-
-```bash
-fly deploy --image actualbudget/actual-server:latest --app spring-firefly-8368
+fly deploy --image actualbudget/actual-server:latest --app your-app-name
 ```
 
 ### Local terminal
@@ -295,9 +195,7 @@ fly deploy
 
 - **Q.** _I have deployed actual to Fly.io but I am being charged, why is this?_
 
-  **A.** While we wouldn’t know for certain without seeing your configuration, it is likely that during
-  deployment you created a Postgres database. Actual doesn’t need this so you can just delete it and
-  charges should then stop. If you're unsure, please [reach out to us](/contact).
+  **A.** Pay as you go plans are billed for all usage monthly.
 
 - **Q.** _How can I try out a beta/unstable version of Actual?_
 
