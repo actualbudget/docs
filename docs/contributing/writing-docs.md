@@ -147,7 +147,7 @@ All documentation is written in Markdown, and there is a specific Markdown items
 
 
 ```markdown
-<Key k="f" /> shows bhe f-key.
+<Key k="f" /> shows the f-key.
 <Key k="enter" /> shows the Enter-key.
 <Key mod="shift" k="enter" /> shows the Shift-Enter key combination.
 <Key mod="cmd" k="enter" /> shows the Command-Enter key combination.
@@ -324,7 +324,7 @@ We suggest using the following colours (RGB values):
 
 ![](/static/img/repo/annotation-colours.png)
 
-#### Avoid using _transparency_ or _spotligth_ annotations
+#### Avoid using _transparency_ or _spotlight_ annotations
 
 Different annotation tools handle this in various ways, which means we will get inconsistent screenshots. Secondly, unless you can control the opacity and colour of the highlight, using highlighting could easily confuse more than enlighten the reader. Can you quickly find the highlighted number in the screenshot below?
 
