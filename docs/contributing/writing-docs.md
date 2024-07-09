@@ -155,6 +155,24 @@ Using quotes within your documentation is easy to do using:
 > and another
 ```
 
+
+
+## Naming Standards
+
+### For documents
+
+* Filenames should be self-explanatory and reflect the title of the file.
+* A longer filename is preferred over a shorter one.
+* Folder names must reflect the naming in the sidebar.
+
+### For images
+
+* Images must be placed in the `/static/img/` folder.
+* Except for logos and such, all images related to the documentation must be placed in a folder corresponding to where the document is stored. Let's say you want to add an image to a document in the `/docs/budgeting/` folder - the corresponding images must be stored in the `/static/img/budgeting/` folder.
+* Image names must be prefixed to correspond with the document they primarily belong to. Let's say you are adding an image to the `/docs/budgeting/categories.md` file, then all image names need to be prefixed with `categories-`.
+* For regularly used images, these can be put into `/static/img/elements/`, inside it's own folders. Let's say you want to store images related to the sidebar; then all _sidebar_ images need to be placed in `/static/images/elements/sidebar/`. We have decided to do it this way to minimize the workload for adding images and updating easier.
+
+
 ## Using Images
 
 Using images improves documentation. It is easier for people who read documentation to see what is 
@@ -188,19 +206,4 @@ The clearest way to highlight areas on a screenshot is the 'transparency' box.
 If a transparency box isn't available in your image editor, use an arrow or a colored box with hex: `#d5805a` / rgb: `213, 128, 90` (an analogous shade of orange to Actual's purple). If it's not practical to be that precise, just pick one as close as you can.
 
 
-
-#### Generic Images and Directory Structures
-
-In order to minimize the workload for adding images and make updating images easier, there's a directory containing regularly used images.
-
-For example, many feature instructions may first require the user to navigate to a standard menu, e.g.,
-
-> "Click on 'Settings' in the sidebar"  
-> [inserted image of the settings button in the sidebar]
-
-In this case, the relevant screenshot is found at `/static/img/elements/sidebar/sidebar-settings@2x.png`, along with all other possible menu selections in the sidebar.
-
-If there's an image missing from any of the respective folders in `elements/`, feel free to add one yourself following the same naming scheme.
-
-All other screenshots for the page you are working on should be placed in the respective folder in the `img/` directory. e.g., when working on a page titled 'cool-feature', images should be placed in the `static/img/cool-feature/` folder.
 
