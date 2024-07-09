@@ -190,6 +190,19 @@ Using quotes within your documentation is easy to do using:
 > and another
 ```
 
+### Hiding and showing  information
+
+
+<details><summary>Click here to see how this is made</summary>
+
+`<details><summary>The title of the summary</summary>`
+
+Place your content inside the details-tags.
+
+`</details>`
+
+
+</details>
 
 
 ## Naming Standards
@@ -310,6 +323,22 @@ We suggest using the following colours (RGB values):
 | Blue       | 112, 175, 253 | 70 AF FD |
 
 ![](/static/img/repo/annotation-colours.png)
+
+#### Avoid using _transparency_ or _spotligth_ annotations
+
+Different annotation tools handle this in various ways, which means we will get inconsistent screenshots. Secondly, unless you can control the opacity and colour of the highlight, using highlighting could easily confuse more than enlighten the reader. Can you quickly find the highlighted number in the screenshot below?
+
+
+![](/static/img/repo/annotation-highlights-are-bad.png)
+
+<details><summary>It might work when using the light theme</summary>
+
+However, because we dim down the rest of the image, this breaks over the notion that images should be clear and crisp.
+
+![](/static/img/repo/annotation-highlights-ligth-theme.png)
+
+</details>
+
 
 
 ### Software For Taking and Annotating Screenshots
