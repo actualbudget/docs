@@ -175,17 +175,18 @@ Using quotes within your documentation is easy to do using:
 
 ## Using Images
 
-By using images that accompany the description, we make the documentation more accessible, thus improving its readability.
+Using images accompanying the description makes the documentation more accessible, thus improving its readability.
 
 The way to do this is to take good screenshots.  When taking screenshots, there are a few things to keep in mind:
 
 * It is crucial to ensure that the image is crystal clear and directly relevant. 
   Blurry or muddled images can detract from the user's understanding and confidence in the documentation.
-* Striking the right balance is key. Too much information can overwhelm the reader, 
+* Striking the right balance on how much a screenshot should include is vital. Too much information can overwhelm the reader, 
   while too little can leave them without the necessary context. Your judgment in 
   this matter is crucial to the effectiveness of the documentation.
 * Avoid taking screenshots on a big screen when the browser is in full-screen mode. 
-  Try to make images that are at most 1100 pixels wide and 700 pixels long.
+  Try to take screenshots at most 1100 pixels wide and 700 pixels long. By this, we do not mean the size of the 
+  finished images but how much of the screen you are taking a picture of.
 * Images must always be saved in the PNG format.
 * Take only images using the _light_ mode, not _dark_.
 * If you need to address more than one part of the screenshot, annotate the image. See below for more details.
