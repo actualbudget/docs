@@ -162,7 +162,7 @@ A few examples have been given to illustrate this difference.
 * The `goal` templates are run the same way as the other templates but using the month options or the category budget options.
 * If there is a `goal` directive in a category, the indicator for that category will be based on the total balance compared to the amount set in the template line.
 * The `goal` directive will not budget any funds, and funds budgeted by hand will not get reset by running templates.
-* A `goal` line can be stacked with templates to automatcially budget the category(via the templates) but override how the category goal is indicated(the goal line).
+* A `goal` line can be stacked with templates to automatically budget the category(via the templates) but override how the category goal is indicated(the goal line).
 * If templates are included with a `goal`, the budgeted amount will get overwritten when using the "overwrite with budget template" button.
 * There is no priority on a `goal` line.
 
