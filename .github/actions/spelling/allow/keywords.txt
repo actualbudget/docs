@@ -31,6 +31,7 @@ flyctl
 Formik
 gebabebb
 GEBABEBB
+Greenshot
 HSA
 htpasswd
 IBANs
@@ -49,6 +50,7 @@ ldaplogin
 letsencrypt
 libofx
 linting
+Linuxes
 lleskassen
 lte
 minimalistic
