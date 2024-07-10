@@ -306,7 +306,7 @@ Delete an account.
 
 #### `getAccountBalance`
 
-<Method name="getAccountBalance" args={[{ name: 'id', type: 'id' }, { name: 'cutoff', type: 'Date?'}]} />
+<Method name="getAccountBalance" args={[{ name: 'id', type: 'id' }, { name: 'cutoff', type: 'Date?'}]} returns="Promise<number>" />
 
 Gets the balance for an account.  If a cutoff is given, it gives the account balance as of that date.  If no cutoff is given, it uses the current date as the cutoff.
 
