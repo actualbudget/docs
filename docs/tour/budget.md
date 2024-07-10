@@ -1,6 +1,7 @@
 # The Budget View
 
-This view let you manage your budget for various months. 
+This view lets you manage your budget for various months. You'll find more information about how to do budgeting with Actual
+in the [Budgeting](/docs/budgeting/) part of this manual.
 
 ![](/static/img/a-tour-of-actual/tour-budget-overview.png)
 
@@ -39,15 +40,36 @@ When the top is minimized, you can still access the same functionality as when t
 
 ## The Budget Detail Section
 
-The budget detail section lists all your categories, and their grouping. In the image bellow we see two expense category 
-group, _Really Important_ and _Daily Expenses_, along with the income categories. You can minimize a category group, as we see
+
+
+### Left side - category section
+
+The budget detail section lists all your categories and their grouping. The image below shows two expense category
+groups, _Really Important_ and _Daily Expenses_, along with the income categories. You can minimize a category group, as seen
 with _Daily expenses_.
 
-By clicking on the three vertical dots (in the yellow box) this give you the ability to _Toggle hidden categories_, _Expand or hide all_ category groups.
+Clicking on the three vertical dots (in the yellow box) allows you to Toggle hidden categories or expand or hide all category groups.
 
-When you hover over a category group, you can add you get a dropdown that give you access to these functions:
+When you hover over a category group (outlined by the green box), you can add a note by clicking the note icon. As with the note icon in the top section,
+we also have full Markdown support here. The dropdown will allow you to add a new category, toggle hide or show the category group_, rename a group,
+and delete the category group.
 
+Let's look at a category (as seen in the purple box). We have the same functionality as on the group level: hide, rename and delete. And, of course, you
+can also here add a note.
 
 ![](/static/img/a-tour-of-actual/tour-budget-details.png)
+
+### The middle - the budget section
+
+This is the juicy part of the user interface; this is where you work with your budgeted numbers.
+
+Under a month heading, we have three columns: _Budgeted_, _Spent_, and _Balance_. The _Spent_ column displays how much we spent in a month.
+ The Balance differs between the _Budgeted_ and the _Spent_ columns.
+
+ You work with the _Budgeted_ column to manipulate your budget: You can enter a number or use a dropdown which will populate the entry based on a
+ _copy of last month's budget_, or the previous 3 or 6-month average, and finally a yearly average.
+
+
+
 
 
