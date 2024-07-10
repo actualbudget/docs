@@ -77,7 +77,7 @@ const sidebars = {
             'tour/accounts',
             'tour/reports',
             'tour/schedules',
-            'tour/files',
+            'tour/payees',
           ],
         },
         'getting-started/tips-tricks',
