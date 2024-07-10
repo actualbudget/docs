@@ -17,7 +17,7 @@ the values for both cleared and uncleared totals. See the
 [reconciliation topic](/docs/accounts/reconciliation) in the manual for more information.
 
 The top section also give you access to several functions like importing transactions, manually adding new transactions, 
-and filter what transactions you see. On the right side you'll find the _Serach_ field which let's you quickly search 
+and filter what transactions you see. On the right side you'll find the _Search_ field which let's you quickly search 
 all fields. 
 
 It is possible to split a transaction into more than one category, clicking on the expand/contract arrows, seen in the blue box, 
@@ -43,7 +43,7 @@ you can only do so from the [Budget View](./budget).
 ## Filtering on transactions
 
 Clicking on the **Filter** lets you filter on all the fields. In the screenshot, we see that we search where the Payee is
-_Springfield Clothes and food_ and the Category qeuals just _Clothing_.
+_Springfield Clothes and food_ and the Category equals just _Clothing_.
 
 If you are filtering for the same things over and over, you can save your filter by clicking on the _Unsaved filter_ dropdown
 on the right side in the header.
