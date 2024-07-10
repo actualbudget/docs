@@ -79,6 +79,7 @@ const sidebars = {
             'tour/reports',
             'tour/schedules',
             'tour/payees',
+            'tour/rules',
           ],
         },
         'getting-started/starting-fresh',
