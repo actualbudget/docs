@@ -75,6 +75,7 @@ const sidebars = {
             'tour/user-interface',
             'tour/budget',
             'tour/accounts',
+            'tour/reports',
             'tour/schedules',
             'tour/files',
           ],
