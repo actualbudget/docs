@@ -11,6 +11,7 @@ The following are implementations of bank syncing using the Actual API. For inst
 
 * **My Edenred Portugal bank sync** - https://github.com/rodriguestiago0/myedenred-actual
 * **ING bank CSV importer** - https://github.com/jvmap/ActualBudgetTransformer
+* **Monobank bank importer** - https://github.com/dnullproject/mono-to-actualbudget
 * **Plaid bank sync** - https://github.com/youngcw/actualplaid
 * **SimpleFIN bank sync** - https://github.com/duplaja/actual-simplefin-sync/
 
