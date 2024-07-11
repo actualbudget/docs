@@ -71,7 +71,6 @@ This is the documentation of all available API methods. The API has not been rel
 <APIList title="Misc" sections={[
 "FileEntity",
 "initConfig",
-"runBankSync",
 "init",
 "shutdown",
 "sync",
