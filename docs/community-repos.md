@@ -28,6 +28,7 @@ Actual currently has official support for migrating budgets from YNAB4 and nYNAB
 * **Mint.com** - https://github.com/youngcw/actual_mint_importer
 * **MoneyMoney** - https://github.com/NikxDa/actual-moneymoney
 * **Financier.io** - https://github.com/jat255/financier-to-actual
+* **Quicken on Mac** - https://github.com/slimslickner/quicken-mac-to-actual-budget
 
 
 ## Various utilities to enhance Actual's functionality

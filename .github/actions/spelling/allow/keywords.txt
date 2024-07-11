@@ -9,6 +9,7 @@ autocompletes
 Blix
 bnp
 CAGLESMM
+Caju
 caniuse
 Cardless
 categorygroup
@@ -57,6 +58,7 @@ linting
 linuxsvg
 lleskassen
 lte
+mac
 macsvg
 Mariushosting
 minimalistic
@@ -81,6 +83,7 @@ protobuf
 publix
 QFX
 QIF
+Quicken
 returnsandreimbursements
 roadmap
 Rezip
