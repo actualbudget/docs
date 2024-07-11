@@ -8,6 +8,7 @@ Authelia
 autocompletes
 Blix
 bnp
+BTC
 CAGLESMM
 Caju
 caniuse
@@ -19,6 +20,7 @@ CLI
 clickable
 clsx
 codemirror
+Coinbase
 commandlet
 Crd
 crdt
@@ -62,6 +64,7 @@ mac
 macsvg
 Mariushosting
 minimalistic
+Monobank
 monkeypatch
 Morrisons
 NAIAGB
