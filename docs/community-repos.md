@@ -9,7 +9,7 @@ They are for special use cases or for developing features that have not yet been
 
 The following are implementations of bank syncing using the Actual API. For instructions on using them, see the respective repositories.
 
-* **My Edenred Portogual bank sync** - https://github.com/rodriguestiago0/myedenred-actual
+* **My Edenred Portugal bank sync** - https://github.com/rodriguestiago0/myedenred-actual
 * **Plaid bank sync** - https://github.com/youngcw/actualplaid
 * **SimpleFIN bank sync** - https://github.com/duplaja/actual-simplefin-sync/
 

@@ -24,6 +24,7 @@ debian
 dedupes
 deleteaccount
 dmg
+Edenred
 escodegen
 expando
 Firefox
