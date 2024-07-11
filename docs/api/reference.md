@@ -69,8 +69,7 @@ This is the documentation of all available API methods. The API has not been rel
 ]} />
 
 <APIList title="Misc" sections={[
-"Budget",
-"RemoteFile",
+"FileEntity",
 "initConfig",
 "runBankSync",
 "init",
@@ -78,9 +77,8 @@ This is the documentation of all available API methods. The API has not been rel
 "sync",
 "runBankSync",
 "runImport",
+"getBudgets",
 "loadBudget",
-"getLocalBudgets",
-"getRemoteBudgets",
 "downloadBudget",
 "batchBudgetUpdates",
 "runQuery"
@@ -527,13 +525,9 @@ Delete a rule.
 
 ## Misc
 
-#### Budget
+#### FileEntity
 
-<StructType fields={objects.budget} />
-
-#### RemoteFile
-
-<StructType fields={objects.remoteFile} />
+<StructType fields={objects.fileEntity} />
 
 #### InitConfig
 
@@ -571,17 +565,11 @@ Run the 3rd party (gocardless, simplefin) bank sync operation. This will downloa
 
 Creates a new budget file with the given name, and then runs the custom importer function to populate it with data.
 
-#### `getLocalBudgets`
+#### `getBudgets`
 
-<Method name="getLocalBudgets" args={[]} returns="Promise<Budget[]>" />
+<Method name="getBudgets" args={[]} returns="Promise<FileEntity[]>" />
 
-Returns a list of all locally cached budget files.
-
-#### `getRemoteBudgets`
-
-<Method name="getRemoteBudgets" args={[]} returns="Promise<RemoteFile[]>" />
-
-Returns a list of all budget files available on the remote server.
+Returns a list of all budget files either locally cached or on the remote server.  Remote files have a `state` field and local files have an `id` field.
 
 #### `loadBudget`
 

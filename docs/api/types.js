@@ -339,12 +339,7 @@ export let objects = {
     },
   ],
 
-  // cloudFileId: file.fileId,
-  // state: 'remote',
-  // groupId: file.groupId,
-  // encryptKeyId: file.encryptKeyId,
-  // hasKey: file.hasKey,
-  remoteFile: [
+  fileEntity: [
     {
       name: 'name',
       type: 'string',
@@ -391,6 +386,24 @@ export let objects = {
       description: (
         <span>
           The encryption key ID for the file, if it is encrypted.
+        </span>
+      ),
+    },
+    {
+      name: 'state',
+      type: 'string',
+      description: (
+        <span>
+          Remote files have this set to "remote".
+        </span>
+      ),
+    },
+    {
+      name: 'id',
+      type: 'string',
+      description: (
+        <span>
+          The local budget file's local ID.
         </span>
       ),
     },
