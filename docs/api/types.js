@@ -289,56 +289,6 @@ export let objects = {
     { name: 'actions', type: 'ConditionOrAction[]' },
   ],
 
-  budget: [
-    {
-      name: 'id',
-      type: 'string',
-      required: true,
-      description: (
-        <span>
-          A unique id for the budget. This is usually a UUID.
-        </span>
-      ),
-    },
-    {
-      name: 'name',
-      type: 'string',
-      required: true,
-      description: (
-        <span>
-          The budget's name.
-        </span>
-      ),
-    },
-    {
-      name: 'cloudFileId',
-      type: 'string',
-      description: (
-        <span>
-          The id for the budget on the server. This is usually a UUID.
-        </span>
-      ),
-    },
-    {
-      name: 'groupId',
-      type: 'string',
-      description: (
-        <span>
-          The group id for the budget.
-        </span>
-      ),
-    },
-    {
-      name: 'encryptKeyId',
-      type: 'string',
-      description: (
-        <span>
-          The encryption key ID for the file, if it is encrypted.
-        </span>
-      ),
-    },
-  ],
-
   fileEntity: [
     {
       name: 'name',
