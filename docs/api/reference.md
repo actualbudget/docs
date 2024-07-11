@@ -456,7 +456,7 @@ Delete a payee.
 
 <Method name="mergePayees" args={[{ name: 'targetId', type: 'id' }, { name: 'mergeIds', type: 'id[]' }]} returns="Promise<null>" />
 
-Merge one or more payees into the target payee.
+Merge one or more payees into the target payee, retaining the name of the target.
 
 ## Rules
 
