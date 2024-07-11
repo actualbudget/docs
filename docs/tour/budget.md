@@ -51,7 +51,7 @@ with _Daily expenses_.
 Clicking on the three vertical dots (in the yellow box) allows you to Toggle hidden categories or expand or hide all category groups.
 
 When you hover over a category group (outlined by the green box), you can add a note by clicking the note icon. As with the note icon in the top section,
-we also have full Markdown support here. The dropdown will allow you to add a new category, toggle hide or show the category group_, rename a group,
+we also have full Markdown support here. The dropdown will allow you to add a new category, toggle hide or show the _category group_, rename a group,
 and delete the category group.
 
 Let's look at a category (as seen in the purple box). We have the same functionality as on the group level: hide, rename and delete. And, of course, you
@@ -63,8 +63,11 @@ can also here add a note.
 
 This is the juicy part of the user interface; this is where you work with your budgeted numbers.
 
-Under a month heading, we have three columns: _Budgeted_, _Spent_, and _Balance_. The _Spent_ column displays how much we spent in a month.
- The Balance differs between the _Budgeted_ and the _Spent_ columns.
+We have three columns under a month heading: _Budgeted_, _Spent_, and _Balance_.
+
+* _Budgeted_ is how much money we allocated to this category that month.
+* The _Spent_ column displays how much we spent in a month.
+* The _Balance_ is the difference between the _Budgeted_ and the _Spent_ columns + what was left over from the previous month (as a rule of thumb).
 
  You work with the _Budgeted_ column to manipulate your budget: You can enter a number or use a dropdown which will populate the entry based on a
  _copy of last month's budget_, or the previous 3 or 6-month average, and finally a yearly average.
