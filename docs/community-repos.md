@@ -4,12 +4,16 @@
 The following community projects are not maintained by the Actual Budget project but integrated with it. 
 They are for special use cases or for developing features that have not yet been integrated into Actual.
 
+If you want your project listed here, notify people in the #documentation Discord channel. Before you can ask 
+for it to be added, your project must have a proper Readme file.
+
 
 ## Bank Importers
 
 The following are implementations of bank syncing using the Actual API. For instructions on using them, see the respective repositories.
 
 * **My Edenred Portugal bank sync** - https://github.com/rodriguestiago0/myedenred-actual
+* **Caju Brazil bank exporter to OFX** - https://github.com/Kasama/caju-actual-budget-importer
 * **Credit Suisse, Cembra Money Bank, DKB, ZKB, and Interactive Brokers CVS import** - https://github.com/wirhabenzeit/actual-budget-cli
 * **ING bank CSV import** - https://github.com/jvmap/ActualBudgetTransformer
 * **Monobank bank sync** - https://github.com/dnullproject/mono-to-actualbudget
