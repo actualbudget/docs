@@ -69,7 +69,7 @@ This is the documentation of all available API methods. The API has not been rel
 ]} />
 
 <APIList title="Misc" sections={[
-"FileEntity",
+"BudgetFile",
 "initConfig",
 "init",
 "shutdown",
@@ -524,9 +524,9 @@ Delete a rule.
 
 ## Misc
 
-#### FileEntity
+#### BudgetFile
 
-<StructType fields={objects.fileEntity} />
+<StructType fields={objects.budgetFile} />
 
 #### InitConfig
 

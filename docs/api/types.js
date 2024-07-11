@@ -289,7 +289,7 @@ export let objects = {
     { name: 'actions', type: 'ConditionOrAction[]' },
   ],
 
-  fileEntity: [
+  budgetFile: [
     {
       name: 'name',
       type: 'string',
