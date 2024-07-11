@@ -566,7 +566,7 @@ Creates a new budget file with the given name, and then runs the custom importer
 
 #### `getBudgets`
 
-<Method name="getBudgets" args={[]} returns="Promise<FileEntity[]>" />
+<Method name="getBudgets" args={[]} returns="Promise<BudgetFile[]>" />
 
 Returns a list of all budget files either locally cached or on the remote server.  Remote files have a `state` field and local files have an `id` field.
 
