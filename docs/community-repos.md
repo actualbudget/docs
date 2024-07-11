@@ -10,8 +10,9 @@ They are for special use cases or for developing features that have not yet been
 The following are implementations of bank syncing using the Actual API. For instructions on using them, see the respective repositories.
 
 * **My Edenred Portugal bank sync** - https://github.com/rodriguestiago0/myedenred-actual
-* **ING bank CSV importer** - https://github.com/jvmap/ActualBudgetTransformer
-* **Monobank bank importer** - https://github.com/dnullproject/mono-to-actualbudget
+* **Credit Suisse, Cembra Money Bank, DKB, ZKB, and Interactive Brokers CVS import** - https://github.com/wirhabenzeit/actual-budget-cli
+* **ING bank CSV import** - https://github.com/jvmap/ActualBudgetTransformer
+* **Monobank bank sync** - https://github.com/dnullproject/mono-to-actualbudget
 * **Plaid bank sync** - https://github.com/youngcw/actualplaid
 * **SimpleFIN bank sync** - https://github.com/duplaja/actual-simplefin-sync/
 
@@ -40,6 +41,8 @@ Actual currently has official support for migrating budgets from YNAB4 and nYNAB
 
 ## Others
 
+* **Actual Budget CLI** - https://github.com/wirhabenzeit/actual-budget-cli
+   - *CLI to interact with the Actual Budget API.*
 * **Local REST API** - https://github.com/jhonderson/actual-http-api
    - *This is a bridging API between REST and the internal Actual APIs.*
 * **Actual Python API** - https://github.com/bvanelli/actualpy
