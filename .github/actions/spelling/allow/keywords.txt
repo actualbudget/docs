@@ -12,7 +12,9 @@ CAGLESMM
 caniuse
 Cardless
 categorygroup
+Cembra
 Certbot
+CLI
 clickable
 clsx
 codemirror
@@ -23,6 +25,7 @@ creditcards
 debian
 dedupes
 deleteaccount
+DKB
 dmg
 Edenred
 escodegen
@@ -36,6 +39,7 @@ HSA
 htpasswd
 IBANs
 iex
+ING
 importtransactions
 invokable
 iwr
@@ -89,6 +93,7 @@ subfolders
 subreaper
 subtransaction
 subtransactions
+Suisse
 tini
 traefik
 Trafico
@@ -103,4 +108,5 @@ Xxxxx
 ynab
 Ynab
 YNAB
+ZKB
 Zsolt
