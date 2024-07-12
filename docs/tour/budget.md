@@ -1,4 +1,4 @@
-# The Budget View
+# The Budget 
 
 This view lets you manage your budget for various months. You'll find more information about how to do budgeting with Actual
 in the [Budgeting](/docs/budgeting/) part of this manual.
@@ -18,7 +18,7 @@ Based on this, you can then choose which months to show:
 
 
 
-## The Top Section
+## The Month header
 
 At the top of each month, you have a couple of choices in the user interface.
 
@@ -38,7 +38,7 @@ When the top is minimized, you can still access the same functionality as when t
 ![](/static/img/a-tour-of-actual/tour-budget-top-minimized.png)
 
 
-## The Budget Detail Section
+## The Budget Table
 
 
 

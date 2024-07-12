@@ -1,4 +1,4 @@
-# The Reports View
+# Reports
 
 This view give you access to both the two built in report, _Net Worth_ and _Cash Flow_, but also your own custom reports.
 

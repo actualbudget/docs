@@ -1,11 +1,11 @@
-# The Account Register View
+# The Account Register 
 
 This view lets you manage your transaction for an account. Consult the [Accounts & Transaction](/docs/accounts/) section in
 the manual for detailed information on how to work with this view.
 
 ![](/static/img/a-tour-of-actual/tour-account-register-overview.png)
 
-## The Account Register Top Section
+## The Account Header
 
 To rename the account, click on the pencil icon. Clicking on the note icon lets you add a note. Actual fully support 
 Markdown and the note will be rendered according to your Markdown when the cursor is hovering over the note.

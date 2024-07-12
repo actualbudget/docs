@@ -1,4 +1,4 @@
-# The Rules View
+# Transaction Rules
 
 Actual's robust rules system will help you automate many transaction management tasks.
 

@@ -1,4 +1,4 @@
-# The Schedules View
+# Scheduled Transactions
 
 
 If you already have data in your accounts, you can have Actual proposed schedules based on the available data.

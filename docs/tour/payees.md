@@ -1,4 +1,4 @@
-# The Payees View
+# Payees Management 
 
 This view lets you manage your Payees. In the overview, you see which Payees
 you have in your system and if they have any associated [rules](./rules).
