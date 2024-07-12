@@ -46,7 +46,7 @@ Actual currently has official support for migrating budgets from YNAB4 and nYNAB
 * **Easy category archive function** - https://github.com/rvisharma/actual-archive-category
    - *This tool moves transactions over to an _archive_ category, and then deletes the category.*
 * **Actual Budget Backup** - https://github.com/rodriguestiago0/actualbudget-backup
-   - *Backup Actual Budget and upload if to the configurable destination using rclone.*
+   - *Tool which will back up Actual Budget and upload it to the configurable destination using the clone utility.*
 
 
 ## Others
