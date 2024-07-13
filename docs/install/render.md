@@ -14,7 +14,7 @@ The Free account has usage limits. These should not be a problem for normal use 
 Render.com has an "Individual" plan for hobbyists (that's you!) with no monthly fee.
 
 To begin, you’ll need to sign up for an account. Go to [render.com](https://render.com/) and click **Get Started**. Sign up with your email and
-password of choice. You'll see a prompt to verify your eamil before you can continue.
+password of choice. You'll see a prompt to verify your email before you can continue.
 
 ### Verification email
 
