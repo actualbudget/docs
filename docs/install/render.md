@@ -62,7 +62,7 @@ The address for your Actual Budget is found in the Domain field. In the screensh
 ## Setting a password for your Actual Budget
 
 Before you can start using Actual, you need to set a password for your server. This password is used 
-next time you log into your server - and should never be the same as your PikaPods account password.
+next time you log into your server - and should never be the same as your Render account password.
 
 Keep this password safe, as it cannot be retrieved. If you forget your server password, you will not 
 be able to retrieve your budget.
