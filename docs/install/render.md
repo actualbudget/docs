@@ -27,6 +27,13 @@ From the "+ New" menu (upper right), choose **Web Service**.
 
 - For the **Source Code** choose the **Existing Image** option and enter the Actual Budget Docker image **actualbudget/actual-server**.
 - Click **Connect**.
+
+![](/img/render/web-service-connect.png)
+
+### Deploy Web Service
+
+After the docker image loads a new form will be shown. Only thing you **must do** here is change the instance type to free. All other changes are optional.
+
 - Optional - change **Name**, the default name is fine and will have no bearing on your service.
 - Optional - change **Region** if you want.
 - For **Instance Type** choose **Free**.
