@@ -16,7 +16,7 @@ Render.com has an "Individual" plan for hobbyists (that's you!) with no monthly 
 To begin, you’ll need to sign up for an account. Go to [render.com](https://render.com/) and click **Get Started**. Sign up with your email and
 password of choice. You'll see a prompt to verify your eamil before you can continue.
 
-## Verification email
+### Verification email
 
 By clicking the link in the email, you will be forwarded to a registration form. Fill in the form with your information.
 You'll then be sent to your **Dashboard**
@@ -32,9 +32,16 @@ From the "+ New" menu (upper right), choose **Web Service**.
 - For **Instance Type** choose **Free**.
 - Click **Deploy Web Service**.
 - Wait for your service to deploy (usually takes a few minutes).
-- If you go to **Dashboard** you can easily see the status of your service.
 
-## Your Web Service is now ready to be used
+![](/img/render/web-service-form.png)
+
+### Dashboard page
+
+From the **Dashboard** you can easily see the status of your service. You can also click on the title to see an overview and adjust options and settings.
+
+![](/img/render/web-service-deploying.png)
+
+### Your Web Service is now ready to be used
 
 Once deployed, you can access your new service from the link provided.
 
@@ -43,6 +50,7 @@ From your Dashboard, click on the name of your Web Service and you'll be taken t
 The address for your Actual Budget is found in the Domain field. In the screenshot example, this is
 `https://actual-server-bova.onrender.com`. Yours will be something completely different.
 
+![](/img/render/web-service-overview.png)
 
 ## Setting a password for your Actual Budget
 
