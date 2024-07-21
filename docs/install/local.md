@@ -41,7 +41,7 @@ Note that if you restart your computer, you’ll have to run this command again 
 
 ## Accessing Actual
 
-After servers have started, you can access Actual using your browser at [http://localhost:5006](http://localhost:5006). 
+After the server has been started, you can access Actual using your browser at [http://localhost:5006](http://localhost:5006). 
 
 When accessing Actual for the first time, you may be prompted to provide a URL for the server. For a local installation, click the **Use localhost:5006** button to use the server you've [configured](https://actualbudget.org/docs/config/).
 
