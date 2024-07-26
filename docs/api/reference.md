@@ -5,16 +5,6 @@ title: API Reference
 import { types, objects, PrimitiveTypeList, PrimitiveType, StructType, Method, MethodBox } from './types';
 import APIList from './APIList';
 
-This is the documentation of all available API methods. We offer a JavaScript module that allows to run the Actual Budget app in headless mode in order to manage your budget programmatically.
-
-View the [@actual-app/api](https://www.npmjs.com/package/@actual-app/api) module on npmjs.
-
-:::warning
-
-By default actual **does not have a HTTP API** (please refer to community projects for setting up a HTTP access).
-
-:::
-
 <APIList title="Budgets" sections={[
 "getBudgetMonths",
 "getBudgetMonth",
