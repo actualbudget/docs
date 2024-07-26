@@ -30,7 +30,8 @@ This is the documentation of all available API methods. The API has not been rel
 "updateAccount",
 "closeAccount",
 "reopenAccount",
-"deleteAccount"
+"deleteAccount",
+"getAccountBalance"
 ]} />
 
 <APIList title="Categories" sections={[
@@ -54,7 +55,8 @@ This is the documentation of all available API methods. The API has not been rel
 "getPayees",
 "createPayee",
 "updatePayee",
-"deletePayee"
+"deletePayee",
+"mergePayees"
 ]} />
 
 <APIList title="Rules" sections={[
@@ -69,12 +71,14 @@ This is the documentation of all available API methods. The API has not been rel
 ]} />
 
 <APIList title="Misc" sections={[
+"BudgetFile",
 "initConfig",
 "init",
 "shutdown",
 "sync",
 "runBankSync",
 "runImport",
+"getBudgets",
 "loadBudget",
 "downloadBudget",
 "batchBudgetUpdates",
@@ -303,6 +307,12 @@ Reopen a closed account.
 
 Delete an account.
 
+#### `getAccountBalance`
+
+<Method name="getAccountBalance" args={[{ name: 'id', type: 'id' }, { name: 'cutoff', type: 'Date?'}]} returns="Promise<number>" />
+
+Gets the balance for an account.  If a cutoff is given, it gives the account balance as of that date.  If no cutoff is given, it uses the current date as the cutoff.
+
 #### Examples
 
 ```js
@@ -451,6 +461,12 @@ Update fields of a payee. `fields` can specify any field described in [`Payee`](
 
 Delete a payee.
 
+#### `mergePayees`
+
+<Method name="mergePayees" args={[{ name: 'targetId', type: 'id' }, { name: 'mergeIds', type: 'id[]' }]} returns="Promise<null>" />
+
+Merge one or more payees into the target payee, retaining the name of the target.
+
 ## Rules
 
 #### ConditionOrAction
@@ -522,6 +538,10 @@ Delete a rule.
 
 ## Misc
 
+#### BudgetFile
+
+<StructType fields={objects.budgetFile} />
+
 #### InitConfig
 
 <StructType fields={objects.initConfig} />
@@ -557,6 +577,12 @@ Run the 3rd party (gocardless, simplefin) bank sync operation. This will downloa
 <Method name="runImport" args={[{ properties: [{ name: 'budgetName', type: 'string' }, { name: 'func', type: 'func' }] }]} returns="Promise<void>" />
 
 Creates a new budget file with the given name, and then runs the custom importer function to populate it with data.
+
+#### `getBudgets`
+
+<Method name="getBudgets" args={[]} returns="Promise<BudgetFile[]>" />
+
+Returns a list of all budget files either locally cached or on the remote server.  Remote files have a `state` field and local files have an `id` field.
 
 #### `loadBudget`
 
