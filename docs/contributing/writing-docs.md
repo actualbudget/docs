@@ -62,7 +62,6 @@ more_data:
 ```
 
 
-
 ### Documentation folder structure
 
 The documentation folder structure should follow the structure in the left of the screen. 
@@ -153,6 +152,12 @@ All documentation is written in Markdown, and there is a specific Markdown items
 <Key mod="cmd" k="enter" /> shows the Command-Enter key combination.
 ```
 
+#### The above will be rendered as follows
+
+* <Key k="f" /> shows the f-key.
+* <Key k="enter" /> shows the Enter-key.
+* <Key mod="shift" k="enter" /> shows the Shift-Enter key combination.
+* <Key mod="cmd" k="enter" /> shows the Command-Enter key combination.
 
 
 ### Highlights 
@@ -167,7 +172,7 @@ Your tip content
 
 
 ```markdown
-:::notes
+:::note
 Your note content
 :::
 ```
@@ -179,6 +184,21 @@ If you want to make a reader aware of a cautionary item in your documentation, y
 Your cautionary item
 :::
 ```
+
+#### The above highlights will be rendered as follows
+:::tip
+Your tip content
+:::
+
+:::note
+Your note content
+:::
+
+:::caution
+Your cautionary item
+:::
+
+
 
 ### Quotes & Code Blocks
 
