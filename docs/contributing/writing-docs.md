@@ -142,6 +142,10 @@ Docusaurus 2 provides translation using [i8n](https://docusaurus.io/docs/i18n/in
 
 All documentation is written in Markdown, and there is a specific Markdown items that is specific to Docusaurus.
 
+If you have never used Markdown, please consult [CommonMark](https://commonmark.org/) and the 
+[Docusaurus Markdown Features](https://docusaurus.io/docs/markdown-features) guide. You can learn more about Markdown in 
+[The Markdown Guide](https://www.markdownguide.org/).
+
 ### Keyboard shortcuts
 
 
