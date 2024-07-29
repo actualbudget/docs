@@ -199,17 +199,6 @@ Your cautionary item
 :::
 
 
-
-### Quotes & Code Blocks
-
-Using quotes within your documentation is easy to do using:
-
-```markdown
-> Your quote goes here
-> another line of your quote
-> and another
-```
-
 ### Hiding and showing  information
 
 
