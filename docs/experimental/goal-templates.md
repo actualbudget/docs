@@ -43,6 +43,8 @@ You are welcome to have other lines in your note, but the #template line must ma
 |#template average 6 months | Budget the average amount spent over the last 6 months.  Can set the number to any number > 0.  Matches the existing option on the budget page but with flexible month ranges |
 |#template remainder | Add all remaining funds to this category| See the [Remainder Template](#remainder-template) Section for info |
 | #goal 1000         | Set a long term goal instead of a monthly goal | See the [Goal Directive](#goal-directive) Section for info |
+|#template +$50|Sets a Pay Distribution Template, Each time 'Apply Template' is clicked adds the given amount to the category budgeted amount. | Distributes each paycheck accross the marked categories when not paid monthly. See [Pay Distribution Templates](#pay-distribution-templates)|
+|#template +10%| Sets a Pay Distribution Template, Each time 'Apply Template' is clicked adds the given percentage from remaing avlible budget to the category budgeted amount. | Distributes each paycheck accross the marked categories when not paid monthly. See [Pay Distribution Templates](#pay-distribution-templates)|
 
 ### Notes
 
@@ -54,6 +56,7 @@ You are welcome to have other lines in your note, but the #template line must ma
 - The `hold` flag can be added to any goal that uses the `up to` key word.
 - A single category with two templates that use `up to` is not supported.
 - If in a category there are multiple templates within the same priority level and one template uses the `up to` key word, all templates in that priority level will be limited to the maximum amount specified by `up to`.
+
 
 ### Multiple Template Lines
 
@@ -197,6 +200,36 @@ If you have some extra funds after templates are run and can budget that last 50
 | Template Line(s) | Amount budgeted | Balance(indication color) |
 |:---|:---:|---:|
 | `#template 50` `#goal 500` | 100 | 500(green) |
+
+## Pay Distribution Templates
+Pay Distribution templates are used to distribute income across categories, without wiping what has already been budgeted or affecting the category's goal.
+
+Each time 'Apply Template' is clicked the available funds will be distributed accordingly.
+
+### Use Case
+
+Pay Distribution templates are designed for budgeting funds not in sync with a monthly budget. People who need to budget each paycheck or don't have the funds to budget for a whole month.
+
+### Notes
+- Pay Distribution Templates share the same rules for currency and number formats as other templates.
+- Other Templates that share a category with a Pay Distribution template, will ignore the budgeted column and only set the goals for that category.
+- Pay Distribution templates will follow goal limits set by other templates on the category.
+- Pay distribution templates can be used in conjunction with Remainder template. By adding `#template +0` before `#template remainder` all remaining budget will be added to the Remainder templates category budgeted column.
+- Pay distribution templates ignore the `Apply budget template` empty cells rule. This is because Pay distribution templates are designed to add to budgeted amounts regularly.
+- Pay distribution templates only use available funds, once there are no available funds left in the budget all other Pay distribution will not work.
+
+### Examples
+
+Pay distribution templates are triggered each time [Apply Budget Templates](#apply-the-templates) is pressed.
+
+|Template|Actions|
+|:---:|---:|
+| `#template +50`| Will add $50 to the budgeted amount for the category|
+| `#template +10%`| Will add 10% of the available funds to the budgeted amount for the category|
+| `#template +20` `#template 100`| Will Add $20 to the budgeted amount for the category. And also set the goal for the category to $100.|
+| `#template +10%` `#template 100 up to 200`| Will add 10% of the available budget to the budgeted amount for the category. As well as set a goal of 100 and a limit of 200, and remove extra funds.
+| `#template +$30` `#template 100 up to 200 hold`| Will add $30 to the budgeted amount for the category. And also set a goal of 100 up to a limit of 200, but retain funds over the $200.|
+| `#template +0` `#template remainder`| Will add the remaining budget to the budgeted amount for the category.|
 
 
 ## Apply the templates
