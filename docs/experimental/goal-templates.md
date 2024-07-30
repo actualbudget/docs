@@ -43,8 +43,8 @@ You are welcome to have other lines in your note, but the #template line must ma
 |#template average 6 months | Budget the average amount spent over the last 6 months.  Can set the number to any number > 0.  Matches the existing option on the budget page but with flexible month ranges |
 |#template remainder | Add all remaining funds to this category| See the [Remainder Template](#remainder-template) Section for info |
 | #goal 1000         | Set a long term goal instead of a monthly goal | See the [Goal Directive](#goal-directive) Section for info |
-|#template +$50|Sets a Pay Distribution Template, Each time 'Apply Template' is clicked adds the given amount to the category budgeted amount. | Distributes each paycheck accross the marked categories when not paid monthly. See [Pay Distribution Templates](#pay-distribution-templates)|
-|#template +10%| Sets a Pay Distribution Template, Each time 'Apply Template' is clicked adds the given percentage from remaing avlible budget to the category budgeted amount. | Distributes each paycheck accross the marked categories when not paid monthly. See [Pay Distribution Templates](#pay-distribution-templates)|
+|#template +$50|Sets a Pay Distribution Template, Each time 'Apply Template' is clicked adds the given amount to the category budgeted amount. | Distributes each paycheck across the marked categories when not paid monthly. See [Pay Distribution Templates](#pay-distribution-templates)|
+|#template +10%| Sets a Pay Distribution Template, Each time 'Apply Template' is clicked adds the given percentage from remaining available budget to the category budgeted amount. | Distributes each paycheck across the marked categories when not paid monthly. See [Pay Distribution Templates](#pay-distribution-templates)|
 
 ### Notes
 
