@@ -128,7 +128,7 @@ These are types.
 
 #### `holdBudgetForNextMonth`
 
-<Method name="holdBudgetForNextMonth" args={[{ name: 'month', type: 'month' }, { name: 'amount', type: 'id' }]} returns="Promise<null>" />
+<Method name="holdBudgetForNextMonth" args={[{ name: 'month', type: 'month' }, { name: 'value', type: 'amount' }]} returns="Promise<null>" />
 
 #### `resetBudgetHold`
 
