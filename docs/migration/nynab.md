@@ -54,6 +54,19 @@ curl -H "Authorization: Bearer <ACCESS_TOKEN>" https://api.youneedabudget.com/v1
 - Choose the exported json file
 
 ### Optional: Cleanup
+
+#### Credit Cards (Fix Overspending)
+
+If you are importing credit cards with previous debt, you will have to handle these differently as well. Otherwise, your budget months will show overspending. Actual does not handle carrying over debt the same way, but offers a more manual approach.
+
+1. From the Budget screen, create a category named `Credit Card` (perhaps under a Category Group of `Debt`).
+2. Change all transactions that are overspent to have their category be this new `Credit Card` category.
+3. On the first month of overspending for this category, click on the Balance (it should show red) and select `Rollover overspending`.
+
+A full description of how to carry over debt can be found in [this article.](https://actualbudget.org/docs/budgeting/credit-cards/carrying-debt)
+
+#### Hold for Next Month (Fix Money Leftover in To Budget)
+
 nYNAB calculates its `Ready to Assign` value differently than Actual's `To Budget` value.
 There is no need to worry, we can make them match exactly with a simple change.
 This is purely a visual change and doesn't affect the budget itself.
