@@ -43,8 +43,8 @@ You are welcome to have other lines in your note, but the #template line must ma
 |#template average 6 months | Budget the average amount spent over the last 6 months.  Can set the number to any number > 0.  Matches the existing option on the budget page but with flexible month ranges |
 |#template remainder | Add all remaining funds to this category| See the [Remainder Template](#remainder-template) Section for info |
 | #goal 1000         | Set a long term goal instead of a monthly goal | See the [Goal Directive](#goal-directive) Section for info |
-|#template +$50|Sets a Pay Distribution Template, Each time 'Apply Template' is clicked adds the given amount to the category budgeted amount. | Distributes each paycheck across the marked categories when not paid monthly. See [Pay Distribution Templates](#pay-distribution-templates)|
-|#template +10%| Sets a Pay Distribution Template, Each time 'Apply Template' is clicked adds the given percentage from remaining available budget to the category budgeted amount. | Distributes each paycheck across the marked categories when not paid monthly. See [Pay Distribution Templates](#pay-distribution-templates)|
+|#template +$50| Sets a Pay Distribution Template. Each time 'Apply Template' is clicked, the given amount is added to the category budgeted amount. | Distributes each paycheck across the marked categories when not paid monthly. See [Pay Distribution Templates](#pay-distribution-templates)|
+|#template +10%| Sets a Pay Distribution Template. Each time 'Apply Template' is clicked, the percentage from the remaining available budget is added to the category budgeted amount. | Distributes each paycheck across the marked categories when not paid monthly. See [Pay Distribution Templates](#pay-distribution-templates)|
 
 ### Notes
 
@@ -202,9 +202,9 @@ If you have some extra funds after templates are run and can budget that last 50
 | `#template 50` `#goal 500` | 100 | 500(green) |
 
 ## Pay Distribution Templates
-Pay Distribution templates are used to distribute income across categories, without wiping what has already been budgeted or affecting the category's goal.
+Pay Distribution templates distribute income across categories without wiping what has already been budgeted or affecting the category's goal.
 
-Each time 'Apply Template' is clicked the available funds will be distributed accordingly.
+The available funds will be distributed when the 'Apply Template' is clicked.
 
 ### Use Case
 
@@ -212,15 +212,15 @@ Pay Distribution templates are designed for budgeting funds not in sync with a m
 
 ### Notes
 - Pay Distribution Templates share the same rules for currency and number formats as other templates.
-- Other Templates that share a category with a Pay Distribution template, will ignore the budgeted column and only set the goals for that category.
+- Other Templates that share a category with a Pay Distribution template will ignore the budgeted column and only set the goals for that category.
 - Pay Distribution templates will follow goal limits set by other templates on the category.
-- Pay distribution templates can be used in conjunction with Remainder template. By adding `#template +0` before `#template remainder` all remaining budget will be added to the Remainder templates category budgeted column.
-- Pay distribution templates ignore the `Apply budget template` empty cells rule. This is because Pay distribution templates are designed to add to budgeted amounts regularly.
-- Pay distribution templates only use available funds, once there are no available funds left in the budget all other Pay distribution will not work.
+- Pay Distribution templates can be used in conjunction with the Remainder template. By adding `#template +0` before `#template remainder` remaining budget will be added to the current budgeted amount for each of the Remainder templates categories. See the [Remainder Template](#remainder-template) Section for more info. 
+- Pay Distribution templates ignore the Apply budget template empty cells rule because they are designed to add to budgeted amounts regularly.
+- Pay Distribution templates only use available funds; once there are no available funds left in the budget, all other Pay Distributions will not work.
 
 ### Examples
 
-Pay distribution templates are triggered each time [Apply Budget Templates](#apply-the-templates) is pressed.
+Pay distribution templates are triggered each time [Apply Budget Templates](#apply-the-templates) is clicked.
 
 |Template|Actions|
 |:---:|---:|
