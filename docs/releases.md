@@ -30,7 +30,7 @@ The release has the following notable improvements:
 - [#3032](https://github.com/actualbudget/actual/pull/3032) Dim hidden income category rows. — thanks @psybers
 - [#3045](https://github.com/actualbudget/actual/pull/3045) Enhanced Autocomplete sorting, Payees tab filter, and Schedules tab filter for languages with accents / diacritics. — thanks @nullscope
 - [#3049](https://github.com/actualbudget/actual/pull/3049) Include more information in payee of split parent — thanks @jfdoming
-- [#3056](https://github.com/actualbudget/actual/pull/3056) Add payee autocapitalization when creating on mobile — thanks @JukeboxRhino
+- [#3056](https://github.com/actualbudget/actual/pull/3056) Add payee auto capitalization when creating on mobile — thanks @JukeboxRhino
 - [#3061](https://github.com/actualbudget/actual/pull/3061) Add additional keyboard hotkeys. — thanks @psybers
 - [#3100](https://github.com/actualbudget/actual/pull/3100) Added Keyboard Shortcuts Reference to the Electron Help menu — thanks @MikesGlitch
 - [#3112](https://github.com/actualbudget/actual/pull/3112) Add a save button to Spending report so you can keep filter settings between sessions — thanks @carkom
@@ -70,7 +70,7 @@ The release has the following notable improvements:
 - [#3092](https://github.com/actualbudget/actual/pull/3092) Correctly dismiss pop-over when using the copy last month's budget feature — thanks @sleepyfran
 - [#3113](https://github.com/actualbudget/actual/pull/3113) Updated Fly.io link in README to point to correct section of documentation. — thanks @reecerunnells
 - [#3127](https://github.com/actualbudget/actual/pull/3127) Fix issue with schema in updateReports function that was using insert instead of update — thanks @carkom
-- [#3131](https://github.com/actualbudget/actual/pull/3131) Fix menus autoclosed when clicked element on top of the menu — thanks @joel-jeremy
+- [#3131](https://github.com/actualbudget/actual/pull/3131) Fix menus auto closed when clicked element on top of the menu — thanks @joel-jeremy
 - [#3133](https://github.com/actualbudget/actual/pull/3133) Fix the Data Dir Location picker not showing on the Settings page when running in Electron. — thanks @MikesGlitch
 - [#3135](https://github.com/actualbudget/actual/pull/3135) Fixes spending card that doesn't show the correct difference number. — thanks @carkom
 - [#3142](https://github.com/actualbudget/actual/pull/3142) Add missing `:hover` cursor to the new `Button` component. — thanks @MatissJanis
@@ -80,10 +80,10 @@ The release has the following notable improvements:
 - [#3149](https://github.com/actualbudget/actual/pull/3149) Fix missing error handling in rules modal. — thanks @MatissJanis
 - [#3151](https://github.com/actualbudget/actual/pull/3151) Fix plain-text SimpleFin link in error message. — thanks @MatissJanis
 - [#3153](https://github.com/actualbudget/actual/pull/3153) Fix the "Enter" shortcut not saving on "Cover Overspending" popup — thanks @MikesGlitch
-- [#3158](https://github.com/actualbudget/actual/pull/3158) Fix local plawright html reporter config. — thanks @joel-jeremy
+- [#3158](https://github.com/actualbudget/actual/pull/3158) Fix local playwright html reporter config. — thanks @joel-jeremy
 - [#3160](https://github.com/actualbudget/actual/pull/3160) Remove focus outline from modals. — thanks @MatissJanis
 - [#3161](https://github.com/actualbudget/actual/pull/3161) Allow modal content to be vertically scrollable. — thanks @MatissJanis & @MikesGlitch
-- [#3168](https://github.com/actualbudget/actual/pull/3168) Fix inputfields overflowing while adding split transactions — thanks @wnklmnn
+- [#3168](https://github.com/actualbudget/actual/pull/3168) Fix input fields overflowing while adding split transactions — thanks @wnklmnn
 - [#3169](https://github.com/actualbudget/actual/pull/3169) Fix budget type toggle not working the first time — thanks @YusefOuda
 
 #### Maintenance
