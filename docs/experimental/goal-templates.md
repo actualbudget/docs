@@ -152,6 +152,7 @@ All the examples below use the case of $100 leftover when the remainder pass is 
 | Vacation Fund   | #template remainder   | $16.66         |
 | Investment Fund | #template remainder 2 | $33.34         |
 
+
 ## Goal Directive
 
 This option is unique enough to warrant its own directive `goal` instead of the standard `template` option.
@@ -202,25 +203,25 @@ If you have some extra funds after templates are run and can budget that last 50
 | `#template 50` `#goal 500` | 100 | 500(green) |
 
 ## Pay Distribution Templates
-Pay Distribution templates distribute income across categories without wiping what has already been budgeted or affecting the category's goal.
+Pay Distribution Templates distribute income across categories without wiping what has already been budgeted or affecting the category's goal.
 
 The available funds will be distributed when the 'Apply Template' is clicked.
 
 ### Use Case
 
-Pay Distribution templates are designed for budgeting funds not in sync with a monthly budget. People who need to budget each paycheck or don't have the funds to budget for a whole month.
+Pay Distribution Templates are designed for budgeting funds not in sync with a monthly budget. People who need to budget each paycheck or don't have the funds to budget for a whole month.
 
 ### Notes
 - Pay Distribution Templates share the same rules for currency and number formats as other templates.
 - Other Templates that share a category with a Pay Distribution template will ignore the budgeted column and only set the goals for that category.
-- Pay Distribution templates will follow goal limits set by other templates on the category.
-- Pay Distribution templates can be used in conjunction with the Remainder template. By adding `#template +0` before `#template remainder` remaining budget will be added to the current budgeted amount for each of the Remainder templates categories. See the [Remainder Template](#remainder-template) Section for more info. 
-- Pay Distribution templates ignore the Apply budget template empty cells rule because they are designed to add to budgeted amounts regularly.
-- Pay Distribution templates only use available funds; once there are no available funds left in the budget, all other Pay Distributions will not work.
+- Pay Distribution Templates will follow goal limits set by other templates on the category.
+- Pay Distribution Templates can be used in conjunction with the Remainder template. By adding `#template +0` before `#template remainder`, remaining budget will be added to each Remainder template that shares a category with a Pay Distribution Template. See the [Remainder Template](#remainder-template) Section for more info. 
+- Pay Distribution Templates ignore the *Apply budget template empty cells rule* because they are designed to add to budgeted amounts regularly.
+- Pay Distribution Templates will only use available funds; once there are no available funds left in the budget, all other Pay Distributions Templates will not work.
 
 ### Examples
 
-Pay distribution templates are triggered each time [Apply Budget Templates](#apply-the-templates) is clicked.
+Pay Distribution Templates are triggered each time [Apply Budget Templates](#apply-the-templates) is clicked.
 
 |Template|Actions|
 |:---:|---:|
