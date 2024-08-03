@@ -193,7 +193,7 @@ fly deploy
 
 ## Cost Optimizations
 
-If you would like to reduce your monthly compute costs for Actual Budget and are willing to tolerate a 5-15 second delay on the first connection for your budgeting session, you can add this to your services section and re-deploy.
+If you're looking to lower your monthly compute costs for Actual Budget and can accept a 5-15 second delay when starting your budgeting session, you can add this feature to your services section and re-deploy.
 
 ```toml
 [[services]]
@@ -201,7 +201,7 @@ If you would like to reduce your monthly compute costs for Actual Budget and are
   auto_stop_machines = true
 ```
 
-With these options, Fly.io will stop your instance if there haven't been any requests for a few minutes. If the instance is stopped and a request comes in, it will start up, which can take 5-15 seconds.
+With these settings, Fly.io will automatically stop your instance after a few minutes of inactivity. When a new request comes in, the instance will start up again, which may take 5-15 seconds.
 
 ## Frequent Issues
 
