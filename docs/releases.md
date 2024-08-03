@@ -5,7 +5,7 @@
 The release has the following notable improvements:
 
 - ability to favorite payees
-- most used an favorite payees appear at the top of the payee autocomplete results
+- most used and favorite payees appear at the top of the payee autocomplete results
 - resizable side navigation
 - experimental goal templates: long term goal template support
 - experimental spending report: adding last month as an option for the primary graph
