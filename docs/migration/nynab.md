@@ -62,8 +62,8 @@ If you import credit cards with previous debt, you must handle these differently
 1. From the Budget screen, create a category named `Credit Card` (perhaps under a Category Group of `Debt`).
 2. Change all overspent transactions to have their category be this `Credit Card` category.
 3. On the first month of overspending for this category, click on the Balance (it should show red) and select `Rollover overspending`.
-4. Next, you will need to assign money each month to cover any payments of the `Credit Card` category. Open YNAB and look through each month to find the "extra" (however much was actually paying off the debt) amount assigned to the card. Put this amount in your `Credit Card` category in Actual.
-5. If your budget isn't zeroing out still, follow the below instructions for holding month for the next month manually.
+5. If your budget isn't zeroing out yet, follow the instructions below for holding month for the next month manually.
+4. Next, you must assign money each historical month to cover any payments of the `Credit Card` category. Open YNAB and look through each month to find the "extra" amount assigned to the card. (To find the "extra," open YNAB and look through each month. Find the amount assigned to the card in excess of any additional monthly spending, which is how much was used to pay the debt on the credit card.) Put this amount in your `Credit Card` category in Actual.
 
 A full description of how to carry over debt can be found in [our Carrying Debt article.](https://actualbudget.org/docs/budgeting/credit-cards/carrying-debt)
 
