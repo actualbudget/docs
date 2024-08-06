@@ -40,6 +40,20 @@ Once you’ve set up your server, you can [configure it](../config/index.md) to 
 
 If you're coming from the original, managed Actual subscription service, you may want to [migrate your data](../migration/index.md).
 
+## Server-Free Web App
+
+If you are okay with not having sync or auto-save or backups then the easiest and fastest way to get started is by using the Actual [web app](https://app.actualbudget.org). There's less setup involved in this solution but more maintenance. 
+
+All data is saved to your local browser. The Actual web app never has access to any of your personal data. It is recommended that you save your data (from the [settings](../backup-restore/backup) menu) after every session. If your browser memory is cleared then your data will be lost so having a backup is crucial. 
+
+Using a new device or a new browser requires you to [import](../migration/actual-import#import-backup-file) the saved file for each new device or browser. Keep in mind that these new devices and browsers will not sync without a server set up, so anything you modify on one browser will not show up on any others.
+
+:::caution
+
+This solution is not recommended for long-term use due to the maintenance required and the high probability of data loss. It's intended as a quick start, if you'd like to continue using Actual long-term, please use one of the server options above.
+
+:::
+
 ## Additional Installation Options
 
 In addition to our officially supported options listed above, some community members have written guides for using other platforms or tools:
