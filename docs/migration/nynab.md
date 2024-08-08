@@ -57,7 +57,7 @@ curl -H "Authorization: Bearer <ACCESS_TOKEN>" https://api.youneedabudget.com/v1
 
 #### Credit Cards (Fix Overspending)
 
-If you import credit cards with previous debt, you must handle these differently. Otherwise, your budget months will show overspending. Actual does not handle carrying over debt the similarly, but offers a more manual approach.
+If you import credit cards with previous debt, you must handle these differently. Otherwise, your budget months will show overspending. Actual does not handle carrying over debt the same way, but offers a more manual approach.
 
 1. From the Budget screen, create a category named `Credit Card` (perhaps under a Category Group of `Debt`).
 2. Change all overspent transactions to have their category be this `Credit Card` category.
