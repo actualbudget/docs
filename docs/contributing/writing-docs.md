@@ -251,6 +251,7 @@ The way to do this is to take good screenshots.  When taking screenshots, there 
 * Images must always be saved in the PNG format.
 * Take only images using the _light_ mode, not _dark_.
 * If you need to address more than one part of the screenshot, annotate the image. See below for more details.
+ * We strongly encourage you to always add _alt text_ to the images, as not all image names are self-explanatory.
 
 :::info
 Screenshots taken on a retina screen should be titled as such: image-name@2x.png. This allows Docusaurus 
@@ -271,18 +272,18 @@ We have a few suggestions when annotating screenshots:
 #### Do use boxes over arrows
 Arrows can inadvertently be misunderstood as pointing _from_ something rather than _to_. As we see in the example below, the reader can not be sure if the arrow means the column, the column header or if _To Budget_ is involved.
 
-![](/static/img/repo/annotation-boxes-over-arrows.png)
+![Image of the budget view annotated by a box and an arrow](/static/img/repo/annotation-boxes-over-arrows.png)
 
 
 #### Use "steps" for several elements
 
 Use running numbers or letters inside circles, also known as "steps", when addressing more than one element in the screenshot. If there is a sequence to what a user is going to click on, use step numbers; if you want to address various elements, letters are preferred. 
 
-![](/static/img/repo/annotation-steps.png)
+![Image with 3 annotation steps](/static/img/repo/annotation-steps.png)
 
 If your annotation tool doesn't support 'steps ', use boxes in different colours and incorporate these colours into your explanation. This will help guide the reader's attention effectively.
 
-![](/static/img/repo/annotation-colour-boxes.png)
+![Image with 3 different colourd boxes](/static/img/repo/annotation-colour-boxes.png)
 
 
 <details><summary>Read example description of this way of annotating</summary>
@@ -314,7 +315,7 @@ Do not use free hand "marker pens", boxes or arrows, as these kind of annotation
 [Actual Budget #documentation Discord channel](https://discord.com/channels/937901803608096828/1027831463103696928) 
 if you need to annotate your images but are not able to do it yourself.
 
-![](/static/img/repo/annotation-free-hand.png)
+![Image with ugly free-hand annotations](/static/img/repo/annotation-free-hand.png)
 
 
 #### Annotation Colours
@@ -327,28 +328,30 @@ Remember that colours are tricky for colour blind people.
 
 We suggest using the following colours (RGB values):
 
-| Color name | Decimal       | Hex      |
+| Colour name | Decimal       | Hex      |
 |------------|---------------|----------|
 | Red        | 255,  89,  75 | FF 59 4B |
-| Green      |   0, 187, 161 | 00 BB A1 | 
 | Yellow     | 251, 186,   0 | FB BA 00 |
 | Purple     | 119,  64, 154 | 77 40 9A |
 | Blue       | 112, 175, 253 | 70 AF FD |
+| Green      |   0, 187, 161 | 00 BB A1 | 
 
-![](/static/img/repo/annotation-colours.png)
+![Annotation colours as seen in the table](/static/img/repo/annotation-colours.png)
+
+For accessibility reasons (colour blindness), avoid using red and green annotation colours on the same image.
 
 #### Avoid using _transparency_ or _spotlight_ annotations
 
 Different annotation tools handle this in various ways, which means we will get inconsistent screenshots. Secondly, unless you can control the opacity and colour of the highlight, using highlighting could easily confuse more than enlighten the reader. Can you quickly find the highlighted number in the screenshot below?
 
 
-![](/static/img/repo/annotation-highlights-are-bad.png)
+![Image of the budget view using the dark theme showing how highlights or spotlight annotations make the image hard to read](/static/img/repo/annotation-highlights-are-bad.png)
 
 <details><summary>It might work when using the light theme</summary>
 
 However, because we dim down the rest of the image, this breaks over the notion that images should be clear and crisp.
 
-![](/static/img/repo/annotation-highlights-ligth-theme.png)
+![Image of the budget view using the light theme showing that highlights may work](/static/img/repo/annotation-highlights-ligth-theme.png)
 
 </details>
 
