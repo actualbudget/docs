@@ -6,7 +6,9 @@ This repo is the Actual Budget community documentation website, built using [Doc
 
 ## Welcome
 
-Firstly, thank you for stopping by and giving up some of your time to either check out the documentation we have already produced or pick off some of the [issues](https://github.com/actualbudget/docs/issues) and help create some new documentation for our future users. Check out the [guidelines](https://actualbudget.org/docs/contributing/writing-docs) for more information on how the Documentation is structured and tips for consistent formatting.
+Firstly, thank you for stopping by and giving up some of your time to either check out the documentation we have already produced or pick off 
+some of the [issues](https://github.com/actualbudget/docs/issues) and help create some new documentation for our future users. Check out the 
+[guidelines](https://actualbudget.org/docs/contributing/writing-docs) for more information on how the Documentation is structured and tips for consistent formatting.
 
 ### Installation Methods
 
