@@ -15,7 +15,7 @@ A better approach for inexperienced people, as it explains what each step is doi
 
 </details>
 
-We generate our website using the [Docusaurus](https://docusaurus.io/) system, and our documentation is written in Markdown (+ some Docosaurus specifics).
+We generate our website using the [Docusaurus](https://docusaurus.io/) system, and our documentation is written in Markdown (+ some Docusaurus specifics).
 
 
 If you want to contribute, you need to know about the following to items:
