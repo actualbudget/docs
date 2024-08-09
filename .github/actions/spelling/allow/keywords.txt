@@ -30,7 +30,6 @@ dedupes
 deleteaccount
 DKB
 dmg
-Docosaurus
 easybank
 Edenred
 escodegen
