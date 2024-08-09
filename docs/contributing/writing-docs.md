@@ -140,7 +140,7 @@ Docusaurus 2 provides translation using [i8n](https://docusaurus.io/docs/i18n/in
 
 ## Formatting text
 
-All documentation is written in Markdown, and there is a specific Markdown items that is specific to Docusaurus.
+All documentation is written in Markdown, with certain additional Markdown syntax provided by Docusaurus.
 
 If you have never used Markdown, please consult [CommonMark](https://commonmark.org/) and the 
 [Docusaurus Markdown Features](https://docusaurus.io/docs/markdown-features) guide. You can learn more about Markdown in 
