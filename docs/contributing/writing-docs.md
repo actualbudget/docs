@@ -28,17 +28,17 @@ If you want to contribute, you need to know about the following to items:
 
 We follow a strict, mandatory, structure in our documents.
 
-`# The document title`
+`# The Document Title`
 
 Each document must only have one heading or title. When a title is not provided in the document's front matter (see below), 
 the heading provided is used instead and displayed in the documentation tree.
 
 
-`## Sub Headings to split out sections of your document`
+`## Subheadings to split out sections of your document`
 
 Subheadings divide the document into meaningful chapters or sections. When viewing a document, they are displayed in the right sidebar to allow the reader to navigate the content easily.
 
-`### Section subheadings.`
+`### Section Subheadings.`
 
 Each chapter can then be split into subsections using three-gate headings. Is is also pos
 
