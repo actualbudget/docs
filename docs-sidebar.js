@@ -134,7 +134,6 @@ const sidebars = {
               },
               items: ['budgeting/rules/custom'],
             },
-            'budgeting/schedules',
             'budgeting/returns-and-reimbursements',
             {
               type: 'category',
@@ -150,6 +149,7 @@ const sidebars = {
             //unavailable('Returns and Reimbursements'),
           ],
         },
+        'schedules',
         {
           type: 'category',
           label: 'Accounts & Transactions',
