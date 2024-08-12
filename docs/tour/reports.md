@@ -17,7 +17,7 @@ you would have if you sold all your assets and paid off all your debts.
 It includes separate visualizations for income and expenses, providing a quick overview of how these factors affect
 your available money over time. By considering your budgeted accounts as “cash on hand,” cash flow clearly shows how your available funds fluctuate.
 
-These reports are detailed in the [reports section](/docs/reports-filters/reports) in the manual.
+These reports are detailed in the [reports section](/docs/reports/reports) in the manual.
 
 ![](/static/img/a-tour-of-actual/tour-reports-cashflow.png)
 
@@ -26,7 +26,7 @@ These reports are detailed in the [reports section](/docs/reports-filters/report
 
 
 Actual custom reports should give you all the reports you need on your spending habits and your income and are 
-thoroughly covered in the [Custom Reports topic](/docs/reports-filters/custom-reports) in the manual. 
+thoroughly covered in the [Custom Reports topic](/docs/reports/custom-reports) in the manual. 
 
 Below are examples of reports covering our _Daily Expenses_ over the last six months. One report shows this as a graph, 
 the other as a table. Note that the table version also shows the sum and average (over six months) 
