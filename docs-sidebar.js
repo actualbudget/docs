@@ -159,6 +159,7 @@ const sidebars = {
             id: 'accounts/index',
           },
           items: [
+            'transactions/filters',
             'accounts/reconciliation',
             'transactions/importing',
             'transactions/bulk-editing',
@@ -168,16 +169,15 @@ const sidebars = {
         },
         {
           type: 'category',
-          label: 'Reports & Filters',
+          label: 'Reports',
           collapsed: true,
           link: {
             type: 'doc',
-            id: 'reports-filters/index',
+            id: 'reports/index',
           },
           items: [
-            'reports-filters/filters',
-            'reports-filters/reports', 
-            'reports-filters/custom-reports'
+            'reports/reports', 
+            'reports/custom-reports'
           ],
         },
         {
