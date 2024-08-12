@@ -30,10 +30,28 @@ const sidebars = {
     'releases',
     {
       type: 'category',
+      label: 'A Tour of Actual',
+      link: {
+	type: 'doc',
+	id: 'tour/index',
+      },
+      items: [
+	'tour/user-interface',
+	'tour/budget',
+	'tour/accounts',
+	'tour/reports',
+	'tour/schedules',
+	'tour/payees',
+	'tour/rules',
+      ],
+    },
+    {
+      type: 'category',
       label: 'Getting Started',
       collapsible: false,
       items: [
         'getting-started/roadmap-for-new-users',
+        'getting-started/envelope-budgeting',
         {
           type: 'category',
           label: 'Installing Actual',
@@ -65,28 +83,10 @@ const sidebars = {
           },
           items: ['config/https', 'config/reverse-proxies'],
         },
-        {
-          type: 'category',
-          label: 'A Tour of Actual',
-          link: {
-            type: 'doc',
-            id: 'tour/index',
-          },
-          items: [
-            'tour/user-interface',
-            'tour/budget',
-            'tour/accounts',
-            'tour/reports',
-            'tour/schedules',
-            'tour/payees',
-            'tour/rules',
-          ],
-        },
         'getting-started/starting-fresh',
         'getting-started/tips-tricks',
         'getting-started/sync',
         'getting-started/manage-files',
-        'getting-started/envelope-budgeting',
         {
           type: 'category',
           label: 'Migration',
