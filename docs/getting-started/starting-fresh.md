@@ -289,7 +289,7 @@ This topic is so important on how to actually use Actual, that we have devoted a
 A good next step is to read through the "Using Actual" section of the documentation.  This section has detailed explainers on the 
 features of Actual and how to use them. Some of the most useful features are [Rules](../budgeting/rules/index.md), 
 [Schedules](../budgeting/schedules.md), [Reconciliation](../accounts/reconciliation.md), 
-and [Reports](../reports-filters/reports.md).
+and [Reports](../reports/reports.md).
 
 
 If you feel a bit overwhelmed, don't worry.
