@@ -52,6 +52,7 @@ const sidebars = {
       items: [
         'getting-started/roadmap-for-new-users',
         'getting-started/envelope-budgeting',
+        'getting-started/starting-fresh',
         {
           type: 'category',
           label: 'Installing Actual',
@@ -83,7 +84,6 @@ const sidebars = {
           },
           items: ['config/https', 'config/reverse-proxies'],
         },
-        'getting-started/starting-fresh',
         'getting-started/tips-tricks',
         'getting-started/sync',
         'getting-started/manage-files',
