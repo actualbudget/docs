@@ -141,9 +141,9 @@ If your bank limits the amount of historical date, Actual may need to know about
 3. Fork the Actual server repository: https://github.com/actualbudget/actual-server/fork
 4. Edit the file `src/app-gocardless/bank-factory.js`.
 5. Add your bank's ID (from the Google Docs) to the `BANKS_WITH_LIMITED_HISTORY` list.
-7. Commit your changes and push to your fork.
-8. Create a pull request to the main Actual server repository.
-9. Add a release note in `upcoming-release-notes/` describing your change (see [writing good release notes](/docs/contributing/#writing-good-release-notes)).
-10. Commit your changes and push to your fork.
+6. Commit your changes and push to your fork.
+7. Create a pull request to the main Actual server repository.
+8. Add a release note in `upcoming-release-notes/` describing your change (see [writing good release notes](/docs/contributing/#writing-good-release-notes)).
+9. Commit your changes and push to your fork.
 
 Once reviewed, the maintainers will comment on the pull request and merge it if it is acceptable.  The change would then be available in the next release of the software.
