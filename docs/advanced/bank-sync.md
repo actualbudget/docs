@@ -134,10 +134,12 @@ For more information, see the [Bank Account Data API Usage](https://bankaccountd
 topic in the GoCardless FAQ.
 
 **What if my bank only supports 90 days of historical data?**
-If your bank limits the amount of historical date, Actual may need to know about this.  You might need to add your bank to the list of banks with limited history in the actual-server code.  Here's how you can do that:
+If your bank limits the amount of historical data you can fetch, you need to add your bank to the list of such banks in the Actual server code.
+
+To achieve this:
 
 1. Read the instructions about integrating with GoCardless: https://github.com/actualbudget/actual-server/blob/master/src/app-gocardless/README.md
-2. Toward the top is a link to a Google Docs. Find your bank's ID in that document.
+2. Toward the top is a link to the Google Docs containing data points for the GoCardless integration. Locate your bank's ID in the document.
 3. Fork the Actual server repository: https://github.com/actualbudget/actual-server/fork
 4. Edit the file `src/app-gocardless/bank-factory.js`.
 5. Add your bank's ID (from the Google Docs) to the `BANKS_WITH_LIMITED_HISTORY` list.
@@ -146,4 +148,4 @@ If your bank limits the amount of historical date, Actual may need to know about
 8. Add a release note in `upcoming-release-notes/` describing your change (see [writing good release notes](/docs/contributing/#writing-good-release-notes)).
 9. Commit your changes and push to your fork.
 
-Once reviewed, the maintainers will comment on the pull request and merge it if it is acceptable.  The change would then be available in the next release of the software.
+Once reviewed, the maintainers will comment on the pull request and merge it if acceptable.  The change would then be available in the next release of the software.
