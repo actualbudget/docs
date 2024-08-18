@@ -106,9 +106,9 @@ You will then need to obtain a new setup token from SimpleFIN and enter it into 
 
 ### Resolving SimpleFIN sync issues
 
-If you restore an Actual Budget file, it is best to reconfigure and setup the linking again.
+If you restore an Actual Budget file, it is recommended to unlink and setup the linking again.
 
-1. Unlink accounts in Actual Budget. Do this for all accounts linked. The SimpleFIN token is a one-time use token.
+1. Unlink accounts in your Actual budget file. Do this for all accounts linked. The SimpleFIN token is a one-time use token.
    - **_For an existing account, click on that account, select the ... (kebab menu) in the top right, and choose Unlink account_**
 
 2. Reset the SimpleFIN credentials by clicking on “+ Add account” at the bottom of the sidebar.
