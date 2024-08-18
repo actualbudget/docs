@@ -104,7 +104,7 @@ To reset your SimpleFIN setup token:
 
 You will then need to obtain a new setup token from SimpleFIN and enter it into Actual.
 
-### Resovling SimpleFIN sync issues
+### Resolving SimpleFIN sync issues
 
 If you restore an Actual Budget file, it is best to reconfigure and setup the linking again.
 
