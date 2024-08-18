@@ -11,7 +11,7 @@ All functionality described here may not be available in the latest stable relea
 
 **Generate Setup Token for Actual**
 
-1. Create an account with SimpleFIN Bridge - https://beta-bridge.simplefin.org/ , by clicking "Get Started" and entering your email address.
+1. Create an account with [SimpleFIN Bridge](https://beta-bridge.simplefin.org/) by clicking "Get Started" and entering your email address.
 
 ![](/static/img/connecting-your-bank/connecting-your-bank-simplefin-01.png)
 
@@ -32,19 +32,19 @@ All functionality described here may not be available in the latest stable relea
 
 ![](/static/img/connecting-your-bank/connecting-your-bank-simplefin-03.png)
 
-5. Save the generated Setup Token someplace safe (one-time use only).
+6. Save the generated Setup Token someplace safe (one-time use only).
 
 ![](/static/img/connecting-your-bank/connecting-your-bank-simplefin-04.png)
 
-6. Back in Actual, click on “+ Add account” at the bottom of the sidebar.
+7. Back in Actual, click on “+ Add account” at the bottom of the sidebar.
 
    ![](/static/img/connecting-your-bank/connecting-your-bank-02.png)
 
-7. Click “Link bank account with SimpleFIN .”
+8. Click “Link bank account with SimpleFIN .”
 
    ![](/static/img/connecting-your-bank/connecting-your-bank-simplefin-05.png)
 
-8. You will be asked to enter your SimpleFIN setup token. The keys from this value will be saved on the server, so you will only need to enter it once.
+9. You will be asked to enter your SimpleFIN setup token. The keys from this value will be saved on the server, so you will only need to enter it once.
 
    ![](/static/img/connecting-your-bank/connecting-your-bank-simplefin-06.png)
 
@@ -103,3 +103,22 @@ To reset your SimpleFIN setup token:
 3. Click "Reset SimpleFIN credentials".
 
 You will then need to obtain a new setup token from SimpleFIN and enter it into Actual.
+
+### Resovling SimpleFIN sync issues
+
+If you restore an Actual Budget file, it is best to reconfigure and setup the linking again.
+
+1. Unlink accounts in Actual Budget. Do this for all accounts linked. The SimpleFIN token is a one-time use token.
+   - **_For an existing account, click on that account, select the ... (kebab menu) in the top right, and choose Unlink account_**
+
+2. Reset the SimpleFIN credentials by clicking on “+ Add account” at the bottom of the sidebar.
+   
+   ![](/static/img/connecting-your-bank/connecting-your-bank-02.png)
+
+3. Select the ... (kebab menu) and chose Reset SimpleFIN credentials
+
+   ![Screenshot 2024-08-17 164607](https://github.com/user-attachments/assets/a9c726da-cb5f-4188-915c-27fca3ee5cb7)
+
+4. Skip to step 5 in the [SimpleFIN Setup](https://actualbudget.org/docs/experimental/simplefin-sync#simplefin-setup) section to create another App token.
+
+5. Follow the steps in the [Link Accounts to SimpleFIN](https://actualbudget.org/docs/experimental/simplefin-sync#link-accounts-with-simplefin) section to link accounts again.
