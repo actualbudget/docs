@@ -58,5 +58,5 @@ Actual currently has official support for migrating budgets from YNAB4 and nYNAB
    - *This is a bridging API between REST and the internal Actual APIs.*
 * **Actual Python API** - https://github.com/bvanelli/actualpy
    - *API to interact with the Actual server, written in Python.*
-* **Actual Buget Home Assistent Integration** - https://github.com/jlvcm/ha-actualbudget
-   - *Home Assistant Integration with an actual bugdet server*
+* **Actual Budget Home Assistant Integration** - https://github.com/jlvcm/ha-actualbudget
+   - *Home Assistant Integration with an Actual Bugdet server*
