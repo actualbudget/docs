@@ -65,7 +65,7 @@ Categories that are not currently needed can be *hidden* by using the down arrow
 
 ![](/img/categories/CategoryToggleHidden.png)
 
-Hidden categories, when shown, are displayed in a lower-contrast color.
+Hidden categories, when shown, are displayed in a lower-contrast color. If you find that you now require a category that you have previously hidden, you can unhide it by using the down arrow next to the category name.
 
 ![](/img/categories/CategoriesHidden.png)
 
