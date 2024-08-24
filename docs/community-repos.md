@@ -17,6 +17,7 @@ The following are implementations of bank syncing using the Actual API. For inst
 * **Credit Suisse, Cembra Money Bank, DKB, ZKB, and Interactive Brokers CVS import** - https://github.com/wirhabenzeit/actual-budget-cli
 * **ING bank CSV import** - https://github.com/jvmap/ActualBudgetTransformer
 * **Monobank bank sync** - https://github.com/dnullproject/mono-to-actualbudget
+* **Norwegian Trumf Visa PDF invoice to Actual Budget friendly CSV converter** - https://github.com/RubenOlsen/TrumfVisa2ActualBudget
 * **Plaid bank sync** - https://github.com/youngcw/actualplaid
 * **SimpleFIN bank sync** - https://github.com/duplaja/actual-simplefin-sync/
 
@@ -33,7 +34,7 @@ Actual currently has official support for migrating budgets from YNAB4 and nYNAB
 
 ## Various utilities to enhance Actual's functionality
 
-* **Actual Tap** - https://github.com/MattFaz/actualtap
+* **Actual Tap** - https://github.com/bobokun/actualtap-py
    - *Provides an API to integrate tap-to-pay transactions on mobile devices with Actual Budget.*
 * **Actual AI** - https://github.com/sakowicz/actual-ai
    - *Categorise transactions using AI.*
@@ -45,6 +46,8 @@ Actual currently has official support for migrating budgets from YNAB4 and nYNAB
    - *This script pulls data from a USD and BTC wallet in Coinbase and keeps a wallet in ActualBudget synchronized with this balance.*
 * **Easy category archive function** - https://github.com/rvisharma/actual-archive-category
    - *This tool moves transactions over to an _archive_ category, and then deletes the category.*
+* **Actual Budget Backup** - https://github.com/rodriguestiago0/actualbudget-backup
+   - *Tool which will back up Actual Budget and upload it to the configurable destination using the clone utility.*
 
 
 ## Others
