@@ -1,8 +1,10 @@
 # Community Projects
 
 
-The following community projects are not maintained by the Actual Budget project but integrated with it. 
+The following community projects are not maintained by the Actual Budget project but integrate with it. 
 They are for special use cases or for developing features that have not yet been integrated into Actual.
+
+These and other projects can be discussed in the #community-projects channel on the Actual Discord server.
 
 If you want your project listed here, notify people in the #documentation Discord channel. Before you can ask 
 for it to be added, your project must have a proper Readme file.
@@ -58,3 +60,5 @@ Actual currently has official support for migrating budgets from YNAB4 and nYNAB
    - *This is a bridging API between REST and the internal Actual APIs.*
 * **Actual Python API** - https://github.com/bvanelli/actualpy
    - *API to interact with the Actual server, written in Python.*
+* **Actual Budget Home Assistant Integration** - https://github.com/jlvcm/ha-actualbudget
+   - *Home Assistant Integration with an Actual Budget server*
