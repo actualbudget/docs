@@ -25,6 +25,7 @@ If you would like to write documentation for another installation variant, pleas
 
 However, in doing so, you would become responsible for these instructions. If they become out of date or people want in-depth help with them, we will point them to you for assistance if the community is unable to help. If lots of people report issues with them, we may have to remove the link altogether.
 
+
 ## Contributing 
 
 ### Issues
@@ -81,4 +82,5 @@ If you are using GitHub pages for hosting, this command is a convenient way to b
 
 ### Writing Good Release Notes
 
-For general guidelines, see [contributing](https://actualbudget.org/docs/contributing/#writing-good-release-notes) section of the documentation. The documentation site is not versioned in the same manner as the rest of the project. The Documentation website is more of a living document. Merges into `master` will have the title and PR# as commit message, with the PR description as extended git commit description. 
+For general guidelines, see [Contributing](https://actualbudget.org/docs/contributing/#writing-good-release-notes) section of the documentation. The Documentation site is not versioned in the same manner as the rest of the project. The Documentation website is more of a living document. Merges into `master` will have the title and PR# as commit message, with the PR description as extended git commit description.
+
