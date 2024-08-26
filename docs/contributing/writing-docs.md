@@ -291,7 +291,7 @@ If your annotation tool doesn't support 'steps ', use boxes in different colours
 
 **Using _steps_**
 
-a. Formatting numbers. We support most formats that are commonly used.
+a. Formatting numbers. We support most commonly used formats.
 
 b. Choose the date format that you are most comfortable with.
 
