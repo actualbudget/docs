@@ -236,7 +236,7 @@ Place your content inside the details-tags.
 
 ## Using Images
 
-Using images accompanying the description makes the documentation more accessible, thus improving its readability.
+Using images to accompany the description makes the documentation more accessible, thus improving its readability.
 
 The way to do this is to take good screenshots.  When taking screenshots, there are a few things to keep in mind:
 
