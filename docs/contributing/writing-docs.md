@@ -21,33 +21,15 @@ We generate our website using the [Docusaurus](https://docusaurus.io/) system, a
 If you're interested in contributing, you'll need to know about the following two resources:
 
 * [Actual documentation repository on GitHub](https://github.com/actualbudget/docs)
-* [Actual Budget #documentation channel on Discord](https://discord.com/channels/937901803608096828/1027831463103696928) 
-
+* [Actual Budget #documentation channel on Discord](https://discord.com/channels/937901803608096828/1027831463103696928)
+*
 
 ## Documentation Structure
 
-We follow a strict, mandatory, structure in our documents.
 
-`# The Document Title`
+### Document Front Matter
 
-Each document must only have one heading or title. When a title is not provided in the document's front matter (see below), 
-the heading provided is used instead and displayed in the documentation tree.
-
-
-`## Subheadings to split out sections of your document`
-
-Subheadings divide the document into meaningful chapters or sections. When viewing a document, they are displayed in the right sidebar to allow the reader to navigate the content easily.
-
-`### Section Subheadings.`
-
-Each chapter can then be split into subsections using three-gate headings. Is is also pos
-
-It is possible to have the fourth level if needed.
-
-
-### Document Frontmatter
-
-Front matter is used to add metadata to your documentation file. The front matter enriches the default metadata inferred from the content or other configuration.
+Front matter is used to add metadata to the documentation file. The front matter enriches the default metadata inferred from the content or other configuration.
 
 Using front matter is not mandatory.
 
@@ -62,10 +44,47 @@ more_data:
 ```
 
 
+### Documents Headers
+
+We follow a strict, mandatory, structure in our documents by using Markdown headers.
+
+If the title tag is not provided in the front matter, you must start the document with a level 1 heading.
+If the title tag is provided, you must omit this level 1 header.
+Each document should have only one level 1 heading.
+
+`# The Document Title Can`
+
+Many documents are divided into multiple main sections for improved readability and organization, with level 2 headings serving as the method for structuring the content.
+
+Use level 3 headings when a main section becomes complex and requires further breakdown.
+
+Additionally, if necessary, a fourth level of headings is available to provide even more detailed categorization.
+
+It is important to note that both level 1 and level 2 headings are prominently displayed in the right sidebar, making it easier for readers to navigate the document and locate specific sections efficiently.
+
+```markdown
+## Level 2 Markdown Heading: Main Section Headings are used to split the document into main sections
+### Level 3 Markdown Heading: Subsections Headings are used to split each section
+#### Level 4 Markdown Heading: Use this if you need to split the Subsection further
+```
+
+
+
+
+`### Section Subheadings.`
+
+Each chapter can then be split into subsections using three-gate headings. Is is also pos
+
+It is possible to have the fourth level if needed.
+
+
+
+
+
 ### Documentation folder structure
 
-The documentation folder structure should follow the structure in the left of the screen. 
-This means sections with more than one page have their own directories. 
+The documentation folder structure should follow the structure in the left of the screen.
+This means sections with more than one page have their own directories.
 
 
 <details><summary>Click here to get an overview of the folder structure</summary>
@@ -117,7 +136,7 @@ Below are some basic guidelines on how the documentation should be formatted. Ev
 
 ### Language
 
-When writing your documentation, please use the English language. At this time, the documentation team doesn't have any translators available to translate documents into other languages, but this is something we would like to do in the future.
+When writing documentation, please use the English language. At this time, the documentation team doesn't have any translators available to translate documents into other languages, but this is something we would like to do in the future.
 
 Docusaurus 2 provides translation using [i8n](https://docusaurus.io/docs/i18n/introduction). If this is something you would like to pursue, please feel free to open a PR.
 
@@ -142,8 +161,8 @@ Docusaurus 2 provides translation using [i8n](https://docusaurus.io/docs/i18n/in
 
 All documentation is written in Markdown, with certain additional Markdown syntax provided by Docusaurus.
 
-If you have never used Markdown, please consult [CommonMark](https://commonmark.org/) and the 
-[Docusaurus Markdown Features](https://docusaurus.io/docs/markdown-features) guide. You can learn more about Markdown in 
+If you have never used Markdown, please consult [CommonMark](https://commonmark.org/) and the
+[Docusaurus Markdown Features](https://docusaurus.io/docs/markdown-features) guide. You can learn more about Markdown in
 [The Markdown Guide](https://www.markdownguide.org/).
 
 ### Keyboard shortcuts
@@ -164,9 +183,9 @@ If you have never used Markdown, please consult [CommonMark](https://commonmark.
 * <Key mod="cmd" k="enter" /> shows the Command-Enter key combination.
 
 
-### Highlights 
+### Highlights
 
-If you would like to highlight a section of your document you can use the following:
+If you would like to highlight a section of the document you can use the following:
 
 ```markdown
 :::tip
@@ -181,7 +200,7 @@ Your note content
 :::
 ```
 
-If you want to make a reader aware of a cautionary item in your documentation, you can use this:
+If you want to make a reader aware of a cautionary item in the documentation, you can use this:
 
 ```markdown
 :::caution
@@ -210,7 +229,7 @@ Your cautionary item
 
 `<details><summary>The title of the summary</summary>`
 
-Place your content inside the details-tags.
+Place the content inside the details-tags.
 
 `</details>`
 
@@ -240,13 +259,13 @@ Using images to accompany the description makes the documentation more accessibl
 
 The way to do this is to take good screenshots.  When taking screenshots, there are a few things to keep in mind:
 
-* It is crucial to ensure that the image is crystal clear and directly relevant. 
+* It is crucial to ensure that the image is crystal clear and directly relevant.
   Blurry or muddled images can detract from the user's understanding and confidence in the documentation.
-* Striking the right balance on how much a screenshot should include is vital. Too much information can overwhelm the reader, 
-  while too little can leave them without the necessary context. Your judgment in 
+* Striking the right balance on how much a screenshot should include is vital. Too much information can overwhelm the reader,
+  while too little can leave them without the necessary context. Your judgment in
   this matter is crucial to the effectiveness of the documentation.
-* Avoid taking screenshots on a big screen when the browser is in full-screen mode. 
-  Try to take screenshots at most 1100 pixels wide and 700 pixels long. By this, we do not mean the size of the 
+* Avoid taking screenshots on a big screen when the browser is in full-screen mode.
+  Try to take screenshots at most 1100 pixels wide and 700 pixels long. By this, we do not mean the size of the
   finished images but how much of the screen you are taking a picture of.
 * Images must always be saved in the PNG format.
 * Take images using only the _light_ mode, not _dark_.
@@ -254,7 +273,7 @@ The way to do this is to take good screenshots.  When taking screenshots, there 
  * We strongly encourage you to always add _alt text_ to the images, as not all image names are self-explanatory.
 
 :::info
-Screenshots taken on a retina screen should be titled as such: image-name@2x.png. This allows Docusaurus 
+Screenshots taken on a retina screen should be titled as such: image-name@2x.png. This allows Docusaurus
 to rescale the images where appropriate.
 :::
 
@@ -264,8 +283,8 @@ to rescale the images where appropriate.
 ### Annotating Images
 
 
-There are several reasons why you need to annotate your screenshots.
-One reason is that you need your readers to pay attention to some aspects of the GUI. This is true if you have a screenshot of an area (for context) and you need to highlight one part of that area. Another reason is that you must address more than one element in the GUI, but presenting several variants of the same screenshot is unfavourable.
+There are several reasons why you need to annotate screenshots.
+One reason is that you need want readers to pay attention to some aspects of the GUI. This is true if you have a screenshot of an area (for context) and you need to highlight one part of that area. Another reason is that you must address more than one element in the GUI, but presenting several variants of the same screenshot is unfavourable.
 We have a few suggestions when annotating screenshots:
 
 
@@ -277,11 +296,11 @@ Arrows can inadvertently be misunderstood as pointing _from_ something rather th
 
 Use "steps" when referring to several elements
 
-Use running numbers or letters inside circles, also known as "steps", when addressing more than one element in the screenshot. If there is a sequence to what a user is going to click on, use step numbers; if you want to address various elements, letters are preferred. 
+Use running numbers or letters inside circles, also known as "steps", when addressing more than one element in the screenshot. If there is a sequence to what a user is going to click on, use step numbers; if you want to address various elements, letters are preferred.
 
 ![Image with 3 annotation steps](/static/img/repo/annotation-steps.png)
 
-If your annotation tool doesn't support 'steps ', use boxes in different colours and incorporate these colours into your explanation. This will help guide the reader's attention effectively.
+If the annotation tool doesn't support 'steps ', use boxes in different colours and incorporate these colours into the explanation. This will help guide the reader's attention effectively.
 
 ![Image with 3 different colourd boxes](/static/img/repo/annotation-colour-boxes.png)
 
@@ -309,19 +328,19 @@ c. The first day of the week controls grouping on reports.
 </details>
 
 
-#### Do not draw annotations using "free hand" 
+#### Do not draw annotations using "free hand"
 
-Do not use free hand "marker pens", boxes or arrows, as these kind of annotations just look sloppy. Ask for help on the 
-[Actual Budget #documentation Discord channel](https://discord.com/channels/937901803608096828/1027831463103696928) 
-if you need to annotate your images but are not able to do it yourself.
+Do not use free hand "marker pens", boxes or arrows, as these kind of annotations just look sloppy. Ask for help on the
+[Actual Budget #documentation Discord channel](https://discord.com/channels/937901803608096828/1027831463103696928)
+if you need to annotate images but are not able to do it yourself.
 
 ![Image with ugly free-hand annotations](/static/img/repo/annotation-free-hand.png)
 
 
 #### Annotation Colours
 
-Use strong, clear, and crisp colours to create good contrasts. Do not use pure white or pure black. Even if we want 
-all screenshots taken using the light theme, there are dark elements like the sidebar and particular dropdowns in the 
+Use strong, clear, and crisp colours to create good contrasts. Do not use pure white or pure black. Even if we want
+all screenshots taken using the light theme, there are dark elements like the sidebar and particular dropdowns in the
 GUI. Avoid annotating these elements using dark colours.
 
 Remember that colours are tricky for colour blind people.
@@ -334,7 +353,7 @@ We suggest using the following colours (RGB values):
 | Yellow     | 251, 186,   0 | FB BA 00 |
 | Purple     | 119,  64, 154 | 77 40 9A |
 | Blue       | 112, 175, 253 | 70 AF FD |
-| Green      |   0, 187, 161 | 00 BB A1 | 
+| Green      |   0, 187, 161 | 00 BB A1 |
 
 ![Annotation colours as seen in the table](/static/img/repo/annotation-colours.png)
 
@@ -361,9 +380,9 @@ However, because we dim down the rest of the image, this breaks over the notion 
 
 There are many software packages available to help you take screenshots. Both Windows and Mac systems come with some rudimentary tools for this (like [Windows Snipping Tool](https://support.microsoft.com/en-us/windows/use-snipping-tool-to-capture-screenshots-00246869-1843-655f-f220-97299b865f6b) or in [MacOS](https://support.apple.com/en-us/102646)). For various Linuxes, [this Fosspost.com article](https://fosspost.org/take-screenshot-linux) can be consulted.
 
-Some of the mentioned tools will let you annotate your screenshots, others will not.
+Some of the mentioned tools will let you annotate screenshots, others will not.
 
-If you are serious about your screenshots (and outside helping out with the Actual documentation), you might want to consider tools created explicitly for taking screenshots and having good annotation support. This list is not an endorsement from the Actual Budget project team but is meant as a starting point for such tools.
+If you are serious about your screenshots (and also outside helping out with the Actual documentation), you might want to consider tools created explicitly for taking screenshots and having good annotation support. This list is not an endorsement from the Actual Budget project team but is meant as a starting point for such tools.
 
 **For Windows and Mac**:
 
