@@ -275,7 +275,7 @@ Arrows can inadvertently be misunderstood as pointing _from_ something rather th
 ![Image of the budget view annotated by a box and an arrow](/static/img/repo/annotation-boxes-over-arrows.png)
 
 
-#### Use "steps" for several elements
+Use "steps" when referring to several elements
 
 Use running numbers or letters inside circles, also known as "steps", when addressing more than one element in the screenshot. If there is a sequence to what a user is going to click on, use step numbers; if you want to address various elements, letters are preferred. 
 
