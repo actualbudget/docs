@@ -52,7 +52,7 @@ If the title tag is not provided in the front matter, you must start the documen
 If the title tag is provided, you must omit this level 1 header.
 Each document should have only one level 1 heading.
 
-`# The Document Title Can`
+`# Level 1 Markdown Heading is used instead as The Document Title if Front Matter title tag is not used`
 
 Many documents are divided into multiple main sections for improved readability and organization, with level 2 headings serving as the method for structuring the content.
 
