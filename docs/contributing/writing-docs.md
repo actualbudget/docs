@@ -18,7 +18,7 @@ A better approach for inexperienced people, as it explains what each step is doi
 We generate our website using the [Docusaurus](https://docusaurus.io/) system, and our documentation is written in Markdown (+ some Docusaurus specifics).
 
 
-If you want to contribute, you need to know about the following to items:
+If you're interested in contributing, you'll need to know about the following two resources:
 
 * [Actual documentation repository on GitHub](https://github.com/actualbudget/docs)
 * [Actual Budget #documentation channel on Discord](https://discord.com/channels/937901803608096828/1027831463103696928) 
