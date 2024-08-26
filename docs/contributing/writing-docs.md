@@ -249,7 +249,7 @@ The way to do this is to take good screenshots.  When taking screenshots, there 
   Try to take screenshots at most 1100 pixels wide and 700 pixels long. By this, we do not mean the size of the 
   finished images but how much of the screen you are taking a picture of.
 * Images must always be saved in the PNG format.
-* Take only images using the _light_ mode, not _dark_.
+* Take images using only the _light_ mode, not _dark_.
 * If you need to address more than one part of the screenshot, annotate the image. See below for more details.
  * We strongly encourage you to always add _alt text_ to the images, as not all image names are self-explanatory.
 
