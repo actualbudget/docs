@@ -26,6 +26,7 @@ commandlet
 Crd
 crdt
 creditcards
+crowdsourced
 debian
 dedupes
 deleteaccount
