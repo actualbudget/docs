@@ -10,7 +10,7 @@ Server Version 24.10.0 or higher are required for this feature.
 This feature requires use of [Actual Server](../config/)
 :::
 
-To enable this feature, you can do it using configuration file at actual server or you can use the UI
+To enable this feature, you can do it using configuration file at actual server, environment variables or you can use the UI
 
 ### Config using configuration file
 
@@ -21,7 +21,7 @@ If your OpenId provider supports discovery, use the following configuration exam
         "issuer": "URL for the OpenId Provider",
         "client_id": "client_id given by the provider",
         "client_secret": "client_secret given by the provider",
-        "server_hostname": "your actual server URL (so the provider redirects you to this)"
+        "server_hostname": "your Actual Server URL (so the provider redirects you to this)"
     }
 ```
 
@@ -37,13 +37,31 @@ If your OpenId provider does not provide discovery (like GitHub), you have to co
         },
         "client_id": "client_id given by the provider",
         "client_secret": "client_secret given by the provider",
-        "server_hostname": "your actual server URL (so the provider redirects you to this)"
+        "server_hostname": "your Actual Server URL (so the provider redirects you to this)"
     }
 ```
 
 :::tip
-This is the only way to use GitHub as user provider.
+This or the environment variables are the only ways to use GitHub as user provider.
 :::
+
+### Config using environment variables
+
+If your OpenId provider supports discovery, use the following variables:
+
+- `ACTUAL_OPENID_DISCOVERY_URL`: URL for the OpenId Provider
+- `ACTUAL_OPENID_CLIENT_ID`: client_id given by the provider
+- `ACTUAL_OPENID_CLIENT_SECRET`: client_secret given by the provider
+- `ACTUAL_OPENID_SERVER_HOSTNAME`: Your Actual Server URL (so the provider redirects you to this)
+
+If your OpenId provider does not provide discovery (like GitHub), use the following variables:
+
+- `ACTUAL_OPENID_AUTHORIZATION_ENDPOINT`: Provider's authorize endpoint
+- `ACTUAL_OPENID_TOKEN_ENDPOINT`: Provider's access token endpoint
+- `ACTUAL_OPENID_USERINFO_ENDPOINT`: Provider's user info endpoint
+- `ACTUAL_OPENID_CLIENT_ID`: client_id given by the provider
+- `ACTUAL_OPENID_CLIENT_SECRET`: client_secret given by the provider
+- `ACTUAL_OPENID_SERVER_HOSTNAME`: Your Actual Server URL (so the provider redirects you to this)
 
 ### Using previous versions Actual (with Actual Server enabled)
 
