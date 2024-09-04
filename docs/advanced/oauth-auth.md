@@ -10,8 +10,6 @@ Server Version 24.10.0 or higher are required for this feature.
 This feature requires use of [Actual Server](../config/)
 :::
 
-This setup is different if you are already using Actual.
-
 To enable this feature, you can do it using configuration file at actual server or you can use the UI
 
 ### Config using configuration file
@@ -79,7 +77,7 @@ If you are starting to use Actual Server, during bootstrap, you can configure Op
 - Passwordless.id
 
 :::tip
-Each provider has different requirements, see Auth0 for example, you have to change the USER for your own settings:
+Each provider has different requirements, see Auth0 for example, you have to change for your own settings:
 
 ![](/static/img/oauth/provider-requirement.png)
 :::
