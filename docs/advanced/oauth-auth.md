@@ -63,7 +63,9 @@ If your OpenId provider does not provide discovery (like GitHub), use the follow
 - `ACTUAL_OPENID_CLIENT_SECRET`: client_secret given by the provider
 - `ACTUAL_OPENID_SERVER_HOSTNAME`: Your Actual Server URL (so the provider redirects you to this)
 
-### Using previous versions Actual (with Actual Server enabled)
+### Configuring OpenID using UI
+
+#### Using previous versions Actual (with Actual Server enabled)
 
 If you are using Actual Server for the past versions, you will need to enable OpenId Auth from the options:
 
@@ -71,21 +73,19 @@ If you are using Actual Server for the past versions, you will need to enable Op
 
 Once you click `Start using OpenID` a modal will be presented.
 
-### Setup Actual Server for the first time
+#### Setup Actual Server for the first time
 
 If you are starting to use Actual Server, during bootstrap, you can configure OpenID by click the button `Configure OpenID authentication instead (Advanced)`:
 
 ![](/static/img/oauth/welcome-button.png)
 
-### Configuring OpenID using UI
-
-#### Configuration from options
+##### Configuration from options
 ![Configuration from options](/static/img/oauth/modal.png)
 
-#### Configuration from bootstrap
+##### Configuration from bootstrap
 ![Configuration from bootstrap](/static/img/oauth/bootstrap.png)
 
-#### Instructions
+##### Instructions
 Fill all the required field for the selected provider.
 
 Some providers does not require all fields to be filled. 
