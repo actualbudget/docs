@@ -73,10 +73,10 @@ Fill all the required field for the selected provider.
 Some providers does not require all fields to be filled. 
 For example passwordless.id does not have a `client_secret`.
 
-After configuring all settings properly, hit `OK`. The user will be redirected to the `login` page.
+After configuring all settings properly, click `OK`. The user will be redirected to the `login` page.
 
 :::warning
-There are some basic configuration checks when hiting `OK` but if you somehow type a wrong information and the data is saved, you will have to open the actual server database manually and update it. The name of the table is `auth`.
+There are some basic configuration checks when clicking `OK` but if you somehow type a wrong information and the data is saved, you will have to open the actual server database manually and update it. The name of the table is `auth`.
 :::
 
 #### Tested Providers
