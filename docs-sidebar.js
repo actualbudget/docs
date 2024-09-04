@@ -225,6 +225,8 @@ const sidebars = {
           items: [
             'advanced/bank-sync',
             'advanced/http-header-auth',
+            'advanced/oauth-auth',
+            'advanced/multi-user',
             'advanced/restart',
             {
               type: 'category',
