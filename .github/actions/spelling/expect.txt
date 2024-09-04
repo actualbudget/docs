@@ -35,3 +35,7 @@ ubuntu
 vrt
 websecure
 youngcw
+Authentik
+Entra
+Keycloak
+userinfo
