@@ -51,7 +51,7 @@ If you are using Actual Server for the past versions, you will need to enable Op
 
 ![](/static/img/oauth/start-using-options.png)
 
-Once you click `Start using OpenID` a modal will be presented. For more details, go to [Configuring OpenID using UI](oauth-auth#configuring-openid-using-ui)
+Once you click `Start using OpenID` a modal will be presented.
 
 ### Setup Actual Server for the first time
 
@@ -66,6 +66,18 @@ If you are starting to use Actual Server, during bootstrap, you can configure Op
 
 #### Configuration from bootstrap
 ![Configuration from bootstrap](/static/img/oauth/bootstrap.png)
+
+#### Instructions
+Fill all the required field for the selected provider.
+
+Some providers does not require all fields to be filled. 
+For example passwordless.id does not have a `client_secret`.
+
+After configuring all settings properly, hit `OK`. The user will be redirected to the `login` page.
+
+:::warning
+There are some basic configuration checks when hiting `OK` but if you somehow type a wrong information and the data is saved, you will have to open the actual server database manually and update it. The name of the table is `auth`.
+:::
 
 #### Tested Providers
 - Auth0
