@@ -45,12 +45,12 @@ more_data:
 ```
 
 
-### Documents Headers
+### Document Headings and Subheadings
 
-We follow a strict, mandatory, structure in our documents by using Markdown headers.
+We follow a strict, mandatory, structure in our documents by using Markdown headings.
 
 If the title tag is not provided in the front matter, you must start the document with a level 1 heading.
-If the title tag is provided, you must omit this level 1 header.
+If the title tag is provided, you must omit this level 1 heading.
 Each document should have only one level 1 heading.
 
 `# Level 1 Markdown Heading is used instead as The Document Title if Front Matter title tag is not used`
@@ -133,7 +133,7 @@ website # the root directory of the documentation site
 
 ## Document Guidelines
 
-Below are some basic guidelines on how the documentation should be formatted. Everyone has their own writing style, but the layout of the documents should be the same across all documents.
+Below are some basic guidelines on how the documentation should be formatted. Everyone has their own writing style, but we aim to keep the style of the documentation the same across the site.
 
 ### Language
 
@@ -226,7 +226,7 @@ Your cautionary item
 ### Hiding and showing  information
 
 
-<details><summary>Click here to see how this is made</summary>
+<details><summary>This is a summary box, click here to see how it's made</summary>
 
 `<details><summary>The title of the summary</summary>`
 
@@ -243,13 +243,13 @@ Place the content inside the details-tags.
 ### For documents
 
 * Filenames should be self-explanatory and reflect the title of the file.
-* A longer filename is preferred over a shorter one.
+* A longer, more descriptive, filename is preferred over a shorter, less descriptive, one.
 * Folder names must reflect the naming in the sidebar.
 
 ### For images
 
 * Images must be placed in the `/static/img/` folder.
-* Except for logos and such, all images related to the documentation must be placed in a folder corresponding to where the document is stored. Let's say you want to add an image to a document in the `/docs/budgeting/` folder - the corresponding images must be stored in the `/static/img/budgeting/` folder.
+* Except for logos and such, all images related to the documentation must be placed in a folder corresponding to the location of the document in which it is used. Let's say you want to add an image to a document in the `/docs/budgeting/` folder - the corresponding images must be stored in the `/static/img/budgeting/` folder.
 * Image names must be prefixed to correspond with the document they primarily belong to. Let's say you are adding an image to the `/docs/budgeting/categories.md` file, then all image names need to be prefixed with `categories-`.
 * For regularly used images, these can be put into `/static/img/elements/`, inside it's own folders. Let's say you want to store images related to the sidebar; then all _sidebar_ images need to be placed in `/static/images/elements/sidebar/`. We have decided to do it this way to minimize the workload when adding and updating images.
 
