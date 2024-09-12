@@ -199,7 +199,6 @@ const sidebars = {
             id: 'reports/index',
           },
           items: [
-            'reports/reports',
             'reports/custom-reports'
           ],
         },
