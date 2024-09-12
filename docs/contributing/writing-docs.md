@@ -72,16 +72,6 @@ It is important to note that both level 1 and level 2 headings are prominently d
 
 
 
-`### Section Subheadings.`
-
-Each chapter can then be split into subsections using three-gate headings. Is is also pos
-
-It is possible to have the fourth level if needed.
-
-
-
-
-
 ### Documentation folder structure
 
 The documentation folder structure should follow the structure in the left of the screen.
