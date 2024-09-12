@@ -25,7 +25,7 @@ Using a new device or browser requires you to [import](../migration/actual-impor
 
 :::caution
 
-This solution is not recommended for long-term use due to the maintenance required and the high probability of data loss. It's intended as a quick start. If you'd like to continue using Actual long-term, please use one of the server options below.
+This solution is not recommended for long-term use due to the maintenance required and the high probability of data loss. It's intended as a quick start. If you'd like to continue using Actual long-term, please use one of the server options [below](#running-a-server).
 
 :::
 
