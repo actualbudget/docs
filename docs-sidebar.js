@@ -33,6 +33,7 @@ const sidebars = {
       label: 'Getting Started',
       collapsible: false,
       items: [
+        'getting-started/roadmap-for-new-users',
         {
           type: 'category',
           label: 'Installing Actual',
@@ -72,19 +73,19 @@ const sidebars = {
             id: 'tour/index',
           },
           items: [
-            'tour/files',
-            'tour/overview',
-            'tour/sidebar',
-            'tour/accounts',
+            'tour/user-interface',
             'tour/budget',
+            'tour/accounts',
+            'tour/reports',
             'tour/schedules',
-            'tour/settings',
+            'tour/payees',
+            'tour/rules',
           ],
         },
+        'getting-started/starting-fresh',
         'getting-started/tips-tricks',
         'getting-started/sync',
         'getting-started/manage-files',
-        'getting-started/starting-fresh',
         'getting-started/envelope-budgeting',
         {
           type: 'category',
@@ -187,6 +188,16 @@ const sidebars = {
         },
         {
           type: 'category',
+          label: 'Settings',
+          collapsed: true,
+          link: {
+            type: 'doc',
+            id: 'settings/index',
+          },
+           items: ['settings/index'],
+        },
+         {
+          type: 'category',
           label: 'API',
           link: { type: 'doc', id: 'api/index' },
           items: [
@@ -230,7 +241,7 @@ const sidebars = {
           items: [
             'experimental/goal-templates',
             'experimental/monthly-cleanup',
-            'experimental/report-budget',
+            'experimental/tracking-budget',
             'experimental/simplefin-sync',
           ],
         },
@@ -291,6 +302,7 @@ const sidebars = {
             'contributing/project-details/advice',
           ],
         },
+        'contributing/i18n',
         'contributing/preview-builds',
         'contributing/releasing',
         'contributing/windows',
