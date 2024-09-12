@@ -332,7 +332,7 @@ if you need to annotate images but are not able to do it yourself.
 
 Use strong, clear, and crisp colors to create good contrasts. Do not use pure white or pure black. Even if we want
 all screenshots taken using the light theme, there are dark elements like the sidebar and particular dropdowns in the
-GUI. Avoid annotating these elements using dark colurs.
+GUI. Avoid annotating these elements using dark colors.
 
 Remember that colors are tricky for color blind people.
 
