@@ -291,9 +291,9 @@ Use running numbers or letters inside circles, also known as "steps", when addre
 
 ![Image with 3 annotation steps](/static/img/repo/annotation-steps.png)
 
-If the annotation tool doesn't support 'steps ', use boxes in different colours and incorporate these colours into the explanation. This will help guide the reader's attention effectively.
+If the annotation tool doesn't support 'steps ', use boxes in different colors and incorporate these colors into the explanation. This will help guide the reader's attention effectively.
 
-![Image with 3 different colourd boxes](/static/img/repo/annotation-colour-boxes.png)
+![Image with 3 different colored boxes](/static/img/repo/annotation-colour-boxes.png)
 
 
 <details><summary>Read example description of this way of annotating</summary>
@@ -310,7 +310,7 @@ c. The first day of the week controls grouping on reports.
 ----
 
 
-**Using coloured boxes**:
+**Using colored boxes**:
 
 * Formatting numbers (indicated by the red box). We support most formats that are commonly used.
 * If you want to change the date format you are most comfortable with, you can use the dropdown in the green box.
@@ -330,13 +330,13 @@ if you need to annotate images but are not able to do it yourself.
 
 #### Annotation Colours
 
-Use strong, clear, and crisp colours to create good contrasts. Do not use pure white or pure black. Even if we want
+Use strong, clear, and crisp colors to create good contrasts. Do not use pure white or pure black. Even if we want
 all screenshots taken using the light theme, there are dark elements like the sidebar and particular dropdowns in the
-GUI. Avoid annotating these elements using dark colours.
+GUI. Avoid annotating these elements using dark colurs.
 
-Remember that colours are tricky for colour blind people.
+Remember that colors are tricky for color blind people.
 
-We suggest using the following colours (RGB values):
+We suggest using the following colors (RGB values):
 
 | Colour name | Decimal       | Hex      |
 |------------|---------------|----------|
@@ -346,13 +346,13 @@ We suggest using the following colours (RGB values):
 | Blue       | 112, 175, 253 | 70 AF FD |
 | Green      |   0, 187, 161 | 00 BB A1 |
 
-![Annotation colours as seen in the table](/static/img/repo/annotation-colours.png)
+![Annotation colors as seen in the table](/static/img/repo/annotation-colours.png)
 
-For accessibility reasons (colour blindness), avoid using red and green annotation colours on the same image.
+For accessibility reasons (color blindness), avoid using red and green annotation colors on the same image.
 
 #### Avoid using _transparency_ or _spotlight_ annotations
 
-Different annotation tools handle this in various ways, which means we will get inconsistent screenshots. Secondly, unless you can control the opacity and colour of the highlight, using highlighting could easily confuse more than enlighten the reader. Can you quickly find the highlighted number in the screenshot below?
+Different annotation tools handle this in various ways, which means we will get inconsistent screenshots. Secondly, unless you can control the opacity and color of the highlight, using highlighting could easily confuse more than enlighten the reader. Can you quickly find the highlighted number in the screenshot below?
 
 
 ![Image of the budget view using the dark theme showing how highlights or spotlight annotations make the image hard to read](/static/img/repo/annotation-highlights-are-bad.png)
