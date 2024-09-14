@@ -17,7 +17,7 @@ Actual server is used for syncing changes across devices. It comes with the late
 
 ## Installing Actual
 
-1. After the prerequisites are fulfilled, clone the [Actual Server](https://github.com/actualbudget/actual-server) project in your project root directory where you want to install Actual.
+1. After the prerequisites are fulfilled, clone the [Actual server](https://github.com/actualbudget/actual-server) project in your project root directory where you want to install Actual.
   ```bash
   git clone https://github.com/actualbudget/actual-server.git
   ```
