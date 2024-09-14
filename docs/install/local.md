@@ -47,7 +47,7 @@ When accessing Actual for the first time, you may be prompted to provide a URL f
 
 ## Updating Actual
 
-1. Stop the server if it’s running. You can use the keyboard shortcut <kbd>"ctrl" </kbd> <kbd>"c" </kbd> (even on macOS) to stop the server, or close the terminal window it’s running from.
+1. Stop the server if it’s running. You can use the keyboard shortcut <kbd>CTRL-C</kbd> (even on macOS) to stop the server or close the terminal window it’s running from.
 2. Run `git pull` from the directory you cloned the project into. This will download the latest server code.
 3. Run `yarn install` from that same directory. This will download the latest web client code, along with any updated dependencies for the server.
 4. Restart the server by running `yarn start`.
