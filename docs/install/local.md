@@ -6,7 +6,7 @@ Actual server is used for syncing changes across devices. It comes with the late
 
 ## Prerequisites
 
-- The Actual Server requires Node.js v18 or greater. You can download and install latest version of the Node.js from [Node.js website](https://nodejs.org/en/download) (we recommend downloading the “LTS” version). 
+- The Actual server requires Node.js v18 or greater. You can download and install the latest version of Node.js from [Node.js website](https://nodejs.org/en/download) (we recommend downloading the “LTS” version). 
 - Consider using a tool like [nvm](https://github.com/nvm-sh/nvm) or [asdf](https://asdf-vm.com) to install and manage multiple versions of Node.js.
 - You’ll also need to have Git installed. The Git website has [instructions for downloading and working with Git for all supported operating systems](https://git-scm.com/download).
 - Actual uses yarn packages. You can install [yarn](https://yarnpkg.com/getting-started/install) using the following command:
