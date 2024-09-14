@@ -45,7 +45,7 @@ To configure the desktop app, follow these steps on the "Where's the server?" sc
 1. Enter your server URL and click OK.
 2. If you see an error message asking you to select your certificate, choose the appropriate certificate and try again.
 
-**Note:** If you have generated your certificate using [mkcert](https://github.com/FiloSottile/mkcert) you need to specify the root CA certificate - not the certificate your server is pointing to. To do this:
+**Note:** If you have generated your certificate using [mkcert](https://github.com/FiloSottile/mkcert), specify the root CA certificate - not the certificate your server is pointing to. To do this:
 1. Run the command ```mkcert -CAROOT``` to find the directory of root certificate.
 2. Navigate to that directory to locate the ```rootCA.pem``` certificate
 3. Specify the ```rootCA.pem``` certificate in the desktop app.
