@@ -319,6 +319,14 @@ const sidebars = {
         'contributing/windows',
         {
           type: 'category',
+          label: 'Documentation',
+          collapsible: false,
+          items: [
+            'contributing/writing-docs',
+          ],
+        },
+         {
+          type: 'category',
           label: 'Project Leadership',
           collapsible: false,
           items: [
