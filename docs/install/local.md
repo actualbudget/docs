@@ -52,4 +52,4 @@ When accessing Actual for the first time, you may be prompted to provide a URL f
 3. Run `yarn install` from that same directory. This will download the latest web client code, along with any updated dependencies for the server.
 4. Restart the server by running `yarn start`.
 
-Actual is constantly evolving to include new features and improve user's experience. It is always recommended to update your local installation with our [latest releases](https://actualbudget.org/docs/releases).
+Actual is constantly evolving to include new features and improve the user's experience. It is always recommended that your local installation be updated with our [latest releases](https://actualbudget.org/docs/releases).
