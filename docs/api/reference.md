@@ -5,13 +5,13 @@ title: API Reference
 import { types, objects, PrimitiveTypeList, PrimitiveType, StructType, Method, MethodBox } from './types';
 import APIList from './APIList';
 
-This is the documentation of all available API methods. The API has not been released yet, but it will be available in the next update. This section is a work in progress.
-
 <APIList title="Budgets" sections={[
 "getBudgetMonths",
 "getBudgetMonth",
 "setBudgetAmount",
-"setBudgetCarryover"
+"setBudgetCarryover",
+"holdBudgetForNextMonth",
+"resetBudgetHold"
 ]} />
 
 <APIList title="Transactions" sections={[
@@ -30,7 +30,8 @@ This is the documentation of all available API methods. The API has not been rel
 "updateAccount",
 "closeAccount",
 "reopenAccount",
-"deleteAccount"
+"deleteAccount",
+"getAccountBalance"
 ]} />
 
 <APIList title="Categories" sections={[
@@ -54,7 +55,8 @@ This is the documentation of all available API methods. The API has not been rel
 "getPayees",
 "createPayee",
 "updatePayee",
-"deletePayee"
+"deletePayee",
+"mergePayees"
 ]} />
 
 <APIList title="Rules" sections={[
@@ -69,12 +71,14 @@ This is the documentation of all available API methods. The API has not been rel
 ]} />
 
 <APIList title="Misc" sections={[
+"BudgetFile",
 "initConfig",
 "init",
 "shutdown",
 "sync",
 "runBankSync",
 "runImport",
+"getBudgets",
 "loadBudget",
 "downloadBudget",
 "batchBudgetUpdates",
@@ -121,6 +125,14 @@ These are types.
 #### `setBudgetCarryover`
 
 <Method name="setBudgetCarryover" args={[{ name: 'month', type: 'month' }, { name: 'categoryId', type: 'id' }, { name: 'flag', type: 'bool' }]} returns="Promise<null>" />
+
+#### `holdBudgetForNextMonth`
+
+<Method name="holdBudgetForNextMonth" args={[{ name: 'month', type: 'month' }, { name: 'value', type: 'amount' }]} returns="Promise<null>" />
+
+#### `resetBudgetHold`
+
+<Method name="resetBudgetHold" args={[{ name: 'month', type: 'month' }]} returns="Promise<null>" />
 
 ## Transactions
 
@@ -171,7 +183,9 @@ This method is mainly for custom importers that want to skip all the automatic s
 
 <Method name="importTransactions" args={[{ name: 'accountId', type: 'id'}, { name: 'transactions', type: 'Transaction[]'}]} returns="Promise<{ errors, added, updated }>" />
 
-Adds multiple transactions at once, but goes through the same process as importing a file or downloading transactions from a bank. You probably want to use this one. Returns an array of ids of the newly created transactions.
+Adds multiple transactions at once, while going through the same process as importing a file or downloading transactions from a bank.
+In particular, all rules are run on the specified transactions before adding them.
+Use `addTransactions` instead for adding raw transactions without post-processing.
 
 The import will "reconcile" transactions to avoid adding duplicates. Transactions with the same `imported_id` will never be added more than once. Otherwise, the system will match transactions with the same amount and with similar dates and payees and try to avoid duplicates. If not using `imported_id` you should check the results after importing.
 
@@ -302,6 +316,12 @@ Reopen a closed account.
 <Method name="deleteAccount" args={[{ name: 'id', type: 'id' }]} />
 
 Delete an account.
+
+#### `getAccountBalance`
+
+<Method name="getAccountBalance" args={[{ name: 'id', type: 'id' }, { name: 'cutoff', type: 'Date?'}]} returns="Promise<number>" />
+
+Gets the balance for an account. If a cutoff is given, it gives the account balance as of that date. If no cutoff is given, it uses the current date as the cutoff.
 
 #### Examples
 
@@ -451,6 +471,12 @@ Update fields of a payee. `fields` can specify any field described in [`Payee`](
 
 Delete a payee.
 
+#### `mergePayees`
+
+<Method name="mergePayees" args={[{ name: 'targetId', type: 'id' }, { name: 'mergeIds', type: 'id[]' }]} returns="Promise<null>" />
+
+Merge one or more payees into the target payee, retaining the name of the target.
+
 ## Rules
 
 #### ConditionOrAction
@@ -489,7 +515,7 @@ Create a rule. Returns the new rule, including the `id`.
 
 <Method name="updateRule" args={[{ name: 'id', type: 'id' }, { name: 'fields', type: 'object' }]} returns="Promise<Rule>" />
 
-Update fields of a rule. `fields` can specify any field described in [`Rule`](#rule).  Returns the updated rule.
+Update fields of a rule. `fields` can specify any field described in [`Rule`](#rule). Returns the updated rule.
 
 #### `deleteRule`
 
@@ -521,6 +547,10 @@ Delete a rule.
 ```
 
 ## Misc
+
+#### BudgetFile
+
+<StructType fields={objects.budgetFile} />
 
 #### InitConfig
 
@@ -557,6 +587,12 @@ Run the 3rd party (gocardless, simplefin) bank sync operation. This will downloa
 <Method name="runImport" args={[{ properties: [{ name: 'budgetName', type: 'string' }, { name: 'func', type: 'func' }] }]} returns="Promise<void>" />
 
 Creates a new budget file with the given name, and then runs the custom importer function to populate it with data.
+
+#### `getBudgets`
+
+<Method name="getBudgets" args={[]} returns="Promise<BudgetFile[]>" />
+
+Returns a list of all budget files either locally cached or on the remote server. Remote files have a `state` field and local files have an `id` field.
 
 #### `loadBudget`
 
