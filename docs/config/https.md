@@ -40,7 +40,7 @@ If using a Docker container, this folder is `/data` within the container. If you
 If you can’t easily create new files, you can also configure HTTPS using environment variables. Set the `ACTUAL_HTTPS_KEY` and `ACTUAL_HTTPS_CERT` environment variables to the contents of the `.key` and `.crt` files, respectively. If you’re unable to include newlines in the environment variable values, you can replace any newlines with `\n` and Actual will automatically convert them back to newlines.
 
 ### Configuring the Desktop App: 
-To configure the desktop app, follow these steps on the "Where's the server?" screen. 
+To configure the desktop app, follow these steps on the _Where's the server?_ screen. 
 
 1. Enter your server URL and click OK.
 2. If you see an error message asking you to select your certificate, choose the appropriate certificate and try again.
