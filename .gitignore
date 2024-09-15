@@ -7,14 +7,10 @@
 .idea
 *.iml
 
+# Yarn
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
-.idea
-*.iml
-
-# Yarn
 .pnp.*
 .yarn/*
 !.yarn/patches
