@@ -54,7 +54,7 @@ const sidebars = {
       'getting-started/envelope-budgeting',
         {
           type: 'category',
-          label: 'Installing Actual',
+          label: 'Instalation and Configuration',
           link: {
             type: 'doc',
             id: 'install/index',
@@ -66,25 +66,21 @@ const sidebars = {
               collapsible: false,
               items: ['install/local', 'install/docker'],
             },
+
             {
               type: 'category',
               label: 'In the Cloud',
               collapsible: false,
               items: ['install/pikapods', 'install/fly'],
             },
+
             {
               type: 'category',
-              label: 'Configuring the Server',
-              link: {
-                type: 'doc',
-                id: 'config/index',
-              },
-              items: [
-                'config/https',
-                'advanced/http-header-auth',
-                'config/reverse-proxies'
-              ],
+              label: 'Configuration',
+              collapsible: false,
+               items: [ 'config/index', 'config/https', 'advanced/http-header-auth', 'config/reverse-proxies' ],
             },
+
           ],
         },
 
