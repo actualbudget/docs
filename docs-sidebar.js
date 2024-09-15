@@ -54,7 +54,7 @@ const sidebars = {
       'getting-started/envelope-budgeting',
         {
           type: 'category',
-          label: 'Instalation and Configuration',
+          label: 'Installation and Configuration',
           link: {
             type: 'doc',
             id: 'install/index',
