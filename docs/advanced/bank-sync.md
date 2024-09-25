@@ -20,7 +20,3 @@ Here are a couple of considerations to know about before making the decision to 
 
 * GoCardless
 * SimpleFIN Bridge
-
-:::note
-[Experimental support for SimpleFIN](../experimental/simplefin-sync.md) (North American banks) is also available.
-:::
