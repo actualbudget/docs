@@ -1,4 +1,4 @@
-## GoCardless Setup
+# GoCardless Setup
 
 ### Create SECRET and KEY for Actual
 
