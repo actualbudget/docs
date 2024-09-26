@@ -1,4 +1,4 @@
-# SimpleFIN Bank Sync
+# SimpleFIN Sync Setup
 
 ### SimpleFIN Setup
 
@@ -21,7 +21,8 @@
    - You will need to subscribe before your first can be added. Current rates are $1.50 / mo, or $15 / year.
 
 5. From the "My Accounts" page, under "Apps", click on "New Connection". Give your connection a name, and click "Create Setup Token"
-   _This is only for you to easily identify it in the SimpleFIN connections overview_
+
+   _This is only for you to easily identify it in the SimpleFIN connections overview._
 
 ![](/static/img/connecting-your-bank/connecting-your-bank-simplefin-03.png)
 
@@ -33,7 +34,7 @@
 
    ![](/static/img/connecting-your-bank/connecting-your-bank-02.png)
 
-7. Click “Link bank account with SimpleFIN .”
+7. Click “Link bank account with SimpleFIN”.
 
    ![](/static/img/connecting-your-bank/connecting-your-bank-simplefin-05.png)
 
@@ -43,7 +44,7 @@
 
 ### Link Accounts with SimpleFIN
 
-1. Add the link to your accounts in actual (Existing or New)
+1. Add the link to your accounts in actual (Existing or New).
 
    - **_For an existing account, click on that account, select the ... (kebab menu) in the top right, and choose Link Account_**
 
@@ -53,7 +54,7 @@
 
    ![](/static/img/connecting-your-bank/connecting-your-bank-02.png)
 
-2. Select the Link bank account with SimpleFIN button
+2. Select the Link bank account with SimpleFIN button.
 
    ![](/static/img/connecting-your-bank/connecting-your-bank-simplefin-07.png)
 
