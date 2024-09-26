@@ -186,11 +186,11 @@ const sidebars = {
               link: {
                 type: 'doc',
                 id: 'advanced/bank-sync',
-                    },
-                    items: [
-                    'advanced/bank-sync/gocardless',
-                    'advanced/bank-sync/simplefin',
-                    ],
+              },
+              items: [
+                'advanced/bank-sync/gocardless',
+                'advanced/bank-sync/simplefin',
+              ],
             },
             'advanced/scripts/modify-transfers',
           ],
