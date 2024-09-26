@@ -1,8 +1,8 @@
 # SimpleFIN Setup
 
 :::note
-Client Version 23.7.0 and
-Server Version 23.7.0 or higher are required for this feature.
+Client Version 24.10.0 and
+Server Version 24.10.0 or higher are required for this feature.
 :::
 
 ### Generate Setup Token for Actual
