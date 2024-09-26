@@ -1,5 +1,10 @@
 # GoCardless Setup
 
+:::note
+Client Version 23.7.0 and
+Server Version 23.7.0 or higher are required for this feature.
+:::
+
 ### Create SECRET and KEY for Actual
 
 1. Create an account with GoCardless - https://bankaccountdata.gocardless.com/overview/.
