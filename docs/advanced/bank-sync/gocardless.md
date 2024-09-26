@@ -2,8 +2,8 @@
 
 ### Create SECRET and KEY for Actual
 
-1. Create an account with GoCardless - https://bankaccountdata.gocardless.com/overview/
-2. Log into your account dashboard at the same URL and select **Developers->User secrets** from the left side menu
+1. Create an account with GoCardless - https://bankaccountdata.gocardless.com/overview/.
+2. Log into your account dashboard at the same URL and select **Developers->User secrets** from the left side menu.
 
 ![Screenshot of GoCardless developer portal](/static/img/connecting-your-bank/connecting-your-bank-gocardless-01.png)
 
@@ -44,7 +44,7 @@
 
 ### Link Accounts with GoCardless
 
-1. Add the link to your accounts in actual (Existing or New)
+1. Add the link to your accounts in actual (Existing or New).
 
    - **_For an existing account, click on that account, select the ... (kebab menu) in the top right, and choose Link Account_**
 
@@ -54,35 +54,35 @@
 
 ![Actual sidebar with accounts](/static/img/connecting-your-bank/connecting-your-bank-02.png)
 
-2. Select the Link your bank account button
+2. Select the Link your bank account button.
 
 ![Add account dialog](/static/img/connecting-your-bank/connecting-your-bank-03.png)
 
-3. Select your country and bank from the list and click the Link bank in browser button
+3. Select your country and bank from the list and click the Link bank in browser button.
 
 ![Link your bank dialog](/static/img/connecting-your-bank/connecting-your-bank-04.png)
 
-4. Clicking Link bank in browser will redirect you to a new tab to grant access to your bank for GoCardless
+4. Clicking Link bank in browser will redirect you to a new tab to grant access to your bank for GoCardless.
 
 ![Link you bank feedback](/static/img/connecting-your-bank/connecting-your-bank-05.png)
 
-5. Select **I agree** to continue with setting up the connection
+5. Select **I agree** to continue with setting up the connection.
 
 ![Dialog to approve that GoCardless will be accessing your payment account information](/static/img/connecting-your-bank/connecting-your-bank-gocardless-07.png)
 
-6. If your connection was a success, you will be able to click on the continue button which allows GoCardless to connect
+6. If your connection was a success, you will be able to click on the continue button which allows GoCardless to connect.
 
 ![Feedback for successful linking to your bank](/static/img/connecting-your-bank/connecting-your-bank-07.png)
 
-7. A progress indicator will display while GoCardless connects to your bank to get a list of your accounts
+7. A progress indicator will display while GoCardless connects to your bank to get a list of your accounts.
 
 ![Dialog saying please wait while we finish linking your account(s).](/static/img/connecting-your-bank/connecting-your-bank-08.png)
 
-8. Once the connection has been made, there will be a list of your accounts that you can choose from
+8. Once the connection has been made, there will be a list of your accounts that you can choose from.
 
 ![Select bank account you want to link](/static/img/connecting-your-bank/connecting-your-bank-09.png)
 
-9. The final step is to select the account you want to sync and click Link account
+9. The final step is to select the account you want to sync and click Link account.
 
 ![Dialog for linking accounts you want to sync](/static/img/connecting-your-bank/connecting-your-bank-10.png)
 
