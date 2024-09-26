@@ -18,5 +18,5 @@ Here are a couple of considerations to know about before making the decision to 
 
 ## Supported Providers
 
-* GoCardless
-* SimpleFIN Bridge
+* GoCardless (European Banks)
+* SimpleFIN Bridge (North American Banks)
