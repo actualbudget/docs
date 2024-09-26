@@ -6,12 +6,12 @@
 
 1. Create an account with SimpleFIN Bridge - https://beta-bridge.simplefin.org/ , by clicking "Get Started" and entering your email address.
 
-![](/static/img/connecting-your-bank/connecting-your-bank-simplefin-01.png)
+  ![](/static/img/connecting-your-bank/connecting-your-bank-simplefin-01.png)
 
 
 2. You will receive an email with the login link, after a few minutes. Click this link to log into your account dashboard.
 
-![](/static/img/connecting-your-bank/connecting-your-bank-simplefin-02.png)
+  ![](/static/img/connecting-your-bank/connecting-your-bank-simplefin-02.png)
 
 
 3. Accept the terms, on first login, and then you will be taken to "My Account". 
@@ -24,21 +24,21 @@
 
    _This is only for you to easily identify it in the SimpleFIN connections overview._
 
-![](/static/img/connecting-your-bank/connecting-your-bank-simplefin-03.png)
+  ![](/static/img/connecting-your-bank/connecting-your-bank-simplefin-03.png)
 
-5. Save the generated Setup Token someplace safe (one-time use only).
+6. Save the generated Setup Token someplace safe (one-time use only).
 
-![](/static/img/connecting-your-bank/connecting-your-bank-simplefin-04.png)
+  ![](/static/img/connecting-your-bank/connecting-your-bank-simplefin-04.png)
 
-6. Back in Actual, click on “+ Add account” at the bottom of the sidebar.
+7. Back in Actual, click on “+ Add account” at the bottom of the sidebar.
 
    ![](/static/img/connecting-your-bank/connecting-your-bank-02.png)
 
-7. Click “Link bank account with SimpleFIN”.
+8. Click “Link bank account with SimpleFIN”.
 
    ![](/static/img/connecting-your-bank/connecting-your-bank-simplefin-05.png)
 
-8. You will be asked to enter your SimpleFIN setup token. The keys from this value will be saved on the server, so you will only need to enter it once.
+9. You will be asked to enter your SimpleFIN setup token. The keys from this value will be saved on the server, so you will only need to enter it once.
 
    ![](/static/img/connecting-your-bank/connecting-your-bank-simplefin-06.png)
 
