@@ -1,4 +1,4 @@
-# SimpleFIN Sync Setup
+# SimpleFIN Setup
 
 ### SimpleFIN Setup
 
