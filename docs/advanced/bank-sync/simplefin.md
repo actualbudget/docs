@@ -1,8 +1,11 @@
 # SimpleFIN Setup
 
-### SimpleFIN Setup
+:::note
+Client Version 23.7.0 and
+Server Version 23.7.0 or higher are required for this feature.
+:::
 
-**Generate Setup Token for Actual**
+### Generate Setup Token for Actual
 
 1. Create an account with SimpleFIN Bridge - https://beta-bridge.simplefin.org/ , by clicking "Get Started" and entering your email address.
 
