@@ -7,7 +7,6 @@ Belfius
 Biedenkopf
 Bizum
 BKBKESMM
-BNP
 Caddyfile
 CAGLPTPL
 CAMT
@@ -30,7 +29,7 @@ overbudgeting
 Paribas
 prefs
 qfx
-Revolut
+revolut
 RIED
 RSchedule
 simplefin
