@@ -10,6 +10,8 @@ The release has the following notable improvements:
 - Privacy mode: instead of blurring use an unintelligible font
 - Experimental dashboards: ability to save cash-flow, net-worth and spending report filters and date-ranges.
 
+Important notice about the `@actual-app/api` package: starting from this release the versioning strategy of the API package will align with the web & server: `{year}.{month}.{patch-version}`.
+
 ### Actual
 
 #### Features
