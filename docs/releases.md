@@ -7,7 +7,7 @@ The release has the following notable improvements:
 - SimpleFIN officially released as first-party feature
 - Color themes: ability to set "system default" color theme
 - Mobile: button to view uncategorized transactions
-- Privacy mode: instead of blurring use an intelligible font
+- Privacy mode: instead of blurring use an unintelligible font
 - Experimental dashboards: ability to save cash-flow, net-worth and spending report filters and date-ranges.
 
 ### Actual
