@@ -30,7 +30,6 @@ overbudgeting
 Paribas
 prefs
 qfx
-REVOLUT
 Revolut
 RIED
 RSchedule
