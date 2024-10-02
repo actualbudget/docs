@@ -31,7 +31,7 @@ The release has the following notable improvements:
 - [#3377](https://github.com/actualbudget/actual/pull/3377) Privacy mode: instead of blurring, use an illegible font (#3376) — thanks @olets
 - [#3380](https://github.com/actualbudget/actual/pull/3380) Fixing spending report header so that any month can be compared to any other month. Also adds budget as an optional comparison. — thanks @carkom
 - [#3400](https://github.com/actualbudget/actual/pull/3400) Update splash background to match theming — thanks @jfdoming
-- [#3411](https://github.com/actualbudget/actual/pull/3411) Undoable auto tranfer notes + auto notes for cover — thanks @joel-jeremy
+- [#3411](https://github.com/actualbudget/actual/pull/3411) Undoable auto transfer notes + auto notes for cover — thanks @joel-jeremy
 - [#3417](https://github.com/actualbudget/actual/pull/3417) Dashboards: ability to save filters & time-range on cash-flow widgets. — thanks @MatissJanis
 - [#3432](https://github.com/actualbudget/actual/pull/3432) Dashboards: ability to save filters & time-range on spending widgets. — thanks @MatissJanis
 - [#3451](https://github.com/actualbudget/actual/pull/3451) Fixing display issues in spending report and adding a legend. — thanks @carkom
@@ -81,7 +81,7 @@ The release has the following notable improvements:
 - [#3367](https://github.com/actualbudget/actual/pull/3367) Support translations in Translation support for desktop-client/src/components/budget/BudgetTotals.tsx — thanks @nmathey
 - [#3391](https://github.com/actualbudget/actual/pull/3391) Refine Menu/Select types to allow broader types for the value/name attribute — thanks @jfdoming
 - [#3393](https://github.com/actualbudget/actual/pull/3393) Prevent sidebar from saving to metadata.json unnecessarily — thanks @MikesGlitch
-- [#3394](https://github.com/actualbudget/actual/pull/3394) Remove unneded Payee typeahead console log — thanks @MikesGlitch
+- [#3394](https://github.com/actualbudget/actual/pull/3394) Remove unneeded Payee typeahead console log — thanks @MikesGlitch
 - [#3395](https://github.com/actualbudget/actual/pull/3395) SyncedPrefs: refactor pref values from explicit types to `string`. — thanks @MatissJanis
 - [#3396](https://github.com/actualbudget/actual/pull/3396) Convert `RecurringSchedulePicker.jsx` -> `RecurringSchedulePicker.tsx` — thanks @jfdoming
 - [#3397](https://github.com/actualbudget/actual/pull/3397) SyncedPrefs: refactor usages of number formatter away from redux. — thanks @MatissJanis
