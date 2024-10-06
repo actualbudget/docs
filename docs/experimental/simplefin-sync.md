@@ -44,7 +44,7 @@ All functionality described here may not be available in the latest stable relea
 
    ![](/static/img/connecting-your-bank/connecting-your-bank-simplefin-05.png)
 
-9. You will be asked to enter your SimpleFIN setup token. The keys from this value will be saved on the server, so you will only need to enter it once.
+9. When asked to enter your SimpleFIN Setup Token, use the value you copy-pated in step 6. The token will be saved on the Actual server.
 
    ![](/static/img/connecting-your-bank/connecting-your-bank-simplefin-06.png)
 
