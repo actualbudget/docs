@@ -32,7 +32,7 @@ All functionality described here may not be available in the latest stable relea
 
 ![](/static/img/connecting-your-bank/connecting-your-bank-simplefin-03.png)
 
-6. Save the generated Setup Token someplace safe (one-time use only).
+6. As you cannot retrieve the Setup Token value later, copy-paste it to a file, as it will be used in step 9. 
 
 ![](/static/img/connecting-your-bank/connecting-your-bank-simplefin-04.png)
 
