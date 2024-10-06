@@ -55,4 +55,4 @@ Be careful with this section; you might encounter irrecoverable errors if you en
 - Monthly spending
 - Budget mode toggle
 - Goal templates
-- SimpleFIN sync
+- Customizable reports
