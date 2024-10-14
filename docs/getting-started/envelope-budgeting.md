@@ -69,13 +69,23 @@ A more detailed breakdown of how budgeting in Actual works is provided in the [b
 If you currently are carrying credit card debt in an on budget account you will need to capture that debt in a category. 
 A guide on how to handle that can be found in [the credit card guide](/docs/budgeting/credit-cards/).
 
-### The Month Ahead Method
+### The Month Ahead Strategy
 It can be hard to know where to budget your funds when you get paid in the middle of the month, or get multiple 
 paychecks per month. One way to handle this is called the *month ahead* method. This consists of holding everything 
 you make this month and only budgeting it next month. The goal is to not need any of this month's income for this 
 month's bills, but pay all of this month's bills with last month's income. Actual makes this easy by allowing you 
 to hold your available funds for the next month by clicking the To Budget amount at the top of the budgeting screen 
-and selecting the "Hold for next month" option. You can read more about this on the budgeting page
+and selecting the *Hold for next month* option. You can read more about this on [the budgeting page](/docs/budgeting/).
+
+
+### Pay-Yourself-First Strategy
+The Pay-Yourself-First strategy focuses on saving a portion of your income before spending on anything else. 
+By making savings the top priority, this approach helps individuals build financial stability and prepare for unexpected 
+events. Automating savings, such as setting up automatic transfers, ensures consistency and reduces the temptation 
+to overspend. The strategy also encourages a balanced approach, addressing both immediate needs and long-term 
+financial security. Actual has functionality for [Schedules](/docs/schedules) 
+and [Budget Goal Templates](/docs/experimental/goal-templates#goal-directive) that can help you with this strategy.
+
 
 ### Shared accounts
 We have a guide on what to do when it comes to [strategies for handling joint accounts](/docs/budgeting/joint-accounts).
