@@ -14,7 +14,7 @@ There is no sync server on preview builds so when asked "Where's the server" sel
 
 ## Edge Builds
 Edge builds, also known as nightly builds, serve as a testing ground for upcoming features before they are included in official monthly releases.
-By accessing edge builds, you can identify and report bugs, ultimately contributing to the stability of future updates.
+Explore edge builds to access the latest features, but be aware that new features are added and removed regularly, which means that they are not always stable.
 
 Get access to the latest features by exploring edge builds, but be aware that new features are added and removed regularly, which means that they are not always stable.
 
