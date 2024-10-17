@@ -21,5 +21,5 @@ Get access to the latest features by exploring edge builds, but be aware that ne
 If you want to try out the edge builds, simply head over to [edge.actualbudget.org](https://edge.actualbudget.org/).
 
 :::info
-There is no sync server on edge builds so when asked "Where's the server" select "Don't use a server." Alternatively, you can use your own self-hosted server. You should exercise caution when doing using a server with edge builds because they are much more likely to have bugs that could damage your budget. Consider running a separate local server for edge builds.
+There is no sync server on the edge build, so when asked, "Where's the server?" select "Don't use a server." Alternatively, you can use your own self-hosted server. You should exercise caution when using a server with edge builds because they are much more likely to have bugs that could damage your budget. Consider running a separate local server for edge builds.
 :::
