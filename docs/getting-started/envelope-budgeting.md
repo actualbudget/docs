@@ -90,9 +90,9 @@ to overspend. The strategy also encourages a balanced approach, addressing both 
 financial security. Actual has functionality for [Schedules](/docs/schedules) 
 and [Budget Goal Templates](/docs/experimental/goal-templates#goal-directive) that can help you with this strategy.
 
-For example, if you earn €3,000 a month, you might decide to save 20%, or €600, as soon as you receive your paycheck. 
+For example, if you earn € 3,000 a month, you might decide to save 20%, or € 600, as soon as you receive your paycheck. 
 You set up an automatic transfer to move this amount into a savings account, ensuring it is set aside before you 
-pay any bills or make purchases. The remaining €2,400 is then available to cover your living expenses, such as rent, 
+pay any bills or make purchases. The remaining € 2,400 is then available to cover your living expenses, such as rent, 
 utilities, groceries, and entertainment. This method guarantees that your savings goal is consistently met without 
 having to rely on what’s left at the end of the month.
 
