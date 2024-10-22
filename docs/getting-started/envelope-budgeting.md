@@ -65,10 +65,6 @@ are going, make changes. If you're happy, great! Keep budgeting to keep track of
 
 A more detailed breakdown of how budgeting in Actual works is provided in the [budgeting page](/docs/budgeting/).
 
-### Credit Cards
-If you currently are carrying credit card debt in an on budget account you will need to capture that debt in a category. 
-A guide on how to handle that can be found in [the credit card guide](/docs/budgeting/credit-cards/).
-
 ### The Month Ahead Strategy
 It can be hard to know where to budget your funds when you get paid in the middle of the month, or get multiple 
 paychecks per month. One way to handle this is called the *month ahead* method. This consists of holding everything 
@@ -76,6 +72,12 @@ you make this month and only budgeting it next month. The goal is to not need an
 month's bills, but pay all of this month's bills with last month's income. Actual makes this easy by allowing you 
 to hold your available funds for the next month by clicking the To Budget amount at the top of the budgeting screen 
 and selecting the *Hold for next month* option. You can read more about this on [the budgeting page](/docs/budgeting/).
+
+For example, if you make € 3,000 this month, instead of spending it on this month's bills, you save it and use it to 
+cover next month's expenses. Most people cannot achieve this in one month, so the way forward is to build up a 
+buffer. Instead of aiming to save the full € 3,000 in one go, begin by setting aside a smaller amount each month. 
+For example, if you can set aside € 200 each month, gradually build your buffer over several months. As you save 
+more, you’ll start to pay some of next month’s bills with this reserve.
 
 
 ### Pay-Yourself-First Strategy
@@ -86,14 +88,22 @@ to overspend. The strategy also encourages a balanced approach, addressing both 
 financial security. Actual has functionality for [Schedules](/docs/schedules) 
 and [Budget Goal Templates](/docs/experimental/goal-templates#goal-directive) that can help you with this strategy.
 
+For example, if you earn €3,000 a month, you might decide to save 20%, or €600, as soon as you receive your paycheck. 
+You set up an automatic transfer to move this amount into a savings account, ensuring it is set aside before you 
+pay any bills or make purchases. The remaining €2,400 is then available to cover your living expenses, such as rent, 
+utilities, groceries, and entertainment. This method guarantees that your savings goal is consistently met without 
+having to rely on what’s left at the end of the month.
+
+
+### Credit Cards
+If you currently are carrying credit card debt in an on budget account you will need to capture that debt in a category. 
+A guide on how to handle that can be found in [the credit card guide](/docs/budgeting/credit-cards/).
 
 ### Shared accounts
 We have a guide on what to do when it comes to [strategies for handling joint accounts](/docs/budgeting/joint-accounts).
 
 ### Returns and Reimbursements
 You can read more about these in the [returns and reimbursements guides](/docs/budgeting/returns-and-reimbursements).
-
-
 
 
 ## How to set up and use an envelope system with Actual Budget
