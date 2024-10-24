@@ -7,7 +7,7 @@ This is an **experimental feature**. That means we’re still working on finishi
 All functionality described here may not be available in the latest stable release. Use the `edge` images for the latest implementation.
 :::
 
-Create a template by adding a note to a category and adding a line that begins with `#template`.
+Create a template by adding a note to a category and adding a line that begins with `#template` or `#goal`.
 
 ![](/img/goal-template/goal-template-1.png)
 
@@ -19,9 +19,11 @@ You are welcome to have other lines in your note, but the #template line must ma
 |Syntax|Description|Example Application|
 |---|---|---|
 |#template $50|Budget $50 each month|Regular monthly bills, such as internet|
+|#template $50 up to $300|Budget $50 each month up to a maximum of $300|Funding rainy day categories, such as replacement shoes and bicycle repairs
 |#template up to $150|Budget up to $150 each month, and remove extra funds over $150|Variable expenses, such as petrol and groceries|
 |#template up to $150 hold|Budget up to $150 each month, but retain any funds over $150 |Variable expenses that may get refunds or reimbursements|
-|#template $50 up to $300|Budget $50 each month up to a maximum of $300|Funding rainy day categories, such as replacement shoes and bicycle repairs
+|#template up to $5 per day |Budget up to $5 per day that month, and remove extra funds | Setting a daily coffee budget|
+|#template up to $100 per week starting 2024-10-07 |Budget $100 per week starting on Mondays, and remove extra funds| Setting a weekly grocery budget |
 |#template $500 by 2025-03|Break down large, less-frequent expenses into manageable monthly expenses|Saving for a replacement car in a few years
 |#template $500 by 2025-03 repeat every 6 months|Break down large, less-frequent expenses into manageable monthly expenses|Biannual credit card fees
 |#template $500 by 2025-03 repeat every year|Break down large, less-frequent expenses into manageable monthly expenses|Annual insurance premium
