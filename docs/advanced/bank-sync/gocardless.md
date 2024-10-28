@@ -108,7 +108,7 @@ If you are setting up Actual for the first time, it is much easier not to try to
 
 
 **How many times can I sync with  GoCardless?**
-In the free tier, you can sync 50 times per month. If you sync to two different banks (with three accounts in each bank), that is counted as two connections.
+In the free tier, you can have up to 50 bank connections. If you sync to two different banks (with three accounts in each bank), that is counted as two connections. Once a connection is active, you can pull data from that connection as many times as you like, although many banks rate-limit GoCardless, and thus you, to a couple of pulls every day.
 For more information, see the [Bank Account Data API Usage](https://bankaccountdata.zendesk.com/hc/en-gb/articles/11528933493916-Bank-Account-Data-API-Usage-how-is-your-usage-number-calculated)
 topic in the GoCardless FAQ.
 
