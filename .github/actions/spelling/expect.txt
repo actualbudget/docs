@@ -3,6 +3,7 @@ AESUDEF
 ALZEY
 BANKA
 BANKINTER
+BAWAATWW
 Belfius
 Biedenkopf
 Bizum
@@ -16,10 +17,12 @@ crt
 Danske
 darkmode
 datadir
+Fineco
 Fintro
 gernes
 gocardless
 INVSTMTMSGSRS
+jfdoming
 KORT
 lightmode
 modals
@@ -42,6 +45,7 @@ SVGR
 swc
 Synology
 tada
+templating
 ubuntu
 vrt
 VUB
