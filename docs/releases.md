@@ -3,8 +3,8 @@
 ## 24.11.0
 
 The release has the following notable improvements:
-- Set the upcoming schedule duration
 - Optimizations to some SimpleFIN API calls
+- Experimental support for setting the upcoming schedule duration
 - Many improvements to the experimental dashboards feature
 - Experimental templating support in rules
 
