@@ -17,6 +17,7 @@ crt
 Danske
 darkmode
 datadir
+Dominguez
 Fineco
 Fintro
 gernes
