@@ -11,7 +11,7 @@ Create a template by adding a note to a category and adding a line that begins w
 
 ![](/img/goal-template/goal-template-1.png)
 
-You are welcome to have other lines in your note, but the #template line must match the syntax.
+You are welcome to have other lines in your note, but the #template/#goal line must match the syntax.
 
 ## Available Templates
 
@@ -39,7 +39,7 @@ You are welcome to have other lines in your note, but the #template line must ma
 |#template 10% of Paycheck|Budget 10% of the "Paycheck" income category| Using a "pay yourself first" strategy, but have income categories you want to ignore|
 |#template 15% of previous all income|Budget 15% of all income categories using last month's income|Using a "pay yourself first" strategy in conjunction with a "month ahead" strategy |
 |#template 10% of previous Paycheck|Budget 10% of last month's "Paycheck" income category| Using a "pay yourself first" strategy in conjunction with a "month ahead" strategy, but have income categories you want to ignore|
-|#template 12% of available funds|Budget 12% of your "To Budget" funds| |
+|#template 12% of available funds|Budget 12% of your "To Budget" funds available at the current priority level| |
 |#template schedule {SCHEDULE NAME}|Fund upcoming scheduled transactions over time|Monthly schedules, or larger non-monthly scheduled transactions|
 |#template schedule full {SCHEDULE NAME}|Fund upcoming scheduled transaction only on needed month| Small schedules that are non-monthly|
 |#template average 6 months | Budget the average amount spent over the last 6 months.  Can set the number to any number > 0.  Matches the existing option on the budget page but with flexible month ranges |
@@ -56,7 +56,7 @@ You are welcome to have other lines in your note, but the #template line must ma
 - By default templates do not consider available funds when being applied. Use template priorities to not budget more than is available.
 - The `hold` flag can be added to any goal that uses the `up to` key word.
 - A single category with two templates that use `up to` is not supported.
-- If in a category there are multiple templates within the same priority level and one template uses the `up to` key word, all templates in that priority level will be limited to the maximum amount specified by `up to`.
+- If any single template contains an `up to`, the whole category will be subject to that limit even if there are later templates and priorities.  This excludes remainders which will run after the limit is applied.
 
 ### Multiple Template Lines
 
@@ -95,7 +95,6 @@ Templates can be given a priority flag to change the order that the templates ge
 - Negative priorities are not allowed and will result in the template being skipped.
 - Template application order is based on the database order, not the view order.  To guarantee a specific fill order use separate priorities for each category.
 - If you have multiple `schedule` or `by` template lines in a single category, they will be forced to match the same priority level as the line run first.
-- If the `up to` key words are used with a category that has multiple templates with different priorities, the lowest priority will take precedence because it is evaluated last as shown in the following examples.
 - It is recommended to use the "overwrite with budget template" option when applying templates if you use priorities.
 
     - **Expected budgeted amount is 200**  
