@@ -71,6 +71,7 @@ The release has the following notable improvements:
 - [#3736](https://github.com/actualbudget/actual/pull/3736) Add extra error handling for when an incorrect server URL has been setup — thanks @MikesGlitch
 - [#3739](https://github.com/actualbudget/actual/pull/3739) Fix "Name" field being in wrong colour in Schedules page — thanks @aappaapp
 - [#3749](https://github.com/actualbudget/actual/pull/3749) Fix usage of date functions in action rule templating. — thanks @UnderKoen
+- [#3768](https://github.com/actualbudget/actual/pull/3768) Fix bugs on payee management page — thanks @jfdoming
 
 #### Maintenance
 
