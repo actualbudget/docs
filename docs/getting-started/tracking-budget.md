@@ -66,7 +66,7 @@ Money does not automatically carry over from month to month in the **Tracking Bu
 :::note
 If you utilize the **Rollover Overspending** feature on a category that is not over spent, the entire spent amount will be forwarded to the next month and the **Saved** amount will increase for the current month.
 This will affect your spent totals as if the spending didn't happen.
-The spending will only show up in the month that that rollover stops.
+The spending will only show up in the month that the rollover stops.
 :::
 
 ## Other Features
