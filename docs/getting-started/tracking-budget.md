@@ -7,9 +7,7 @@ The **Tracking budget** won't automatically rollover funds from month to month, 
 Instead of working with what funds you have _now_, you can forecast expenses and income.
 All transactions do still need to be categorized.
 
-We the Actual team suggest that you try to use the **Envelope Budget** if you haven't already.
-We believe it to be a more capable style of budgeting.
-If you still would prefer the more traditional **Tracking Budget** then you can switch to that if you would like.
+We, the Actual team, suggest that you try to use the **Envelope Budget** if you haven't already as we believe it to be a more capable style of budgeting than the **Tracking Budget**. However, if you would prefer the more traditional style, then the **Tracking Budget** is for you.
 
 ## Enabling the Tracking Budget
 
