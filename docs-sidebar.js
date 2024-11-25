@@ -226,6 +226,7 @@ const sidebars = {
           items: [
             'experimental/goal-templates',
             'experimental/monthly-cleanup',
+            'experimental/multi-user',
             'experimental/tracking-budget',
           ],
         },
