@@ -16,8 +16,7 @@ the values for both cleared and uncleared totals. See the
 [reconciliation topic](/docs/accounts/reconciliation) in the manual for more information.
 
 The top section also gives you access to several functions like importing transactions, manually adding new transactions, 
-and filtering what transactions you see. On the right side you'll find the _Search_ field which let's you quickly search 
-all fields. 
+and filtering what transactions you see. On the right side you'll find the _Search_ field which lets you quickly search all fields. 
 
 It is possible to split a transaction into more than one category. By clicking on the expand/contract arrows, seen in the yellow box, 
 you will be able to show or hide split transactions.
