@@ -14,7 +14,7 @@ One thing to keep in mind: Actual is not like most other apps. While your data i
 
 ## Getting started
 
-We provide an official node.js client in the `@actual-app/api` package. Other languages are not supported at this point.
+We provide an official Node.js client in the `@actual-app/api` package. Other languages are not supported at this point.
 
 The client is [open-source on GitHub](https://github.com/actualbudget/actual/tree/master/packages/api) along with the rest of Actual if you want to see the code.
 
