@@ -6,4 +6,4 @@ This is an **experimental feature**. That means we’re still working on finishi
 
 ## Multi-user Support
 
-The same budget file may be open and edited simultaneously from two separate browsers, even by two different people on different client computers. This should work unless the edits conflict. To be safe, avoid simultaneous usage of the same budget file.
+The same budget file may be opened and edited simultaneously from two separate browsers, even by two different people on different client computers. This should work unless the edits conflict. To be safe, avoid simultaneous usage of the same budget file.
