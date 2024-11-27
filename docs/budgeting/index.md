@@ -33,6 +33,7 @@ At a high-level, using the budget looks like this:
 4. At the end of the month, create a new budget for next month. Ideally, you will use income available from last month to cover the new budget. You will quickly see how much you saved by seeing the leftover **To budget** amount after budgeting for the new month.
 5. Move your leftover saved amount into a general savings category or another specific category that you are saving up for.
 
+
 ## How money rolls over
 
 ### Income
@@ -54,7 +55,7 @@ Using Hold for Next Month will ensure that the funds are no longer available to 
 
 You can also just leave the **To Budget** amount alone.
 
-It is possible to hold money multiple months ahead. If you do this, those dollars will be delay to be budgeted until the last month of the hold. If you need to use that money in the current month to cover over spending, use the **Reset Next Months Buffer** button to bring that money to the current month. This needs to be done for each month there is a hold.
+It is possible to hold money multiple months ahead. If you do this, those dollars will be taken out of the current month's To Budget, and made available in the next month's To Budget.  This can be done for multiple months in a row, if you want to hold the income for 2 or more months. If you need to use that money in the current month to cover over spending, use the **Reset Next Months Buffer** button to bring that money to the current month. This needs to be done for each month there is a hold.
 
 :::note
 If you enter a new month and have a negative "To Be Budgeted" amount and you're sure it should be positive, try resetting next month's buffer to bring money that may be held back to the current month.
@@ -65,6 +66,7 @@ If you enter a new month and have a negative "To Be Budgeted" amount and you're 
 When you overspend in a category, that needs to rollover as well. You spent money that wasn't budgeted, so now you need to go back and take it out from somewhere. Doing this keeps your budget intact.
 
 One way to do this would be to simply roll it over into next month's budget for that category, subtracting it from the available amount. This hardly ever works in real life — if you have a food budget it's highly unlikely you'll be able go under it next month just because you overspent on it this month.
+
 
 Usually you have a couple places that you draw money from to cover overspending. To make it easy, **all overspending is automatically taken out of next month's To budget amount**, and category balances are reset to zero. This makes it easy to make up for it by reducing your budget in some other category (like savings).
 
