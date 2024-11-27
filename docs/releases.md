@@ -323,7 +323,7 @@ The release has the following notable improvements:
 - [#2970](https://github.com/actualbudget/actual/pull/2970) Fix false positives for duplicate filters error when saving a new filter. — thanks @scivarolo
 - [#2974](https://github.com/actualbudget/actual/pull/2974) Fix: Automatically focus inputs, or the primary button, in modals. — thanks @psybers
 - [#2991](https://github.com/actualbudget/actual/pull/2991) Prevent transaction deduplication for imported transactions — thanks @ttlgeek, @strazto, & @pmoon00
-- [#3044](https://github.com/actualbudget/actual/pull/3044) Fix decimal comma parsing for ofx files — thanks @youngcw & @wdpk
+- [#3044](https://github.com/actualbudget/actual/pull/3044) Fix decimal comma parsing for OFX files — thanks @youngcw & @wdpk
 - [#3115](https://github.com/actualbudget/actual/pull/3115) Hide the target category from the cover overspending category list — thanks @matt-fidd
 - [#3205](https://github.com/actualbudget/actual/pull/3205) Fix typo in error message — thanks @matt-fidd
 - [#3206](https://github.com/actualbudget/actual/pull/3206) Fix mobile account status indicators cutting off. — thanks @psybers
@@ -603,7 +603,7 @@ The release has the following notable improvements:
 - [#2790](https://github.com/actualbudget/actual/pull/2790) Fix CSV import not matching category is (nothing) rules — thanks @matt-fidd
 - [#2799](https://github.com/actualbudget/actual/pull/2799) Fix amount parsing with 6-9 decimal places — thanks @sreetamdas
 - [#2812](https://github.com/actualbudget/actual/pull/2812) Fix amounts over 1 million cutting off. — thanks @psybers
-- [#2817](https://github.com/actualbudget/actual/pull/2817) Fixes nynab import issue where you couldn't import a category group called 'Income' — thanks @Marethyu1
+- [#2817](https://github.com/actualbudget/actual/pull/2817) Fixes nYNAB import issue where you couldn't import a category group called 'Income' — thanks @Marethyu1
 - [#2825](https://github.com/actualbudget/actual/pull/2825) Enable compress to avoid minified scripts from throwing SyntaxError in safari16 — thanks @chinalichen
 - [#2836](https://github.com/actualbudget/actual/pull/2836) Fix null bank_id for SimpleFIN caused when no org domain is sent. — thanks @duplaja
 - [#2838](https://github.com/actualbudget/actual/pull/2838) Don't show account tooltips during VRT. — thanks @psybers
@@ -2720,7 +2720,7 @@ Version: 23.1.12
 #### Features
 
 - [#403](https://github.com/actualbudget/actual/pull/403) Replace URLs to point to https://actualbudget.github.io/docs — thanks @shall0pass
-- [#413](https://github.com/actualbudget/actual/pull/413) feat: allow creating test budget in netlify deployments — thanks @MatissJanis
+- [#413](https://github.com/actualbudget/actual/pull/413) feat: allow creating test budget in Netlify deployments — thanks @MatissJanis
 - [#420](https://github.com/actualbudget/actual/pull/420) feat: creating test budget on the config page — thanks @MatissJanis
 - [#426](https://github.com/actualbudget/actual/pull/426) Move “Find schedules” to a button on the Schedules page — thanks @j-f1
 - [#435](https://github.com/actualbudget/actual/pull/435) Read-only Responsive view — thanks @trevdor
@@ -2745,7 +2745,7 @@ Version: 23.1.12
 - [#431](https://github.com/actualbudget/actual/pull/431) prune: remove unused variables — thanks @MatissJanis
 - [#434](https://github.com/actualbudget/actual/pull/434) Split the Settings component into multiple files — thanks @j-f1
 - [#437](https://github.com/actualbudget/actual/pull/437) chore: remove unused vars & cleanups — thanks @MatissJanis
-- [#439](https://github.com/actualbudget/actual/pull/439) docs: add netlify as sponsors to README — thanks @MatissJanis
+- [#439](https://github.com/actualbudget/actual/pull/439) docs: add Netlify as sponsors to README — thanks @MatissJanis
 - [#442](https://github.com/actualbudget/actual/pull/442) 🔥 removal of react-native mobile apps — thanks @MatissJanis
 - [#443](https://github.com/actualbudget/actual/pull/443) ⬆️ upgrade prettier and fix new issues — thanks @MatissJanis
 
