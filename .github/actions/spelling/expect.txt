@@ -21,6 +21,7 @@ Fineco
 Fintro
 gernes
 GoCardless
+gocardless
 INVSTMTMSGSRS
 jfdoming
 KORT
@@ -29,7 +30,8 @@ murmurhash
 nginx
 nordigen
 nYNAB
-OFX
+nynab
+ofx
 overbudgeting
 Paribas
 pikapods
