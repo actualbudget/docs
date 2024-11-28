@@ -21,9 +21,9 @@ Use a service like [Tailscale](https://tailscale.com/kb/1153/enabling-https/) or
 Once you have the certificate, you’ll need to configure Actual to use it. There are two methods to do this:
 
 ### Configuring with `config.json`: 
-Create a `config.json` file in the same folder where you run Actual. Put the paths to the `.key` and `.crt` files in the file. Note: if you’re using Docker or a similar container environment, make sure the paths are accessible to the container.  
+Create a `config.json` file in the same folder where you run Actual. Put the paths to the `.key` and `.crt` files in the file. Note: if you’re using Docker or a similar container environment, make sure the paths are accessible to the container. 
 
-If using a Docker container, this folder is `/data` within the container. If you mounted a volume for the container, the folder on the host where `/data` is mounted is where you can place the `config.json` file.  
+If using a Docker container, this folder is `/data` within the container. If you mounted a volume for the container, the folder on the host where `/data` is mounted is where you can place the `config.json` file. 
 
 `config.json`:
 

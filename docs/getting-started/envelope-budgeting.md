@@ -89,7 +89,7 @@ You can read more about these in the [returns and reimbursements guides](/docs/b
 ## How to set up and use an envelope system with Actual Budget
 
 Learning to budget using Actual Budget is straightforward, even 
-if you're new to budgeting.  Here's a checklist for getting started:
+if you're new to budgeting. Here's a checklist for getting started:
 
 ### 1. Establish budget categories
 
@@ -124,14 +124,14 @@ For example, if you have € 1 200 to allocate for the month, your budget might 
 
 | Categories      | Allocated (budgeted) funds | Explanation                                                         |
 |-----------------|-----------------|---------------------------------------------------------------------|
-| Groceries       | € 300             | This covers your monthly food and household supplies.               |
-| Gas             | € 100             | Allocated for fuel and transportation costs.                        |
-| Dining Out      | € 150             | Money set aside for eating out at restaurants or cafes.             |
-| Clothing        | € 100             | Funds for purchasing new clothes or accessories.                    |
-| Entertainment   | € 150             | Budget for movies, hobbies, or other leisure activities.            |
-| Gifts           | € 50              | Savings for birthdays, holidays, or special occasions.              |
+| Groceries       | € 300             | This covers your monthly food and household supplies.              |
+| Gas             | € 100             | Allocated for fuel and transportation costs.                       |
+| Dining Out      | € 150             | Money set aside for eating out at restaurants or cafes.            |
+| Clothing        | € 100             | Funds for purchasing new clothes or accessories.                   |
+| Entertainment   | € 150             | Budget for movies, hobbies, or other leisure activities.           |
+| Gifts           | € 50              | Savings for birthdays, holidays, or special occasions.             |
 | Personal Care   | € 150             | Allocated for health and beauty products or services like haircuts. |
-| Savings         | € 200             | Money set aside for future needs or emergencies.                    |
+| Savings         | € 200             | Money set aside for future needs or emergencies.                   |
 | **TOTAL**     | **€ 1 200**        | |
 
 
@@ -272,7 +272,7 @@ Read more about [managing credit cards](/docs/budgeting/credit-cards) with Actua
 ## A detailed example of how to do Zero-Sum budgeting 
 
 
-Let's say your total monthly income of January is € 1 200. You get your money on the 1st.  Using Zero-Based Budgeting, 
+Let's say your total monthly income of January is € 1 200. You get your money on the 1st. Using Zero-Based Budgeting, 
 you will allocate every unit of this income to different categories, ensuring that nothing is left unassigned. This is known as 
 the *Total Allocation*.
 
@@ -280,14 +280,14 @@ Here's an example of how you could split the € 1 200:
 
 | Categories      | Income | Explanation                                                         |
 |-----------------|-----------------|---------------------------------------------------------------------|
-| Groceries       | € 300             | This covers your monthly food and household supplies.               |
-| Gas             | € 100             | Allocated for fuel and transportation costs.                        |
-| Dining Out      | € 150             | Money set aside for eating out at restaurants or cafes.             |
-| Clothing        | € 100             | Funds for purchasing new clothes or accessories.                    |
-| Entertainment   | € 150             | Budget for movies, hobbies, or other leisure activities.            |
-| Gifts           | € 50              | Savings for birthdays, holidays, or special occasions.              |
+| Groceries       | € 300             | This covers your monthly food and household supplies.              |
+| Gas             | € 100             | Allocated for fuel and transportation costs.                       |
+| Dining Out      | € 150             | Money set aside for eating out at restaurants or cafes.            |
+| Clothing        | € 100             | Funds for purchasing new clothes or accessories.                   |
+| Entertainment   | € 150             | Budget for movies, hobbies, or other leisure activities.           |
+| Gifts           | € 50              | Savings for birthdays, holidays, or special occasions.             |
 | Personal Care   | € 150             | Allocated for health and beauty products or services like haircuts. |
-| Savings         | € 200             | Money set aside for future needs or emergencies.                    |
+| Savings         | € 200             | Money set aside for future needs or emergencies.                   |
 | **TOTAL**     | **€ 1 200**        | |
 
 We now see that all € 1 200 are assigned to specific categories, ensuring that every unit of your income has a purpose. 
@@ -367,7 +367,7 @@ Luckily, this week, we won € 37 at the lottery. We will allocate all of these 
 care of the deficit. We now exercise both the *Flexibility* and the *Total Allocation* principles.
 
 What do we do with the rest of the money we won? We can add them to the Savings category. We see that we are 
-probably going to spend more than 16 on Groceries - and there are no more parties which requires Gifts in the coming week.  
+probably going to spend more than 16 on Groceries - and there are no more parties which requires Gifts in the coming week. 
 We decide to split the rest of the money between Groceries and Savings.
 
 

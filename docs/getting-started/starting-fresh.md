@@ -29,7 +29,7 @@ It is usually easier, and more flexible, to place them on budget.
 
 #### Considerations for Off Budget Savings
 * Your savings is less tempting to borrow from since it is not visible in your budget
-* Any time you transfer to/from your savings, you need to categorize that transaction.  This sometimes causes confusion since the money wasn't spent
+* Any time you transfer to/from your savings, you need to categorize that transaction. This sometimes causes confusion since the money wasn't spent
 
 In some situations it may make sense to put a credit card account off budget. 
 This is generally not recommended unless you are not using that card for any spending and are exclusively paying it off.
@@ -108,7 +108,7 @@ category, for instance, may not be the wisest choice. Another reason is to have 
 way of reporting your spending habits.
 
 
-1. **Crucial or really important**.  As the name suggests, these expenses are
+1. **Crucial or really important**. As the name suggests, these expenses are
 difficult or impossible to reduce or remove from your daily life. Most of these are reoccurring 
 bills, either monthly, quarterly or yearly. Many of the categories in this group have fixed amounts, 
 or the amount does not fluctuate too much over the course of a year. Example of spending categories 
@@ -122,18 +122,18 @@ Should you put your credit card debts in this category?
 The answer is *it depends*. For some input on this, please read our article on 
 [Carrying Debt](/docs/budgeting/credit-cards/carrying-debt). 
 
-3. **Daily expenses**.  Group your everyday expenses for a more organised and convenient way 
+3. **Daily expenses**. Group your everyday expenses for a more organised and convenient way 
 of tracking. This makes it easy to report on expenditures that fluctuate from month to month. 
 Examples of spending categories in this group are Groceries, Household Items, Fuel, Eating Out, Clothing, 
 Personal Care, Gifts, Entertainment, Streaming services, News (paper) subscriptions, and Charities.
 
 
-4. **For a rainy day**.  Certain expenses you know will happen in the future, but you don't know when. 
+4. **For a rainy day**. Certain expenses you know will happen in the future, but you don't know when. 
 You should have at least one category named *Emergency Fund*. Other examples may be Car Maintenance, 
 Replacing Stove, and Replacing Washing Machine. 
 
 
-5. **Savings goals**.  This is where you keep your savings goals categorised *on budget*. What we 
+5. **Savings goals**. This is where you keep your savings goals categorised *on budget*. What we 
 mean by on budget is that if you need to reallocate money, you may settle for a cheaper Vacation or 
 postpone the Car Replacement or the Bathroom Renovation for a few months. If you are saving for a 
 long view, like your retirement, we suggest you create an *off budget* account for those kind of 
@@ -192,7 +192,7 @@ We can now see the budget numbers to be used for the month of August in the Aver
 It's important to note that this method  only works correctly if you use a debit or credit card for all your purchases. 
 As a result, your actual *start date* for your budget is in the past. We will reiterate our warning on
 [how to set up accounts](#how-to-setup-accounts): going too far back might make your budget completely
-out of wack.  It's crucial to avoid this, as you can easily spend more time trying to find out what's 
+out of wack. It's crucial to avoid this, as you can easily spend more time trying to find out what's 
 wrong with your budget and spent numbers because "nothing adds up" anymore.
 
 
@@ -286,7 +286,7 @@ This topic is so important on how to actually use Actual, that we have devoted a
 
 ## The next step in your budgeting journey
 
-A good next step is to read through the "Using Actual" section of the documentation.  This section has detailed explainers on the 
+A good next step is to read through the "Using Actual" section of the documentation. This section has detailed explainers on the 
 features of Actual and how to use them. Some of the most useful features are [Rules](/docs/budgeting/rules/index.md), 
 [Schedules](/docs/schedules.md), [Reconciliation](/docs/accounts/reconciliation.md), 
 and [Reports](/docs/reports/index.md).

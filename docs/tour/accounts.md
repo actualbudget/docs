@@ -44,7 +44,7 @@ Clicking on the **Filter** lets you filter on all the fields. In the screenshot,
 _Springfield Clothes and food_ and the Category equals just _Clothing_.
 
 If you are filtering for the same things over and over, you can save your filter by clicking on the _Unsaved filter_ dropdown
-on the right side in the header.  Provide a name to save the filter under for future use.
+on the right side in the header. Provide a name to save the filter under for future use.
 
 Consult [filtering transactions](/docs/transactions/filters) in the manual for more information.
 
