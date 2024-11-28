@@ -43,7 +43,7 @@ If you don't want to use bank syncing, or it is not available in your region, th
 No cost to download, no cost to use, no cost for updates.
 You are also free to modify the application in any way you want.
 
-Because Actual is not a service we never see your budget data. 
+Because Actual is not a service we never see your budget data.
 It is controlled by you and it lives entirely on your devices and your server if you host one.
 This makes the data available offline since it is always on your device.
 
@@ -55,7 +55,7 @@ Long term you should consider also hosting your own sync server. Considerations 
 
 #### Desktop Application
 The desktop application can be found at our [github release page](https://github.com/actualbudget/actual/releases/latest).
-Download the file that matches your operating system. 
+Download the file that matches your operating system.
 The `.exe` for Windows, the `.dmg` for Mac, or one of the Linux options.
 
 #### Web version
@@ -97,7 +97,7 @@ Its similar to YNAB, but each have a unique style.
 #### Credit Cards
 This is the one place where YNAB and Actual differ in budgeting.
 YNAB automagically handles credit cards for you.
-Some users prefer this approach while others find it annoying. 
+Some users prefer this approach while others find it annoying.
 
 The way YNAB handles this can make it a bit too easy to hold onto credit card debt and let it build up.
 Actual needs some more deliberate handling of that debt.
@@ -142,7 +142,7 @@ They are all a flavor of "save X funds every Y time period".
 This can cover many different situations pretty well.
 YNAB does also have indicator bars to show if the goal has been met, or progress towards that goal.
 
-Actual currently is developing a feature that is similar to YNAB's targets we refer to as goal templates. 
+Actual currently is developing a feature that is similar to YNAB's targets we refer to as goal templates.
 Goal templates is more flexible and has more options than YNAB's targets.
 A full write up of how they work can be found in the [Goal Templates Documentation](../../docs/experimental/goal-templates).
 Some notable goals that Actual has would be: goals based on scheduled expenses, percentage goals, remainder goals, and much more!
@@ -179,7 +179,7 @@ Don't worry the docs aren't too long to read. I will also be including the alrea
 | Envelope Budgeting |✅ |✅ | |
 | Traditional Budgeting |✅ |❌ | Actual does have the option for a non-envelope style budget, but we think you should stick with envelope budgeting |
 | Multiple budget files |✅  |✅  | |
-| Dark Theme |✅ |✅ | Actual has two dark themes. A regular "Dark", and "Midnight" for those who love black | 
+| Dark Theme |✅ |✅ | Actual has two dark themes. A regular "Dark", and "Midnight" for those who love black |
 | Scheduled Transactions |✅ |✅ | |
 | Bank Sync |✅ |✅ | May not be free for Actual. YNAB only supports North America while Actual supports both North America and Europe and requires a sync server |
 | Open Source |✅ |❌ | |

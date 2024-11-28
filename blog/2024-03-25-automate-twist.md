@@ -17,11 +17,11 @@ Goal templates are an experimental feature within Actual that allow you to auto-
 
 In this scenario, my income will be $500 per week, starting on the first of the month. I have certain priorities that need to be met. For example, I like to eat so I'm going to prioritize food for the first pay period. I'm going to set up my mortgage to be paid at the end of the month, saving a little each week. I'm going to budget for several bills that happen throughout the month where I know which week they'll need to be paid. I'm also going to use a simple template with priorities to illustrate this method. Feel free to use other template types.
 
-Priorities allow you to decide which goals are funded first. Check out our last [blog post](/blog/2023-12-15-automate.md#how-priorities-work) or the section in the [documentation](../../docs/experimental/goal-templates#template-priorities) that explains in much greater detail on how to use them. In this example, I've decided to use the following priority levels 
+Priorities allow you to decide which goals are funded first. Check out our last [blog post](/blog/2023-12-15-automate.md#how-priorities-work) or the section in the [documentation](../../docs/experimental/goal-templates#template-priorities) that explains in much greater detail on how to use them. In this example, I've decided to use the following priority levels
 - Week 1: 10-19
-- Week 2: 20-29 
-- Week 3: 30-39 
-- Week 4: 40-49 
+- Week 2: 20-29
+- Week 3: 30-39
+- Week 4: 40-49
 - 50+ for any additional priorities that can be funded after my monthly priorities are satisfied. This includes long term goals like vacation savings, investments, or holiday spending.
 
 In week 1, level 10 will run first, level 11 second, level 12 third, and so on. This strategy allows me to have different priorities within each week if I want. Since I've decided week 2 priorities will start at 20, all week 1 goals will be funded before week 2, and all of week 2 will be funded before week 3.
@@ -51,7 +51,7 @@ You'll notice I used different priorities for different categories. When the goa
 
 Here's my budget as I step through week by week. For each week I receive new income, I reapply the templates. You'll see that each of my categories gets filled a little more each time. If I have a little extra from one week, it will start filling up the categories for the next weeks goals. When I receive my final pay in the fourth week, my final two categories receive some funding.
 
-This approach fills your budget categories as your income arrives by prioritizing your needs and allows you to spend from your categories along the way. 
+This approach fills your budget categories as your income arrives by prioritizing your needs and allows you to spend from your categories along the way.
 
 ### Week 1, Receive first income deposit
 Now that we have our first deposit for the month, we're ready to start budgeting using templates.
