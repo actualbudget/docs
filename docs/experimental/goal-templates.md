@@ -97,13 +97,13 @@ Templates can be given a priority flag to change the order that the templates ge
 - If you have multiple `schedule` or `by` template lines in a single category, they will be forced to match the same priority level as the line run first.
 - It is recommended to use the "overwrite with budget template" option when applying templates if you use priorities.
 
-    - **Expected budgeted amount is 200**  
+    - **Expected budgeted amount is 200** 
     **Expected maximum category balance is 200**
 
         #template 300
         #template-1 150 up to 200
-        
-    - **Expected budgeted amount is 450**  
+       
+    - **Expected budgeted amount is 450** 
     **No maximum category balance exists**
 
         #template 150 up to 500
@@ -154,13 +154,13 @@ All the examples below use the case of $100 leftover when the remainder pass is 
 ## Goal Directive
 
 This option is unique enough to warrant its own directive `goal` instead of the standard `template` option.
-The `goal` option overrides how the goal indicator typically functions. 
+The `goal` option overrides how the goal indicator typically functions.
 In the standard templates, the goal indication colors are based on the current month's budgeted value.
-When using the `goal` option, the indication is based on the total balance. 
-This shifts the indication to a long-term goal you are saving up to instead of just the current monthly portion. 
+When using the `goal` option, the indication is based on the total balance.
+This shifts the indication to a long-term goal you are saving up to instead of just the current monthly portion.
 A few examples have been given to illustrate this difference.
 
-### Notes 
+### Notes
 * The `goal` templates are run the same way as the other templates but using the month options or the category budget options.
 * If there is a `goal` directive in a category, the indicator for that category will be based on the total balance compared to the amount set in the template line.
 * The `goal` directive will not budget any funds, and funds budgeted by hand will not get reset by running templates.

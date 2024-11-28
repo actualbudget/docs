@@ -1,6 +1,6 @@
 # Installing Actual
 
-The Actual Budget project is made up of two parts: the client and the server. A server is not required for Actual to function but it is strongly recommended as it provides increased functionality. Below is a table of features of Actual and if those features work with just a client or if a server is needed. 
+The Actual Budget project is made up of two parts: the client and the server. A server is not required for Actual to function but it is strongly recommended as it provides increased functionality. Below is a table of features of Actual and if those features work with just a client or if a server is needed.
 
 | Feature | Without Server | Needs Server |
 |:-|:-:|:-:|
@@ -17,9 +17,9 @@ The standard way of using Actual is to set up a personal server and use a web br
 
 ## Using Actual locally in the browser
 
-If you are okay with not having sync, auto-save, or backups then the easiest and fastest way to get started is by using the Actual [web app](https://app.actualbudget.org). This solution requires less setup but more maintenance. 
+If you are okay with not having sync, auto-save, or backups then the easiest and fastest way to get started is by using the Actual [web app](https://app.actualbudget.org). This solution requires less setup but more maintenance.
 
-All data is saved to your local browser. The Actual web app never has access to any of your personal data. It is recommended that you save your data (from the [settings](../backup-restore/backup) menu) after every session. If your browser memory is cleared, your data will be lost, so a backup is crucial. 
+All data is saved to your local browser. The Actual web app never has access to any of your personal data. It is recommended that you save your data (from the [settings](../backup-restore/backup) menu) after every session. If your browser memory is cleared, your data will be lost, so a backup is crucial.
 
 Using a new device or browser requires you to [import](../migration/actual-import#import-backup-file) the saved file for each new device or browser. Remember that these new devices and browsers will not sync without a server set up, so anything you modify on one browser will not appear on others.
 
@@ -34,7 +34,7 @@ This solution is not recommended for long-term use due to the maintenance requir
 Desktop applications are available for Windows, Mac, and Linux. These can be [downloaded from GitHub](https://github.com/actualbudget/actual/releases). The desktop apps have the following benefits:
 * Can connect to a server (this gives them the ability to use the server-based features)
 * Automated backups
-* Offline use is ready out of the box 
+* Offline use is ready out of the box
 
 ## Server-Based Client Options
 
