@@ -1,6 +1,6 @@
 # Reports
 
-This view give you access to both the two built in reports, _Net Worth_ and _Cash Flow_, but also your own custom reports.
+This view gives you access to both the two built in reports, _Net Worth_ and _Cash Flow_, but also your own custom reports.
 
 All reports in this view are shown in their small, tiled, version. Clicking on a tile will take you to that very report.
 
@@ -25,11 +25,11 @@ These reports are detailed in the [reports section](/docs/reports/) in the manua
 ## Custom reports
 
 
-Actual custom reports should give you all the reports you need on your spending habits and your income and are 
-thoroughly covered in the [Custom Reports topic](/docs/reports/custom-reports) in the manual. 
+Actual custom reports should give you all the reports you need on your spending habits and your income and are
+thoroughly covered in the [Custom Reports topic](/docs/reports/custom-reports) in the manual.
 
-Below are examples of reports covering our _Daily Expenses_ over the last six months. One report shows this as a graph, 
-the other as a table. Note that the table version also shows the sum and average (over six months) 
+Below are examples of reports covering our _Daily Expenses_ over the last six months. One report shows this as a graph,
+the other as a table. Note that the table version also shows the sum and average (over six months)
 for the various categories.
 
 ![Custom report showing daily expenses as graph](/static/img/a-tour-of-actual/tour-reports-daily-expenses-graph.png)
