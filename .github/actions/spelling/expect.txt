@@ -45,6 +45,7 @@ SUBASKBX
 SVGR
 swc
 Synology
+systemctl
 tada
 templating
 ubuntu
