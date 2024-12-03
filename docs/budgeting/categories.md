@@ -7,7 +7,7 @@ Get some background information and recommendations on budget categories in our
 
 ## Add a Category
 
-1. Hover over the category group and press the down arrow
+1. Hover over the category group and press the down arrow 
 
 ![](/img/categories/CategoryGroupRename.png)
 
