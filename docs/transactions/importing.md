@@ -4,7 +4,7 @@ There are a couple ways to get transactions into the system. For now, automatic 
 
 ## Import Financial Files
 
-A quick way to import transactions is to login to your bank's website and download a file. Actual supports importing QIF, OFX, and QFX files. Your bank probably allows you to download one of these formats (OFX/QFX is recommended.)
+A quick way to import transactions is to login to your bank's website and download a file. Actual supports importing QIF, OFX, and QFX files. Your bank probably allows you to download one of these formats (OFX/QFX is recommended).
 
 1. Open the account you want to import transactions into.
 2. Press the **Import** button and select the file.
