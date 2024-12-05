@@ -10,7 +10,7 @@ Eventually, you can just import transactions and quickly see your spending witho
 
 The second best part is because you ultimately own the rules, you are free to go in and change the rules that Actual made for you. We'll show you how this works in more detail below.
 
-## How Rules Work
+## How the Rules Work
 
 You can view all the rules by going to **More** and then **Rules** in the Sidebar.
 
