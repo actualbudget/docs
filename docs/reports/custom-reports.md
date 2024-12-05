@@ -29,12 +29,12 @@ Transactions can be filtered for a certain period of time using **Range**. **Liv
 
 Under Options, reports behavior can be changed
 
-* Show hidden categories will enable Categories marked as hidden in the Budget page.
-* Show empty rows will show items chosen in Split with 0 value.
-* Show Off budget enables two categories:
+* `Show hidden categories` will enable Categories marked as hidden in the Budget page.
+* `Show empty rows` will show items chosen in Split with 0 value.
+* `Show Off budget` enables two categories:
 	* Transfers: include all transfers across For budget account. Transfers from For budget to Off budget are not counted.
 	* Off budget: include all transactions in Off budget accounts. Transfers from For budget to Off budget are not counted.
-* Show uncategorized will show transactions which have not been assigned a category.
+* `Show uncategorized` will show transactions which have not been assigned a category.
 
 Single Categories or entire Groups can be excluded from the Report by using the list on the bottom left side.
 Grayed out options in dropdown menus are not yet available for the chosen report.
