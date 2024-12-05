@@ -53,6 +53,7 @@ You are welcome to have other lines in your note, but the #template/#goal line m
 - Number formats that use comma for the decimal separator are not supported (e.g., 123,45). You must use 123.45.
 - Thousands separators are not supported (e.g., 1,234). You must use 1234.
 - {SCHEDULE NAME} is defined in the **Schedules** editor. **Take great care to copy across these schedule names EXACTLY**, without braces.
+- Templates with schedules must defined on the same line with no line breaks (eg `#template schedule SCHEDULE NAME`)
 - By default templates do not consider available funds when being applied. Use template priorities to not budget more than is available.
 - The `hold` flag can be added to any goal that uses the `up to` key word.
 - A single category with two templates that use `up to` is not supported.
