@@ -248,7 +248,7 @@ Place the content inside the details-tags.
 
 Using images to accompany the description makes the documentation more accessible, thus improving its readability.
 
-The way to do this is to take good screenshots.  When taking screenshots, there are a few things to keep in mind:
+The way to do this is to take good screenshots. When taking screenshots, there are a few things to keep in mind:
 
 * It is crucial to ensure that the image is crystal clear and directly relevant.
   Blurry or muddled images can detract from the user's understanding and confidence in the documentation.
@@ -275,7 +275,7 @@ to rescale the images where appropriate.
 
 
 There are several reasons why you need to annotate screenshots.
-One reason is that you need want readers to pay attention to some aspects of the GUI. This is true if you have a screenshot of an area (for context) and you need to highlight one part of that area. Another reason is that you must address more than one element in the GUI, but presenting several variants of the same screenshot is unfavourable.
+One reason is that you want readers to pay attention to some aspects of the GUI. This is true if you have a screenshot of an area (for context) and you need to highlight one part of that area. Another reason is that you must address more than one element in the GUI, but presenting several variants of the same screenshot is unfavorable.
 We have a few suggestions when annotating screenshots:
 
 
@@ -328,7 +328,7 @@ if you need to annotate images but are not able to do it yourself.
 ![Image with ugly free-hand annotations](/static/img/repo/annotation-free-hand.png)
 
 
-#### Annotation Colours
+#### Annotation Colors
 
 Use strong, clear, and crisp colors to create good contrasts. Do not use pure white or pure black. Even if we want
 all screenshots taken using the light theme, there are dark elements like the sidebar and particular dropdowns in the
@@ -338,7 +338,7 @@ Remember that colors are tricky for color blind people.
 
 We suggest using the following colors (RGB values):
 
-| Colour name | Decimal       | Hex      |
+| Color name | Decimal       | Hex      |
 |------------|---------------|----------|
 | Red        | 255,  89,  75 | FF 59 4B |
 | Yellow     | 251, 186,   0 | FB BA 00 |
@@ -369,7 +369,7 @@ However, because we dim down the rest of the image, this breaks over the notion 
 
 ### Software For Taking and Annotating Screenshots
 
-There are many software packages available to help you take screenshots. Both Windows and Mac systems come with some rudimentary tools for this (like [Windows Snipping Tool](https://support.microsoft.com/en-us/windows/use-snipping-tool-to-capture-screenshots-00246869-1843-655f-f220-97299b865f6b) or in [MacOS](https://support.apple.com/en-us/102646)). For various Linuxes, [this Fosspost.com article](https://fosspost.org/take-screenshot-linux) can be consulted.
+There are many software packages available to help you take screenshots. Both Windows and Mac systems come with some rudimentary tools for this (like [Windows Snipping Tool](https://support.microsoft.com/en-us/windows/use-snipping-tool-to-capture-screenshots-00246869-1843-655f-f220-97299b865f6b) or in [macOS](https://support.apple.com/en-us/102646)). For various Linuxes, [this Fosspost.com article](https://fosspost.org/take-screenshot-linux) can be consulted.
 
 Some of the mentioned tools will let you annotate screenshots, others will not.
 

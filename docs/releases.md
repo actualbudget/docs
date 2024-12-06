@@ -1,5 +1,114 @@
 # Release Notes
 
+## 24.12.0
+
+The release has the following notable improvements:
+- Dashboards officially released as first-party feature
+- Tracking budget officially released as first-party feature
+- New summary report card type
+- Batch sync for SimpleFin accounts
+
+### Actual
+
+#### Features
+
+- [#3792](https://github.com/actualbudget/actual/pull/3792) Add a summary card to report dashboard — thanks @lelemm
+- [#3833](https://github.com/actualbudget/actual/pull/3833) Release tracking budget feature. — thanks @MatissJanis
+- [#3856](https://github.com/actualbudget/actual/pull/3856) Dashboards: release as first party feature. — thanks @MatissJanis
+
+#### Enhancements
+
+- [#3381](https://github.com/actualbudget/actual/pull/3381) Context menu's for transactions, budget, schedules, payees and rules pages — thanks @UnderKoen
+- [#3581](https://github.com/actualbudget/actual/pull/3581) Enable all SimpleFin accounts to be synced with a single request — thanks @matt-fidd
+- [#3593](https://github.com/actualbudget/actual/pull/3593) Refactored Sidebar components. Budget rename input box is now responsive. — thanks @tlesicka
+- [#3666](https://github.com/actualbudget/actual/pull/3666) Adds a Button to Group Menu that allows users to apply all Budget Templates in this Group — thanks @Dreptschar
+- [#3670](https://github.com/actualbudget/actual/pull/3670) Support translations in packages/desktop-client/src/components/payees/PayeeMenu.tsx. — thanks @glorenzen
+- [#3693](https://github.com/actualbudget/actual/pull/3693) Auto-reload on app updates if possible, and show a notification if not possible — thanks @jfdoming
+- [#3752](https://github.com/actualbudget/actual/pull/3752) Enhance app with i18n translations — thanks @awaisalee
+- [#3821](https://github.com/actualbudget/actual/pull/3821) Implement SimpleFin batch sync in the API — thanks @matt-fidd
+- [#3827](https://github.com/actualbudget/actual/pull/3827) Enhance app with i18n translations — thanks @awaisalee
+- [#3832](https://github.com/actualbudget/actual/pull/3832) Enhance app with i18n translations — thanks @awaisalee
+- [#3872](https://github.com/actualbudget/actual/pull/3872) Allow report table columns to grow to fit available space — thanks @matt-fidd
+- [#3902](https://github.com/actualbudget/actual/pull/3902) Filter 'has flag(s)' must be visible just for notes — thanks @lelemm
+
+#### Bugfix
+
+- [#3402](https://github.com/actualbudget/actual/pull/3402) Fix wrong scheduled transfer payment direction on PWA — thanks @joel-jeremy
+- [#3571](https://github.com/actualbudget/actual/pull/3571) Fixes focus ring getting "stuck" on last column of /accounts/budgeted screen when creating a new transaction. — thanks @The-Firexx
+- [#3669](https://github.com/actualbudget/actual/pull/3669) Fix category filters when the value is '(nothing)' — thanks @qedi-r
+- [#3686](https://github.com/actualbudget/actual/pull/3686) Fixes #3682 - Fix $ne filters incorrectly excluding null values — thanks @joel-rich
+- [#3729](https://github.com/actualbudget/actual/pull/3729) Fix mobile/desktop views not change when window is resized (e.g. from portrait to landscape and vice versa) — thanks @joel-jeremy
+- [#3731](https://github.com/actualbudget/actual/pull/3731) Fix mobile navigation tabs scrolling when scrolling anywhere in the app e.g. scrolling through category/group notes in mobile budget view. — thanks @joel-jeremy
+- [#3732](https://github.com/actualbudget/actual/pull/3732) Fix #2932: Schedule reset amount to ten (10) when amount is zero (0). — thanks @lelemm
+- [#3745](https://github.com/actualbudget/actual/pull/3745) Dashboards: save cash-flow balance setting with the widget. — thanks @MatissJanis
+- [#3748](https://github.com/actualbudget/actual/pull/3748) Keep the order of imported transactions when syncing from server. — thanks @UnderKoen
+- [#3753](https://github.com/actualbudget/actual/pull/3753) Fixed overflowing text on transaction records when imported payee has an extra long name — thanks @JahJoey
+- [#3793](https://github.com/actualbudget/actual/pull/3793) Handle unexpected response from GoCardless when getting banks. — thanks @thraizz
+- [#3794](https://github.com/actualbudget/actual/pull/3794) Fixes typescript and runtime error from useResponsive update. — thanks @tlesicka
+- [#3815](https://github.com/actualbudget/actual/pull/3815) Allow server URLs to contain pathnames. — thanks @joshyrobot
+- [#3817](https://github.com/actualbudget/actual/pull/3817) Fix template goals after recent rewrite — thanks @youngcw
+- [#3823](https://github.com/actualbudget/actual/pull/3823) Fix Iphone 13 error when attempting to view budget. — thanks @MikesGlitch
+- [#3825](https://github.com/actualbudget/actual/pull/3825) Fix back button behavior after adding a new transaction on mobile — thanks @JukeboxRhino
+- [#3829](https://github.com/actualbudget/actual/pull/3829) Fix template limits — thanks @youngcw
+- [#3837](https://github.com/actualbudget/actual/pull/3837) Fix validation issue for invalid server URLs in /config-server page — thanks @shb9019
+- [#3873](https://github.com/actualbudget/actual/pull/3873) Fix preview transactions not showing in all accounts and aggregated accounts (budgeted/offbudget) — thanks @joel-jeremy
+- [#3882](https://github.com/actualbudget/actual/pull/3882) Fix performance regression around accounts and budget pages — thanks @MikesGlitch
+- [#3905](https://github.com/actualbudget/actual/pull/3905) Fix mobile transaction edit page's back button behavior — thanks @joel-jeremy
+- [#3920](https://github.com/actualbudget/actual/pull/3920) Fix flickering when saving a transaction when there are transactions scheduled — thanks @MikesGlitch
+- [#3932](https://github.com/actualbudget/actual/pull/3932) Fix a navigation bug and a crash from the account pages — thanks @jfdoming
+
+#### Maintenance
+
+- [#3548](https://github.com/actualbudget/actual/pull/3548) Support translations in various files. — thanks @a-gradina
+- [#3685](https://github.com/actualbudget/actual/pull/3685) Create a new useTransactions hook to simplify loading of transactions. — thanks @joel-jeremy
+- [#3744](https://github.com/actualbudget/actual/pull/3744) Custom reports: moving from session storage and local state for inner report pages to using unique URL identifiers for each custom report page. — thanks @MatissJanis
+- [#3754](https://github.com/actualbudget/actual/pull/3754) Reorganize goal template code — thanks @youngcw
+- [#3757](https://github.com/actualbudget/actual/pull/3757) Migrate AccountSyncCheck.jsx file to typescript — thanks @joel-jeremy
+- [#3761](https://github.com/actualbudget/actual/pull/3761) Migrate mobile Transaction component to TypeScript (TransactionListItem.tsx) + cleanup — thanks @joel-jeremy
+- [#3764](https://github.com/actualbudget/actual/pull/3764) Add `/update-vrt` as a command for PR's. — thanks @UnderKoen
+- [#3782](https://github.com/actualbudget/actual/pull/3782) Removing node-fetch from the Desktop app and updating self signed certificate implementation — thanks @MikesGlitch
+- [#3785](https://github.com/actualbudget/actual/pull/3785) Dashboards: add migration that will remove faulty 'blank' widgets. — thanks @MatissJanis
+- [#3801](https://github.com/actualbudget/actual/pull/3801) Update build folder structure to allow separation of web and electron builds — thanks @MikesGlitch
+- [#3830](https://github.com/actualbudget/actual/pull/3830) Fix broken translations in worker files — thanks @MikesGlitch
+- [#3841](https://github.com/actualbudget/actual/pull/3841) Fix translations parameter formatting issues — thanks @MikesGlitch
+- [#3859](https://github.com/actualbudget/actual/pull/3859) Strict TS typing for useResizeObserver.ts — thanks @joel-jeremy
+- [#3860](https://github.com/actualbudget/actual/pull/3860) Convert ManagementApp to tsx — thanks @joel-jeremy
+- [#3862](https://github.com/actualbudget/actual/pull/3862) Convert mobile Accounts.jsx to Typescript. — thanks @joel-jeremy
+- [#3864](https://github.com/actualbudget/actual/pull/3864) Use strict typing in useSheetValue and fix bug where query is not being updated when the query object changed — thanks @joel-jeremy
+- [#3865](https://github.com/actualbudget/actual/pull/3865) Convert EditFieldModal.jsx to tsx — thanks @joel-jeremy
+- [#3866](https://github.com/actualbudget/actual/pull/3866) Convert MergeUnusedPayeesModal.jsx to tsx — thanks @joel-jeremy
+- [#3867](https://github.com/actualbudget/actual/pull/3867) Convert ManagePayees page components to Typescript — thanks @joel-jeremy
+- [#3868](https://github.com/actualbudget/actual/pull/3868) Convert PostsOfflineNotification.jsx to Typescript — thanks @joel-jeremy
+- [#3870](https://github.com/actualbudget/actual/pull/3870) Convert SimpleTransactionsTable.jsx to tsx — thanks @joel-jeremy
+- [#3871](https://github.com/actualbudget/actual/pull/3871) Summary Report: Update font size implementation to be simpler — thanks @MikesGlitch
+- [#3904](https://github.com/actualbudget/actual/pull/3904) Use useNavigate instead of accessing window.__navigate — thanks @joel-jeremy
+
+### Actual Server
+
+#### Features
+
+- [#498](https://github.com/actualbudget/actual-server/pull/498) Add support for authentication using OpenID Connect. — thanks @apilat & @lelemm
+
+#### Enhancements
+
+- [#484](https://github.com/actualbudget/actual-server/pull/484) Add support for `1822-DIREKT-HELADEF1822` transaction information — thanks @matt-fidd
+- [#485](https://github.com/actualbudget/actual-server/pull/485) Check if SimpleFIN accessKey is in the correct format. — thanks @psybers
+- [#490](https://github.com/actualbudget/actual-server/pull/490) Add support for "SWEDBANK_HABALV22" transaction date — thanks @dmednis
+- [#493](https://github.com/actualbudget/actual-server/pull/493) GoCardless: `ING_PL_INGBPLPW` should prefer valueDate over bookingDate — thanks @matt-fidd
+- [#497](https://github.com/actualbudget/actual-server/pull/497) Improve support for "SWEDBANK_HABALV22" transaction date & enrich creditor name for pending transactions — thanks @dmednis
+
+#### Bugfix
+
+- [#494](https://github.com/actualbudget/actual-server/pull/494) Prefer using the SimpleFin pending flag to set cleared status — thanks @matt-fidd
+- [#504](https://github.com/actualbudget/actual-server/pull/504) Fix bug in batch SimpleFIN startDate logic — thanks @matt-fidd
+- [#507](https://github.com/actualbudget/actual-server/pull/507) Fixed bug where the openid migration was removing access for users — thanks @lelemm
+- [#511](https://github.com/actualbudget/actual-server/pull/511) Fixed Hype Bank sync — thanks @guglicap
+- [#514](https://github.com/actualbudget/actual-server/pull/514) Fix gocardless bank "Hanseatic Bank" — thanks @Froghut
+
+#### Maintenance
+
+- [#479](https://github.com/actualbudget/actual-server/pull/479) Updates the docker images base version and set node_env env variable to production — thanks @rare-magma
+
 ## 24.11.0
 
 The release has the following notable improvements:
@@ -323,12 +432,12 @@ The release has the following notable improvements:
 - [#2970](https://github.com/actualbudget/actual/pull/2970) Fix false positives for duplicate filters error when saving a new filter. — thanks @scivarolo
 - [#2974](https://github.com/actualbudget/actual/pull/2974) Fix: Automatically focus inputs, or the primary button, in modals. — thanks @psybers
 - [#2991](https://github.com/actualbudget/actual/pull/2991) Prevent transaction deduplication for imported transactions — thanks @ttlgeek, @strazto, & @pmoon00
-- [#3044](https://github.com/actualbudget/actual/pull/3044) Fix decimal comma parsing for ofx files — thanks @youngcw & @wdpk
+- [#3044](https://github.com/actualbudget/actual/pull/3044) Fix decimal comma parsing for OFX files — thanks @youngcw & @wdpk
 - [#3115](https://github.com/actualbudget/actual/pull/3115) Hide the target category from the cover overspending category list — thanks @matt-fidd
 - [#3205](https://github.com/actualbudget/actual/pull/3205) Fix typo in error message — thanks @matt-fidd
 - [#3206](https://github.com/actualbudget/actual/pull/3206) Fix mobile account status indicators cutting off. — thanks @psybers
 - [#3209](https://github.com/actualbudget/actual/pull/3209) Adjusting UI so that spending report works on mobile. — thanks @carkom
-- [#3212](https://github.com/actualbudget/actual/pull/3212) Fix gocardless "Linking back account" integration in Desktop app. — thanks @MikesGlitch
+- [#3212](https://github.com/actualbudget/actual/pull/3212) Fix GoCardless "Linking back account" integration in Desktop app. — thanks @MikesGlitch
 - [#3220](https://github.com/actualbudget/actual/pull/3220) Fix electron builds throwing "We had an unknown problem opening file" — thanks @MikesGlitch
 - [#3232](https://github.com/actualbudget/actual/pull/3232) Fix import transaction issue introduced by strict id checking feature — thanks @pmoon00
 - [#3237](https://github.com/actualbudget/actual/pull/3237) Fix crash when visiting later months — thanks @jfdoming
@@ -384,7 +493,7 @@ The release has the following notable improvements:
 
 #### Enhancements
 
-- [#358](https://github.com/actualbudget/actual-server/pull/358) Add gocardless support for Berliner Sparkasse (Germany) — thanks @Peccadilloz
+- [#358](https://github.com/actualbudget/actual-server/pull/358) Add GoCardless support for Berliner Sparkasse (Germany) — thanks @Peccadilloz
 - [#418](https://github.com/actualbudget/actual-server/pull/418) Add SANTANDER_BSCHESMM to banks with limited history — thanks @sarfios20 & @DanielHaggstrom
 - [#441](https://github.com/actualbudget/actual-server/pull/441) Added Nordea Personal DK (NORDEA_NDEADKKK) to BANKS_WITH_LIMITED_HISTORY — thanks @hsk-dk
 
@@ -603,7 +712,7 @@ The release has the following notable improvements:
 - [#2790](https://github.com/actualbudget/actual/pull/2790) Fix CSV import not matching category is (nothing) rules — thanks @matt-fidd
 - [#2799](https://github.com/actualbudget/actual/pull/2799) Fix amount parsing with 6-9 decimal places — thanks @sreetamdas
 - [#2812](https://github.com/actualbudget/actual/pull/2812) Fix amounts over 1 million cutting off. — thanks @psybers
-- [#2817](https://github.com/actualbudget/actual/pull/2817) Fixes nynab import issue where you couldn't import a category group called 'Income' — thanks @Marethyu1
+- [#2817](https://github.com/actualbudget/actual/pull/2817) Fixes nYNAB import issue where you couldn't import a category group called 'Income' — thanks @Marethyu1
 - [#2825](https://github.com/actualbudget/actual/pull/2825) Enable compress to avoid minified scripts from throwing SyntaxError in safari16 — thanks @chinalichen
 - [#2836](https://github.com/actualbudget/actual/pull/2836) Fix null bank_id for SimpleFIN caused when no org domain is sent. — thanks @duplaja
 - [#2838](https://github.com/actualbudget/actual/pull/2838) Don't show account tooltips during VRT. — thanks @psybers
@@ -740,7 +849,7 @@ The release has the following notable improvements:
 #### Enhancements
 
 - [#312](https://github.com/actualbudget/actual-server/pull/312) Add option to authenticate with HTTP header from Auth Proxy. — thanks @joewashear007
-- [#346](https://github.com/actualbudget/actual-server/pull/346) Add gocardless support for Sparkasse Karlsruhe (Germany) — thanks @Nebukadneza
+- [#346](https://github.com/actualbudget/actual-server/pull/346) Add GoCardless support for Sparkasse Karlsruhe (Germany) — thanks @Nebukadneza
 - [#349](https://github.com/actualbudget/actual-server/pull/349) Ensure payee names don't contain transactional information when pulling in transactions from BNP bank with GoCardless. — thanks @vojeroen
 - [#350](https://github.com/actualbudget/actual-server/pull/350) Extended bank adapter for SEB to support SEB_KORT_AB_NO_SKHSFI21 — thanks @jakoblover
 - [#355](https://github.com/actualbudget/actual-server/pull/355) Add BANKS_WITH_LIMITED_HISTORY constant and Implement BANKINTER_BKBKESMM Bank Adapter — thanks @hostyn
@@ -967,7 +1076,7 @@ Version: v24.4.0
 
 #### Features
 
-- [#316](https://github.com/actualbudget/actual-server/pull/316) Add SEB Private Bank integration to gocardless. Handle that SEB is sending the creditor name in additionalInfo. — thanks @myhrmans
+- [#316](https://github.com/actualbudget/actual-server/pull/316) Add SEB Private Bank integration to GoCardless. Handle that SEB is sending the creditor name in additionalInfo. — thanks @myhrmans
 - [#325](https://github.com/actualbudget/actual-server/pull/325) Add custom bank adapter for 'SEB Kort Bank AB' to properly sync credit card transactions. — thanks @walleb
 
 ## 24.3.0
@@ -1064,8 +1173,8 @@ Version: v24.3.0
 
 #### Bugfix
 
-- [#310](https://github.com/actualbudget/actual-server/pull/310) Switch from using deprecated gocardless endpoints. — thanks @twk3
-- [#311](https://github.com/actualbudget/actual-server/pull/311) Fix the redirect for gocardless link so the page closes when complete. — thanks @twk3
+- [#310](https://github.com/actualbudget/actual-server/pull/310) Switch from using deprecated GoCardless endpoints. — thanks @twk3
+- [#311](https://github.com/actualbudget/actual-server/pull/311) Fix the redirect for GoCardless link so the page closes when complete. — thanks @twk3
 
 #### Maintenance
 
@@ -1379,7 +1488,7 @@ Version: 23.12.0
 #### Maintenance
 
 - [#1834](https://github.com/actualbudget/actual/pull/1834) Convert Titlebar, BudgetPageHeader, DynamicBudgetTable, Tooltips components to Typescript. — thanks @MikesGlitch
-- [#1860](https://github.com/actualbudget/actual/pull/1860) Added darkmode VRT (screenshot) tests — thanks @MatissJanis
+- [#1860](https://github.com/actualbudget/actual/pull/1860) Added dark mode VRT (screenshot) tests — thanks @MatissJanis
 - [#1868](https://github.com/actualbudget/actual/pull/1868) Consolidating colors so they are more consistent across the app from one page to the next — thanks @carkom
 - [#1871](https://github.com/actualbudget/actual/pull/1871) Consolidating colors so they are more consistent across the app from one page to the next. — thanks @carkom
 - [#1875](https://github.com/actualbudget/actual/pull/1875) Removing the last of the static colors and replacing with theme colors. — thanks @carkom
@@ -1392,7 +1501,7 @@ Version: 23.12.0
 - [#1909](https://github.com/actualbudget/actual/pull/1909) Type hardening action operator in rules.tsx — thanks @Marethyu1
 - [#1923](https://github.com/actualbudget/actual/pull/1923) Convert CloseAccount, AccountAutocomplete, SavedFilterAutocomplete, PayeeAutocomplete components to Typescript. — thanks @MikesGlitch
 - [#1936](https://github.com/actualbudget/actual/pull/1936) Refactor AmountInput component to TypeScript. — thanks @kymckay
-- [#1941](https://github.com/actualbudget/actual/pull/1941) Ported `gocardless` file to TypeScript — thanks @MatissJanis
+- [#1941](https://github.com/actualbudget/actual/pull/1941) Ported `GoCardless` file to TypeScript — thanks @MatissJanis
 - [#1942](https://github.com/actualbudget/actual/pull/1942) Ported `global-events` to TypeScript — thanks @MatissJanis
 - [#1946](https://github.com/actualbudget/actual/pull/1946) Refactor DiscoverSchedules component to tsx and enrich types for schedules discover endpoint. — thanks @muhsinkamil
 - [#1948](https://github.com/actualbudget/actual/pull/1948) Refactor Payee table to TypeScript and harden generic `Table` component typing. — thanks @kymckay
@@ -1522,7 +1631,7 @@ Version: 23.10.0
 - [#1634](https://github.com/actualbudget/actual/pull/1634) Fix pressing Enter on Encryption Key cancels entry instead of update the key — thanks @syukronrm
 - [#1645](https://github.com/actualbudget/actual/pull/1645) Fix navigateToSchedule prop. — thanks @joel-jeremy
 - [#1646](https://github.com/actualbudget/actual/pull/1646) Fix blur performance issue in Safari. — thanks @joel-jeremy
-- [#1649](https://github.com/actualbudget/actual/pull/1649) Fix qfx import issues reported in v23.9.0. — thanks @joel-jeremy
+- [#1649](https://github.com/actualbudget/actual/pull/1649) Fix QFX import issues reported in v23.9.0. — thanks @joel-jeremy
 - [#1654](https://github.com/actualbudget/actual/pull/1654) Don't show hidden groups on mobile — thanks @youngcw
 - [#1656](https://github.com/actualbudget/actual/pull/1656) Don't show hidden income categories on mobile — thanks @youngcw
 - [#1657](https://github.com/actualbudget/actual/pull/1657) Fix signup page not allowing to use domains without protocol — thanks @MatissJanis
@@ -1641,12 +1750,12 @@ Version: 23.9.0
 - [#1518](https://github.com/actualbudget/actual/pull/1518) Fix incorrect cashflow balance — thanks @martinfrench92
 - [#1526](https://github.com/actualbudget/actual/pull/1526) Show the correct payee of scheduled transactions on "For budget" account page — thanks @kyrias
 - [#1529](https://github.com/actualbudget/actual/pull/1529) Fix nYNAB importer when fractional budget amounts are used — thanks @MatissJanis
-- [#1530](https://github.com/actualbudget/actual/pull/1530) Fix lightmode regressions introduced with experimental darkmode changes — thanks @MatissJanis
+- [#1530](https://github.com/actualbudget/actual/pull/1530) Fix light mode regressions introduced with experimental dark mode changes — thanks @MatissJanis
 - [#1531](https://github.com/actualbudget/actual/pull/1531) Fix transaction table hover effects — thanks @MatissJanis
 - [#1533](https://github.com/actualbudget/actual/pull/1533) Fix schedule colors in transaction table — thanks @MatissJanis
 - [#1539](https://github.com/actualbudget/actual/pull/1539) Mobile: Don't show hidden categories — thanks @shall0pass
 - [#1540](https://github.com/actualbudget/actual/pull/1540) Mobile: Show the correct To Budget amount on Budget Summary — thanks @shall0pass
-- [#1541](https://github.com/actualbudget/actual/pull/1541) Fix more darkmode regressions - transaction table, csv import modal — thanks @MatissJanis
+- [#1541](https://github.com/actualbudget/actual/pull/1541) Fix more dark mode regressions - transaction table, csv import modal — thanks @MatissJanis
 - [#1546](https://github.com/actualbudget/actual/pull/1546) Mobile: hide sync button when sync is not active — thanks @MatissJanis
 - [#1547](https://github.com/actualbudget/actual/pull/1547) Reset reconciliation bar when switching accounts — thanks @MatissJanis
 - [#1550](https://github.com/actualbudget/actual/pull/1550) Fixed expanding mobile header, aligned elements center — thanks @zigamacele
@@ -2720,7 +2829,7 @@ Version: 23.1.12
 #### Features
 
 - [#403](https://github.com/actualbudget/actual/pull/403) Replace URLs to point to https://actualbudget.github.io/docs — thanks @shall0pass
-- [#413](https://github.com/actualbudget/actual/pull/413) feat: allow creating test budget in netlify deployments — thanks @MatissJanis
+- [#413](https://github.com/actualbudget/actual/pull/413) feat: allow creating test budget in Netlify deployments — thanks @MatissJanis
 - [#420](https://github.com/actualbudget/actual/pull/420) feat: creating test budget on the config page — thanks @MatissJanis
 - [#426](https://github.com/actualbudget/actual/pull/426) Move “Find schedules” to a button on the Schedules page — thanks @j-f1
 - [#435](https://github.com/actualbudget/actual/pull/435) Read-only Responsive view — thanks @trevdor
@@ -2745,7 +2854,7 @@ Version: 23.1.12
 - [#431](https://github.com/actualbudget/actual/pull/431) prune: remove unused variables — thanks @MatissJanis
 - [#434](https://github.com/actualbudget/actual/pull/434) Split the Settings component into multiple files — thanks @j-f1
 - [#437](https://github.com/actualbudget/actual/pull/437) chore: remove unused vars & cleanups — thanks @MatissJanis
-- [#439](https://github.com/actualbudget/actual/pull/439) docs: add netlify as sponsors to README — thanks @MatissJanis
+- [#439](https://github.com/actualbudget/actual/pull/439) docs: add Netlify as sponsors to README — thanks @MatissJanis
 - [#442](https://github.com/actualbudget/actual/pull/442) 🔥 removal of react-native mobile apps — thanks @MatissJanis
 - [#443](https://github.com/actualbudget/actual/pull/443) ⬆️ upgrade prettier and fix new issues — thanks @MatissJanis
 

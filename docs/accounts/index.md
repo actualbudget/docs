@@ -4,7 +4,7 @@ You can add as many accounts as you like. Adding all of your accounts (including
 
 ## Off-budget accounts
 
-Actual makes a distinction between accounts being **for** budget or **off** budget. Off budget accounts don't effect the budget and are meant to track stuff like investments and mortgages. Transactions in off budget accounts can't be categorized; they simply track balances over time.
+Actual makes a distinction between accounts being **for** budget or **off** budget. Off budget accounts don't affect the budget and are meant to track stuff like investments and mortgages. Transactions in off budget accounts can't be categorized; they simply track balances over time.
 
 **For budget** accounts affect the budget, and transactions can be categorized. These are accounts where you want to track cash flow and use the budget, like checking accounts and credit cards.
 
@@ -60,7 +60,7 @@ Click the account name in the sidebar of Actual
 
 ![](/img/add-account/SidebarAccountList@2x.png)
 
-Hovering your cursor close to the account name at the top will reveal two icons.  
+Hovering your cursor close to the account name at the top will reveal two icons.
 The page icon allows you to write a note about this account, and the pencil icon allows you to rename the account.
 
 After editing a note for the account or its name, hit 'Enter' to save your changes.
