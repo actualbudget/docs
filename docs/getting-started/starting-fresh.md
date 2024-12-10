@@ -12,22 +12,22 @@ This includes all savings, checking, and investment accounts.
 These accounts should match what shows up in your Bank or Credit Union.
 For example, if you have a savings, checking, and credit card account with Bank of America, add each as a separate account in Actual.
 
-### On-Budget or Off-Budget
+### On Budget or Off Budget
 
-In Actual, you have the option of on-budget accounts and off-budget accounts.
-On-budget accounts are included towards the funds available in your budget, while off-budget accounts are only for tracking.
-Off-budget accounts are included in the net worth report.
-It is usually best to err towards putting accounts on-budget versus off-budget.
-The most common off-budget accounts would be investment type accounts such as a 401(k), IRA, HSA, brokerage account, loans, and asset tracking such as your home equity.
+In Actual, you have the option of on budget accounts and off budget accounts.
+On budget accounts are included towards the funds available in your budget, while off budget accounts are only for tracking.
+Off budget accounts are included in the net worth report.
+It is usually best to err towards putting accounts on budget versus off budget.
+The most common off budget accounts would be investment type accounts such as a 401(k), IRA, HSA, brokerage account, loans, and asset tracking such as your home equity.
 
-Savings accounts can be either on-budget or off-budget.
-It is usually easier, and more flexible, to place them on-budget.
+Savings accounts can be either on budget or off budget.
+It is usually easier, and more flexible, to place them on budget.
 
-#### Considerations for On-Budget Savings
-* No need to categorize transfers between other on-budget accounts, simplifying the transfer
+#### Considerations for On Budget Savings
+* No need to categorize transfers between other on budget accounts, simplifying the transfer
 * You can leverage the budget categories to manage what you plan to use your savings for and save for specific goals
 
-#### Considerations for Off-Budget Savings
+#### Considerations for Off Budget Savings
 * Your savings is less tempting to borrow from since it is not visible in your budget
 * Any time you transfer to/from your savings, you need to categorize that transaction. This sometimes causes confusion since the money wasn't spent
 
@@ -75,7 +75,7 @@ If you aren't sure what categories you need, Actual will start you with a few ba
 * **Food**: all grocery and restaurant spending
 * **Bills**: all bills that charge the same amount each month
 * **Bills (Flexible)**: All bills that vary month to month
-* **Savings**: Funds you have saved, or are going to transfer to an off-budget savings account
+* **Savings**: Funds you have saved, or are going to transfer to an off budget savings account
 * **General**: Everything else
 
 Some other common categories you could add would be rent/mortgage, taxes, eating out, specific utilities,

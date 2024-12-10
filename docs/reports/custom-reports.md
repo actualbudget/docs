@@ -16,7 +16,7 @@ The **Type** menu can be used to change the display of transactions shown in the
 3. Net: sum of outflows and inflows across on budget accounts. Net results are the figures shown in Budget page under Spent and Received columns. This option is currently available in Data Table, Area Graph and partially available in Bar Graph and Donut Graph
 
 This sum can be **Split** by Category, Group, Payee, Account or Month.
-Note that Split by Account shows sum of transactions from on-budget account, not periodic balance.
+Note that Split by Account shows sum of transactions from on budget account, not periodic balance.
 Monthly breakdowns are provided by changing Mode from Total to Time.
 
 ![Custom report left side with display and date filters](/img/reports/cr-left-menu.png)

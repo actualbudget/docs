@@ -2,15 +2,15 @@
 
 You can add as many accounts as you like. Adding all of your accounts (including things like mortgages) is a nice way to get an overview of all your finances.
 
-## Off-budget accounts
+## Off budget accounts
 
 Actual makes a distinction between accounts being **on** budget or **off** budget. Off budget accounts don't affect the budget and are meant to track stuff like investments and mortgages. Transactions in off budget accounts can't be categorized; they simply track balances over time.
 
-**Off-budget** accounts don't effect the budget and are meant to track stuff like investments and mortgages. Transactions in off-budget accounts can't be categorized; they simply track balances over time.
+**Off budget** accounts don't effect the budget and are meant to track stuff like investments and mortgages. Transactions in off budget accounts can't be categorized; they simply track balances over time.
 
-**On-budget** accounts affect the budget, and transactions can be categorized. These are accounts where you want to track cash flow and use the budget, like checking accounts and credit cards.
+**On budget** accounts affect the budget, and transactions can be categorized. These are accounts where you want to track cash flow and use the budget, like checking accounts and credit cards.
 
-Depending on your usage, savings accounts can either be on or off the budget. If you're not sure, we recommend keeping it on-budget at the start.
+Depending on your usage, savings accounts can either be on or off the budget. If you're not sure, we recommend keeping it on budget at the start.
 
 ## Adding a new account
 
@@ -23,11 +23,11 @@ You can also add an account using the `+ Add account` button in the sidebar.
 Two successive screens will appear with boxes asking you to fill in a few options
 - Create a Local Account or Link to GoCardless (See [Connecting Your Bank](https://actualbudget.org/docs/advanced/bank-sync))
 - Give your account a name
-- Is the account on-budget or off-budget
+- Is the account on budget or off budget
 - The current account balance
 
 :::note
-Off-budget means that the balance is not reflected when you assign money to categories in your budget register
+Off budget means that the balance is not reflected when you assign money to categories in your budget register
 :::
 
 ![](/img/add-account/CreateAccount1.png)
@@ -37,7 +37,7 @@ Off-budget means that the balance is not reflected when you assign money to cate
 Here you can see how that looks when the options are completed.
 
 :::note
-If you select the Off-budget checkbox then change the account type the Off-budget checkbox will reset and will need to be re-selected each time the account type is changed
+If you select the Off budget checkbox then change the account type the Off budget checkbox will reset and will need to be re-selected each time the account type is changed
 :::
 
 ![](/img/add-account/NewBudget.png)
