@@ -51,7 +51,7 @@ Once the `actual` PR has been approved and the new web package has been [publish
 ### docs
 After the release notes workflows in the actual and actual-server PRs have been run, copy the collated notes into a new blog post using a previous release as a template. The release notes will also need adding to the `docs/releases.md` file.
 
-## Building and Releasing
+## Building and Publishing to NPM
 Once the web PR has been approved, the new version of the API and web packages need to be published to NPM. If you haven't done this before, another maintainer will need to give you access.
 
 ###  @actual-app/api
