@@ -79,7 +79,7 @@ cd packages/desktop-client
 yarn npm publish --access public
 ```
 
-### GitHub Tags and Releases
+## GitHub Tags and Releases
 
 Once the web and server releases have been merged, they need to be tagged. When the tag is pushed to `actual-server` it will trigger the Docker stable image to be built and published.
 
@@ -101,7 +101,7 @@ A GitHub release then needs to be created in [actual](https://github.com/actualb
 </a>
 ```
 
-### Windows Store Releases
+## Windows Store Releases
 
 The Windows Store release process consists of: logging in, uploading the packages, updating the store listing, and submitting for certification.
 
@@ -134,7 +134,7 @@ When all of the above steps are complete, select "Submit to the Store" to progre
 
 During the "Certification" stage the app is checked by Microsoft to ensure quality. The certification process can take up to 3 business days, once complete the app will be in the Store.
 
-### Announcement
+## Announcement
 
 After the release is out on `actual-server` - remember to deploy it and do a quick smoke test to verify things still work as expected. If they do: continue with sending an announcement on Discord and Twitter.
 
