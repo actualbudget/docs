@@ -40,7 +40,7 @@ This automation will also delete all the outdated release note files from the `u
 ### actual-server
 1. Bump the version in `package.json`
 2. Open the pull request, the release notes workflow will run and collate the release notes into a comment in the PR.
-3. The PR can not be finalized until the web package has been merged and released as it uses the new version as a dependency.
+3. The PR can not be finalized until the web package has been released as it uses the new version as a dependency.
 
 Once the `actual` PR has been approved and the new web package has been [published to NPM](#building-and-releasing), the server PR can be finalized.
 1. Bump the web dependency version in `package.json`
