@@ -75,7 +75,7 @@ Once you click `Start using OpenID` a modal will be presented.
 
 #### Setup Actual Server for the first time
 
-If you are starting to use Actual Server, during bootstrap, you can configure OpenID by click the button `Configure OpenID authentication instead (Advanced)`:
+During your initial setup of Actual, you can configure OpenID by clicking the button `Configure OpenID authentication instead (Advanced)`:
 
 ![](/static/img/oauth/welcome-button.png)
 
@@ -88,13 +88,13 @@ If you are starting to use Actual Server, during bootstrap, you can configure Op
 ##### Instructions
 Fill all the required field for the selected provider.
 
-Some providers does not require all fields to be filled. 
-For example passwordless.id does not have a `client_secret`.
+Some providers only require some fields to be filled out.```
+As an example, the field _passwordless.id_ does not have a `client_secret`.
 
-After configuring all settings properly, click `OK`. The user will be redirected to the `login` page.
+When all settings are correctly filled out, click the 'OK' button, and you will be redirected to the `login` page.
 
 :::warning
-There are some basic configuration checks when clicking `OK` but if you somehow type a wrong information and the data is saved, you will have to open the actual server database manually and update it. The name of the table is `auth`.
+There are some basic configuration checks when clicking `OK`, but if you somehow type the wrong information and the data is saved, you must manually open the actual server database and update it. The table `auth` is the name of the table.
 :::
 
 #### Tested Providers
@@ -107,21 +107,21 @@ There are some basic configuration checks when clicking `OK` but if you somehow 
 - Passwordless.id
 
 :::tip
-Each provider has different requirements, see Auth0 for example, you have to change for your own settings:
+Each provider has different requirements. One example is Auth0, where you have to change the following:
 
 ![](/static/img/oauth/provider-requirement.png)
 :::
 
 #### After setup:
 
-You will be redirected to login page:
+When setup is done, you will be redirected to the _login_ page:
 
 ![](/static/img/oauth/first-login.png)
 
 ### Next Step
-Once OpenID provider is setup. Setup [Multiuser](multi-user) 
+Once you have configured your OpenID, you can continue to enable [Multiuser](multi-user) login. 
 
 
 :::tip
-Configuring OpenID provider from options or bootstrap can be only done if your provider supports discovery, otherwise, use [file configuration](oauth-auth#config-using-configuration-file)
+Configuring the OpenID provider from options or during the initial setup for Actual can only be done if your provider supports discovery; otherwise, use [file configuration](oauth-auth#config-using-configuration-file)
 :::
