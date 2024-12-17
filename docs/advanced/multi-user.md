@@ -1,4 +1,4 @@
-# Multi user support
+# Managing Multi-User Support
 
 :::note
 Client Version 24.10.0 and
