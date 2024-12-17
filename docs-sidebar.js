@@ -79,7 +79,7 @@ const sidebars = {
               type: 'category',
               label: 'Configuration',
               collapsible: false,
-               items: [ 'config/index', 'config/https', 'advanced/http-header-auth', 'config/reverse-proxies' ],
+               items: [ 'config/index', 'config/https', 'advanced/http-header-auth', 'config/reverse-proxies', 'advanced/oauth-auth', 'advanced/multi-user' ],
             },
 
           ],
