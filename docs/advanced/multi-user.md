@@ -12,7 +12,7 @@ This feature enables multiple users to login into Actual. For now, you need to e
 This feature needs to be enabled on the server, it is not configured to work out of the box. In the Actual config, set the value `multiuser` or env `ACTUAL_MULTIUSER` to `"true"`. This will enable multiuser support. 
 
 :::warning
-The first user to login, after enabling multiuser (and OpenID Provider), will be considered the `master` user. Master users **cannot** be deleted nor change the role from Admin to Basic. But you can change the username manually.
+The first user to log in after enabling multiuser (and OpenID Provider) will be considered the `master` user. Master users **cannot** be deleted or their role changed from Admin to Basic, but their usernames can be changed manually.
 :::
 
 ## User Directory
@@ -27,24 +27,24 @@ Users can be added, disabled, enabled, removed from this page:
 
 ![](/static/img/multiuser/user-directory-overview.png)
 
-Users can be `Basic` or `Admin`.
+There are two user roles _Basic_ or _Admin_.
 
-- Basic:
-Users with the Basic role can create new budgets and be invited to collaborate on budgets created by others.
-This role is ideal for users who primarily need to manage their own budgets and participate in shared budget activities.
+- The Basic role: 
+Users with the Basic role can create new budgets and collaborate on budgets made by others.
+This role is ideal for users who primarily need to manage and participate in shared budget activities.
 
-- Admin:
-Can do everything that Basic users can. In addition, they have the ability to add new users to the directory and access budget files from all users.
-Also can assign ownership of a budget to another person, ensuring efficient budget management.
+- The Admin role:
+This role can do everything the Basic user role can. It can also add new users to the user directory and allow all users to access budget files.
+The role can assign ownership of a budget to another person, ensuring efficient budget management.
 
 ## User Access Management
 
 This is where the user access management must happen. 
 
-To access the **User Access Management** page, the user have to be with a budget open:
+The only place where one can access the **User Access Management** page is from within an open budget:
 
 ![](/static/img/multiuser/user-access.png)
 
-At this page you can give budget access, revoke and transfer ownership:
+This screen is where you assign, give and revoke budget access and transfer ownership:
 
 ![](/static/img/multiuser/user-access-overview.png)

@@ -10,9 +10,9 @@ Server Version 24.10.0 or higher are required for this feature.
 This feature requires use of [Actual Server](../config/)
 :::
 
-To enable this feature, you can do it using configuration file at actual server, environment variables or you can use the UI
+To enable this feature, you can use a configuration file on the Actual server, use environment variables, or use the UI.
 
-### Config using configuration file
+### Configuration Using a Configuration File
 
 If your OpenId provider supports discovery, use the following configuration example:
 
@@ -42,10 +42,10 @@ If your OpenId provider does not provide discovery (like GitHub), you have to co
 ```
 
 :::tip
-This or the environment variables are the only ways to use GitHub as user provider.
+To use GitHub as an identity provider can only be achieved with configuration files or environment variables. 
 :::
 
-### Config using environment variables
+### Configuration Using Environment Variables
 
 If your OpenId provider supports discovery, use the following variables:
 
@@ -63,7 +63,7 @@ If your OpenId provider does not provide discovery (like GitHub), use the follow
 - `ACTUAL_OPENID_CLIENT_SECRET`: client_secret given by the provider
 - `ACTUAL_OPENID_SERVER_HOSTNAME`: Your Actual Server URL (so the provider redirects you to this)
 
-### Configuring OpenID using UI
+### Configuring OpenID Using the UI
 
 #### Using previous versions Actual (with Actual Server enabled)
 
