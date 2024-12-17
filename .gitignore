@@ -4,11 +4,13 @@
 
 .DS_Store
 
+.idea
+*.iml
+
+# Yarn
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
-# Yarn
 .pnp.*
 .yarn/*
 !.yarn/patches

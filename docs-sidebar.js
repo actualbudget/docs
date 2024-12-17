@@ -30,13 +30,32 @@ const sidebars = {
     'releases',
     {
       type: 'category',
+      label: 'A Tour of Actual',
+      link: {
+        type: 'doc',
+        id: 'tour/index',
+            },
+            items: [
+        'tour/user-interface',
+        'tour/budget',
+        'tour/accounts',
+        'tour/reports',
+        'tour/schedules',
+        'tour/payees',
+        'tour/rules',
+            ],
+    },
+    {
+      type: 'category',
       label: 'Getting Started',
       collapsible: false,
       items: [
-        'getting-started/roadmap-for-new-users',
+      'getting-started/roadmap-for-new-users',
+      'getting-started/envelope-budgeting',
+      'getting-started/tracking-budget',
         {
           type: 'category',
-          label: 'Installing Actual',
+          label: 'Installation and Configuration',
           link: {
             type: 'doc',
             id: 'install/index',
@@ -48,45 +67,25 @@ const sidebars = {
               collapsible: false,
               items: ['install/local', 'install/docker'],
             },
+
             {
               type: 'category',
               label: 'In the Cloud',
               collapsible: false,
               items: ['install/pikapods', 'install/fly'],
             },
+
+            {
+              type: 'category',
+              label: 'Configuration',
+              collapsible: false,
+               items: [ 'config/index', 'config/https', 'advanced/http-header-auth', 'config/reverse-proxies', 'advanced/oauth-auth', 'advanced/multi-user' ],
+            },
+
           ],
         },
-        {
-          type: 'category',
-          label: 'Configuring the Server',
-          link: {
-            type: 'doc',
-            id: 'config/index',
-          },
-          items: ['config/https', 'config/reverse-proxies'],
-        },
-        {
-          type: 'category',
-          label: 'A Tour of Actual',
-          link: {
-            type: 'doc',
-            id: 'tour/index',
-          },
-          items: [
-            'tour/user-interface',
-            'tour/budget',
-            'tour/accounts',
-            'tour/reports',
-            'tour/schedules',
-            'tour/payees',
-            'tour/rules',
-          ],
-        },
-        'getting-started/starting-fresh',
-        'getting-started/tips-tricks',
-        'getting-started/sync',
-        'getting-started/manage-files',
-        'getting-started/envelope-budgeting',
+
+
         {
           type: 'category',
           label: 'Migration',
@@ -95,25 +94,25 @@ const sidebars = {
             id: 'migration/index',
           },
           items: [
-            {
-              type: 'category',
-              label: 'Migrating From Other Apps',
-              collapsible: false,
-              items: [
                 'migration/actual-import',
                 'migration/ynab4',
                 'migration/nynab',
-              ],
-            },
           ],
         },
+
+
       ],
     },
+
+
+
+
     {
       type: 'category',
       label: 'Using Actual',
       collapsible: false,
       items: [
+        'getting-started/starting-fresh',
         {
           type: 'category',
           label: 'Budgeting',
@@ -126,30 +125,37 @@ const sidebars = {
             'budgeting/categories',
             {
               type: 'category',
-              label: 'Rules',
-              collapsed: true,
+              label: 'How to articles about budgeting',
+              collapsible: false,
               link: {
                 type: 'doc',
-                id: 'budgeting/rules/index',
+                id: 'budgeting/index',
               },
-              items: ['budgeting/rules/custom'],
+              items: [
+                'budgeting/returns-and-reimbursements',
+                {
+                  type: 'category',
+                  label: 'Managing Credit Cards',
+                  collapsible: true,
+                  link: {
+                    type: 'doc',
+                    id: 'budgeting/credit-cards/index',
+                  },
+                  items: ['budgeting/credit-cards/carrying-debt'],
+                },
+                'budgeting/joint-accounts',
+                'advanced/restart',
+              ]
             },
-            'budgeting/schedules',
-            'budgeting/returns-and-reimbursements',
-            {
-              type: 'category',
-              label: 'Managing Credit Cards',
-              collapsed: true,
-              link: {
-                type: 'doc',
-                id: 'budgeting/credit-cards/index',
-              },
-              items: ['budgeting/credit-cards/carrying-debt'],
-            },
-            'budgeting/joint-accounts',
-            //unavailable('Returns and Reimbursements'),
           ],
         },
+
+        // End of Budgeting
+
+        'schedules',
+
+
+
         {
           type: 'category',
           label: 'Accounts & Transactions',
@@ -159,25 +165,49 @@ const sidebars = {
             id: 'accounts/index',
           },
           items: [
-            'accounts/reconciliation',
-            'transactions/importing',
-            'transactions/bulk-editing',
-            'transactions/payees',
+            'transactions/filters',
             'transactions/transfers',
+            {
+              type: 'category',
+              label: 'Rules',
+              collapsed: true,
+              link: {
+                type: 'doc',
+                id: 'budgeting/rules/index',
+              },
+              items: ['budgeting/rules/custom'],
+            },
+            'transactions/importing',
+            'accounts/reconciliation',
+            'transactions/payees',
+            'transactions/bulk-editing',
+            {
+              type: 'category',
+              label: 'Connecting Your Bank',
+              link: {
+                type: 'doc',
+                id: 'advanced/bank-sync',
+              },
+              items: [
+                'advanced/bank-sync/gocardless',
+                'advanced/bank-sync/simplefin',
+              ],
+            },
+            'advanced/scripts/modify-transfers',
           ],
         },
+
+
         {
           type: 'category',
-          label: 'Reports & Filters',
+          label: 'Reports',
           collapsed: true,
           link: {
             type: 'doc',
-            id: 'reports-filters/index',
+            id: 'reports/index',
           },
           items: [
-            'reports-filters/filters',
-            'reports-filters/reports', 
-            'reports-filters/custom-reports'
+            'reports/custom-reports'
           ],
         },
         {
@@ -186,17 +216,22 @@ const sidebars = {
           collapsed: true,
           items: ['backup-restore/backup', 'backup-restore/restore'],
         },
+        'settings/index',
+        'getting-started/sync',
+        'getting-started/manage-files',
+
         {
           type: 'category',
-          label: 'Settings',
+          label: 'Experimental features',
           collapsed: true,
-          link: {
-            type: 'doc',
-            id: 'settings/index',
-          },
-           items: ['settings/index'],
+          items: [
+            'experimental/goal-templates',
+            'experimental/monthly-cleanup',
+          ],
         },
-         {
+        'getting-started/tips-tricks',
+
+        {
           type: 'category',
           label: 'API',
           link: { type: 'doc', id: 'api/index' },
@@ -214,41 +249,21 @@ const sidebars = {
             },
           ],
         },
-        {
-          type: 'category',
-          label: 'Advanced',
-          collapsed: true,
-          link: {
-            type: 'doc',
-            id: 'advanced/index',
-          },
-          items: [
-            'advanced/bank-sync',
-            'advanced/http-header-auth',
-            'advanced/oauth-auth',
-            'advanced/multi-user',
-            'advanced/restart',
-            {
-              type: 'category',
-              label: 'Scripts',
-              collapsible: false,
-              items: ['advanced/scripts/modify-transfers'],
-            },
-          ],
-        },
-        {
-          type: 'category',
-          label: 'Experimental features',
-          collapsed: true,
-          items: [
-            'experimental/goal-templates',
-            'experimental/monthly-cleanup',
-            'experimental/tracking-budget',
-            'experimental/simplefin-sync',
-          ],
-        },
       ],
     },
+
+
+
+
+
+
+
+
+
+
+
+
+
     {
       type: 'category',
       label: 'Help & Support',
@@ -309,6 +324,14 @@ const sidebars = {
         'contributing/releasing',
         'contributing/windows',
         {
+          type: 'category',
+          label: 'Documentation',
+          collapsible: false,
+          items: [
+            'contributing/writing-docs',
+          ],
+        },
+         {
           type: 'category',
           label: 'Project Leadership',
           collapsible: false,

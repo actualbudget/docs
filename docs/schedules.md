@@ -1,24 +1,22 @@
 # Schedules
 
-[rules]: ./rules
-
 ## Creating a schedule
 
 Schedules can be used to enter anticipated transactions early. Some of the available options to tailor schedules to your needs are:
 
-1.  Set to be recurring or only entered once
-2.  Set to be automatically entered into the account register or choose to manually approve entries
-3.  Options for recurring entries for multiple specific days of the month.
+1. Set to be recurring or only entered once
+2. Set to be automatically entered into the account register or choose to manually approve entries
+3. Options for recurring entries for multiple specific days of the month.
     1. A single schedule can be created for a Cell phone plan that has multiple users and different payment cycles for each phone. If you have 3 cell phones that all get paid on different days of the month, each day can be defined in a single schedule for each phone.
-4.  Options to determine frequency of payments, such as every month, every 2 months, every 2 years, etc.
+4. Options to determine frequency of payments, such as every month, every 2 months, every 2 years, etc.
 
-Once a schedule is started, Actual will search the transaction history for entries that match the schedule, select the matches, and the option to link those transactions to the schedule is given. You can click to the **Find missing transactions** button to have Actual look for matches.
+Once a schedule is started, Actual will search the transaction history for entries that match the schedule.  You can then select the matches, and will have the option to link those transactions to the current schedule. You can click on the **Find missing transactions** button to have Actual look for matches.
 
-![](/img/schedules/schedules-1.png)
+![Example of adding a schedule for a mortgage](/img/schedules/schedules-1.png)
 
-![](/img/schedules/schedules-6.png)
+!Example of schedule for a mortgage[](/img/schedules/schedules-6.png)
 
-![](/img/schedules/schedules-7.png)
+!Example of schedule for a mortgage[](/img/schedules/schedules-7.png)
 
 ## How Actual finds schedules
 
@@ -29,7 +27,7 @@ For example: You have a schedule set up for your power bill for the 15th of ever
 You can resolve this issue in one of two ways.
 
 1. Skip the next schedule by selecting the upcoming scheduled transaction and choosing the "Skip Scheduled Date" from the menu options.
-2. Accept the date doesn't match and leave it as is so the schedule doesn't prompt a second transaction.
+2. Accept that the date doesn't match and leave it as is so the schedule doesn't prompt a second transaction.
 
 ## Schedule options that are not supported
 
@@ -42,36 +40,36 @@ Many times it's desired to add notes to the scheduled transactions or to assign 
 
 Create a schedule.
 
-![](/img/schedules/schedules-2.png)
+![Schedules overview](/img/schedules/schedules-2.png)
 
 You can click on it and a new button has now appeared called **Edit as rule**.
 
-![](/img/schedules/schedules-3.png)
+![Example of mortgage scheduled](/img/schedules/schedules-3.png)
 
 Click on **Edit as Rule** to further customize the automatic entry.
 
-![](/img/schedules/schedules-4.png)
+![Rule associated with the mortgage schedule](/img/schedules/schedules-4.png)
 
 By clicking the **+** arrow on in the **Then apply these actions** area, you can define the category this schedule should be assigned against as well as any notes you might want to include.
 
-![](/img/schedules/schedules-5.png)
+![Rule associated with the mortgage schedule](/img/schedules/schedules-5.png)
 
 You can apply this newly made rule to any other of the linked transactions. Select all of the transactions from the rules dialog and press **Apply actions**.
 
-![](/img/schedules/schedules-8.png)
+![Rule associated with the mortgage schedule](/img/schedules/schedules-8.png)
 
 Save the rule and any time this scheduled transaction gets entered into the register it can be automatically categorized with a helpful note.
 
 ### Creating Schedules From Transactions
-To create a Schedule from an existing transactions,
+To create a Schedule from an existing transaction:
 1. Navigate to the Accounts page
-2. select the tick box in the left hand column for the Transaction you wish to copy.
+2. Select the tick box in the left hand column for the transaction you wish to copy.
 3. Once selected, go to the drop-down menu on the top right of the page
 4. Click Link Selection
-5. In the Pop up that appears Click "Create New"
+5. In the Pop up that appears click "Create New"
 6. All fields will populate from the transaction,
 7. Adjust any additional fields and click Add.
 
-![](/img/bulk-edit/link-schedule.png)
+![Linking a schedule on a given transaction](/img/bulk-edit/link-schedule.png)
 
-![](/img/bulk-edit/create-new-schedule.png)
+![Create new schedule dialog](/img/bulk-edit/create-new-schedule.png)

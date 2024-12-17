@@ -10,7 +10,7 @@ This is the easiest method available. While we don't maintain this tool, https:/
 
 If you don't want to use a third party tool, you will need an API key.
 
-If you haven't already got an API key, you'll need to:
+If you don't already have an API key, you'll need to:
 
     Sign in to the YNAB web app
     Go to the "Account Settings" page, then to the "Developer Settings" page
@@ -51,7 +51,7 @@ curl -H "Authorization: Bearer <ACCESS_TOKEN>" https://api.youneedabudget.com/v1
 
 ![](/img/migrating/actual-import-2.png)
 
-- Choose the exported json file
+- Choose the exported JSON file
 
 ### Optional: Cleanup
 
@@ -80,7 +80,7 @@ This is affectively the same thing nYNAB does, but in a manual form.
 To `hold` the leftover funds for the next month follow these steps:
 1. Click on your `To Budget` value for the month.
 2. Select `Hold for next month`.
-3. Fill in how much you would like to reserve for the future.  By default the current `To Budget` value is filled in.  Using this value will bring your `To Budget` to zero.
+3. Fill in how much you would like to reserve for the future. By default the current `To Budget` value is filled in. Using this value will bring your `To Budget` to zero.
 4. Click `Hold`.
 4. Repeat for all desired months.
 

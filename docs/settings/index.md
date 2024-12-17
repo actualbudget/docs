@@ -1,6 +1,6 @@
 # Settings
 
-The settings screens in Actual provide you with a number of options for managing the look and feel of your budget along with some more system specific settings.
+The Settings screen in Actual provides you with a number of options for managing the look and feel of your budget along with some more system specific settings.
 
 You can access the Settings screen by clicking the down arrow by your budget name or going to the sidebar and clicking More > Settings.
 
@@ -13,6 +13,7 @@ The formatting options allow you to select the following:
 - Your preferred date format
 - Your preferred number format
 - Your preferred first day of the week
+- The option to "Hide decimal places"
 
 ![](/img/using-actual/settings-formatting.png)
 
@@ -30,6 +31,8 @@ This section allows you to download a `.zip` archive of all of your server data 
 
 ## Advanced Settings
 
+Click on the `Show advanced settings` button to open the advanced section of the Settings page.
+
 ![](/img/using-actual/settings-advanced.png)
 
 ### Budget ID
@@ -42,7 +45,7 @@ Resetting the Budget Cache clears all cached values and will completely re-calcu
 
 ### Reset Sync
 
-Actual's sync function is quite complicated and is is covered in detail [here](../getting-started/sync.md#what-does-resetting-sync-mean). This is typically the last-resort to fix any potential issues with sending budget files between other devices.
+Actual's sync function is quite complicated and is covered in detail [here](../getting-started/sync.md#what-does-resetting-sync-mean). This is typically the last-resort to fix any potential issues with sending budget files between other devices.
 
 ### Repair Split Transactions
 
@@ -52,7 +55,8 @@ If you are experiencing bugs relating to split transactions and the “Reset bud
 
 Be careful with this section; you might encounter irrecoverable errors if you enable these settings. But if you want to test out some bleeding-edge features, here's your place to do it. We _highly_ recommend backing up your budget before continuing, just in case. As of the [latest release](../releases.md), the current available experimental features are:
 
-- Monthly spending
-- Budget mode toggle
-- Goal templates
-- SimpleFIN sync
+- Monthly spending report
+- [Goal templates](../experimental/goal-templates.md)
+- Customizable reports page (dashboards)
+- Rule action templating
+- Scheduled transaction upcoming length adjustment

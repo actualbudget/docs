@@ -14,6 +14,7 @@ CAGLESMM
 Caju
 caniuse
 Cardless
+CAROOT
 categorygroup
 Cembra
 Certbot
@@ -42,6 +43,7 @@ Formik
 Fortuneo
 gebabebb
 GEBABEBB
+Greenshot
 HSA
 htpasswd
 IBANs
@@ -63,6 +65,7 @@ ldaplogin
 letsencrypt
 libofx
 linting
+Linuxes
 linuxsvg
 lleskassen
 lte
