@@ -34,8 +34,9 @@ This automation will also delete all the outdated release note files from the `u
    - `packages/api/package.json`
    - `packages/desktop-client/package.json`
    - `packages/desktop-electron/package.json`
-2. Open the pull request, the release notes workflow will run and collate the release notes into a comment in the PR.
-3. The PR can now be marked as ready for review.
+2. Update the translations by running `git submodule update --remote` and committing the result.
+3. Open the pull request, the release notes workflow will run and collate the release notes into a comment in the PR.
+4. The PR can now be marked as ready for review.
 
 ### actual-server
 1. Bump the version in `package.json`
