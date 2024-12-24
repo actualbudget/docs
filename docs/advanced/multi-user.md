@@ -1,11 +1,11 @@
 # Managing Multi-User Support
 
 :::note
-Client Version 25.01.0 and
-Server Version 25.01.0 or higher are required for this feature.
+Client Version 25.1.0 and
+Server Version 25.1.0 or higher are required for this feature.
 :::
 
-This feature is enabled by default when you setup an [OpenId Provider](oauth-auth). The usernames will be fetched from the provider.
+This feature is enabled by default when you setup an [OpenID Provider](oauth-auth). The usernames will be fetched from the provider.
 
 ## User Directory
 

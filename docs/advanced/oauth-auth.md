@@ -1,8 +1,8 @@
-# Authenticating With OpenID Provider
+# Authenticating With an OpenID Provider
 
 :::note
-Client Version 25.01.0 and
-Server Version 25.01.0 or higher are required for this feature.
+Client Version 25.1.0 and
+Server Version 25.1.0 or higher are required for this feature.
 :::
 
 ## Setup
@@ -16,18 +16,18 @@ To enable this feature, you can use a configuration file `config.json` on the Ac
 
 ### Configuration Using a Configuration File
 
-If your OpenId provider supports discovery, use the following configuration example:
+If your OpenID provider supports discovery, use the following configuration example:
 
 ```json title="config.json"
 "openId": {
-        "issuer": "URL for the OpenId Provider",
+        "issuer": "URL for the OpenID Provider",
         "client_id": "client_id given by the provider",
         "client_secret": "client_secret given by the provider",
         "server_hostname": "your Actual Server URL (so the provider redirects you to this)"
     }
 ```
 
-If your OpenId provider does not supports discovery (like GitHub), you have to configure each endpoint manually:
+If your OpenID provider does not supports discovery (like GitHub), you have to configure each endpoint manually:
 
 ```json title="config.json"
 "openId": {
@@ -49,9 +49,9 @@ To use GitHub as an identity provider can only be achieved with configuration fi
 
 ### Configuration Using Environment Variables
 
-If your OpenId provider supports discovery, use the following variables:
+If your OpenID provider supports discovery, use the following variables:
 
-- `ACTUAL_OPENID_DISCOVERY_URL`: URL for the OpenId Provider
+- `ACTUAL_OPENID_DISCOVERY_URL`: URL for the OpenID Provider
 - `ACTUAL_OPENID_CLIENT_ID`: client_id given by the provider
 - `ACTUAL_OPENID_CLIENT_SECRET`: client_secret given by the provider
 - `ACTUAL_OPENID_SERVER_HOSTNAME`: Your Actual Server URL (so the provider redirects you to this)
@@ -82,10 +82,10 @@ Some providers does not require all fields to be filled out.
 
 As an example, the provider _passwordless.id_ does not need `client_secret`.
 
-When all settings are correctly filled out, click the 'OK' button, and you will be redirected to the `login` page.
+When all settings are correctly filled out, click the 'OK' button, and you will be redirected to the login page.
 
 :::warning
-There are some basic configuration checks when clicking `OK`, but if you somehow type the wrong information and the data is saved, when you login for the first time using OpenID, you will have a chance to review the settings.
+There are some basic configuration checks when clicking 'OK', but if you somehow type the wrong information and the data is saved, when you login for the first time using OpenID, you will have a chance to review the settings.
 :::
 
 #### Tested Providers
