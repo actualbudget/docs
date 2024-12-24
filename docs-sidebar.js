@@ -79,7 +79,7 @@ const sidebars = {
               type: 'category',
               label: 'Configuration',
               collapsible: false,
-               items: [ 'config/index', 'config/https', 'advanced/http-header-auth', 'config/reverse-proxies', 'advanced/oauth-auth', 'advanced/multi-user' ],
+               items: [ 'config/index', 'config/https', 'advanced/http-header-auth', 'config/reverse-proxies' ],
             },
 
           ],
@@ -227,6 +227,8 @@ const sidebars = {
           items: [
             'experimental/goal-templates',
             'experimental/monthly-cleanup',
+            'experimental/oauth-auth', 
+            'experimental/multi-user'
           ],
         },
         'getting-started/tips-tricks',

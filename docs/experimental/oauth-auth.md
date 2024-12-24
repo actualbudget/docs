@@ -1,5 +1,9 @@
 # Authenticating With an OpenID Provider
 
+:::warning
+This is an **experimental feature**. That means we’re still working on finishing it. There may be bugs, missing functionality or incomplete documentation, and we may decide to remove the feature in a future release. If you have any feedback, please [open an issue](https://github.com/actualbudget/actual/issues) or post a message in the Discord.
+:::
+
 :::note
 Client Version 25.1.0 and
 Server Version 25.1.0 or higher are required for this feature.
@@ -23,11 +27,12 @@ If your OpenID provider supports discovery, use the following configuration exam
         "issuer": "URL for the OpenID Provider",
         "client_id": "client_id given by the provider",
         "client_secret": "client_secret given by the provider",
-        "server_hostname": "your Actual Server URL (so the provider redirects you to this)"
+        "server_hostname": "your Actual Server URL (so the provider redirects you to this)",
+        "authMethod": "openid" // or "oauth2"
     }
 ```
 
-If your OpenID provider does not supports discovery (like GitHub), you have to configure each endpoint manually:
+If your OpenID provider does not supports discovery, you have to configure each endpoint manually:
 
 ```json title="config.json"
 "openId": {
@@ -39,12 +44,13 @@ If your OpenID provider does not supports discovery (like GitHub), you have to c
         },
         "client_id": "client_id given by the provider",
         "client_secret": "client_secret given by the provider",
-        "server_hostname": "your Actual Server URL (so the provider redirects you to this)"
+        "server_hostname": "your Actual Server URL (so the provider redirects you to this)",
+        "authMethod": "openid" // or "oauth2"
     }
 ```
 
 :::tip
-To use GitHub as an identity provider can only be achieved with configuration files or environment variables. 
+To use GitHub as an identity provider can only be achieved with configuration files using `"authMethod": "oauth2"`.
 :::
 
 ### Configuration Using Environment Variables
@@ -56,7 +62,7 @@ If your OpenID provider supports discovery, use the following variables:
 - `ACTUAL_OPENID_CLIENT_SECRET`: client_secret given by the provider
 - `ACTUAL_OPENID_SERVER_HOSTNAME`: Your Actual Server URL (so the provider redirects you to this)
 
-If your OpenId provider does not supports discovery (GitHub doesn't supports), use the following variables:
+If your OpenId provider does not supports discovery, use the following variables:
 
 - `ACTUAL_OPENID_AUTHORIZATION_ENDPOINT`: Provider's authorize endpoint
 - `ACTUAL_OPENID_TOKEN_ENDPOINT`: Provider's access token endpoint
