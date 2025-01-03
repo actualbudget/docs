@@ -52,6 +52,7 @@ const sidebars = {
       items: [
       'getting-started/roadmap-for-new-users',
       'getting-started/envelope-budgeting',
+      'getting-started/tracking-budget',
         {
           type: 'category',
           label: 'Installation and Configuration',
@@ -122,30 +123,19 @@ const sidebars = {
           },
           items: [
             'budgeting/categories',
+            'budgeting/returns-and-reimbursements',
             {
               type: 'category',
-              label: 'How to articles about budgeting',
-              collapsible: false,
+              label: 'Managing Credit Cards',
+              collapsible: true,
               link: {
                 type: 'doc',
-                id: 'budgeting/index',
+                id: 'budgeting/credit-cards/index',
               },
-              items: [
-                'budgeting/returns-and-reimbursements',
-                {
-                  type: 'category',
-                  label: 'Managing Credit Cards',
-                  collapsible: true,
-                  link: {
-                    type: 'doc',
-                    id: 'budgeting/credit-cards/index',
-                  },
-                  items: ['budgeting/credit-cards/carrying-debt'],
-                },
-                'budgeting/joint-accounts',
-                'advanced/restart',
-              ]
+              items: ['budgeting/credit-cards/carrying-debt'],
             },
+            'budgeting/joint-accounts',
+            'advanced/restart'
           ],
         },
 
@@ -226,7 +216,6 @@ const sidebars = {
           items: [
             'experimental/goal-templates',
             'experimental/monthly-cleanup',
-            'experimental/tracking-budget',
           ],
         },
         'getting-started/tips-tricks',

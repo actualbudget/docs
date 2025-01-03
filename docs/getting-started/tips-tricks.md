@@ -3,18 +3,18 @@ sidebar_position: 1
 title: 'Tips & Tricks'
 ---
 
-## Undo/redo {#undo-redo}
+## Undo/Redo {#undo-redo}
 
-If you ever make a mistake, pressing <Key mod="cmd" k="z" /> will undo, and pressing <Key mod="cmd shift" k="z" /> will redo. This is an undo system that you can rely on; any change can be undone and the UI will walk back in time.
+If you ever make a mistake, pressing <Key mod="cmd" k="z" /> will undo, and pressing <Key mod="cmd shift" k="z" /> will redo. Using the desktop app, this is an undo system that you can always rely on; any change can be undone and the UI will walk back in time.  If you're using the web app, this is only good for the current session of the website. If you refresh, or close the browser tab, undo history is lost.
 
-## Keyboard shortcuts
+## Keyboard Shortcuts
 
 Firstly, a few global shortcuts for the Electron App that is still in development. Please be aware that these global shortcuts do not work in the web app:
 
 - <Key mod="cmd" k="1" /> will show the budget
 - <Key mod="cmd" k="2" /> will show reports
 - <Key mod="cmd" k="3" /> will show all accounts
- 
+
 BUT here is one that WILL work in the web app as well:
 - <Key mod="cmd" k="O" /> (O not zero) this will close the file and list other available files to open
 
@@ -46,7 +46,7 @@ The following require a transaction to have been selected first:
 - <Key k="space" /> Toggle selection of current transaction.
 - <Key mod="shift" k="space" /> Add all transactions between current transaction and most recently selected transaction.
 
-## View multiple months at once
+## View Multiple Months at Once
 
 In the top left of the budget, you will see this control:
 
@@ -58,9 +58,9 @@ This sets the maximum amount of months to render at once, and defaults to 1. If 
 This only controls the _maximum_ number of months. If the app is too small to render all of them it will only render the months that fit on the screen.
 :::
 
-## Show running balances
+## Show Running Balance
 
-A "running balance" is the balance of the account after every transaction over time. This is very useful for reconciling accounts with banks because you can see the balance at a specific date and use it to compare it with your bank.
+A "running balance" is the balance of the account after every transaction over time. This is very useful for reconciling accounts with banks because you can see the balance at a specific date and use it to compare it with your bank. Note that the "Show running balance" option and column is only available when the list of transactions is sorted by date in descending order.
 
 To enable this:
 

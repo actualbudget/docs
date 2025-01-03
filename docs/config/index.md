@@ -54,11 +54,11 @@ If you’re providing a custom frontend, make sure you provide an `index.html` i
 
 ## `loginMethod`
 
-Change the authentication method for Actual  (environment variable: `ACTUAL_LOGIN_METHOD`). The valid values are: 
+Change the authentication method for Actual  (environment variable: `ACTUAL_LOGIN_METHOD`). The valid values are:
 * `"password"` (default) - This is standard password authentication
-* `"header"` - Use the HTTP header `x-actual-password` to automatically login. This is advances used and is not done correctly could have security implications. 
+* `"header"` - Use the HTTP header `x-actual-password` to automatically login. This is for advanced use and if not done correctly could have security implications.
 
 
 ## `trustedProxies`
 
-Config the clients that are allowed to authentic with HTTP headers. This defaults to known internal ip ranges: `[10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16, fc00::/7, ::1/128]`  (environment variable: `ACTUAL_TRUSTED_PROXIES`, comma separated string).
+Config the clients that are allowed to authentic with HTTP headers. This defaults to known internal IP ranges: `[10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16, fc00::/7, ::1/128]`  (environment variable: `ACTUAL_TRUSTED_PROXIES`, comma separated string).
