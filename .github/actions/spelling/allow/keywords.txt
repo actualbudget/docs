@@ -83,11 +83,13 @@ netlify
 Nordea
 NORDEA
 nordigen
+notlike
 NRNBGB
 nynab
 offbudget
 ofx
 OFX
+oneof
 payeerule
 pikaday
 pikapods
