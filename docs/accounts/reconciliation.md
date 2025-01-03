@@ -12,7 +12,9 @@ By clicking on the green balance in the header of the account view, two more cat
 
 ## Starting the Reconciliation Tool
 
-Press the icon that has 3 horizontally spaced dots in the right hand corner of the account ledger and then press **Reconcile**.
+Click the lock icon in the right hand corner of the account ledger.
+
+![](/img/reconcile/reconcile-11.png)
 
 Let's imagine that we have just checked our account balance for our Ally Savings account and the current balance is $1229.18. We enter the balance we want to match into the Reconciliation tool and press **Reconcile**.
 
@@ -34,9 +36,9 @@ Of course, there's always the possibility you need to change a locked transactio
 
 ![](/img/reconcile/reconcile-10.png)
 
-## Using the Reconciliation Tool for Off-Budget Asset Tracking
+## Using the Reconciliation Tool for Off Budget Asset Tracking
 
-Some people use off-budget accounts to track values of assets such as vehicles, real estate, retirement accounts, or other investment accounts or property. The reconciliation tool is useful to update these values as well. Let's say we have a house that was valued at 358,700 but with current changes in the market it is now valued at 385,000. We go to the ledger for the house, choose the reconciliation tool, and enter 385,000 as the new value into the tool.
+Some people use off budget accounts to track values of assets such as vehicles, real estate, retirement accounts, or other investment accounts or property. The reconciliation tool is useful to update these values as well. Let's say we have a house that was valued at 358,700 but with current changes in the market it is now valued at 385,000. We go to the ledger for the house, choose the reconciliation tool, and enter 385,000 as the new value into the tool.
 
 ![](/img/reconcile/reconcile-5.png)
 
