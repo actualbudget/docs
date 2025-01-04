@@ -36,6 +36,7 @@ dmg
 easybank
 Edenred
 escodegen
+EUR
 expando
 Firefox
 flyctl
