@@ -18,7 +18,7 @@ This uses an *experimental feature*, so we’re still working on finishing it. T
 
 2. Create Foreign Currency Account
    - As an optional step, you can create a new account for the foreign currency, either:
-     - Add a note to the account ```#currency:XXX``` where XXX is the currency code as defined by [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217) (i.e., EUR, USD, AUD, etc).
+     - Add a note to the account ```#currency:XXX``` where XXX is the 3-letter currency code as defined by [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217) (i.e., EUR, USD, AUD, etc).
      - Name the account with the currency code in parens (i.e., ```Australian Cash (AUD)```).
 
      ![Account Name and Notes](/static/img/multi-currency/account-name-and-note.png)
