@@ -134,6 +134,7 @@ const sidebars = {
               },
               items: ['budgeting/credit-cards/carrying-debt'],
             },
+            'budgeting/multi-currency',
             'budgeting/joint-accounts',
             'advanced/restart'
           ],
