@@ -4,7 +4,7 @@ For the current status visit:
 https://github.com/tlesicka/actual-budget-multicurrency-todo
 
 ## Method to implement multi-currency using Rule Templates
-Until multi-currency is added to Actual Budget, you can use this method to achive similar results.
+Until multi-currency is added to Actual Budget, you can use this method to achieve similar results.
 
 :::warning
 This uses an **experimental feature**. Which means we’re still working on finishing it. There may be bugs, missing functionality or incomplete documentation, and we may decide to remove the feature in a future release. If you have any feedback, please [open an issue](https://github.com/actualbudget/actual/issues) or post a message in the Discord.
@@ -41,7 +41,7 @@ This uses an **experimental feature**. Which means we’re still working on fini
      - "notes" "is not" ```nothing```
      - "notes" "does not contain" ```FX rate:```
    - Actions
-     - On the left side of the action, just to the right of the -/+ symbols, click the Template toggle buttton. (The action must be of type "set" "notes" or "set" "amount" before the Template toggle button will appear.)
+     - On the left side of the action, just to the right of the -/+ symbols, click the Template toggle button. (The action must be of type "set" "notes" or "set" "amount" before the Template toggle button will appear.)
 
      ![Rule Action Template mode not available](/static/img/multi-currency/rule-action.png)
 
@@ -53,7 +53,7 @@ This uses an **experimental feature**. Which means we’re still working on fini
        - XXX is the currency code (i.e. EUR, USD, AUD, etc)
        - FX_RATE is the exchange rate (i.e. insert 0.65 for 1 AUD = 0.65 USD)
      - click the + symbol to add a new action line
-     - click the Template toggle buttton for this line
+     - click the Template toggle button for this line
      - "set" "amount" ```{{ fixed (mul amount FX_RATE) 0 }}```
        - FX_RATE is the same as above
    - Click Save
@@ -69,12 +69,12 @@ This uses an **experimental feature**. Which means we’re still working on fini
      - "Account" "is" then select the foreign currency account
      - "notes" "is" ```nothing```
    - Actions
-     - On the left side of the action, just to the right of the -/+ symbols, click the Template toggle buttton
+     - On the left side of the action, just to the right of the -/+ symbols, click the Template toggle button
      - "set" "notes" ```{{ fixed (div amount 100) 2 }} XXX (FX rate: FX_RATE)```
        - XXX is the same currency code from the first rule
        - FX_RATE is the exchange rate from the first rule
      - click the + symbol to add a new action line
-     - click the Template toggle buttton for this line
+     - click the Template toggle button for this line
      - "set" "amount" ```{{ fixed (mul amount FX_RATE) 0 }}```
        - FX_RATE is the same as above
    - Click Save
