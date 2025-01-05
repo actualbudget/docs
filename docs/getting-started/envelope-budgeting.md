@@ -142,19 +142,19 @@ This average provides a realistic estimate of your spending and income patterns,
 you to set initial budget values that reflect your financial habits.
 
 
-For example, if you have $ 1 200 to allocate for the month, your budget might look like this:
+For example, if you have $ 1,200 to allocate for the month, your budget might look like this:
 
 | Categories      | Allocated (budgeted) funds | Explanation                                                         |
-|-----------------|-----------------|---------------------------------------------------------------------|
-| Groceries       | $ 300             | This covers your monthly food and household supplies.               |
-| Gas             | $ 100             | Allocated for fuel and transportation costs.                        |
-| Dining Out      | $ 150             | Money set aside for eating out at restaurants or cafes.             |
-| Clothing        | $ 100             | Funds for purchasing new clothes or accessories.                    |
-| Entertainment   | $ 150             | Budget for movies, hobbies, or other leisure activities.            |
-| Gifts           | $ 50              | Savings for birthdays, holidays, or special occasions.              |
-| Personal Care   | $ 150             | Allocated for health and beauty products or services like haircuts. |
-| Savings         | $ 200             | Money set aside for future needs or emergencies.                    |
-| **TOTAL**     | **$ 1 200**        | |
+|-----------------|----------------------------|---------------------------------------------------------------------|
+| Groceries       | $ 300                      | This covers your monthly food and household supplies.               |
+| Gas             | $ 100                      | Allocated for fuel and transportation costs.                        |
+| Dining Out      | $ 150                      | Money set aside for eating out at restaurants or cafes.             |
+| Clothing        | $ 100                      | Funds for purchasing new clothes or accessories.                    |
+| Entertainment   | $ 150                      | Budget for movies, hobbies, or other leisure activities.            |
+| Gifts           | $ 50                       | Savings for birthdays, holidays, or special occasions.              |
+| Personal Care   | $ 150                      | Allocated for health and beauty products or services like haircuts. |
+| Savings         | $ 200                      | Money set aside for future needs or emergencies.                    |
+| **TOTAL**     | **$ 1,200**                | |
 
 
 
@@ -265,7 +265,7 @@ month to cover these rather than having to put up the larger amount when the bil
    as a fixed expense to ensure you consistently save for these future costs.
 
 
-**Example:** Let’s say your annual insurance costs are $ 2 400. Instead of scrambling to find this amount when the bill
+**Example:** Let’s say your annual insurance costs are $ 2,400. Instead of scrambling to find this amount when the bill
 arrives, you can set aside $ 200 each month. By the time the bill is due, you’ll have the total amount saved and ready,
 avoiding the need to dip into savings or incur debt.
 
@@ -294,25 +294,25 @@ Read more about [managing credit cards](/docs/budgeting/credit-cards) with Actua
 ## A detailed example of how to do Zero-Sum budgeting
 
 
-Let's say your total monthly income in January is $ 1 200. You get your money on the 1st.  Using Zero-Based Budgeting,
+Let's say your total monthly income in January is $ 1,200. You get your money on the 1st.  Using Zero-Based Budgeting,
 you will allocate every unit of this income to different categories, ensuring that nothing is left unassigned. This is known as
 the *Total Allocation*.
 
-Here's an example of how you could split the $ 1 200:
+Here's an example of how you could split the $ 1,200:
 
-| Categories      | Income | Explanation                                                         |
-|-----------------|-----------------|---------------------------------------------------------------------|
-| Groceries       | $ 300             | This covers your monthly food and household supplies.               |
-| Gas             | $ 100             | Allocated for fuel and transportation costs.                        |
-| Dining Out      | $ 150             | Money set aside for eating out at restaurants or cafes.             |
-| Clothing        | $ 100             | Funds for purchasing new clothes or accessories.                    |
-| Entertainment   | $ 150             | Budget for movies, hobbies, or other leisure activities.            |
-| Gifts           | $ 50              | Savings for birthdays, holidays, or special occasions.              |
-| Personal Care   | $ 150             | Allocated for health and beauty products or services like haircuts. |
-| Savings         | $ 200             | Money set aside for future needs or emergencies.                    |
-| **TOTAL**     | **$ 1 200**        | |
+| Categories      | Income      | Explanation                                                         |
+|-----------------|-------------|---------------------------------------------------------------------|
+| Groceries       | $ 300       | This covers your monthly food and household supplies.               |
+| Gas             | $ 100       | Allocated for fuel and transportation costs.                        |
+| Dining Out      | $ 150       | Money set aside for eating out at restaurants or cafes.             |
+| Clothing        | $ 100       | Funds for purchasing new clothes or accessories.                    |
+| Entertainment   | $ 150       | Budget for movies, hobbies, or other leisure activities.            |
+| Gifts           | $ 50        | Savings for birthdays, holidays, or special occasions.              |
+| Personal Care   | $ 150       | Allocated for health and beauty products or services like haircuts. |
+| Savings         | $ 200       | Money set aside for future needs or emergencies.                    |
+| **TOTAL**     | **$ 1,200** | |
 
-We now see that all $ 1 200 are assigned to specific categories, ensuring that every unit of your income has a purpose.
+We now see that all $ 1,200 are assigned to specific categories, ensuring that every unit of your income has a purpose.
 
 
 ### Week 1 budget tracking
@@ -434,34 +434,4 @@ deficit and need to cover it from other categories.
 The rest we put into our Savings category
 
 | Categories      | Available after week 4 | February Budget | To be allocated |
-|-----------------|------------------------|-----------------|-----------------|
-| Groceries       | $ 2                      | $ 350             | $ 348             |
-| Gas             | $ 14                     |  $ 110            |  $ 96             |
-| Dining Out      |  $ 40                    |  $ 150            |  $ 110            |
-| Clothing        |  $ 16                    |  $ 100            |  $ 84             |
-| Entertainment   |  $ 38                    |  $ 150            | $ 112             |
-| Gifts           |  $ 0                     |  $ 75             |  $ 75             |
-| Personal Care   |   $  0                   |  $ 150            | $ 150             |
-
-The sum of to be allocated is $ 975. The monthly income for February is $ 1200.
-$ 1200 - $ 975 = $ 225 is added to the Savings category. This is $ 25 more than last month.
-A job well done of not overspending more than necessary!
-
-
-This revised budget considers the adjustments based on our spending habits in January,
-ensuring a more accurate and adequate budget for February
-
-| Categories      | Available at the start of  February |
-|-----------------|------------------------|
-| Groceries       |  $ 350             |
-| Gas             |   $ 110            |
-| Dining Out      |   $ 150            |
-| Clothing        |   $ 100            |
-| Entertainment   |   $ 150            |
-| Gifts           |   $ 75             |
-| Personal Care   |   $ 150            |
-
-
-
-
-[^1]: Another name for this type of budgeting is Zero-Based Budgeting.
+|-----------------|----------------------
