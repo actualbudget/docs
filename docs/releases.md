@@ -39,7 +39,7 @@ The release has the following notable improvements:
 - [#3958](https://github.com/actualbudget/actual/pull/3958) Prevent schedules with null amounts from crashing the app — thanks @matt-fidd
 - [#3962](https://github.com/actualbudget/actual/pull/3962) Fix iOS mobile navigation tabs disappearing on bouncing top and appearing on bouncing bottom. — thanks @mbaeuerle
 - [#3985](https://github.com/actualbudget/actual/pull/3985) Fix space missing on create local account copy — thanks @talkintomato
-- [#4009](https://github.com/actualbudget/actual/pull/4009) Fix incorrect boldening of synced accounts in the sidebar — thanks @matt-fidd
+- [#4009](https://github.com/actualbudget/actual/pull/4009) Fix incorrect bolding of synced accounts in the sidebar — thanks @matt-fidd
 - [#4010](https://github.com/actualbudget/actual/pull/4010) Fix goal templates not applying in tracking budget — thanks @youngcw
 - [#4038](https://github.com/actualbudget/actual/pull/4038) Fix loading of number format preferences at app startup — thanks @jfdoming
 - [#4056](https://github.com/actualbudget/actual/pull/4056) Fix payee cell overflowing when it contains an icon — thanks @matt-fidd
