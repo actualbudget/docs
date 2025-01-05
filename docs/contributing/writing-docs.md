@@ -143,7 +143,7 @@ Docusaurus 2 provides translation using [i18n](https://docusaurus.io/docs/i18n/i
 ### A Short Style Guide
 
 * Prefix monetary values with the $ (dollar) sign.
-* Use the , (comma) sign as the thousands separator.
+* Use the , (comma) sign as the thousands' separator.
 * Calculations should never have the dollar prefix, nor the thousand separator signs.
 * All headings must use [Title Case](https://en.wikipedia.org/wiki/Title_case) using the Chicago Manual of Style rule set.
 
