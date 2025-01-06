@@ -175,11 +175,11 @@ const sidebars = {
               label: 'Connecting Your Bank',
               link: {
                 type: 'doc',
-                id: 'advanced/bank-sync',
+                id: 'transaction/bank-sync/index',
               },
               items: [
-                'advanced/bank-sync/gocardless',
-                'advanced/bank-sync/simplefin',
+                'transaction/bank-sync/gocardless',
+                'transaction/bank-sync/simplefin',
               ],
             },
             'advanced/scripts/modify-transfers',
