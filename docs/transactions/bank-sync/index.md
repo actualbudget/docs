@@ -29,7 +29,7 @@ At this moment, it is not yet possible for Actual to automatically sync with you
 
 ## A Small Tips on Starting From Scratch With Bank Sync in Actual
 
-If you are setting up Actual for the first time, it is much easier not to try to pull in historic data. This has caused some users a lot of headaches with subsequent reconciliation.
+If you are setting up Actual for the first time, it is much easier not to try to pull in historical data. This has caused some users a lot of headaches with subsequent reconciliation.
 
 The following process may be more helpful:
 
