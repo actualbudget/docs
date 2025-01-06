@@ -22,7 +22,7 @@ Here are a couple of considerations to know about before making the decision to 
 
 ## Does Actual Sync Automatically With Your Bank?
 
-At this moment, it is not yet possible for Actual to automatically sync with your bank. You need to do this manually by going to "All Accounts" and pressing "Sync".
+At this moment, it is not yet possible for Actual to automatically sync with your bank. You need to do this manually by going to _All Accounts_ and pressing _Bank Sync_.
 
 ![Image showing where in the GUI you can sync your bank accounts](/static/img/connecting-your-bank/syncing-with-your-bank.png)
 
