@@ -35,7 +35,7 @@ In some situations it may make sense to put a credit card account off budget.
 This is generally not recommended unless you are not using that card for any spending and are exclusively paying it off.
 
 ### How to Setup Accounts
-The process of adding an account is detailed in [the adding a new account page](../accounts/index.md#adding-a-new-account).
+The process of adding an account is detailed in [the adding a new account page](/docs/accounts/index.md#adding-a-new-account).
 
 It is recommended to not pull in transactions from more than a month or two prior to your start date.
 The reason for this is that those old transactions will need to be budgeted or your budget will be out of wack.
@@ -46,15 +46,15 @@ Set that amount as the balance when creating the account.
 If your starting date is before the current date, edit the date on the starting balance transaction to the preferred date.
 
 Once your account has the proper starting balance, add all the transactions between your start date and today.
-You can enter transactions [manually](../transactions/importing.md#manually-add-transactions), via [file import](../transactions/importing.md#import-financial-files), or via bank syncing to pull in transactions.
-For bank syncing, Actual has built-in support for [GoCardless](/docs/transactions/bank-sync.md) which works for most EU/UK banks, and SimpleFIN for US/Canadian banks.
-For other bank syncing options see the [community projects page](../community-repos.md).
+You can enter transactions [manually](/docs/transactions/importing.md#manually-add-transactions), via [file import](/docs/transactions/importing.md#import-financial-files), or via bank syncing to pull in transactions.
+For bank syncing, Actual has built-in support for [GoCardless](/docs/transactions/bank-sync/gocardless.md) which works for most EU/UK banks, and [SimpleFIN](/docs/transactions/bank-sync/simplefin.md) for US/Canadian banks.
+For other bank syncing options see the [community projects page](/docs/community-repos.md).
 
 An optional step after you have created your accounts and added your transactions is to reconcile the account.
 Reconciling your accounts is something you should get in the habit of doing regularly.
 This confirms that your accounts are accurate compared to what your bank says happened in your account.
 If you manually add transactions this is especially important.
-The process of reconciling your account can be found on [the reconciliation page](../accounts/reconciliation.md)
+The process of reconciling your account can be found on [the reconciliation page](/docs/accounts/reconciliation.md)
 
 
 ## 2. Handling cash
@@ -103,12 +103,12 @@ This not only provides more visibility and control over your spending but also e
 to make informed financial decisions.
 When using the [envelope method](/docs/getting-started/envelope-budgeting), one will move available funds between categories when
 needed. However, there are some categories that you should be very wary about moving funds away
-from. By grouping, you'll get an extra visual indication that moving funds from the Electricity 
+from. By grouping, you'll get an extra visual indication that moving funds from the Electricity
 category, for instance, may not be the wisest choice. Another reason is to have a more convenient
 way of reporting your spending habits.
 
 
-1. **Crucial or really important**. As the name suggests, these expenses are
+1. **Crucial or really important**. As the name suggests, these expenses are
 difficult or impossible to reduce or remove from your daily life. Most of these are reoccurring
 bills, either monthly, quarterly or yearly. Many of the categories in this group have fixed amounts,
 or the amount does not fluctuate too much over the course of a year. Example of spending categories
@@ -119,7 +119,7 @@ Stopping paying insurance is dumb. It is near impossible to live without electri
 2. **Debt**. Create a separate category group if you have more than one kind of debt. Typical
 categories in this group are Mortgage, Car Payments, Student Loans, Short Term Credit.
 Should you put your credit card debts in this category?
-The answer is *it depends*. For some input on this, please read our article on 
+The answer is *it depends*. For some input on this, please read our article on
 [Carrying Debt](/docs/budgeting/credit-cards/carrying-debt).
 
 3. **Daily expenses**.  Group your everyday expenses for a more organized and convenient way
@@ -129,14 +129,14 @@ Personal Care, Gifts, Entertainment, Streaming services, News (paper) subscripti
 
 
 4. **For a rainy day**. Certain expenses you know will happen in the future, but you don't know when.
-You should have at least one category named *Emergency Fund*. Other examples may be Car Maintenance,
+You should have at least one category named *Emergency Fund*. Other examples may be Car Maintenance,
 Replacing Stove, and Replacing Washing Machine.
 
 
 5. **Savings goals**.  This is where you keep your savings goals categorized *on budget*. What we
-mean by on budget is that if you need to reallocate money, you may settle for a cheaper Vacation or
+mean by on budget is that if you need to reallocate money, you may settle for a cheaper Vacation or
 postpone the Car Replacement or the Bathroom Renovation for a few months. If you are saving for a
-long view, like your retirement, we suggest you create an *off budget* account for those kind of
+long view, like your retirement, we suggest you create an *off budget* account for those kind of
 savings. Money allocated in off budget accounts takes more effort to reallocate as you need to
 move the actual funds from your savings account or sell your stocks or global
 index funds (a few examples of long term saving methods).
@@ -150,14 +150,14 @@ Of course, your own experiences and approach to saving for a rainy day or longer
 
 ### How to Setup Categories
 
-The process for adding and working with categories is found in [the category guide](../budgeting/categories.md#add-a-category).
+The process for adding and working with categories is found in [the category guide](/docs/budgeting/categories.md#add-a-category).
 When making categories remember that it is easier to merge categories later than it is to manually move transactions to a new category.
 
 
 ## 4. Assigning Available Funds
 
 The big question everybody struggles with when using the envelope budgeting method for the first
-time is *how much money to assign to each category*. Fear not; this part of our Starting Fresh
+time is *how much money to assign to each category*. Fear not; this part of our Starting Fresh
 guide will help you with this.
 
 The best way of bootstrapping your budget is to rely on how you have spent your money and what
@@ -181,7 +181,7 @@ This way, you add small buffers in each category as prices rise; the same goes f
 Adding some extra, albeit small, paddings along the way means you are better suited when this happens.
 The only certainty we have in this day and age is that price increases will occur.
 
-![](/img/getting-started/spreadsheet.png)
+![Image of a spreadsheet](/img/getting-started/spreadsheet.png)
 
 We can now see the budget numbers to be used for the month of August in the Average column
 
@@ -190,7 +190,7 @@ We can now see the budget numbers to be used for the month of August in the Aver
 
 
 It's important to note that this method  only works correctly if you use a debit or credit card for all your purchases.
-As a result, your actual *start date* for your budget is in the past. We will reiterate our warning on
+As a result, your actual *start date* for your budget is in the past. We will reiterate our warning on
 [how to set up accounts](#how-to-setup-accounts): going too far back might make your budget completely
 out of wack. It's crucial to avoid this, as you can easily spend more time trying to find out what's
 wrong with your budget and spent numbers because "nothing adds up" anymore.
@@ -204,7 +204,7 @@ If you have a lot of cash withdrawals during a month, you will be better off usi
 
 
 1. You start the budget by entering or importing your transactions.
-2. In the Budget view, you enter the same amount in the *Budgeted* columns as found in the *Spent* columns
+2. In the Budget view, you enter the same amount in the *Budgeted* columns as found in the *Spent* columns
   for all the months you have entered or imported your data.
 
 
@@ -232,7 +232,7 @@ You can start using Actual without actually assigning your available funds befor
 budgeting.
 
 
-1. Record every transaction you make daily. If you do it weekly, the chances are that you will have
+1. Record every transaction you make daily. If you do it weekly, the chances are that you will have
    forgotten some cash transactions. One way to avoid forgetting transactions is, of course,
    to keep all receipts.
 
@@ -241,12 +241,12 @@ budgeting.
     over a month. If you repeatedly make cash withdrawals and do not know what you are spending
     your money on, then no expense and budget tracking tools in the world will be able to help you.
 
-3. At the end of each week, set the *Budgeted* column in the Budget view to the same value
-   as what you see in the *Spent* column. If done correctly, the sum under *To Budget* should
+3. At the end of each week, set the *Budgeted* column in the Budget view to the same value
+   as what you see in the *Spent* column. If done correctly, the sum under *To Budget* should
    correctly tell you how much money you have left.
 
 4. Set aside time to analyze your spending and income at the end of the month. Based on this,
-   you can add values to the upcoming months' Budgeted column.
+   you can add values to the upcoming months' Budgeted column.
 
 
 Remember, this process is challenging, and it's okay if you don't get everything right
