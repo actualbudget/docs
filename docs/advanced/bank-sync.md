@@ -17,7 +17,7 @@ Here are a couple of considerations to know about before making the decision to 
 ## Supported Providers
 
 * [GoCardless (European Banks)](/docs/bank-sync/gocardless)
-* [SimpleFIN Bridge (North American Banks)](/docs/bank-syc/simplefin)
+* [SimpleFIN Bridge (North American Banks)](/docs/bank-sync/simplefin)
 
 
 ## Does Actual Sync Automatically With Your Bank?
