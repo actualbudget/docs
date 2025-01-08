@@ -17,11 +17,11 @@ Create a template by adding a note to a category and adding a line that begins w
 
 You are welcome to have other lines in your note, but the `#template`/`#goal` line must match the template syntax.
 
-### Apply the Templates
+## Apply the Templates
 
 There are a few ways to apply your templates.
 
-#### Apply all templates
+### Apply all templates
 
 In the budget month menu you will see the following options:
 
@@ -35,7 +35,7 @@ This will leave any existing budget amounts intact.
 **Overwrite with budget template** will fill in all budget cells using the templates and ignore any already existing budget amounts.
 This is the recommended method if you are using template priorities.
 
-#### Apply only specific templates
+### Apply only specific templates
 
 You can also apply selections of templates if you want.
 
@@ -106,7 +106,7 @@ This variation along with the previous variation, are probably the most used tem
 They are simple enough to use easily, but are robust enough to make budgeting much simpler.
 
 
-## All Variations
+#### All Variations
 There is more flexibility with the limit part of the template.
 By default, the limit (the "up to" part of the template) is based per month.
 You can modify the limit to be per week or per day if that matches your needs better.
@@ -124,14 +124,58 @@ Below is examples of these different variations of simple templates.
 |#template up to 5 per day |Budget up to 5 per day that month, and remove extra funds | Setting a daily coffee budget|
 |#template up to 100 per week starting 2024-10-07 |Budget 100 per week starting on Mondays, and remove extra funds| Setting a weekly grocery budget |
 
-# Old Table
+### By Type
+
+The **By** type of template is for saving up funds _by_ a certain month.
+For example, it is January and you are trying to save for a new car by the end of the year.
+If the new car will cost $ 10,000 and you plan to buy it in December, you will use something like the following:
+
+<!-- prettier-ignore -->
+|Syntax| Budgeted Amount |
+|---|:---:|
+|#template 10000 by 2025-12 | $ 833.33 |
+Thats example is pretty basic.
+The by template is smarter than just 10000/12.
+Lets say the example is the same, but you already have $ 1,500 saved.
+In that case you get this.
+
+<!-- prettier-ignore -->
+|Syntax| Previous Balance | Budgeted Amount | New Balance |
+|---|:---:| :---: |:---:|
+|#template 10000 by 2025-12 |$ 1,500 | $ 708.33 | $ 2,208.33 |
+
+Nice!
+This even works if you add more funds later.
+The template will always divide up the remaining amount you need by the remaining number of months.
+If you need to pull funds away from your car savings to cover an emergency house repair, the template will budget more in the coming months to say on track.
+If you have extra funds one month and add that to your car savings, the template will budget less in the coming months since you need less.
+
+#### Repeated savings
+The By template can also repeat if your savings is cyclical, such as yearly taxes or insurance.
+The repeat period can be both a number of months or number of years.
+If you need to repeat based on a number of weeks, use the Week template.
+In that case use the following variation:
+<!-- prettier-ignore -->
+|Syntax| Budgeted Amount | Note |
+|---|:---:| --- |
+|#template 500 by 2025-03 repeat every year | $ 166.66  | Assuming starting in January 2025 |
+|#template 500 by 2025-03 repeat every year | $ 41.66  | All months after March 2025 |
+
+#### Available variations
+Below is a table of the varations 
+
 <!-- prettier-ignore -->
 |Syntax|Description|Example Application|
 |---|---|---|
-|#template 500 by 2025-03|Break down large, less-frequent expenses into manageable monthly expenses|Saving for a replacement car in a few years
+|#template 500 by 2027-03|Break down large, less-frequent expenses into manageable monthly expenses|Saving for a replacement car in a few years
 |#template 500 by 2025-03 repeat every 6 months|Break down large, less-frequent expenses into manageable monthly expenses|Biannual credit card fees
 |#template 500 by 2025-03 repeat every year|Break down large, less-frequent expenses into manageable monthly expenses|Annual insurance premium
 |#template 500 by 2025-03 repeat every 2 years|Break down large, less-frequent expenses into manageable monthly expenses|Domain name renewal|
+
+## Old Table
+<!-- prettier-ignore -->
+|Syntax|Description|Example Application|
+|---|---|---|
 |#template 500 by 2024-12 spend from 2024-03|Budget 500 by December. Any spending between March and December is OK.|Christmas presents, overseas holiday, or any other expenses that I will be partially paying for before the target period ends.|
 |#template 500 by 2024-12 spend from 2024-03 repeat every year| |	
 |#template 500 by 2024-12 spend from 2024-03 repeat every 2 years| |	
