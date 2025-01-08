@@ -68,7 +68,7 @@ The image below shows an example of categories in the following states: normal (
 ![](/img/goal-template/templates-colors.png)
 
 #### Goal Indicator Information
-If you hover over the balance value in a templated category, a tooltip will appear with info on the status us that category with respect to its template.
+If you hover over the balance value in a templated category, a tooltip will appear with info on the status of that category with respect to its template.
 
 # ADD Picture here
 
