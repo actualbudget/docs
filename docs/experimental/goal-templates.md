@@ -161,8 +161,19 @@ In that case use the following variation:
 |#template 500 by 2025-03 repeat every year | $ 166.66  | Assuming starting in January 2025 |
 |#template 500 by 2025-03 repeat every year | $ 41.66  | All months after March 2025 |
 
+#### By Spend
+The By template can be extended to allow some of the funds to be spent along the way.
+This is most commonly used for holiday savings where you will spend some of the money in the months leading up to the holiday.
+An example of this is buying Christmas gifts in November and December.
+The table below shows how this works.
+<!-- prettier-ignore -->
+|Syntax| Budgeted Amount | Spent so far| New Balance| Note |
+|---|:---:| :---: | --- | --- |
+|#template 500 by 2025-12 spend from 2025-11| $ 41.66  | 0 | previous + $ 41.66| Assuming starting in January 2025, all months before December |
+|#template 500 by 2025-12 spend from 2025-11| $ 41.66  | $ 100 | $ 400 | Assuming the beginning of December, but have not spent anything in December yet |
+
 #### Available variations
-Below is a table of the varations 
+Below is a table of the varations of the By template.
 
 <!-- prettier-ignore -->
 |Syntax|Description|Example Application|
@@ -171,14 +182,14 @@ Below is a table of the varations
 |#template 500 by 2025-03 repeat every 6 months|Break down large, less-frequent expenses into manageable monthly expenses|Biannual credit card fees
 |#template 500 by 2025-03 repeat every year|Break down large, less-frequent expenses into manageable monthly expenses|Annual insurance premium
 |#template 500 by 2025-03 repeat every 2 years|Break down large, less-frequent expenses into manageable monthly expenses|Domain name renewal|
+|#template 500 by 2024-12 spend from 2024-03|Budget 500 by December. Any spending between March and December is OK.|Christmas presents, overseas holiday, or any other expenses that I will be partially paying for before the target period ends.|
+|#template 500 by 2024-12 spend from 2024-03 repeat every year| |	
+|#template 500 by 2024-12 spend from 2024-03 repeat every 2 years| |	
 
 ## Old Table
 <!-- prettier-ignore -->
 |Syntax|Description|Example Application|
 |---|---|---|
-|#template 500 by 2024-12 spend from 2024-03|Budget 500 by December. Any spending between March and December is OK.|Christmas presents, overseas holiday, or any other expenses that I will be partially paying for before the target period ends.|
-|#template 500 by 2024-12 spend from 2024-03 repeat every year| |	
-|#template 500 by 2024-12 spend from 2024-03 repeat every 2 years| |	
 |#template 10 repeat every week starting 2025-01-03|Budget 10 a week|
 |#template 10 repeat every week starting 2025-01-03 up to 80|Budget 10 a week, up to a maximum of 80|
 |#template 10 repeat every 2 weeks starting 2025-01-04|Budget 10 fortnightly|
