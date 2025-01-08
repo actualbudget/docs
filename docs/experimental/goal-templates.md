@@ -57,6 +57,7 @@ This will overwrite any existing budgeted amount.
 # ADD Picture here
 
 * **Apply templates to a single category group**: Use the option shown below from the category group drop down to apply all templates to categories in a specific group.
+It will apply to the month furthest to the left in your budget view if viewing multiple months.
 This will overwrite any existing budgets in the categories in the group.
 
 # ADD Picture here
