@@ -145,7 +145,7 @@ The template budgets just what you ask, no matter how much the respective catego
 |#template 50| $ 50 |
 
 There is also a useful variation of a simple template.
-This varation will put a **limit** on how much the balance of a category can be that month.
+This variation will put a **limit** on how much the balance of a category can be that month.
 Here are some examples of how this is used
 
 <!-- prettier-ignore -->
@@ -245,7 +245,7 @@ The table below shows how this works.
 |#template 500 by 2025-12 spend from 2025-11| $ 41.66  | $ 100 | $ 400 | Assuming the beginning of December, but have not spent anything in December yet |
 
 #### Available Variations
-Below is a table of the varations of the By template.
+Below is a table of the variations of the By template.
 
 <!-- prettier-ignore -->
 |Syntax|Description|Example Application|
@@ -261,7 +261,7 @@ Below is a table of the varations of the By template.
 ### Week Type
 If you have bills that cycle weekly, or like to base your budget on weeks, this is the template for you!
 This template is like the simple template but it uses weeks instead of months.
-You set the start day, and every 7 days starting from that day, you will get the requested amount budgetd.
+You set the start day, and every 7 days starting from that day, you will get the requested amount budgeted.
 See the table below for examples.
 
 <!-- prettier-ignore -->
@@ -272,7 +272,7 @@ See the table below for examples.
 
 As you can see, the template will budget based on the number of weeks that start on the desired day, starting on your start date.
 
-The Week tempalte also supports limits the same way the simple template does.
+The Week template also supports limits the same way the simple template does.
 For example if you budget in January with limited template:
 <!-- prettier-ignore -->
 |Syntax| Previous Balance | Budgeted Amount | New Balance |
@@ -322,7 +322,7 @@ Below is an example of how to do that.
 The previous option is not available when using the percent of available funds template.
 
 #### Available Variations
-Below is a table of the varations of the Percent template.
+Below is a table of the variations of the Percent template.
 
 |Syntax|Description|Example Application|
 |---|---|---|
@@ -334,7 +334,7 @@ Below is a table of the varations of the Percent template.
 
 ### Schedule Type
 The Schedule template allows you to automatically budget based on the schedules you have added to Actual.
-This includes sub-montly, month, extra-monthly schedules.
+This includes sub-monthly, month, extra-monthly schedules.
 This is the most common template outside of the Simple template.
 Below is an example of the syntax for a $ 100 per month schedule called "Internet", and a $ 2,400 per year schedule called "Taxes".
 
@@ -363,7 +363,7 @@ Below is an example of using the "Full" flag assuming a once per year schedule f
 |#template schedule full Simplefin | $ 15 | Budget in May |
 
 #### Available Variations
-Below is a table of the varations of the Schedule template.
+Below is a table of the variations of the Schedule template.
 <!-- prettier-ignore -->
 |Syntax|Description|Example Application|
 |---|---|---|
@@ -447,7 +447,7 @@ A few examples have been given to illustrate this difference.
 * The `#goal` templates are run the same way as the regular `#templates`.
 * If there is a `#goal` directive in a category, the goal indicator for that category will be based on the goal, not the templates.
 * The `#goal` directive will not budget any funds, and funds budgeted by hand will not get reset by running templates.
-* A `#goal` line can be stacked with `#templates` to automatically budget the category (via the templates) but override how the category goal is indicated (the goal tempalte).
+* A `#goal` line can be stacked with `#templates` to automatically budget the category (via the templates) but override how the category goal is indicated (the goal template).
 * There is no priority on a `#goal`.
 
 #### Examples
