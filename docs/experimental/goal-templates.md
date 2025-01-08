@@ -1,4 +1,4 @@
-# Budget Goal Templates
+# Budget Templates
 
 :::warning
 This is an **experimental feature**. That means we’re still working on finishing it. There may be bugs, missing functionality or incomplete documentation, and we may decide to remove the feature in a future release. If you have any feedback, please [open an issue](https://github.com/actualbudget/actual/issues) or post a message in the Discord.
@@ -7,17 +7,112 @@ This is an **experimental feature**. That means we’re still working on finishi
 All functionality described here may not be available in the latest stable release. Use the `edge` images for the latest implementation.
 :::
 
+Budget templates allow you to automate your budgeting step every month.
+For example, a template like `#template 100` in a Food category will automatically budget $ 100 in your Food category when templates are run.
+With budget templates there is no need to manually fill in each category each month.
+With one click you can fill in your entire budget based on the templates you have added.
 Create a template by adding a note to a category and adding a line that begins with `#template` or `#goal`.
 
 ![](/img/goal-template/goal-template-1.png)
 
-You are welcome to have other lines in your note, but the `#template`/`#goal` line must match the syntax.
+You are welcome to have other lines in your note, but the `#template`/`#goal` line must match the template syntax.
+
+### Apply the Templates
+
+There are a few ways to apply your templates.
+
+#### Apply all templates
+
+In the budget month menu you will see the following options:
+
+![](/img/goal-template/goal-template-2.png)
+
+**Check templates** will test all `#template\#goal` lines for proper syntax.
+
+**Apply budget template** will run all templates in categories that currently have 0 budgeted.
+This will leave any existing budget amounts intact.
+
+**Overwrite with budget template** will fill in all budget cells using the templates and ignore any already existing budget amounts.
+This is the recommended method if you are using template priorities.
+
+#### Apply only specific templates
+
+You can also apply selections of templates if you want.
+
+**Single Category**: Use the option shown below from the budget field drop down to apply templates to just that category.
+This will overwrite any existing budgeted amount.
+
+# ADD Picture here
+
+**Apply templates to a single category group**: Use the option shown below from the category group drop down to apply all templates to categories in a specific group.
+This will overwrite any existing budgets in the categories in the group.
+
+# ADD Picture here
+
+### Goal Indicators
+After having run the templates in a given month and category, the status of a respective category goal will be indicated as a text color of the category balance.
+The image below shows an example of categories in the following states: normal (no goal set), empty (no goal set), goal met(green), goal not met(orange), and a negative balance(red).
+
+![](/img/goal-template/templates-colors.png)
+
+#### Goal Indicator Information
+If you hover over the balance value in a templated category, a tooltip will appear with info on the status us that category with respect to its template.
+
+# ADD Picture here
 
 ## Available Templates
 
-:::note
-Currency symbols are not required for setting templates.  If you do want to use a currency symbol, the only one supported is `$`. Any other symbol added to the `#template` line will cause it to be treated as standard text, and fail to apply the template to your budget.  Other requirements and limitations can be seen below this list, in the [Notes](#notes) section.
-:::
+There are many types of templates you can use to tailor how categories get filled to match your personal budgeting needs.
+
+### Simple Type
+The simple template type is the most basic type of template.
+The base template will budget the amount you ask it to.
+Simple!
+This template also has a few variations making it likely the most used template out of the available options.
+
+Below is an example of how it works.
+The template budgets just what you ask, no matter how much the respective category has in its balance.
+
+<!-- prettier-ignore -->
+|Syntax|Budgeted Amount|
+|---|:---:|
+|#template 50| $ 50 |
+
+There is also a useful variation of a simple template.
+This varation will put a **limit** on how much the balance of a category can be that month.
+Here are some examples of how this is used
+
+<!-- prettier-ignore -->
+|Syntax| Previous Balance | Budgeted Amount | New Balance |
+|---|:---:| :---: |:---:|
+|#template 50 up to 100| $ 80 | $ 20 | $ 100 |
+|#template 50 up to 100| $ 20 | $ 50 | $ 70 |
+Isn't that neat!
+This is especially useful for budget categories that have month to month variation in spending such as groceries.
+You can budget the same amount per month, but save up from one month to the next without having to worry about building up more funds than you need.
+
+The last variation of the simple template is sometimes referred to as a "refill".
+With this style the template budgets whatever it takes to hit a "full" amount.
+Here is how it works:
+
+<!-- prettier-ignore -->
+|Syntax| Previous Balance | Budgeted Amount | New Balance |
+|---|:---:| :---: |:---:|
+|#template up to 150| $ 10 | $ 140  | $ 150 |
+|#template up to 150| $ -20 | $ 170  | $ 150 |
+Cool, right! This is another way to gracefully handle categories that have month to month variation.
+This will always give you the same amount available each month no matter what you spend the previous month and not ever build up more funds than you need.
+This variation along with the previous variation, are probably the most used templates.
+They are simple enough to use easily, but are robust enough to make budgeting much simpler.
+
+
+## All Variations
+There is more flexibility with the limit part of the template.
+By default, the limit (the "up to" part of the template) is based per month.
+You can modify the limit to be per week or per day if that matches your needs better.
+You can also modify the limit to not ever remove funds over your limit.
+This can be useful if you get refunds or reimbursements that you would like to have remain inside a category even if over your limit.
+Below is examples of these different variations of simple templates.
 
 <!-- prettier-ignore -->
 |Syntax|Description|Example Application|
@@ -28,6 +123,11 @@ Currency symbols are not required for setting templates.  If you do want to use 
 |#template up to 150 hold|Budget up to 150 each month, but retain any funds over 150 |Variable expenses that may get refunds or reimbursements|
 |#template up to 5 per day |Budget up to 5 per day that month, and remove extra funds | Setting a daily coffee budget|
 |#template up to 100 per week starting 2024-10-07 |Budget 100 per week starting on Mondays, and remove extra funds| Setting a weekly grocery budget |
+
+# Old Table
+<!-- prettier-ignore -->
+|Syntax|Description|Example Application|
+|---|---|---|
 |#template 500 by 2025-03|Break down large, less-frequent expenses into manageable monthly expenses|Saving for a replacement car in a few years
 |#template 500 by 2025-03 repeat every 6 months|Break down large, less-frequent expenses into manageable monthly expenses|Biannual credit card fees
 |#template 500 by 2025-03 repeat every year|Break down large, less-frequent expenses into manageable monthly expenses|Annual insurance premium
@@ -206,19 +306,3 @@ If you have some extra funds after templates are run and can budget that last 50
 | `#template 50` `#goal 500` | 100 | 500(green) |
 
 
-## Apply the Templates
-
-To apply the goal templates you create, enable the feature in the Settings experimental section. When the feature is on, three new options will appear in the monthly budget actions list.
-
-![](/img/goal-template/goal-template-2.png)
-
-**Check templates** will test all `#template` lines for proper syntax.
-
-**Apply budget template** will only fill empty cells using the templates.
-
-**Overwrite with budget template** will fill in all budget cells using the templates.
-
-### Goal Indicators
-After having run the templates in a given month the status of a respective category goal will be indicated as a text color of the category balance. The image below shows an example of categories in the following states: normal (no goal set), zero (no goal set), goal met, goal not met, and a negative balance.
-
-![](/img/goal-template/templates-colors.png)
