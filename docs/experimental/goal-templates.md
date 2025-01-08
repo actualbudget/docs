@@ -150,6 +150,8 @@ The template will always divide up the remaining amount you need by the remainin
 If you need to pull funds away from your car savings to cover an emergency house repair, the template will budget more in the coming months to say on track.
 If you have extra funds one month and add that to your car savings, the template will budget less in the coming months since you need less.
 
+**Note**: The date must be in YYYY-MM format.
+
 #### Repeated savings
 The By template can also repeat if your savings is cyclical, such as yearly taxes or insurance.
 The repeat period can be both a number of months or number of years.
@@ -172,7 +174,7 @@ The table below shows how this works.
 |#template 500 by 2025-12 spend from 2025-11| $ 41.66  | 0 | previous + $ 41.66| Assuming starting in January 2025, all months before December |
 |#template 500 by 2025-12 spend from 2025-11| $ 41.66  | $ 100 | $ 400 | Assuming the beginning of December, but have not spent anything in December yet |
 
-#### Available variations
+#### Available Variations
 Below is a table of the varations of the By template.
 
 <!-- prettier-ignore -->
@@ -186,14 +188,43 @@ Below is a table of the varations of the By template.
 |#template 500 by 2024-12 spend from 2024-03 repeat every year| |	
 |#template 500 by 2024-12 spend from 2024-03 repeat every 2 years| |	
 
-## Old Table
+### Week Type
+If you have bills that cycle weekly, or like to base your budget on weeks, this is the template for you!
+This template is like the simple template but it uses weeks instead of months.
+You set the start day, and every 7 days starting from that day, you will get the requested amount budgetd.
+See the table below for examples.
+
+<!-- prettier-ignore -->
+|Syntax| Budgeted Amount | Note |
+|---|:---:| :---: |
+|#template 10 repeat every week starting 2025-01-06 | $ 40 | When budgeting in January 2025 |
+|#template 10 repeat every week starting 2025-01-06 | $ 50 | When budgeting in March 2025 |
+
+As you can see, the template will budget based on the number of weeks that start on the desired day, starting on your start date.
+
+The Week tempalte also supports limits the same way the simple template does.
+For example if you budget in January with limited template:
+<!-- prettier-ignore -->
+|Syntax| Previous Balance | Budgeted Amount | New Balance |
+|---|:---:| :---: |:---:|
+|#template 10 repeat every week starting 2025-01-06 up to 55 | $ 20 | $ 35 | $ 55 |
+
+**Note**: The date must be in YYYY-MM-DD format.
+
+#### Available Variations
+Below is a table of the varations of the Week template.
 <!-- prettier-ignore -->
 |Syntax|Description|Example Application|
 |---|---|---|
 |#template 10 repeat every week starting 2025-01-03|Budget 10 a week|
 |#template 10 repeat every week starting 2025-01-03 up to 80|Budget 10 a week, up to a maximum of 80|
 |#template 10 repeat every 2 weeks starting 2025-01-04|Budget 10 fortnightly|
-|#template 10 repeat every 9 weeks starting 2025-01-04 up to 30|Budget 10 every 9 weeks, up to a maximum of 30|
+|#template 10 repeat every week starting 2025-01-04 up to 20 per week starting 2025-01-04 |Budget 10 every week, up to a maximum of 20 for each week|
+
+## Old Table
+<!-- prettier-ignore -->
+|Syntax|Description|Example Application|
+|---|---|---|
 |#template 15% of all income|Budget 15% of all income categories| Using a "pay yourself first" strategy|
 |#template 10% of Paycheck|Budget 10% of the "Paycheck" income category| Using a "pay yourself first" strategy, but have income categories you want to ignore|
 |#template 15% of previous all income|Budget 15% of all income categories using last month's income|Using a "pay yourself first" strategy in conjunction with a "month ahead" strategy |
