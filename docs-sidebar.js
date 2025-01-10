@@ -94,7 +94,6 @@ const sidebars = {
             id: 'migration/index',
           },
           items: [
-                'migration/actual-import',
                 'migration/ynab4',
                 'migration/nynab',
           ],
@@ -216,6 +215,8 @@ const sidebars = {
           items: [
             'experimental/goal-templates',
             'experimental/monthly-cleanup',
+            'experimental/oauth-auth', 
+            'experimental/multi-user'
           ],
         },
         'getting-started/tips-tricks',
