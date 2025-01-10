@@ -11,6 +11,7 @@ One approach is maintaining a common budget where both partners share a single b
 This method promotes transparency and ensures both parties agree regarding financial goals, expenses, and income.
 A shared budget fosters collaboration but requires consistent communication to keep everything current. It will help
 you both set clear boundaries for individual and shared expenses while working together toward common financial objectives.
+See [Multi-user](/docs/getting-started/sync#multi-user-support) regarding simultaneous edits.
 
 Alternatively, you can track your partner’s contributions within your personal Actual Budget file. This allows you to
 maintain individual control over your finances while still acknowledging and accounting for your partner’s financial
@@ -73,7 +74,7 @@ what are your common expenses regarding groceries, utility bills, dining out, gi
 Both will then contribute their share of the joint expenses. This is called _planned income_.
 
 But how do you find your just share? The most just way to do this is by percentage of normal income per partner.
-If Bob makes € 4000 a month and Alice makes € 6000, the total income is € 10 000. Out of
+If Bob makes $ 4,000 a month and Alice makes $ 6,000, the total income is $ 10,000. Out of
 this, Bob will contribute 40% to the joint expenses. To compute the percentage for Bob: 400 (Bob's income) * 100 / 10000
 (total income). Alice's percentage is 60%, found by subtracting Bob's percentage from 100.
 
