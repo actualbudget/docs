@@ -29,7 +29,7 @@ Create a template by adding a note to a category and adding a line that contains
 The example below shows the most basic template syntax `#template 72.99`.
 This will budget $ 72.99 when templates are run without having to manually type in the amount.
 
-![](/img/goal-template/goal-template-1.png)
+![How to add a template](/img/goal-template/goal-template-1.png)
 
 ### How to apply the templates
 
@@ -37,7 +37,7 @@ This will budget $ 72.99 when templates are run without having to manually type 
 
 In the budget month menu you will see the following options:
 
-![](/img/goal-template/goal-template-2.png)
+![Apply options on month level](/img/goal-template/goal-template-2.png)
 
 * **Check templates** will test all `#template and #goal` lines for proper syntax.
 
@@ -51,27 +51,27 @@ This is the recommended method if you are using template priorities.
 
 You can also apply selections of templates if you want.
 
-* **Single Category**: Use the option shown below from the budget field drop down to apply templates to just that category.
+* **Single Category**: Use the "Apply budget template" option shown below from the budget field drop down to apply templates to just that category.
 This will overwrite any existing budgeted amount.
 
-# ADD Picture here
+![Apply templates to single category](/img/goal-template/apply-template-category.png)
 
-* **Apply templates to a single category group**: Use the option shown below from the category group drop down to apply all templates to categories in a specific group.
+* **Apply templates to a single category group**: Use the "Apply budget templates" option shown below from the category group drop down to apply all templates to categories in a specific group.
 It will apply to the month furthest to the left in your budget view if viewing multiple months.
 This will overwrite any existing budgets in the categories in the group.
 
-# ADD Picture here
+![Apply templates to a group of categories](/img/goal-template/apply-template-group.png)
 
 ### Goal Indicators
 After having run the templates in a given month and category, the status of a respective category goal will be indicated as a text color of the category balance.
 The image below shows an example of categories in the following states: normal (no goal set), empty (no goal set), goal met(green), goal not met(orange), and a negative balance(red).
 
-![](/img/goal-template/templates-colors.png)
+![Goal indicator colors example](/img/goal-template/templates-colors.png)
 
 #### Goal Indicator Information
 If you hover over the balance value in a templated category, a tooltip will appear with info on the status of that category with respect to its template.
 
-# ADD Picture here
+![Goal indicator information tooltip](/img/goal-template/goal-indicator.png)
 
 ### Multiple Template Lines
 
