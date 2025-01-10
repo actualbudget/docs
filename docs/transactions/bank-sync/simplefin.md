@@ -5,7 +5,7 @@ Client Version 24.10.0 and
 Server Version 24.10.0 or higher are required for this feature.
 :::
 
-### Generate Setup Token for Actual
+## Generate Setup Token for Actual
 
 1. Create an account with SimpleFIN Bridge - https://beta-bridge.simplefin.org/ , by clicking "Get Started" and entering your email address.
 
@@ -45,7 +45,7 @@ Server Version 24.10.0 or higher are required for this feature.
 
     ![](/static/img/connecting-your-bank/connecting-your-bank-simplefin-06.png)
 
-### Link Accounts with SimpleFIN
+## Link Accounts with SimpleFIN
 
 1. Add the link to your accounts in actual (Existing or New).
 
@@ -74,7 +74,7 @@ Server Version 24.10.0 or higher are required for this feature.
 
 5. When you've mapped all your accounts that you wish to, click the "Link Account" button.
 
-### Retrieve Transactions
+## Retrieve Transactions
 
 Actual does not automatically perform syncs.
 You will need to manually request a sync to pull new transactions from SimpleFIN.
@@ -83,13 +83,13 @@ If you wish to only sync one account, view the desired account and click the syn
 
   ![](/static/img/connecting-your-bank/connecting-your-bank-simplefin-10.png)
 
-### SimpleFIN Considerations
+## SimpleFIN Considerations
 
 1. Currently, the sync pulls at most 90 days of data from each linked account. The amount of data SimpleFIN can get from each account may vary, so not all accounts may have 90 days of historical transactions that can be imported.
 
 2. SimpleFIN's data updates one time / day, roughly every 24 hours, for each linked account. The time of day that each bank updates in SimpleFIN may vary, even from day to day (based on the bank and upstream provider, MX).
 
-### Resetting the Setup Token
+## Resetting the Setup Token
 
 To reset your SimpleFIN setup token:
 

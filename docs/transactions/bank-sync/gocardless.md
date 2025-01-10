@@ -5,7 +5,7 @@ Client Version 23.7.0 and
 Server Version 23.7.0 or higher are required for this feature.
 :::
 
-### Create SECRET and KEY for Actual
+## Create SECRET and KEY for Actual
 
 1. Create an account with GoCardless - https://bankaccountdata.gocardless.com/overview/.
 2. Log into your account dashboard at the same URL and select **Developers->User secrets** from the left side menu.
@@ -47,7 +47,7 @@ Server Version 23.7.0 or higher are required for this feature.
     ![Set-up GoCardless dialoag](/static/img/connecting-your-bank/connecting-your-bank-gocardless-06.png)
 
 
-### Link Accounts with GoCardless
+## Link Accounts with GoCardless
 
 1. Add the link to your accounts in actual (Existing or New).
 
@@ -91,21 +91,7 @@ Server Version 23.7.0 or higher are required for this feature.
 
     ![Dialog for linking accounts you want to sync](/static/img/connecting-your-bank/connecting-your-bank-10.png)
 
-### Frequently Asked Questions
-
-**Does Actual sync automatically with your Bank?**
-
-At this moment, it is not yet possible for Actual to automatically sync with your bank. You need to do this manually by going to "All Accounts" and pressing "Sync".
-
-![Image showing where in the GUI you can sync your bank accounts](/static/img/connecting-your-bank/syncing-with-your-bank.png)
-
-**The best way to start from scratch in Actual with GoCardless?**
-
-If you are setting up Actual for the first time, it is much easier not to try to pull in historic data. This has caused some users a lot of headaches with subsequent reconciliation. The following process may be more helpful:
-1. Set up your account in Actual specifying a correct opening account balance at a recent date.
-2. Link the account to GoCardless as above
-3. Sync the account with GoCardless. You should find that only transactions subsequent to the opening account balance entry are imported, making reconciliation easy.
-
+## Frequently Asked Questions
 
 **How many times can I sync with  GoCardless?**
 In the free tier, you can sync 50 times per month. If you sync to two different banks (with three accounts in each bank), that is counted as two connections.

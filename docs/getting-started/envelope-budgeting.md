@@ -284,7 +284,7 @@ having (to remember) to manually enter each transaction whenever you make a purc
 Most financial institutions will let you export your transactions as CSV files,
 which can be [imported into Actual Budget](/docs/transactions/importing). Using cards will save you time and reduce the risk of errors.
 
-**Automatic import**: Actual Budget can [sync directly with your bank accounts](/docs/advanced/bank-sync).
+**Automatic import**: Actual Budget can [sync directly with your bank accounts](/docs/transactions/bank-sync).
 Every time you use your debit or credit card, the transaction details are automatically imported into
 your budget categories. You no longer need to keep physical receipts or manually log each expense.
 
