@@ -52,8 +52,10 @@ Pre-requisites: Docker
 Alternatively to using docker compose, you may also launch docker using this command. This command, as shown, will launch the latest stable build of Actual.
 
 ```bash
-$ docker run --pull=always --restart=unless-stopped -d -p 5006:5006 -v YOUR/PATH/TO/DATA:/data --name my_actual_budget actualbudget/actual-server:latest
+$ docker run --init --pull=always --restart=unless-stopped -d -p 5006:5006 -v YOUR/PATH/TO/DATA:/data --name my_actual_budget actualbudget/actual-server:latest
 ```
+
+`--init` -- forward signals to Node.js for faster container shutdown
 
 `--pull=always` -- always pulls the latest image
 
@@ -80,13 +82,13 @@ $ docker container rm my_actual_budget
 ```
 
 ```bash
-$ docker run --pull=always --restart=unless-stopped -d -p 5006:5006 -v YOUR/PATH/TO/DATA:/data --name my_actual_budget actualbudget/actual-server:latest
+$ docker run --init --pull=always --restart=unless-stopped -d -p 5006:5006 -v YOUR/PATH/TO/DATA:/data --name my_actual_budget actualbudget/actual-server:latest
 ```
 
 You can place all of these in a batch script for a 1 click or single command update.
 
 ```bash
-$ docker stop my_actual_budget && docker container rm my_actual_budget && docker run --pull=always --restart=unless-stopped -d -p 5006:5006 -v YOUR/PATH/TO/DATA:/data --name my_actual_budget actualbudget/actual-server:latest
+$ docker stop my_actual_budget && docker container rm my_actual_budget && docker run --init --pull=always --restart=unless-stopped -d -p 5006:5006 -v YOUR/PATH/TO/DATA:/data --name my_actual_budget actualbudget/actual-server:latest
 ```
 
 ## Test connection within local network
