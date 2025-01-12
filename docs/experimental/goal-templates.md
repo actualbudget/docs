@@ -125,7 +125,7 @@ Templates can be given a priority flag to change the order that the templates ge
 - Don't add a currency symbol to your template amounts.
 - Number formats that use comma for the decimal separator are not supported (e.g., 123,45). You must use 123.45.
 - Thousands separators are not supported (e.g., 1,234). You must use 1234.
-- By default templates do not consider available funds when being applied. Use template priorities to not budget more than is available.
+- By default, templates do not consider available funds when being applied. Use template priorities to ensure only the amount available to budget is assigned.
 
 ## Available Templates
 
