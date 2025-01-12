@@ -437,7 +437,7 @@ All of the examples below use the case of 100 leftover when the remainder pass i
 
 ### Goal Directive
 
-This option is unique enough to warrant its own directive `#goal` instead of the standard `#template` option.
+This option is unique enough to warrant its own directive, `#goal`, instead of the standard `#template` option.
 The `#goal` option overrides how the goal indicator typically functions.
 In the standard `#templates`, the goal indication colors are based on the current month's budgeted value.
 When using the `#goal` option, the indication is based on the total balance.
