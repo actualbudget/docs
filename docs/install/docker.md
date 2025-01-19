@@ -45,6 +45,8 @@ You can optionally configure the container using environment variables — see t
 $ docker-compose pull && docker-compose up -d
 ```
 
+> Note: After updating the server container, the client will automatically be updated. A manual page hard reload may be required to see the changes.
+
 ## Launch container using docker command
 
 Pre-requisites: Docker
@@ -88,6 +90,8 @@ You can place all of these in a batch script for a 1 click or single command upd
 ```bash
 $ docker stop my_actual_budget && docker container rm my_actual_budget && docker run --pull=always --restart=unless-stopped -d -p 5006:5006 -v YOUR/PATH/TO/DATA:/data --name my_actual_budget actualbudget/actual-server:latest
 ```
+
+> Note: After updating the server container, the client will automatically be updated. A manual page hard reload may be required to see the changes.
 
 ## Test connection within local network
 
