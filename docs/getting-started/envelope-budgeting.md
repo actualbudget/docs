@@ -233,7 +233,7 @@ you understand that budgets are not rigid constraints but flexible tools that ca
 
 
 
-### 5. Prepare for the unexpected
+### 4. Prepare for the unexpected
 
 There’s no such thing as a "normal" month when it comes to expenses. Your costs fluctuate throughout the year,
 often unpredictably. Envelope budgeting helps you prepare for these irregular expenses by adding funds to
@@ -284,7 +284,7 @@ having (to remember) to manually enter each transaction whenever you make a purc
 Most financial institutions will let you export your transactions as CSV files,
 which can be [imported into Actual Budget](/docs/transactions/importing). Using cards will save you time and reduce the risk of errors.
 
-**Automatic import**: Actual Budget can [sync directly with your bank accounts](/docs/advanced/bank-sync).
+**Automatic import**: Actual Budget can [sync directly with your bank accounts](/docs/transactions/bank-sync).
 Every time you use your debit or credit card, the transaction details are automatically imported into
 your budget categories. You no longer need to keep physical receipts or manually log each expense.
 

@@ -176,7 +176,7 @@ export default function Hello() {
           <SmallFeature
             title="Bank Sync"
             icon={icons.bank}
-            learnMore="/docs/advanced/bank-sync"
+            learnMore="/docs/transactions/bank-sync/"
           >
             Actual has built in support for bank syncing using goCardless 
             (EU/UK) and SimpleFIN (US/Canada).

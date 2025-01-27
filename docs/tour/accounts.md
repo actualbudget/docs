@@ -22,7 +22,7 @@ It is possible to split a transaction into more than one category. By clicking o
 you will be able to show or hide split transactions.
 
 The three horizontal dots, shown in the blue box, will allow you to perform various manipulations on the account. These range from
-reconciling and exporting your account to closing and linking your account for [automatic bank transactions](/docs/advanced/bank-sync).
+reconciling and exporting your account to closing and linking your account for [automatic bank transactions](/docs/transactions/bank-sync).
 This is also where you can show the account's running balance (as seen in the first screenshot on this page). You can
 also hide/show both reconciled transactions as well as the cleared checkbox column to the far right of the transaction's row.
 
