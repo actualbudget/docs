@@ -92,7 +92,7 @@ Actual does not allow duplicate category groups, or duplicate categories within 
 This happens sometimes in YNAB especially if you have an old hidden category or group that has been forgotten about.
 Actual is automatically rename these duplicates by appending a `-1` to the end of the name (potentially higher numbers if you have multiple duplicates).
 Make sure to show hidden categories to see if you have any of these duplicates.
-To see your hidden categories select the "Toggle Hidden Categories" option in the kebab menu next to the "Categores" header.
+To see your hidden categories select the "Toggle Hidden Categories" option in the kebab menu next to the "Categories" header.
 
 **To Fix duplicate groups**:
 1. Move any categories inside the duplicate group to a different group.
