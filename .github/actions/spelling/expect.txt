@@ -72,6 +72,7 @@ Sparkasse
 SPK
 sseldorf
 SSK
+Stadtsparkasse
 statestore
 SUBASKBX
 SVGR
