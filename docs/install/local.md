@@ -29,7 +29,7 @@ Actual server is used for syncing changes across devices. It comes with the late
     ```
 3. Install all the required dependencies using yarn.
     ```bash
-    yarn install
+    yarn install:server
     ```
 
 ## Running Actual
