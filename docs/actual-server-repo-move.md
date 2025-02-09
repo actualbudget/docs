@@ -1,6 +1,6 @@
 # Actual Server repository move
 
-In Febuary 2025 we will begin the process of merging the actual-server repository into the Actual workspace.
+In February 2025 we will begin the process of merging the actual-server repository into the Actual workspace.
 
 The reasons for this change are as follows:
 
@@ -12,7 +12,7 @@ The reasons for this change are as follows:
 
 ### Questions:
 
-- **Q.** _I use Dockerhub/Github's container registry, how do I stay up to date?_
+- **Q.** _I use Docker Hub/Github's container registry, how do I stay up to date?_
 
   **A.** We will continue to push images to [Docker Hub](https://hub.docker.com/r/actualbudget/actual-server) and [Github's container registry](https://ghcr.io/actualbudget/actual-server) as usual.
 
