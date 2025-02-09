@@ -4,9 +4,9 @@ In February 2025 we will begin the process of merging the actual-server reposito
 
 The reasons for this change are as follows:
 
-- Streamlined Development: Developers will only need to clone/sync one repo instead of two.
-- Improved Debugging: It makes end-to-end debugging for server/client easier as they will be in the same workspace.
-- Simplified Desktop App Packaging: Enables the desktop app to embed the sync server.
+- Streamlines Development: Developers will only need to clone/sync one repo instead of two.
+- Improves Debugging: It makes end-to-end debugging for server/client easier as they will be in the same workspace.
+- Simplifies Desktop App Packaging: Enables the desktop app to embed the sync server.
 - Ensures code consistency and reduces the maintenance burden.
 - Simplifies the release process
 
