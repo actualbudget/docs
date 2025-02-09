@@ -7,8 +7,8 @@ The reasons for this change are as follows:
 - Streamlined Development: Developers will only need to clone/sync one repo instead of two.
 - Improved Debugging: It makes end-to-end debugging for server/client easier as they will be in the same workspace.
 - Simplified Desktop App Packaging: Enables the desktop app to embed the sync server.
-- Ensuring code consistency and reducing the maintenance burden.
-
+- Ensures code consistency and reduces the maintenance burden.
+- Simplifies the release process
 
 ### Questions:
 
