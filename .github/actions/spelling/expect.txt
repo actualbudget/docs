@@ -46,6 +46,8 @@ overbudgeting
 Paribas
 Postgre
 prefs
+Primoco
+Priotecs
 revolut
 RIED
 RSchedule
