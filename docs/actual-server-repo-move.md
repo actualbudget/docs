@@ -1,6 +1,6 @@
 # Actual Server repository move
 
-In February 2025 we will begin the process of merging the actual-server repository into the Actual workspace.
+In February 2025 the actual-server repository will be merged into the Actual repository.
 
 The reasons for this change are as follows:
 
