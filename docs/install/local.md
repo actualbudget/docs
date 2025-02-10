@@ -1,6 +1,6 @@
 # Local Installation
 
-The easiest way to get Actual running locally is to use [actual-server](https://github.com/actualbudget/actual/packages/sync-server/).
+The easiest way to get Actual running locally is to use [actual-server](https://github.com/actualbudget/actual/tree/master/packages/sync-server).
 
 Actual server is used for syncing changes across devices. It comes with the latest version of the [Actual web client](https://github.com/actualbudget/actual).
 
