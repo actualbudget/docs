@@ -372,6 +372,24 @@ Below is a table of the variations of the Schedule template.
 |#template schedule {SCHEDULE NAME}|Fund upcoming scheduled transactions over time|Monthly schedules, or larger non-monthly scheduled transactions|
 |#template schedule full {SCHEDULE NAME}|Fund upcoming scheduled transaction only on needed month| Small schedules that are non-monthly|
 
+#### Percentage Increase / Decrease
+
+Yearly expenses (e.g. insurance, property rates, etc.) increase year on year. Often the amount is unknown until close to the due date. This creates a budget crunch - if your $1,000 insurance jumps 20% ($1,200), you need to make up that extra $200 in just a month or two.
+
+This feature adds percentage adjustments to templates, letting you gradually save the expected increase throughout the year. By proactively budgeting a percentage change for these yearly increases, you avoid last-minute scrambling when renewal notices arrive with higher amounts.
+
+|Syntax|Description|
+|---|---|
+| #template schedule {SCHEDULE NAME} [{increase/decrease} {number}%] | Fund the upcoming scheduled transaction over time, increasing or decreasing the amount by the given percentage
+
+#### Examples
+
+Assuming the amount Scheduled for 'Insurance' the prior year was $1000, the below example would apply.
+
+| Category | Template line | Amount applied |
+|---|---|:---:|
+| Insurance       | #template schedule Insurance [increase 20%] | $1200 |
+
 ### Average Type
 The Average template allows you to budget the average amount spend over a number of months.
 This is the same function provided by the menu in the budget table but it can be used in a single category automatically where the menu option must be applied to the whole budget or a single category.
@@ -434,7 +452,6 @@ All of the examples below use the case of 100 leftover when the remainder pass i
 | Savings         | #template remainder 3 | 50            |
 | Vacation Fund   | #template remainder   | 16.66         |
 | Investment Fund | #template remainder 2 | 33.34         |
-
 
 ### Goal Directive
 
