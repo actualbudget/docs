@@ -106,13 +106,13 @@ Templates can be given a priority flag to change the order that the templates ge
 - If you have multiple `schedule` or `by` template lines in a single category, they will be forced to match the same priority level as the line run first.
 - It is recommended to use the "overwrite with budget template" option when applying templates if you use priorities.
 
-    - **Expected budgeted amount is 200** 
+    - **Expected budgeted amount is 200**
     **Expected maximum category balance is 200**
 
         #template 300
         #template-1 150 up to 200
-       
-    - **Expected budgeted amount is 450** 
+
+    - **Expected budgeted amount is 450**
     **No maximum category balance exists**
 
         #template 150 up to 500
@@ -257,8 +257,8 @@ Below is a table of the variations of the By template.
 |#template 500 by 2025-03 repeat every year|Break down large, less-frequent expenses into manageable monthly expenses|Annual insurance premium
 |#template 500 by 2025-03 repeat every 2 years|Break down large, less-frequent expenses into manageable monthly expenses|Domain name renewal|
 |#template 500 by 2024-12 spend from 2024-03|Budget 500 by December. Any spending between March and December is OK.|Christmas presents, overseas holiday, or any other expenses that I will be partially paying for before the target period ends.|
-|#template 500 by 2024-12 spend from 2024-03 repeat every year| |	
-|#template 500 by 2024-12 spend from 2024-03 repeat every 2 years| |	
+|#template 500 by 2024-12 spend from 2024-03 repeat every year| |
+|#template 500 by 2024-12 spend from 2024-03 repeat every 2 years| |
 
 ### Week Type
 If you have bills that cycle weekly, or like to base your budget on weeks, this is the template for you!
@@ -369,8 +369,8 @@ Below is a table of the variations of the Schedule template.
 <!-- prettier-ignore -->
 |Syntax|Description|Example Application|
 |---|---|---|
-|#template schedule {SCHEDULE NAME}|Fund upcoming scheduled transactions over time|Monthly schedules, or larger non-monthly scheduled transactions|
-|#template schedule full {SCHEDULE NAME}|Fund upcoming scheduled transaction only on needed month| Small schedules that are non-monthly|
+|#template schedule {"{"}SCHEDULE NAME{"}"}|Fund upcoming scheduled transactions over time|Monthly schedules, or larger non-monthly scheduled transactions|
+|#template schedule full {"{"}SCHEDULE NAME{"}"}|Fund upcoming scheduled transaction only on needed month| Small schedules that are non-monthly|
 
 ### Average Type
 The Average template allows you to budget the average amount spend over a number of months.

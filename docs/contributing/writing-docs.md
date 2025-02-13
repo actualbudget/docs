@@ -2,18 +2,45 @@
 
 Except for a few sections, most of the documentation is aimed at end users. It is important to keep this in mind when writing documentation. In practice, this means that it is better to be a bit verbose and write out every step in a process than to assume that the reader is on the writer's technical level.
 
-<details><summary>Read example</summary>
+<details>
+  <summary>Read example</summary>
+  <>
+    <p>
+      For those with experience, the process is straightforward and familiar:
+      <em>
+        To update with our latest releases, simply use the <code>git pull</code> command
+        from the <code>master</code> branch of your local directory of Actual. Once the
+        changes are updated, execute <code>yarn install</code> to download the latest
+        updates from the releases.
+      </em>
+    </p>
 
-For those with experience, the process is straightforward and familiar: _To update with our latest releases, simply use the `git pull` command from the `master` branch of your local directory of Actual. Once the changes are updated, execute the `yarn install` to download the latest updates from the releases._
+    <p>
+      A better approach for inexperienced people, as it explains what each step is doing
+      and the expected outcome:
+    </p>
 
-A better approach for inexperienced people, as it explains what each step is doing and the expected outcome:
-
-1. Stop the server if it's running. You can use the keyboard shortcut <Key mod= "ctrl" k= "c"/> (even on macOS) to stop the server or close the terminal window it's running from.
-2. Run `git pull` from the directory you cloned the project into. This will download the latest server code.
-3. Run `yarn install` from that same directory. This will download the latest web client code and any updated dependencies for the server.
-4. Restart the server by running `yarn start`.
-
+    <ol>
+      <li>
+        Stop the server if it's running. You can use the keyboard shortcut
+        <kbd>Ctrl</kbd> + <kbd>C</kbd> (even on macOS) to stop the server or close the terminal
+        window it's running from.
+      </li>
+      <li>
+        Run <code>git pull</code> from the directory you cloned the project into. This will
+        download the latest server code.
+      </li>
+      <li>
+        Run <code>yarn install</code> from that same directory. This will download the latest
+        web client code and any updated dependencies for the server.
+      </li>
+      <li>
+        Restart the server by running <code>yarn start</code>.
+      </li>
+    </ol>
+  </>
 </details>
+
 
 We generate our website using the [Docusaurus](https://docusaurus.io/) system, and our documentation is written in Markdown (+ some Docusaurus specifics).
 
@@ -77,11 +104,12 @@ It is important to note that both level 1 and level 2 headings are prominently d
 The documentation folder structure should follow the structure in the left of the screen.
 This means sections with more than one page have their own directories.
 
-
-<details><summary>Click here to get an overview of the folder structure</summary>
-
-```
-website # the root directory of the documentation site
+<details>
+  <summary>Click here to get an overview of the folder structure</summary>
+  <>
+    <pre>
+      <code>
+{`website # the root directory of the documentation site
 ├── docs
 │   └── index.md # the introduction file.
 │   └── faq.md
@@ -102,7 +130,7 @@ website # the root directory of the documentation site
         ...
     └── getting-started # Getting started with Actual.
         ....
-    └── install # Documentation around installing actual.
+    └── install # Documentation around installing Actual.
         ...
     └── migration # Migrating into Actual and using the tools available.
         ...
@@ -117,8 +145,10 @@ website # the root directory of the documentation site
 │
 └── static
     └── img
-```
-
+`}
+      </code>
+    </pre>
+  </>
 </details>
 
 ## Document Guidelines
@@ -224,16 +254,19 @@ Your cautionary item
 
 ### Hiding and showing  information
 
-
-<details><summary>This is a summary box, click here to see how it's made</summary>
-
-`<details><summary>The title of the summary</summary>`
+<details>
+  <summary>This is a summary box, click here to see how it's made</summary>
+  <>
+    <pre>
+      <code>
+{`<details><summary>The title of the summary</summary>
 
 Place the content inside the details-tags.
 
-`</details>`
-
-
+</details>`}
+      </code>
+    </pre>
+  </>
 </details>
 
 
@@ -304,29 +337,26 @@ If the annotation tool doesn't support 'steps ', use boxes in different colors a
 
 ![Image with 3 different colored boxes](/static/img/repo/annotation-colour-boxes.png)
 
+<details>
+  <summary>Read example description of this way of annotating</summary>
+  <>
+    <h3>Using <em>steps</em></h3>
+    <ol type="a">
+      <li>Formatting numbers. We support most commonly used formats.</li>
+      <li>Choose the date format that you are most comfortable with.</li>
+      <li>The first day of the week controls grouping on reports.</li>
+    </ol>
 
-<details><summary>Read example description of this way of annotating</summary>
+    <hr />
 
-
-**Using _steps_**
-
-a. Formatting numbers. We support most commonly used formats.
-
-b. Choose the date format that you are most comfortable with.
-
-c. The first day of the week controls grouping on reports.
-
-----
-
-
-**Using colored boxes**:
-
-* Formatting numbers (indicated by the red box). We support most formats that are commonly used.
-* If you want to change the date format you are most comfortable with, you can use the dropdown in the green box.
-* The first day of the week controls grouping on reports. You will find this control indicated in the yellow box.
-
+    <h3>Using colored boxes</h3>
+    <ul>
+      <li><strong>Formatting numbers</strong> (indicated by the red box). We support most formats that are commonly used.</li>
+      <li>If you want to change the date format you are most comfortable with, you can use the dropdown in the green box.</li>
+      <li>The first day of the week controls grouping on reports. You will find this control indicated in the yellow box.</li>
+    </ul>
+  </>
 </details>
-
 
 #### Do not Draw Annotations Using "Free Hand"
 
@@ -366,15 +396,19 @@ Different annotation tools handle this in various ways, which means we will get 
 
 ![Image of the budget view using the dark theme showing how highlights or spotlight annotations make the image hard to read](/static/img/repo/annotation-highlights-are-bad.png)
 
-<details><summary>It might work when using the light theme</summary>
+<details>
+  <summary>It might work when using the light theme</summary>
+  <>
+    <p>
+      However, because we dim down the rest of the image, this breaks over the notion that images should be clear and crisp.
+    </p>
 
-However, because we dim down the rest of the image, this breaks over the notion that images should be clear and crisp.
-
-![Image of the budget view using the light theme showing that highlights may work](/static/img/repo/annotation-highlights-ligth-theme.png)
-
+    <img
+      src="/static/img/repo/annotation-highlights-ligth-theme.png"
+      alt="Image of the budget view using the light theme showing that highlights may work"
+    />
+  </>
 </details>
-
-
 
 ### Software For Taking and Annotating Screenshots
 
