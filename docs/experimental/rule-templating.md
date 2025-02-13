@@ -7,7 +7,7 @@ This is an **experimental feature**. That means we’re still working on finishi
 All functionality described here may not be available in the latest stable release. Use the `edge` images for the latest implementation.
 :::
 
-Rule action templating allows rules to dynamically set fields based on transaction data.
+Rule action templating allows rules to dynamically set fields based on transaction data via meta programming inside the rule.
 
 Setting the following fields with a rule template is currently supported:
 - notes
@@ -15,6 +15,8 @@ Setting the following fields with a rule template is currently supported:
 - amount
 - payee (name)
 - cleared (although no boolean helper functions are currently supported)
+
+Actual uses [handlebars](https://handlebarsjs.com/) under the hood to process the rule templates. You can find more in depth information about how this works in [their guide](https://handlebarsjs.com/guide).
 
 ## Using rule action templating
 You can toggle between the normal and template input modes by clicking the icon to the right of the action input box.
