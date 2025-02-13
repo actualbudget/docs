@@ -141,25 +141,15 @@ module.exports = {
     }),
   plugins: [
     [
-      require.resolve('@cmfcmf/docusaurus-search-local'),
+      require.resolve('docusaurus-lunr-search'),
       {
-        indexDocs: true,
-        indexDocSidebarParentCategories: 0,
-        indexPages: false,
-        language: 'en',
-        style: undefined,
-        maxSearchResults: 8,
-        lunr: {
-          tokenizerSeparator: /[\s\-]+/,
-
-          b: 0.75,
-
-          k1: 1.2,
-
-          titleBoost: 5,
-          contentBoost: 1,
-          tagsBoost: 3,
-          parentCategoriesBoost: 2, // Only used when indexDocSidebarParentCategories > 0
+        languages: ['en'],
+        maxHits: 8,
+        fields: {
+          title: { boost: 5 },
+          content: { boost: 1 },
+          tags: { boost: 3 },
+          parentCategories: { boost: 2 }, // Only used when indexDocSidebarParentCategories > 0
         },
       },
     ],
