@@ -374,9 +374,7 @@ This feature adds percentage adjustments to templates, letting you gradually sav
 |---|---|
 | #template schedule {SCHEDULE NAME} [{increase/decrease} {number}%] | Fund the upcoming scheduled transaction over time, increasing or decreasing the amount by the given percentage
 
-#### Examples
-
-Assuming the amount Scheduled for 'Insurance' the prior year was $1000, the below example would apply.
+As an example, assuming the amount Scheduled for 'Insurance' the prior year was $1000, the below would apply.
 
 | Category | Template line | Amount applied |
 |---|---|:---:|
@@ -389,7 +387,7 @@ Below is a table of the variations of the Schedule template.
 |---|---|---|
 |#template schedule {SCHEDULE NAME}|Fund upcoming scheduled transactions over time|Monthly schedules, or larger non-monthly scheduled transactions|
 |#template schedule full {SCHEDULE NAME}|Fund upcoming scheduled transaction only on needed month| Small schedules that are non-monthly|
-|#template schedule {SCHEDULE NAME} [{increase/decrease} {number}%]|Fund upcoming scheduled transaction over time, increasing or decreasing the amount by the given percentage|Yearly renewals where the amount changes (e.g. insurance)
+|#template schedule {SCHEDULE NAME} [{increase/decrease} {number}%]|Fund upcoming scheduled transaction over time, increasing or decreasing the amount by the given percentage|Yearly renewals where the amount changes|
 
 ### Average Type
 The Average template allows you to budget the average amount spend over a number of months.
