@@ -1,9 +1,9 @@
-const visit = require('unist-util-visit-parents');
+const { visitParents } = require('unist-util-visit-parents');
 const path = require('node:path');
 
 const plugin = () => {
   const transformer = async (ast, file) => {
-    visit(ast, 'image', (node, ancestors) => {
+    visitParents(ast, 'image', (node, ancestors) => {
       if (node.url.startsWith('http')) {
         return;
       }

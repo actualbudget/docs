@@ -1,8 +1,9 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const themes = require('prism-react-renderer').themes;
+const lightCodeTheme = themes.github;
+const darkCodeTheme = themes.dracula;
 
 const defaultOptions = {
   editUrl: 'https://github.com/actualbudget/docs/tree/master/',
@@ -42,6 +43,7 @@ module.exports = {
         },
         blog: {
           ...defaultOptions,
+          editUrl: 'https://github.com/actualbudget/docs/edit/master/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -125,11 +127,7 @@ module.exports = {
           {
             label: 'Privacy Policy',
             to: '/docs/privacy-policy',
-          },
-          {
-            label: 'RSS Feed',
-            href: '/blog/rss.xml',
-          },
+          }
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Actual Budget. Built with Docusaurus.`,
       },
@@ -140,29 +138,17 @@ module.exports = {
       },
     }),
   plugins: [
-    [
-      require.resolve('@cmfcmf/docusaurus-search-local'),
-      {
-        indexDocs: true,
-        indexDocSidebarParentCategories: 0,
-        indexPages: false,
-        language: 'en',
-        style: undefined,
-        maxSearchResults: 8,
-        lunr: {
-          tokenizerSeparator: /[\s\-]+/,
-
-          b: 0.75,
-
-          k1: 1.2,
-
-          titleBoost: 5,
-          contentBoost: 1,
-          tagsBoost: 3,
-          parentCategoriesBoost: 2, // Only used when indexDocSidebarParentCategories > 0
-        },
-      },
-    ],
     ['@docusaurus/plugin-ideal-image', { disableInDev: false }],
+  ],
+  themes: [
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      {
+        hashed: true,
+        language: ['en'],
+        ignoreFiles: ['docs/releases', /blog\/release.*/, /blog\/page.*/],
+        searchResultLimits: 8,
+      },
+    ]
   ],
 };
