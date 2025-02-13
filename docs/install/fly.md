@@ -23,55 +23,112 @@ To install the `fly` command line tool on your local machine, you’ll need to s
 
 Next, follow [the instructions to install the `fly` command line tool](https://fly.io/docs/hands-on/install-flyctl/). When entering the commands, make sure _not_ to include the `$` character at the beginning of each line.
 
-<details><summary>Detailed instructions with screenshots for Windows</summary>
+<details>
+  <summary>Detailed instructions with screenshots for Windows</summary>
+  <>
+    <p>
+      <strong>Note:</strong> The exact commands you’ll need to run may have changed.
+      Check the website linked above to make sure you have the latest ones.
+    </p>
 
-Note: the exact commands you’ll need to run may have changed, check the website linked above to make sure you have the latest ones.
+    <ol>
+      <li>
+        Open up PowerShell on your local machine and paste the following command into the window:
+        <pre>
+          <code className="language-powershell">
+{`iwr https://fly.io/install.ps1 -useb | iex`}
+          </code>
+        </pre>
+        <img
+          src="/img/fly/windows-install-1.png"
+          alt="Screenshot of PowerShell with the install command pasted"
+        />
+      </li>
 
-1. Open up PowerShell on your local machine and paste the following command into the window:
-   ```powershell
-   iwr https://fly.io/install.ps1 -useb | iex
-   ```
-   ![](/img/fly/windows-install-1.png)
-2. Flyctl should start installing
+      <li>
+        Flyctl should start installing.
+        <img
+          src="/img/fly/windows-install-2.png"
+          alt="Screenshot of Flyctl installation process"
+        />
+      </li>
 
-   ![](/img/fly/windows-install-2.png)
-
-3. Once done you should get a message saying `Run flyctl --help to get started`:
-
-   ![](/img/fly/windows-install-3.png)
-
+      <li>
+        Once done, you should get a message saying <code>Run flyctl --help to get started</code>:
+        <img
+          src="/img/fly/windows-install-3.png"
+          alt="Screenshot of successful Flyctl installation"
+        />
+      </li>
+    </ol>
+  </>
 </details>
 
-<details><summary>Detailed instructions with screenshots for macOS</summary>
+<details>
+  <summary>Detailed instructions with screenshots for macOS</summary>
+  <>
+    <p>
+      <strong>Note:</strong> The exact commands you’ll need to run may have changed.
+      Check the website linked above to make sure you have the latest ones.
+    </p>
 
-Note: the exact commands you’ll need to run may have changed, check the website linked above to make sure you have the latest ones.
+    <p>
+      Additionally, you might get an error such as <code>command not found: fly</code>
+      when you try to use the <code>fly</code> command later. If that happens, you’ll need to
+      change the <code>fly</code> part of the command to <code>~/.fly/bin/fly</code> instead.
+    </p>
 
-Additionally, you might get an error such as `command not found: fly` when you try to use the `fly` command later. If that happens, you’ll need to change the `fly` part of the command to `~/.fly/bin/fly` instead.
+    <ol>
+      <li>
+        In the Finder, choose <strong>“Go → Utilities”</strong> from the menu bar.
+        <img
+          src="/img/fly/macos-install-1@2x.png"
+          alt="Screenshot of macOS Finder showing Go → Utilities menu"
+        />
+      </li>
 
-1. In the Finder, choose “Go → Utilities” from the menu bar.
+      <li>
+        Scroll down in the list until you find <strong>“Terminal.”</strong>
+        Double-click on it to open it.
+        <img
+          src="/img/fly/macos-install-2@2x.png"
+          alt="Screenshot of macOS Utilities folder showing Terminal app"
+        />
+      </li>
 
-   ![](/img/fly/macos-install-1@2x.png)
+      <li>
+        A window should pop up that will look a bit like this. Note that some of the text
+        may be different, or you may see the last line ending with a <code>$</code> instead of
+        a <code>%</code>. Both of those are normal.
+        <img
+          src="/img/fly/macos-install-3@2x.png"
+          alt="Screenshot of macOS Terminal window"
+        />
+      </li>
 
-2. Scroll down in the list until you find “Terminal.” Double-click on it to open it.
+      <li>
+        Type or paste the following command to start the install. Make sure you press
+        the <kbd>Enter</kbd> key on your keyboard after you’ve typed it in.
+        <pre>
+          <code className="language-bash">
+{`curl -L https://fly.io/install.sh | sh`}
+          </code>
+        </pre>
+        <img
+          src="/img/fly/macos-install-4@2x.png"
+          alt="Screenshot of macOS Terminal running Flyctl installation"
+        />
+      </li>
 
-   ![](/img/fly/macos-install-2@2x.png)
-
-3. A window should pop up that will look a bit like this. Note that some of the text may be different, or you may see the last line ending with a `$` instead of a `%`. Both of those are normal.
-
-   ![](/img/fly/macos-install-3@2x.png)
-
-4. Type or paste the following command to start the install. Make sure you press the `Enter` key on your keyboard after you’ve typed it in.
-
-   ```bash
-    curl -L https://fly.io/install.sh | sh
-   ```
-
-   ![](/img/fly/macos-install-4@2x.png)
-
-5. Once that has finished, you should see something like this:
-
-   ![](/img/fly/macos-install-5@2x.png)
-
+      <li>
+        Once that has finished, you should see something like this:
+        <img
+          src="/img/fly/macos-install-5@2x.png"
+          alt="Screenshot of macOS Terminal after successful Flyctl installation"
+        />
+      </li>
+    </ol>
+  </>
 </details>
 
 ### Logging into Fly.io
@@ -147,19 +204,32 @@ You can now visit your very own instance of Actual by opening the link on the la
 Now that Actual has been launched, you should be able to navigate to Actual using the URL
 provided by the Fly command above earlier.
 
-<details><summary>Forgot the URL? Here’s how to find it</summary>
+<details>
+  <summary>Forgot the URL? Here’s how to find it</summary>
+  <>
+    <p>
+      If you forget the URL, you can always find it by opening
+      <a href="https://fly.io/dashboard" target="_blank">https://fly.io/dashboard</a> in a browser.
+      Click on the application you created:
+    </p>
 
-If you forget the URL, you can always find it by opening [https://fly.io/dashboard](https://fly.io/dashboard) in a browser. Click on the application you created:
+    <img
+      src="/img/fly/fly-dash.png"
+      alt="Screenshot of Fly.io dashboard showing the application selection"
+    />
 
-![](/img/fly/fly-dash.png)
+    <p>
+      Once you are in there, you should see the <strong>Hostname</strong> section under
+      <strong>Application Information</strong> – click the link.
+    </p>
 
-Once you are in there, you should see Hostname section under Application Information - click the
-link
+    <img
+      src="/img/fly/fly-dash-2.png"
+      alt="Screenshot of Fly.io dashboard showing the hostname section"
+    />
 
-![](/img/fly/fly-dash-2.png)
-
-This will now open Actual so we can start configuring it.
-
+    <p>This will now open Actual so we can start configuring it.</p>
+  </>
 </details>
 
 1. Set a password - remember this, you will need it in the future.
