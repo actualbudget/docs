@@ -30,8 +30,8 @@ Depositos
 DIREKT
 Dockerfiles
 Dominguez
-DUSSELDORF
 DUSSDEDDXXX
+DUSSELDORF
 ENTERCARD
 Entra
 fidd
@@ -39,9 +39,9 @@ Fineco
 Fintro
 FORTUNEO
 FTNOFRP
+Geral
 gernes
 gocardless
-Geral
 Grafana
 HABAL
 HELADEF
@@ -65,6 +65,7 @@ Postgre
 prefs
 Primoco
 Priotecs
+proactively
 revolut
 RIED
 RSchedule
