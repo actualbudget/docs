@@ -37,7 +37,9 @@ The reasons for this change are as follows:
   ```
   yarn install:server
   ```
-  4. Run the server with:
+  4. If you have a [config.json](https://actualbudget.com/docs/config/) file you will need to copy it into the ``` packages/sync-server ``` directory
+  5. Run the server with:
   ```
   yarn start:server
   ```
+
