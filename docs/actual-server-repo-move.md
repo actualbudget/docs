@@ -35,7 +35,7 @@ The reasons for this change are as follows:
   ```
   3. Install the required dependencies for the server:
   ```
-  yarn workspaces focus actual-sync --production
+  yarn workspaces focus @actual-app/sync-server --production
   ```
   4. Run the server with:
   ```
