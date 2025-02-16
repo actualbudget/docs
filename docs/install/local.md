@@ -29,7 +29,7 @@ Actual server is used for syncing changes across devices. It comes with the late
     ```
 3. Install all the required dependencies using yarn.
     ```bash
-    yarn workspaces focus actual-sync --production
+    yarn workspaces focus @actual-app/sync-server --production
     ```
 
 ## Running Actual
