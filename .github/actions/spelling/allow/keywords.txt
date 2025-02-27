@@ -24,6 +24,7 @@ clsx
 codemirror
 Coinbase
 commandlet
+Coverflex
 Crd
 crdt
 creditcards
@@ -36,6 +37,7 @@ dmg
 easybank
 Edenred
 escodegen
+EUR
 expando
 Firefox
 flyctl
@@ -83,11 +85,13 @@ netlify
 Nordea
 NORDEA
 nordigen
+notlike
 NRNBGB
 nynab
 offbudget
 ofx
 OFX
+oneof
 payeerule
 pikaday
 pikapods

@@ -34,8 +34,8 @@ const sidebars = {
       link: {
         type: 'doc',
         id: 'tour/index',
-            },
-            items: [
+      },
+      items: [
         'tour/user-interface',
         'tour/budget',
         'tour/accounts',
@@ -43,16 +43,16 @@ const sidebars = {
         'tour/schedules',
         'tour/payees',
         'tour/rules',
-            ],
+      ],
     },
     {
       type: 'category',
       label: 'Getting Started',
       collapsible: false,
       items: [
-      'getting-started/roadmap-for-new-users',
-      'getting-started/envelope-budgeting',
-      'getting-started/tracking-budget',
+        'getting-started/roadmap-for-new-users',
+        'getting-started/envelope-budgeting',
+        'getting-started/tracking-budget',
         {
           type: 'category',
           label: 'Installation and Configuration',
@@ -79,12 +79,15 @@ const sidebars = {
               type: 'category',
               label: 'Configuration',
               collapsible: false,
-               items: [ 'config/index', 'config/https', 'advanced/http-header-auth', 'config/reverse-proxies' ],
+              items: [
+                'config/index',
+                'config/https',
+                'advanced/http-header-auth',
+                'config/reverse-proxies',
+              ],
             },
-
           ],
         },
-
 
         {
           type: 'category',
@@ -93,19 +96,10 @@ const sidebars = {
             type: 'doc',
             id: 'migration/index',
           },
-          items: [
-                'migration/actual-import',
-                'migration/ynab4',
-                'migration/nynab',
-          ],
+          items: ['migration/ynab4', 'migration/nynab'],
         },
-
-
       ],
     },
-
-
-
 
     {
       type: 'category',
@@ -123,38 +117,26 @@ const sidebars = {
           },
           items: [
             'budgeting/categories',
+            'budgeting/returns-and-reimbursements',
             {
               type: 'category',
-              label: 'How to articles about budgeting',
-              collapsible: false,
+              label: 'Managing Credit Cards',
+              collapsible: true,
               link: {
                 type: 'doc',
-                id: 'budgeting/index',
+                id: 'budgeting/credit-cards/index',
               },
-              items: [
-                'budgeting/returns-and-reimbursements',
-                {
-                  type: 'category',
-                  label: 'Managing Credit Cards',
-                  collapsible: true,
-                  link: {
-                    type: 'doc',
-                    id: 'budgeting/credit-cards/index',
-                  },
-                  items: ['budgeting/credit-cards/carrying-debt'],
-                },
-                'budgeting/joint-accounts',
-                'advanced/restart',
-              ]
+              items: ['budgeting/credit-cards/carrying-debt'],
             },
+            'budgeting/multi-currency',
+            'budgeting/joint-accounts',
+            'advanced/restart',
           ],
         },
 
         // End of Budgeting
 
         'schedules',
-
-
 
         {
           type: 'category',
@@ -197,7 +179,6 @@ const sidebars = {
           ],
         },
 
-
         {
           type: 'category',
           label: 'Reports',
@@ -206,9 +187,7 @@ const sidebars = {
             type: 'doc',
             id: 'reports/index',
           },
-          items: [
-            'reports/custom-reports'
-          ],
+          items: ['reports/custom-reports'],
         },
         {
           type: 'category',
@@ -227,8 +206,9 @@ const sidebars = {
           items: [
             'experimental/goal-templates',
             'experimental/monthly-cleanup',
-            'experimental/oauth-auth', 
-            'experimental/multi-user'
+            'experimental/oauth-auth',
+            'experimental/multi-user',
+            'experimental/rule-templating',
           ],
         },
         'getting-started/tips-tricks',
@@ -254,24 +234,13 @@ const sidebars = {
       ],
     },
 
-
-
-
-
-
-
-
-
-
-
-
-
     {
       type: 'category',
       label: 'Help & Support',
       collapsible: false,
       items: [
         'faq',
+        'actual-server-repo-move',
         {
           type: 'category',
           label: 'Troubleshooting',
@@ -329,11 +298,9 @@ const sidebars = {
           type: 'category',
           label: 'Documentation',
           collapsible: false,
-          items: [
-            'contributing/writing-docs',
-          ],
+          items: ['contributing/writing-docs'],
         },
-         {
+        {
           type: 'category',
           label: 'Project Leadership',
           collapsible: false,

@@ -11,6 +11,7 @@ One approach is maintaining a common budget where both partners share a single b
 This method promotes transparency and ensures both parties agree regarding financial goals, expenses, and income.
 A shared budget fosters collaboration but requires consistent communication to keep everything current. It will help
 you both set clear boundaries for individual and shared expenses while working together toward common financial objectives.
+See [Multi-user](/docs/getting-started/sync#multi-user-support) regarding simultaneous edits.
 
 Alternatively, you can track your partner’s contributions within your personal Actual Budget file. This allows you to
 maintain individual control over your finances while still acknowledging and accounting for your partner’s financial
@@ -73,7 +74,7 @@ what are your common expenses regarding groceries, utility bills, dining out, gi
 Both will then contribute their share of the joint expenses. This is called _planned income_.
 
 But how do you find your just share? The most just way to do this is by percentage of normal income per partner.
-If Bob makes € 4000 a month and Alice makes € 6000, the total income is € 10 000. Out of
+If Bob makes $ 4,000 a month and Alice makes $ 6,000, the total income is $ 10,000. Out of
 this, Bob will contribute 40% to the joint expenses. To compute the percentage for Bob: 400 (Bob's income) * 100 / 10000
 (total income). Alice's percentage is 60%, found by subtracting Bob's percentage from 100.
 
@@ -118,7 +119,7 @@ Situation: I am using Actual to keep track of my budget and finances, but I shar
 
 ### Basic setup steps
 
-1. Create an **on-budget** account used to pay joint bills.
+1. Create an **on budget** account used to pay joint bills.
 2. Create a **category group** used to group your shared expense categories.
 3. Create the **categories** you plan to budget using your joint account.
 4. **Optional:** Create an **Income Category** called **Partner Contribution** or something similar. This will be explained further below.
@@ -127,7 +128,7 @@ Situation: I am using Actual to keep track of my budget and finances, but I shar
 
 #### Your contribution
 
-Each month you will add a transfer of your share to the joint account from one of your on-budget accounts. You don't need a category for your contribution since it is just a transfer from one of your accounts to another.
+Each month you will add a transfer of your share to the joint account from one of your on budget accounts. You don't need a category for your contribution since it is just a transfer from one of your accounts to another.
 
 ![Screenshot of joint accounts in a personal Actual Budget file](/img/joint-accounts/jointaccount-2.png)
 

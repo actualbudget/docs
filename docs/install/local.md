@@ -1,6 +1,6 @@
 # Local Installation
 
-The easiest way to get Actual running locally is to use [actual-server](https://github.com/actualbudget/actual-server).
+The easiest way to get Actual running locally is to use [actual-server](https://github.com/actualbudget/actual/tree/master/packages/sync-server).
 
 Actual server is used for syncing changes across devices. It comes with the latest version of the [Actual web client](https://github.com/actualbudget/actual).
 
@@ -18,27 +18,68 @@ Actual server is used for syncing changes across devices. It comes with the late
 
 ## Installing Actual
 
-1. After the prerequisites are fulfilled, clone the [Actual server](https://github.com/actualbudget/actual-server) project in your project root directory where you want to install Actual.
+1. After the prerequisites are fulfilled, clone the [Actual](https://github.com/actualbudget/actual) project in your project root directory where you want to install Actual.
   ```bash
-  git clone https://github.com/actualbudget/actual-server.git
+  git clone https://github.com/actualbudget/actual.git
   ```
 
-2. Navigate to the Actual Server in your project root director.
+2. Navigate to the Actual in your project root directory.
     ```bash
-    cd actual-server
+    cd actual
     ```
 3. Install all the required dependencies using yarn.
     ```bash
-    yarn install
+    yarn workspaces focus @actual-app/sync-server --production
     ```
 
 ## Running Actual
 
-After the Actual server is installed, start the Actual server by running the following command:
+After the Actual is installed, start the Actual server by running the following command:
 ```bash
-yarn start
+yarn start:server
 ```
 Note that if you restart your computer, you’ll have to run this command again to start the server.
+
+### Linux systemd Setup
+On Linux systems you can configure a systemd unit file to have Actual run on system startup. This needs to be done as the root user (open a root terminal session or preface each command with sudo to run the commands below)
+1. Create the file /etc/systemd/service/actual-server.service with the contents below using your text editor of choice (ex. ``` vi /etc/systemd/service/actual-server.service ```). Note the WorkingDirectory= parameter needs to be set to your Actual install folder
+```
+[Unit]
+Description=Actual-Server (https://actualbudget.org)
+After=network.target
+
+[Service]
+WorkingDirectory=[Link to your actual-server install directory, ex. /var/www/html/actual]
+ExecStart=/usr/bin/yarn start:server
+Restart=on-watchdog
+
+[Install]
+WantedBy=multi-user.target
+```
+2. Have systemd rescan for the unit file you created -> ``` systemctl daemon-reload ```
+3. Install and start the systemd unit file -> ``` systemctl enable --now /etc/systemd/system/multi-user.target.wants/actual-server.service ```
+4. Confirm that the Actual server is running -> ``` systemctl status actual-server ```
+```
+root@server:/etc/systemd/system# systemctl status actual-server
+● actual-server.service - Actual-Server (https://actualbudget.org)
+     Loaded: loaded (/lib/systemd/system/actual-server.service; enabled; vendor pres>
+     Active: active (running) since Mon 2024-11-18 14:58:29 EST; 23h ago
+   Main PID: 842857 (node)
+      Tasks: 33 (limit: 38316)
+     Memory: 45.9M
+        CPU: 1.995s
+     CGroup: /system.slice/actual-server.service
+             ├─842857 node /usr/bin/yarn start
+             ├─842870 /usr/bin/node /var/www/html/actual-server/.yarn/releases/yarn->
+             └─842881 /usr/bin/node app
+```
+5. You should see output similar to above. The main thing to check for is the "Active: active (running)" section. From here you can consider [Setting up a Reverse Proxy](https://actualbudget.org/docs/config/reverse-proxies) and [Activating HTTPS](https://actualbudget.org/docs/config/https)
+6. To stop / start / restart the server use the commands
+   - ```systemctl stop actual-server```
+   - ```systemctl start actual-server```
+   - ```systemctl restart actual-server```
+7. To see the system log showing status or errors use the command from before. This can be helpful for troubleshooting.
+   - ```systemctl status actual-server```
 
 ## Accessing Actual
 
@@ -50,7 +91,20 @@ When accessing Actual for the first time, you may be prompted to provide a URL f
 
 1. Stop the server if it’s running. You can use the keyboard shortcut <kbd>CTRL-C</kbd> (even on macOS) to stop the server or close the terminal window it’s running from.
 2. Run `git pull` from the directory you cloned the project into. This will download the latest server code.
-3. Run `yarn install` from that same directory. This will download the latest web client code, along with any updated dependencies for the server.
+3. Run `yarn workspaces focus @actual-app/sync-server --production` from that directory. This will download the latest web client code, along with any updated dependencies for the server.
 4. Restart the server by running `yarn start`.
 
 Actual is constantly evolving to include new features and improve the user's experience. It is always recommended that your local installation be updated with our [latest releases](https://actualbudget.org/docs/releases).
+
+## Translations
+
+If you would like to use Actual in a language other than English, additional setup is needed. Run the following commands in order.
+1. Navigate to the Actual in your project root directory, and the `packages/desktop-client` directory inside that.
+    ```bash
+    cd actual  # project root
+    cd packages/desktop-client
+    ```
+2. Clone the separate translations repository.
+    ```bash
+    git clone https://github.com/actualbudget/translations locale
+    ```

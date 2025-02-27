@@ -2,7 +2,7 @@
 title: Configuring the Server
 ---
 
-When it starts up, Actual looks for an optional `config.json` file in the same directory as its `package.json`. If present, any keys you define there will override the default values. All values can also be specified as environment variables, which will override the values in the `config.json` file.
+When it starts up, Actual looks for an optional `config.json` file in the same directory as the sync-server's `package.json`. If you are running a [local installation](https://actualbudget.com/docs/install/local) this will be in ```packages/sync-server/```. If present, any keys you define there will override the default values. All values can also be specified as environment variables, which will override the values in the `config.json` file.
 
 :::info
 
@@ -10,21 +10,34 @@ Running into issues with your configuration not being interpreted correctly? Che
 
 :::
 
+## `ACTUAL_DATA_DIR`
+
+This is where the server stores the budget data files (and configurations unless `ACTUAL_CONFIG_PATH`is set).
+
+The default value is `/data`.
+
+See also sections on `userFiles` and `serverFiles`.
+
+
 ## `ACTUAL_CONFIG_PATH`
 
-This is the path to the config file. If not specified, the server will look for a `config.json` file either in the `/data` directory if it is present, or in the same directory as the `package.json` if `/data` is not present.
+This is the path to the config file. If not specified, the server will look for a `config.json` file either in the
+`/data` folder if it is present or in the same directory as the sync-server's `package.json` if `/data` is absent.
+
+See the `ACTUAL_DATA_DIR` section above to override the data folder location.
 
 You can’t specify this option in `config.json` since it needs to be used to find the `config.json` in the first place.
 
+
 ## `https`
 
-If you want to Actual to serve over HTTPS, you can set this key to an object with the following keys:
+If you want Actual to serve over HTTPS, you can set this key to an object with the following keys:
 
 - `key`: The path to the private key file. (environment variable: `ACTUAL_HTTPS_KEY`)
 - `cert`: The path to the certificate file. (environment variable: `ACTUAL_HTTPS_CERT`)
 - any other options from Node’s [`tls.createServer()`](https://nodejs.org/docs/latest-v16.x/api/tls.html#tlscreateserveroptions-secureconnectionlistener), [`tls.createSecureContext()`](https://nodejs.org/docs/latest-v16.x/api/tls.html#tlscreatesecurecontextoptions), or [`http.createServer()`](https://nodejs.org/docs/latest-v16.x/api/http.html#httpcreateserveroptions-requestlistener) functions (optional, most people won’t need to set any of these).
 
-See [Activating HTTPS](./https.md) for more information on how to get HTTPS working.
+See [Activating HTTPS](/config/https.md) for more information on how to get HTTPS working.
 
 <!-- ## `mode`
 
@@ -42,9 +55,14 @@ The `hostname` key is used to specify the hostname that the server should listen
 
 The server will put an `account.sqlite` file in this directory, which will contain the (hashed) server password, a list of all the budget files the server knows about, and the active session token (along with anything else the server may want to store in the future). If not specified, the server will use either `/data/server-files` (if `/data` exists) or the `server-files` directory in the same directory as the `package.json`. (environment variable: `ACTUAL_SERVER_FILES`)
 
+See the `ACTUAL_DATA_DIR` section above to override the data folder location.
+
+
 ## `userFiles`
 
 The server will put all the budget files in this directory as binary blobs. If not specified, the server will use either `/data/user-files` (if `/data` exists) or the `user-files` directory in the same directory as the `package.json`. (environment variable: `ACTUAL_USER_FILES`)
+
+See the `ACTUAL_DATA_DIR` section above to override the data folder location.
 
 ## `webRoot`
 
@@ -54,11 +72,21 @@ If you’re providing a custom frontend, make sure you provide an `index.html` i
 
 ## `loginMethod`
 
-Change the authentication method for Actual  (environment variable: `ACTUAL_LOGIN_METHOD`). The valid values are:
+Change the default authentication method for Actual  (environment variable: `ACTUAL_LOGIN_METHOD`). The valid values are:
 * `"password"` (default) - This is standard password authentication
 * `"header"` - Use the HTTP header `x-actual-password` to automatically login. This is for advanced use and if not done correctly could have security implications.
+* `"openid"` - OpenId auth (in preview)
 
+## `allowedLoginMethods`
+
+The list of login methods that are permitted for auth. This defaults to `['password','header','openid']` (environment variable: `ACTUAL_ALLOWED_LOGIN_METHODS`, comma separated string).
+
+If you wish to restrict the server from accepting certain login methods, you should update this setting.
 
 ## `trustedProxies`
 
-Config the clients that are allowed to authentic with HTTP headers. This defaults to known internal IP ranges: `[10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16, fc00::/7, ::1/128]`  (environment variable: `ACTUAL_TRUSTED_PROXIES`, comma separated string).
+Updates the servers request forwarding trust to remove known proxy IPs from the client IP list. This helps identify the client IP for things like rate limiting. This defaults to known internal IP ranges: `[10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16, fc00::/7, ::1/128]`  (environment variable: `ACTUAL_TRUSTED_PROXIES`, comma separated string).
+
+## `trustedAuthProxies`
+
+Configure the clients that are allowed to authenticate with HTTP headers. This defaults to what is set in `trustedProxies`, but can be overridden independently. (environment variable: `ACTUAL_TRUSTED_AUTH_PROXIES`, comma separated string).
