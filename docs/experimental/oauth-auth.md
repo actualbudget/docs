@@ -118,7 +118,7 @@ When setup is done, you will be redirected to the _login_ page:
 ### Environment Variables
 
 #### `ACTUAL_OPENID_DISCOVERY_URL`
-- Purpose:** If your OpenID provider supports discovery, this is the URL where discovery metadata can be found.  
+- **Purpose:** If your OpenID provider supports discovery, this is the URL where discovery metadata can be found.  
 **Example Value:** `https://provider.tld/.well-known/openid-configuration`
 
 #### `ACTUAL_OPENID_CLIENT_ID`
