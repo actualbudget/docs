@@ -10,9 +10,17 @@ The release has the following notable improvements:
 - Support for some additional languages
 - Lots of bugfixes and maintenance work
 
-**Important notes**
-- Starting this release, the `actual-server` repository will no longer be updated. If you use a local install, please review [these docs](https://actualbudget.org/docs/actual-server-repo-move) for how to migrate.
-- Starting next release, we plan on deprecating the `@actual-app/web` NPM package. This should not impact any standard deployment methods, but if you have a use-case for this package, please [create an issue](https://github.com/actualbudget/actual/issues/new/choose) so we know about it!
+:::warning
+
+Starting this release, the `actual-server` repository will no longer be updated. If you use a local install, please review [these docs](https://actualbudget.org/docs/actual-server-repo-move) for how to migrate.
+
+:::
+
+:::info
+
+Starting next release, we plan on deprecating the `@actual-app/web` NPM package. This should not impact any standard deployment methods, but if you have a use-case for this package, please [create an issue](https://github.com/actualbudget/actual/issues/new/choose) so we know about it!
+
+:::
 
 <!--truncate-->
 
