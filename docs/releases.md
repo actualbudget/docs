@@ -53,8 +53,8 @@ The release has the following notable improvements:
 - [#4360](https://github.com/actualbudget/actual/pull/4360) Fix "category is (nothing)" filter crashing the spending analysis report widget. — thanks @MatissJanis
 - [#4375](https://github.com/actualbudget/actual/pull/4375) Prevent the app getting stuck on the "Initializing the connection to the local database..." screen — thanks @MikesGlitch
 - [#4382](https://github.com/actualbudget/actual/pull/4382) Ignore CSV inOutMode during OFX imports — thanks @langelgjm
-- [#4383](https://github.com/actualbudget/actual/pull/4383) Ensure decimal separator is recognized independantly of the configured number format. — thanks @AntoineTA
-- [#4384](https://github.com/actualbudget/actual/pull/4384) Provides a default fallback payeename value ('undefined') for the CBC bank in case the payeename is missing. — thanks @MMichotte
+- [#4383](https://github.com/actualbudget/actual/pull/4383) Ensure decimal separator is recognized independently of the configured number format. — thanks @AntoineTA
+- [#4384](https://github.com/actualbudget/actual/pull/4384) Provides a default fallback `payeeName` value ('undefined') for the CBC bank in case the `payeeName` is missing. — thanks @MMichotte
 - [#4397](https://github.com/actualbudget/actual/pull/4397) Fix for User directory page that was calling the api every frame — thanks @lelemm
 - [#4413](https://github.com/actualbudget/actual/pull/4413) Fix crash during bank sync when the payee is not found — thanks @matt-fidd
 - [#4417](https://github.com/actualbudget/actual/pull/4417) Fix `On budget` / `Off budget` underline with translated languages — thanks @lelemm
@@ -89,7 +89,7 @@ The release has the following notable improvements:
 - [#4273](https://github.com/actualbudget/actual/pull/4273) Fix react-hooks/exhaustive-deps error on Titlebar.tsx — thanks @joel-jeremy
 - [#4274](https://github.com/actualbudget/actual/pull/4274) Fix react-hooks/exhaustive-deps error on table.tsx — thanks @joel-jeremy
 - [#4306](https://github.com/actualbudget/actual/pull/4306) Add an action to automatically generate release PRs — thanks @jfdoming
-- [#4334](https://github.com/actualbudget/actual/pull/4334) Moving the sync-server from the actual-server repository into the actual repostiory — thanks @MikesGlitch
+- [#4334](https://github.com/actualbudget/actual/pull/4334) Moving the sync-server from the actual-server repository into the actual repository — thanks @MikesGlitch
 - [#4343](https://github.com/actualbudget/actual/pull/4343) Rename migrations to realign with the convention — thanks @matt-fidd
 - [#4346](https://github.com/actualbudget/actual/pull/4346) Move more reusable components to `@actual-app/components`. — thanks @MatissJanis
 - [#4347](https://github.com/actualbudget/actual/pull/4347) Disallow importing `@actual-app/web` in `loot-core` - circular dependencies. — thanks @MatissJanis
