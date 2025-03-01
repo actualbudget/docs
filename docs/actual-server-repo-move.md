@@ -41,7 +41,8 @@ The reasons for this change are as follows:
   ```
   packages/sync-server
   ```
-  5. Run the server with:
+  5. Copy over your data (`user-files`, `server-files`, and `.migrate`) into the same `packages/sync-server` directory.
+  6. Run the server with:
   ```
   yarn start:server
   ```
