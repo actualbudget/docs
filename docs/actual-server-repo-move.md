@@ -25,7 +25,7 @@ The reasons for this change are as follows:
 - **Q.** _I use the [Local Installation](https://actualbudget.org/docs/install/local). How do I keep up to date?_
 
   **A.** Follow these instructions:
-  1. Clone the [Actual repository](https://github.comactualbudget/actual). You can use the following command:
+  1. Clone the [Actual repository](https://github.com/actualbudget/actual). You can use the following command:
   ```
   git clone https://github.com/actualbudget/actual.git
   ```
