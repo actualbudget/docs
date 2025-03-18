@@ -18,7 +18,7 @@ Actual server is used for syncing changes across devices. It comes with the late
 
 ## Installing Actual
 
-1. After the prerequisites are fulfilled, clone the [Actual](https://github.com/actualbudget/actual) project in your project root directory where you want to install Actual.
+1. After the prerequisites are fulfilled, open bash and clone the [Actual](https://github.com/actualbudget/actual) project in your project root directory where you want to install Actual.
   ```bash
   git clone https://github.com/actualbudget/actual.git
   ```
@@ -94,7 +94,7 @@ When accessing Actual for the first time, you may be prompted to provide a URL f
 ## Updating Actual
 
 1. Stop the server if it’s running. You can use the keyboard shortcut <kbd>CTRL-C</kbd> (even on macOS) to stop the server or close the terminal window it’s running from.
-2. Run `git pull` from the directory you cloned the project into. This will download the latest code.
+2. In Bash, run `git pull` from the directory you cloned the project into. This will download the latest code.
 3. Run `yarn install` from that directory. This will download any updated dependencies.
 4. Run `yarn build:server` to build the server from the latest code.
 4. Restart the server by running `yarn start:server`.
