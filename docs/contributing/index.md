@@ -84,7 +84,7 @@ When you open a PR please remember to do the following:
 
 ### Writing Good Release Notes
 
-Before creating your pull request, run the command `yarn generate:release-notes`. This will guide you through the steps necessary for creating a release note for your change. You will be asked the folllwing questions:
+Before creating your pull request, run the command `yarn generate:release-notes`. This will guide you through the steps necessary for creating a release note for your change. You will be asked the following questions:
 1. Existing PR Number (if applicable) - if you have not created your PR yet, leave this blank. Otherwise, specify the number of your PR.
 2. Release Note Type - this will give you a select field with 4 options from the "Valid categories" section below
 3. Brief Summary - this is a short summary of your changes.
