@@ -2,9 +2,9 @@
 
 :::warning
 
-Building from source is a highly technical method of installing Actual. We typically recommend it for power users/contributors of Actual.
+Installing Actual by building it from source is an advanced, highly technical process. We recommend this approach primarily for power users and contributors.
 
-For non-technical users we recommend using either:
+For non-technical users, we suggest opting for one of these simpler alternatives:
 - [Pikapods](/docs/install/pikapods)
 - [Desktop Client](/download)
 - [Docker](/docs/install/docker)
