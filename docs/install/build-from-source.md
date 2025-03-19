@@ -1,6 +1,15 @@
-# Local Installation
+# Build from source
 
-The easiest way to get Actual running locally is to use [actual-server](https://github.com/actualbudget/actual/tree/master/packages/sync-server).
+:::warning
+
+Building from source is a highly technical method of installing Actual. We typically recommend it for power users/contributors of Actual.
+
+For non-technical users we recommend using either:
+- [Pikapods](/docs/install/pikapods)
+- [Desktop Client](/download)
+- [Docker](/docs/install/docker)
+
+:::
 
 Actual server is used for syncing changes across devices. It comes with the latest version of the [Actual web client](https://github.com/actualbudget/actual).
 
