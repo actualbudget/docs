@@ -2,7 +2,7 @@
 title: Configuring the Server
 ---
 
-When it starts up, Actual looks for an optional `config.json` file in the same directory as the sync-server's `package.json`. If you are running a [building from source](https://actualbudget.com/docs/install/build-from-source) this will be in ```packages/sync-server/```. If present, any keys you define there will override the default values. All values can also be specified as environment variables, which will override the values in the `config.json` file.
+When it starts up, Actual looks for an optional `config.json` file in the same directory as the sync-server's `package.json`. If you are [building from source](https://actualbudget.com/docs/install/build-from-source) this will be in ```packages/sync-server/```. If present, any keys you define there will override the default values. All values can also be specified as environment variables, which will override the values in the `config.json` file.
 
 :::info
 
