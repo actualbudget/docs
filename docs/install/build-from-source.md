@@ -2,7 +2,7 @@
 
 :::warning
 
-Installing Actual by building it from source is an advanced, highly technical process. We recommend this approach primarily for power users and contributors.
+Installing Actual by building it from source is a highly technical process. We recommend this approach primarily for power users and contributors.
 
 For non-technical users, we suggest opting for one of the simpler alternatives:
 - [Pikapods](/docs/install/pikapods)
