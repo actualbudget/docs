@@ -1,6 +1,6 @@
 # Build from source
 
-:::warning
+:::info
 
 Installing Actual by building it from source is a highly technical process. We recommend this approach primarily for power users and contributors.
 
