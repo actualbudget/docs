@@ -65,7 +65,7 @@ const sidebars = {
               type: 'category',
               label: 'On Your Own Machine',
               collapsible: false,
-              items: ['install/local', 'install/docker'],
+              items: ['install/build-from-source', 'install/docker'],
             },
 
             {
