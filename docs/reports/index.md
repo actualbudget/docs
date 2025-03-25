@@ -1,16 +1,18 @@
 # Reports
 
-Currently, Actual comes with two built in reports: **net worth** and **cash flow**.
+Currently, Actual comes with a few built in reports:
+ - net worth graph
+ - cash flow graph
 
 ![](/static/img/reports/reports-dashboard.png)
 
-## Net Worth
+## Net Worth Graph
 
 ![](/static/img/reports/net-worth.png)
 
 Net worth shows the balance of all accounts over time. Your net worth is all of your cash and assets minus and debts you owe. Net worth shows the balance of all accounts over time, including all of your investments. Your “net worth” is considered to be the amount you’d have if you sold all your assets and paid off as much debt as possible.
 
-## Cash Flow
+## Cash Flow Graph
 
 ![](/static/img/reports/cash-flow.png)
 
