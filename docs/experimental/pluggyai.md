@@ -72,7 +72,7 @@ Server Version 25.4.0 or higher are required to use this feature.
     ![](/static/img/connecting-your-bank/pluggy-setup-add-account.png)
 
 3. A list of accounts from your Pluggy connection will appear.
-4. Click **Link account** next to the one you want to sync.
+4. Click **Set up bank-sync** next to the one you want to sync.
 
     ![](/static/img/connecting-your-bank/pluggy-setup-modal-link-account.png)
 
