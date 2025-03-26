@@ -78,17 +78,6 @@ Server Version 25.4.0 or higher are required to use this feature.
 
 ---
 
-### Retrieve Transactions
-
-Actual does **not** sync bank data automatically. To fetch new transactions manually:
-
-- To sync all accounts: click **All Accounts** in the sidebar, then click **Sync**.
-- To sync a single account: open the account and click the sync button.
-
-  ![](/static/img/connecting-your-bank/syncing-with-your-bank.png)
-
----
-
 ### Pluggy Notes & Limitations
 
 1. Item IDs are associated with user-authorized connections and will expire if access is revoked or the token expires.
