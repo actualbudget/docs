@@ -28,7 +28,7 @@ The reasons for this change are as follows:
   
   For Windows users, you'll need [Git Bash](https://git-scm.com/download).
 
-  1. Open Bash and Clone the [Actual repository](https://github.com/actualbudget/actual). You can use the following command:
+  1. Open Bash, then Clone the [Actual repository](https://github.com/actualbudget/actual). You can use the following command:
   ```
   git clone https://github.com/actualbudget/actual.git
   ```
