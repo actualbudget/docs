@@ -26,7 +26,7 @@ The reasons for this change are as follows:
 
   **A.** Follow these instructions:
   
-  For Windows users, you'll need [Git Bash](https://git-scm.com/download).
+  If you are on Windows, you'll need to install [Git Bash](https://git-scm.com/download).
 
   1. Open Bash, then Clone the [Actual repository](https://github.com/actualbudget/actual). You can use the following command:
   ```
