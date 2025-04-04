@@ -89,6 +89,8 @@ The release has the following notable improvements:
 - [#4697](https://github.com/actualbudget/actual/pull/4697) 🐛 Fix `Make Transfer` closing the Popover when clicked — thanks @lelemm
 - [#4712](https://github.com/actualbudget/actual/pull/4712) Fix pluggy.ai foreigner currency transaction — thanks @lelemm
 - [#4716](https://github.com/actualbudget/actual/pull/4716) Fix menu not closing when menu item is clicked — thanks @MatissJanis
+- [#4729](https://github.com/actualbudget/actual/pull/4729) Fix alignment of balance menu options — thanks @matt-fidd
+
 
 #### Maintenance
 
