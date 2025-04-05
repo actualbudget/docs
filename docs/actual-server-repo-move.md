@@ -22,10 +22,13 @@ The reasons for this change are as follows:
   **A.** All of the docker files are still available. To build the sync server locally you can use the ``` sync-server.Dockerfile``` located in the root of the repository.  The ``` docker-compose.yml ``` is located in the ```/packages/sync-server``` directory.
 
 
-- **Q.** _I use the [Local Installation](https://actualbudget.org/docs/install/local). How do I keep up to date?_
+- **Q.** _I [Build from source](https://actualbudget.org/docs/install/build-from-source). How do I keep up to date?_
 
   **A.** Follow these instructions:
-  1. Clone the [Actual repository](https://github.com/actualbudget/actual). You can use the following command:
+  
+  If you are on Windows, you'll need to install [Git Bash](https://git-scm.com/download).
+
+  1. Open Bash, then Clone the [Actual repository](https://github.com/actualbudget/actual). You can use the following command:
   ```
   git clone https://github.com/actualbudget/actual.git
   ```
@@ -35,14 +38,18 @@ The reasons for this change are as follows:
   ```
   3. Install the required dependencies for the server:
   ```
-  yarn workspaces focus @actual-app/sync-server --production
+  yarn install
   ```
-  4. If you have a [config.json](https://actualbudget.com/docs/config/) file you will need to copy it into the following directory:
+  4. Build the server:
+  ```
+  yarn build:server
+  ```
+  5. If you have a [config.json](https://actualbudget.com/docs/config/) file you will need to copy it into the following directory:
   ```
   packages/sync-server
   ```
-  5. Copy over the data from your `actual-server` directory (`user-files`, `server-files`, and `.migrate`) into the `packages/sync-server` directory.
-  6. Run the server with:
+  6. Copy over the data from your `actual-server` directory (`user-files`, `server-files`, and `.migrate`) into the `packages/sync-server` directory.
+  7. Run the server with:
   ```
   yarn start:server
   ```
