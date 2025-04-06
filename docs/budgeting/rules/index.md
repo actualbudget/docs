@@ -103,9 +103,15 @@ To delete a rule (or rules), select the ones you want to delete. Then go down to
 
 To view the list of rules that apply to a specific payee, go to More > Payees… to view the list of payees. This table shows you which payees have rules associated with them, and you can click "# associated rules" to view the rules just for that payee.
 
-### Disabling Automatic Rule Creation
+### Disabling Payee(s) Automatic Rule Creation
 
-To disable automatic rule creation, disable category learning by going to More > Payees > "Category learning settings"… at the bottom of the screen. Disabling category learning will not delete any existing rules but will prevent new rules from being created automatically on a global level.
+To disable automatic rule creation for a payee, go to More > Payees… right-click on the payee you would like to disable automatic rule creation for and select "Disable learning". You will see a <svg style="color: red; width: 10px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M7 13.33a7 7 0 1 1 6 0V16H7v-2.67zM7 17h6v1.5c0 .83-.67 1.5-1.5 1.5h-3A1.5 1.5 0 0 1 7 18.5V17zm2-5.1V14h2v-2.1a5 5 0 1 0-2 0z" fill="currentColor"></path></svg> icon indicating learning is disabled for the payee.
+
+To disable automatic rule creation for multiple payees, go to More > Payees… and select the payees by placing a checkmark on the left of each payee. At the top of the screen click the "N payee" button indicating the total payees selected and click "<svg width="9" height="9" style="color: inherit; margin-right: 7px; width: 9px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M7 13.33a7 7 0 1 1 6 0V16H7v-2.67zM7 17h6v1.5c0 .83-.67 1.5-1.5 1.5h-3A1.5 1.5 0 0 1 7 18.5V17zm2-5.1V14h2v-2.1a5 5 0 1 0-2 0z" fill="currentColor"></path></svg>Category learning".
+
+### Disabling All Automatic Rule Creation
+
+To disable automatic rule creation for all payees, disable category learning by going to More > Payees > "Category learning settings"… at the bottom of the screen. Disabling category learning will not delete any existing rules but will prevent new rules from being created automatically on a global level.
 
 ## Using the Rule Editor for Sophisticated Batch Editing
 
