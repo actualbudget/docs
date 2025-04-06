@@ -105,7 +105,7 @@ To view the list of rules that apply to a specific payee, go to More > Payees…
 
 ### Disabling Payee(s) Automatic Rule Creation
 
-To disable automatic rule creation for a payee, go to More > Payees… right-click on the payee you would like to disable automatic rule creation for and select "Disable learning". You will see a red icon indicating learning is disabled for the payee.
+To disable automatic rule creation for a payee, go to More > Payees… right-click on the payee you would like to disable automatic rule creation for and click "Disable learning". You will see a red icon indicating learning is disabled for the payee.
 
 To disable automatic rule creation for multiple payees, go to More > Payees… and select the payees by placing a checkmark on the left of each payee. At the top of the screen click the "N payee" button indicating the total payees selected and click "Category learning".
 
