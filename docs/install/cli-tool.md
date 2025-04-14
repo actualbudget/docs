@@ -47,3 +47,11 @@ Runs with custom configuration:
 ```bash
 actual-server --config ./config.json
 ```
+
+### Updating the CLI tool
+
+The sync server can be updated with a simple command.
+
+```bash
+npm update -g @actual-app/sync-server
+```
