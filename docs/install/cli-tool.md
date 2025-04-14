@@ -4,7 +4,7 @@ title: 'CLI tool'
 
 ## Hosting Actual with the CLI tool
 
-The Actual sync-server is available as an NPM package, designed for easy deployment in your custom environment. The package is published to the official NPM registry under [@actual-app/sync-server](https://www.npmjs.com/package/@actual-app/sync-server).
+The Actual sync-server is available as an NPM package. The package is designed for easy deployment and is published to the official NPM registry under [@actual-app/sync-server](https://www.npmjs.com/package/@actual-app/sync-server).
 
 ### Installing the CLI tool
 
@@ -42,7 +42,7 @@ Run with default configuration:
 actual-server
 ```
 
-Runs with custom configuration:
+Run with [custom configuration](../config/index.md):
 
 ```bash
 actual-server --config ./config.json
