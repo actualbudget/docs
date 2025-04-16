@@ -4,7 +4,7 @@ title: 'CLI tool'
 
 ## Hosting Actual with the CLI tool
 
-The Actual sync-server is available as an NPM package. The package is designed for easy deployment and is published to the official NPM registry under [@actual-app/sync-server](https://www.npmjs.com/package/@actual-app/sync-server).
+The Actual sync-server is available as an NPM package. The package is designed for easy deployment and is published to the official NPM registry under [@@actual-app/sync-server](https://www.npmjs.com/package/@actual-app/sync-server).
 
 ### Installing the CLI tool
 
@@ -38,7 +38,7 @@ actual-server [options]
 
 **Default values**
 
-If no `--config` option is set, Actual will search for a `config.json` file in the current directory. If it file exists it will be used. If it doesn't exist, Actual will set a [Default Configuration](../config/index.md).
+If no `--config` option is set, Actual will search for a `config.json` file in the current directory. If it exists it will be used. If it doesn't exist, Actual will set a [Default Configuration](../config/index.md).
 
 
 ### Examples
@@ -49,13 +49,13 @@ Run with [Default Configuration](../config/index.md):
 actual-server
 ```
 
-Run with [Custom Configuration](../config/index.md):
+Run with [JSON Configuration](../config/index.md):
 
 ```bash
 actual-server --config ./custom-config.json
 ```
 
-Run with [Environment variables](../config/index.md):
+Run with [Environment Variable Configuration](../config/index.md):
 
 ```bash
 ACTUAL_DATA_DIR=./custom-directory actual-server --config ./config.json

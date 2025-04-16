@@ -21,8 +21,8 @@ See also sections on `userFiles` and `serverFiles`.
 
 ## `ACTUAL_CONFIG_PATH`
 
-This is the path to the config file. If not specified, the server will look for a `config.json` file either in the
-`/data` folder if it is present or in the same directory as the sync-server's `package.json` if `/data` is absent.
+This is the path to the config file. If not specified, the server will look for a `config.json` file in the
+`/data` folder if it is present or in the sync-server's root directory if `/data` is absent.
 
 See the `ACTUAL_DATA_DIR` section above to override the data folder location.
 
