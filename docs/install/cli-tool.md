@@ -20,6 +20,8 @@ Once installed, you can execute commands directly from your terminal using `actu
 
 ### Usage
 
+> Before running the tool, navigate to the directory that you wish your files to be located.
+
 Run the CLI tool with the following syntax:
 
 ```bash
@@ -36,21 +38,27 @@ actual-server [options]
 
 **Default values**
 
-If no `--config` option is set, Actual will search for a config.json file in the current directory. If it exists it will be used. If it doesn't exist, Actual will set [default values](../config/index.md).
+If no `--config` option is set, Actual will search for a `config.json` file in the current directory. If it file exists it will be used. If it doesn't exist, Actual will set a [Default Configuration](../config/index.md).
 
 
 ### Examples
 
-Run with [default configuration](../config/index.md):
+Run with [Default Configuration](../config/index.md):
 
 ```bash
 actual-server
 ```
 
-Run with [custom configuration](../config/index.md):
+Run with [Custom Configuration](../config/index.md):
 
 ```bash
-actual-server --config ./config.json
+actual-server --config ./custom-config.json
+```
+
+Run with [Environment variables](../config/index.md):
+
+```bash
+ACTUAL_DATA_DIR=./custom-directory actual-server --config ./config.json
 ```
 
 ### Updating the CLI tool
