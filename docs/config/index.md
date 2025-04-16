@@ -12,7 +12,7 @@ Running into issues with your configuration not being interpreted correctly? Che
 
 ## `ACTUAL_DATA_DIR`
 
-This is where the server stores the budget data files (and configurations unless `ACTUAL_CONFIG_PATH`is set).
+This is where the server stores the budget data files (and configurations unless `ACTUAL_CONFIG_PATH` is set).
 
 By default, the server will use the `/data` if it exists, or the current directory (`/`) if not.
 
