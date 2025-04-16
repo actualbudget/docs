@@ -34,9 +34,14 @@ actual-server [options]
 | `-v` or `--version` | Print this version and exit. |
 | `--config`          | Path to the config file.     |
 
+**Default values**
+
+If no `--config` option is set, Actual will search for a config.json file in the current directory. If it exists it will be used. If it doesn't exist, Actual will set [default values](../config/index.md).
+
+
 ### Examples
 
-Run with default configuration:
+Run with [default configuration](../config/index.md):
 
 ```bash
 actual-server

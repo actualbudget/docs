@@ -44,7 +44,7 @@ After the release notes workflows in the actual PR has been run, copy the collat
 
 ## GitHub Tags and Releases
 
-Once the release has been merged, it need to be tagged. When the tag is pushed to `actual` it will trigger the Docker stable image and all NPM packages to be built and published.
+Once the release has been merged, it needs to be tagged. When the tag is pushed to `actual` it will trigger the Docker stable image and all NPM packages to be built and published.
 
 Run the below in each repository, or use the GitHub UI.
 ```bash
