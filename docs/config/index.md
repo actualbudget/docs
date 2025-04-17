@@ -14,7 +14,7 @@ Running into issues with your configuration not being interpreted correctly? Che
 
 This is where the server stores the budget data files (and configurations unless `ACTUAL_CONFIG_PATH` is set).
 
-By default, the server will use the `/data` if it exists, or the current directory (`/`) if not.
+By default, the server will use the `/data` directory if it exists, or the current directory (`/`) if not.
 
 See also sections on `userFiles` and `serverFiles`.
 
