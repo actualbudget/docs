@@ -2,7 +2,7 @@
 title: Configuring the Server
 ---
 
-When it starts up, Actual looks for an optional `config.json` file in the same directory as its `package.json`. If present, any keys you define there will override the default values. All values can also be specified as environment variables, which will override the values in the `config.json` file.
+When it starts up, Actual looks for an optional `config.json` file in the same directory as the sync-server's `package.json`. If you are [building from source](https://actualbudget.com/docs/install/build-from-source) this will be in ```packages/sync-server/```. If present, any keys you define there will override the default values. All values can also be specified as environment variables, which will override the values in the `config.json` file.
 
 :::info
 
@@ -22,16 +22,33 @@ See also sections on `userFiles` and `serverFiles`.
 ## `ACTUAL_CONFIG_PATH`
 
 This is the path to the config file. If not specified, the server will look for a `config.json` file either in the
-`/data` folder if it is present or in the same directory as the `package.json` if `/data` is absent.
+`/data` folder if it is present or in the same directory as the sync-server's `package.json` if `/data` is absent.
 
 See the `ACTUAL_DATA_DIR` section above to override the data folder location.
 
 You can’t specify this option in `config.json` since it needs to be used to find the `config.json` in the first place.
 
+## `ACTUAL_UPLOAD_FILE_SYNC_SIZE_LIMIT_MB`
+
+Defines the maximum allowed size for sync files (in MB).
+
+The default value is `20`.
+
+## `ACTUAL_UPLOAD_SYNC_ENCRYPTED_FILE_SYNC_SIZE_LIMIT_MB`
+
+Defines the maximum allowed size for encrypted sync files (in MB).
+
+The default value is `50`.
+
+## `ACTUAL_UPLOAD_FILE_SIZE_LIMIT_MB`
+
+Defines the general maximum file size limit (in MB) for uploads.
+
+The default value is `20`.
 
 ## `https`
 
-If you want to Actual to serve over HTTPS, you can set this key to an object with the following keys:
+If you want Actual to serve over HTTPS, you can set this key to an object with the following keys:
 
 - `key`: The path to the private key file. (environment variable: `ACTUAL_HTTPS_KEY`)
 - `cert`: The path to the certificate file. (environment variable: `ACTUAL_HTTPS_CERT`)
@@ -89,4 +106,4 @@ Updates the servers request forwarding trust to remove known proxy IPs from the 
 
 ## `trustedAuthProxies`
 
-Configure the clients that are allowed to authentic with HTTP headers. This defaults to what is set in `trustedProxies`, but can be overridden independently. (environment variable: `ACTUAL_TRUSTED_AUTH_PROXIES`, comma separated string).
+Configure the clients that are allowed to authenticate with HTTP headers. This defaults to what is set in `trustedProxies`, but can be overridden independently. (environment variable: `ACTUAL_TRUSTED_AUTH_PROXIES`, comma separated string).

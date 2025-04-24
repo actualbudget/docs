@@ -9,6 +9,9 @@ Schedules can be used to enter anticipated transactions early. Some of the avail
 3. Options for recurring entries for multiple specific days of the month.
     1. A single schedule can be created for a Cell phone plan that has multiple users and different payment cycles for each phone. If you have 3 cell phones that all get paid on different days of the month, each day can be defined in a single schedule for each phone.
 4. Options to determine frequency of payments, such as every month, every 2 months, every 2 years, etc.
+     a. "Last" day of month can be selected by selecting "Add specific days", and selecting "Last" from the day drop-down list.
+     b. Otherwise, if you select the 30th of every month, February will be skipped every year.
+     c. If you select 31st, approximately every other month will be skipped. 
 
 Once a schedule is started, Actual will search the transaction history for entries that match the schedule.  You can then select the matches, and will have the option to link those transactions to the current schedule. You can click on the **Find missing transactions** button to have Actual look for matches.
 
@@ -36,7 +39,7 @@ You can resolve this issue in one of two ways.
 
 ## How to use rules with Schedules
 
-Many times it's desired to add notes to the scheduled transactions or to assign categories automatically. This is done with the [Rules][rules] tool.
+Many times it's desired to add notes to the scheduled transactions or to assign categories automatically. This is done with the [Rules](/docs/budgeting/rules) tool.
 
 Create a schedule.
 
@@ -65,7 +68,7 @@ To create a Schedule from an existing transaction:
 1. Navigate to the Accounts page
 2. Select the tick box in the left hand column for the transaction you wish to copy.
 3. Once selected, go to the drop-down menu on the top right of the page
-4. Click Link Selection
+4. Click Link Schedule
 5. In the Pop up that appears click "Create New"
 6. All fields will populate from the transaction,
 7. Adjust any additional fields and click Add.

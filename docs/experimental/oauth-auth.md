@@ -16,7 +16,7 @@ This feature requires use of [Actual Server](../config/)
 
 If you require a more robust authentication method than a server password, it is recommended to use an OpenID provider. Most OpenID providers support multi-factor authentication, enhancing your application's security. Additionally, if you need support for multiple users, you must enable this feature.
 
-To enable this feature, you can use a configuration file `config.json` on the Actual server, or use the UI.
+To enable this feature, you can use a [configuration file](https://actualbudget.com/docs/config/) `config.json` on the Actual server, or use the UI.
 
 ### Configuration Using a Configuration File
 
@@ -24,7 +24,7 @@ If your OpenID provider supports discovery, use the following configuration exam
 
 ```json title="config.json"
 "openId": {
-        "issuer": "URL for the OpenID Provider",
+        "discoveryURL": "URL for the OpenID Provider",
         "client_id": "client_id given by the provider",
         "client_secret": "client_secret given by the provider",
         "server_hostname": "your Actual Server URL (so the provider redirects you to this)",
@@ -94,6 +94,10 @@ When all settings are correctly filled out, click the 'OK' button, and you will 
 There are some basic configuration checks when clicking 'OK', but if you somehow type the wrong information and the data is saved, when you login for the first time using OpenID, you will have a chance to review the settings.
 :::
 
+:::tip
+When configuring your OpenID provider, be sure to register the following **redirect URI** with the provider: `https://<your-domain.tld>/path/openid/callback`
+:::
+
 #### Tested Providers
 - Auth0
 - Authentik
@@ -115,6 +119,55 @@ When setup is done, you will be redirected to the _login_ page:
 
 ![](/static/img/oauth/first-login.png)
 
+### Environment Variables
+
+#### `ACTUAL_OPENID_DISCOVERY_URL`
+- **Purpose:** If your OpenID provider supports discovery, this is the URL where discovery metadata can be found.  
+**Example Value:** `https://provider.tld/.well-known/openid-configuration`
+
+#### `ACTUAL_OPENID_CLIENT_ID`
+- **Purpose:** The client ID issued by your OpenID provider.  
+**Example Value:** `my-actual-app`
+
+#### `ACTUAL_OPENID_CLIENT_SECRET`
+- **Purpose:** The client secret issued by your OpenID provider.  
+**Example Value:** `super-secret-value`
+
+#### `ACTUAL_OPENID_SERVER_HOSTNAME`
+- **Purpose:** The public URL of your Actual Server, which the provider redirects to after authentication.  
+**Example Value:** `https://actual.myserver.com`
+
+#### `ACTUAL_OPENID_AUTHORIZATION_ENDPOINT`
+- **Purpose:** Provider’s authorization endpoint (for providers that don’t support discovery).  
+**Example Value:** `https://provider.com/oauth2/authorize`
+
+#### `ACTUAL_OPENID_TOKEN_ENDPOINT`
+- **Purpose:** Provider’s token endpoint (for providers that don’t support discovery).  
+**Example Value:** `https://provider.com/oauth2/token`
+
+#### `ACTUAL_OPENID_USERINFO_ENDPOINT`
+- **Purpose:** Provider’s user-info endpoint (for providers that don’t support discovery).  
+**Example Value:** `https://provider.com/oauth2/userinfo`
+
+#### `ACTUAL_OPENID_AUTH_METHOD`
+- **Purpose:** Tells the server whether it should use the OpenID (OIDC) or a more general OAuth2 flow.  
+**Possible Values:** 
+  - `openid` (default)  
+  - `oauth2`  
+
+**Tip:** Use `oauth2` for providers like GitHub that don’t fully support OpenID discovery.
+
+#### `ACTUAL_OPENID_ENFORCE`
+- **Purpose:** Forces OpenID/OAuth2 authentication as the only allowed login method when set to `true`.  
+**Example Value:** `true` or `false` (default is `false`)
+
+#### `ACTUAL_TOKEN_EXPIRATION`
+- **Purpose:** Controls how access tokens expire.  
+**Possible Values:**  
+  - `"never"` (tokens never expire - **current default**)  
+  - `"openid-provider"` (tokens follow the expiration time from the OpenID provider)  
+  - A numeric value in seconds (e.g., `3600` for 1 hour)
+
+
 :::tip
 Configuring the OpenID provider from options supports discovery; otherwise, use [file configuration](oauth-auth#config-using-configuration-file)
-:::

@@ -43,6 +43,7 @@ Actual currently has official support for migrating budgets from YNAB4 and nYNAB
 * **MoneyMoney** - https://github.com/NikxDa/actual-moneymoney
 * **Financier.io** - https://github.com/jat255/financier-to-actual
 * **Quicken on Mac** - https://github.com/slimslickner/quicken-mac-to-actual-budget
+* **Priotecs MoneyControl (Primoco)** - https://github.com/SimonMayerhofer/primoco-to-actual-migrator
 
 
 ## Various utilities to enhance Actual's functionality
@@ -61,6 +62,8 @@ Actual currently has official support for migrating budgets from YNAB4 and nYNAB
    - *Tool which will back up Actual Budget and upload it to the configurable destination using the clone utility.*
 * **Actual Budget Prometheus Exporter** - https://github.com/sakowicz/actual-budget-prometheus-exporter
    - *Prometheus metrics exporter and Grafana Dashboard.*
+* **Actual Budget Auto Sync** - https://github.com/seriouslag/actual-auto-sync
+   - *A background service that automatically syncs your Actual Budget accounts on a scheduled basis.*
 
 
 ## Others

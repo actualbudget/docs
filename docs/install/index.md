@@ -47,8 +47,8 @@ While running a server can be a complicated endeavor, we’ve tried to make it f
 - If you’re not comfortable with the command line and are willing to pay a small amount of money to have your version of Actual hosted on the cloud for you, we recommend [PikaPods](pikapods.md).[^2]
 - If you’re willing to run a few commands in the terminal:
   - [Fly.io](fly.md) also offers cloud hosting for a similar amount of money.
-  - You could [directly install Actual locally](local.md) on macOS, Windows, or Linux if you don’t want to use a tool like Docker. (This method is the best option if you want to contribute to Actual's development!)
   - If you want to use Docker, we have instructions for [using our provided Docker containers](docker.md).
+  - You could [build Actual from source](build-from-source.md) on macOS, Windows, or Linux if you don’t want to use a tool like Docker. (This method is the best option if you want to contribute to Actual's development!)
 
 Once you’ve set up your server, you can [configure it](../config/index.md) to change a few of the ways it works.
 
@@ -65,6 +65,7 @@ Content contained on external links is not managed or maintained by the Actual B
 :::
 
 - [Google Cloud always free tier](https://github.com/eatonc/actual-gcp)
+- [Google Cloud Run (serverless)](https://github.com/daniefdz/actual-run)
 - [Synology NAS](https://mariushosting.com/how-to-install-actual-on-your-synology-nas/)
 - [Home Assistant](https://github.com/sztupy/hassio-actualbudget/blob/main/README.md)
 - [UnRAID SSL Setup](https://discord.com/channels/937901803608096828/1158941114603155477) - this guide is found at our Discord
