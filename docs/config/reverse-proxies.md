@@ -162,7 +162,7 @@ Apache HTTP server can serve as a reverse proxy using [VirtualHosts](https://htt
 
 ## Ngrok
 
-[Ngrok](https://ngrok.com/) offer a reverse proxy and a static domain fror [free](https://ngrok.com/docs/pricing-limits/free-plan-limits/). To use it you'll need to create an account with them and follow the instructions on their [dashboard](https://dashboard.ngrok.com/) getting started section. The instructions will guide you through configuring ngrok.
+[Ngrok](https://ngrok.com/) offer a reverse proxy and a static domain for [free](https://ngrok.com/docs/pricing-limits/free-plan-limits/). To use it you'll need to create an account with them and follow the instructions on their [dashboard](https://dashboard.ngrok.com/) getting started section. The instructions will guide you through configuring ngrok.
 
 Creating an ngrok free domain is very simple, just navigate to the Domains section of the site. For more information, check out the [custom domain docs](https://ngrok.com/docs/guides/other-guides/how-to-set-up-a-custom-domain/).
 
@@ -172,7 +172,7 @@ Once that's all done, you can expose Actual to the internet with your custom dom
 ngrok http --url=your-custom-domain.ngrok-free.app 5006
 ```
 
-If running Actual your your PC, you may find it useful to run this command when your computer starts up. There are many ways to do this, the below is not a complete list:
+If running Actual on your PC, you may find it useful to run this command when your computer starts up. There are many ways to do this, the below is not a complete list:
 
 - On Windows you can use the [Task Scheduler](https://www.technipages.com/scheduled-task-windows/)
   - Create a *Basic Task*, give it a name then set the trigger to *At system startup*
@@ -183,16 +183,16 @@ If running Actual your your PC, you may find it useful to run this command when 
   - Create a service file:
 
     ```sudo nano /etc/systemd/system/  expose-actual-server.service```
-    - Add the following content:
+    - Add the following content and replace the relevant info:
     ```
     [Unit]
     Description=Run my Bash script at startup
     After=network.target
 
     [Service]
-    ExecStart=ngrok http --url=your-custom-domain.    ngrok-free.app 5006
+    ExecStart=ngrok http --url=<your-custom-domain>.ngrok-free.app 5006
     Restart=always
-    User=myuser
+    User=<your user>
 
     [Install]
     WantedBy=multi-user.target
