@@ -180,10 +180,8 @@ If running Actual on your PC, you may find it useful to run this command when yo
   - Once complete, you can choose to run this silently in the background by navigating to *properties* and selecting *Run whether user is logged on or not* and ticking the *Hidden* box.
 
 - On Linux you can use [systemd](https://systemd.io/)
-  - Create a service file:
-
-    ```sudo nano /etc/systemd/system/  expose-actual-server.service```
-    - Add the following content and replace the relevant info:
+  - Navigate to the directory: `/etc/systemd/system/` and create a service file `expose-actual-server.service`
+  - Add the following content (and change to suit your needs):
     ```
     [Unit]
     Description=Run my Bash script at startup
@@ -197,6 +195,4 @@ If running Actual on your PC, you may find it useful to run this command when yo
     [Install]
     WantedBy=multi-user.target
     ```
-  - Enable the service:
-
-    ```sudo systemctl enable expose-actual-server.service```
+  - Enable the service with ```sudo systemctl enable expose-actual-server.service```
