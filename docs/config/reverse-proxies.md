@@ -172,7 +172,7 @@ Once that's all done, you can expose Actual to the internet with your custom dom
 ngrok http --url=your-custom-domain.ngrok-free.app 5006
 ```
 
-If running Actual on your PC, you may find it useful to run this command when your computer starts up. There are many ways to do this, the below is not a complete list:
+If running Actual on your PC, you may find it helpful to run this command when your computer starts up. There are many ways to do this. The below is not a complete list:
 
 - On Windows you can use the [Task Scheduler](https://www.technipages.com/scheduled-task-windows/)
   - Create a *Basic Task*, give it a name then set the trigger to *At system startup*
