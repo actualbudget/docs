@@ -179,7 +179,7 @@ If running Actual on your PC, you may find it helpful to run this command when y
   - Under *Action*, select the program as ngrok.exe, and add arguments ```http --url=your-custom-domain.ngrok-free.app 5006```.
   - Once complete, you can choose to run this silently in the background by navigating to *properties*, selecting *Run whether user is logged on or not*, and ticking the *Hidden* box.
 
-- On Linux you can use [systemd](https://systemd.io/)
+- On Linux, you can use [systemd](https://systemd.io/)
   - Navigate to the directory: `/etc/systemd/system/` and create a service file `expose-actual-server.service`
   - Add the following content (and change to suit your needs):
     ```
