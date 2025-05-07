@@ -164,7 +164,7 @@ Apache HTTP server can serve as a reverse proxy using [VirtualHosts](https://htt
 
 [Ngrok](https://ngrok.com/) offers a reverse proxy and a static domain for [free](https://ngrok.com/docs/pricing-limits/free-plan-limits/). To use it you'll need to create an account with them and follow the instructions on their [dashboard](https://dashboard.ngrok.com/) getting started section. The instructions will guide you through configuring ngrok.
 
-Creating an ngrok free domain is very simple, just navigate to the Domains section of the site. For more information, check out the [custom domain docs](https://ngrok.com/docs/guides/other-guides/how-to-set-up-a-custom-domain/).
+Creating a free Ngrok domain is very simple: just navigate to the Domains section of the site. For more information, check out the [custom domain docs](https://ngrok.com/docs/guides/other-guides/how-to-set-up-a-custom-domain/).
 
 Once that's all done, you can expose Actual to the internet with your custom domain and free SSL with a simple command:
 
