@@ -174,7 +174,7 @@ ngrok http --url=your-custom-domain.ngrok-free.app 5006
 
 If running Actual on your PC, you may find it helpful to run this command when your computer starts up. There are many ways to do this. The below is not a complete list:
 
-- On Windows you can use the [Task Scheduler](https://www.technipages.com/scheduled-task-windows/)
+- On Windows, you can use the [Task Scheduler](https://www.technipages.com/scheduled-task-windows/)
   - Create a *Basic Task*, give it a name then set the trigger to *At system startup*
   - Under *Action*, select the program as ngrok.exe, and add arguments ```http --url=your-custom-domain.ngrok-free.app 5006```.
   - Once complete, you can choose to run this silently in the background by navigating to *properties* and selecting *Run whether user is logged on or not* and ticking the *Hidden* box.
