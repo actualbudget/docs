@@ -22,6 +22,7 @@ services:
   caddy:
     image: caddy:alpine
     container_name: caddy
+    restart: unless-stopped
     volumes:
       - ./Caddyfile:/etc/caddy/Caddyfile:ro
       - ./caddy/data:/data
