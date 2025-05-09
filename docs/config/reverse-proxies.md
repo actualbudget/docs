@@ -29,7 +29,7 @@ services:
       - ./caddy/config:/config
     ports:
       - "80:80"
-      - '443:443'
+      - "443:443"
 
   actual-server:
     image: actualbudget/actual-server:latest
