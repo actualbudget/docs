@@ -20,8 +20,8 @@ Below is an example `Caddyfile` that you can use to configure Caddy and Actual S
 ```yaml title="docker-compose.yml"
 services:
   caddy:
-    container_name: caddy
     image: caddy:alpine
+    container_name: caddy
     volumes:
       - ./Caddyfile:/etc/caddy/Caddyfile:ro
       - ./caddy/data:/data
