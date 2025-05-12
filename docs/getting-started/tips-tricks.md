@@ -78,7 +78,7 @@ budget to someone else, like other Actual users in our Discord.
 
 
 :::note
-This only hide data - no data is lost or encrypeted.
+This only hide data - no data is lost or encrypted.
 :::
 
 To unhide the data, click on the eye icon again. This will show the data in
