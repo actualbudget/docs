@@ -57,7 +57,7 @@ The fix for this is to migrate your SQLite database in the steps outlined below 
 1. Open SQLite Browser. Click on the "Open Database" button and navigate to the file you just unzipped. You're looking for a file named `db.sqlite`.
 1. Load the file and click on the `Browse Data` tab. Select the `__migrations__` table from the table dropdown menu.
 1. You should see a list of integers under the' id' column. Cross-reference the entries in this table with the list of [database migrations](https://github.com/actualbudget/actual/tree/master/packages/loot-core/migrations) in the main Actual repository.
-1. FFor every integer that's missing, click on the `.sql` file associated with it and copy the raw data.
+1. For every integer that's missing, click on the `.sql` file associated with it and copy the raw data.
 1. Run the SQL query in the Execute tab of SQLite Browser. Be sure to check the output that the command was successful.
 1. If the SQL query that you copied is successful, you'll want to insert the migration command's id into the `__migrations__` table by executing `insert into __migrations__ values(id_of_missing_migration_command);`.
 1. Once your `__migrations__` table matches the database migrations folder, commit and close the database.
