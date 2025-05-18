@@ -113,7 +113,7 @@ You can automate holding funds from specific income categories for future months
 ![Auto hold funds menu](/img/how-it-works/auto-hold.png)
 
 When the *auto hold* function has been enabled for an income category, this will be indicated by an arrow.
-The current month and the following 12 months of that income category will be set for automatic holding.
+The income category will be set for automatic holding starting from the current month and the following 12 months.
 If wanted, the *auto hold* functionality can be turned off by clicking the income balance and choosing "Disable auto hold".
 
 ![Auto hold indicator](/img/how-it-works/auto-hold-carryover.png)
