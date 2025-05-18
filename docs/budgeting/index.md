@@ -61,7 +61,7 @@ It is possible to hold money multiple months ahead. If you do this, those dollar
 If you enter a new month and have a negative "To Be Budgeted" amount and you're sure it should be positive, try resetting next month's buffer to bring money that may be held back to the current month.
 :::
 :::note
-If you hold funds regularly you can [automatically hold funds from certain income categories](./#automatic-holding-of-funds).
+If you hold funds regularly, you can [automatically hold funds from specific income categories](./#automatic-holding-of-funds).
 :::
 
 ### Overspending
@@ -104,22 +104,22 @@ Sometimes you want to keep a negative balance in a category across months. The m
 2. Select **Rollover overspending**
 3. For all future months, a negative balance will stay in the category
 
-### Automatic holding of funds
+### Automatic Holding of Funds
 
-Sometimes you may be consistently holding funds for future months.
-For example if you are using a "Month Ahead" strategy, and reserving all income from the current month for the next month, it can be a lot of work to keep the held funds up to date and accurate.
-You can automate the process of holding funds from certain income categories for future months by clicking the income total and enabling the auto hold for that category.
+Sometimes, you want to be consistently holding funds for future months.
+For example, if you use the "Month Ahead" strategy and reserve all income from the current month for the next month, keeping the held funds up to date and accurate can be a lot of work.
+You can automate holding funds from specific income categories for future months by clicking the income total and enabling the auto hold for that category.
 
 ![Auto hold funds menu](/img/how-it-works/auto-hold.png)
 
-After auto hold has been enabled for an income category, the category will be marked with an arrow.
+When the *auto hold* function has been enabled for an income category, this will be indicated by an arrow.
 The current month and the following 12 months of that income category will be set for automatic holding.
-If desired the auto hold can be disabled the same way it is enabled, by clicking the income balance and choosing "Disable auto hold".
+If wanted, the *auto hold* functionality can be turned off by clicking the income balance and choosing "Disable auto hold".
 
 ![Auto hold indicator](/img/how-it-works/auto-hold-carryover.png)
 
-If you need to modify the held funds later in the month you can disable the auto hold for the current month by clicking the to budget value and choosing "Disable current auto hold".
-Then you can set the held funds like normal and the auto hold will still be set in the future.
+If you need to modify the *held funds* later in the month, you can disable the auto hold for the current month by clicking the budget value and choosing "Disable current auto hold."
+You may then set the held funds like normal and the *auto hold* will still be set in the future.
 
 ![Auto hold disable current month](/img/how-it-works/auto-hold-disable.png)
 
