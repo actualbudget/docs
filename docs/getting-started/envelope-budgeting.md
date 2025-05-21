@@ -354,7 +354,7 @@ Now you are in deficit in the *Gift* category.
 
 You should not really have a deficit in your budget, so you exercise the **Flexibility** principle by reducing money
 from one of the other categories. You do not want to use your savings - as this is a **Goal**. *Dining out* is
-not essential so you move 5 from *Available Week 2* into *Gifts*, adding to the existing $ 5. 
+not essential so you move 5 from *Available Week 2* into *Gifts*. These additional $ 5 will be added to the existing $ 5. 
 This will make the total available equal to the $ 10 spending. 
 
 ### Updated week 3 availability
