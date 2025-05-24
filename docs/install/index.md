@@ -65,7 +65,10 @@ Content contained on external links is not managed or maintained by the Actual B
 
 :::
 
-- [Arch Linux AUR package](https://aur.archlinux.org/packages/actual-appimage)
+- Arch Linux AUR packages:
+  - [actual-appimage](https://aur.archlinux.org/packages/actual-appimage) (Desktop App)
+  - [actual-bin](https://aur.archlinux.org/packages/actual-bin) (Desktop App)
+  - [actual-server](https://aur.archlinux.org/packages/actual-server) (Server + Web Client)
 - [Google Cloud always free tier](https://github.com/eatonc/actual-gcp)
 - [Google Cloud Run (serverless)](https://github.com/daniefdz/actual-run)
 - [Home Assistant](https://github.com/sztupy/hassio-actualbudget/blob/main/README.md)
