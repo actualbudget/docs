@@ -109,13 +109,13 @@ Templates can be given a priority flag to change the order that the templates ge
     - **Expected budgeted amount is 200** 
     **Expected maximum category balance is 200**
 
-        `#template 300`</BR>
+        `#template 300`<BR/>
         `#template-1 150 up to 200`
        
     - **Expected budgeted amount is 450** 
     **No maximum category balance exists**
 
-        `#template 150 up to 500`</BR>
+        `#template 150 up to 500`<BR/>
         `#template-1 300`
 
 
@@ -492,11 +492,11 @@ If you run templates, you get the following:
 
 | Template Line(s) | Amount budgeted | Balance(indication color) |
 |:---|:---:|---:|
-| `#template 50`</BR>`#goal 500` | 50 | 450(yellow) |
+| `#template 50`<BR/>`#goal 500` | 50 | 450(yellow) |
 
 If you have some extra funds after templates are run and can budget that last 50, you get the following:
 
 | Template Line(s) | Amount budgeted | Balance(indication color) |
 |:---|:---:|---:|
-| `#template 50`</BR>`#goal 500` | 100 | 500(green) |
+| `#template 50`<BR/>`#goal 500` | 100 | 500(green) |
 
