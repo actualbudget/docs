@@ -109,14 +109,14 @@ Templates can be given a priority flag to change the order that the templates ge
     - **Expected budgeted amount is 200** 
     **Expected maximum category balance is 200**
 
-        `#template 300`<BR/>
-        `#template-1 150 up to 200`
+        #template 300
+        #template-1 150 up to 200
        
     - **Expected budgeted amount is 450** 
     **No maximum category balance exists**
 
-        `#template 150 up to 500`<BR/>
-        `#template-1 300`
+        #template 150 up to 500
+        #template-1 300
 
 
 
