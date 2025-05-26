@@ -109,14 +109,14 @@ Templates can be given a priority flag to change the order that the templates ge
     - **Expected budgeted amount is 200** 
     **Expected maximum category balance is 200**
 
-        #template 300
-        #template-1 150 up to 200
+        `#template 300`</BR>
+        `#template-1 150 up to 200`
        
     - **Expected budgeted amount is 450** 
     **No maximum category balance exists**
 
-        #template 150 up to 500
-        #template-1 300
+        `#template 150 up to 500`</BR>
+        `#template-1 300`
 
 
 
@@ -257,8 +257,8 @@ Below is a table of the variations of the By template.
 |#template 500 by 2025-03 repeat every year|Break down large, less-frequent expenses into manageable monthly expenses|Annual insurance premium
 |#template 500 by 2025-03 repeat every 2 years|Break down large, less-frequent expenses into manageable monthly expenses|Domain name renewal|
 |#template 500 by 2024-12 spend from 2024-03|Budget 500 by December. Any spending between March and December is OK.|Christmas presents, overseas holiday, or any other expenses that I will be partially paying for before the target period ends.|
-|#template 500 by 2024-12 spend from 2024-03 repeat every year| |	
-|#template 500 by 2024-12 spend from 2024-03 repeat every 2 years| |	
+|#template 500 by 2024-12 spend from 2024-03 repeat every year| |   
+|#template 500 by 2024-12 spend from 2024-03 repeat every 2 years| |    
 
 ### Week Type
 If you have bills that cycle weekly, or like to base your budget on weeks, this is the template for you!
@@ -492,11 +492,11 @@ If you run templates, you get the following:
 
 | Template Line(s) | Amount budgeted | Balance(indication color) |
 |:---|:---:|---:|
-| `#template 50` `#goal 500` | 50 | 450(yellow) |
+| `#template 50`</BR>`#goal 500` | 50 | 450(yellow) |
 
 If you have some extra funds after templates are run and can budget that last 50, you get the following:
 
 | Template Line(s) | Amount budgeted | Balance(indication color) |
 |:---|:---:|---:|
-| `#template 50` `#goal 500` | 100 | 500(green) |
+| `#template 50`</BR>`#goal 500` | 100 | 500(green) |
 
