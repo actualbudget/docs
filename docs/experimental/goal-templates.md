@@ -232,7 +232,7 @@ In that case use the following variation:
 <!-- prettier-ignore -->
 |Syntax| Budgeted Amount | Note |
 |---|:---:| --- |
-|#template 500 by 2025-03 repeat every year | $ 166.66  | Assuming starting in January 2025 |
+|#template 500 repeat every year | $ 166.66  | Assuming starting in January 2025 |
 |#template 500 by 2025-03 repeat every year | $ 41.66  | All months after March 2025 |
 
 #### By Spend
