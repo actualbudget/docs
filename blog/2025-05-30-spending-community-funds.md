@@ -1,6 +1,6 @@
 ---
 title: Proposal for spending community funds
-description: We're trialing a system to pay core maintainers for essential admin work funded by community donations. This 3-month trial won’t move forward without your input. If the community is against it, we won’t do it.
+description: We're proposing a system to pay core maintainers for essential admin work funded by community donations. This 3-month trial won’t move forward without your input. If the community is against it, we won’t do it.
 date: 2025-05-30T10:00
 slug: spending-community-funds
 tags: [announcement]
@@ -15,7 +15,7 @@ This support gives us an opportunity to make the project more sustainable for ev
 We’re proposing a 3-month trial program to pay our core maintainers for the essential (but often unglamorous) work of:
 
 - Reviewing pull requests
-- Triaging and categorizing GitHub issues
+- Triage and categorize GitHub issues
 - Preparing releases
 
 We think it’s time we recognized that labor financially — but before we move forward, we want your feedback.
