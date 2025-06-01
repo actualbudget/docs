@@ -10,7 +10,7 @@ authors: MatissJanis
 
 Our open source community has reached an exciting point: thanks to the incredible generosity of our donors, we now have a steady flow of funds coming in. First of all — thank you.
 
-This support gives us an opportunity to make the project more sustainable for everyone involved. And we want to start by addressing something too often overlooked in open source: the invisible labor that keeps everything running.
+This support allows us to make the project more sustainable for everyone involved. We want to start by addressing something that is often overlooked in open source: the invisible labour that keeps everything running.
 
 We’re proposing a 3-month trial program to pay our core maintainers for the essential (but often unglamorous) work of:
 
