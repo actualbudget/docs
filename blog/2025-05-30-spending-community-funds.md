@@ -28,7 +28,7 @@ Starting July 1st, we’d like to set aside $1,000 per month from the project’
 
 - Points are assigned based on the size of PRs reviewed (using lines of code as a proxy for effort).
 - Additional points are awarded for labelling and grooming issues, closing duplicates, and managing releases.
-- The system is capped, and if the month is slow, the payout is reduced to $500.
+- The system has a cap, and in months with less activity, the payout is reduced to $500.
 - Payments are handled via OpenCollective and only available to core maintainers.
 
 This is designed to be lightweight, fair, and easy to administer — and it keeps our monthly costs well within our donation income.
