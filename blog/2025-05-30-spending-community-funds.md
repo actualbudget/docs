@@ -24,7 +24,7 @@ We think it’s time we recognized that labor financially — but before we move
 
 ## What We’re Proposing
 
-Starting July 1st, we’d like to set aside $1,000 per month from the project’s funds for a review stipend pool. This pool would be split between **core maintainers** based on the work they do each month, measured via a transparent points system.
+Starting July 1st, we’d like to set aside $1,000 per month from the project’s funds for a review stipend pool. This pool would be divided between **core maintainers** based on the work they do each month, measured via a transparent points system.
 
 - Points are assigned based on the size of PRs reviewed (using lines of code as a proxy for effort).
 - Additional points are awarded for labeling and grooming issues, closing duplicates, and managing releases.
