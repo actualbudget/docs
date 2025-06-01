@@ -37,7 +37,7 @@ This system is designed to be lightweight, fair, and easy to administer — and 
 
 Before we think about feature bounties or bug bounties, we need to acknowledge the day-to-day labor that enables any of those contributions to be merged and released. Paying for features while leaving critical admin work unpaid would be unsustainable — and unfair.
 
-This trial is the foundation for broader funding efforts down the line. But it starts with respecting the work already being done.
+This trial serves as the foundation for broader funding efforts in the future. However, it begins with respecting the work that is already being done.
 
 ## What We Need From You
 
