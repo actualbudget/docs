@@ -27,7 +27,7 @@ We think it’s time we recognized that labor financially — but before we move
 Starting July 1st, we’d like to set aside $1,000 per month from the project’s funds for a review stipend pool. This pool would be divided between **core maintainers** based on the work they do each month, measured via a transparent points system.
 
 - Points are assigned based on the size of PRs reviewed (using lines of code as a proxy for effort).
-- Additional points are awarded for labeling and grooming issues, closing duplicates, and managing releases.
+- Additional points are awarded for labelling and grooming issues, closing duplicates, and managing releases.
 - The system is capped, and if the month is slow, the payout is reduced to $500.
 - Payments are handled via OpenCollective and only available to core maintainers.
 
