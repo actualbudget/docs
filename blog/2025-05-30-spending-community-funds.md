@@ -35,7 +35,7 @@ This system is designed to be lightweight, fair, and easy to administer — and 
 
 ## Why Start With Admin Work?
 
-Before we think about feature bounties or bug bounties, we need to acknowledge the day-to-day labor that enables any of those contributions to be merged and released. Paying for features while leaving critical admin work unpaid would be unsustainable — and unfair.
+Before we consider feature bounties or bug bounties, we need to acknowledge the day-to-day labour that enables these contributions to be merged and released. Paying for features while leaving critical administrative work unpaid would be unsustainable — and unfair.
 
 This trial serves as the foundation for broader funding efforts in the future. However, it begins with respecting the work that is already being done.
 
