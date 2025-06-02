@@ -18,7 +18,7 @@ We’re proposing a 3-month trial program to pay our core maintainers for the es
 - Triage and categorize GitHub issues
 - Preparing releases
 
-We believe it’s time to recognize the financial value of labor — but before we move forward, we want to hear your feedback.
+We believe it’s time to recognize the financial value of labor — but before we move forward, we want to hear your feedback. Join the conversation on [Discord] or leave anonymous feedback in [this form](https://docs.google.com/forms/d/e/1FAIpQLScGRK__pOmMja3y_GMmF7RbMjtnmebWrbXvY0JXstoiJLb7Uw/viewform?usp=dialog).
 
 <!--truncate-->
 
