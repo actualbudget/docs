@@ -10,7 +10,7 @@ authors: MatissJanis
 
 Our open source community has reached an exciting point: thanks to the incredible generosity of our donors, we now have a steady flow of funds coming in. First of all — thank you.
 
-This support allows us to make the project more sustainable for everyone involved. We want to start by addressing something that is often overlooked in open source: the invisible labour that keeps everything running.
+This support allows us to make the project more sustainable for everyone involved. We want to start by addressing something that is often overlooked in open source: the invisible labor that keeps everything running.
 
 We’re proposing a 3-month trial program to pay our core maintainers for the essential (but often unglamorous) work of:
 
@@ -18,7 +18,7 @@ We’re proposing a 3-month trial program to pay our core maintainers for the es
 - Triage and categorize GitHub issues
 - Preparing releases
 
-We believe it’s time to recognize the financial value of labour — but before we move forward, we want to hear your feedback.
+We believe it’s time to recognize the financial value of labor — but before we move forward, we want to hear your feedback.
 
 <!--truncate-->
 
@@ -35,7 +35,7 @@ This system is designed to be lightweight, fair, and easy to administer — and 
 
 ## Why Start With Admin Work?
 
-Before we consider feature bounties or bug bounties, we need to acknowledge the day-to-day labour that enables these contributions to be merged and released. Paying for features while leaving critical administrative work unpaid would be unsustainable — and unfair.
+Before we consider feature bounties or bug bounties, we need to acknowledge the day-to-day labor that enables these contributions to be merged and released. Paying for features while leaving critical administrative work unpaid would be unsustainable — and unfair.
 
 This trial serves as the foundation for broader funding efforts in the future. However, it begins with respecting the work that is already being done.
 
