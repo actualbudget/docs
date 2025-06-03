@@ -39,7 +39,7 @@ Upon starting the server, you’ll be prompted to create a password (if you have
 
 Once these steps are completed, your local server will be running, unlocking full server functionalities including Bank Sync and more.
 
-## Connecting Your Local Server to a Mobile Device
+## Connecting your local server to a mobile device
 
 You can access your local server from your mobile device. However, this requires a bit more setup since you’ll need a way to expose your local server to the internet. To achieve this you must set up a [Reverse Proxy](../config/reverse-proxies.md).
 
