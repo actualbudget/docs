@@ -2,8 +2,6 @@
 title: 'Desktop app'
 ---
 
-# Desktop App: A Seamless All-in-One Experience
-
 The simplest way to get started with Actual is by [downloading the desktop app](/src/pages/download.md). This app bundles Actual's full budgeting capabilities into a streamlined application that’s perfect for users looking for a smooth, hassle-free experience.
 
 ## Who should use the desktop app?
@@ -26,11 +24,14 @@ Setting up the desktop app is straightforward. Follow these steps:
 
 In the server selection area, click **Change** as shown below:
 
-![](/img/change-server.png)
+![](/img/install/change-server.png)
+<br />
 
 The server runs on `localhost` by default. You can modify the port if necessary. Click **Start** to run the server.
 
-![](/img/configure-server.png)
+
+![](/img/install/configure-server.png)
+<br />
 
 Upon starting the server, you’ll be prompted to create a password (if you haven’t already). Sign in to complete the configuration.
 
