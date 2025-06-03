@@ -6,7 +6,7 @@ The simplest way to get started with Actual is by [downloading the desktop app](
 
 ## Who should use the desktop app?
 
-If you prefer not to worry about setting up or configuring a server, the Desktop app is designed for you. By combining both the client and server into one package, it eliminates the technical overhead and lets you dive straight into budgeting with Actual.
+If you prefer not to worry about setting up or configuring a server, the desktop app is designed for you. By combining both the client and server into one package, it eliminates the technical overhead and lets you dive straight into budgeting with Actual.
 
 **Benefits include:**
 
@@ -18,9 +18,9 @@ If you prefer not to worry about setting up or configuring a server, the Desktop
 
 If you’re already running your own server, the Web client remains your best option. Running the desktop app alongside an existing server can lead to version mismatches — the server might expect a different release than that provided by the desktop app, potentially causing unexpected issues.
 
-## Setting Up the Desktop App with a Local Server
+## Setting up the desktop app local server
 
-Setting up the desktop app is straightforward. Follow these steps:
+Setting up the desktop app local server is straightforward. Follow these steps:
 
 In the server selection area, click **Change** as shown below:
 
