@@ -7,7 +7,7 @@ Release date: 2025-06-03
 This release includes the ability to **run the sync server from within the desktop app**. This should make it much simpler to get access to features such as bank sync.
 
 Other notable improvements:
-- Upcoming/missed/due schedules are now shown on the desktop budget table
+- Upcoming/missed/due schedules in a category template are now shown on the desktop budget table
 - Numerous fixes for bugs and visual glitches
 
 <!--truncate-->
