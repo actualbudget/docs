@@ -53,5 +53,5 @@ If you are experiencing bugs relating to split transactions and the “Reset bud
 
 ### Experimental Features
 
-This section is where you can enable features that are still in developemnt and testing.
+This section is where you can enable features that are still in development and testing.
 See the [experimental feature documentation](../experimental) for more information.
