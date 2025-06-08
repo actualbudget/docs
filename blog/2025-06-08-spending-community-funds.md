@@ -18,7 +18,7 @@ We’re proposing a 3-month trial program to pay our core maintainers for the es
 - Triage and categorize GitHub issues
 - Preparing releases
 
-We believe it’s time to recognize the financial value of labor — but before we move forward, we want to hear your feedback. Join the conversation on [Discord] or leave anonymous feedback in [this form](https://docs.google.com/forms/d/e/1FAIpQLScGRK__pOmMja3y_GMmF7RbMjtnmebWrbXvY0JXstoiJLb7Uw/viewform?usp=dialog).
+We believe it’s time to recognize the financial value of labor — but before we move forward, we want to hear your feedback. Join the conversation on [Discord] or leave anonymous feedback in [this form].
 
 <!--truncate-->
 
@@ -47,7 +47,7 @@ We believe this is the right direction — but we won’t go ahead without the c
 - If there’s strong opposition, we won’t implement it.
 - If the community supports it, we’ll begin the trial in July.
 
-Join the conversation on Discord or in our GitHub discussions.
+Join the conversation on [Discord] or leave anonymous feedback in [this form].
 We’re listening — and we’ll publish a summary of the feedback before moving forward.
 
 ## What’s Next?
@@ -59,3 +59,6 @@ We’re listening — and we’ll publish a summary of the feedback before movin
 ---
 
 Thank you again for being part of this journey. This community runs on trust, time, and care. With your feedback, we can keep building something that works — for all of us.
+
+[Discord]: https://discord.com/channels/937901803608096828/940290142579605514/1381286169601511515
+[this form]: https://docs.google.com/forms/d/e/1FAIpQLScGRK__pOmMja3y_GMmF7RbMjtnmebWrbXvY0JXstoiJLb7Uw/viewform?usp=dialog
