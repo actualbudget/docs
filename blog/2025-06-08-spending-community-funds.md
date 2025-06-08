@@ -1,7 +1,7 @@
 ---
 title: Proposal for spending community funds
 description: We're proposing a system to pay core maintainers for essential admin work funded by community donations. This 3-month trial won’t move forward without your input. If the community is against it, we won’t do it.
-date: 2025-05-30T10:00
+date: 2025-06-08T16:00
 slug: spending-community-funds
 tags: [announcement]
 hide_table_of_contents: false
