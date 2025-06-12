@@ -47,10 +47,10 @@ Here are some initial guidelines for how contributions will be treated:
 - @jlongster
 - @Kidglove57
 - @rich-howell
+- @shaankhosla
 - @shall0pass
 - @teprifer
 - @trevdor
-- @shaankhosla
 - @twk3
 - @UnderKoen
 
