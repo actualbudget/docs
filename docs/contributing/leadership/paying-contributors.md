@@ -1,4 +1,4 @@
-### Paying Reviewers for admiistrative work
+### Paying Reviewers for administrative work
 
 As our donation income has become steady, we have implemented a lightweight system to compensate **core contributors** who perform administrative tasks — **reviewing pull requests, triaging, and managing issues**. This work is essential to keep up the momentum and maintain project health.
 
