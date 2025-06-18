@@ -6,9 +6,9 @@ Apple Container is a tool for creating and running Linux containers using lightw
 
 ## Prerequisites
 
-- Apple Container must be installed on your Mac. You can install it from [Apple's container repository](https://github.com/apple/container).
-- macOS with Apple silicon (M1/M2/M3) for optimal performance
-- Basic familiarity with command line operations
+- The first thing you must do is to install Apple Container on your Mac. You can install it from [Apple's container repository](https://github.com/apple/container).
+- macOS with Apple silicon (M1/M2/M3) for optimal performance.
+- Basic familiarity with command-line operations.
 
 ## Setup and Installation
 
@@ -17,7 +17,7 @@ Apple Container is a tool for creating and running Linux containers using lightw
 First, start the Apple Container service:
 
 ```bash
-container system start
+$ container system start
 ```
 
 If this is your first time running Apple Container, it may prompt you to install a Linux kernel. Follow the installation prompts to complete the setup.
@@ -28,28 +28,28 @@ Setting up DNS makes it easier to access your containers with friendly names:
 
 ```bash
 # Create a DNS name (e.g., "local")
-sudo container system dns create local
+$ sudo container system dns create local
 
 # Set it as the default DNS
-container system dns default set local
+$ container system dns default set local
 ```
 
-## Running Actual with Apple Container
+## Running Actual Budget with Apple Container
 
-### Prepare Data Directory
+### Prepare the Data Directory
 
-Create a directory to store your Actual budget data:
+Create a directory to store your Actual budget data files:
 
 ```bash
-mkdir -p ~/Documents/actual
+$ mkdir -p ~/Documents/actual
 ```
 
-### Launch Actual Container
+### Launch the Actual Budget Container
 
 Run the Actual server container using the official Docker image:
 
 ```bash
-container run --name actual \
+$ container run --name actual \
   --mount source=${HOME}/Documents/actual,target=/data \
   --detach \
   --rm \
@@ -57,19 +57,21 @@ container run --name actual \
 ```
 
 **Command breakdown:**
-- `--name actual` - Names the container "actual"
-- `--mount` - Mounts your local directory to persist data
-- `--detach` - Runs the container in the background
-- `--rm` - Automatically removes the container when stopped
+- `--name actual` - Names the container *actual*.
+- `--mount` - Mounts your local directory to persist data.
+- `--detach` - Runs the container in the background. First time you start the Actual Budget container you may want to not use this option to see if Actual is running as expected.
+- `--rm` - Automatically removes the container when stopped.
 
-### Access Actual
+### Accessing Actual Budget
 
 Once the container is running, open your web browser and navigate to:
 
 - `http://actual.local:5006` *(if using DNS setup)*
 - `http://ip-addr:5006` *(if not using DNS, ip addr can be found by entering `container list --all`)*
 
-**Note:** The first time accessing Actual you will see a "Fatal Error" regarding the `SharedArrayBuffer`. Select *Advanced Options* > Check the checkbox > Select *Open Actual*.
+:::caution
+The first time accessing Actual, you will see a "Fatal Error" regarding the `SharedArrayBuffer`. Select *Advanced Options* > Check the checkbox > Select *Open Actual*.
+:::
 
 ## Managing Your Container
 
@@ -78,36 +80,36 @@ Once the container is running, open your web browser and navigate to:
 View running containers:
 
 ```bash
-container list --all
+$ container list --all
 ```
 
-Refer to the `STATE` to view the status of actual.
+Refer to the `STATE` column to view the status of the actual container.
 
-### Stop the Container
+### Stopping the Container
 
-To stop the Actual container:
+To stop the Actual container, run the following command:
 
 ```bash
-container stop actual
+$ container stop actual
 ```
 
-## System Management
+## Apple Container System Management
 
-### Stop the Container Service
+### Stopping the Container Service
 
-When you're done using containers, you can stop the service:
+When you're done using containers, you can stop the service utilizing the following command:
 
 ```bash
-container system stop
+$ container system stop
 ```
 
 ## Troubleshooting
 
 If you encounter issues:
 
-1. **Container won't start**: Ensure the Apple Container service is running with `container system start`
-2. **Port conflicts**: Make sure port 5006 isn't being used by another application
-3. **Data persistence**: Verify the mount path exists and has proper permissions
-4. **Network access**: Check if your firewall is blocking the connection
+1. **Container won't start**: Ensure the Apple Container service is running using the `container system start` command.
+2. **Port conflicts**: Make sure another application isn't using port 5006.
+3. **Data persistence**: Verify that the mount path exists and has proper permissions.
+4. **Network access**: Check if your local firewall is blocking the connection.
 
 For more detailed troubleshooting, consult the [Apple Container documentation](https://github.com/apple/container/).
