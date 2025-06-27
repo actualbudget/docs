@@ -14,20 +14,20 @@ Below is a list of the most useful shortcuts.
 
 ### The Command Palette
 
-The command palette is a powerful tool that allows you to quickly access various features and functions within Actual.
-On Windows, you can open it by pressing the <Key mod="ctrl" k="k" /> combination to open the Command Palette.
-On macOS, you can use the <Key mod="cmd" k="k" /> or the <Key mod="ctrl" k="k" /> key combinations.
+The Command Palette is a powerful tool which allows you to quickly access various features and functions within Actual.
+- On Windows and Linux, you can open it by pressing the <Key mod="ctrl" k="k" /> combination to open the Command Palette.
+- On macOS, you can use the <Key mod="cmd" k="k" /> or the <Key mod="ctrl" k="k" /> key combinations to open the Command Palette.
 
 ![Command Palette](/img/tips-tricks/command-palette.png)
 
-Once open, you can start typing to search for the functions
-in the sidebar, or you can use the arrow keys to navigate through the list of available commands. You can also
-quickly move to any of the available accounts by start to type their name.
+Once open, you can start typing to search for the functions in the sidebar, or you can use the arrow keys to navigate
+through the list of available commands. You can also quickly move to any of the available accounts by typing their name.
 
 
 ### Other Global Shortcuts
 
-- <Key mod="cmd" k="O" /> (the letter O, not zero) this will close the file and list other available files to open.
+-  <Key mod="ctrl" k="O" /> (the letter O, not zero) this will close the file and list other available files to open.
+   On macOS, you can also use the <Key mod="cmd" k="O" /> key combination.
 
 
 ### Within the Budget View
