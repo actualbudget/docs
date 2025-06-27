@@ -9,6 +9,23 @@ If you ever make a mistake, pressing <Key mod="cmd" k="z" /> will undo, and pres
 
 ## Keyboard Shortcuts
 
+Actual has a number of keyboard shortcuts that can help you navigate and manage the application more efficiently.
+Below is a list of the most useful shortcuts.
+
+### The Command Palette
+
+The command palette is a powerful tool that allows you to quickly access various features and functions within Actual.
+You can open it by pressing <Key mod="cmd" k="k" /> on macOS and <Key mod="ctrl" k="k" /> on Windows.
+
+![Command Palette](/img/tips-tricks/command-palette.png)
+
+Once open, you can start typing to search for the functions
+in the sidebar, or you can use the arrow keys to navigate through the list of available commands. You can also
+quickly move to any of the available accounts.
+
+
+### Keyboard Shortcuts in the Desktop ELectron App
+
 Firstly, a few global shortcuts for the Electron App that is still in development. Please be aware that these global shortcuts do not work in the web app:
 
 - <Key mod="cmd" k="1" /> will show the budget
