@@ -85,10 +85,9 @@ The **Amount** field allows you to enter the amount of the transaction.
 
 ![Example of amount field](/img/schedules/schedules-amount.png)
 
-If the amount is approximate, you can enable the **Approximate** checkbox. This is useful for transactions that may vary slightly each time, such as utility bills or subscriptions that change based on usage.
+Next to the amount field, you can select if the amount is the exact number, an approximate value, or a range between two amounts. This is useful if you want to track a range of expected amounts for a transaction, such as a utility bill that may vary slightly each month.
 
-You can also select _is between_ to set a range for the amount. This is useful if you want to track a range of expected amounts for a transaction, such as a utility bill that may vary slightly each month.
-
+If you choose _is approximately_, the amount will be treated as an estimate, and Actual will match transactions that are plus/minus 7.5% of the amount entered. This means that if you enter $100, Actual will match transactions that are between $92.50 and $107.50.
 
 Enable the **Automatically add transaction** checkbox if you want the schedule to automatically enter the transaction into your account register.
 This means that the transaction will be automatically entered into the account register on the specified date each month.
