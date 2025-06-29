@@ -39,7 +39,7 @@ By clicking on the **Change upcoming length** button, you can select how far in 
 ![Change upcoming length](/img/schedules/schedules-upcoming-length-dialog.png)
 
 If you change the upcoming length to _1 week_, only transactions scheduled within the next week will appear as forthcoming.
-The _Monthly movie susbcription_, _the Mortgage_, and the _Water melon subscription_ will now show as upcoming transactions.
+The _Monthly movie subscription_, _the Mortgage_, and the _Water melon subscription_ will now show as upcoming transactions.
 
 ![Change upcoming length](/img/schedules/schedules-upcoming-new-list.png)
 
@@ -48,7 +48,7 @@ This flexibility allows you to customize your view — whether you want to see a
 
 ## Creating a Schedule
 
-Clicking on the **Add new schedule** button in the bottom right will let you add a new schdule.
+Clicking on the **Add new schedule** button in the bottom right will let you add a new schedule.
 
 Some of the available options to tailor schedules to your needs are:
 
