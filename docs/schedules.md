@@ -2,16 +2,24 @@
 
 Schedules are a powerful tool in Actual that allows you to automate the entry of recurring transactions into your budget. Schedules can save you time and help ensure that your budget remains accurate and up-to-date.
 
-
 They can be set to recur on a specific date or frequency and can be customized to fit your particular needs.
 You can create schedules from scratch or existing transactions, and they can be linked to rules to categorize and add notes to scheduled transactions automatically.
 This makes it easier to keep track of your budget and ensures that you don't miss any critical transactions.
 
-
 ![Schedules overview screen](/img/schedules/schedules-overview.png)
 
-## What are Schedules?
+## The Schedules Overview Screen
 
+
+Most of the columns in the Schedules overview screen are self-explanatory.
+
+However, if there is ~ (tilde) in front of the _Amount_ column, it indicates that the amount is an approximate value.
+This is useful for transactions that may vary slightly each time, such as utility bills or subscriptions that change based on usage.
+
+See [Creating a Schedule](#creating-a-schedule) for more information on how to set up approximate amounts.
+
+
+## What are Schedules?
 
 Schedules can be used to enter anticipated transactions early. These transactions can be recurring or one-time.
 Schedules allow you to set up a transaction that will be automatically entered into your account register on a specified date or at a specified frequency. This is particularly useful for bills, subscriptions, and other regular expenses that you want to track without having to enter them manually each time.
@@ -48,7 +56,7 @@ This flexibility allows you to customize your view — whether you want to see a
 
 ## Creating a Schedule
 
-Clicking on the **Add new schedule** button in the bottom right will let you add a new schedule.
+Clicking on the **Add new schedule** button in the bottom right of the Schedules screen will add a new schedule.
 
 Some of the available options to tailor schedules to your needs are:
 
@@ -73,8 +81,16 @@ This is useful for transactions that occur on multiple days of the month, such a
 
 The **Move schedule** checkbox allows you to move the schedule either to before of after a weekend, if the selected date falls on a weekend.
 
-If you want the schedule to automatically enter the transaction into your account register, you can enable the
-**Automatically add transaction** checkbox.
+The **Amount** field allows you to enter the amount of the transaction.
+
+![Example of amount field](/img/schedules/schedules-amount.png)
+
+If the amount is approximate, you can enable the **Approximate** checkbox. This is useful for transactions that may vary slightly each time, such as utility bills or subscriptions that change based on usage.
+
+You can also select _is between_ to set a range for the amount. This is useful if you want to track a range of expected amounts for a transaction, such as a utility bill that may vary slightly each month.
+
+
+Enable the **Automatically add transaction** checkbox if you want the schedule to automatically enter the transaction into your account register.
 This means that the transaction will be automatically entered into the account register on the specified date each month.
 
 It may also be useful to link the schedule to transactions.
