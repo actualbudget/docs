@@ -171,8 +171,6 @@ You can resolve this issue in one of two ways.
 2. Accept that the date doesn't match and leave it as is so the schedule doesn't prompt a second transaction.
 
 
-Schedules do not account for holidays.
-
 ## How To Use Rules With Schedules
 
 Many times it's desired to add notes to the scheduled transactions or to assign categories automatically. This is done with the [Rules](/docs/budgeting/rules) tool. The tool can be reached directly from the Schedules page by clicking on the **Edit as a rule** button in the edit dialog of a schedule.
