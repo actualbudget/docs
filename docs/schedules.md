@@ -1,10 +1,12 @@
 # Schedules
 
-Schedules are a powerful tool in Actual that allows you to automate the entry of recurring transactions into your budget. Schedules can save you time and help ensure that your budget remains accurate and up-to-date.
+Schedules in Actual are a versatile tool designed to help you stay on top of your finances by supporting planning and automation.
 
-They can be set to recur on a specific date or frequency and can be customized to fit your particular needs.
-You can create schedules from scratch or existing transactions, and they can be linked to rules to categorize and add notes to scheduled transactions automatically.
-This makes it easier to keep track of your budget and ensures that you don't miss any critical transactions.
+Schedules are a powerful planning tool that helps you stay ahead of your finances. Many users rely on them to anticipate upcoming expenses, avoid missed payments, and ensure money is available where it's needed. While they also automate recurring transactions to keep your budget accurate and save time, their real strength lies in helping you prepare for what's ahead.
+
+You can set schedules to recur on specific dates or frequencies and tailor them to fit your unique budgeting needs. Whether you're creating them from scratch or existing transactions, schedules can also be linked to rules to categorize and annotate entries automatically.
+
+By combining automation with proactive planning, schedules enable you to maintain control over your budget and avoid unexpected surprises.
 
 ![Schedules overview screen](/img/schedules/schedules-overview.png)
 
@@ -36,9 +38,7 @@ to keep track of your budget.
 
 ## Adjusting the Upcoming Length of Schedules
 
-You can control how far in advance scheduled transactions _appear_ in the Schedule view as _upcoming_. This setting determines the number of days before the scheduled date that a transaction will be displayed as forthcoming in the account ledger, helping you plan and avoid surprises.
-
-Changing the upcoming length only affects how schedules are displayed in your ledger; it does not impact how your budget data is stored or calculated. You can adjust this setting at any time to fit your preferences.
+You can control how far in advance scheduled transactions _appear_ in the Schedule and Account register views as _upcoming_. This setting determines the number of days before the scheduled date that a transaction will be displayed as upcoming in the account ledger, helping you plan and avoid surprises.
 
 For example, in the image at the top of this page, the upcoming length is set to _End of the current month_.
 
@@ -53,6 +53,9 @@ The _Monthly movie subscription_, _the Mortgage_, and the _Water melon subscript
 
 This flexibility allows you to customize your view — whether you want to see all upcoming transactions for the month or just those in the immediate future. Adjusting the upcoming length can help you focus on the most relevant transactions and keep your budget organized.
 
+Changing the upcoming length only affects how schedules are displayed in your ledger; it does not impact how your budget data is stored or calculated. You can adjust this setting at any time to fit your preferences. If we change the upcoming length to _1 month_ the Account register will also reflect this change:
+
+![Accont Register View with future schedules](/img/schedules/schedules-account-register.png)
 
 ## Creating a Schedule
 
@@ -81,6 +84,11 @@ This is useful for transactions that occur on multiple days of the month, such a
 
 The **Move schedule** checkbox allows you to move the schedule either to before of after a weekend, if the selected date falls on a weekend.
 
+
+:::note
+Schedules do not account for holidays.
+:::
+
 The **Amount** field allows you to enter the amount of the transaction.
 
 ![Example of amount field](/img/schedules/schedules-amount.png)
@@ -90,7 +98,7 @@ Next to the amount field, you can select if the amount is the exact number, an a
 If you choose _is approximately_, the amount will be treated as an estimate, and Actual will match transactions that are plus/minus 7.5% of the amount entered. This means that if you enter $100, Actual will match transactions that are between $92.50 and $107.50.
 
 Enable the **Automatically add transaction** checkbox if you want the schedule to automatically enter the transaction into your account register.
-This means that the transaction will be automatically entered into the account register on the specified date each month.
+This means that the transaction will be automatically entered into the account register on all scheduled dates without requiring manual approval.
 
 It may also be useful to link the schedule to transactions.
 
@@ -162,10 +170,8 @@ You can resolve this issue in one of two ways.
 1. Skip the next schedule by selecting the upcoming scheduled transaction and choosing the "Skip Scheduled Date" from the menu options.
 2. Accept that the date doesn't match and leave it as is so the schedule doesn't prompt a second transaction.
 
-## Schedule Options That Are Not Supported
 
-1. Schedules cannot be created that adjust based on the last non-weekend day (Monday through Friday) of a month.
-2. Schedules do not account for holidays.
+Schedules do not account for holidays.
 
 ## How To Use Rules With Schedules
 
