@@ -6,6 +6,10 @@ Release date: 2025-07-02
 This release contains the following improvements:
 - Fix the amount input in the rules and schedules page not allowing decimals
 
+<!--truncate-->
+
+**Docker tag: 25.7.1**
+
 #### Bugfix
 
 - [#5270](https://github.com/actualbudget/actual/pull/5270) Fix adding decimals to desktop amount inputs — thanks @youngcw
