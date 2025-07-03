@@ -13,7 +13,7 @@ Here are a couple of considerations to know about before making the decision to 
 
 ## Supported Providers
 
-* GoCardless (European Banks)
+* GoCardless [BankAccountData](https://gocardless.com/bank-account-data/) (European Banks)
 * SimpleFIN Bridge (North American Banks)
 * Pluggy.ai (Brazilian Banks - [**Experimental feature**](/docs/experimental/pluggyai))
 
