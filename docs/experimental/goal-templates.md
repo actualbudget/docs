@@ -431,22 +431,15 @@ The table below shows how to use the Copy template.
 
 The remainder template is run differently to the other templates. Any remainder templates will be forced to run last in their own pass.
 This way the amount left to budget is whatever remains after all other templates have had a chance to run.
+
 Remainders will respect limits set by an `up to`.
 This limit can be set by ther remainder template, or by any other template that supports limits.
+If all remainder templates are in a category with a limit, there may be funds leftover after they have run.
+To avoid having funds leftover after the remainder templates have run, always have atleast one remainder template that is not limited by an `up to`.
 
 Remainder templates allow an optional weight.
 The weight will affect how funds are distributed among multiple remainder templates.
 The templates with a higher weight will get more than a template with a lower weight.
-
-
-Below are a few considerations when using the remainder template:
-
-- You can use as many remainder templates as you want.
-- Remainder templates don't have a priority as they are always run last.
-- If no weight is provided, the weight will be defaulted to 1.
-- The amount budget by the remainder template is calculated as: `budgeted_amount=available_funds/sum_of_weights * category_weight` unless the budgeted amount is greater than the set limit.
-- Remainder templates don't set a goal with the goal indication on the category balance.
-- Remainder templates don't affect a goal set by previous templates.
 
 #### Examples
 
@@ -479,6 +472,16 @@ All of the examples below use the case of 100 leftover when the remainder pass i
 | Snack Fund      | `#template remainder 3 up to 40` | 40             |
 | Vacation Fund   | `#template remainder`   | 21.66          |
 | Investment Fund | `#template remainder 2` | 38.34          |
+
+Notes on using the remainder template:
+
+- You can use as many remainder templates as you want.
+- Remainder templates don't have a priority as they are always run last.
+- If no weight is provided, the weight will be defaulted to 1.
+- The amount budget by the remainder template is calculated as: `budgeted_amount=available_funds/sum_of_weights * category_weight` unless the budgeted amount is greater than the set limit. If a category hits its limit, the excess funds will be distributed to the other remainder templates based on their weight.
+- Remainder templates don't set a goal with the goal indication on the category balance.
+- Remainder templates don't affect a goal set by previous templates.
+- The remainder template supports all `up to` options given in the [Simple type examples](#simple-type)
 
 ### Goal Directive
 
