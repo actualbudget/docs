@@ -299,7 +299,7 @@ Below is a table of the variations of the Week template.
 |---|---|---|
 |`#template 10 repeat every day starting 2025-01-01` | Budget 10 per day | Budget for lunches |
 |`#template 50 repeat every 30 days starting 2025-01-01` | Budget 50 every 30 days | A bill that is not quite monthly |
-|`#template 10 repeat every day starting 2025-01-01 up to 400` | Budget 10 per day, up to a maximum of 400 | Budget for lunches, but dn't budget too much |
+|`#template 10 repeat every day starting 2025-01-01 up to 400` | Budget 10 per day, up to a maximum of 400 | Budget for lunches, but don't budget too much |
 |`#template 50 repeat every week starting 2025-01-03`|Budget 50 a week| Budget for a weekly date night |
 |`#template 50 repeat every week starting 2025-01-03 up to 300`|Budget 10 a week, up to a maximum of 80| Weekly date night, but don't budget too much |
 |`#template 10 repeat every 2 weeks starting 2025-01-04`|Budget 10 fortnightly| Add to a savings category for every paycheck |
