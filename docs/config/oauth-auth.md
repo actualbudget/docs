@@ -86,7 +86,7 @@ There are some basic configuration checks when clicking 'OK', but if you somehow
 :::
 
 :::tip
-When configuring your OpenID provider, be sure to register the following **redirect URI** with the provider: `https://<your-domain.tld>/path/openid/callback`
+When configuring your OpenID provider, be sure to register the following **redirect URI** with the provider: `https://<your-domain.tld>/<path>/openid/callback`
 :::
 
 #### Tested Providers
