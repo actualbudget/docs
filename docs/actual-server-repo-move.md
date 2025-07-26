@@ -25,7 +25,7 @@ The reasons for this change are as follows:
 - **Q.** _I [Build from source](https://actualbudget.org/docs/install/build-from-source). How do I keep up to date?_
 
   **A.** Below are steps to clone the updated setup and then migrate your existing data:
-  
+
   (If you are on Windows, you'll need to install [Git Bash](https://git-scm.com/download).)
 
   1. Open Bash, then Clone the [Actual repository](https://github.com/actualbudget/actual). You can use the following command:
@@ -48,6 +48,7 @@ The reasons for this change are as follows:
   ```
   packages/sync-server
   ```
+  There might be adjustments to make (e.g., `ACTUAL_DATA_DIR` becomes `dataDir`), please refer to [troubleshooting the server](../troubleshooting/server.md) for some help
   6. Copy over the data from your `actual-server` directory (`user-files`, `server-files`, and `.migrate`) into the `packages/sync-server` directory.
   7. Run the server with:
   ```

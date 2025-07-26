@@ -4,20 +4,21 @@ title: Configuring the Server
 
 When it starts up, Actual looks for an optional `config.json` file in the same directory as the sync-server's `package.json`. If you are [building from source](https://actualbudget.com/docs/install/build-from-source) this will be in ```packages/sync-server/```. If present, any keys you define there will override the default values. All values can also be specified as environment variables, which will override the values in the `config.json` file.
 
+**NOTE**: the environmental variables do not map 1:1 to keys in config.json. In case of doubt, check the source schema at [/packages/sync-server/src/load-config.js](https://github.com/actualbudget/actual/blob/45530638feaacf74c28fddb846ae91170a99d94e/packages/sync-server/src/load-config.js#L43)
+
 :::info
 
 Running into issues with your configuration not being interpreted correctly? Check out our documentation for [troubleshooting the server](../troubleshooting/server.md) for information on how to enable debug logging to track down the issue.
 
 :::
 
-## `ACTUAL_DATA_DIR`
+## `ACTUAL_DATA_DIR` (config.json: `dataDir`)
 
 This is where the server stores the budget data files (and configurations unless `ACTUAL_CONFIG_PATH` is set).
 
 By default, the server will use the `/data` directory if it exists, or the current directory (`/`) if not.
 
 See also sections on `userFiles` and `serverFiles`.
-
 
 ## `ACTUAL_CONFIG_PATH`
 
@@ -74,7 +75,6 @@ The server will put an `account.sqlite` file in this directory, which will conta
 
 See the `ACTUAL_DATA_DIR` section above to override the data folder location.
 
-
 ## `userFiles`
 
 The server will put all the budget files in this directory as binary blobs. If not specified, the server will use either `/data/user-files` (if `/data` exists) or the `user-files` directory in the same directory as the `package.json`. (environment variable: `ACTUAL_USER_FILES`)
@@ -90,9 +90,9 @@ If you’re providing a custom frontend, make sure you provide an `index.html` i
 ## `loginMethod`
 
 Change the default authentication method for Actual  (environment variable: `ACTUAL_LOGIN_METHOD`). The valid values are:
-* `"password"` (default) - This is standard password authentication
-* `"header"` - Use the HTTP header `x-actual-password` to automatically login. This is for advanced use and if not done correctly could have security implications.
-* `"openid"` - OpenId auth (in preview)
+- `"password"` (default) - This is standard password authentication
+- `"header"` - Use the HTTP header `x-actual-password` to automatically login. This is for advanced use and if not done correctly could have security implications.
+- `"openid"` - OpenId auth (in preview)
 
 ## `allowedLoginMethods`
 
