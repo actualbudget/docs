@@ -1,16 +1,14 @@
 # Tags
 
-Transaction can be tagged through its notes in order to flag them and identify them easily in the table.
-
+Transaction can be tagged through its notes in order to flag them and identify them easily in the table.  
 An example would be to tag all transaction for a trip with a tag like `#Vacation2025`
 
 ## Syntax
 
-A tag is a string prefixed by the `#` character, it can be set anywhere withing the *Notes* field of a transaction.
-
-It is possible to have multiple tags for a single transaction.
-
-To use the `#` character in the *Notes* field without tagging, you can escape it by inputting it twice: `##do-not-tag-this`.
+A tag is a string of any characters (except `#`) prefixed by the `#` symbol, it can be set anywhere withing the *Notes* field of a transaction.  
+It is possible to have multiple tags for a single transaction.  
+Tags are case-sensitive, meaning that `#tag` and `#TAG` are different.  
+To use the `#` symbol in the *Notes* field without tagging, you can escape it by inputting it twice: `##do-not-tag-this`.
 
 ![](/static/img/tags/input.png)
 
@@ -36,5 +34,5 @@ If you use a lot of tags, it can be useful to customize tags color. This can be 
 In this page you can:
 - **Add New** tag, whether any transaction with this tag already exists or not.
 - **Find Existing Tags**, which will search tags within transactions and add them to the list of managed tags.
-- Change the color of any tag (including the default color) and/or add a description for you to remember what you use it for.
+- Change the color of any tag and/or add a description for you to remember what you use it for.
 - **View Transactions** using a given tag.
