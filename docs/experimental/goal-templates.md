@@ -68,16 +68,16 @@ The image below shows an example of categories in the following states: normal (
 
 ![Goal indicator colors example](/img/goal-template/templates-colors.png)
 
-This goal value is based on the max amount that the templates in a category request to be budgeted.
+This goal value is based on the maximum amount that the templates in a category request to be budgeted.
 
 #### Goal Indicator Information
 If you hover over the balance value in a templated category, a tooltip will appear with info on the status of that category with respect to its templates.
 
 #### Long term goals
-By default the goal information show in the goal indicator is per month, ie its what fully budgeting your templates would require *this month*. The indicator color will be based on the `Budgeted` amount and if that meets the amount requested by the category templates.
+By default, the goal information displayed in the goal indicator is shown on a monthly basis. It's what fully budgeting your templates would require for **this month**. The indicator color is based on the `Budgeted` amount and whether it meets the amount requested by the category templates.
 
-If you would like the goal, and associated indication color, to be based on the category `Balance` instead of the budgeted amount, see the [Goal Directive option](#goal-directive).
-This is a special template that will override the goal amount, and base the goal indicator to be based on category balance.
+If you would like the goal and associated indication color to be based on the category `Balance` instead of the budgeted amount, see the [Goal Directive option](#goal-directive).
+This is a special template that overrides the goal amount and bases the goal indicator on category balance.
 
 ![Goal indicator information tooltip](/img/goal-template/goal-indicator.png)
 
@@ -135,7 +135,7 @@ Templates can be given a priority flag to change the order that the templates ge
 - Number formats that use comma for the decimal separator are not supported (e.g., 123,45). You must use 123.45.
 - Thousands separators are not supported (e.g., 1,234). You must use 1234.
 - By default, templates do not consider available funds when being applied. Use template priorities to ensure only the amount available to budget is assigned.
-- If you have the "Hide decimal places" setting enabled, templates will round away all decimal amounts.  This way you won't have funds budgeted that you cant see on your budget table.
+- If you have the "Hide decimal places" setting enabled, templates will round away all decimal amounts. This way, you won't have funds budgeted that you can't see on your budget table.
 
 ## Available Templates
 
@@ -270,9 +270,9 @@ Below is a table of the variations of the By template.
 |`#template 500 by 2024-12 spend from 2024-03 repeat every 2 years`| |    
 
 ### Periodic Type
-If you have bills that are on a regular interval, byweekly, every 6 weeks, quarterly, once per year, this is the template for you!
-This template is like the simple template but it will be based on a defined period instead of budgeted once per month.
-You set a period and the start day, and every period, starting from your start day, you will get the requested amount budgeted.
+If you have bills that are due on a regular interval, such as biweekly, every 6 weeks, quarterly, or once per year, this is the template for you!
+This template is similar to the simple template, but it will be based on a defined period rather than being budgeted on a monthly basis.
+You set a period and the start date, and every period, starting from your start date, you will receive the requested budgeted amount.
 Periods can be set for any number of days, weeks, months, or years.
 See the table below for examples.
 
@@ -283,10 +283,10 @@ See the table below for examples.
 |`#template 100 repeat every 2 months starting 2025-01-01` | $0 | When budgeting in February 2025
 |`#template 100 repeat every 2 months starting 2025-01-01` | $100 | When budgeting in March 2025
 
-As you can see, the template will budget based on defined period.
+As you can see, the template will be budgeted based on the defined period.
 
 The Periodic template also supports limits the same way the simple template does.
-For example if you budget in January with a limited template:
+For example, if you budget in January with a limited template:
 <!-- prettier-ignore -->
 |Syntax| Previous Balance | Budgeted Amount | New Balance |
 |---|:---:| :---: |:---:|
@@ -429,17 +429,17 @@ The table below shows how to use the Copy template.
 
 ### Remainder Type
 
-The remainder template is run differently to the other templates. Any remainder templates will be forced to run last in their own pass.
-This way the amount left to budget is whatever remains after all other templates have had a chance to run.
+The remainder template will run differently from the other templates. Any remainder templates will be forced to run last in their own pass.
+This way, the amount left to budget is the amount that remains after all other templates have had a chance to run.
 
 Remainders will respect limits set by an `up to`.
-This limit can be set by ther remainder template, or by any other template that supports limits.
-If all remainder templates are in a category with a limit, there may be funds leftover after they have run.
-To avoid having funds leftover after the remainder templates have run, always have atleast one remainder template that is not limited by an `up to`.
+This limit can be set by the remainder template or by any other template that supports limits.
+If all remainder templates are in a category with a limit, there may be funds left over after they have run.
+To avoid having funds leftover after the remainder templates have run, always have at least one remainder template that is not limited by an `up to`.
 
 Remainder templates allow an optional weight.
 The weight will affect how funds are distributed among multiple remainder templates.
-The templates with a higher weight will get more than a template with a lower weight.
+The templates with a higher weight will receive more funds than those with a lower weight.
 
 #### Examples
 
@@ -476,9 +476,9 @@ All of the examples below use the case of 100 leftover when the remainder pass i
 Notes on using the remainder template:
 
 - You can use as many remainder templates as you want.
-- Remainder templates don't have a priority as they are always run last.
+- Remainder templates don't have a priority as they will always run last.
 - If no weight is provided, the weight will be defaulted to 1.
-- The amount budget by the remainder template is calculated as: `budgeted_amount=available_funds/sum_of_weights * category_weight` unless the budgeted amount is greater than the set limit. If a category hits its limit, the excess funds will be distributed to the other remainder templates based on their weight.
+- Unless the budgeted amount is greater than the set limit, the amount budgeted by the remainder template is calculated as: `budgeted_amount=available_funds/sum_of_weights * category_weight`. If a category hits its limit, the excess funds will be distributed to the other remaining templates based on their weight.
 - Remainder templates don't set a goal with the goal indication on the category balance.
 - Remainder templates don't affect a goal set by previous templates.
 - The remainder template supports all `up to` options given in the [Simple type examples](#simple-type)
