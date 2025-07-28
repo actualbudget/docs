@@ -48,7 +48,7 @@ The reasons for this change are as follows:
   ```
   packages/sync-server
   ```
-  There might be adjustments to make (e.g., `ACTUAL_DATA_DIR` becomes `dataDir`), please refer to [troubleshooting the server](./troubleshooting/server.md) for some help
+You may need to make some adjustments (e.g., `ACTUAL_DATA_DIR` becomes `dataDir`), please refer to [troubleshooting the server](./troubleshooting/server.md) for some help
   6. Copy over the data from your `actual-server` directory (`user-files`, `server-files`, and `.migrate`) into the `packages/sync-server` directory.
   7. Run the server with:
   ```
