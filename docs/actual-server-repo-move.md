@@ -1,6 +1,6 @@
 # Actual Server repository move
 
-In February 2025 the actual-server repository will be merged into the Actual repository.
+In February 2025 the actual-server repository was merged into the Actual repository.
 
 The reasons for this change are as follows:
 
