@@ -4,7 +4,9 @@ title: Configuring the Server
 
 When it starts up, Actual looks for an optional `config.json` file in the same directory as the sync-server's `package.json`. If you are [building from source](https://actualbudget.com/docs/install/build-from-source) this will be in ```packages/sync-server/```. If present, any keys you define there will override the default values. All values can also be specified as environment variables, which will override the values in the `config.json` file.
 
-**NOTE**: the environmental variables do not map 1:1 to keys in config.json. In case of doubt, check the source schema at [/packages/sync-server/src/load-config.js](https://github.com/actualbudget/actual/blob/45530638feaacf74c28fddb846ae91170a99d94e/packages/sync-server/src/load-config.js#L43)
+:::caution
+Observe that the environmental variables do not map 1:1 to keys in the config.json file. In case of doubt, check the source schema at [/packages/sync-server/src/load-config.js](https://github.com/actualbudget/actual/blob/45530638feaacf74c28fddb846ae91170a99d94e/packages/sync-server/src/load-config.js#L43)
+:::
 
 :::info
 
