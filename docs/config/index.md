@@ -10,7 +10,7 @@ Observe that the environmental variables do not map 1:1 to keys in the config.js
 
 :::info
 
-Running into issues with your configuration not being interpreted correctly? Check out our documentation for [troubleshooting the server](.docs/troubleshooting/server.md) for information on how to enable debug logging to track down the issue.
+Running into issues with your configuration not being interpreted correctly? Check out our documentation for [troubleshooting the server](docs/troubleshooting/server.md) for information on how to enable debug logging to track down the issue.
 
 :::
 
