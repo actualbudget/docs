@@ -1,11 +1,11 @@
 # Tags
 
-Transaction can be tagged through its notes in order to flag them and identify them easily in the table.  
+Transactions can be tagged through their notes in order to flag them and identify them easily in the table.  
 An example would be to tag all transaction for a trip with a tag like `#Vacation2025`
 
 ## Syntax
 
-A tag is a string of any characters (except `#`) prefixed by the `#` symbol, it can be set anywhere withing the *Notes* field of a transaction.  
+A tag is a string of any characters (except `#`) prefixed by the `#` symbol, it can be added anywhere within the *Notes* field of a transaction.  
 It is possible to have multiple tags for a single transaction.  
 Tags are case-sensitive, meaning that `#tag` and `#TAG` are different.  
 To use the `#` symbol in the *Notes* field without tagging, you can escape it by inputting it twice: `##do-not-tag-this`.
@@ -16,23 +16,21 @@ To use the `#` symbol in the *Notes* field without tagging, you can escape it by
 
 ## Filter Transactions
 
-To view transaction that uses a given tag you can either:
-- click on the tag in the transactions table.
+To view transactions with a given tag you can either:
+- click on the colored tag in the transactions table.
 - use the `has tags` filter on the *Notes* field:
 
 ![](/static/img/tags/filter.png)
 
-
-
 ## Manage Tags
 
-By default tags use the default purple brand color of actual.  
-If you use a lot of tags, it can be useful to customize tags color. This can be achieved through the dedicate *Tags* page accessible via the side bar.
+By default tags use the purple brand color of Actual.  
+If you use a lot of tags, it can be useful to customize tags color. This can be achieved through the dedicated *Tags* page accessible via the side bar.
 
 ![](/static/img/tags/manage.png)
 
-In this page you can:
-- **Add New** tag, whether any transaction with this tag already exists or not.
-- **Find Existing Tags**, which will search tags within transactions and add them to the list of managed tags.
-- Change the color of any tag and/or add a description for you to remember what you use it for.
-- **View Transactions** using a given tag.
+On this page you can:
+- **Add New** tags, it doesn't matter whether any transactions with this tag already exist or not.
+- **Find Existing Tags**, which will search for tags already used within transactions and add them to the list of managed tags.
+- Change the color of any tag and/or add a description.
+- **View Transactions** that use the given tag.
