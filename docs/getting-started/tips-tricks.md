@@ -15,8 +15,8 @@ Below is a list of the most useful shortcuts.
 ### The Command Palette
 
 The Command Palette is a powerful tool which allows you to quickly access various features and functions within Actual.
-- On Windows and Linux, you can open it by pressing the <Key mod="ctrl" k="k" /> combination to open the Command Palette.
-- On macOS, you can use the <Key mod="cmd" k="k" /> or the <Key mod="ctrl" k="k" /> key combinations to open the Command Palette.
+- On Windows and Linux, you can open it by pressing the <Key mod="ctrl" fixed k="k" /> combination to open the Command Palette.
+- On macOS, you can use the <Key mod="cmd" fixed k="k" /> or the <Key mod="ctrl" fixed k="k" /> key combinations to open the Command Palette.
 
 ![Command Palette](/img/tips-tricks/command-palette.png)
 
@@ -45,10 +45,13 @@ through the list of available commands. You can also quickly move to any of the 
 
 - <Key k="f" /> Show only selected transactions.
 - <Key k="d" /> Delete selected transactions.
+- <Key k="u" /> Duplicate selected transactions.
+- <Key k="t" /> Set date for selected transactions.
 - <Key k="a" /> Set account for selected transactions.
 - <Key k="p" /> set payee for selected transactions.
 - <Key k="n" /> Set notes for selected transactions.
 - <Key k="c" /> Set category for selected transactions.
+- <Key k="m" /> Set amount for selected transactions.
 - <Key k="l" /> Toggle cleared for current transaction.
 
 The following require a transaction to have been selected first:
@@ -112,3 +115,17 @@ To enable this:
 A new column should appear which shows the balance of the account after each transaction:
 
 ![Show running balance](/img/tips-tricks/running-balance.png)
+
+
+## Using Emojis in Actual
+
+Actual supports emojis in many places, including payees, categories, and notes. You can use emojis to add visual
+flair to your budget and make it more fun to use.
+
+To add an emoji, you can use the emoji picker on your operating system, or you can copy and paste emojis from web sites
+like [Emojipedia](https://emojipedia.org/), [EmojiDB](https://emojidb.org/) or [Get Emoji](https://getemoji.com/).
+
+![Emojis everywhere](/img/tips-tricks/using-emojis.png)
+
+By using emojis on the accounts, you can have grouping of accounts by type, such as credit cards, expenses, and savings.
+
