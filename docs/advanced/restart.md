@@ -5,6 +5,10 @@ This means that you want to reset your budget while keeping your categories, pay
 
 If you're ok with truly starting completely from scratch, [just make a new file](/docs/getting-started/starting-fresh/).
 
+:::caution
+Remeber to [back up your budget](/docs/backup-restore/backup) before making any significant changes to your budget.
+:::
+
 
 ## Restarting Your Budget by Deleting Transactions
 
