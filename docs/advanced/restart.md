@@ -9,7 +9,7 @@ If you're ok with truly starting completely from scratch, [just make a new file]
 ## Restarting Your Budget by Deleting Transactions
 
 ### Step 1: Delete All Transactions
-- Click on *All Acconts* in the left sidebar.
+- Click on *All Accounts* in the left sidebar.
 - Select all transactions by clicking the checkbox at the top of the list (or use the shortcut `Ctrl + A` on Windows or `Cmd + A` on Mac).
 - Click on the lilac dropdown menu at the top of the transaction list and select **Delete**.
 
