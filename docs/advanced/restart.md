@@ -1,4 +1,4 @@
-# Restart your Budget
+# Restarting Your Budget
 
 If you've fallen behind on your budgeting and want to start fresh without starting from scratch.
 This means that you want to reset your budget while keeping your categories, payees, rules and schedules. Bellow we have described two methods to restart your budget: one by deleting all transactions and another without deleting any transactions.
