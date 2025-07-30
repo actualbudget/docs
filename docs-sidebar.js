@@ -68,7 +68,7 @@ const sidebars = {
               items: [
                 'install/docker',
                 'install/cli-tool',
-                { type: 'link', label: 'Desktop app', href: '/download' },
+                'install/desktop-app',
                 'install/build-from-source',
               ],
             },
@@ -87,8 +87,10 @@ const sidebars = {
               items: [
                 'config/index',
                 'config/https',
-                'advanced/http-header-auth',
                 'config/reverse-proxies',
+                'config/oauth-auth',
+                'config/multi-user',
+                'advanced/http-header-auth',
               ],
             },
           ],
@@ -209,11 +211,13 @@ const sidebars = {
           type: 'category',
           label: 'Experimental features',
           collapsed: true,
+          link: {
+            type: 'doc',
+            id: 'experimental/index',
+          },
           items: [
             'experimental/goal-templates',
             'experimental/monthly-cleanup',
-            'experimental/oauth-auth',
-            'experimental/multi-user',
             'experimental/rule-templating',
             'experimental/pluggyai',
           ],
@@ -313,7 +317,9 @@ const sidebars = {
           collapsible: false,
           items: [
             'contributing/leadership/funding',
+            'contributing/leadership/triaging-issues',
             'contributing/leadership/new-core-contributors-guide',
+            'contributing/leadership/cursor-ide',
           ],
         },
       ],
