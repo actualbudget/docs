@@ -10,9 +10,9 @@ It is possible to have multiple tags for a single transaction.
 Tags are case-sensitive, meaning that `#tag` and `#TAG` are different.  
 To use the `#` symbol in the *Notes* field without tagging, you can escape it by inputting it twice: `##do-not-tag-this`.
 
-![](/static/img/tags/input.png)
+![Tagging a transaction](/static/img/tags/input.png)
 
-![](/static/img/tags/input-result.png)
+![Tagged transaction](/static/img/tags/input-result.png)
 
 ## Filter Transactions
 
@@ -20,14 +20,14 @@ To view transactions with a given tag, you can either:
 - Click on the colored tag in the transactions table.
 - Use the `has tags` filter on the *Notes* field:
 
-![](/static/img/tags/filter.png)
+![Tag based filter of transactions](/static/img/tags/filter.png)
 
 ## Manage Tags
 
 By default, tags use the purple brand color of Actual.  
 If you use a lot of tags, it can be helpful to customize the color of the tags. You can configure this through the dedicated *Tags* page, located in the sidebar.
 
-![](/static/img/tags/manage.png)
+![Tag management page](/static/img/tags/manage.png)
 
 On the Tag management page, you can perform the following actions:
 - **Add New** tags. It doesn't matter whether any transactions with this tag already exist or not.
