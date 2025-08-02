@@ -1,16 +1,14 @@
-### Paying Reviewers for Administrative Work
+# Paying Reviewers for Administrative Work
 
 As our donation income has become steady, we have implemented a lightweight system to compensate **core contributors** who perform administrative tasks — **specifically reviewing pull requests, triaging, and managing issues**. This work is essential to maintain project momentum and ensure its health.
 
 A list of the core contributors can be found in [this page](https://github.com/orgs/actualbudget/people).
 
-#### How the Payment System Works
+## How the Payment System Works
 
 We allocate a monthly review stipend pool ($1000/month) distributed among reviewers based on the **size of PRs they review** — using **lines of code changed (LOC)** as a proxy for effort. In addition to PR reviews, we recognize contributions around **issue triage** and **resolution**, which are essential to keeping the project healthy and user-friendly.
 
 Points are automatically calculated for all **public members of the Actualbudget organization** through our [GitHub workflow](https://github.com/actualbudget/actual/blob/master/.github/scripts/count-points.mjs). Check the workflow documentation for current point values assigned to different contributor actions.
-
-—
 
 **Example Calculation:**
 
@@ -24,9 +22,7 @@ Jack (Dublin) receives: 10 * $40 = $400
 
 Nancy (Amsterdam) receives: 15 * $40 = $600
 
-—
-
-### Questions and Answers
+## Questions and Answers
 
 #### Can earnings be accumulated over a more extended period?
 
