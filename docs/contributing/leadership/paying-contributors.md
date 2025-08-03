@@ -8,7 +8,7 @@ A list of the core contributors can be found in [this page](https://github.com/o
 
 We allocate a monthly review stipend pool ($1000/month) distributed among reviewers based on the **size of PRs they review** — using **lines of code changed (LOC)** as a proxy for effort. In addition to PR reviews, we recognize contributions around **issue triage** and **resolution**, which are essential to keeping the project healthy and user-friendly.
 
-Points are automatically calculated for all **public members of the Actualbudget organization** through our [GitHub workflow](https://github.com/actualbudget/actual/blob/master/.github/scripts/count-points.mjs). Check the workflow documentation for current point values assigned to different contributor actions.
+Points are automatically calculated for all **public members of the Actual Budget organization** through our [GitHub workflow](https://github.com/actualbudget/actual/blob/master/.github/scripts/count-points.mjs). Check the workflow documentation for current point values assigned to different contributor actions.
 
 **Example Calculation:**
 
@@ -50,7 +50,7 @@ No. We currently receive between USD 1,500 and USD 2,000 each month. The allocat
 
 #### What if a month is slow? Do we still pay out USD 1,000?
 
-No. If fewer than 20 points are earned in total by the core maintainers in a month, the total payout drops to USD 500,-.
+No. If fewer than 20 points are earned in total by the core maintainers in a month, the total payout drops to USD 500.
 
 #### What if a month is hectic? Does the payout increase?
 
