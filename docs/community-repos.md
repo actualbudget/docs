@@ -72,6 +72,14 @@ Actual currently has official support for migrating budgets from YNAB4 and nYNAB
    - *An iOS widget to display your Actual Budget category balances for the current month. Requires your Actual server to be accessible via HTTPS, and the **Local REST API** community project to be installed.*
 
 
+## Kubernetes Helm Charts
+
+* **Community Charts** - https://github.com/community-charts/helm-charts/tree/main/charts/actualbudget
+   - A Helm chart for deploying Actual Budget on Kubernetes, enabling easy setup and management of containerized Actual Budget instances with customizable configurations.
+   - **ArtifactHub** - https://artifacthub.io/packages/helm/community-charts/actualbudget
+   - **Documentation** - https://community-charts.github.io/docs/charts/actualbudget/usage
+
+
 ## Others
 
 * **Amazon orders CSV exporter user script** - https://github.com/IeuanK/AmazonExporter/
