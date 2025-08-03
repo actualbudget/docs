@@ -1,6 +1,10 @@
 # Managing Multi-User Support
 
-This feature requires you have setup an [OpenID Provider](oauth-auth). The usernames will be fetched from the provider.
+:::caution
+
+This feature requires you have set up an [OpenID Provider](oauth-auth). The usernames will be fetched from the provider.
+
+:::
 
 ## User Directory
 
