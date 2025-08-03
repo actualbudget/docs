@@ -74,10 +74,6 @@ Actual currently has official support for migrating budgets from YNAB4 and nYNAB
 
 ## Kubernetes Helm Charts
 
-:::info
-The charts listed in this section are maintained by the community and are not officially supported by the core Actual Budget team.
-:::
-
 * **Community Charts** - https://github.com/community-charts/helm-charts/tree/main/charts/actualbudget
    - A Helm chart for deploying Actual Budget on Kubernetes, enabling streamlined deployment and management of containerized Actual Budget instances with flexible configuration options.
    - **ArtifactHub** - https://artifacthub.io/packages/helm/community-charts/actualbudget
