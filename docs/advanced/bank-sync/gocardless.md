@@ -126,9 +126,10 @@ To achieve this:
 4. Edit the file `packages/sync-server/src/app-gocardless/bank-factory.js`.
 5. Add your bank's ID (from the Google Docs) to the `BANKS_WITH_LIMITED_HISTORY` list.
 6. Commit your changes and push to your fork.
-7. Create a pull request to the main Actual repository.
-8. Add a release note in `upcoming-release-notes/` describing your change (see [writing good release notes](/docs/contributing/#writing-good-release-notes)).
-9. Commit your changes and push to your fork.
+7. Add a release note in `upcoming-release-notes/` describing your change (see [writing good release notes](/docs/contributing/#writing-good-release-notes)).
+8. Commit your changes and push to your fork.
+9. Create a pull request to the main Actual repository.
+
 
 Once reviewed, the maintainers will comment on the pull request and merge it if acceptable. The change would then be available in the next release of the software.
 
