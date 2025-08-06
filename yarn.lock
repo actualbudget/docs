@@ -4651,7 +4651,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@docusaurus/utils-validation@npm:3.8.1":
+"@docusaurus/utils-validation@npm:3.8.1, @docusaurus/utils-validation@npm:^3.7.0":
   version: 3.8.1
   resolution: "@docusaurus/utils-validation@npm:3.8.1"
   dependencies:
@@ -5241,6 +5241,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@panzoom/panzoom@npm:^4.6.0":
+  version: 4.6.0
+  resolution: "@panzoom/panzoom@npm:4.6.0"
+  checksum: b48dc93ba145ec69100afa3b199b51e8b7ca5bacc8534dd96c4a69cfcde473980741568bf83ad99c86a4aef8b5a5625518c7145d5b01005fb87098d6897fe8be
+  languageName: node
+  linkType: hard
+
 "@pkgjs/parseargs@npm:^0.11.0":
   version: 0.11.0
   resolution: "@pkgjs/parseargs@npm:0.11.0"
@@ -5279,6 +5286,16 @@ __metadata:
   version: 1.0.0-next.25
   resolution: "@polka/url@npm:1.0.0-next.25"
   checksum: 4ab1d7a37163139c0e7bfc9d1e3f6a2a0db91a78b9f0a21f571d6aec2cdaeaacced744d47886c117aa7579aa5694b303fe3e0bd1922bb9cb3ce6bf7c2dc09801
+  languageName: node
+  linkType: hard
+
+"@r74tech/docusaurus-plugin-panzoom@npm:^2.4.0":
+  version: 2.4.0
+  resolution: "@r74tech/docusaurus-plugin-panzoom@npm:2.4.0"
+  dependencies:
+    "@docusaurus/utils-validation": ^3.7.0
+    "@panzoom/panzoom": ^4.6.0
+  checksum: 2b8062d77aea1d8b719095aff041ee97c4143e4c613a0d7af34d95ed34ca1a2dbb0e98dbc82f7a3432f1ddc7bba51cc073c773091a96e4411581aee0d2e5dc56
   languageName: node
   linkType: hard
 
@@ -6857,6 +6874,7 @@ __metadata:
     "@docusaurus/theme-mermaid": ^3.8.1
     "@easyops-cn/docusaurus-search-local": ^0.35.0
     "@mdx-js/react": ^3.0.0
+    "@r74tech/docusaurus-plugin-panzoom": ^2.4.0
     clsx: ^2.0.0
     prettier: ^3.0.0
     prism-react-renderer: ^2.0.0

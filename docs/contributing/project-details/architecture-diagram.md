@@ -1,282 +1,246 @@
-# Actual Budget App Architecture
+# Actual Budget App - Developer Architecture Guide
 
-Based on my analysis of the codebase, here's a comprehensive diagram of how the Actual budget app works:
+> **Welcome to Actual!** This guide explains how the Actual budget app is architected and organized to help new developers understand the codebase and contribute effectively.
 
-## System Overview
+## Quick Start for Developers
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                           ACTUAL BUDGET APP                                 │
-│                                                                             │
-│  ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐         │
-│  │   DESKTOP APP   │    │    WEB APP      │    │   SYNC SERVER   │         │
-│  │   (Electron)    │    │   (Browser)     │    │   (Node.js)     │         │
-│  └─────────────────┘    └─────────────────┘    └─────────────────┘         │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+Actual is a **local-first personal finance app** with these key characteristics:
 
-## Detailed Architecture
+- **Multi-platform**: Desktop (Electron) and Web (PWA) apps
+- **Local-first**: Works offline with SQLite database
+- **Real-time sync**: Optional server for multi-device synchronization
+- **Bank integration**: Connects to 500+ banks worldwide
+- **Privacy-focused**: End-to-end encryption, zero-knowledge sync
 
-### 1. Frontend Layer
+### Key Insight: Frontend + Backend in One App
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                              FRONTEND                                       │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                             │
-│  ┌─────────────────────────────────────────────────────────────────────────┐│
-│  │                    DESKTOP CLIENT (Electron)                           ││
-│  │  packages/desktop-electron/                                             ││
-│  │                                                                         ││
-│  │  ┌─────────────────┐  ┌─────────────────┐  ┌─────────────────┐         ││
-│  │  │   Main Process  │  │ Renderer Process│  │ Background Proc │         ││
-│  │  │                 │  │                 │  │                 │         ││
-│  │  │ • Window Mgmt   │  │ • React UI      │  │ • Loot Core     │         ││
-│  │  │ • File Dialogs  │  │ • Components    │  │ • Database      │         ││
-│  │  │ • Menu System   │  │ • State Mgmt    │  │ • Sync Engine   │         ││
-│  │  │ • Auto Updates  │  │ • Spreadsheet   │  │ • Import/Export │         ││
-│  │  │ • Sync Server   │  │                 │  │                 │         ││
-│  │  └─────────────────┘  └─────────────────┘  └─────────────────┘         ││
-│  └─────────────────────────────────────────────────────────────────────────┘│
-│                                   │                                         │
-│                                   │ IPC Communication                       │
-│                                   │                                         │
-│  ┌─────────────────────────────────────────────────────────────────────────┐│
-│  │                      WEB CLIENT (Browser)                              ││
-│  │  packages/desktop-client/                                               ││
-│  │                                                                         ││
-│  │  ┌─────────────────┐  ┌─────────────────┐  ┌─────────────────┐         ││
-│  │  │    React UI     │  │ Service Worker  │  │   Web Worker    │         ││
-│  │  │                 │  │                 │  │                 │         ││
-│  │  │ • Components    │  │ • PWA Support   │  │ • Loot Core     │         ││
-│  │  │ • Redux Store   │  │ • Offline Cache │  │ • AbsurdSQL     │         ││
-│  │  │ • Router        │  │ • Updates       │  │ • Database      │         ││
-│  │  │ • Themes        │  │                 │  │ • Sync Engine   │         ││
-│  │  │ • i18n          │  │                 │  │                 │         ││
-│  │  └─────────────────┘  └─────────────────┘  └─────────────────┘         ││
-│  └─────────────────────────────────────────────────────────────────────────┘│
-└─────────────────────────────────────────────────────────────────────────────┘
+When Actual runs, it actually runs **two things simultaneously**:
+1. **Frontend**: React-based web UI
+2. **Backend**: Local database server (called "Loot Core")
+
+> **Important**: This "backend" is **not** a remote server - it's a local background process/worker that handles database operations, business logic, and sync.
+
+## High-Level Architecture
+
+```mermaid
+graph LR
+    subgraph "Actual Budget App"
+        Desktop["Desktop App<br/>(Electron)"]
+        Web["Web App<br/>(Browser)"]
+        SyncServer["Sync Server<br/>(Node.js)<br/>[Optional]"]
+    end
+
+    classDef app fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
+    classDef optional fill:#fff3e0,stroke:#f57c00,stroke-width:2px,stroke-dasharray: 5 5
+
+    class Desktop,Web app
+    class SyncServer optional
 ```
 
-### 2. Core Engine Layer
+## Package Structure
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                           LOOT CORE ENGINE                                  │
-│                         packages/loot-core/                                 │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                             │
-│  ┌─────────────────┐  ┌─────────────────┐  ┌─────────────────┐             │
-│  │   PLATFORM      │  │    DATABASE     │  │      SYNC       │             │
-│  │                 │  │                 │  │                 │             │
-│  │ • SQLite        │  │ • Schema        │  │ • CRDT Engine   │             │
-│  │ • File System   │  │ • Transactions  │  │ • Merkle Trees  │             │
-│  │ • Async Storage │  │ • Accounts      │  │ • Timestamps    │             │
-│  │ • Connection    │  │ • Categories    │  │ • Message Queue │             │
-│  │ • Crypto        │  │ • Budgets       │  │ • Conflict Res  │             │
-│  └─────────────────┘  └─────────────────┘  └─────────────────┘             │
-│                                                                             │
-│  ┌─────────────────┐  ┌─────────────────┐  ┌─────────────────┐             │
-│  │   SPREADSHEET   │  │   IMPORTERS     │  │    BUDGET       │             │
-│  │                 │  │                 │  │                 │             │
-│  │ • Formula Calc  │  │ • CSV Parser    │  │ • Envelope      │             │
-│  │ • Cell Updates  │  │ • OFX Parser    │  │ • Tracking      │             │
-│  │ • Dependencies  │  │ • QIF Parser    │  │ • Categories    │             │
-│  │ • Caching       │  │ • YNAB4/5       │  │ • Reports       │             │
-│  │ • Transactions  │  │ • Rules Engine  │  │ • Forecasting   │             │
-│  └─────────────────┘  └─────────────────┘  └─────────────────┘             │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+The project uses **Yarn workspaces** with these main packages:
 
-### 3. Backend Layer
+```mermaid
+graph TB
+    subgraph "packages/"
+        subgraph "Frontend"
+            DC["desktop-client/<br/>React UI (shared)"]
+            DE["desktop-electron/<br/>Electron main process"]
+            CL["component-library/<br/>Shared UI components"]
+        end
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                            SYNC SERVER                                      │
-│                       packages/sync-server/                                 │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                             │
-│  ┌─────────────────┐  ┌─────────────────┐  ┌─────────────────┐             │
-│  │   CORE SERVER   │  │  AUTHENTICATION │  │   USER MGMT     │             │
-│  │                 │  │                 │  │                 │             │
-│  │ • Express.js    │  │ • Password Auth │  │ • Multi-user    │             │
-│  │ • File Storage  │  │ • OpenID        │  │ • Permissions   │             │
-│  │ • Sync Engine   │  │ • JWT Tokens    │  │ • Admin Panel   │             │
-│  │ • CRDT Merge    │  │ • Sessions      │  │ • File Sharing  │             │
-│  │ • Encryption    │  │ • Rate Limiting │  │ • Access Control│             │
-│  └─────────────────┘  └─────────────────┘  └─────────────────┘             │
-│                                                                             │
-│  ┌─────────────────────────────────────────────────────────────────────────┐│
-│  │                        BANK SYNC INTEGRATIONS                          ││
-│  │                                                                         ││
-│  │  ┌─────────────────┐  ┌─────────────────┐  ┌─────────────────┐         ││
-│  │  │   GOCARDLESS    │  │    SIMPLEFIN    │  │    PLUGGY AI    │         ││
-│  │  │                 │  │                 │  │                 │         ││
-│  │  │ • PSD2 API      │  │ • Open Banking  │  │ • Brazilian     │         ││
-│  │  │ • 100+ Banks    │  │ • US Banks      │  │   Banks         │         ││
-│  │  │ • EU/UK Focus   │  │ • Real-time     │  │ • AI-powered    │         ││
-│  │  │ • Transaction   │  │ • Secure        │  │ • Modern API    │         ││
-│  │  │   Normalization │  │                 │  │                 │         ││
-│  │  └─────────────────┘  └─────────────────┘  └─────────────────┘         ││
-│  └─────────────────────────────────────────────────────────────────────────┘│
-└─────────────────────────────────────────────────────────────────────────────┘
+        subgraph "Backend"
+            LC["loot-core/<br/>Core business logic & database"]
+            SS["sync-server/<br/>Optional sync server"]
+            API["api/<br/>Public API for developers"]
+        end
+
+        subgraph "Utilities"
+            CRDT["crdt/<br/>Conflict-free data structures"]
+        end
+    end
+
+    subgraph "Desktop Client Structure"
+        DC_COMP["src/components/<br/>React components"]
+        DC_HOOKS["src/hooks/<br/>Custom React hooks"]
+        DC_STYLE["src/style/<br/>CSS and themes"]
+        DC_PUBLIC["public/<br/>Static assets"]
+    end
+
+    subgraph "Loot Core Structure"
+        LC_SERVER["src/server/<br/>Backend logic"]
+        LC_CLIENT["src/client/<br/>Frontend communication"]
+        LC_SHARED["src/shared/<br/>Shared utilities"]
+        LC_PLATFORM["src/platform/<br/>Platform-specific code"]
+    end
+
+    DC --> DC_COMP
+    DC --> DC_HOOKS
+    DC --> DC_STYLE
+    DC --> DC_PUBLIC
+
+    LC --> LC_SERVER
+    LC --> LC_CLIENT
+    LC --> LC_SHARED
+    LC --> LC_PLATFORM
+
+    classDef frontend fill:#e1f5fe,stroke:#0277bd
+    classDef backend fill:#e8f5e8,stroke:#388e3c
+    classDef utility fill:#f3e5f5,stroke:#7b1fa2
+    classDef structure fill:#fff3e0,stroke:#f57c00
+
+    class DC,DE,CL frontend
+    class LC,SS,API backend
+    class CRDT utility
+    class DC_COMP,DC_HOOKS,DC_STYLE,DC_PUBLIC,LC_SERVER,LC_CLIENT,LC_SHARED,LC_PLATFORM structure
 ```
 
-### 4. Data Sources & External Systems
+## Core Components Deep Dive
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                           DATA SOURCES                                      │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                             │
-│  ┌─────────────────┐  ┌─────────────────┐  ┌─────────────────┐             │
-│  │  BANK IMPORTS   │  │  FILE IMPORTS   │  │  MANUAL ENTRY   │             │
-│  │                 │  │                 │  │                 │             │
-│  │ • GoCardless    │  │ • CSV Files     │  │ • Transaction   │             │
-│  │ • SimpleFin     │  │ • OFX Files     │  │   Forms         │             │
-│  │ • Pluggy AI     │  │ • QIF Files     │  │ • Bulk Edit     │             │
-│  │ • Real-time     │  │ • YNAB4/5       │  │ • Categories    │             │
-│  │   Transactions  │  │ • Custom Rules  │  │ • Rules         │             │
-│  └─────────────────┘  └─────────────────┘  └─────────────────┘             │
-│                                                                             │
-│  ┌─────────────────────────────────────────────────────────────────────────┐│
-│  │                         BANK CONNECTORS                                 ││
-│  │                                                                         ││
-│  │  • GoCardless                                                           ││
-│  │  • Pluggy                                                               ││
-│  │  • Simplefin                                                            ││
-│  └─────────────────────────────────────────────────────────────────────────┘│
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+### 1. Desktop Client (`packages/desktop-client/`)
 
-### 5. Data Flow Architecture
+**What it does**: React-based UI that works in both desktop and web environments.
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                              DATA FLOW                                      │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                             │
-│  USER INPUT                                                                 │
-│      │                                                                      │
-│      ▼                                                                      │
-│  ┌─────────────────┐                                                        │
-│  │   FRONTEND UI   │ ◄──────────── Real-time Updates                       │
-│  │  (React/Redux)  │                                                        │
-│  └─────────────────┘                                                        │
-│           │                                                                 │
-│           ▼                                                                 │
-│  ┌─────────────────┐    IPC/WebSocket    ┌─────────────────┐               │
-│  │   LOOT CORE     │ ◄─────────────────► │  SYNC SERVER    │               │
-│  │   (SQLite DB)   │                     │ (File Storage)  │               │
-│  └─────────────────┘                     └─────────────────┘               │
-│           │                                       │                        │
-│           ▼                                       ▼                        │
-│  ┌─────────────────┐                     ┌─────────────────┐               │
-│  │  SPREADSHEET    │                     │  BANK SYNC APIs │               │
-│  │    ENGINE       │                     │                 │               │
-│  │ • Calculations  │                     │ • GoCardless    │               │
-│  │ • Formulas      │                     │ • SimpleFin     │               │
-│  │ • Budget Rules  │                     │ • Pluggy AI     │               │
-│  └─────────────────┘                     └─────────────────┘               │
-│           │                                       │                        │
-│           ▼                                       ▼                        │
-│  ┌─────────────────────────────────────────────────────────────┐           │
-│  │                    SQLITE DATABASE                          │           │
-│  │                                                             │           │
-│  │  • accounts         • transactions    • categories         │           │
-│  │  • payees          • budgets         • rules              │           │
-│  │  • schedules       • notes           • sync_messages      │           │
-│  │  • preferences     • mappings        • encryption_keys   │           │
-│  └─────────────────────────────────────────────────────────────┘           │
-└─────────────────────────────────────────────────────────────────────────────┘
+**Key directories**:
+- `src/components/` - All React components organized by feature
+- `src/hooks/` - Custom React hooks for state management
+- `src/style/` - CSS modules and theme system
+- `src/browser-preload.browser.js` - Web app initialization
+- `src/browser-server.js` - Web worker setup
+
+**Entry points**:
+- **Web**: `index.html` → React app with Web Worker
+- **Desktop**: Same React app but in Electron renderer process
+
+### 2. Loot Core (`packages/loot-core/`)
+
+**What it does**: The "backend" that runs locally - handles all business logic, database operations, and sync.
+
+**Architecture**:
+
+```mermaid
+graph TB
+    subgraph "loot-core/"
+        subgraph "src/server/ - Backend Logic"
+            ACCOUNTS["accounts/<br/>Account management"]
+            BUDGET["budget/<br/>Budget calculations"]
+            DB["db/<br/>Database layer"]
+            IMPORTERS["importers/<br/>File import logic"]
+            SYNC["sync/<br/>CRDT sync engine"]
+            MAIN["main.ts<br/>Server entry point"]
+        end
+
+        subgraph "src/client/ - Frontend Communication"
+            ACTIONS["actions.ts<br/>Redux actions"]
+            TYPES["state-types/<br/>TypeScript types"]
+            QUERIES["queries.ts<br/>Database queries for UI"]
+        end
+
+        subgraph "src/shared/ - Shared Utilities"
+            MONTHS["months.ts<br/>Date utilities"]
+            QUERY["query.ts<br/>Query builder"]
+            UTIL["util.ts<br/>Common helpers"]
+        end
+
+        subgraph "src/platform/ - Platform Abstractions"
+            PLATFORM_SERVER["server/<br/>Server-side platform code"]
+            PLATFORM_CLIENT["client/<br/>Client-side platform code"]
+        end
+    end
+
+    classDef backend fill:#e8f5e8,stroke:#388e3c
+    classDef frontend fill:#e1f5fe,stroke:#0277bd
+    classDef shared fill:#fff3e0,stroke:#f57c00
+    classDef platform fill:#f3e5f5,stroke:#7b1fa2
+
+    class ACCOUNTS,BUDGET,DB,IMPORTERS,SYNC,MAIN backend
+    class ACTIONS,TYPES,QUERIES frontend
+    class MONTHS,QUERY,UTIL shared
+    class PLATFORM_SERVER,PLATFORM_CLIENT platform
 ```
 
-### 6. Key Technologies & Dependencies
+**Communication**:
+- **Desktop**: Background process communicates via WebSocket/IPC
+- **Web**: Web Worker communicates via `postMessage`
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                           TECHNOLOGY STACK                                  │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                             │
-│  FRONTEND:                          BACKEND:                               │
-│  • React 19.1.0                    • Node.js                              │
-│  • Redux Toolkit                   • Express.js 5.1.0                     │
-│  • Electron 24.0                   • Better-SQLite3                       │
-│  • Vite 6.3.5                      • bcrypt (auth)                        │
-│  • TypeScript 5.8.3                • Winston (logging)                    │
-│  • i18next (i18n)                  • Convict (config)                     │
-│  • Recharts (charts)               • JWS (tokens)                         │
-│                                                                             │
-│  DATABASE:                          SYNC & CRDT:                           │
-│  • SQLite (local)                  • Custom CRDT impl                     │
-│  • AbsurdSQL (web)                 • Merkle trees                         │
-│  • IndexedDB (fallback)            • Logical timestamps                   │
-│  • File-based storage              • Message queues                       │
-│                                                                             │
-│  BUILD & DEV:                       EXTERNAL APIS:                        │
-│  • Yarn workspaces                 • GoCardless (Nordigen)                │
-│  • ESLint + Prettier               • SimpleFin Bridge                     │
-│  • Playwright (E2E)                • Pluggy SDK                           │
-│  • Vitest (testing)                • OpenID Connect                       │
-│  • Docker support                  • OAuth 2.0                            │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
+### 3. Desktop Electron (`packages/desktop-electron/`)
 
-### 7. Security & Encryption
+**What it does**: Electron main process that creates windows, manages files, and spawns the Loot Core background process.
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                           SECURITY MODEL                                    │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                             │
-│  LOCAL ENCRYPTION:                  SERVER SECURITY:                       │
-│  • End-to-end encryption           • TLS/HTTPS only                        │
-│  • AES-256 encryption              • Rate limiting                         │
-│  • Key derivation (PBKDF2)         • Input validation                     │
-│  • Salt + IV per file              • SQL injection protection             │
-│  • Zero-knowledge sync             • XSS protection                       │
-│                                                                             │
-│  AUTHENTICATION:                    BANK INTEGRATION:                      │
-│  • Password hashing (bcrypt)       • OAuth 2.0 flows                      │
-│  • JWT tokens                      • PSD2 compliance                      │
-│  • Session management              • Read-only access                     │
-│  • OpenID Connect                  • Encrypted connections                │
-│  • Multi-user support              • Token refresh                        │
-└─────────────────────────────────────────────────────────────────────────────┘
+**Key files**:
+- `index.ts` - Main entry point, window creation
+- `menu.ts` - Application menu setup
+- `preload.ts` - Secure communication bridge
+- `server.ts` - Manages Loot Core background process
+
+### 4. Sync Server (`packages/sync-server/`)
+
+**What it does**: Optional Node.js server for multi-device sync and bank connections.
+
+**Features**:
+- CRDT-based conflict resolution
+- End-to-end encryption
+- Multi-user support
+- Bank sync integrations (GoCardless, SimpleFin, Pluggy)
+
+## Data Flow & Communication
+
+### Desktop App Flow
+```mermaid
+graph LR
+    User["User Input"] --> ElectronRenderer["Electron Renderer<br/>(React)"]
+    ElectronRenderer --> IPC["IPC"]
+    IPC --> MainProcess["Main Process"]
+    MainProcess --> BackgroundProcess["Background Process<br/>(Loot Core)"]
+    BackgroundProcess --> SQLite["SQLite"]
+
+    classDef user fill:#e1f5fe
+    classDef process fill:#e8f5e8
+    classDef data fill:#fff3e0
+
+    class User user
+    class ElectronRenderer,MainProcess,BackgroundProcess process
+    class SQLite data
 ```
 
-## Key Features
+### Web App Flow
+```mermaid
+graph LR
+    User["User Input"] --> ReactUI["React UI"]
+    ReactUI --> PostMessage["postMessage"]
+    PostMessage --> WebWorker["Web Worker<br/>(Loot Core)"]
+    WebWorker --> AbsurdSQL["AbsurdSQL<br/>(SQLite in browser)"]
 
-### Budget Management
-- **Envelope Budgeting**: Traditional zero-based budgeting system
-- **Tracking Budget**: Income/expense tracking without strict allocation
-- **Category Management**: Hierarchical category groups and categories
-- **Goal Setting**: Budget goals with progress tracking
-- **Rollover Logic**: Automatic carryover of unused budget amounts
+    classDef user fill:#e1f5fe
+    classDef process fill:#e8f5e8
+    classDef data fill:#fff3e0
 
-### Transaction Processing
-- **Real-time Sync**: CRDT-based conflict-free synchronization
-- **Bank Integration**: Direct connection to 500+ banks worldwide
-- **Import System**: Support for CSV, OFX, QIF, YNAB files
-- **Rule Engine**: Automatic categorization and transformation
-- **Reconciliation**: Match imported vs. manual transactions
+    class User user
+    class ReactUI,WebWorker process
+    class AbsurdSQL data
+```
 
-### Data Architecture
-- **Local-first**: SQLite database with offline support
-- **Multi-device Sync**: End-to-end encrypted synchronization
-- **Conflict Resolution**: CRDT ensures data consistency
-- **Backup System**: Automatic local and cloud backups
-- **Version Control**: Complete audit trail of all changes
+### Sync Flow
+```mermaid
+graph LR
+    LocalChanges["Local Changes"] --> CRDTMessages["CRDT Messages"]
+    CRDTMessages --> SyncServer["Sync Server"]
+    SyncServer --> OtherDevices["Other Devices"]
+    OtherDevices --> MergeApply["Merge & Apply"]
 
-### Platform Support
-- **Desktop**: Native Electron app (Windows, Mac, Linux)
-- **Web**: Progressive Web App with offline capabilities
-- **Self-hosted**: Docker containers for private deployment
-- **Mobile**: Responsive web interface optimized for mobile
+    classDef local fill:#e8f5e8
+    classDef sync fill:#f3e5f5
+    classDef remote fill:#fff3e0
 
-This architecture enables Actual to be a robust, secure, and feature-rich personal finance application that can work offline while providing seamless multi-device synchronization when connected.
+    class LocalChanges,MergeApply local
+    class CRDTMessages,SyncServer sync
+    class OtherDevices remote
+```
 
-## Mermaid Architecture Diagram
+## Architecture Diagrams
+
+### System Overview
 
 ```mermaid
 graph TB
@@ -320,7 +284,7 @@ graph TB
     end
 
     %% Backend Layer
-    subgraph "Sync Server"
+    subgraph "Sync Server (Optional)"
         subgraph "Core Server"
             ExpressJS[Express.js Server]
             Auth[Authentication<br/>JWT, OpenID]
@@ -388,7 +352,7 @@ graph TB
     class BankAPIs,FileImports,ManualEntry external
 ```
 
-## Component Interaction Flow
+### Component Communication Flow
 
 ```mermaid
 sequenceDiagram
@@ -430,7 +394,7 @@ sequenceDiagram
     UI-->>U: Real-time updates
 ```
 
-## Data Synchronization Model
+### Data Synchronization Model
 
 ```mermaid
 graph LR

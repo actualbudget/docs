@@ -35,8 +35,6 @@ module.exports = {
 
   themes: ['@docusaurus/theme-mermaid'],
 
-  onUntruncatedBlogPosts: 'ignore',
-
   presets: [
     [
       'classic',
@@ -49,6 +47,7 @@ module.exports = {
         },
         blog: {
           ...defaultOptions,
+          onUntruncatedBlogPosts: 'ignore',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -145,6 +144,32 @@ module.exports = {
         darkTheme: themes.dracula,
         additionalLanguages: ['nginx'],
       },
+
+      zoom: {
+        // See: https://github.com/timmywil/panzoom for available options
+
+        // A list of selectors to look for elements to enable pan and zoom
+        selectors: [
+          'div.mermaid[data-processed="true"]:not(.panzoom-exclude *)',
+          'div.docusaurus-mermaid-container:not(.panzoom-exclude *)',
+          '.drawio',
+          '.panzoom-example',
+        ],
+
+        // Whether to wrap the panzoom items in a div with overflow:hidden
+        // This constrains the pan zoom detail into the original container
+        wrap: true,
+
+        // The amount of time to wait in MS before the plugin client module tries to look for
+        // and alter pan zoom elements. Some renders take a little bit before they appear in the
+        // dom to find.
+        timeout: 1000,
+        excludeClass: 'panzoom-exclude',
+
+        toolbar: {
+          enabled: true,
+        },
+      },
     }),
   plugins: [
     [
@@ -171,5 +196,6 @@ module.exports = {
       },
     ],
     ['@docusaurus/plugin-ideal-image', { disableInDev: false }],
+    '@r74tech/docusaurus-plugin-panzoom',
   ],
 };
