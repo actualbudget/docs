@@ -187,7 +187,6 @@ const sidebars = {
             'advanced/scripts/modify-transfers',
           ],
         },
-
         {
           type: 'category',
           label: 'Reports',
@@ -196,7 +195,7 @@ const sidebars = {
             type: 'doc',
             id: 'reports/index',
           },
-          items: ['reports/custom-reports'],
+          items: ['reports/custom-reports', 'reports/index'],
         },
         {
           type: 'category',
