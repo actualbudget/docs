@@ -140,14 +140,11 @@ Based on my analysis of the codebase, here's a comprehensive diagram of how the 
 │  └─────────────────┘  └─────────────────┘  └─────────────────┘             │
 │                                                                             │
 │  ┌─────────────────────────────────────────────────────────────────────────┐│
-│  │                         BANK PROVIDERS                                  ││
+│  │                         BANK CONNECTORS                                 ││
 │  │                                                                         ││
-│  │  • Chase, Bank of America, Wells Fargo (US via SimpleFin)              ││
-│  │  • HSBC, Barclays, Lloyds, Santander (UK via GoCardless)              ││
-│  │  • Deutsche Bank, ING, ABN AMRO (EU via GoCardless)                    ││
-│  │  • Nordea, SEB, Swedbank (Nordic via GoCardless)                       ││
-│  │  • Banco do Brasil, Itaú, Bradesco (Brazil via Pluggy)                ││
-│  │  • 500+ supported institutions globally                                 ││
+│  │  • GoCardless                                                           ││
+│  │  • Pluggy                                                               ││
+│  │  • Simplefin                                                            ││
 │  └─────────────────────────────────────────────────────────────────────────┘│
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
@@ -297,7 +294,7 @@ graph TB
             RendProc[Renderer Process<br/>React UI]
             BgProc[Background Process<br/>Loot Core]
         end
-        
+
         subgraph "Web Client"
             ReactUI[React UI<br/>Components & State]
             ServiceWorker[Service Worker<br/>PWA & Offline]
@@ -312,7 +309,7 @@ graph TB
             FileSystem[File System]
             Crypto[Encryption]
         end
-        
+
         subgraph "Business Logic"
             Database[Database Schema<br/>Transactions, Accounts]
             Sync[CRDT Sync Engine<br/>Merkle Trees]
@@ -329,13 +326,13 @@ graph TB
             Auth[Authentication<br/>JWT, OpenID]
             UserMgmt[User Management<br/>Multi-user, Permissions]
         end
-        
+
         subgraph "Bank Integrations"
             GoCardless[GoCardless<br/>EU/UK Banks, PSD2]
             SimpleFin[SimpleFin<br/>US Banks, Open Banking]
             PluggyAI[Pluggy AI<br/>Brazilian Banks]
         end
-        
+
         FileStorage[File Storage<br/>Encrypted Budget Files]
     end
 
@@ -350,40 +347,40 @@ graph TB
     Desktop --> MainProc
     Web --> ReactUI
     Mobile --> ReactUI
-    
+
     MainProc <--> RendProc
     RendProc <--> BgProc
     ReactUI <--> ServiceWorker
     ReactUI <--> WebWorker
-    
+
     BgProc <--> Database
     WebWorker <--> Database
-    
+
     Database <--> SQLite
     Database <--> Sync
     Database <--> Spreadsheet
     Database <--> Budget
     Database <--> Importers
-    
+
     Sync <--> ExpressJS
     ExpressJS <--> Auth
     ExpressJS <--> UserMgmt
     ExpressJS <--> FileStorage
-    
+
     GoCardless <--> BankAPIs
     SimpleFin <--> BankAPIs
     PluggyAI <--> BankAPIs
-    
+
     Importers <--> FileImports
     Database <--> ManualEntry
-    
+
     %% Styling
     classDef userInterface fill:#e1f5fe
     classDef frontend fill:#f3e5f5
     classDef core fill:#e8f5e8
     classDef backend fill:#fff3e0
     classDef external fill:#fce4ec
-    
+
     class Desktop,Web,Mobile userInterface
     class MainProc,RendProc,BgProc,ReactUI,ServiceWorker,WebWorker frontend
     class SQLite,FileSystem,Crypto,Database,Sync,Spreadsheet,Budget,Importers core
@@ -400,29 +397,29 @@ sequenceDiagram
     participant LC as Loot Core
     participant SS as Sync Server
     participant BA as Bank API
-    
+
     Note over U,BA: Transaction Import Flow
-    
+
     U->>UI: Connects bank account
     UI->>SS: Request bank connection
     SS->>BA: OAuth authentication
     BA-->>SS: Access token
     SS-->>UI: Connection established
-    
+
     SS->>BA: Fetch transactions
     BA-->>SS: Transaction data
     SS->>SS: Normalize transactions
     SS-->>UI: Processed transactions
-    
+
     UI->>LC: Import transactions
     LC->>LC: Apply business rules
     LC->>LC: Update database
     LC->>LC: Trigger spreadsheet recalc
     LC-->>UI: Updated state
     UI-->>U: Show imported transactions
-    
+
     Note over U,BA: Sync Flow
-    
+
     U->>UI: Makes budget changes
     UI->>LC: Update local data
     LC->>LC: Create CRDT messages
@@ -444,7 +441,7 @@ graph LR
         DA_UI <--> DA_LC
         DA_LC <--> DA_DB
     end
-    
+
     subgraph "Sync Server"
         SS_CRDT[CRDT Engine]
         SS_MERGE[Conflict Resolution]
@@ -452,7 +449,7 @@ graph LR
         SS_CRDT <--> SS_MERGE
         SS_MERGE <--> SS_STORE
     end
-    
+
     subgraph "Device B"
         DB_UI[UI]
         DB_LC[Loot Core]
@@ -460,13 +457,13 @@ graph LR
         DB_UI <--> DB_LC
         DB_LC <--> DB_DB
     end
-    
+
     DA_LC <--> SS_CRDT
     DB_LC <--> SS_CRDT
-    
+
     classDef device fill:#e3f2fd
     classDef server fill:#f1f8e9
-    
+
     class DA_UI,DA_LC,DA_DB,DB_UI,DB_LC,DB_DB device
     class SS_CRDT,SS_MERGE,SS_STORE server
 ```
