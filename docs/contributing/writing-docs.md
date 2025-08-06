@@ -2,7 +2,8 @@
 
 Except for a few sections, most of the documentation is aimed at end users. It is important to keep this in mind when writing documentation. In practice, this means that it is better to be a bit verbose and write out every step in a process than to assume that the reader is on the writer's technical level.
 
-<details><summary>Read example</summary>
+<details>
+<summary>Read example</summary>
 
 For those with experience, the process is straightforward and familiar: _To update with our latest releases, simply use the `git pull` command from the `master` branch of your local directory of Actual. Once the changes are updated, execute the `yarn install` to download the latest updates from the releases._
 
@@ -78,7 +79,8 @@ The documentation folder structure should follow the structure in the left of th
 This means sections with more than one page have their own directories.
 
 
-<details><summary>Click here to get an overview of the folder structure</summary>
+<details>
+<summary>Click here to get an overview of the folder structure</summary>
 
 ```
 website # the root directory of the documentation site
@@ -236,13 +238,17 @@ Your warning content
 ### Hiding and showing  information
 
 
-<details><summary>This is a summary box, click here to see how it's made</summary>
+<details>
+<summary>This is a summary box, click here to see how it's made</summary>
 
-`<details><summary>The title of the summary</summary>`
+```
+<details>
+<summary>The title of the summary</summary>
 
 Place the content inside the details-tags.
 
-`</details>`
+</details>
+```
 
 
 </details>
@@ -328,7 +334,8 @@ If the annotation tool doesn't support 'steps ', use boxes in different colors a
 ![Image with 3 different colored boxes](/static/img/repo/annotation-colour-boxes.png)
 
 
-<details><summary>Read example description of this way of annotating</summary>
+<details>
+<summary>Read example description of this way of annotating</summary>
 
 
 **Using _steps_**
@@ -389,7 +396,8 @@ Different annotation tools handle this in various ways, which means we will get 
 
 ![Image of the budget view using the dark theme showing how highlights or spotlight annotations make the image hard to read](/static/img/repo/annotation-highlights-are-bad.png)
 
-<details><summary>It might work when using the light theme</summary>
+<details>
+<summary>It might work when using the light theme</summary>
 
 However, because we dim down the rest of the image, this breaks over the notion that images should be clear and crisp.
 

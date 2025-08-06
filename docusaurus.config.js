@@ -1,8 +1,7 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const { themes } = require('prism-react-renderer');
 
 const defaultOptions = {
   editUrl: 'https://github.com/actualbudget/docs/tree/master/',
@@ -35,6 +34,8 @@ module.exports = {
   },
 
   themes: ['@docusaurus/theme-mermaid'],
+
+  onUntruncatedBlogPosts: 'ignore',
 
   presets: [
     [
@@ -140,8 +141,8 @@ module.exports = {
         copyright: `Copyright © ${new Date().getFullYear()} Actual Budget. Built with Docusaurus.`,
       },
       prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
+        theme: themes.github,
+        darkTheme: themes.dracula,
         additionalLanguages: ['nginx'],
       },
     }),
