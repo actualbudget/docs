@@ -171,6 +171,7 @@ const sidebars = {
             'accounts/reconciliation',
             'transactions/payees',
             'transactions/bulk-editing',
+            'transactions/tags',
             {
               type: 'category',
               label: 'Connecting Your Bank',
@@ -320,6 +321,7 @@ const sidebars = {
             'contributing/leadership/triaging-issues',
             'contributing/leadership/new-core-contributors-guide',
             'contributing/leadership/cursor-ide',
+            'contributing/leadership/paying-contributors',
           ],
         },
       ],
