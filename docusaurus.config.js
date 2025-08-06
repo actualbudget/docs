@@ -147,7 +147,7 @@ module.exports = {
 
       zoom: {
         // See: https://github.com/timmywil/panzoom for available options
-
+        disableZoom: true,
         // A list of selectors to look for elements to enable pan and zoom
         selectors: [
           'div.mermaid[data-processed="true"]:not(.panzoom-exclude *)',
@@ -163,7 +163,7 @@ module.exports = {
         // The amount of time to wait in MS before the plugin client module tries to look for
         // and alter pan zoom elements. Some renders take a little bit before they appear in the
         // dom to find.
-        timeout: 1000,
+        timeout: 2000,
         excludeClass: 'panzoom-exclude',
 
         toolbar: {
