@@ -1,6 +1,7 @@
 # Restarting Your Budget
 
 If you've fallen behind on your budgeting and want to start fresh without starting from scratch.
+
 This means that you want to reset your budget while keeping your categories, payees, rules and schedules. Bellow we have described two methods to restart your budget: one by deleting all transactions and another without deleting any transactions.
 
 If you're ok with truly starting completely from scratch, [just make a new file](/docs/getting-started/starting-fresh/).
@@ -17,11 +18,13 @@ Remember to [back up your budget](/docs/backup-restore/backup) before making any
 - Select all transactions by clicking the checkbox at the top of the list (or use the shortcut `Ctrl + A` on Windows or `Cmd + A` on Mac).
 - Click on the lilac dropdown menu at the top of the transaction list and select **Delete**.
 
+![Steps for deleting all transactions](/img/accounts/account-delete-all-transactions.png)
+
+
 ### Step 2: Set Starting Balances
 - Go to each account and set the starting balance for today's date to the current amount in that account.
 
 ### Step 3: Adjust Previous Months' Category Balances
-This step is the same as bellow:
 - Navigate to the month prior to your new start (e.g., the end of May, if the month you're restarting from is June).
 - Review each budget category:
   - If a category has a **negative balance**, allocate additional funds to bring the balance to zero.

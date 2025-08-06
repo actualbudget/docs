@@ -6,7 +6,7 @@ This guide will walk through setting up a budget file fresh without migrating fr
 Before continuing, it might be a good idea to read about the [envelope method](/docs/getting-started/envelope-budgeting), or zero-sum
 budgeting as it's also called.
 
-If you only want to reset your budget while keeping your categories, payees, rules and schedules, you can follow the guide on [Restarting Your Budget](/docs/advanced/restart).
+If you want to restart an existing budget while keeping your categories, payees, rules, and schedules, you can follow the guide on [Restarting Your Budget](/docs/advanced/restart).
 
 ## 1. Setting up Accounts
 It is recommended to add all accounts you have to Actual.
