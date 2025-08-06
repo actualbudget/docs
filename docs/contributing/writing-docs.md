@@ -208,6 +208,14 @@ Your cautionary item
 :::
 ```
 
+If you want to make a reader aware of something really important that can mess up their budget, use this:
+
+```markdown
+:::warning
+Your warning content
+:::
+```
+
 #### The above highlights will be rendered as follows
 :::tip
 Your tip content
@@ -221,6 +229,9 @@ Your note content
 Your cautionary item
 :::
 
+:::warning
+Your warning content
+:::
 
 ### Hiding and showing  information
 
@@ -235,6 +246,18 @@ Place the content inside the details-tags.
 
 
 </details>
+
+## How To Fix Spelling Errors
+
+As part of the build process, GitHub actions runs a spell checker bot on the documentation. If the bot finds any spelling error, it will be reported in the build output on GitHub. You must fix this by editing the file and correcting the spelling error.
+
+
+![Image of spelling bot error](/static/img/repo/spellingbot-example.png)
+
+
+
+If the bot mistakes a word, you can add it to the `/.github/actions/spelling/allow/keywords.txt` file.
+This will prevent the bot from reporting this word as a spelling error in the future.
 
 
 ## Naming Standards

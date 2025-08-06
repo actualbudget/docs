@@ -13,16 +13,16 @@ for it to be added, your project must have a proper README file.
 
 The following are implementations of bank syncing using the Actual API. For instructions on using them, see the respective repositories.
 
+* **Akahu and Up bank sync to Actual Budget** - https://github.com/tim-smart/actualbudget-sync
 * **Caju Brazil bank exporter to OFX** - https://github.com/Kasama/caju-actual-budget-importer
 * **Credit Suisse, Cembra Money Bank, DKB, ZKB, and Interactive Brokers CVS import** - https://github.com/wirhabenzeit/actual-budget-cli
 * **ICS Cards Holland CVS exporter** - https://github.com/IeuanK/ICS-Exporter/
 * **ING bank CSV import** - https://github.com/jvmap/ActualBudgetTransformer
+* **MoneyMan an israel banks importer** - https://github.com/daniel-hauser/moneyman
 * **Monobank bank sync** - https://github.com/dnullproject/mono-to-actualbudget
 * **My Edenred Portugal bank sync** - https://github.com/rodriguestiago0/myedenred-actual
 * **Norwegian Trumf Visa PDF invoice to Actual Budget friendly CSV converter** - https://github.com/RubenOlsen/TrumfVisa2ActualBudget
 * **Plaid bank sync** - https://github.com/youngcw/actualplaid
-
-
 
 ## Other Importers
 
@@ -48,8 +48,10 @@ Actual currently has official support for migrating budgets from YNAB4 and nYNAB
 
 ## Various utilities to enhance Actual's functionality
 
-* **Actual Tap** - https://github.com/bobokun/actualtap-py
-   - *Provides an API to integrate tap-to-pay transactions on mobile devices with Actual Budget.*
+* **ActualTap** - https://github.com/MattFaz/actualtap
+   - *Provides a simple API to integrate tap-to-pay transactions on mobile devices with Actual Budget.*
+* **ActualTap-Py** - https://github.com/bobokun/actualtap-py
+   - *Python fork of ActualTap with additional features including offline/retry support & adding multiple transactions in a single request.*
 * **Actual AI** - https://github.com/sakowicz/actual-ai
    - *Categorize transactions using AI.*
 * **Actual Helpers** - https://github.com/psybers/actual-helpers
@@ -62,6 +64,12 @@ Actual currently has official support for migrating budgets from YNAB4 and nYNAB
    - *Tool which will back up Actual Budget and upload it to the configurable destination using the clone utility.*
 * **Actual Budget Prometheus Exporter** - https://github.com/sakowicz/actual-budget-prometheus-exporter
    - *Prometheus metrics exporter and Grafana Dashboard.*
+* **Actual Budget Auto Sync** - https://github.com/seriouslag/actual-auto-sync
+   - *A background service that automatically syncs your Actual Budget accounts on a scheduled basis.*
+* **Actual Userscripts** - https://github.com/pogman-code/actual-userscripts
+   - *A collection of JavaScript/CSS Userscripts for Actual Budget.*
+* **Actual Budget iOS Widget** - https://github.com/TaylorJns/Actual-Budget-iOS-Widget
+   - *An iOS widget to display your Actual Budget category balances for the current month. Requires your Actual server to be accessible via HTTPS, and the **Local REST API** community project to be installed.*
 
 
 ## Others

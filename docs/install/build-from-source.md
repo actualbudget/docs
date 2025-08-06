@@ -2,11 +2,12 @@
 
 :::info
 
-Installing Actual by building it from source is a highly technical process. We recommend this approach primarily for power users and contributors.
+Installing Actual by building it from source is a highly technical process. We recommend this approach primarily for contributors.
 
-For non-technical users, we suggest opting for one of the simpler alternatives:
+For most cases, we suggest opting for one of the simpler alternatives:
 - [Pikapods](/docs/install/pikapods)
 - [Desktop Client](/download)
+- [CLI tool](/docs/install/cli-tool)
 - [Docker](/docs/install/docker)
 
 :::
@@ -15,7 +16,7 @@ Actual server is used for syncing changes across devices. It comes with the late
 
 ## Prerequisites
 
-- The Actual server requires Node.js v18 or greater. You can download and install the latest version of Node.js from [Node.js website](https://nodejs.org/en/download) (we recommend downloading the “LTS” version).
+- The Actual server requires Node.js v20 or greater. You can download and install the latest version of Node.js from [Node.js website](https://nodejs.org/en/download) (we recommend downloading the “LTS” version).
   - If you're on Windows, during installation of Node.js, be sure to select _Automatically install the necessary tools_ from the _Tools for Native Modules_ page. This is required to build better-sqlite3. If you missed this when you installed Node.js, double-click ```C:\Program Files\nodejs\install_tools.bat``` from the File Explorer or run it in a terminal.
 - Consider using a tool like [nvm](https://github.com/nvm-sh/nvm) or [asdf](https://asdf-vm.com) to install and manage multiple versions of Node.js.
 - You’ll also need to have Git installed. For Windows users, you'll also need Git Bash. The Git website has [instructions for downloading and working with Git for all supported operating systems](https://git-scm.com/download).
