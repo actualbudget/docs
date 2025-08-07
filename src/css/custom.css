@@ -57,6 +57,10 @@ h1 {
   opacity: 0.5;
 }
 
+.no-indent > .menu__list {
+  padding-left: 0;
+}
+
 .menu__list-item-collapsible > .menu__link:not([href]) {
   pointer-events: none;
   user-select: none;
