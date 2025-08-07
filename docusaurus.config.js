@@ -149,6 +149,12 @@ module.exports = {
         additionalLanguages: ['nginx'],
       },
 
+      colorMode: {
+        defaultMode: 'light',
+        disableSwitch: false,
+        respectPrefersColorScheme: true,
+      },
+
       zoom: {
         // See: https://github.com/timmywil/panzoom for available options
         disableZoom: true,
