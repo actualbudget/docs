@@ -46,6 +46,11 @@
       "last 1 safari version"
     ]
   },
+  "overrides": {
+    "@cmfcmf/docusaurus-search-local": {
+      "@docusaurus/core": "^3.8.1"
+    }
+  },
   "engines": {
     "node": ">=18.0"
   },
