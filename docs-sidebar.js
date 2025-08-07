@@ -195,7 +195,7 @@ const sidebars = {
             type: 'doc',
             id: 'reports/index',
           },
-          items: ['reports/custom-reports', 'reports/index'],
+          items: ['reports/custom-reports'],
         },
         {
           type: 'category',
