@@ -187,7 +187,6 @@ const sidebars = {
             'advanced/scripts/modify-transfers',
           ],
         },
-
         {
           type: 'category',
           label: 'Reports',

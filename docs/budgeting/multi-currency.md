@@ -49,11 +49,11 @@ This uses an *experimental feature*, so we’re still working on finishing it. T
 
      ![Rule Action Template Mode](/static/img/multi-currency/rule-action-template.png)
 
-     - *set notes* with this content: **{{ fixed (div amount 100) 2 }} XXX (FX rate: FX_RATE) • {{ notes }}**, where XXX is the currency code.
+     - *set notes* with this content: **`{{ fixed (div amount 100) 2 }}` XXX (FX rate: FX_RATE) • `{{ notes }}`**, where XXX is the currency code.
        - FX_RATE is the exchange rate (i.e., insert 0.65 for 1 AUD = 0.65 USD).
      - Click the + symbol to add a new action line.
      - Click the Template toggle button for this line.
-     - *set amount* to: **{{ fixed (mul amount FX_RATE) 0 }}**.
+     - *set amount* to: **`{{ fixed (mul amount FX_RATE) 0 }}`**.
        - FX_RATE is the same as above.
    - Click on the *Save* button.
 
@@ -69,11 +69,11 @@ This uses an *experimental feature*, so we’re still working on finishing it. T
      - ```notes``` **is** set to *nothing*.
    - Under *Then apply these actions:*
      - Click the Template toggle button on the left side of the action, just to the right of the -/+ symbols.
-     - *set notes* with this content: **{{ fixed (div amount 100) 2 }} XXX (FX rate: FX_RATE)**, where XXX is the same currency code from the first rule.
+     - *set notes* with this content: **`{{ fixed (div amount 100) 2 }}` XXX (FX rate: FX_RATE)**, where XXX is the same currency code from the first rule.
        - FX_RATE is the exchange rate from the first rule.
      - Click the + symbol to add a new action line.
      - Click the Template toggle button for this line.
-     - *set amount* to: **{{ fixed (mul amount FX_RATE) 0 }}**.
+     - *set amount* to: **`{{ fixed (mul amount FX_RATE) 0 }}`**.
        - FX_RATE is the same as above.
    - Click on the *Save* button.
 
