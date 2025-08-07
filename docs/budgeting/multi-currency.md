@@ -21,7 +21,7 @@ This uses an *experimental feature*, so we’re still working on finishing it. T
      - Add a note to the account ```#currency:XXX``` where XXX is the 3-letter currency code as defined by [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217) (i.e., EUR, USD, AUD, etc).
      - Name the account with the currency code in parens (i.e., ```Australian Cash (AUD)```).
 
-     ![Account Name and Notes](/static/img/multi-currency/account-name-and-note.png)
+     ![Account Name and Notes](/img/multi-currency/account-name-and-note.png)
 
      Neither is required, but naming the account this way or creating a note will allow a smooth transition when multi-currency is enabled.
 
@@ -31,7 +31,7 @@ This uses an *experimental feature*, so we’re still working on finishing it. T
 
    **Rule 1:**
 
-   ![Rule 1](/static/img/multi-currency/rule-1.png)
+   ![Rule 1](/img/multi-currency/rule-1.png)
 
    - From the Rules page, click on the *Create new rule* button in the bottom right.
    - In the Rule Modal edit popup.
@@ -43,11 +43,11 @@ This uses an *experimental feature*, so we’re still working on finishing it. T
    - Under *Then apply these actions:*
      - Click the Template toggle button on the left side of the action, just to the right of the -/+ symbols. The action must be of type *set notes* or *set amount* before the Template toggle button appears.
 
-     ![Rule Action Template mode not available](/static/img/multi-currency/rule-action.png)
+     ![Rule Action Template mode not available](/img/multi-currency/rule-action.png)
 
-     ![Rule Action Normal Mode](/static/img/multi-currency/rule-action-normal-instructions.png)
+     ![Rule Action Normal Mode](/img/multi-currency/rule-action-normal-instructions.png)
 
-     ![Rule Action Template Mode](/static/img/multi-currency/rule-action-template.png)
+     ![Rule Action Template Mode](/img/multi-currency/rule-action-template.png)
 
      - *set notes* with this content: **`{{ fixed (div amount 100) 2 }}` XXX (FX rate: FX_RATE) • `{{ notes }}`**, where XXX is the currency code.
        - FX_RATE is the exchange rate (i.e., insert 0.65 for 1 AUD = 0.65 USD).
@@ -59,7 +59,7 @@ This uses an *experimental feature*, so we’re still working on finishing it. T
 
    **Rule 2:**
 
-   ![Rule 2](/static/img/multi-currency/rule-2.png)
+   ![Rule 2](/img/multi-currency/rule-2.png)
 
    - From the Rules page, click on the *Create new rule* button in the bottom right.
    - In the Rule Modal edit popup.
@@ -80,15 +80,15 @@ This uses an *experimental feature*, so we’re still working on finishing it. T
 ## Usage
 1. Create a transaction in the foreign currency account using the foreign currency amount. (i.e., if the normal budget currency is USD but the account is AUD, then enter the AUD amount in the Payment or Deposit column).
 
-   ![Pre-Conversion Transaction](/static/img/multi-currency/usage-preconvert.png)
+   ![Pre-Conversion Transaction](/img/multi-currency/usage-preconvert.png)
 
 2. Go to the Rules page and select one of the two rules for that account. At the bottom will be transactions to which the rule can be applied.
    - If you do not see the transaction(s) that you want to convert, click cancel and check the other rule for that account.
    - Select the transaction(s) that you would like to convert and click the *Apply actions* button.
    - Once the actions have been applied, click cancel since you don't want to change the rule.
 
-![Apply Exchange Rate to Transaction](/static/img/multi-currency/usage-convert.png)
+![Apply Exchange Rate to Transaction](/img/multi-currency/usage-convert.png)
 
 3. Return to the foreign currency account to verify that the transaction was converted.
 
-   ![Post-Conversion Transaction](/static/img/multi-currency/usage-postconvert.png)
+   ![Post-Conversion Transaction](/img/multi-currency/usage-postconvert.png)

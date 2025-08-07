@@ -5,10 +5,7 @@ const { themes } = require('prism-react-renderer');
 
 const defaultOptions = {
   editUrl: 'https://github.com/actualbudget/docs/tree/master/',
-  beforeDefaultRemarkPlugins: [
-    require('./src/remark/rewrite-images'),
-    require('./src/remark/mentions'),
-  ],
+  beforeDefaultRemarkPlugins: [require('./src/remark/mentions')],
 };
 
 /** @type {import('@docusaurus/types').Config} */
