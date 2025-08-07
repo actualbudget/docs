@@ -17,16 +17,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@algolia/autocomplete-core@npm:1.17.0":
-  version: 1.17.0
-  resolution: "@algolia/autocomplete-core@npm:1.17.0"
-  dependencies:
-    "@algolia/autocomplete-plugin-algolia-insights": 1.17.0
-    "@algolia/autocomplete-shared": 1.17.0
-  checksum: 326035fbdc055c823be145724e7934ae7ddd3629da1dd869a6ba8bab9547235b96339c1ec977bab31a8dcf36a39564653b80bed9a1ad1783b6ccf5545ba7e992
-  languageName: node
-  linkType: hard
-
 "@algolia/autocomplete-core@npm:1.17.9":
   version: 1.17.9
   resolution: "@algolia/autocomplete-core@npm:1.17.9"
@@ -37,30 +27,29 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@algolia/autocomplete-js@npm:^1.5.1":
-  version: 1.17.0
-  resolution: "@algolia/autocomplete-js@npm:1.17.0"
+"@algolia/autocomplete-core@npm:1.19.2":
+  version: 1.19.2
+  resolution: "@algolia/autocomplete-core@npm:1.19.2"
   dependencies:
-    "@algolia/autocomplete-core": 1.17.0
-    "@algolia/autocomplete-preset-algolia": 1.17.0
-    "@algolia/autocomplete-shared": 1.17.0
+    "@algolia/autocomplete-plugin-algolia-insights": 1.19.2
+    "@algolia/autocomplete-shared": 1.19.2
+  checksum: a23def50bd74da864dedc1286b954216a8637cff6b836bbc199b4324072ba6db84ec51b562f7983d75144d9be0b17b8cf65ceb8ba1b1255e88eb89244ce5a9bf
+  languageName: node
+  linkType: hard
+
+"@algolia/autocomplete-js@npm:^1.8.2":
+  version: 1.19.2
+  resolution: "@algolia/autocomplete-js@npm:1.19.2"
+  dependencies:
+    "@algolia/autocomplete-core": 1.19.2
+    "@algolia/autocomplete-preset-algolia": 1.19.2
+    "@algolia/autocomplete-shared": 1.19.2
     htm: ^3.1.1
     preact: ^10.13.2
   peerDependencies:
     "@algolia/client-search": ">= 4.5.1 < 6"
     algoliasearch: ">= 4.9.1 < 6"
-  checksum: d048de6c218b4c17ea160fa4a2dd1aeed1fe298e481212b633e540608bc9db3fd0a4bf7c55c9ef255c893b92b22c7c55c77cc898a047ba31ea8115a65f3855ce
-  languageName: node
-  linkType: hard
-
-"@algolia/autocomplete-plugin-algolia-insights@npm:1.17.0":
-  version: 1.17.0
-  resolution: "@algolia/autocomplete-plugin-algolia-insights@npm:1.17.0"
-  dependencies:
-    "@algolia/autocomplete-shared": 1.17.0
-  peerDependencies:
-    search-insights: ">= 1 < 3"
-  checksum: ab32c31ab43cadb2bfe9b304e959f1afb6584bb2f0fa618637a3d75fd7c450eff731eb31a89157a3b4a630b6dbb222f2df480dfd8f931a6f978f1c95eb1c47d2
+  checksum: 4580d9951c821df479feb0927b17c45fbc23e84c66a283362e7728e75942e91b2468b304a2388ae563ab50f954d2092584d0255aaa0529c8a70d12e3df6fc64d
   languageName: node
   linkType: hard
 
@@ -75,15 +64,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@algolia/autocomplete-preset-algolia@npm:1.17.0":
-  version: 1.17.0
-  resolution: "@algolia/autocomplete-preset-algolia@npm:1.17.0"
+"@algolia/autocomplete-plugin-algolia-insights@npm:1.19.2":
+  version: 1.19.2
+  resolution: "@algolia/autocomplete-plugin-algolia-insights@npm:1.19.2"
   dependencies:
-    "@algolia/autocomplete-shared": 1.17.0
+    "@algolia/autocomplete-shared": 1.19.2
   peerDependencies:
-    "@algolia/client-search": ">= 4.9.1 < 6"
-    algoliasearch: ">= 4.9.1 < 6"
-  checksum: 9e3d779ceaf6bb2b202fb7a7c1a2f5de36f4d6acb8b52ba9f6a67651f74852c3092da899f69fc928e321017f4c5451b7bcef57b021292ec2988378896b4625a3
+    search-insights: ">= 1 < 3"
+  checksum: a6e4d14ba86edb12b3006355058b1b674abd3211b5ac9a469f859c900737d8a3257cbad7b399eba087f3153b12dced97ed281c8c0c6f70873528240bfaaae9b5
   languageName: node
   linkType: hard
 
@@ -99,13 +87,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@algolia/autocomplete-shared@npm:1.17.0":
-  version: 1.17.0
-  resolution: "@algolia/autocomplete-shared@npm:1.17.0"
+"@algolia/autocomplete-preset-algolia@npm:1.19.2":
+  version: 1.19.2
+  resolution: "@algolia/autocomplete-preset-algolia@npm:1.19.2"
+  dependencies:
+    "@algolia/autocomplete-shared": 1.19.2
   peerDependencies:
     "@algolia/client-search": ">= 4.9.1 < 6"
     algoliasearch: ">= 4.9.1 < 6"
-  checksum: a5bccecd50c770bca34263631a280332c5884a2a2879b27fadd5ef3dc78425db697c0cf54b11da9c84565bfe10d0b3cc4be46742e798619011c41c5e6297c821
+  checksum: 92f63ba38a0a0c870def8c7956b85d5b9d8bc6781d47c34cf27b4feb3fb2910fdb1560e2426a6a0bedba8b5923ecd07112430224b8a2694fdc9f600b6c545101
   languageName: node
   linkType: hard
 
@@ -119,10 +109,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@algolia/autocomplete-theme-classic@npm:^1.5.1":
-  version: 1.17.0
-  resolution: "@algolia/autocomplete-theme-classic@npm:1.17.0"
-  checksum: 71f314bbc6ed1061c94f6899669e8a50559cef81c8aea3545c0ffed6a24a54604360b05a8b8624d17bc9fd3d2514ffd2586ee23bf26189a607592cbf52ad6fe1
+"@algolia/autocomplete-shared@npm:1.19.2":
+  version: 1.19.2
+  resolution: "@algolia/autocomplete-shared@npm:1.19.2"
+  peerDependencies:
+    "@algolia/client-search": ">= 4.9.1 < 6"
+    algoliasearch: ">= 4.9.1 < 6"
+  checksum: 34803e0de6b6e08352f46daa9b3e566204dd438f3a84d6dee5c808676d4281504b6cf320a25eaf5e7bd8ab9f7cf47fbd771412872e02349c65bbdaef4580a11a
+  languageName: node
+  linkType: hard
+
+"@algolia/autocomplete-theme-classic@npm:^1.8.2":
+  version: 1.19.2
+  resolution: "@algolia/autocomplete-theme-classic@npm:1.19.2"
+  checksum: 2edf7c75e8bed5d8cd152d2dcc289b3baff6cd6df3f44726d391ffbc83cd2805b6927ac326e6095eef2d6423b92350f4a069162c4395864f6d744c8846ad436e
   languageName: node
   linkType: hard
 
@@ -3219,25 +3219,26 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cmfcmf/docusaurus-search-local@npm:^0.11.0":
-  version: 0.11.0
-  resolution: "@cmfcmf/docusaurus-search-local@npm:0.11.0"
+"@cmfcmf/docusaurus-search-local@npm:^1.2.0":
+  version: 1.2.0
+  resolution: "@cmfcmf/docusaurus-search-local@npm:1.2.0"
   dependencies:
-    "@algolia/autocomplete-js": ^1.5.1
-    "@algolia/autocomplete-theme-classic": ^1.5.1
+    "@algolia/autocomplete-js": ^1.8.2
+    "@algolia/autocomplete-theme-classic": ^1.8.2
     "@algolia/client-search": ^4.12.0
     algoliasearch: ^4.12.0
     cheerio: ^1.0.0-rc.9
     clsx: ^1.1.1
     lunr-languages: ^1.4.0
     mark.js: ^8.11.1
+    tslib: ^2.6.3
   peerDependencies:
-    "@docusaurus/core": ^v2.0.0-beta.21
+    "@docusaurus/core": ^2.0.0
     nodejieba: ^2.5.0
   peerDependenciesMeta:
     nodejieba:
       optional: true
-  checksum: 9657bc43987bb8fedeb48a50d1aa375fd947d9d7a3c46f09320c369e7c974ef8c6161847dba35b5166a1d83ce63120bdf6046c8fb4af8e147b8b9adde887737f
+  checksum: 60aaa43720f6c4263ed8e09b0086ba48e62d668f6b8d7e8dbd9045186727727640e03ef6cb4352b2305390339e1850532232d5468e34332af6ebe6f3da1f055d
   languageName: node
   linkType: hard
 
@@ -6865,7 +6866,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "actual-community-docs@workspace:."
   dependencies:
-    "@cmfcmf/docusaurus-search-local": ^0.11.0
+    "@cmfcmf/docusaurus-search-local": ^1.2.0
     "@docusaurus/core": ^3.8.1
     "@docusaurus/module-type-aliases": ^3.8.1
     "@docusaurus/plugin-content-docs": ^3.8.1
@@ -18305,7 +18306,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tslib@npm:^2.6.0":
+"tslib@npm:^2.6.0, tslib@npm:^2.6.3":
   version: 2.8.1
   resolution: "tslib@npm:2.8.1"
   checksum: e4aba30e632b8c8902b47587fd13345e2827fa639e7c3121074d5ee0880723282411a8838f830b55100cbe4517672f84a2472667d355b81e8af165a55dc6203a

@@ -158,7 +158,7 @@ graph TB
 **What it does**: React-based UI that works in both desktop app and web environments.
 
 **Key directories**:
-- `src/components/` - All React componsents organized by feature
+- `src/components/` - All React components organized by feature
 - `src/hooks/` - Custom React hooks for state management
 - `src/style/` - CSS modules and theme system
 - `src/browser-preload.browser.js` - Web app initialization
