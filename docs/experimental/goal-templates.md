@@ -516,13 +516,13 @@ If you run templates, you get the following:
 
 | Template Line(s) | Amount budgeted | Balance(indication color) |
 |:---|:---:|---:|
-| `#template 50`<br>`#goal 500` | 50 | 450(yellow) |
+| `#template 50` <br /> `#goal 500` | 50 | 450(yellow) |
 
 If you have some extra funds after templates are run and can budget that last 50, you get the following:
 
 | Template Line(s) | Amount budgeted | Balance(indication color) |
 |:---|:---:|---:|
-| `#template 50`<br>`#goal 500` | 100 | 500(green) |
+| `#template 50` <br /> `#goal 500` | 100 | 500(green) |
 
 #### Notes on The Goal Directive
 * The `#goal` templates are run the same way as the regular `#templates`.
