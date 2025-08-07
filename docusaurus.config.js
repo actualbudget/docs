@@ -47,6 +47,13 @@ module.exports = {
         },
         blog: {
           ...defaultOptions,
+          feedOptions: {
+            type: 'rss',
+            title: 'Actual Budget Blog',
+            description:
+              'Stay updated with the latest blog posts from Actual Budget',
+            copyright: `Copyright © ${new Date().getFullYear()} Actual Budget. All rights reserved.`,
+          },
           onUntruncatedBlogPosts: 'ignore',
         },
         theme: {
@@ -134,7 +141,7 @@ module.exports = {
           },
           {
             label: 'RSS Feed',
-            href: '/blog/rss.xml',
+            href: 'https://actualbudget.org/blog/rss.xml',
           },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Actual Budget. Built with Docusaurus.`,
