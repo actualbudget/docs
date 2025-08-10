@@ -12,7 +12,7 @@ Standard on most screens:
 
 ## Top Right Corner
 
-* The eye icon will scramble the numbers on the screen. This is useful if you need to report a bug to the Actual team but want to keep your numbers private. There are some caveats to this, so please read the [Scramble and Hide Data](/docs/getting-started/tips-tricks#scramble-and-hide-data#) section in the Tips & Tricks guide.
+* The eye icon will scramble the numbers on the screen. This is useful if you need to report a bug to the Actual team but want to keep your numbers private. There are some caveats to this, so please read the [Scramble and Hide Data](/docs/getting-started/tips-tricks#scramble-and-hide-data) section in the Tips & Tricks guide.
 * If clicking on the sync icon, your local file will sync to the server.
 * The current text, _Server online_ shows the connection status. Thus, it could easily read _Server offline_ if you are not connected to a server. If you click on this text, you can change your password, sign out of the server or change the server URL.
 
