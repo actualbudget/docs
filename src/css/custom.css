@@ -77,3 +77,32 @@ h1 {
 img {
   height: auto;
 }
+
+/* Center content on markdown pages */
+main .container {
+  max-width: 950px;
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* Alternative approach - target the main content area */
+.main-wrapper {
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+/* Ensure download table is responsive and centered */
+article table {
+  margin: 0 auto;
+  max-width: 100%;
+  overflow-x: auto;
+  display: block;
+  white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+  article table {
+    font-size: 0.875rem;
+  }
+}
