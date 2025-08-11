@@ -15,8 +15,8 @@ Below is a list of the most useful shortcuts.
 ### The Command Palette
 
 The Command Palette is a powerful tool which allows you to quickly access various features and functions within Actual.
-- On Windows and Linux, you can open it by pressing the <Key mod="ctrl" k="k" /> combination to open the Command Palette.
-- On macOS, you can use the <Key mod="cmd" k="k" /> or the <Key mod="ctrl" k="k" /> key combinations to open the Command Palette.
+- On Windows and Linux, you can open it by pressing the <Key mod="ctrl" fixed k="k" /> combination to open the Command Palette.
+- On macOS, you can use the <Key mod="cmd" fixed k="k" /> or the <Key mod="ctrl" fixed k="k" /> key combinations to open the Command Palette.
 
 ![Command Palette](/img/tips-tricks/command-palette.png)
 
@@ -75,31 +75,31 @@ This only controls the _maximum_ number of months. If the app is too small to re
 
 ## Scramble and Hide Data
 
-Actual Budget has a built-in privacy filter which help you
-hide your data from prying eyes.
+Actual Budget includes a privacy filter to help you obfuscate sensitive *amounts* on screen.
 
-To do this: click on the eye icon in the top right corner of the app.
-
-![Top right corner](/static/img/a-tour-of-actual/tour-overview-top-right.png)
-
-This will scramble all of your data, including payees, categories, and
-transactions.
-
-This is useful if you want to create a screenshot of your data without
-showing your actual data. This is useful when you need to show your
-budget to someone else, like other Actual users in our Discord.
-
-![Top right corner](/static/img/tips-tricks/scrambled-clear-view.png)
-
-
-:::note
-This only hide data - no data is lost or encrypted.
+:::important
+Be advised that when you hover over scrambled items, the amounts will be shown. This is a feature to help you see the actual amounts when you need them, but it may not be suitable for sharing screenshots or screen recordings.
 :::
 
-To unhide the data, click on the eye icon again. This will show the data in
-its original form.
+**Turn it on**: Click the _eye icon_ in the top-right corner of the app.
 
-![Top right corner](/static/img/tips-tricks/scrambled-scrambled-view.png)
+![Top right corner](/img/a-tour-of-actual/tour-overview-top-right.png)
+
+When enabled, only currency amounts are scrambled so you can take screenshots or share your screen without exposing real numbers.
+
+![Top right corner](/img/tips-tricks/scrambled-scrambled-view.png)
+
+What changes when the filter is on
+- Hidden/Scrambled: account balances, budgeted/available amounts, transaction amounts, totals in reports and widgets.
+- Remain Visible: account names, category group and category names, payee names, transaction dates, notes/memos, flags, cleared status, and the presence of individual transactions (only the amounts are scrambled).
+
+:::note
+The privacy filter is visual only: it does not encrypt, delete, or alter your saved data or exports.
+:::
+
+
+**Turn it off**: Click the _eye icon_ again to restore normal viewing. This will show the data in its original form.
+
 
 
 ## Show The Running Balance
