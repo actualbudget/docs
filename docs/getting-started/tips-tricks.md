@@ -75,9 +75,9 @@ This only controls the _maximum_ number of months. If the app is too small to re
 
 ## Scramble and Hide Data
 
-Actual Budget has a built-in privacy filter which help you
-hide your data from prying eyes.
+Actual Budget includes a privacy filter to help you obfuscate sensitive *amounts* on screen.
 
+<<<<<<< HEAD
 To do this: click on the eye icon in the top right corner of the app.
 
 ![Top right corner](/img/a-tour-of-actual/tour-overview-top-right.png)
@@ -94,12 +94,35 @@ budget to someone else, like other Actual users in our Discord.
 
 :::note
 This only hide data - no data is lost or encrypted.
+=======
+:::important
+Be advised that when you hover over scrambled items, the amounts will be shown. This is a feature to help you see the actual amounts when you need them, but it may not be suitable for sharing screenshots or screen recordings.
+>>>>>>> ea2d334c40da3c38392555ae2b6ea15e30fe9c3b
 :::
 
-To unhide the data, click on the eye icon again. This will show the data in
-its original form.
+**Turn it on**: Click the _eye icon_ in the top-right corner of the app.
+
+![Top right corner](/img/a-tour-of-actual/tour-overview-top-right.png)
+
+When enabled, only currency amounts are scrambled so you can take screenshots or share your screen without exposing real numbers.
 
 ![Top right corner](/img/tips-tricks/scrambled-scrambled-view.png)
+
+What changes when the filter is on
+- Hidden/Scrambled: account balances, budgeted/available amounts, transaction amounts, totals in reports and widgets.
+- Remain Visible: account names, category group and category names, payee names, transaction dates, notes/memos, flags, cleared status, and the presence of individual transactions (only the amounts are scrambled).
+
+:::note
+The privacy filter is visual only: it does not encrypt, delete, or alter your saved data or exports.
+:::
+
+
+**Turn it off**: Click the _eye icon_ again to restore normal viewing. This will show the data in its original form.
+
+<<<<<<< HEAD
+![Top right corner](/img/tips-tricks/scrambled-scrambled-view.png)
+=======
+>>>>>>> ea2d334c40da3c38392555ae2b6ea15e30fe9c3b
 
 
 ## Show The Running Balance

@@ -89,17 +89,21 @@ For example:
 
 **Streaming Services: 42.97**
 
-    Netflix
-    #template 24.99
-    Disney Plus
-    #template 9.99
-    Amazon Prime
-    #template 7.99
+```
+Netflix
+#template 24.99
+Disney Plus
+#template 9.99
+Amazon Prime
+#template 7.99
+```
 
 **100 every month and an additional 10 every fortnight**
 
-    #template 10 repeat every 2 weeks starting 2025-01-04
-    #template 100
+```
+#template 10 repeat every 2 weeks starting 2025-01-04
+#template 100
+```
 
 ### Template Priorities
 
@@ -116,16 +120,23 @@ Templates can be given a priority flag to change the order that the templates ge
 
     - **Expected budgeted amount is 200**
     **Expected maximum category balance is 200**
+      ```
+      #template 300
+      #template-1 150 up to 200
+      ```
 
+<<<<<<< HEAD
         #template 300
         #template-1 150 up to 200
 
+=======
+>>>>>>> ea2d334c40da3c38392555ae2b6ea15e30fe9c3b
     - **Expected budgeted amount is 450**
     **No maximum category balance exists**
-
+        ```
         #template 150 up to 500
         #template-1 300
-
+        ```
 
 
 ### Notes on all templates
