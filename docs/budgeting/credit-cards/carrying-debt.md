@@ -47,7 +47,7 @@ If you have been paying the statement balance in full every month, but need to i
 #### Cards with Debt and No New Purchases {#debt-no-new}
 - If you are not paying off the debt on this card:
   - When your statement arrives, create the Interest & Fees transaction and categorize it to **Bank Name Credit Card**.
-  - [Reconcile](../docs/accounts/reconciliation.md) your account.
+  - [Reconcile](/docs/accounts/reconciliation.md) your account.
   - Make sure the amount in the **Budgeted** column is at least the statement Minimum Balance. If you need to add to it, _Cover_ any overspending by transferring from another category with a positive balance.
   - Transfer the amount in the **Budgeted** column from your deposit account and pay your bill.
 - If you are paying off the debt:
