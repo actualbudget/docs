@@ -81,6 +81,8 @@ At he beginning of July we budget for the expected Minimum Payments as part of o
 
 <img width="50%" height="50%" alt="Budget after necessary expenses" src="https://github.com/user-attachments/assets/872a956c-d012-41c9-8b78-ead8986850b4" />
 
+<img width="50%" height="50%" alt="Screenshot 2025-08-12 162708" src="https://github.com/user-attachments/assets/d7d3e5bd-9aae-43b2-903f-9467ec44e6e3" />
+
 During the month, we spend using our Budget as a guide. We use the DEMO Credit Card for some of our purchases. We do not use the Citibank Card.
 
 The Citibank Statement arrives and the account summary looks something like this:
@@ -107,7 +109,6 @@ Following [Cards with Debt and No New Purchases](#debt-no-new) we enter a transa
 Our **Budgeted** amount of 290.00 is larger than the Minimum Payment of $90.00, so we send Citibank $290.00 and transfer that amount from the deposit account we used to pay the bill.
 
 You will notice that the Citibank Balance matches the **Citi Card Debt** Balance. The Interest & Fees we added to the debt were canceled by our **Budgeted** amount that included them.
-
 
 <img width="50%" height="50%" alt="Citibank July" src="https://github.com/user-attachments/assets/e2397bb5-f57a-476d-a869-7b48b8d6ac2e" />
 <img width="50%" height="50%" alt="Budget July" src="https://github.com/user-attachments/assets/46bcdfb3-be04-4b9c-a3fb-5ebc21adaee8" />
