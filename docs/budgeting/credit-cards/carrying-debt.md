@@ -7,7 +7,7 @@ If you have an existing credit card debt that you need to track and gradually pa
 :::note
 To make it easier to follow along, the examples with screenshots are at the end.
 
-This guide is based on entering transactions manually and clearing and reconciling accounts from a monthly statement. It's too easy to spend willy-nilly when you sync all your purchases. Manual entry and reconciliation keeps you in touch with your spending and associated accounts. When you have paid off your debt, you can link up your card(s) and reconcile from a bank sync.
+This step-by-step guide is based on entering transactions manually and clearing and reconciling accounts from a monthly statement. It's too easy to spend willy-nilly when you sync all your purchases. Manual entry and reconciliation keeps you in touch with your spending and associated accounts. When you have paid off your debt, you can link up your card(s) and reconcile from a bank sync.
 :::
 
 ## Let's Pay Off that Debt!
@@ -20,18 +20,19 @@ Before we get started, check the settings for your Credit Card accounts to make 
 - Check that the _pills_ showing "Cleared total" and "Uncleared total" are showing under the account name.
   - To show the pills, hover over the account balance under the account name and press the expand >> arrows.
     <img width="50%" height="50%" alt="Account Page Balance Expand Arrows" src="https://github.com/user-attachments/assets/e89b532a-4ee9-4bea-aef9-f5e10c68ce43" />
+    <img width="50%" height="50%" alt="Account Page Balances Expanded" src="https://github.com/user-attachments/assets/80c224db-b772-40a6-95ef-8f32375a6104" />
 
-- When we use either the "Cleared total" or "Uncleared total" we will use the absolute value, the positive value without the (-) sign. So, if Actual shows "Cleared total: -2553.86", then we will use 2553.86.
+- When we use the "Uncleared total" we will use the absolute value, the positive value without the (-) sign. So, if Actual shows "Uncleared total: -2553.86", then we will use 2553.86.
 - While you are paying off your credit card(s), it is best to use a debit card or cash. If that is not possible, and you have a card with no debt, use that one to make new purchases so you can pay it in full every month using [Within the Budget](./index.md) and work to pay off another. In any case, use _**only one credit card**_ for new purchases and pay off the one with the highest interest first.
-- We recommend doing this On Budget. If you will not use the card again after it's completely paid off and you have received a statement with a $0 balance, you can [close](LINK HERE) the account.
+- We recommend doing this On Budget. If you will not use the card again after it's completely paid off and you have received a statement with a $0 balance, you can [close](/docs/accounts/index.md#closing-or-deleting-an-account) the account.
  
 ### Setting Up Actual Budget for Credit Card Debt
 
 - Create a **Credit Card Debt** Group 
-- Create a **Bank Name Credit Card** category in the group for each card carrying debt. Set them all to _Rollover Overspending_.
+- Create a **Bank-Name Card Debt** category in the group for each card carrying debt. Set them all to _Rollover Overspending_.
   - To set _Rollover Overspending_, right click on the category's Balance and choose it. A little arrow will now show next to the Balance.
-- For each credit card account, input a starting balance equal to the **total** amount owed. Include all transactions to date, as if you wanted to close the account. This starting balance goes in the "Payment" column. Change the category on this starting balance to **Bank Name Credit Card**.
-- Remember, categorize _any_ purchase that will not be paid for at the next statement as **Bank Name Credit Card**. 
+- For each credit card account, input a starting balance equal to the **total** amount owed. Include all transactions to date, as if you wanted to close the account. This starting balance goes in the "Payment" column. Change the category on this starting balance to **Bank-Name Card Debt**. 
+- Remember, categorize _any_ purchase that will not be paid for at the next statement as **Bank-Name Card Debt**. 
 
 :::note
 If you have been paying the statement balance in full every month, but need to incur debt for an emergency purchase enter the transaction normally, but categorize it as **Bank Name Credit Card**. Use the note field for a note or tag as to why. You can even use a split transaction if you only need to incur debt on part of the purchase!
@@ -41,18 +42,18 @@ If you have been paying the statement balance in full every month, but need to i
 
 #### All Cards with Debt
 - You must make Minimum Payments.  
-- At the beginning of the month, assign the expected Minimum Payment amount to the **Budgeted** column for each **Bank Name Credit Card** category. These payments are part of your necessary expenses each month. An easy way to calculate the Minimum Payment is to use the one from the last statement.
-- Each month when you do your budgeting, _after_ you've accounted for all necessary expense categories, including the minimum payments on each credit card in the **Credit Card Debt** Group, you can add extra to the credit card you want to pay off. Choose to pay off the card with the highest interest rate first. In the **Budgeted** column, **Add** the extra amount to the Minimum Payment you assigned earlier. For example, if your expected Minimum Payment is $113.23 and you want to pay an extra $100, change your **Budgeted** column to 213.23
+- At the beginning of the month, assign the expected Minimum Payment amount to the **Budgeted** column for each **Bank-Name Card Debt** category. These payments are part of your necessary expenses each month. An easy way to calculate the Minimum Payment is to use the one from the last statement.
+- Each month when you do your budgeting, _after_ you've accounted for all necessary expense categories, including the minimum payments on each credit card in the **Credit Card Debt** Group, you can add extra to the credit card you want to pay off. Choose to pay off the card with the highest interest rate first. In the **Budgeted** column, **Add** the extra amount to the Minimum Payment you assigned earlier. For example, if your expected Minimum Payment is $113.23 and you want to pay an extra $100, change your **Budgeted** column to 213.23 for that card debt.
   
 #### Cards with Debt and No New Purchases {#debt-no-new}
-- If you are not paying off the debt on this card:
-  - When your statement arrives, create the Interest & Fees transaction and categorize it to **Bank Name Credit Card**.
+- If you are _not_ paying off the debt on this card:
+  - When your statement arrives, create the Interest & Fees transaction and categorize it to **Bank-Name Card Debt**.
   - [Reconcile](/docs/accounts/reconciliation.md) your account.
-  - Make sure the amount in the **Budgeted** column is at least the statement Minimum Balance. If you need to add to it, _Cover_ any overspending by transferring from another category with a positive balance.
-  - Transfer the amount in the **Budgeted** column from your deposit account and pay your bill.
-- If you are paying off the debt:
-  - When your statement arrives, create the Interest & Fees transaction and categorize it to **Bank Name Credit Card**.
-  - Reconcile your account.
+  - Make sure the amount in the **Budgeted** column for **Bank-Name Card Debt** is at least the statement Minimum Balance. If you need to add to it to reach the Minimum Payment, _cover_ any overspending by transferring from another category with a positive balance.
+  - Transfer the amount in the **Budgeted** column from your deposit account and send that amount to Bank-Name to pay your bill.
+- If you _are_ paying off the debt:
+  - When your statement arrives, create the Interest & Fees transaction and categorize it to **Bank-Name Card Debt**.
+  - [Reconcile](/docs/accounts/reconciliation.md) your account.
   - Make sure the amount in the **Budgeted** category is higher than the statement Minimum Payment. One day your Minimum Payment will pay off the card completely! Happy Day!
   - Transfer the amount in the **Budgeted** column from your deposit account and pay your bill.
 
@@ -60,12 +61,12 @@ If you have been paying the statement balance in full every month, but need to i
 - During the month, enter your New Purchases and Return Credits as they occur. Categorize them to a Budget category that has a positive Balance, "Groceries", "Clothes", "Transit", etc.
 - When your statement arrives, find the following information:
   - New Balance, Minimum Payment, Interest & Fees, Returns/Credits and New Purchases. We will use this information to reconcile and calculate your payment.
-  - Create a transaction for Interest & Fees and categorize it to **Bank Name Credit Card**.
-  - [Reconcile](LINK) the account. Clear each and every transaction with your statement, including the Interest & Fees and Return Credits. Fix any problems before you move on. We do not advocate using a Reconciliation Transaction to fix any problems, especially when you are carrying debt. Make sure that your cleared purchases add up to the New Purchases from your statement. The first month will be the most difficult - it will get easier! 
+  - Create a transaction for Interest & Fees and categorize it to **Bank-Name Card Debt**.
+  - [Reconcile](/docs/accounts/reconciliation.md) the account. Clear each and every transaction with your statement, including the Interest & Fees and Return Credits. Fix any problems before you move on. We do not advocate using a Reconciliation Transaction to fix any problems, especially when you are carrying debt. Make sure that your cleared purchases add up to the New Purchases from your statement. The first month will be the most difficult - it will get easier! 
 - Looking at your statement, the very least amount you need to pay to not increase your debt is the Interest & Fees and your New Purchases minus the Return Credits. Remember, you accounted for and funded the interest at the beginning of the month when you budgeted for the expected Minimum Payment and you were setting aside funds to pay for New Purchases each time you categorized them! You can pay for them all without worry.
   - If you are _not_ paying off any original debt on this card, make sure the **Budgeted** column is at least the Interest & Fees transaction. The Minimum Payment you budgeted for at the beginning of the month should have this covered. 
   - If you _are_ paying off the debt on this card, make sure the current **Budgeted** column is more than the Interest & Fees transaction. It should be at least the sum of the Interest & Fees plus the extra amount you want to pay off, but it will probably be a bit more and that's OK!
-- Now let's calculate your payment. Your payment is the sum of the New Purchases from your statement (minus any return credits) plus the "Uncleared total" from Actual plus the amount in the **Budgeted** column of **Bank Name Credit Card**.
+- Now let's calculate your payment. Your payment is the sum of the New Purchases from your statement (minus any return credits) plus the "Uncleared total" from Actual plus the amount in the **Budgeted** column of **Bank-Name Card Debt**.
 
 :::warning
 If the calculated payment is less than the statement Minimum Payment, you _**must**_ make the statement Minimum Payment! In this rare case, add an amount to the **Budgeted** column so your resulting payment adds up to at least the statement Minimum Payment.
@@ -80,7 +81,7 @@ At he beginning of July we budget for the expected Minimum Payments as part of o
 
 PIC
 
-After all of our expenses are accounted for, we have $202.29 leftover and we decide to add $200 extra to our Citibank Credit Card. We add $200 to our expected Minimum Payment. The $2.29 we Hold for next Month.
+After all of our expenses are accounted for, we have $202.29 leftover and we decide to add $200 extra to our Citibank Credit Card. We add $200 to our $50 expected Minimum Payment. The $2.29 we Hold for next Month.
 
 PIC
 
@@ -109,7 +110,7 @@ Our **Budgeted** amount of 290.00 is larger than the Minimum Payment of $90.00, 
 
 You will notice that the Citibank Balance matches the **Citi Card Debt** Balance. The Interest & Fees we added to the debt were canceled by our **Budgeted** amount that included them.
 
-On the 1st of August we set our budget and start with our Minimum Payments of $90 for the Citibank card and $50 for the DEMO card, then added an extra $200 payment for the DEMO card this month.
+On the 1st of August we set our budget and start with our Minimum Payments of $90 for the Citibank card and $50 for the DEMO card. AFter we funded all of our necessary expenses we added an extra $200 payment for the DEMO card this month.
 
 In August we receive our DEMO Card statement and the account summary looks like this:
 
