@@ -75,19 +75,20 @@ If the calculated payment is less than the statement Minimum Payment, you _**mus
 - Transfer the calculated amount from your deposit account and send that amount to Bank-Name to pay your bill.
 - One day you won't need to add any extra to pay the credit card bill in full! Happy Day! Keep on paying at least your statement balance every month and soon you will gain back your Grace Period and stop accruing interest on new purchases! Woot! Follow the [Within the Budget](./index.md) strategy and you will never carry debt or pay credit card interest again.
 
-Examples:
+### Examples:
 
-At he beginning of July we budget for the expected Minimum Payments as part of our necessary expenses. After all of our expenses are accounted for, we have $202.29 leftover and we decide to add $200 extra to our Citibank Credit Card. We add $200 to our $50 expected Minimum Payment. The $2.29 we Hold for next Month.
+At he beginning of July we budget for the expected Minimum Payments as part of our necessary expenses. After all of our expenses are accounted for, we have $202.29 leftover and we decide to add $200 extra to our Citibank Credit Card. We add $200 to our $90 expected Minimum Payment. The $2.29 we Hold for next Month.
 
 <img width="50%" height="50%" alt="Budget after necessary expenses" src="https://github.com/user-attachments/assets/872a956c-d012-41c9-8b78-ead8986850b4" />
 
 <img width="50%" height="50%" alt="Screenshot 2025-08-12 162708" src="https://github.com/user-attachments/assets/d7d3e5bd-9aae-43b2-903f-9467ec44e6e3" />
 
-During the month, we spend using our Budget as a guide. We use the DEMO Credit Card for some of our purchases. We do not use the Citibank Card.
+
+During July we spend using the [Within the Budget](./index.md) strategy. We use the DEMO Credit Card for some of our purchases. We are not using the Citibank Card.
 
 The Citibank Statement arrives and the account summary looks something like this:
 
-**Account Summary**
+**Citibank Account Summary**
 - Statement Period: June 9, 2025 – July 8, 2025
 - Account Number: 5339 5678 9012 3456
 - Credit Limit: $5,000.00
@@ -106,6 +107,7 @@ Following [Cards with Debt and No New Purchases](#debt-no-new) we enter a transa
 
 <img width="50%" height="50%" alt="Citibank Cleared Transactions" src="https://github.com/user-attachments/assets/69d927d1-c5f1-4e9b-97bb-37d5099f464e" />
 
+
 Our **Budgeted** amount of 290.00 is larger than the Minimum Payment of $90.00, so we send Citibank $290.00 and transfer that amount from the deposit account we used to pay the bill.
 
 You will notice that the Citibank Balance matches the **Citi Card Debt** Balance. The Interest & Fees we added to the debt were canceled by our **Budgeted** amount that included them.
@@ -113,11 +115,17 @@ You will notice that the Citibank Balance matches the **Citi Card Debt** Balance
 <img width="50%" height="50%" alt="Citibank July" src="https://github.com/user-attachments/assets/e2397bb5-f57a-476d-a869-7b48b8d6ac2e" />
 <img width="50%" height="50%" alt="Budget July" src="https://github.com/user-attachments/assets/46bcdfb3-be04-4b9c-a3fb-5ebc21adaee8" />
 
-On the 1st of August we set our budget and start with our Minimum Payments of $90 for the Citibank card and $50 for the DEMO card. AFter we funded all of our necessary expenses we added an extra $200 payment for the DEMO card this month.
+
+On the 1st of August we set our budget and start with our Minimum Payments of $90 for the Citibank card and $50 for the DEMO card. After we funded all of our necessary expenses we added an extra $200 payment for the DEMO card this month.
+
+<img width="50%" height="50%" alt="Screenshot 2025-08-13 134944" src="https://github.com/user-attachments/assets/93e2e2cb-62e4-48ac-8ac0-563d5923fae6" />
+
+<img width="50%" height="50%" alt="Screenshot 2025-08-13 134959" src="https://github.com/user-attachments/assets/328e86f8-381d-4f33-9204-f45c03c9bcb3" />
+
 
 In August we receive our DEMO Card statement and the account summary looks like this:
 
- Account Summary
+ **DEMO Account Summary**
 - Statement Period: July 1, 2025 – July 31, 2025
 - Account Number: 4333 1234 5678 1116
 - Credit Limit: $5,000.00
@@ -136,7 +144,8 @@ We'll follow [Cards with New Purchases and Original Debt](#debt-with-new) above 
 
 First, we'll enter the Interest & Fees transaction of $32.75 and start to reconcile our account. When our cleared transactions match the statement New Balance, our DEMO account looks like this:
 
-PIC
+<img width="50%" height="50%" alt="Screenshot 2025-08-13 135218" src="https://github.com/user-attachments/assets/40d39b28-4baa-453b-adc7-1152c87c137f" />
+
 
 Our cleared new purchases add up to $846.11 and match our statement, so we're good to go! Before we complete the Reconciliation, let's calculate our payment for this month.
 - We have added some extra to pay down our debt this month, so our **Budgeted** column on **DEMO Card Debt** is definitely greater than the Interest & Fees.
@@ -148,23 +157,19 @@ Our cleared new purchases add up to $846.11 and match our statement, so we're go
 - Our payment calculation is: New Purchases - Return credits + Uncleared total + Budgeted column, or 846.11 - 0.00 + 126.60 + 250.00 = 1222.71
 We send DEMO Bank $1,222.71 and transfer that amount from the deposit account we used to pay the bill. Our DEMO Account now looks like this:
 
-PIC
+<img width="50%" height="50%" alt="Screenshot 2025-08-13 181243" src="https://github.com/user-attachments/assets/97e07e08-c55b-43a8-8ea2-7bd19b29ddea" />
+
 
 We complete the Reconciliation and we are done with this account! 
 
-pic
-
-
-
-PIC
-
 We'll pay the expected Minimum Payment on our Citibank card this month:
 
-PIC
+<img width="50%" height="50%" alt="Screenshot 2025-08-13 141634" src="https://github.com/user-attachments/assets/173e450a-9559-4c20-b6ba-f5b206584811" />
+
 
 We have reduced our original debt to DEMO Bank to $968.25 and Citibank to $2,247.00. You can notice that for this snapshot in time, our credit card balances match our outsatnding debt in the Budget.
 
-pic
+<img width="50%" height="50%" alt="Screenshot 2025-08-13 181944" src="https://github.com/user-attachments/assets/87c85925-6228-46d6-8a27-70f76efc7fff" />
 
 
 We'll continue to spend Within the Budget, choosing a category for each expenditure that has a positive balance in the Budget.
