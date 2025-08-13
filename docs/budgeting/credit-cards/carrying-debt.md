@@ -32,7 +32,7 @@ Before we get started, check the settings for your Credit Card accounts to make 
 - Create a **Bank-Name Card Debt** category in the group for each card carrying debt. Set them all to _Rollover Overspending_.
   - To set _Rollover Overspending_, right click on the category's Balance and choose it. A little arrow will now show next to the Balance.
 - For each credit card account, input a starting balance equal to the **total** amount owed. Include all transactions to date, as if you wanted to close the account. This starting balance goes in the "Payment" column. Change the category on this starting balance to **Bank-Name Card Debt**. 
-- Remember, categorize _any_ purchase that will not be paid for at the next statement as **Bank-Name Card Debt**. 
+- Remember, categorize _any_ purchase that will not be paid for at the next statement as **Bank-Name Card Debt** as it will add to the outstanding debt.
 
 :::note
 If you have been paying the statement balance in full every month, but need to incur debt for an emergency purchase enter the transaction normally, but categorize it as **Bank Name Credit Card**. Use the note field for a note or tag as to why. You can even use a split transaction if you only need to incur debt on part of the purchase!
@@ -55,7 +55,7 @@ If you have been paying the statement balance in full every month, but need to i
   - When your statement arrives, create the Interest & Fees transaction and categorize it to **Bank-Name Card Debt**.
   - [Reconcile](/docs/accounts/reconciliation.md) your account.
   - Make sure the amount in the **Budgeted** category is higher than the statement Minimum Payment. One day your Minimum Payment will pay off the card completely! Happy Day!
-  - Transfer the amount in the **Budgeted** column from your deposit account and pay your bill.
+  - Transfer the amount in the **Budgeted** column from your deposit account and send that amount to Bank-Name to pay your bill.
 
 #### Cards with New Purchases and Original Debt - Following the [Within the Budget](./index.md) Strategy {#debt-with-new}
 - During the month, enter your New Purchases and Return Credits as they occur. Categorize them to a Budget category that has a positive Balance, "Groceries", "Clothes", "Transit", etc.
@@ -72,18 +72,14 @@ If you have been paying the statement balance in full every month, but need to i
 If the calculated payment is less than the statement Minimum Payment, you _**must**_ make the statement Minimum Payment! In this rare case, add an amount to the **Budgeted** column so your resulting payment adds up to at least the statement Minimum Payment.
 :::
 
-- Transfer the calculated amount from your deposit account and pay your bill.
+- Transfer the calculated amount from your deposit account and send that amount to Bank-Name to pay your bill.
 - One day you won't need to add any extra to pay the credit card bill in full! Happy Day! Keep on paying at least your statement balance every month and soon you will gain back your Grace Period and stop accruing interest on new purchases! Woot! Follow the [Within the Budget](./index.md) strategy and you will never carry debt or pay credit card interest again.
 
 Examples:
 
-At he beginning of July we budget for the expected Minimum Payments as part of our necessary expenses.
+At he beginning of July we budget for the expected Minimum Payments as part of our necessary expenses. After all of our expenses are accounted for, we have $202.29 leftover and we decide to add $200 extra to our Citibank Credit Card. We add $200 to our $50 expected Minimum Payment. The $2.29 we Hold for next Month.
 
-PIC
-
-After all of our expenses are accounted for, we have $202.29 leftover and we decide to add $200 extra to our Citibank Credit Card. We add $200 to our $50 expected Minimum Payment. The $2.29 we Hold for next Month.
-
-PIC
+<img width="50%" height="50%" alt="Budget after necessary expenses" src="https://github.com/user-attachments/assets/872a956c-d012-41c9-8b78-ead8986850b4" />
 
 During the month, we spend using our Budget as a guide. We use the DEMO Credit Card for some of our purchases. We do not use the Citibank Card.
 
@@ -106,9 +102,15 @@ The Citibank Statement arrives and the account summary looks something like this
 
 Following [Cards with Debt and No New Purchases](#debt-no-new) we enter a transaction into the Citibank account for the Interest & Fees and categorize it to **Citi Card Debt**. We reconcile the account, agreeing with Citibank that our New Balance is $2564.00.
 
+<img width="50%" height="50%" alt="Citibank Cleared Transactions" src="https://github.com/user-attachments/assets/69d927d1-c5f1-4e9b-97bb-37d5099f464e" />
+
 Our **Budgeted** amount of 290.00 is larger than the Minimum Payment of $90.00, so we send Citibank $290.00 and transfer that amount from the deposit account we used to pay the bill.
 
 You will notice that the Citibank Balance matches the **Citi Card Debt** Balance. The Interest & Fees we added to the debt were canceled by our **Budgeted** amount that included them.
+
+
+<img width="50%" height="50%" alt="Citibank July" src="https://github.com/user-attachments/assets/e2397bb5-f57a-476d-a869-7b48b8d6ac2e" />
+<img width="50%" height="50%" alt="Budget July" src="https://github.com/user-attachments/assets/46bcdfb3-be04-4b9c-a3fb-5ebc21adaee8" />
 
 On the 1st of August we set our budget and start with our Minimum Payments of $90 for the Citibank card and $50 for the DEMO card. AFter we funded all of our necessary expenses we added an extra $200 payment for the DEMO card this month.
 
