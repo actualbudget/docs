@@ -19,7 +19,7 @@ Before we get started, check the settings for your Credit Card accounts to make 
   - Show reconciled transactions
 - Check that the _pills_ showing "Cleared total" and "Uncleared total" are showing under the account name.
   - To show the pills, hover over the account balance under the account name and press the expand >> arrows.
-    <img width="50%" height="50%" alt="Account Page Balance Expand Arrows" src="https://github.com/user-attachments/assets/e89b532a-4ee9-4bea-aef9-f5e10c68ce43" />
+    <img width="1310" height="156" alt="Screenshot 2025-08-13 164056" src="https://github.com/user-attachments/assets/284e4b71-07f5-423c-92e7-58c7ca9fd761" />
     <img width="50%" height="50%" alt="Account Page Balances Expanded" src="https://github.com/user-attachments/assets/80c224db-b772-40a6-95ef-8f32375a6104" />
 
 - When we use the "Uncleared total" we will use the absolute value, the positive value without the (-) sign. So, if Actual shows "Uncleared total: -2553.86", then we will use 2553.86.
