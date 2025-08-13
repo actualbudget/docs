@@ -160,6 +160,8 @@ We send DEMO Bank $1,222.71 and transfer that amount from the deposit account we
 <img width="50%" height="50%" alt="Screenshot 2025-08-13 181243" src="https://github.com/user-attachments/assets/97e07e08-c55b-43a8-8ea2-7bd19b29ddea" />
 
 
+
+
 We complete the Reconciliation and we are done with this account! 
 
 We'll pay the expected Minimum Payment on our Citibank card this month:
@@ -172,5 +174,5 @@ We have reduced our original debt to DEMO Bank to $968.25 and Citibank to $2,247
 <img width="50%" height="50%" alt="Screenshot 2025-08-13 181944" src="https://github.com/user-attachments/assets/87c85925-6228-46d6-8a27-70f76efc7fff" />
 
 
-We'll continue to spend Within the Budget, choosing a category for each expenditure that has a positive balance in the Budget.
+We'll continue to spend Within the Budget, choosing a category with a positive Balance for each expenditure.
 
