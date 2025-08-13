@@ -58,7 +58,7 @@ If you have been paying the statement balance in full every month, but need to i
   - Make sure the amount in the **Budgeted** category is higher than the statement Minimum Payment. One day your Minimum Payment will pay off the card completely! Happy Day!
   - Transfer the amount in the **Budgeted** column from your deposit account and pay your bill.
 
-#### Cards with New Purchases and Original Debt - Following the [Within the Budget](./index.md) Strategy 
+#### Cards with New Purchases and Original Debt - Following the [Within the Budget](./index.md) Strategy {#debt-with-new}
 - During the month, enter your New Purchases and Return Credits as they occur. Categorize them to a Budget category that has a positive Balance, "Groceries", "Clothes", "Transit", etc.
 - When your statement arrives, find the following information:
   - New Balance, Minimum Payment, Interest & Fees, Returns/Credits and New Purchases. We will use this information to calculate your payment.
@@ -89,45 +89,50 @@ After all of our expenses are accounted for, we have $202.29 leftover and we dec
 During the month, we spend using our Budget as a guide. We use the DEMO Credit Card for some of our purchases. We do not use the Citibank Card.
 
 The Citibank Statement arrives and the account summary looks something like this:
-  Account Summary
-  •	Statement Period: June 9, 2025 – July 8, 2025
-  •	Account Number: 1234 5678 9012 3456
-  •	Credit Limit: $5,000.00
-  •	Available Credit: $2,436.00
-  •	Previous Balance: $2,590.00
-  •	Payments Received: $90.00
-  •	New Purchases: $0.00
-  •	Cash Advances: $0.00
-  •	Fees Charged: $0.00
-  •	Interest Charged: $64.00
-  •	New Balance: $2564.00
-  •	Payment Due Date: July 16, 2025
-  •	Minimum Payment Due: $90.00
+
+**Account Summary**
+- Statement Period: June 9, 2025 – July 8, 2025
+- Account Number: 1234 5678 9012 3456
+- Credit Limit: $5,000.00
+- Available Credit: $2,436.00
+- Previous Balance: $2,590.00
+- Payments Received: $90.00
+- New Purchases: $0.00
+- Cash Advances: $0.00
+- Fees Charged: $0.00
+- Interest Charged: $64.00
+- New Balance: $2564.00
+- Payment Due Date: July 16, 2025
+- Minimum Payment Due: $90.00
 
 Following [Cards with Debt and No New Purchases](#debt-no-new) we enter a transaction into the Citibank account for the Interest & Fees and categorize it to **Citi Card Debt**. We reconcile the account, agreeing with Citibank that our New Balance is $2564.00.
 
-Our *Budgeted** amount of 290.00 is larger than the Minimum Payment of $90.00, so we send Citibank $290.00 and transfer that amount from the deposit account we used to pay the bill.
+Our **Budgeted** amount of 290.00 is larger than the Minimum Payment of $90.00, so we send Citibank $290.00 and transfer that amount from the deposit account we used to pay the bill.
 
 You will notice that the Citibank Balance matches the **Citi Card Debt** Balance. The Interest & Fees we added to the debt were canceled by our **Budgeted** amount that included them.
 
+We budgeted for August and started with our Minimum Payments of $90 for the Citibank card and $50 for the DEMO card, then added an extra $100 payment for the DEMO card this month.
+
 In August we receive our DEMO Card statement and the account summary looks like this:
+
  Account Summary
- •	Statement Period: July 1, 2025 – July 31, 2025
- •	Account Number: 5333 1234 5678 1116
- •	Credit Limit: $5,000.00
- •	Available Credit: $3,210.45
- •	Previous Balance: $1,235.50
- •	Payments Received: $500.00
- •	New Purchases: $835.55
- •	Cash Advances: $0.00
- •	Fees Charged: $0.00
- •	Interest Charged: $26.60
- •	New Balance: $1,597.65
- •	Payment Due Date: August 20, 2025
- •	Minimum Payment Due: $48.00
+- Statement Period: July 1, 2025 – July 31, 2025
+- Account Number: 5333 1234 5678 1116
+- Credit Limit: $5,000.00
+- Available Credit: $2,946.70
+- Previous Balance: $1,235.50
+- Payments Received: $50.00
+- New Purchases: $835.55
+- Cash Advances: $0.00
+- Fees Charged: $0.00
+- Interest Charged: $32.75
+- New Balance: $2,053.30
+- Payment Due Date: August 20, 2025
+- Minimum Payment Due: $50.00
 
+We'll follow [Cards with New Purchases and Original Debt](#debt-with-new} above to calculate our payment.
 
-
+First, we'll enter the Interest & Fees transaction
 
 
 
