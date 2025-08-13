@@ -70,12 +70,13 @@ If you have been paying the statement balance in full every month, but need to i
   - If you _are_ paying off the debt on this card, make sure the current **Budgeted** column is more than the Interest & Fees transaction. It should be at least the sum of the Interest & Fees plus the extra amount you want to pay off, but it will probably be a bit more and that's OK!
 - Now let's calculate your payment. Your payment is the sum of the New Purchases from your statement (minus any return credits) plus the "Uncleared total" from Actual plus the amount in the **Budgeted** column of **Bank-Name Card Debt**.
 
-:::warning
+  :::warning
 If the calculated payment is less than the statement Minimum Payment, you _**must**_ make the statement Minimum Payment! In this rare case, add an amount to the **Budgeted** column so your resulting payment adds up to at least the statement Minimum Payment.
 :::
 
 - Transfer the calculated amount from your deposit account and send that amount to Bank-Name to pay your bill.
-- One day you won't need to add any extra to pay the credit card bill in full! Happy Day! Keep on paying at least your statement balance every month and soon you will gain back your Grace Period and stop accruing interest on new purchases! Woot! Follow the [Within the Budget](./index.md) strategy and you will never carry debt or pay credit card interest again.
+
+One day you won't need to add any extra to pay the credit card bill in full! Happy Day! Keep on paying at least your statement balance every month and soon you will gain back your Grace Period and stop accruing interest on new purchases! Woot! Follow the [Within the Budget](./index.md) strategy and you will never carry debt or pay credit card interest again.
 
 ### Examples:
 
