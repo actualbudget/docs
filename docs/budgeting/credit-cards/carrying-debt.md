@@ -22,6 +22,8 @@ Before we get started, check the settings for your Credit Card accounts to make 
     <img width="50%" height="50%" alt="Account page Balance Expand Arows" src="https://github.com/user-attachments/assets/2c20459e-64e6-443f-9fb3-aa83729e8229" />
     <img width="50%" height="50%" alt="Account Page Balances Expanded" src="https://github.com/user-attachments/assets/80c224db-b772-40a6-95ef-8f32375a6104" />
 
+<br>
+
 - When we use the "Uncleared total" we will use the absolute value, the positive value without the (-) sign. So, if Actual shows "Uncleared total: -2553.86", then we will use 2553.86.
 - While you are paying off your credit card(s), it is best to use a debit card or cash. If that is not possible, and you have a card with no debt, use that one to make new purchases so you can pay it in full every month using [Within the Budget](./index.md) and work to pay off another. In any case, use _**only one credit card**_ for new purchases and pay off the one with the highest interest first.
 - We recommend doing this On Budget. If you will not use the card again after it's completely paid off and you have received a statement with a $0 balance, you can [close](/docs/accounts/index.md#closing-or-deleting-an-account) the account.
@@ -80,9 +82,9 @@ If the calculated payment is less than the statement Minimum Payment, you _**mus
 At he beginning of July we budget for the expected Minimum Payments as part of our necessary expenses. After all of our expenses are accounted for, we have $202.29 leftover and we decide to add $200 extra to our Citibank Credit Card. We add $200 to our $90 expected Minimum Payment. The $2.29 we Hold for next Month.
 
 <img width="50%" height="50%" alt="Budget after necessary expenses" src="https://github.com/user-attachments/assets/872a956c-d012-41c9-8b78-ead8986850b4" />
-
 <img width="50%" height="50%" alt="Screenshot 2025-08-12 162708" src="https://github.com/user-attachments/assets/d7d3e5bd-9aae-43b2-903f-9467ec44e6e3" />
 
+<br><br>
 
 During July we spend using the [Within the Budget](./index.md) strategy. We use the DEMO Credit Card for some of our purchases. We are not using the Citibank Card.
 
@@ -107,6 +109,7 @@ Following [Cards with Debt and No New Purchases](#debt-no-new) we enter a transa
 
 <img width="50%" height="50%" alt="Citibank Cleared Transactions" src="https://github.com/user-attachments/assets/69d927d1-c5f1-4e9b-97bb-37d5099f464e" />
 
+<br><br>
 
 Our **Budgeted** amount of 290.00 is larger than the Minimum Payment of $90.00, so we send Citibank $290.00 and transfer that amount from the deposit account we used to pay the bill.
 
@@ -115,13 +118,14 @@ You will notice that the Citibank Balance matches the **Citi Card Debt** Balance
 <img width="50%" height="50%" alt="Citibank July" src="https://github.com/user-attachments/assets/e2397bb5-f57a-476d-a869-7b48b8d6ac2e" />
 <img width="50%" height="50%" alt="Budget July" src="https://github.com/user-attachments/assets/46bcdfb3-be04-4b9c-a3fb-5ebc21adaee8" />
 
+<br><br>
 
 On the 1st of August we set our budget and start with our Minimum Payments of $90 for the Citibank card and $50 for the DEMO card. After we funded all of our necessary expenses we added an extra $200 payment for the DEMO card this month.
 
 <img width="50%" height="50%" alt="Screenshot 2025-08-13 182659" src="https://github.com/user-attachments/assets/c0808371-8999-410a-9921-a182f53d5c5f" />
-
 <img width="50%" height="50%" alt="Screenshot 2025-08-13 182520" src="https://github.com/user-attachments/assets/933aac6c-777f-4039-9420-c6bf1a4e9574" />
 
+<br><br>
 
 In August we receive our DEMO Card statement and the account summary looks like this:
 
@@ -146,33 +150,37 @@ First, we'll enter the Interest & Fees transaction of $32.75 and start to reconc
 
 <img width="50%" height="50%" alt="Screenshot 2025-08-13 135218" src="https://github.com/user-attachments/assets/40d39b28-4baa-453b-adc7-1152c87c137f" />
 
+<br><br>
 
 Our cleared new purchases add up to $846.11 and match our statement, so we're good to go! Before we complete the Reconciliation, let's calculate our payment for this month.
-- We have added some extra to pay down our debt this month, so our **Budgeted** column on **DEMO Card Debt** is definitely greater than the Interest & Fees.
+- We have added some extra to pay down our debt this month, so our **Budgeted** column of 250.00 on **DEMO Card Debt** is definitely greater than the Interest & Fees of 32.75.
 - So, the numbers we need are:
   - New Purchases (statement): $846.11
   - Return credits (statement): $0.00
   - Uncleared total (Actual): $126.60 (Remember to use the absolute, positive, value)
   - Budgeted column (Actual): $250.00
-- Our payment calculation is: New Purchases - Return credits + Uncleared total + Budgeted column, or 846.11 - 0.00 + 126.60 + 250.00 = 1222.71
-We send DEMO Bank $1,222.71 and transfer that amount from the deposit account we used to pay the bill. Our DEMO Account now looks like this:
+- Our payment calculation is:
+  <br>  New Purchases - Return credits + Uncleared total + Budgeted column, or
+  <br>  846.11 - 0.00 + 126.60 + 250.00 = 1222.71
+- We send DEMO Bank $1,222.71 and transfer that amount from the deposit account we used to pay the bill. Our DEMO Account now looks like this:
 
 <img width="50%" height="50%" alt="Screenshot 2025-08-13 181243" src="https://github.com/user-attachments/assets/97e07e08-c55b-43a8-8ea2-7bd19b29ddea" />
 
-
-
+<br><br>
 
 We complete the Reconciliation and we are done with this account! 
 
-We'll pay the expected Minimum Payment on our Citibank card this month:
+For our Citibank card this month we'll pay the **Budgeted** expected Minimum Payment of $90.00.
 
 <img width="50%" height="50%" alt="Screenshot 2025-08-13 141634" src="https://github.com/user-attachments/assets/173e450a-9559-4c20-b6ba-f5b206584811" />
 
+<br><br>
 
-We have reduced our original debt to DEMO Bank to $968.25 and Citibank to $2,247.00. You can notice that for this snapshot in time, our credit card balances match our outsatnding debt in the Budget.
+We have reduced our original debt to DEMO Bank to $968.25 and Citibank to $2,247.00. You can notice that for this snapshot in time, our credit card balances match our outstanding debt in the Budget.
 
 <img width="50%" height="50%" alt="Screenshot 2025-08-13 181944" src="https://github.com/user-attachments/assets/87c85925-6228-46d6-8a27-70f76efc7fff" />
 
+<br><br>
 
 We'll continue to spend Within the Budget, choosing a category with a positive Balance for each expenditure.
 
