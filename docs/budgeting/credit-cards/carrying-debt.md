@@ -118,9 +118,9 @@ You will notice that the Citibank Balance matches the **Citi Card Debt** Balance
 
 On the 1st of August we set our budget and start with our Minimum Payments of $90 for the Citibank card and $50 for the DEMO card. After we funded all of our necessary expenses we added an extra $200 payment for the DEMO card this month.
 
-<img width="50%" height="50%" alt="Screenshot 2025-08-13 134944" src="https://github.com/user-attachments/assets/93e2e2cb-62e4-48ac-8ac0-563d5923fae6" />
+<img width="50%" height="50%" alt="Screenshot 2025-08-13 182659" src="https://github.com/user-attachments/assets/c0808371-8999-410a-9921-a182f53d5c5f" />
 
-<img width="50%" height="50%" alt="Screenshot 2025-08-13 134959" src="https://github.com/user-attachments/assets/328e86f8-381d-4f33-9204-f45c03c9bcb3" />
+<img width="50%" height="50%" alt="Screenshot 2025-08-13 182520" src="https://github.com/user-attachments/assets/933aac6c-777f-4039-9420-c6bf1a4e9574" />
 
 
 In August we receive our DEMO Card statement and the account summary looks like this:
