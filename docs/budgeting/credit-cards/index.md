@@ -3,7 +3,7 @@
 Using a credit card in any budgeting software can be confusing, and Actual is no different. Of all the questions that are asked about budgeting, credit card usage is near the top of the list so don't feel bad if you're a little confused. 
 
 :::note
-Any Revolving Account that has both purchases and payments in any month should be treated as a credit card, not as a loan. Use [Carrying Debt](./carrying-debt.md) if the balance is not paid off every month.
+Any Revolving Credit Account that has both purchases and payments in any month should be treated as a credit card, not as a loan. Use [Carrying Debt](./carrying-debt.md) if the balance is not paid off every month.
 :::
 
 :::warning
