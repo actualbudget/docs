@@ -32,7 +32,7 @@ Before we get started, check the settings for your Credit Card accounts to make 
 
 - Create a **Credit Card Debt** Group 
 - Create a **Bank-Name Card Debt** category in the group for each card carrying debt. Set them all to _Rollover Overspending_.
-  - To set _Rollover Overspending_, right click on the category's Balance and choose it. A little arrow will now show next to the Balance.
+  - To set _Rollover Overspending_, click on the category's Balance and choose it. A little arrow will now show next to the Balance. When you are rolling over overspending, the negative Budget Balance won't be reflected in your "To Budget" amount. Negative credit card account balances are already subtracted from your "Available funds", we don't want to subtract them twice!
 - For each credit card account, input a starting balance equal to the **total** amount owed. Include all transactions to date, as if you wanted to close the account. This starting balance goes in the "Payment" column. Change the category on this starting balance to **Bank-Name Card Debt**. 
 - Remember, categorize _any_ purchase that will not be paid for at the next statement as **Bank-Name Card Debt** as it will add to the outstanding debt.
 
