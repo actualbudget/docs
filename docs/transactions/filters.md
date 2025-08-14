@@ -39,13 +39,13 @@ In this example we are finding out how much the Mercedes car cost to run during 
 
 ![](/img/filtering/multiple-filters.png)
 
-Now we want to see the total spent on the Mercedes car in 2021. This is shown at the top center of the page.
-
 ![](/img/filtering/filtered-total.png)
 
-But what if we need to drill down further and calculate just the costs were for maintenance of this particular car? By selecting the applicable transactions a revised total appears as shown below. Alternatively just remove the non-applicable category filters.
+Now we want to see the total spent on the Mercedes car in 2021. This is shown at the top center of the page.
 
 ![](/img/filtering/selected-total.png)
+
+But what if we need to drill down further and calculate just the costs were for maintenance of this particular car? By selecting the applicable transactions a revised total appears as shown below. Alternatively just remove the non-applicable category filters.
 
 In the above Example we used the **Date is greater than** and **Date is less than** filters to illustrate the fine tuning that is possible. However, in this example of a simple calendar year it would have been quicker simply to click on the down arrow below **Date** and select as follows:
 
