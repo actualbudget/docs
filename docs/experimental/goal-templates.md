@@ -169,6 +169,7 @@ Here are some examples of how this is used
 |---|:---:| :---: |:---:|
 |`#template 50 up to 100`| $ 80 | $ 20 | $ 100 |
 |`#template 50 up to 100`| $ 20 | $ 50 | $ 70 |
+
 Isn't that neat!
 This is especially useful for budget categories that have month to month variation in spending such as groceries.
 You can budget the same amount per month, but save up from one month to the next without having to worry about building up more funds than you need.
