@@ -183,6 +183,7 @@ Here is how it works:
 |---|:---:| :---: |:---:|
 |`#template up to 150`| $ 10 | $ 140  | $ 150 |
 |`#template up to 150`| $ -20 | $ 170  | $ 150 |
+
 Cool, right! This is another way to gracefully handle categories that have month to month variation.
 This will always give you the same amount available each month no matter what you spend the previous month and not ever build up more funds than you need.
 This variation along with the previous variation, are probably the most used templates.
@@ -221,6 +222,7 @@ If the new car will cost $ 10,000 and you plan to buy it in December, you will u
 |Syntax| Budgeted Amount |
 |---|:---:|
 |`#template 10000 by 2025-12` | $ 833.33 |
+
 That example is pretty basic.
 The by template is smarter than just 10000/12.
 Lets say the example is the same, but you already have $ 1,500 saved.
