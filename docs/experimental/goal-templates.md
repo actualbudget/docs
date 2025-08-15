@@ -236,7 +236,7 @@ In that case you get this.
 Nice!
 This even works if you add more funds later.
 The template will always divide up the remaining amount you need by the remaining number of months.
-If you need to pull funds away from your car savings to cover an emergency house repair, the template will budget more in the coming months to say on track.
+If you need to pull funds away from your car savings to cover an emergency house repair, the template will budget more in the coming months to stay on track.
 If you have extra funds one month and add that to your car savings, the template will budget less in the coming months since you need less.
 
 **Note**: The date must be in YYYY-MM format.
