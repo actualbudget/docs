@@ -57,6 +57,8 @@ and delete the category group.
 Let's look at a category (as seen in the purple box). We have the same functionality as on the group level: hide, rename and delete. And, of course, you
 can also add a note here, with information specific to the category.
 
+You can add a new category group by clicking the "Add group" button (as seen in the blue box).
+
 ![](/img/a-tour-of-actual/tour-budget-details.png)
 
 ### The middle - the budget section
