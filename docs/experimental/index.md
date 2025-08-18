@@ -17,6 +17,8 @@ You will need to agree to the disclaimer, and then you will be able to see the a
 
 ![available features](/img/experimental/available.png)
 
+_Image above is just an example, the actual experimental features will differ._
+
 
 
 
