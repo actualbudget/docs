@@ -235,7 +235,7 @@ export let objects = {
     type: 'string',
     description: (
       <span>
-        All schedules have an associated underlying rule. Not to be supplied with a new schedule. It will be autocreated. Rules can not updated to another rule. You can however edit the rule with the API above for Rule.
+        All schedules have an associated underlying rule. Not to be supplied with a new schedule. It will be auto created. Rules can not updated to another rule. You can however edit the rule with the API above for Rule.
       </span>
     ),
   },
@@ -308,7 +308,7 @@ export let objects = {
     required: true,
     description: (
       <span>
-        Mandatory field when creating a schedule. If the schedule is a single occurence just supply the date. otherwise refer to RecurConfig details below.
+        Mandatory field when creating a schedule. If the schedule is a single occurrence just supply the date. otherwise refer to RecurConfig details below.
       </span>
     ),
   },
