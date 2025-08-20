@@ -26,9 +26,9 @@ If you have recently moved to Actual from nYNAB, you will notice that Actual doe
 
 To show more top level information about your budget, hover over the top left corner of the header and press the expand arrows:
 
-<img width="100%" height="100%" alt="Screenshot 2025-08-14 080307" src="https://github.com/user-attachments/assets/3dda1fcc-74f5-4bcf-98ab-4af7fb743107" />  
+<img width="75%" height="75%" alt="Screenshot 2025-08-14 080307" src="https://github.com/user-attachments/assets/3dda1fcc-74f5-4bcf-98ab-4af7fb743107" />  
 
-<img width="100%" height="100%" alt="Screenshot 2025-08-14 080928" src="https://github.com/user-attachments/assets/b0539ce4-eadb-4d72-9cb4-3c02b3037baa" />
+<img width="75%" height="75%" alt="Screenshot 2025-08-14 080928" src="https://github.com/user-attachments/assets/b0539ce4-eadb-4d72-9cb4-3c02b3037baa" />
 
 ### Credit card "rules" to stay _Within the Budget_:
 - Never overbudget. Only budget funds you actually have!
