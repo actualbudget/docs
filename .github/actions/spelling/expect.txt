@@ -18,6 +18,8 @@ Bizum
 BKBKESMM
 BOFIIE
 Bourso
+Boursobank
+Boursorama
 brexplpw
 BYLADEM
 Caddyfile
@@ -72,6 +74,7 @@ Kreditbank
 LHV
 LHVBEE
 mbank
+mdc
 modals
 murmurhash
 nginx
@@ -81,7 +84,6 @@ overbudgeting
 Paribas
 passwordless
 pluggyai
-Postgre
 PPABPLPK
 prefs
 Primoco
@@ -89,6 +91,7 @@ Priotecs
 proactively
 QNTOFRP
 QONTO
+Raiffeisen
 revolut
 RIED
 RSchedule
@@ -109,6 +112,7 @@ Synology
 systemctl
 tada
 templating
+touchscreen
 triaging
 ubuntu
 userinfo

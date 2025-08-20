@@ -43,7 +43,7 @@ When downloading data on other devices, you will need to enter the same password
 
 **Do not lose this password**. You will not be able to recover your data if you forget it. If you forget it and you still have a copy of your data locally, you can reset your key which will do a [sync reset](#what-does-resetting-sync-mean) and generate a new key.
 
-## What Does Resetting Sync" Mean?
+## What Does "Resetting Sync" Mean?
 
 There are many reasons why you might want to "start fresh" with syncing. This doesn't mean you lose any of your local data, but it means for one reason or another you want to forget about all synced data and start as if the current version of your file is the "true" version of it.
 
@@ -65,7 +65,7 @@ After resetting, all other devices are now out-of-date. What happens when you tr
 
 When Actual detects a problem during syncing, you will see a notification with details and actions to solve the problem. Below are all the notifications you might see, with some greater detail about them.
 
-**You will rarely see these messages**, and if you do Actual will guide you through how to fix the problem. If you are still having problems, please [reach out to us](/contact)
+**You will rarely see these messages**, and if you do Actual will guide you through how to fix the problem. If you are still having problems, please [reach out to us](/contact).
 
 ### This File is not a Cloud File
 

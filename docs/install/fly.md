@@ -23,7 +23,8 @@ To install the `fly` command line tool on your local machine, you’ll need to s
 
 Next, follow [the instructions to install the `fly` command line tool](https://fly.io/docs/hands-on/install-flyctl/). When entering the commands, make sure _not_ to include the `$` character at the beginning of each line.
 
-<details><summary>Detailed instructions with screenshots for Windows</summary>
+<details>
+<summary>Detailed instructions with screenshots for Windows</summary>
 
 Note: the exact commands you’ll need to run may have changed, check the website linked above to make sure you have the latest ones.
 
@@ -42,7 +43,8 @@ Note: the exact commands you’ll need to run may have changed, check the websit
 
 </details>
 
-<details><summary>Detailed instructions with screenshots for macOS</summary>
+<details>
+<summary>Detailed instructions with screenshots for macOS</summary>
 
 Note: the exact commands you’ll need to run may have changed, check the website linked above to make sure you have the latest ones.
 
@@ -103,42 +105,8 @@ fly launch --image actualbudget/actual-server:latest
 
 This command will ask a series of questions:
 
-- “_An existing fly.toml file was found. Would you like to copy its configuration to the new app?_” Type `y` and press enter to use the config file we’ve provided.
-- “_Choose an app name (leave blank to generate one)_” Your app will be available online at <code>https://<em>the-name-you-choose</em>.fly.dev</code>. You can choose any name you want, but it must be unique. If you’re not sure what to choose, you can leave it blank and Fly will generate a random name for you. Either type the name and press enter, or just press enter.
-- _Choose a region for deployment_ This is the physical location where the server will be set up. You can choose any region you want, but we recommend choosing the one closest to you. Use the up and down arrow keys to pick a region, then press enter to choose the highlighted option.
-- _Would you like to set up a PostgreSQL database now?_ Type `n` and press enter to skip this step.
-- _Would you like to set up an Upstash Redis database now?_ Type `n` and press enter to skip this step.
-- _Would you like to deploy now?_ We’re not quite done yet! Type `n` and press enter. We’ll deploy the app once we’re done.
-
-Next, we’ll need to set up a “volume,” a place Fly can store your data so it doesn’t get lost when you restart or upgrade the server. To do so, run the following command:
-
-```bash
-fly volumes create actual_data
-```
-
-You may receive a warning message:
-
-- “_Warning! Individual volumes are pinned to individual hosts. You should create two or more volumes per application. You will have downtime if you only create one. Do you still want to use the volumes feature?_” Actual is only designed to work with one volume, and downtime should only happen when you are manually updating Actual in the future. Type `y` and press enter to continue.
-
-You may be asked to pick a region. Select the same one you chose for the main server, if asked.
-
-It may take a few seconds to create the volume. Once that’s done, you’re ready to deploy! Run this command to deploy your app:
-
-```bash
-fly deploy
-```
-
-The deploy can take a couple of minutes. Once it finishes, you’ll see a message like this:
-
-```
-No machines in group app, launching a new machine
-  Machine 148ed726c17298 [app] update finished: success
-Finished launching new machines
-Updating existing machines in 'some-app-1234' with rolling strategy
-  Finished deploying
-
-Visit your newly deployed app at https://some-app-1234.fly.dev/
-```
+1. “_An existing fly.toml file was found. Would you like to copy its configuration to the new app? y/N_” Type `y` and press enter to use the config file we’ve provided.
+2. “_Do you want to tweak these settings before proceeding? y/N_” If you choose `y`, the web configuration UI will open in your browser.
 
 You can now visit your very own instance of Actual by opening the link on the last line of the output.
 
@@ -147,7 +115,8 @@ You can now visit your very own instance of Actual by opening the link on the la
 Now that Actual has been launched, you should be able to navigate to Actual using the URL
 provided by the Fly command above earlier.
 
-<details><summary>Forgot the URL? Here’s how to find it</summary>
+<details>
+<summary>Forgot the URL? Here’s how to find it</summary>
 
 If you forget the URL, you can always find it by opening [https://fly.io/dashboard](https://fly.io/dashboard) in a browser. Click on the application you created:
 

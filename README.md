@@ -1,13 +1,13 @@
 # Actual Budget Community Documentation
 
-This repo is the Actual Budget community documentation website, built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+This repo is the Actual Budget community documentation website, built using [Docusaurus 3](https://docusaurus.io/), a modern static website generator.
 
-[Docusaurus 2](https://docusaurus.io/) uses Node.js, so if you are running Actual on your local machine, you should be able to easily run [Docusaurus 2](https://docusaurus.io/).
+[Docusaurus 3](https://docusaurus.io/) uses Node.js, so if you are running Actual on your local machine, you should be able to easily run [Docusaurus 3](https://docusaurus.io/).
 
 ## Welcome
 
-Firstly, thank you for stopping by and giving up some of your time to either check out the documentation we have already produced or pick off 
-some of the [issues](https://github.com/actualbudget/docs/issues) and help create some new documentation for our future users. Check out the 
+Firstly, thank you for stopping by and giving up some of your time to either check out the documentation we have already produced or pick off
+some of the [issues](https://github.com/actualbudget/docs/issues) and help create some new documentation for our future users. Check out the
 [guidelines](https://actualbudget.org/docs/contributing/writing-docs) for more information on how the documentation is structured and tips for consistent formatting.
 
 ### Installation Methods
@@ -27,6 +27,8 @@ However, in doing so, you would become responsible for these instructions. If th
 
 
 ## Contributing 
+
+Please review the contributing documentation on our website: https://actualbudget.org/docs/contributing/
 
 ### Issues
 
@@ -48,7 +50,7 @@ $ yarn
 
 ### Local Development
 
-To start [Docusaurus 2](https://docusaurus.io/) navigate to the folder where the repo resides from a command prompt and issue the following command.
+To start [Docusaurus 3](https://docusaurus.io/) navigate to the folder where the repo resides from a command prompt and issue the following command.
 
 ```
 $ yarn start
@@ -83,4 +85,3 @@ If you are using GitHub pages for hosting, this command is a convenient way to b
 ### Writing Good Release Notes
 
 For general guidelines, see [Contributing](https://actualbudget.org/docs/contributing/#writing-good-release-notes) section of the documentation. The Documentation site is not versioned in the same manner as the rest of the project. The Documentation website is more of a living document. Merges into `master` will have the title and PR# as commit message, with the PR description as extended git commit description.
-
