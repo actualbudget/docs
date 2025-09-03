@@ -8,6 +8,7 @@ This release contains the following improvements, along with numerous fixes:
 
 - Add a mobile view for the rules page
 - Show experimental budget currency on reports page
+- Release experimental Pluggy.ai bank connector
 
 <!--truncate-->
 
