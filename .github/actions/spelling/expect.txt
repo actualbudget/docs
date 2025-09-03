@@ -73,13 +73,11 @@ KBCBE
 Keycloak
 KORT
 Kreditbank
-Länsförsäkringar
 LHV
 LHVBEE
 mbank
 mdc
 modals
-München
 murmurhash
 nginx
 OIDC
@@ -128,4 +126,3 @@ VUB
 websecure
 WOR
 youngcw
-Złoty
