@@ -65,6 +65,15 @@ export let objects = {
         </span>
       ),
     },
+    {
+      name: 'quiet',
+      type: 'boolean',
+      description: (
+        <span>
+          Silence logging from actual internals
+        </span>
+      ),
+    },
   ],
 
   transaction: [
