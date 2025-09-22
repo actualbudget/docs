@@ -66,11 +66,11 @@ export let objects = {
       ),
     },
     {
-      name: 'quiet',
+      name: 'verbose',
       type: 'boolean',
       description: (
         <span>
-          Silence logging from actual internals
+          Enable/disable logging from actual internals
         </span>
       ),
     },
