@@ -133,4 +133,4 @@ By using emojis on the accounts, you can have grouping of accounts by type, such
 
 When entering amounts for transactions, math operators can be used to calculate a final value. 
 
-For example when splitting a transaction, you can input `16.99*1.1` in the subcategory's payment field to apply a 10% tax rate to the amount, which would display `$18.69.`
+For example when splitting a transaction, you can input `16.99*1.1` in the subcategory's payment field to apply a 10% tax rate to the amount, which would display `$18.69` once entered.
