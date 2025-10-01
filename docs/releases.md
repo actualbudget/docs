@@ -2,7 +2,7 @@
 
 ## 25.10.0
 
-Release date: 2025-10-01
+Release date: 2025-10-02
 
 This release contains the following improvements, along with numerous fixes:
 
