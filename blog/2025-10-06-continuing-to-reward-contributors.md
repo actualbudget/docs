@@ -8,7 +8,7 @@ hide_table_of_contents: false
 authors: MatissJanis
 ---
 
-Three months ago, we launched an experiment: using community donations to directly support the people who keep this project running. The idea was simple — compensate core contributors for the invisible but essential work of reviewing pull requests, triaging issues, and preparing releases.
+[Three months ago](./blog/spending-community-funds), we launched an experiment: using community donations to directly support the people who keep this project running. The idea was simple — compensate core contributors for the invisible but essential work of reviewing pull requests, triaging issues, and preparing releases.
 
 Today, we’re excited to share that the trial has been a success. 🎉
 
