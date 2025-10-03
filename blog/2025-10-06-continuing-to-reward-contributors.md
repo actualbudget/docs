@@ -22,7 +22,7 @@ As a result: **we’re making contributor payments permanent.**
 
 - Core contributors will continue to receive stipends based on their monthly contributions.
 - The transparent points system (for PR reviews, issue triage, and releases) remains in place.
-- Funding continues to come from our community donations on OpenCollective.
+- Funding continues to come from our community donations on [OpenCollective].
 
 This ensures that the essential maintenance work — the work that enables everything else to happen — is recognized and supported long-term.
 
