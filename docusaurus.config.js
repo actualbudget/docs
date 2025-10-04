@@ -159,7 +159,7 @@ module.exports = {
 
       zoom: {
         // See: https://github.com/timmywil/panzoom for available options
-        disableZoom: true,
+
         // A list of selectors to look for elements to enable pan and zoom
         selectors: [
           'div.mermaid[data-processed="true"]:not(.panzoom-exclude *)',
@@ -177,6 +177,8 @@ module.exports = {
         // dom to find.
         timeout: 2000,
         excludeClass: 'panzoom-exclude',
+        enableWheelZoom: false, // for accessibility - scrolling up/down page shouldn't zoom
+        enableWheelZoomWithShift: true, // enable zoom when shift is held
 
         toolbar: {
           enabled: true,
