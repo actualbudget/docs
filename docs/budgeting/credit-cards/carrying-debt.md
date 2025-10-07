@@ -51,8 +51,8 @@ If you have been paying the statement balance in full every month, but need to i
 - If you are _not_ paying off the debt on this card:
   - When your statement arrives, create the Interest & Fees transaction and categorize it to **Bank-Name Card Debt**.
   - [Reconcile](/docs/accounts/reconciliation.md) your account.
-  - Make sure the amount in the **Budgeted** column for **Bank-Name Card Debt** is at least the statement Minimum Balance. If you need to add to it to reach the Minimum Payment, _cover_ any overspending by transferring from another category with a positive balance.
-  - Transfer the amount in the **Budgeted** column from your deposit account and send that amount to Bank-Name to pay your bill.
+  - Make sure the amount in the **Budgeted** column for **Bank-Name Card Debt** is at least the statement Minimum Payment. If you need to add to it to reach the Minimum Payment, _cover_ any overspending by transferring from another category with a positive balance.
+  - Transfer the amount in the **Budgeted** column from your deposit account, such as Checking, and send that amount to Bank-Name to pay your bill.
 - If you _are_ paying off the debt:
   - When your statement arrives, create the Interest & Fees transaction and categorize it to **Bank-Name Card Debt**.
   - [Reconcile](/docs/accounts/reconciliation.md) your account.
@@ -66,12 +66,12 @@ If you have been paying the statement balance in full every month, but need to i
   - Create a transaction for Interest & Fees and categorize it to **Bank-Name Card Debt**.
   - [Reconcile](/docs/accounts/reconciliation.md) the account. Clear each and every transaction with your statement, including the Interest & Fees and Return Credits. Fix any problems before you move on. We do not advocate using a Reconciliation Transaction to fix any problems, especially when you are carrying debt. Make sure that your cleared purchases add up to the New Purchases from your statement. The first month will be the most difficult - it will get easier! 
 - Looking at your statement, the very least amount you need to pay to not increase your debt is the Interest & Fees and your New Purchases minus the Return Credits. Remember, you accounted for and funded the interest at the beginning of the month when you budgeted for the expected Minimum Payment and you were setting aside funds to pay for New Purchases each time you categorized them! You can pay for them all without worry.
-  - If you are _not_ paying off any original debt on this card, make sure the **Budgeted** column is at least the Interest & Fees transaction. The Minimum Payment you budgeted for at the beginning of the month should have this covered. 
-  - If you _are_ paying off the debt on this card, make sure the current **Budgeted** column is more than the Interest & Fees transaction. It should be at least the sum of the Interest & Fees plus the extra amount you want to pay off, but it will probably be a bit more and that's OK!
+  - If you are _not_ paying off any original debt on this card, make sure the **Budgeted** column is at least the Minimum Payment. The Minimum Payment you budgeted for at the beginning of the month should have this covered. 
+  - If you _are_ paying off the debt on this card, make sure the current **Budgeted** column is more than the Minimum Payment. It should be at least the sum of the Interest & Fees plus the extra amount you want to pay off, but it will probably be a bit more and that's OK!
 - Now let's calculate your payment. Your payment is the sum of the New Purchases from your statement (minus any return credits) plus the "Uncleared total" from Actual plus the amount in the **Budgeted** column of **Bank-Name Card Debt**.
 
   :::warning
-If the calculated payment is less than the statement Minimum Payment, you _**must**_ make the statement Minimum Payment! In this rare case, add an amount to the **Budgeted** column so your resulting payment adds up to at least the statement Minimum Payment.
+If the calculated payment is less than the statement Minimum Payment, you _**must**_ make the statement Minimum Payment! In this rare case, add an amount to the **Budgeted** column so your resulting payment adds up to at least the statement Minimum Payment.  _Cover_ any additions to the **Budgeted** amount by transferring from another category with a positive balance.
 :::
 
 - Transfer the calculated amount from your deposit account and send that amount to Bank-Name to pay your bill.
@@ -87,7 +87,7 @@ At he beginning of July we budget for the expected Minimum Payments as part of o
 
 <br><br>
 
-During July we spend using the [Within the Budget](./index.md) strategy. We use the DEMO Credit Card for some of our purchases. We are not using the Citibank Card.
+During July we spend using the [Within the Budget](./index.md) strategy. We use the DEMO Credit Card for some of our purchases. We are not spending using the Citibank Card.
 
 The Citibank Statement arrives and the account summary looks something like this:
 
