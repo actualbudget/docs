@@ -132,7 +132,7 @@ on the 18th, our Budget looks like this:
 <br><br>
 
 :::tip
-To pay for a large purchase with your credit card, make a new category for it and add to it's **Budgeted** column every month until you have enough to pay for the purchase. Then you can make the purchase without the worry of going into debt. You'll know you have enough money to pay the bill when it comes as you'll categorize it to a category with a positive Budget Balance without creating Overspending _Within the Budget_.
+To pay for a large purchase with your credit card, make a new category for it and add to it's **Budgeted** column every month until you have enough to pay for the purchase. Then you can make the purchase without the worry of going into debt. You'll know you have enough money to pay the bill when it comes as you categorized the purchase to that new category with a positive Budget Balance without creating Overspending _Within the Budget_.
 :::
 
 ### Conclusion
