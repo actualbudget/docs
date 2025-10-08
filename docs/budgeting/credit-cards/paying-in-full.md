@@ -42,7 +42,7 @@ If necessary, remember to enter a transaction for any interest and or fees charg
 
 :::
 
-When we reconcile our account for this first month, we clear all of the June purchases and payments (which should be part of the "Starting Balance") in one lump. In our case their sum is $35.00.
+When we [reconcile](/docs/accounts/reconciliation.md) our account for this first month, we clear all of the June purchases and payments (which should be part of the "Starting Balance") in one lump. In our case their sum is $35.00.
 
 <img width="100%" height="100%" alt="Screenshot 2025-08-14 095529" src="https://github.com/user-attachments/assets/bc7eab88-5c2a-410f-aa0c-b3676f86c24d" />
 
@@ -75,7 +75,7 @@ We set up our August Budget on the 1st and it looks a lot like our July Budget. 
 - Interest Charged: $0.00
 - New Balance: $213.15
 
-We reconcile our account and it now looks like this:
+We [reconcile](/docs/accounts/reconciliation.md) our account and it now looks like this:
 
 <img width="100%" height="100%" alt="Screenshot 2025-08-14 101142" src="https://github.com/user-attachments/assets/563968c9-6b1c-44e5-b291-c69aa3b8d43d" />
 
