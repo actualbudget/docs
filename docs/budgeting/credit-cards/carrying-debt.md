@@ -2,7 +2,7 @@
 
 When you have an outstanding negative balance that you are unable to pay in full you are "carrying debt". We highly recommend that you do _not_ do this for any new spending as it becomes super easy to accidentally fall deeper into debt. Instead, we recommend that you follow the [Within the Budget](./index.md) strategy for any new credit card purchases. In case you're already carrying a negative balance on a credit card, this page will outline how to safely manage the debt without having to worry about going into more debt.
 
-If you have an existing credit card debt that you need to track and gradually pay off then it's very important that any new purchases you make with the credit card are pre-funded following the [Within the Budget](./index.md) strategy as there is no point in paying off 100 extra on the credit card if you then have to put another -100 on the card to pay for groceries the next week. First, you should prioritize making sure that your actual expense categories are funded before allocating money to paying down the debt. This will allow you to ensure that you're paying it off in a sustainable manner without accidentally incurring more of it over time.
+Always prioritize that your actual expense categories are funded before allocating money to paying down the debt. This will allow you to ensure that you're paying it off in a sustainable manner without accidentally incurring more of it over time.
 
 :::note
 To make it easier to follow along, the examples with screenshots are at the end.
@@ -30,7 +30,7 @@ Before we get started, check the settings for your Credit Card accounts to make 
  
 ### Setting Up Actual Budget for Credit Card Debt
 
-- Create a **Credit Card Debt** Group 
+- Create a **Credit Card Debt** Category Group 
 - Create a separate **Bank Card Debt** category in the group for each card carrying debt. Set them all to _Rollover Overspending_.
   - To set _Rollover Overspending_, click on the category's Balance and choose it. A little arrow will now show next to the Balance. When you are rolling over overspending, the negative Budget Balance won't be reflected in your "To Budget" amount. Negative credit card account balances are already subtracted from your "Available funds", we don't want to subtract them twice!
 - For each credit card account, input a starting balance equal to the **total** amount owed. Include all transactions to date, as if you wanted to close the account. This starting balance goes in the "Payment" column. Change the category on this starting balance to **Bank Card Debt**. 
@@ -89,13 +89,10 @@ At he beginning of July we budget for the expected Minimum Payments as part of o
 
 During July we spend using the [Within the Budget](./index.md) strategy. We use the DEMO Credit Card for some of our purchases. We are not spending using the Citibank Card.
 
-The Citibank Statement arrives and the account summary looks something like this:
+The Citibank Statement arrives. We need the following information from the summary:
 
 **Citibank Account Summary**
-- Statement Period: June 9, 2025 – July 8, 2025
-- Account Number: 5339 5678 9012 3456
-- Credit Limit: $5,000.00
-- Available Credit: $2,436.00
+
 - Previous Balance: $2,590.00
 - Payments Received: $90.00
 - New Purchases: $0.00
@@ -103,7 +100,6 @@ The Citibank Statement arrives and the account summary looks something like this
 - Fees Charged: $0.00
 - Interest Charged: $64.00
 - New Balance: $2564.00
-- Payment Due Date: July 16, 2025
 - Minimum Payment Due: $90.00
 
 Following [Cards with Debt and No New Purchases](#debt-no-new) we enter a transaction into the Citibank account for the Interest & Fees and categorize it to **Citi Card Debt**. We reconcile the account, agreeing with Citibank that our New Balance is $2564.00.
@@ -114,7 +110,7 @@ Following [Cards with Debt and No New Purchases](#debt-no-new) we enter a transa
 
 Our **Budgeted** amount of 290.00 is larger than the Minimum Payment of $90.00, so we send Citibank $290.00 and transfer that amount from the deposit account we used to pay the bill.
 
-You will notice that the Citibank Balance matches the **Citi Card Debt** Balance. The Interest & Fees we added to the debt were canceled by our **Budgeted** amount that included them.
+You may notice that the Citibank Balance matches the **Citi Card Debt** Balance. The Interest & Fees we added to the debt were canceled by our **Budgeted** amount that included them.
 
 <img width="50%" height="50%" alt="Citibank July" src="https://github.com/user-attachments/assets/e2397bb5-f57a-476d-a869-7b48b8d6ac2e" />
 <img width="50%" height="50%" alt="Budget July" src="https://github.com/user-attachments/assets/46bcdfb3-be04-4b9c-a3fb-5ebc21adaee8" />
@@ -128,13 +124,10 @@ On the 1st of August we set our budget and start with our Minimum Payments of $9
 
 <br><br>
 
-In August we receive our DEMO Card statement and the account summary looks like this:
+In August we receive our DEMO Card statement and we need the following from the account summary:
 
  **DEMO Account Summary**
-- Statement Period: July 1, 2025 – July 31, 2025
-- Account Number: 4333 1234 5678 1116
-- Credit Limit: $5,000.00
-- Available Credit: $2,935.64
+
 - Previous Balance: $1,235.50
 - Payments Received: $50.00
 - New Purchases: $846.11
@@ -142,12 +135,11 @@ In August we receive our DEMO Card statement and the account summary looks like 
 - Fees Charged: $0.00
 - Interest Charged: $32.75
 - New Balance: $2,064.36
-- Payment Due Date: August 20, 2025
 - Minimum Payment Due: $50.00
 
 We'll follow [Cards with New Purchases and Original Debt](#debt-with-new) above to calculate our payment.
 
-First, we'll enter the Interest & Fees transaction of $32.75 and start to reconcile our account. When our cleared transactions match the statement New Balance, our DEMO account looks like this:
+First, we'll enter the Interest & Fees transaction of $32.75, categorize it to **DEMO Card Debt** and start to reconcile our account. When our cleared transactions match the statement New Balance, our DEMO account looks like this:
 
 <img width="50%" height="50%" alt="Screenshot 2025-08-13 135218" src="https://github.com/user-attachments/assets/40d39b28-4baa-453b-adc7-1152c87c137f" />
 
