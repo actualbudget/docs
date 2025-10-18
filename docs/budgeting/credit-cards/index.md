@@ -32,7 +32,7 @@ Now imagine the same scenario, but the Checking balance starts at $0, and Saving
 
 After the transaction, Checking is -$50, but the On Budget balance is the same $4,950 as above. And just like before, you can transfer any amount over without affecting that total balance, so the transfer doesn't need a category. You could move as much as you want, but it only takes $50 to get the account back to zero.
 
-That's all that a CC account is, as far as Actual is concerned. It's the same as any other account, you just choose to let the balance go negative.
+As far as Actual is concerned a credit card account is the same as any other account, you just choose to let the balance go negative.
 :::
 
 We highly recommend you follow the _Within the Budget_ strategy for credit card use. _Every_ time you make a credit card purchase, enter the transaction and select a category with money set aside in the Budgeted column and a positive Budget Balance. 
