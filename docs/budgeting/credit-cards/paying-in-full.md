@@ -10,11 +10,15 @@ Starting our example Budget in July, we'll show you step-by-step how to handle c
 
 ## Example
 
+::tip 
 To show more top level information about your budget, hover over the top left corner of the header and press the expand arrows:
 
 <img width="50%" height="50%" alt="Screenshot 2025-08-14 080307" src="https://github.com/user-attachments/assets/3dda1fcc-74f5-4bcf-98ab-4af7fb743107" />  
 
 <img width="50%" height="50%" alt="Screenshot 2025-08-14 080928" src="https://github.com/user-attachments/assets/b0539ce4-eadb-4d72-9cb4-3c02b3037baa" />
+:::
+
+<br><br>
 
 We started our budget at the beginning of July and we normally pay off our Chase Credit Card statement every month. We had some new transactions from June, so we entered a Starting Balance of $35.00. Notice that money we _owe_ goes into the "Payment" column.
 
@@ -42,11 +46,15 @@ If necessary, remember to enter a transaction for any interest and or fees charg
 
 :::
 
-When we [reconcile](/docs/accounts/reconciliation.md) our account for this first month, we clear all of the June purchases and payments (which should be part of the "Starting Balance") in one lump. In our case their sum is $35.00.
+<br><br>
+
+When we [reconcile](/docs/accounts/reconciliation.md) our account for this first month, we clear all of the June purchases and payments (which should be part of the "Starting Balance") in one lump. In our case their lump sum is $35.00.
 
 <img width="100%" height="100%" alt="Screenshot 2025-08-14 095529" src="https://github.com/user-attachments/assets/bc7eab88-5c2a-410f-aa0c-b3676f86c24d" />
 
 We know that we accounted for all of these purchases as none of our Budget categories are overspent and our "To Budget" amount in the Budget header is **not** less than 0.00.  We can pay our statement New Balance without worry, so we send Chase $93.23 from Ally Savings and we transfer that amount as a deposit to our Chase account.
+
+<br><br>
 
 We continue to spend in July, sometimes using our Chase card and _always_ categorizing each transaction to a category with a positive Budget Balance, thereby spending _Within the Budget_.
 
