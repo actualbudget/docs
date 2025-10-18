@@ -10,12 +10,14 @@ Starting our example Budget in July, we'll show you step-by-step how to handle c
 
 ## Example
 
-::tip 
+:::tip 
+
 To show more top level information about your budget, hover over the top left corner of the header and press the expand arrows:
 
 <img width="50%" height="50%" alt="Screenshot 2025-08-14 080307" src="https://github.com/user-attachments/assets/3dda1fcc-74f5-4bcf-98ab-4af7fb743107" />  
 
 <img width="50%" height="50%" alt="Screenshot 2025-08-14 080928" src="https://github.com/user-attachments/assets/b0539ce4-eadb-4d72-9cb4-3c02b3037baa" />
+
 :::
 
 <br><br>
@@ -27,7 +29,9 @@ Every time we use the card, we choose a category with a positive Budget Balance.
 <img width="100%" height="100%" alt="Screenshot 2025-08-14 094425" src="https://github.com/user-attachments/assets/fb18d392-ec50-4dd3-afb3-654df71a3984" />
 
 :::note
+
 See [Carrying Debt](./carrying-debt.md) for instructions on how we set up our account display. You can see examples of how we dealt with our other two debt carrying credit cards, too.
+
 :::
 
 We'll need the following informaiton from our July statement:
@@ -42,6 +46,7 @@ We'll need the following informaiton from our July statement:
 - New Balance: $93.23
 
 :::note
+
 If necessary, remember to enter a transaction for any interest and or fees charged and categorize them to a funded budget category.
 
 :::
@@ -52,7 +57,7 @@ When we [reconcile](/docs/accounts/reconciliation.md) our account for this first
 
 <img width="100%" height="100%" alt="Screenshot 2025-08-14 095529" src="https://github.com/user-attachments/assets/bc7eab88-5c2a-410f-aa0c-b3676f86c24d" />
 
-We know that we accounted for all of these purchases as none of our Budget categories are overspent and our "To Budget" amount in the Budget header is **not** less than 0.00.  We can pay our statement New Balance without worry, so we send Chase $93.23 from Ally Savings and we transfer that amount as a deposit to our Chase account.
+We know that we accounted for all of these purchases as **none** of our Budget categories are overspent and our "To Budget" amount in the Budget header is **not** less than 0.00.  We can pay our statement New Balance without worry, so we send Chase $93.23 from Ally Savings and we _Make Transfer_ that amount as a deposit to our Chase credit card account.
 
 <br><br>
 
@@ -64,13 +69,13 @@ At the end of July, our Budget looks like this:
 
 <br><br>
 
-Our Chase account looks like this:
+Our Chase credit card account looks like this:
 
 <img width="100%" height="100%" alt="Screenshot 2025-08-14 100351" src="https://github.com/user-attachments/assets/8dd022c0-294a-42cb-973e-a11b8090e1b3" />
 
 <br><br>
 
-We set up our August Budget on the 1st and it looks a lot like our July Budget. We continue to spend and categorize each transaciton _Within the Budget_ and when our August statement arrives on the 12th, our Chase account looks like this:
+We set up our August Budget on the 1st and it looks a lot like our July Budget. We continue to spend and categorize each transaciton _Within the Budget_ and when our August statement arrives on the 12th, our Chase credit card account looks like this:
 
 <img width="100%" height="100%" alt="Screenshot 2025-08-14 100829" src="https://github.com/user-attachments/assets/62922d23-38f0-4937-8d08-c083d8fe13bb" />
 
@@ -89,10 +94,14 @@ We [reconcile](/docs/accounts/reconciliation.md) our account and it now looks li
 
 <br><br>
 
-Because we have been categorizing every new purchase to a category with a positive Budget Balance _Within the Budget_, we know that we can pay for them. We can choose to pay either the statement New Balance of $213.15 or our current balance of $219.27. Perhaps you're like many of us and you have your account set to auto-pay the statement balance every month on the due date. Enter that transfer transaction on the due date.
+Because we have been categorizing every new purchase to a category with a positive Budget Balance _Within the Budget_, we know that we can pay for them. We can choose to pay either the statement New Balance of $213.15 or our current balance of $219.27. 
 
 :::tip
+
+Perhaps you're like many of us and you have your account set to auto-pay the statement balance every month on the due date. Enter that transfer transaction on the due date.
+
 If you use a Schedule for your auto-pay, edit the payment amount in your next Schedule to equal your statment New Balance.
+
 :::
 
 Our Chase account now looks like this:
@@ -108,15 +117,16 @@ on the 18th, our Budget looks like this:
 <br><br>
 
 :::tips
-To pay for a large purchase with your credit card, make a new category for it and add to it's **Budgeted** column every month until you have enough to pay for the purchase. When you make the purchase, categorize it to this new category and you'll know you have enough money to pay the bill when it comes. You did not create Overspending and stayed _Within the Budget_.
 
-Be aware that when you do not pay **at least** the statement balance by the due date, you will lose your "Grace Period" and incur interest from the date of purchase for all new purchases. It may take a few months of paying your statement balance in full to gain back your Grace Period. 
+- To budget and pay for a large purchase with your credit card, make a new category for it and add to it's **Budgeted** column every month until you have enough to pay for the purchase. When you make the purchase, categorize it to this new category and you'll know you have enough money to pay the bill when it comes. You did not create Overspending and stayed _Within the Budget_.
+
+- Be aware that when you do not pay **at least** the statement balance by the due date, you will lose your "Grace Period" and incur interest from the date of purchase for all new purchases. It may take a few months of paying your statement balance in full to gain back your Grace Period. 
 
 :::
 
 ### Conclusion
 
-Hopefully after looking through this example you've seen that managing credit card spending safely can be pretty easy.
+Hopefully after looking through this example you've seen that managing credit card spending safely can be pretty easy if you stay _Within the Budget_.
 
 On the other hand if some emergency comes up where you are unable to pay off the entire credit card statement, then you've overspent your money and are now in debt. This is perfectly okay, but it means that you need to switch over to following the [Carrying Debt](./carrying-debt.md) strategy for managing this debt. 
 
