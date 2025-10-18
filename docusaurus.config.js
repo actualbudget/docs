@@ -15,7 +15,6 @@ module.exports = {
   url: 'https://actualbudget.org/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 
   // Even if you don't use internalization, you can use this field to set useful
@@ -28,6 +27,9 @@ module.exports = {
 
   markdown: {
     mermaid: true,
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
   },
 
   themes: ['@docusaurus/theme-mermaid'],
@@ -183,27 +185,14 @@ module.exports = {
     }),
   plugins: [
     [
-      require.resolve('@cmfcmf/docusaurus-search-local'),
-      {
+      require.resolve('@easyops-cn/docusaurus-search-local'),
+      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+      ({
+        hashed: true,
         indexDocs: true,
-        indexDocSidebarParentCategories: 0,
         indexPages: false,
         language: 'en',
-        style: undefined,
-        maxSearchResults: 8,
-        lunr: {
-          tokenizerSeparator: /[\s\-]+/,
-
-          b: 0.75,
-
-          k1: 1.2,
-
-          titleBoost: 5,
-          contentBoost: 1,
-          tagsBoost: 3,
-          parentCategoriesBoost: 2, // Only used when indexDocSidebarParentCategories > 0
-        },
-      },
+      }),
     ],
     ['@docusaurus/plugin-ideal-image', { disableInDev: false }],
     '@r74tech/docusaurus-plugin-panzoom',

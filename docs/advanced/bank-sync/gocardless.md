@@ -5,6 +5,10 @@ Client Version 23.7.0 and
 Server Version 23.7.0 or higher are required for this feature.
 :::
 
+:::warning
+From July 2025 onwards, GoCardless has stopped accepting new Bank Account Data accounts. The below sign up instructions are now outdated, however, if you are an existing user, your account should continue to work.
+:::
+
 ### Create SECRET and KEY for Actual
 
 1. Create an account with GoCardless - https://bankaccountdata.gocardless.com/overview/.
@@ -113,22 +117,4 @@ In the free tier, you can connect up to 50 banks per month. If one of your banks
 Every day you can sync each bank up to 4 times and there is no monthly limit though, just the daily one.
 For more information, see the [Bank Account Data API Usage](https://bankaccountdata.zendesk.com/hc/en-gb/articles/11528933493916-Bank-Account-Data-API-Usage-how-is-your-usage-number-calculated)
 topic in the GoCardless FAQ.
-
-**What if my bank only supports 90 days of historical data?**
-
-If your bank limits the amount of historical data you can fetch, you need to add your bank to the list of such banks in the Actual server code.
-
-To achieve this:
-
-1. Read the instructions about integrating with GoCardless: https://github.com/actualbudget/actual/blob/master/packages/sync-server/src/app-gocardless/README.md
-2. Toward the top is a link to the Google Docs containing data points for the GoCardless integration. Locate your bank's ID in the document.
-3. Fork the Actual repository: https://github.com/actualbudget/actual/fork
-4. Edit the file `packages/sync-server/src/app-gocardless/bank-factory.js`.
-5. Add your bank's ID (from the Google Docs) to the `BANKS_WITH_LIMITED_HISTORY` list.
-6. Before creating your pull request, run the command `yarn generate:release-notes` (see [writing good release notes](/docs/contributing/#writing-good-release-notes)).
-7. Commit your changes and push to your fork.
-8. Create a pull request to the main Actual repository.
-
-
-Once reviewed, the maintainers will comment on the pull request and merge it if acceptable. The change would then be available in the next release of the software.
 

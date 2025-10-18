@@ -1,5 +1,212 @@
 # Release Notes
 
+## 25.10.0
+
+Release date: 2025-10-02
+
+This release contains the following improvements, along with numerous fixes:
+
+- Add a mobile view for the payees page
+- Add API endpoints for interaction with schedules
+- Expand the range of display currencies available
+- Introduce a graph to show balance over time on account pages
+
+<!--truncate-->
+
+**Docker tag: 25.10.0**
+
+#### Features
+
+- [#5037](https://github.com/actualbudget/actual/pull/5037) Adds net worth graph for each account page. — thanks @passabilities
+- [#5584](https://github.com/actualbudget/actual/pull/5584) Introduction of APIs to handle Schedule + a bit more. Refer to updated API documentation PR2811 on documentation. — thanks @karimkodera
+- [#5624](https://github.com/actualbudget/actual/pull/5624) Add tools to migrate/un-migrate to/from UI automations — thanks @jfdoming
+- [#5653](https://github.com/actualbudget/actual/pull/5653) Add BRL, JMD, RSD, RUB, THB and UAH currencies — thanks @misu-dev
+- [#5725](https://github.com/actualbudget/actual/pull/5725) Add a setting to disable update notifications — thanks @MikesGlitch
+- [#5758](https://github.com/actualbudget/actual/pull/5758) Add 'dryRun' option to importTransactions API. — thanks @amrawadk
+- [#5767](https://github.com/actualbudget/actual/pull/5767) Create a mobile payees list page with search and filtering capabilities. — thanks @MatissJanis
+- [#5780](https://github.com/actualbudget/actual/pull/5780) Add Express-based CORS proxy with rate limiting, logging, and GitHub token authentication support. — thanks @lelemm
+
+#### Enhancements
+
+- [#5562](https://github.com/actualbudget/actual/pull/5562) Implement react compiler to take advantage of some performance improvements — thanks @joel-jeremy
+- [#5610](https://github.com/actualbudget/actual/pull/5610) Re-design mobile accounts page to better match the transactions and budget tables/list + add all accounts page — thanks @joel-jeremy
+- [#5649](https://github.com/actualbudget/actual/pull/5649) Add error boundary for modal windows — thanks @MatissJanis
+- [#5676](https://github.com/actualbudget/actual/pull/5676) Add NO_COLOR standard environment flag to sync-server logging (https://no-color.org/). — thanks @michaelsanford
+- [#5688](https://github.com/actualbudget/actual/pull/5688) Add Romanian and Moldovan Leu currencies — thanks @biolan
+- [#5698](https://github.com/actualbudget/actual/pull/5698) Added support for Egyptian Pound (EGP) and Saudi Riyal (SAR) currencies. — thanks @xshalan
+- [#5711](https://github.com/actualbudget/actual/pull/5711) Add bank sync option to only import account balance — thanks @youngcw
+- [#5733](https://github.com/actualbudget/actual/pull/5733) Mobile: open recurring schedule picker in modal — thanks @MatissJanis
+- [#5741](https://github.com/actualbudget/actual/pull/5741) Add BPER Italy bank parser (BPER_RETAIL_BPMOIT22) — thanks @dirk-apers
+- [#5744](https://github.com/actualbudget/actual/pull/5744) Dynamically update currency display options — thanks @StephenBrown2
+- [#5753](https://github.com/actualbudget/actual/pull/5753) Extend report end date to the latest transaction date — thanks @csenel
+- [#5762](https://github.com/actualbudget/actual/pull/5762) Add quiet mode to API — thanks @matt-fidd
+- [#5766](https://github.com/actualbudget/actual/pull/5766) Mobile rules page - set min width for value editor — thanks @MatissJanis
+- [#5775](https://github.com/actualbudget/actual/pull/5775) Add limit type template for use in future template GUI — thanks @youngcw
+- [#5776](https://github.com/actualbudget/actual/pull/5776) Mobile payees - clicking takes to appropriate pages — thanks @MatissJanis
+- [#5783](https://github.com/actualbudget/actual/pull/5783) Add data-1p-ignore attribute to transaction amount inputs to prevent 1Password autofill. — thanks @MatissJanis
+
+#### Bugfix
+
+- [#5414](https://github.com/actualbudget/actual/pull/5414) Improved the handling of schedules that have the same payee, amount, account, and date when posted by the schedule automatically or manually via the previews. — thanks @Triscal
+- [#5572](https://github.com/actualbudget/actual/pull/5572) Remove auto-scrolling behavior when editing split transactions on mobile — thanks @e13h
+- [#5622](https://github.com/actualbudget/actual/pull/5622) Fix range calculator on the MonthPicker component — thanks @itsbekas
+- [#5696](https://github.com/actualbudget/actual/pull/5696) Fix issue where marking existing transactions as transfer switches the date and notes of the two transactions — thanks @Nalin-Gupta
+- [#5706](https://github.com/actualbudget/actual/pull/5706) Fixes detailedAccounts that might me null or undefined with some Italian Banks (Widiba, Poste, Intesa) — thanks @mauroartizzu
+- [#5734](https://github.com/actualbudget/actual/pull/5734) Change account menu popover width to minWidth to accommodate different text lengths when switching languages — thanks @jgeneaguilar
+- [#5735](https://github.com/actualbudget/actual/pull/5735) Exclude hidden categories from "Copy last month's budget" when copying whole month — thanks @mgibson-scottlogic
+- [#5736](https://github.com/actualbudget/actual/pull/5736) Force the display of the 'Schedules transaction' badge on a single line — thanks @milanalexandre
+- [#5738](https://github.com/actualbudget/actual/pull/5738) Fixes Spending Card crash — thanks @misu-dev
+- [#5752](https://github.com/actualbudget/actual/pull/5752) Fix scrolling inside modals on iOS 26 — thanks @matt-fidd
+- [#5759](https://github.com/actualbudget/actual/pull/5759) Fix timestamp error when shutting down API with no budget loaded — thanks @matt-fidd
+- [#5760](https://github.com/actualbudget/actual/pull/5760) Improve cleanup when opening multiple budgets through the API — thanks @matt-fidd
+- [#5761](https://github.com/actualbudget/actual/pull/5761) Optimise the way payee information is fetched. — thanks @thromer
+- [#5765](https://github.com/actualbudget/actual/pull/5765) Translations of category labels in the TransactionEdit component (mobile) — thanks @milanalexandre
+- [#5777](https://github.com/actualbudget/actual/pull/5777) Translated ‘(No payee)’ for a scheduled transaction — thanks @milanalexandre
+- [#5779](https://github.com/actualbudget/actual/pull/5779) Ensure file upload size limits are respected when syncing files — thanks @matt-fidd
+- [#5782](https://github.com/actualbudget/actual/pull/5782) Fix token expiration parsing to accept numeric strings and validate special string formats. — thanks @MatissJanis
+- [#5790](https://github.com/actualbudget/actual/pull/5790) Fix live report time ranges — thanks @matt-fidd
+- [#5791](https://github.com/actualbudget/actual/pull/5791) Fix deprecation warning in count-points script — thanks @matt-fidd
+- [#5803](https://github.com/actualbudget/actual/pull/5803) Mobile payees - add missing padding around searchbar — thanks @MatissJanis
+- [#5810](https://github.com/actualbudget/actual/pull/5810) Skip the schedule service if the database is not loaded — thanks @matt-fidd
+- [#5816](https://github.com/actualbudget/actual/pull/5816) Prevent the account balance graph from showing on small screen sizes — thanks @matt-fidd
+- [#5817](https://github.com/actualbudget/actual/pull/5817) Fix highlighting bug when hovering over the payee dropdown — thanks @matt-fidd
+- [#5821](https://github.com/actualbudget/actual/pull/5821) Ensure account balance graphs update when transactions are added or changed — thanks @matt-fidd
+- [#5822](https://github.com/actualbudget/actual/pull/5822) Fix account sync status indicators when using SimpleFIN — thanks @matt-fidd
+- [#5823](https://github.com/actualbudget/actual/pull/5823) Fix crash when switching reports — thanks @matt-fidd
+- [#5831](https://github.com/actualbudget/actual/pull/5831) Allow decimals numbers to be typed into amount filter — thanks @matt-fidd
+- [#5835](https://github.com/actualbudget/actual/pull/5835) Fix template limit checker incorrectly claiming there are multiple limits — thanks @youngcw
+
+#### Maintenance
+
+- [#5648](https://github.com/actualbudget/actual/pull/5648) Add issue types for bug reports and feature requests in GitHub issue templates. — thanks @MatissJanis
+- [#5662](https://github.com/actualbudget/actual/pull/5662) Fix version bump logic to work if the month has rolled over — thanks @jfdoming
+- [#5684](https://github.com/actualbudget/actual/pull/5684) Remove usage of a raw variable in Account component — thanks @joel-jeremy
+- [#5685](https://github.com/actualbudget/actual/pull/5685) Remove usage of a raw variable in AccountAutocomplete component — thanks @joel-jeremy
+- [#5686](https://github.com/actualbudget/actual/pull/5686) Remove usage of a raw variable in CategoryAutocomplete component — thanks @joel-jeremy
+- [#5687](https://github.com/actualbudget/actual/pull/5687) Remove usage of a raw variable in PayeeAutocomplete component — thanks @joel-jeremy
+- [#5690](https://github.com/actualbudget/actual/pull/5690) Optimize usage of useScrollListener and useTransactionsSearch — thanks @joel-jeremy
+- [#5695](https://github.com/actualbudget/actual/pull/5695) Fix local dockerfile build memory allocation — thanks @MikesGlitch
+- [#5707](https://github.com/actualbudget/actual/pull/5707) Bump vite from 6.3.5 to 6.3.6 — thanks @matt-fidd
+- [#5713](https://github.com/actualbudget/actual/pull/5713) Update Electron to the latest stable version — thanks @MikesGlitch
+- [#5714](https://github.com/actualbudget/actual/pull/5714) Remove `BANKS_WITH_LIMITED_HISTORY` override array for GoCardless — thanks @matt-fidd
+- [#5718](https://github.com/actualbudget/actual/pull/5718) Remove usage of raw variables in renders — thanks @joel-jeremy
+- [#5750](https://github.com/actualbudget/actual/pull/5750) Optimize scroll provider and replace usage of debounce package with lodash's debounce — thanks @joel-jeremy
+- [#5770](https://github.com/actualbudget/actual/pull/5770) TypeScript: move ImportTransactionsModal to ts — thanks @MatissJanis
+- [#5788](https://github.com/actualbudget/actual/pull/5788) Downgrade Ubuntu image in electron build runner for more compatibility with older distros — thanks @MikesGlitch
+- [#5802](https://github.com/actualbudget/actual/pull/5802) Mobile payee list - moved to react-aria GridList to improve performance — thanks @MatissJanis
+
+## 25.9.0
+
+Release date: 2025-09-03
+
+This release contains the following improvements, along with numerous fixes:
+
+- Add a mobile view for the rules page
+- Show experimental budget currency on reports page
+- Release experimental Pluggy.ai bank connector
+
+<!--truncate-->
+
+**Docker tag: 25.9.0**
+
+#### Features
+
+- [#5283](https://github.com/actualbudget/actual/pull/5283) Add currency display to reports — thanks @misu-dev
+- [#5390](https://github.com/actualbudget/actual/pull/5390) Add mobile rules page for viewing and managing rules on mobile devices. — thanks @MatissJanis
+- [#5532](https://github.com/actualbudget/actual/pull/5532) Add backend logic to support automations UI — thanks @jfdoming
+- [#5533](https://github.com/actualbudget/actual/pull/5533) Connect automations UI to backend — thanks @jfdoming
+- [#5556](https://github.com/actualbudget/actual/pull/5556) Add ability to delete rules with a new confirmation modal in mobile rule editing. — thanks @MatissJanis
+- [#5628](https://github.com/actualbudget/actual/pull/5628) Release pluggy bank-sync integration — thanks @MatissJanis
+
+#### Enhancements
+
+- [#5383](https://github.com/actualbudget/actual/pull/5383) Add transaction information to notes on Stadtsparkasse München GoCardless transaction parsing. — thanks @cybersardinha & @Nebukadneza
+- [#5419](https://github.com/actualbudget/actual/pull/5419) Add 'Prior year to date' time range — thanks @pogman-code
+- [#5452](https://github.com/actualbudget/actual/pull/5452) Add toggle feature to show/hide balance history graph in sidebar account tooltip. — thanks @MatissJanis
+- [#5456](https://github.com/actualbudget/actual/pull/5456) Add Qatari Riyal currency symbol — thanks @matt-fidd
+- [#5458](https://github.com/actualbudget/actual/pull/5458) Add tooltip for detailed last sync time on bank sync page — thanks @matt-fidd
+- [#5461](https://github.com/actualbudget/actual/pull/5461) Import category notes from nYNAB — thanks @matt-fidd
+- [#5472](https://github.com/actualbudget/actual/pull/5472) Add Polish Złoty currency — thanks @dgliwka
+- [#5475](https://github.com/actualbudget/actual/pull/5475) Enhance tooltip component with configurable close delay for improved user experience. — thanks @MatissJanis
+- [#5477](https://github.com/actualbudget/actual/pull/5477) Add SEK and TRY as currencies — thanks @csenel
+- [#5479](https://github.com/actualbudget/actual/pull/5479) Added the Swedish bank with limited history Länsförsäkringar. — thanks @AlexKalopsia
+- [#5482](https://github.com/actualbudget/actual/pull/5482) Display schedule name in upcoming transaction notes. — thanks @passabilities
+- [#5483](https://github.com/actualbudget/actual/pull/5483) Add Indian Rupee (INR) currency — thanks @emilgeo
+- [#5507](https://github.com/actualbudget/actual/pull/5507) Add Philippine Peso currency — thanks @joel-jeremy
+- [#5516](https://github.com/actualbudget/actual/pull/5516) Extract mobile rules editing to a dedicated page, enhancing user navigation and experience. — thanks @MatissJanis
+- [#5521](https://github.com/actualbudget/actual/pull/5521) Show the absolute date of reconciliation (e.g. "08/08/2025") in addition to the relative date (e.g. "3 days ago") — thanks @j-maas
+- [#5528](https://github.com/actualbudget/actual/pull/5528) Fix incorrect mathematical equation calculations in the  reconcile window (Bug #5527) — thanks @junyuanz1
+- [#5543](https://github.com/actualbudget/actual/pull/5543) Convert EditRuleModal to TypeScript, enhancing type safety and updating save function behavior. — thanks @MatissJanis
+- [#5574](https://github.com/actualbudget/actual/pull/5574) Better readability of tags — thanks @pogman-code
+- [#5604](https://github.com/actualbudget/actual/pull/5604) Enable Make Transfer menu for child transactions — thanks @joel-jeremy
+- [#5605](https://github.com/actualbudget/actual/pull/5605) [Mobile] Show uncategorized/overspending totals on budget banners — thanks @joel-jeremy
+- [#5607](https://github.com/actualbudget/actual/pull/5607) Mobile friendly DateSelect component — thanks @MatissJanis
+
+#### Bugfix
+
+- [#5072](https://github.com/actualbudget/actual/pull/5072) [Mobile] Fix preview transactions not loading in multi-account views and uncategorized splits not loading. — thanks @joel-jeremy
+- [#5126](https://github.com/actualbudget/actual/pull/5126) Enhances the mobile budget table's responsiveness by implementing AutoTextSize for better text scaling and adjusting the responsive breakpoint to provide a better user experience on smaller screens. — thanks @chaitanyya
+- [#5396](https://github.com/actualbudget/actual/pull/5396) add missing translations for UI texts (Show, Hide, Delete, Unsaved report) — thanks @milanalexandre
+- [#5406](https://github.com/actualbudget/actual/pull/5406) In the schedule date selection, move add specific days onto the next row and dynamically increased the width of the numbered input. — thanks @ShayanAraghi
+- [#5411](https://github.com/actualbudget/actual/pull/5411) Add status label translations for 'Schedules' and others — thanks @milanalexandre
+- [#5415](https://github.com/actualbudget/actual/pull/5415) Fix transaction hooks and improve transactions loading experience in mobile — thanks @joel-jeremy
+- [#5418](https://github.com/actualbudget/actual/pull/5418) Truncate multiple payee names with ellipsis to prevent layout overflow in the payee column. — thanks @ShayanAraghi
+- [#5421](https://github.com/actualbudget/actual/pull/5421) add translation support for rule stages — thanks @milanalexandre
+- [#5429](https://github.com/actualbudget/actual/pull/5429) Fix the responsiveness of the mobile navigation and accommodate longer strings / translations — thanks @Serializator
+- [#5438](https://github.com/actualbudget/actual/pull/5438) Allow filter based on transfer payee from closed account — thanks @Serializator
+- [#5457](https://github.com/actualbudget/actual/pull/5457) Fix tag colors when using the light theme as system default — thanks @matt-fidd
+- [#5460](https://github.com/actualbudget/actual/pull/5460) Make payee fall back to default if the custom mapped field is missing — thanks @matt-fidd
+- [#5462](https://github.com/actualbudget/actual/pull/5462) Prevent closing an account into itself — thanks @matt-fidd
+- [#5464](https://github.com/actualbudget/actual/pull/5464) Remove the automatic space added by bulk prepend/append to notes to make behaviour consistent with the rule action — thanks @matt-fidd
+- [#5471](https://github.com/actualbudget/actual/pull/5471) Adds translations to the "new transaction" page on mobile devices — thanks @milanalexandre
+- [#5485](https://github.com/actualbudget/actual/pull/5485) Display name of old payee correctly when merging — thanks @r1ch
+- [#5486](https://github.com/actualbudget/actual/pull/5486) Add missing translations in “Reports” && “Rule” — thanks @milanalexandre
+- [#5489](https://github.com/actualbudget/actual/pull/5489) Fixes #4036 https://github.com/actualbudget/actual/issues/4036 — thanks @emilgeo
+- [#5495](https://github.com/actualbudget/actual/pull/5495) Fix live report date mode not supporting a 2 month window — thanks @matt-fidd
+- [#5496](https://github.com/actualbudget/actual/pull/5496) Hide hold for next month option when "to budget" is negative — thanks @matt-fidd
+- [#5514](https://github.com/actualbudget/actual/pull/5514) Adds translations to the "rules" page — thanks @milanalexandre
+- [#5519](https://github.com/actualbudget/actual/pull/5519) Add fix for unfocusing the date disabling all other buttons — thanks @ShayanAraghi
+- [#5520](https://github.com/actualbudget/actual/pull/5520) Fixes negative numbers shown in the summary report — thanks @misu-dev
+- [#5523](https://github.com/actualbudget/actual/pull/5523) Display name of old payee correctly when merging — thanks @r1ch
+- [#5526](https://github.com/actualbudget/actual/pull/5526) Fixes a bug where sometimes hidden categories get selected in the transaction table — thanks @misu-dev
+- [#5529](https://github.com/actualbudget/actual/pull/5529) Fix the display of 'link schedules' condition — thanks @MatissJanis
+- [#5541](https://github.com/actualbudget/actual/pull/5541) Fix SpendingCard crash — thanks @milanalexandre
+- [#5549](https://github.com/actualbudget/actual/pull/5549) Translate closing account — thanks @milanalexandre
+- [#5565](https://github.com/actualbudget/actual/pull/5565) Translate import transactions (modal) — thanks @milanalexandre
+- [#5573](https://github.com/actualbudget/actual/pull/5573) Fix rendering loop in calendar report card — thanks @matt-fidd
+- [#5579](https://github.com/actualbudget/actual/pull/5579) Prevent unnecessary calls to DB if same redux action is already pending — thanks @joel-jeremy
+- [#5580](https://github.com/actualbudget/actual/pull/5580) Only show schedule name in notes for upcoming transactions — thanks @matt-fidd
+- [#5587](https://github.com/actualbudget/actual/pull/5587) mobile rules - change default new rule stage to be "default" instead of "pre" — thanks @MatissJanis
+- [#5589](https://github.com/actualbudget/actual/pull/5589) Hide transfer transactions from the uncategorized transactions view in the mobile app. — thanks @joel-jeremy
+- [#5594](https://github.com/actualbudget/actual/pull/5594) Fix by template not calculating properly under some stacked template conditions — thanks @youngcw
+- [#5600](https://github.com/actualbudget/actual/pull/5600) Add missing conditional for describing schedules in rules page — thanks @MatissJanis
+- [#5601](https://github.com/actualbudget/actual/pull/5601) Improve responsiveness of set-split-amount field on mobile — thanks @MatissJanis
+- [#5608](https://github.com/actualbudget/actual/pull/5608) Fixes a crash when filtering by amount — thanks @misu-dev
+- [#5623](https://github.com/actualbudget/actual/pull/5623) Fix sync server failing to start on arm64 macs — thanks @MikesGlitch
+- [#5631](https://github.com/actualbudget/actual/pull/5631) Fix docker health check script — thanks @matt-fidd
+- [#5634](https://github.com/actualbudget/actual/pull/5634) Adjust the size of the SplitTransactionError modal dynamically — thanks @milanalexandre
+- [#5643](https://github.com/actualbudget/actual/pull/5643) Support webRoot being in a hidden folder (e.g. .cache) — thanks @gediminasel
+- [#5659](https://github.com/actualbudget/actual/pull/5659) Fix income modal balance not showing — thanks @jfdoming
+
+#### Maintenance
+
+- [#5379](https://github.com/actualbudget/actual/pull/5379) Migrate loot-core build system from Webpack to Vite — thanks @MikesGlitch
+- [#5398](https://github.com/actualbudget/actual/pull/5398) Use null as tag color by default (fallback to theme color) and stricter tag validation — thanks @pogman-code
+- [#5404](https://github.com/actualbudget/actual/pull/5404) Allow running the GitHub Actions workflow for building the Docker edge image on forks when using the workflow dispatch — thanks @Jackenmen
+- [#5480](https://github.com/actualbudget/actual/pull/5480) Merge automatic package versioning GitHub workflows — thanks @matt-fidd
+- [#5497](https://github.com/actualbudget/actual/pull/5497) Bump dependencies in sync-server package — thanks @matt-fidd
+- [#5518](https://github.com/actualbudget/actual/pull/5518) Make rule editor component reusable outside a modal window — thanks @MatissJanis
+- [#5544](https://github.com/actualbudget/actual/pull/5544) Add CODEOWNERS file to assign ownership for specific directories in the repository. — thanks @MatissJanis
+- [#5566](https://github.com/actualbudget/actual/pull/5566) Remove unused package - reselect — thanks @MikesGlitch
+- [#5567](https://github.com/actualbudget/actual/pull/5567) Remove unused packages - sourcemap and process — thanks @MikesGlitch
+- [#5576](https://github.com/actualbudget/actual/pull/5576) Fix AutoTextSize warnings — thanks @joel-jeremy
+- [#5581](https://github.com/actualbudget/actual/pull/5581) Move account states from queriesSlice to accountsSlice — thanks @joel-jeremy
+- [#5591](https://github.com/actualbudget/actual/pull/5591) Added Command bar VRT's — thanks @MikesGlitch
+- [#5592](https://github.com/actualbudget/actual/pull/5592) [Redux] Move payee states from queriesSlice to payeesSlice — thanks @joel-jeremy
+- [#5593](https://github.com/actualbudget/actual/pull/5593) [Redux] Move category states from queriesSlice to budgetSlice — thanks @joel-jeremy
+- [#5597](https://github.com/actualbudget/actual/pull/5597) [Redux] Move tags states from queriesSlice to tagsSlice — thanks @joel-jeremy
+- [#5598](https://github.com/actualbudget/actual/pull/5598) [Redux] Rename queriesSlice to transactionsSlice — thanks @joel-jeremy
+
 ## 25.8.0
 
 Release date: 2025-08-02
