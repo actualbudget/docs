@@ -1,6 +1,6 @@
 # Paying in Full - Within the Budget
 
-If you pay off your credit card statement every month, then you will want to use this page to understand how Actual helps you work with your credit card to stay _Within the Budget_. In this case, you will _**not**_ create a Budget category for this credit card.
+If you pay off your credit card statement every month, then you will want to use this page to understand how Actual helps you work with your credit card to stay _Within the Budget_. In this case, you will _**not**_ create a separate Budget category for this credit card. Each transaction will be deducted from the Budget and Available funds as they are entered and categorized to a funded category.
 
 If you are unable to budget for and pay your credit card outstanding balance, see the [Carrying Debt](./carrying-debt.md) page for a step-by-step guide on how to set up Actual and track this debt in a safe and sustainable manner. 
 
@@ -22,7 +22,9 @@ To show more top level information about your budget, hover over the top left co
 
 <br><br>
 
-We started our budget at the beginning of July and we normally pay off our Chase Credit Card statement every month. We had some new transactions from June, so we entered a Starting Balance of $35.00. Notice that money we _owe_ goes into the "Payment" column.
+We started our budget at the beginning of July and we normally pay off our Chase Credit Card statement every month. We had some new transactions from June, so we entered a Starting Balance of $35.00. 
+
+**Notice** that money we _owe_ goes into the "Payment" column.
 
 Every time we use the card, we choose a category with a positive Budget Balance. Our account closes on the 7th of every month and our statement arrives a few days later. When the July statement arrives, our Chase account looks like this:
 
@@ -57,7 +59,7 @@ When we [reconcile](/docs/accounts/reconciliation.md) our account for this first
 
 <img width="100%" height="100%" alt="Screenshot 2025-08-14 095529" src="https://github.com/user-attachments/assets/bc7eab88-5c2a-410f-aa0c-b3676f86c24d" />
 
-We know that we accounted for all of these purchases as **none** of our Budget categories are overspent and our "To Budget" amount in the Budget header is **not** less than 0.00.  We can pay our statement New Balance without worry, so we send Chase $93.23 from Ally Savings and we _Make Transfer_ that amount as a deposit to our Chase credit card account.
+We know that we accounted for all of these purchases as **none** of our Budget categories are overspent and our "To Budget" amount in the Budget header is **not** less than 0.00.  We can pay our statement New Balance without worry, so we send Chase $93.23 from Ally Savings and we _Make Transfer_ that amount from Ally to Chase as a deposit to our Chase credit card account.
 
 <br><br>
 
@@ -116,11 +118,15 @@ on the 18th, our Budget looks like this:
 
 <br><br>
 
-:::tips
+:::tip
 
-- To budget and pay for a large purchase with your credit card, make a new category for it and add to it's **Budgeted** column every month until you have enough to pay for the purchase. When you make the purchase, categorize it to this new category and you'll know you have enough money to pay the bill when it comes. You did not create Overspending and stayed _Within the Budget_.
+To budget and pay for a large purchase with your credit card, make a new category for it and add to it's **Budgeted** column every month until you have enough to pay for the purchase. When you make the purchase, categorize it to this new category and you'll know you have enough money to pay the bill when it comes. You did not create Overspending and stayed _Within the Budget_.
 
-- Be aware that when you do not pay **at least** the statement balance by the due date, you will lose your "Grace Period" and incur interest from the date of purchase for all new purchases. It may take a few months of paying your statement balance in full to gain back your Grace Period. 
+:::
+
+:::warning
+
+Be aware that when you do not pay **at least** the statement balance by the due date, you will lose your "Grace Period" and incur interest from the date of purchase for all new purchases. You will need to budget for this interest! It may take a few months of paying your statement balance in full to gain back your Grace Period. 
 
 :::
 
