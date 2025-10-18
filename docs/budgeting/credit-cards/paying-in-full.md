@@ -14,9 +14,9 @@ Starting our example Budget in July, we'll show you step-by-step how to handle c
 
 To show more top level information about your budget, hover over the top left corner of the header and press the expand arrows:
 
-<img width="50%" height="50%" alt="Screenshot 2025-08-14 080307" src="https://github.com/user-attachments/assets/3dda1fcc-74f5-4bcf-98ab-4af7fb743107" />  
+<img width="50%" height="50%" alt="Unexpanded Budget header" src="/img/credit-cards/CC-IND-01.png" />  
 
-<img width="50%" height="50%" alt="Screenshot 2025-08-14 080928" src="https://github.com/user-attachments/assets/b0539ce4-eadb-4d72-9cb4-3c02b3037baa" />
+<img width="50%" height="50%" alt="Expanded Budget Header" src="/img/credit-cards/CC-IND-02.png" />
 
 :::
 
@@ -28,7 +28,7 @@ We started our budget at the beginning of July and we normally pay off our Chase
 
 Every time we use the card, we choose a category with a positive Budget Balance. Our account closes on the 7th of every month and our statement arrives a few days later. When the July statement arrives, our Chase account looks like this:
 
-<img width="100%" height="100%" alt="Screenshot 2025-08-14 094425" src="https://github.com/user-attachments/assets/fb18d392-ec50-4dd3-afb3-654df71a3984" />
+<img width="100%" height="100%" alt="Chase Account July" src="/img/credit-cards/CC-IND-03.png" />
 
 :::note
 
@@ -57,7 +57,7 @@ If necessary, remember to enter a transaction for any interest and or fees charg
 
 When we [reconcile](/docs/accounts/reconciliation.md) our account for this first month, we clear all of the June purchases and payments (which should be part of the "Starting Balance") in one lump. In our case their lump sum is $35.00.
 
-<img width="100%" height="100%" alt="Screenshot 2025-08-14 095529" src="https://github.com/user-attachments/assets/bc7eab88-5c2a-410f-aa0c-b3676f86c24d" />
+<img width="100%" height="100%" alt="Chase Reconcile July" src="/img/credit-cards/CC-IND-04.png" />
 
 We know that we accounted for all of these purchases as **none** of our Budget categories are overspent and our "To Budget" amount in the Budget header is **not** less than 0.00.  We can pay our statement New Balance without worry, so we send Chase $93.23 from Ally Savings and we _Make Transfer_ that amount from Ally to Chase as a deposit to our Chase credit card account.
 
@@ -67,19 +67,20 @@ We continue to spend in July, sometimes using our Chase card and _always_ catego
 
 At the end of July, our Budget looks like this:
 
-<img width="100%" height="100%" alt="Screenshot 2025-08-14 095734" src="https://github.com/user-attachments/assets/389eb66e-83bc-4526-bb7c-493c75dd9f9c" />
+<img width="100%" height="100%" alt="July Budget" src="/img/credit-cards/CC-IND-05.png" />
 
 <br><br>
 
 Our Chase credit card account looks like this:
 
-<img width="100%" height="100%" alt="Screenshot 2025-08-14 100351" src="https://github.com/user-attachments/assets/8dd022c0-294a-42cb-973e-a11b8090e1b3" />
+<img width="100%" height="100%" alt="Chase July Account" src="/img/credit-cards/CC-IND-06.png" />
 
 <br><br>
 
-We set up our August Budget on the 1st and it looks a lot like our July Budget. We continue to spend and categorize each transaciton _Within the Budget_ and when our August statement arrives on the 12th, our Chase credit card account looks like this:
+We set up our August Budget on the 1st and it looks a lot like our July Budget. 
+We continue to spend and categorize each transaciton _Within the Budget_ and when our August statement arrives on the 12th, our Chase credit card account looks like this:
 
-<img width="100%" height="100%" alt="Screenshot 2025-08-14 100829" src="https://github.com/user-attachments/assets/62922d23-38f0-4937-8d08-c083d8fe13bb" />
+<img width="100%" height="100%" alt="Chase August Account" src="/img/credit-cards/CC-IND-07.png" />
 
 **Chase Account Summary - August 2025**
 - Previous Balance: $93.23
@@ -90,9 +91,9 @@ We set up our August Budget on the 1st and it looks a lot like our July Budget. 
 - Interest Charged: $0.00
 - New Balance: $213.15
 
-We [reconcile](/docs/accounts/reconciliation.md) our account and it now looks like this:
+We [reconcile](/docs/accounts/reconciliation.md) our Chase account and it now looks like this:
 
-<img width="100%" height="100%" alt="Screenshot 2025-08-14 101142" src="https://github.com/user-attachments/assets/563968c9-6b1c-44e5-b291-c69aa3b8d43d" />
+<img width="100%" height="100%" alt="Chase August Reconcile" src="/img/credit-cards/CC-IND-08.png" />
 
 <br><br>
 
@@ -108,13 +109,13 @@ If you use a Schedule for your auto-pay, edit the payment amount in your next Sc
 
 Our Chase account now looks like this:
 
-<img width="100%" height="100%" alt="Screenshot 2025-08-14 104757" src="https://github.com/user-attachments/assets/a6066c46-de06-4d4e-9321-3663887379d7" />
+<img width="100%" height="100%" alt="Chase August Payment" src="/img/credit-cards/CC-IND-09.png" />
 
 <br><br>
 
 on the 18th, our Budget looks like this:
 
-<img width="100%" height="100%" alt="Screenshot 2025-08-14 105403" src="https://github.com/user-attachments/assets/230cdd9f-dc31-402b-b59f-4a62581880f4" />
+<img width="100%" height="100%" alt="Budget August 18" src="/img/credit-cards/CC-IND-010.png" />
 
 <br><br>
 
