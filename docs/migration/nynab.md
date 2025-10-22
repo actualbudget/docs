@@ -37,7 +37,7 @@ This will get the list of all the budgets you have. You'll need to find the id o
 It might help to use pretty formatting to find the budget id by piping to `jq` (which can be installed with homebrew `brew install jq`):
 
 ```
-curl -H "Authorization: Bearer <ACCESS_TOKEN>" https://api.youneedabudget.com/v1/budgets | jq .
+curl -sH "Authorization: Bearer <ACCESS_TOKEN>" https://api.youneedabudget.com/v1/budgets | jq -r '.data.budgets | sort_by(.last_modified_on) | reverse | .[] | "\(.name): \(.id)"'
 ```
 
 If you receive an error message like: `Invoke-WebRequest : Cannot bind parameter 'Headers'`, this is because curl is probably aliased to the "Invoke-WebRequest" Powershell commandlet. Use `curl.exe` instead of just `curl` in the commands below to fix this.
