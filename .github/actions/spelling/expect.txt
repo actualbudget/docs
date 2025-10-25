@@ -64,6 +64,7 @@ GLS
 gocardless
 Grafana
 HABAL
+Hampel
 HELADEF
 INDUSTRIEL
 INGBPLPW
