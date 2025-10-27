@@ -103,7 +103,7 @@ Because we have been categorizing every new purchase to a category with a positi
 
 Perhaps you're like many of us and you have your account set to auto-pay the statement balance every month on the due date. Enter that transfer transaction on the due date.
 
-If you use a Schedule for your auto-pay, edit the payment amount in your next Schedule to equal your statment New Balance.
+If you use a Schedule for your auto-pay, edit the payment amount in your next Schedule to equal your statement New Balance.
 
 :::
 
