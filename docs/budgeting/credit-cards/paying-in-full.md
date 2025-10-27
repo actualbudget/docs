@@ -78,7 +78,7 @@ Our Chase credit card account looks like this:
 <br><br>
 
 We set up our August Budget on the 1st and it looks a lot like our July Budget. 
-We continue to spend and categorize each transaciton _Within the Budget_ and when our August statement arrives on the 12th, our Chase credit card account looks like this:
+We continue to spend and categorize each transaction _Within the Budget_ and when our August statement arrives on the 12th, our Chase credit card account looks like this:
 
 <img width="100%" height="100%" alt="Chase August Account" src="/img/credit-cards/CC-IND-07.png" />
 
