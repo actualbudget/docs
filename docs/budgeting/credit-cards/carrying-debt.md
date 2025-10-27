@@ -8,7 +8,7 @@ Always prioritize that your actual expense categories are funded before allocati
 
 To make it easier to follow along, the examples with screenshots are at the end.
 
-This step-by-step guide is based on entering transactions manually and clearing and reconciling accounts from a monthly statement. It's too easy to spend willy-nilly when you sync all your purchases. Manual entry and reconciliation keeps you in touch with your spending and associated accounts. When you have paid off your debt, you can link up your card(s) and reconcile from a bank sync.
+This step-by-step guide is based on entering transactions manually and clearing and reconciling accounts from a monthly statement. It's too easy to spend carelessly when you sync all your purchases. Manual entry and reconciliation keeps you in touch with your spending and associated accounts. When you have paid off your debt, you can link up your card(s) and reconcile from a bank sync.
 
 :::
 
@@ -86,7 +86,7 @@ If the calculated payment is less than the statement Minimum Payment, you _**mus
 
 - Use _Make Transfer_ to transfer the calculated amount from your Checking account to the Credit Card account. Send that amount to the Credit Card Bank to pay your bill. 
 
-One day you won't need to add any extra to pay the credit card bill in full! Happy Day! Keep on paying at least your statement balance every month and soon you will gain back your Grace Period and stop accruing interest on new purchases! Woot! Follow the [Paying in Full - Within the Budget](./paying-in-full.md) strategy and you will never carry debt or pay credit card interest again.
+One day you won't need to add any extra to pay the credit card bill in full! Happy Day! Keep on paying at least your statement balance every month and soon you will gain back your Grace Period and stop accruing interest on new purchases! Follow the [Paying in Full - Within the Budget](./paying-in-full.md) strategy and you will never carry debt or pay credit card interest again.
 
 ### Examples:
 
