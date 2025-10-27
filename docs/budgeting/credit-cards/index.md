@@ -16,7 +16,7 @@ If you are unable to budget for and pay your credit card outstanding balance **i
 
 **tl;dr. If you don't budget funds you don't have and don't spend money that is not covered in your budget, you will not incur any new debt and always have enough funds to pay for your new credit card purchases whenever you want!**
 
-Actual treats credit card accounts like any bank account, but with a negative value. These negative account balances are subtracted from your positive deposit account balances to give your available "On Budget" funds. As you make purchases with your credit card, the credit card account balance goes further into the negative, thus reducing your available "On Budget" balance. The same thing happens when you pay a utility bill or make a purchase from a checking account - the available "On Budget" balance decreases. When you categorize these expeditures from a budget category with a positive balance, you determine from what envelope the money comes. Since you only put real money in the envelopes at the start of the month, you know you have enough to cover the expenditures regardless of what account they came from.
+Actual treats credit card accounts like any bank account, but with a negative value. These negative account balances are subtracted from your positive deposit account balances to give your available "On Budget" funds. As you make purchases with your credit card, the credit card account balance goes further into the negative, thus reducing your available "On Budget" balance. The same thing happens when you pay a utility bill or make a purchase from a checking account - the available "On Budget" balance decreases. When you categorize these expenditures from a budget category with a positive balance, you determine from what envelope the money comes. Since you only put real money in the envelopes at the start of the month, you know you have enough to cover the expenditures regardless of what account they came from.
 
 When you transfer money from On Budget to On Budget accounts, the On Budget balance stays the same, it doesn't matter what type of account it is. When you make a credit card payment (transfer), you bring the credit card account balance closer to $0.00 and your checking account closer to $0.00 by the exact same amount, but in opposite directions! You will move the same amount of money out of your checking account just as if you made those purchases with your checking debit card, you'll just do it a bit later, when the credit card statement comes. Remember, the purchases are deducted from the budget when you assign them a category.
 
@@ -38,7 +38,7 @@ As far as Actual is concerned a credit card account is the same as any other acc
 We highly recommend you follow the _Within the Budget_ strategy for credit card use. _Every_ time you make a credit card purchase, enter the transaction and select a category with money set aside in the Budgeted column and a positive Budget Balance. 
 
 ### Credit card "rules" to stay _Within the Budget_:
-- Never overbudget. Only budget funds you actually have!
+- Never Over Budget. Only budget funds you actually have!
 - Check your category balance _before_ spending.
 - Enter your new purchase transactions quickly.
 - Cover all overspending.
