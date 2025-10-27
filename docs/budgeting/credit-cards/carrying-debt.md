@@ -8,7 +8,7 @@ Always prioritize that your actual expense categories are funded before allocati
 
 To make it easier to follow along, the examples with screenshots are at the end.
 
-This step-by-step guide is based on entering transactions manually and clearing and reconciling accounts from a monthly statement. It's too easy to spend carelessly when you sync all your purchases. Manual entry and reconciliation keeps you in touch with your spending and associated accounts. When you have paid off your debt, you can link up your card(s) and reconcile from a bank sync.
+This step-by-step guide is based on entering transactions manually and clearing and reconciling accounts from a monthly statement. It's too easy to spend aimlessly when you sync all your purchases. Manual entry and reconciliation keeps you in touch with your spending and associated accounts. When you have paid off your debt, you can link up your card(s) and reconcile from a bank sync.
 
 :::
 
