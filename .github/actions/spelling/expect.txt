@@ -30,6 +30,8 @@ Caixa
 CAMT
 cashflow
 cimode
+Citi
+Citibank
 Cloudflare
 CMCIFRPAXXX
 COBADEFF
