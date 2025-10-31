@@ -54,6 +54,10 @@
 
   However, if you either click "Reset Sync" or export and re-import a file, we squeeze all those tiny changes into a single file. This process removes all the historical changes and significantly reduces the file size. This is normal behavior and not a cause for concern.
 
+- **Q.** _Why do I see `PayloadTooLargeError: request entity too large` when uploading a file?_
+
+  **A.** This happens when the file you are uploading exceeds the maximum request size allowed by the service or infrastructure hosting your Actual instance (for example, a reverse proxy, container platform, or managed host). Actual itself does not enforce this limit, so you’ll need to adjust the upload size settings wherever you deploy Actual—common fixes include increasing the body size limit in Nginx/Traefik, updating the `client_max_body_size` for Docker behind a proxy, or changing the request size setting in your managed hosting provider. If you’re unsure how to change the limit for your setup, ask in the community Discord; other self-hosters often share configuration snippets for their platforms.
+
 - **Q.** _Does Actual Budget have an API? What are the endpoints?_
 
   **A.** Actual does not have a REST API with endpoints that you can just call. However, we do have an API NPM package that allows programmatic access to the budget. It runs the UI in _headless_ mode and allows performing many of the same operations that you can perform by clicking around the UI.
