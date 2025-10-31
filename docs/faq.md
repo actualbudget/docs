@@ -56,7 +56,7 @@
 
 - **Q.** _Why do I see `PayloadTooLargeError: request entity too large` when uploading a file?_
 
-  **A.** This happens when the file you are uploading exceeds the maximum request size allowed by the service or infrastructure hosting your Actual instance (for example, a reverse proxy, container platform, or managed host). Actual itself does not enforce this limit, so you’ll need to adjust the upload size settings wherever you deploy Actual—common fixes include increasing the body size limit in Nginx/Traefik, updating the `client_max_body_size` for Docker behind a proxy, or changing the request size setting in your managed hosting provider. If you’re unsure how to change the limit for your setup, ask in the community Discord; other self-hosters often share configuration snippets for their platforms.
+  **A.** This happens when the file you are uploading exceeds the maximum request size allowed by the service or infrastructure hosting your Actual instance (for example, a reverse proxy, container platform, or managed host). Actual itself does not enforce this limit, so you’ll need to adjust the upload size settings wherever you deploy Actual—common fixes include increasing the body size limit in Nginx/Traefik, updating the `client_max_body_size` for Docker behind a proxy, or changing the request size setting in your managed hosting provider. If you’re unsure how to change the limit for your setup, ask in the community Discord; other self-hosted users often share configuration snippets for their platforms.
 
 - **Q.** _Does Actual Budget have an API? What are the endpoints?_
 
