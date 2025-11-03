@@ -36,7 +36,7 @@ This release contains the following notable improvements, along with numerous fi
 - [#5824](https://github.com/actualbudget/actual/pull/5824) Mobile payees - swipe to delete — thanks @MatissJanis
 - [#5838](https://github.com/actualbudget/actual/pull/5838) Add average per year calculation to the summary report — thanks @matt-fidd
 - [#5847](https://github.com/actualbudget/actual/pull/5847) Hide desktop app menu by default & move menu items to app for consistency with Web. — thanks @MikesGlitch
-- [#5850](https://github.com/actualbudget/actual/pull/5850) Use remark plugin to support GFM in the Text widget in report. — thanks @gdufay
+- [#5850](https://github.com/actualbudget/actual/pull/5850) Use remark plugin to support GitHub-flavoured markdown in the Text widget in reports — thanks @gdufay
 - [#5869](https://github.com/actualbudget/actual/pull/5869) Added Argentinian Peso currency symbol — thanks @rast110e5
 - [#5871](https://github.com/actualbudget/actual/pull/5871) Add swipe-to-delete functionality for mobile rules with undo support in the UI. — thanks @MatissJanis
 - [#5876](https://github.com/actualbudget/actual/pull/5876) Added support for Uzbek Soum (UZS). — thanks @Ilyos Khurozov
@@ -82,7 +82,7 @@ This release contains the following notable improvements, along with numerous fi
 - [#6005](https://github.com/actualbudget/actual/pull/6005) Custom reports - persist "show_uncategorized" in DB — thanks @MatissJanis
 - [#6007](https://github.com/actualbudget/actual/pull/6007) Fix inconsistent widths of bank sync field mapping selects on mobile — thanks @matt-fidd
 - [#6010](https://github.com/actualbudget/actual/pull/6010) Fix sync server file download when files are in .config directory on linux — thanks @MikesGlitch
-- [#6020](https://github.com/actualbudget/actual/pull/6020) Allows selection of quicken (qfx) files for import on safari mobile — thanks @dbequeaith
+- [#6020](https://github.com/actualbudget/actual/pull/6020) Allows selection of Quicken (QFX) files for import on safari mobile — thanks @dbequeaith
 - [#6058](https://github.com/actualbudget/actual/pull/6058) Fix high CPU usage when using experimental formula report — thanks @matt-fidd
 
 #### Maintenance
@@ -107,12 +107,12 @@ This release contains the following notable improvements, along with numerous fi
 - [#5903](https://github.com/actualbudget/actual/pull/5903) Upgrade recharts to v3 — thanks @matt-fidd
 - [#5905](https://github.com/actualbudget/actual/pull/5905) Add end-to-end tests for the mobile Payees page, verifying UI and interactions. — thanks @MatissJanis
 - [#5912](https://github.com/actualbudget/actual/pull/5912) Allow size-compare action to run immediately after artifact upload — thanks @jfdoming
-- [#5935](https://github.com/actualbudget/actual/pull/5935) Update flathub platform and sdk — thanks @MikesGlitch
+- [#5935](https://github.com/actualbudget/actual/pull/5935) Update Flathub platform and sdk — thanks @MikesGlitch
 - [#5936](https://github.com/actualbudget/actual/pull/5936) Upgrade Electron to 38.3.0 — thanks @matt-fidd
 - [#5937](https://github.com/actualbudget/actual/pull/5937) Drop support for Node.js v20 — thanks @matt-fidd
 - [#5942](https://github.com/actualbudget/actual/pull/5942) Add AGENTS.md file for Cursor, Windsurf, Claud, etc. - AI agents — thanks @MatissJanis
 - [#5952](https://github.com/actualbudget/actual/pull/5952) Refactor VRT workflow into two stages for improved testing and patch validation. — thanks @MatissJanis
-- [#5964](https://github.com/actualbudget/actual/pull/5964) Refactor test execution to use lage task runner for improved monorepo test orchestration with parallel execution, smart caching, and better CI performance. — thanks @MatissJanis
+- [#5964](https://github.com/actualbudget/actual/pull/5964) Refactor test execution to use `lage` task runner for improved monorepo test orchestration with parallel execution, smart caching, and better CI performance. — thanks @MatissJanis
 - [#5966](https://github.com/actualbudget/actual/pull/5966) Update mobile e2e tests to improve test reliability. — thanks @MatissJanis
 - [#5971](https://github.com/actualbudget/actual/pull/5971) Update react compiler to v1 — thanks @joel-jeremy
 - [#5982](https://github.com/actualbudget/actual/pull/5982) Bump vite version — thanks @matt-fidd
