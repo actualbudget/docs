@@ -11,7 +11,7 @@ This release contains the following notable improvements, along with numerous fi
 - Expand the currencies available and where they are displayed
 - Experimental feature: formula card and rule/report formulas
 
-*Note:* We are dropping support for Node <=20 in this release. If you are using an older version of Node you may need to upgrade to a newer LTS version (e.g. Node 22).
+*Note:* We are dropping support for Node <=21 in this release. If you are using an older version of Node you may need to upgrade to a newer LTS version (e.g. Node 22).
 
 <!--truncate-->
 
