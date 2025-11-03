@@ -83,6 +83,7 @@ Keycloak
 Khurozov
 KORT
 Kreditbank
+lage
 LHV
 LHVBEE
 LKR

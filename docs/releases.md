@@ -68,7 +68,7 @@ This release contains the following notable improvements, along with numerous fi
 - [#5900](https://github.com/actualbudget/actual/pull/5900) Fix overlapping header texts on mobile — thanks @qunm00
 - [#5901](https://github.com/actualbudget/actual/pull/5901) Fix hotkey warning in browser console — thanks @matt-fidd
 - [#5911](https://github.com/actualbudget/actual/pull/5911) Adds functionality to maintain sort order when duplicating a split transaction and generate new valid sort order for duplicate transactions. — thanks @guizaa
-- [#5918](https://github.com/actualbudget/actual/pull/5918) budgetfilesSlice: Fix fallback sorting of files by ID — thanks @db-src
+- [#5918](https://github.com/actualbudget/actual/pull/5918) Fix fallback sorting of files by ID — thanks @db-src
 - [#5926](https://github.com/actualbudget/actual/pull/5926) Do not allow clicking 'delete from all devices' if server is offline — thanks @MatissJanis
 - [#5928](https://github.com/actualbudget/actual/pull/5928) Fix service worker to generate a new hash with every build for better caching. — thanks @lelemm
 - [#5940](https://github.com/actualbudget/actual/pull/5940) Budget selection page: do not show refresh button for non-server users — thanks @MatissJanis
