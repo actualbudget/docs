@@ -20,8 +20,6 @@ This release contains the following notable improvements, along with numerous fi
 - [#4603](https://github.com/actualbudget/actual/pull/4603) Add `delete transaction` rule action — thanks @lelemm, @youngcw, & @matt-fidd
 - [#5639](https://github.com/actualbudget/actual/pull/5639) Adds currency display to the rules — thanks @misu-dev
 - [#5641](https://github.com/actualbudget/actual/pull/5641) Add option to 'trim intervals' to remove empty start/end intervals on custom reports — thanks @MikesGlitch
-- [#5784](https://github.com/actualbudget/actual/pull/5784) Introduce a Workbox-based service worker for enhanced plugin support and caching functionality. — thanks @lelemm
-- [#5785](https://github.com/actualbudget/actual/pull/5785) Introduce system-wide feature flag system for managing frontend plugins. — thanks @lelemm
 - [#5848](https://github.com/actualbudget/actual/pull/5848) Add LKR and CRC currencies — thanks @hasathcharu
 - [#5907](https://github.com/actualbudget/actual/pull/5907) Adds currency display to the schedules — thanks @misu-dev
 - [#5939](https://github.com/actualbudget/actual/pull/5939) Add a Formula card and Formula for rules for enhanced report generation and rules. — thanks @lelemm
@@ -30,6 +28,8 @@ This release contains the following notable improvements, along with numerous fi
 
 #### Enhancements
 
+- [#5784](https://github.com/actualbudget/actual/pull/5784) Introduce a Workbox-based service worker for enhanced plugin support and caching functionality. — thanks @lelemm
+- [#5785](https://github.com/actualbudget/actual/pull/5785) Introduce system-wide feature flag system for managing frontend plugins. — thanks @lelemm
 - [#5747](https://github.com/actualbudget/actual/pull/5747) Align amount conversion utilities between api and loot-core — thanks @StephenBrown2
 - [#5797](https://github.com/actualbudget/actual/pull/5797) Set initial number formats based on currency selection — thanks @StephenBrown2
 - [#5808](https://github.com/actualbudget/actual/pull/5808) show full decimals while editing regardless of hide decimals setting — thanks @csenel
