@@ -33,5 +33,5 @@ However, if you are adventurous or somewhat technical, please go directly to the
 
 ## I am technical and have no issues running a service on my own.
 
-Check out [Running a Server](https://actualbudget.org/docs/install/#running-a-server) from the Installation guide.
+Check out [Running a Server](/docs/install/#running-a-server) from the Installation guide.
 
