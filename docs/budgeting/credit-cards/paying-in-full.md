@@ -20,7 +20,7 @@ To show more top level information about your budget, hover over the top left co
 
 :::
 
-<br><br>
+<br />
 
 We started our budget at the beginning of July and we normally pay off our Chase Credit Card statement every month. We had some new transactions from June, so we entered a Starting Balance of $35.00. 
 
@@ -53,7 +53,7 @@ If necessary, remember to enter a transaction for any interest and or fees charg
 
 :::
 
-<br><br>
+<br />
 
 When we [reconcile](/docs/accounts/reconciliation.md) our account for this first month, we clear all of the June purchases and payments (which should be part of the "Starting Balance") in one lump. In our case their lump sum is $35.00.
 
@@ -61,7 +61,7 @@ When we [reconcile](/docs/accounts/reconciliation.md) our account for this first
 
 We know that we accounted for all of these purchases as **none** of our Budget categories are overspent and our "To Budget" amount in the Budget header is **not** less than 0.00.  We can pay our statement New Balance without worry, so we send Chase $93.23 from Ally Savings and we _Make Transfer_ that amount from Ally to Chase as a deposit to our Chase credit card account.
 
-<br><br>
+<br />
 
 We continue to spend in July, sometimes using our Chase card and _always_ categorizing each transaction to a category with a positive Budget Balance, thereby spending _Within the Budget_.
 
@@ -69,13 +69,13 @@ At the end of July, our Budget looks like this:
 
 <img width="100%" height="100%" alt="July Budget" src="/img/credit-cards/CC-IND-05.png" />
 
-<br><br>
+<br />
 
 Our Chase credit card account looks like this:
 
 <img width="100%" height="100%" alt="Chase July Account" src="/img/credit-cards/CC-IND-06.png" />
 
-<br><br>
+<br />
 
 We set up our August Budget on the 1st and it looks a lot like our July Budget. 
 We continue to spend and categorize each transaction _Within the Budget_ and when our August statement arrives on the 12th, our Chase credit card account looks like this:
@@ -95,7 +95,7 @@ We [reconcile](/docs/accounts/reconciliation.md) our Chase account and it now lo
 
 <img width="100%" height="100%" alt="Chase August Reconcile" src="/img/credit-cards/CC-IND-08.png" />
 
-<br><br>
+<br />
 
 Because we have been categorizing every new purchase to a category with a positive Budget Balance _Within the Budget_, we know that we can pay for them. We can choose to pay either the statement New Balance of $213.15 or our current balance of $219.27. 
 
@@ -111,13 +111,13 @@ Our Chase account now looks like this:
 
 <img width="100%" height="100%" alt="Chase August Payment" src="/img/credit-cards/CC-IND-09.png" />
 
-<br><br>
+<br />
 
 on the 18th, our Budget looks like this:
 
 <img width="100%" height="100%" alt="Budget August 18" src="/img/credit-cards/CC-IND-010.png" />
 
-<br><br>
+<br />
 
 :::tip
 
