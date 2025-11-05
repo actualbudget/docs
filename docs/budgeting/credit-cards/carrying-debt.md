@@ -93,7 +93,7 @@ One day you won't need to add any extra to pay the credit card bill in full! Hap
 At he beginning of July we budget for the expected Minimum Payments as part of our necessary expenses. After all of our expenses are accounted for, we have $202.29 leftover and we decide to add $200 extra to our Citibank Credit Card. We add $200 to our $90 expected Minimum Payment. The $2.29 we Hold for next Month.
 
 <img width="50%" height="50%" alt="Budget after necessary expenses" src="/img/credit-cards/CC-03.png" />
-<br>
+<br />
 <img width="50%" height="50%" alt="Budget after adding extra" src="/img/credit-cards/CC-04.png" />
 
 <br />
@@ -124,6 +124,7 @@ Our **Budgeted** amount of 290.00 is larger than the Minimum Payment of $90.00, 
 You may notice that the Citibank Balance matches the **Citi Card Debt** Balance. The Interest & Fees we added to the debt were canceled by our **Budgeted** amount that included them.
 
 <img width="50%" height="50%" alt="Citibank July" src="/img/credit-cards/CC-06.png" />
+<br />
 <img width="50%" height="50%" alt="Budget July" src="/img/credit-cards/CC-07.png" />
 
 <br />
@@ -131,6 +132,7 @@ You may notice that the Citibank Balance matches the **Citi Card Debt** Balance.
 On the 1st of August we set our budget and start with our Minimum Payments of $90 for the Citibank card and $50 for the DEMO card. After we funded all of our necessary expenses we added an extra $200 payment for the DEMO card this month.
 
 <img width="50%" height="50%" alt="August Initial Budget" src="/img/credit-cards/CC-08.png" />
+<br />
 <img width="50%" height="50%" alt="August Budget After Extra" src="/img/credit-cards/CC-09.png" />
 
 <br />
