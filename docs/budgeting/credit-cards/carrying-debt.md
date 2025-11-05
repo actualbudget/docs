@@ -25,10 +25,10 @@ Before we get started, check the settings for your Credit Card accounts to make 
   - To show the pills, hover over the account balance under the account name and press the expand >> arrows.
   
     <img width="50%" height="50%" alt="Account page Balance Expand Arows" src="/img/credit-cards/CC-01.png" />
-    <br>
+    <br />
     <img width="50%" height="50%" alt="Account Page Balances Expanded" src="/img/credit-cards/CC-02.png" />
 
-<br>
+<br />
 
 - When we use the "Uncleared total" we will use the absolute value, the positive value without the (-) sign. So, if Actual shows "Uncleared total: -2553.86", then we will use 2553.86.
 - For our purposes here, we will be paying the credit card from a checking account.
@@ -96,7 +96,7 @@ At he beginning of July we budget for the expected Minimum Payments as part of o
 <br>
 <img width="50%" height="50%" alt="Budget after adding extra" src="/img/credit-cards/CC-04.png" />
 
-<br><br>
+<br />
 
 During July we spend using the [Paying in Full - Within the Budget](./paying-in-full.md) strategy. We use the DEMO Credit Card for some of our purchases. We are not spending using the Citibank Card.
 
@@ -117,7 +117,7 @@ Following [Cards with Debt and No New Purchases](#debt-no-new) we enter a transa
 
 <img width="50%" height="50%" alt="Citibank Cleared Transactions" src="/img/credit-cards/CC-05.png" />
 
-<br><br>
+<br />
 
 Our **Budgeted** amount of 290.00 is larger than the Minimum Payment of $90.00, so we send Citibank $290.00 and use _Make Transfer_ to transfer that amount from the Checking account we used to pay the bill.
 
@@ -126,14 +126,14 @@ You may notice that the Citibank Balance matches the **Citi Card Debt** Balance.
 <img width="50%" height="50%" alt="Citibank July" src="/img/credit-cards/CC-06.png" />
 <img width="50%" height="50%" alt="Budget July" src="/img/credit-cards/CC-07.png" />
 
-<br><br>
+<br />
 
 On the 1st of August we set our budget and start with our Minimum Payments of $90 for the Citibank card and $50 for the DEMO card. After we funded all of our necessary expenses we added an extra $200 payment for the DEMO card this month.
 
 <img width="50%" height="50%" alt="August Initial Budget" src="/img/credit-cards/CC-08.png" />
 <img width="50%" height="50%" alt="August Budget After Extra" src="/img/credit-cards/CC-09.png" />
 
-<br><br>
+<br />
 
 In August we receive our DEMO Card statement and we need the following from the account summary:
 
@@ -154,7 +154,7 @@ First, we'll enter the Interest & Fees transaction of $32.75, categorize it to *
 
 <img width="50%" height="50%" alt="DEMO Credit Card Reconcile" src="/img/credit-cards/CC-010.png" />
 
-<br><br>
+<br />
 
 Our cleared new purchases add up to $846.11 and match our statement, so we're good to go! Before we complete the Reconciliation, let's calculate our payment for this month.
 - We have added some extra to pay down our debt this month, so our **Budgeted** column of 250.00 on **DEMO Card Debt** is definitely greater than either the Minimum Payment or the Interest & Fees of $32.75.
@@ -164,13 +164,13 @@ Our cleared new purchases add up to $846.11 and match our statement, so we're go
   - Uncleared total (Actual): $126.60 (Remember to use the absolute, positive, value)
   - Budgeted column (Actual): $250.00
 - Our payment calculation is:
-  <br>  New Purchases - Return credits + Uncleared total + Budgeted column, or
-  <br>  846.11 - 0.00 + 126.60 + 250.00 = 1222.71
+  <br />  New Purchases - Return credits + Uncleared total + Budgeted column, or
+  <br />  846.11 - 0.00 + 126.60 + 250.00 = 1222.71
 - We send DEMO Bank $1,222.71 and use _Make Transfer_ to transfer that amount from the Checking account we used to pay the bill. Our DEMO Account now looks like this:
 
 <img width="50%" height="50%" alt="DEMO Credit Card Payment" src="/img/credit-cards/CC-011.png" />
 
-<br><br>
+<br />
 
 We complete the Reconciliation and we are done with this account! 
 
@@ -178,13 +178,13 @@ For our Citibank card this month we'll pay the **Budgeted** expected Minimum Pay
 
 <img width="50%" height="50%" alt="Citibank August Payment" src="/img/credit-cards/CC-012.png" />
 
-<br><br>
+<br />
 
 We have reduced our original debt to DEMO Bank to $968.25 and Citibank to $2,247.00. You can notice that for this snapshot in time, our credit card balances match our outstanding debt in the Budget.
 
 <img width="50%" height="50%" alt="August Budget Snapshot" src="/img/credit-cards/CC-013.png" />
 
-<br><br>
+<br />
 
 We'll continue to spend _Within the Budget_, choosing a category with a positive Balance for each expenditure.
 
