@@ -30,7 +30,7 @@ Before we get started, check the settings for your Credit Card accounts to make 
 
 <br />
 
-- When we use the "Uncleared total" we will use the absolute value, the positive value without the (-) sign. So, if Actual shows "Uncleared total: -2553.86", then we will use 2553.86.
+- When we use the "Uncleared total" or account "Balance" from Actual we will use the absolute value, the positive value without the (-) sign. So, if Actual shows "Uncleared total: -2553.86", then we will use 2553.86.
 - For our purposes here, we will be paying the credit card from a checking account.
 - While you are paying off your credit card(s), it is best to use a debit card or cash. If that is not possible, and you have a card with no debt, use that one to make new purchases so you can pay it in full every month using [Paying in Full - Within the Budget](./paying-in-full.md) and work to pay off another. In any case, use _**only one credit card**_ for new purchases and pay off the one with the highest interest first.
 - We recommend doing this On Budget. If you will not use the card again after it's completely paid off and you have received a statement with a $0 balance, you can [close](/docs/accounts/index.md#closing-or-deleting-an-account) the account.
@@ -78,7 +78,9 @@ If you have been paying the statement balance in full every month, but need to i
 - Looking at your statement, the very least amount you need to pay to not increase your debt is the Interest & Fees and your New Purchases minus the Return Credits. Remember, you accounted for and funded the interest at the beginning of the month when you budgeted for the expected Minimum Payment and you were setting aside funds to pay for New Purchases each time you categorized them! You can pay for them all without worry.
   - If you are _not_ paying off any original debt on this card, make sure the **Budgeted** column is at least the Minimum Payment. The Minimum Payment you budgeted for at the beginning of the month should have this covered. If the Minimum Payment is more than you expected due to Interest or Fees, add an amount to the **Budgeted** column to equal the statement Minimum Payment.  _Cover_ any additions to the **Budgeted** amount by transferring from another category with a positive balance.
   - If you _are_ paying off the debt on this card, make sure the current **Budgeted** column is more than the Minimum Payment. It should be at least the sum of the Interest & Fees plus the extra amount you want to pay off, but it will probably be a bit more and that's OK!
-- Now let's calculate your payment. Your payment is the sum of the New Purchases from your statement (minus any return credits) plus the "Uncleared total" from Actual plus the amount in the **Budgeted** column of **Bank Card Debt**.
+- Now let's calculate your payment.
+  - Your payment is the sum of the New Purchases from your statement (minus any return credits) plus the "Uncleared total" from Actual plus the amount in the **Budgeted** column of **Bank Card Debt**.
+  - This is the same as the difference between the Account Balance in Actual and the Category Balance of **Bank Card Debt**.
 
   :::warning
 If the calculated payment is less than the statement Minimum Payment, you _**must**_ make the statement Minimum Payment! In this rare case, add an amount to the **Budgeted** column so your resulting payment adds up to at least the statement Minimum Payment.  _Cover_ any additions to the **Budgeted** amount by transferring from another category with a positive balance.
@@ -168,6 +170,8 @@ Our cleared new purchases add up to $846.11 and match our statement, so we're go
 - Our payment calculation is:
   <br />  New Purchases - Return credits + Uncleared total + Budgeted column, or
   <br />  846.11 - 0.00 + 126.60 + 250.00 = 1222.71
+  <br />  OR
+  <br />  The difference between the Account Balance of -2190.96 and the Category Balance of -968.25 (2190.96 - 968.25 = 1222.71)
 - We send DEMO Bank $1,222.71 and use _Make Transfer_ to transfer that amount from the Checking account we used to pay the bill. Our DEMO Account now looks like this:
 
 <img width="50%" height="50%" alt="DEMO Credit Card Payment" src="/img/credit-cards/CC-011.png" />
