@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> This repository has been merged into [actualbudget/actual](https://github.com/actualbudget/actual/tree/master/packages/docs) in November 2025 and placed in a readonly state. If you'd like to contribute to the Actual documentation, please open your change in the main repository.
+
 # Actual Budget Community Documentation
 
 This repo is the Actual Budget community documentation website, built using [Docusaurus 3](https://docusaurus.io/), a modern static website generator.
